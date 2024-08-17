@@ -1,0 +1,37 @@
+---
+title: "Computing Fundamentals"
+lightbox: true
+listing:
+    id: lessons
+    type: grid
+    sort: filename asc
+    grid-columns: 4
+    contents:
+        - lessons/
+---
+
+This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain.
+
+
+## Course Objectives
+
+1. Examine _legal, ethical, professional, and security issues_ associated with the cyber domain.
+1. Function as an _ethical, secure, and competent user_ in West Point’s immersive technology and cyber environment.
+1. Apply _sequential logic_, _control flow statements_, and _code libraries_ using a modern programming language, algorithmic thinking, and a problem-solving process.
+1. Describe _how data flows from data sources_ across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.
+1. Describe and explore the _opportunities and challenges presented by artificial intelligence_ in the modern world.
+
+
+## Additional Instruction
+
+1. Complete required readings and in-class exercises.
+2. [Book a meeting](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu)
+3. Come prepared with specific questions and bring your computer!
+
+Plan ahead and do not wait until the assignment due date! Note that once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible.
+
+
+## Lessons
+
+::: {#lessons}
+:::

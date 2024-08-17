@@ -1,0 +1,45 @@
+project:
+  type: website
+  render:
+    - index.qmd
+    - lessons/
+  preview:
+    port: 7827
+    browser: false
+    navigate: false
+    timeout: 3600
+
+website:
+  title: CY105 Computing Fundamentals
+  description: CY105 Computing Fundamentals
+  site-url: https://cy105.bhatia.dev/
+  repo-url: https://github.com/westpoint-eecs/cy105.bhatia.dev
+  repo-actions: source
+  page-navigation: true
+  page-footer: "© 2024 United States Military Academy"
+  image: /images/wp_crest_new_only.png
+  favicon: /images/favicon_0.ico
+  # open-graph: true
+  search: false
+  navbar:
+    logo: /images/wp_crest_new_only.png
+    foreground: black
+    background: "#d3bc8d"
+
+format:
+  html:
+    toc: true
+    toc-expand: 1
+    code-fold: true
+    smooth-scroll: true
+    page-layout: full
+    fig-align: center
+    theme:
+      light:
+        - sandstone
+      dark:
+        - darkly
+    mermaid:
+      theme: neutral
+    grid:
+      body-width: 1800px
