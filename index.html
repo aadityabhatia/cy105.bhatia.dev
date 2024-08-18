@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -65,9 +65,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -116,6 +116,12 @@ window.Quarto = {
 };
 </script>
 
+<meta property="og:title" content="Computing Fundamentals – CY105 Computing Fundamentals">
+<meta property="og:description" content="CY105 Computing Fundamentals">
+<meta property="og:image" content="https://cy105.bhatia.dev//images/wp_crest_new_only.png">
+<meta property="og:site_name" content="CY105 Computing Fundamentals">
+<meta property="og:image:height" content="446">
+<meta property="og:image:width" content="515">
 </head>
 
 <body class="nav-fixed">
@@ -151,7 +157,7 @@ window.Quarto = {
   <li><a href="#additional-instruction" id="toc-additional-instruction" class="nav-link" data-scroll-target="#additional-instruction">Additional Instruction</a></li>
   <li><a href="#lessons" id="toc-lessons" class="nav-link" data-scroll-target="#lessons">Lessons</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/westpoint-eecs/cy105.bhatia.dev/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
@@ -199,7 +205,56 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="lessons">Lessons</h2>
 <div id="listing-lessons" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-
+<div class="g-col-1" data-index="0" data-listing-date-sort="1724040000000" data-listing-file-modified-sort="1724020872533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="600">
+<a href="./lessons/01-introduction.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/01/01.webp" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Welcome to CY105
+</h5>
+<div class="card-text listing-description">
+Course Overview
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+CPT Sonny Bhatia
+</div>
+<div class="listing-date">
+Aug 19, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1722312000000" data-listing-file-modified-sort="1722524961268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-word-count-sort="3939">
+<a href="./lessons/24-internet.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/24/24.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Internet
+</h5>
+<div class="card-text listing-description">
+and the World Wide Web
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+CPT Bhatia
+</div>
+<div class="listing-date">
+Jul 30, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -783,7 +838,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>© 2024 United States Military Academy</p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/westpoint-eecs/cy105.bhatia.dev/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div>
+</div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
