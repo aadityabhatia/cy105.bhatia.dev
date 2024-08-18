@@ -3,6 +3,8 @@ project:
   render:
     - index.qmd
     - lessons/
+  resources:
+    - CNAME
   preview:
     port: 7827
     browser: false
