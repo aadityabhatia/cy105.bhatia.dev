@@ -15,13 +15,11 @@ website:
   title: CY105 Computing Fundamentals
   description: CY105 Computing Fundamentals
   site-url: https://cy105.bhatia.dev/
-  repo-url: https://github.com/westpoint-eecs/cy105.bhatia.dev
-  repo-actions: source
   page-navigation: true
   page-footer: "© 2024 United States Military Academy"
   image: /images/wp_crest_new_only.png
   favicon: /images/favicon_0.ico
-  # open-graph: true
+  open-graph: true
   search: false
   navbar:
     logo: /images/wp_crest_new_only.png
