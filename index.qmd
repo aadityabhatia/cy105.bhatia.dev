@@ -1,16 +1,61 @@
 ---
 title: "Computing Fundamentals"
 lightbox: true
+format: html
 listing:
     id: lessons
     type: grid
     sort: filename asc
-    grid-columns: 4
+    grid-columns: 5
     contents:
         - lessons/
 ---
 
+- [CPT Sonny Bhatia](https://bhatia.dev/)
+- Office: Thayer Hall 106
+- Class Hours: A1, C1, A2, B2
+- Additional Instruction in TH460: B1, C2 (email ahead of time to confirm)
+
 This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain.
+
+
+## How to get better at CY105?
+
+1. Complete [zyBook](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024) required readings.
+1. Attempt [zyBook](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024) practice ICEs going back to the chapter that you do not fully grasp.
+1. Seek assistance. Email me or book additional instruction.
+
+Your success in this course is directly proportional to the number of programming problems that you successfully solve without assistance.
+
+
+## Additional Instruction
+
+- Use [Outlook Bookings](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu/meetingtype/jltYy6M1Zk-gtINzpqM9Zw2) to schedule a time.
+    - Please make the bookings in **Eastern Time**. If your computer or Outlook calendar shows a different time, pay extra attention.
+    - Automatic booking is limited to 1100-1600. If you can see times outside that window, those are not in Eastern time.
+- Come prepared with **specific questions**!
+
+::: {.callout-note}
+If Outlook booking times do not work, please email me. B1 and C2 hours are generally open. I can also meet outside of these hours if needed. Reach out.
+:::
+
+::: {.callout-warning}
+Once you setup a meeting, it becomes your __assigned place of duty__. If you cannot make it, please notify me ahead of time. Not showing up to a scheduled meeting and failing to notify me ahead of time will typically result in a negative COR.
+:::
+
+## PDR or DAC counseling
+
+- [Book a meeting](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu) - select the appropriate meeting type
+
+::: {.callout-note}
+This is not Additional Instruction. To setup AI, scroll up.
+:::
+
+
+## Lessons
+
+::: {#lessons}
+:::
 
 
 ## Course Objectives
@@ -22,16 +67,86 @@ This course introduces the fundamentals of computing and cyberspace and blends t
 1. Describe and explore the _opportunities and challenges presented by artificial intelligence_ in the modern world.
 
 
-## Additional Instruction
+## Course Material
+- [Canvas](https://westpoint.instructure.com/courses/7068)
+- [zyBook](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/)
+- [Programming References on Canvas](https://westpoint.instructure.com/courses/7068/pages/programming-references)
+- [Robotics Lab](https://usma-eecs.github.io/CY105_Lab/index.html)
+    - [CircuitPython Code Editor](https://code.circuitpython.org/) - IDE to work with Circuit Playground Bluefruit
+    - [Mu Editor](https://codewith.mu/) - less desirable IDE for Circuit Playground Bluefruit
+    - [Circuit Playground Bluefruit](https://www.adafruit.com/product/764) - try student discount code: `GitHubEdu`
+    - [Circuit Playground Bluefruit](https://www.adafruit.com/product/4333) - no discount but easier to order
 
-1. Complete required readings and in-class exercises.
-2. [Book a meeting](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu)
-3. Come prepared with specific questions and bring your computer!
+## Documentation and Tutorials
+- [DevDocs.io](https://devdocs.io/python~3.12/)
+- [Python Notes for Professionals](https://goalkicker.com/PythonBook/)
+- [Official Python Documentation](https://docs.python.org/)
+- [Programming References on Canvas](https://westpoint.instructure.com/courses/7068/pages/programming-references)
+- [How to Python in VS Code](https://py-vscode.readthedocs.io/)
+- [Hour of Python](https://hourofpython.com/)
+- [Khan Academy: Intro to Python Fundamentals](https://www.khanacademy.org/computing/intro-to-python-fundamentals)
 
-Plan ahead and do not wait until the assignment due date! Note that once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible.
+## Developer Tools
+- [Marimo](https://marimo.app/) reactive notebook for Python
+- [diff Check](https://diffcheck.io/) - compare text side-by-side; great for comparing expected and actual output
+- [Pyodide](https://pyodide.org/en/stable/console.html) - in-browser REPL
+- [Python Tutor](https://pythontutor.com/python-compiler.html) - step through code execution, line-by-line
+- [Black Code Formatter](https://black.vercel.app/) - format Python code following [PEP 8 Style Guide](https://peps.python.org/pep-0008/)
+    - zyLab does this too if you right click and select "Format Document"
+- [Thonny](https://thonny.org/) - Python development environment for beginners
+- [Visual Studio Code](https://code.visualstudio.com/) - development environment for grown-ups
+- [Notepad++](https://notepad-plus-plus.org/) - lightweight text editor
 
+## AI Summative Project Ideas
 
-## Lessons
+- [Hackaday](https://hackaday.com/)
+- [Hacker News: Show](https://news.ycombinator.com/show)
+- [Example Projects [Canvas]](https://westpoint.instructure.com/courses/7068/files/1911864/download)
+- [Text-based adventure game [zybook]](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/17/section/1)
+- [zork-py](https://github.com/iamjawa/zork-py) library for Python
+- [Using Bluetooth (BLE) with Circuit Playground Bluefruit](https://github.com/adafruit/Adafruit_CircuitPython_BLE_Radio)
+- Circuit Playground Bluefruit: Puzzle Box, Escape Room, etc.
 
-::: {#lessons}
-:::
+## Random, Interesting Material
+
+### Computing and Technology
+
+- [Hide and Seek!](https://www.youtube.com/embed/Lu56xVlZ40M)
+- [Can ChatGPT be wrong?](https://chatgpt.com/share/a329b032-7e1d-4568-be40-9227de866a8b)
+- [Seating chart generator](https://gist.github.com/aadityabhatia/86077fea4ccd353bfb017df733a70d19)
+- [Hackaday](https://hackaday.com/)
+- [arrr](https://arrr.readthedocs.io/) - Pirate module!
+- [What is Python](https://www.youtube.com/embed/x7X9w_GIm1s)
+- [Where really is the Internet?](https://www.youtube.com/embed/Ve810FHZ1CQ)
+- [Vortex Cannon vs Drone](https://www.youtube.com/embed/SrGENEXocJU)
+
+### Cyber
+
+- [Building a home lab](https://aj-labz.gitbook.io/aj-labz)
+- [Flipper Zero](https://www.youtube.com/embed/nLIp4wd0oXs)
+    - [Meanwhile, in Canada...](https://arstechnica.com/security/2024/02/canada-vows-to-ban-flipper-zero-device-in-crackdown-on-car-theft/)
+- [Inside the "3 Billion People" National Public Data Breach](https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/)
+- [haveibeenpwned.com](https://haveibeenpwned.com/)
+- [Why digital privacy matters](https://www.privacyguides.org/en/basics/why-privacy-matters/)
+
+### Learning, Productivity, and Life
+- [PB&J Sandwich](https://www.youtube.com/watch?v=FN2RM-CHkuI)
+- [YouTube: Bloom’s Taxonomy: Structuring The Learning Journey](https://www.youtube.com/embed/ayefSTAnCR8)
+    - Ref: [Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/)
+- [Pareto Principle [The 80/20 Rule Explained]](https://www.youtube.com/embed/lsGwqk_agcQ)
+- [Growth Mindset](https://www.youtube.com/embed/KUWn_TJTrnU)
+- Why take good notes?
+    - [Active learning](https://www.youtube.com/embed/xxVxgQJwV7w)
+    - Memory retention
+    - Future reference
+- How to take good notes?
+    - [Logseq](https://logseq.com/) or [Obsidian](https://obsidian.md/) - journaling, linking, knowledge management
+    - OneNote
+    - [Zettelkasten](https://zettelkasten.de/) - integrated thinking method!
+        - [Zettelkasten Explained](https://www.youtube.com/embed/GpV47rUYk8I)
+- The need for sleep
+    - [Your Brain On Sleep Deprivation](https://www.youtube.com/embed/lvKrDsreUgM)
+    - [What would happen if you didn’t sleep?](https://www.youtube.com/embed/dqONk48l5vY)
+    - [How Sleep Affects Your Brain](https://www.youtube.com/embed/IzQ2siryQrM)
+- Algorithm: [The Better Boarding Method Airlines Won't Use](https://www.youtube.com/embed/oAHbLRjF0vo)
+- [About, Ideas, Now](https://aboutideasnow.com/)

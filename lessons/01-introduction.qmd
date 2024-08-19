@@ -1,0 +1,204 @@
+---
+format: revealjs
+title: Welcome to CY105
+subtitle: Computing Fundamentals
+description: Course Overview
+date: 2024-08-19
+image: /images/01/01.webp
+title-slide-attributes:
+    data-background-image: /images/01/01.webp
+    data-background-opacity: "0.3"
+---
+
+## Dean's Intellectual Theme for AY25 {timing=90}
+
+![](/images/01/01-musk-fireside.jpg)
+
+The Human and the Machine: Leadership on the Emerging Battlefield
+
+
+## About Me {timing=90}
+
+
+## Cadet Introductions {timing=540}
+
+- Full Name
+- Name you like to be called
+- Company
+- Hometown
+- Activities or sports plan to be involved with
+- What excites you about technology?
+
+## CY105 Course Objectives {timing=30}
+
+1. Examine _legal, ethical, professional, and security issues_ associated with the cyber domain.
+1. Function as an _ethical, secure, and competent user_ in West Point’s immersive technology and cyber environment.
+1. Apply _sequential logic_, _control flow statements_, and _code libraries_ using a modern programming language, algorithmic thinking, and a problem-solving process.
+1. Describe _how data flows from data sources_ across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.
+1. Describe and explore the _opportunities and challenges presented by artificial intelligence_ in the modern world.
+
+## What's in it for you? {timing=60}
+
+:::: {.columns}
+
+::: {.column width=50%}
+![](/images/01/05-tactical.jpg)
+:::
+
+::: {.column width=50%}
+> "Information superiority is the operational advantage derived from the ability to collect, process, and disseminate an uninterrupted flow of information while exploiting or denying an adversary’s ability to do the same..."
+>
+> FM 3-0, Operations, February 2008​
+:::
+
+::::
+
+::: {.notes}
+- information makes you smarter
+- access to information makes you an effective leader
+- increase your confidence with IT systems
+- help you learn new IT concepts and systems​
+- protect yourself and your organization
+- foundational course for everyone
+:::
+
+## Section Marcher Duties {timing=30}
+
+:::: {.columns}
+::: {.column width=60%}
+- Exhibit peer leadership
+- Volunteer Section Marcher (first 4 lessons)
+  - and Assistant Section Marcher
+- Afterwards: based on PDR assignments
+- Duties
+  - Inspection at beginning of class
+  - Attendance
+  - Briefly inspect uniforms, general appearance
+  - No food, gum or backpacks
+- If Dean or Supt visit, call class to attention
+:::
+
+::: {.column width=40%}
+![](/images/01/06-section-marcher.png)
+:::
+::::
+
+## Additional Instruction {timing=30}
+
+- When you need additional help, reach out
+- Use the booking link at `cy105.bhatia.dev` or email signature
+- Complete required readings and in-class exercises
+- [Book a meeting](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu)
+- Come prepared with specific questions and bring your computer
+- Plan ahead and do not wait until the assignment due date!
+
+# Resources {timing=30}
+
+- Outlook
+- Canvas
+- zyBooks
+- Cengage
+
+## zyBooks {timing=30}
+
+:::: {.columns}
+::: {.column width=70%}
+1. Access key provided by bookstore
+2. Canvas -> zyBooks
+    - do not create a separate account!
+    - "practice" zyBook assignment
+3. Enter access key
+4. Daily readings before class!
+:::
+::: {.column width=30%}
+![](/images/01/07-zybooks.png)
+:::
+::::
+
+## Cengage {timing=30}
+
+### Need access before next class!
+- If unable to access, email me immediately!
+
+1. Login to Canvas
+2. Navigate to the course titled “Canvas Activation Course 2024”
+3. Click “Please complete this module”
+4. Click “Load Cengage Unlimited Multi-term 24 months Instant Access to a new window”
+5. Register for an account using westpoint.edu email address
+6. Open the Microsoft 365 lesson module and click the “Cengage: Microsoft 365 Pre-Class Exercise (ungraded)” link
+7. Log in
+8. Enroll in the course
+
+# Programming Environment {timing=30}
+
+## python {timing=60}
+
+![](/images/01/07-powershell.png)
+![](/images/01/07-python.png)
+
+### Start Menu --> PowerShell --> Type `python`
+
+## Text Editor {timing=30}
+
+- [Notepad++](https://notepad-plus-plus.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- Microsoft Word?
+
+![](/images/01/08-notepad.png)
+
+## Writing Code {timing=30}
+
+![](/images/01/08-writing-code.png)
+
+## Running Code {timing=30}
+
+![](/images/01/09-running-code.png)
+
+# Robotics Lab {timing=30}
+
+![](/images/01/12-bluefruit.png)
+
+# DAAW {timing=15}
+
+:::: {.columns}
+::: {.column width=60%}
+- Assistance vs Collaboration
+
+> ___ I CERTIFY THAT I DID NOT USE ANY SOURCES OR RECEIVE ANY ASSISTANCE REQUIRING DOCUMENTATION WHILE COMPLETING THIS ASSIGNMENT.
+
+> ___ I CERTIFY THAT I HAVE COMPLETELY DOCUMENTED ALL SOURCES THAT I USED TO COMPLETE THIS ASSIGNMENT AND THAT I ACKNOWLEDGED ALL ASSISTANCE I RECEIVED IN THE COMPLETION OF THIS ASSIGNMENT.
+:::
+
+::: {.column width=40%}
+[![](/images/01/17-daaw.png)](https://s3.amazonaws.com/usma-media/inline-images/centers_research/west_point_writing_program/PDF/DAAW_2023.pdf)
+:::
+::::
+
+
+## MOSS - Measure of Software Similarity {timing=15}
+
+![](/images/01/15-moss.png)
+
+## zyBooks SimChecker {timing=15}
+
+![](https://support.zybooks.com/hc/article_attachments/4404977642395/Screen_Shot_2021-08-10_at_7.41.03_AM.png)
+
+## Codequiry Plagiarism Detection {timing=15}
+
+![](https://codequiry.com/assets/img/rotator/1-min.jpg)
+
+## Generative AI Tools {timing=30}
+
+- AI tools may be used to determine what AI-generated responses to a particular prompt may look like either before or after issuing an assignment.
+
+- These responses can be compared to cadets’ submissions using MOSS or zyLabs Similarity Checker to determine if a cadet’s submission contains features that suggest unauthorized or undocumented AI use.
+
+# In-Class Exercise {timing=360}
+
+![](/images/01/18-kahoot.webp)
+
+[Kahoot](https://create.kahoot.it/groups/c5649ddb-ea85-47c5-aa63-2b5ee60fe1a1/activity)
+
+## Next Class {timing=60}
+
+![](/images/01/19-next-class.png)

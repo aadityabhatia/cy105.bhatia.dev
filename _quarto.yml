@@ -5,6 +5,7 @@ project:
     - lessons/
   resources:
     - CNAME
+    - robots.txt
   preview:
     port: 7827
     browser: false
@@ -12,15 +13,15 @@ project:
     timeout: 3600
 
 website:
-  title: CY105 Computing Fundamentals
-  description: CY105 Computing Fundamentals
+  title: CY105
+  description: Computing Fundamentals
   site-url: https://cy105.bhatia.dev/
-  page-navigation: true
-  page-footer: "© 2024 United States Military Academy"
+  page-footer: "© 2024 Sonny Bhatia"
   image: /images/wp_crest_new_only.png
   favicon: /images/favicon_0.ico
+  page-navigation: true
   open-graph: true
-  search: false
+  search: true
   navbar:
     logo: /images/wp_crest_new_only.png
     foreground: black
@@ -43,3 +44,30 @@ format:
       theme: neutral
     grid:
       body-width: 1800px
+  revealjs:
+    author: CPT Sonny Bhatia
+    logo: /images/wp_crest_new_only.png
+    center: true
+    date-format: full
+    transition: concave
+    mouse-wheel: true
+    default-timing: 60
+    preview-links: false
+    link-external-newwindow: true
+    link-external-icon: true
+    pause: false
+    code-block-height: 800px
+    # code-copy: false
+    code-annotations: select
+    tbl-cap-location: bottom
+    slide-number: true
+    pdf-separate-fragments: false
+    theme: serif
+    css: '/slides.css'
+    mermaid:
+      theme: default
+    mermaid-format: png
+    width: 1600
+    height: 900
+    chalkboard: false
+    multiplex: true
