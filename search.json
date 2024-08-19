@@ -11,14 +11,14 @@
     "href": "lessons/01-introduction.html#about-me",
     "title": "Welcome to CY105",
     "section": "About Me",
-    "text": "About Me\n\n\n\nBorn in India, grew up in California\nBS Computer Science, San Jose State Univ\nWorked in Silicon Valley\nEnlisted -&gt; Infantry -&gt; deployed\nCommissioned as Cyber Officer\nOCO, Tactical, DCO, Company Cdr\nMS Computer Science, Univ of Central Florida\nMarried for 4 years\n\nLove to travel and hike\nEnjoy new (vegetarian) foods!"
+    "text": "About Me\n\n\n\nBS Computer Science, San Jose State Univ\nWorked in Silicon Valley\nEnlisted -&gt; Infantry -&gt; deployed (Afg)\nCommissioned as Cyber Officer\nOCO, Tactical, DCO, Company Cdr\nMS Computer Science, Univ of Central Florida\nMarried for 4 years\n\nLove to travel and hike\nEnjoy new (vegetarian) foods!"
   },
   {
     "objectID": "lessons/01-introduction.html#cadet-introductions",
     "href": "lessons/01-introduction.html#cadet-introductions",
     "title": "Welcome to CY105",
     "section": "Cadet Introductions",
-    "text": "Cadet Introductions\n\nFull Name\nName you like to be called\nCompany\nHometown\nActivities/Sports involved with or plan to be involved with\nWhat excites you about the Cyber domain?"
+    "text": "Cadet Introductions\n\nFull Name\nName you like to be called\nCompany\nHometown\nActivities or sports plan to be involved with\nWhat excites you about technology?"
   },
   {
     "objectID": "lessons/01-introduction.html#cy105-course-objectives",
@@ -32,14 +32,14 @@
     "href": "lessons/01-introduction.html#whats-in-it-for-you",
     "title": "Welcome to CY105",
     "section": "What’s in it for you?",
-    "text": "What’s in it for you?\n\n\n\n\n\n“Information superiority is the operational advantage derived from the ability to collect, process, and disseminate an uninterrupted flow of information while exploiting or denying an adversary’s ability to do the same…”\nFM 3-0, Operations, February 2008​\n\n\n\nUnderstanding the foundations of IT will: - enhance your effectiveness and efficiency in ANY discipline​ - increase your confidence with West Point IT systems critical to success at the academy​ - help you learn how to learn new IT concepts and systems​ - allow you to proactively employ IT to solve problems to protect yourself and your organization"
+    "text": "What’s in it for you?\n\n\n\n\n\n“Information superiority is the operational advantage derived from the ability to collect, process, and disseminate an uninterrupted flow of information while exploiting or denying an adversary’s ability to do the same…”\nFM 3-0, Operations, February 2008​\n\n\n\n\ninformation makes you smarter\naccess to information makes you an effective leader\nincrease your confidence with IT systems\nhelp you learn new IT concepts and systems​\nprotect yourself and your organization\nfoundational course for everyone"
   },
   {
     "objectID": "lessons/01-introduction.html#section-marcher-duties",
     "href": "lessons/01-introduction.html#section-marcher-duties",
     "title": "Welcome to CY105",
     "section": "Section Marcher Duties",
-    "text": "Section Marcher Duties\n\n\n\nExhibit peer leadership\nVolunteer section marcher for first 4 lessons\nPlus Assistant Section Marcher\nRemaining section marchers will be assigned based on PDR assignments\nDuties\n\nInspection at beginning of class\nAttendance\nBriefly inspect uniforms, general appearance\nNo food, gum or backpacks\n\nIf Dean or Supt visit, call class to attention"
+    "text": "Section Marcher Duties\n\n\n\nExhibit peer leadership\nVolunteer Section Marcher (first 4 lessons)\n\nand Assistant Section Marcher\n\nAfterwards: based on PDR assignments\nDuties\n\nInspection at beginning of class\nAttendance\nBriefly inspect uniforms, general appearance\nNo food, gum or backpacks\n\nIf Dean or Supt visit, call class to attention"
   },
   {
     "objectID": "lessons/01-introduction.html#additional-instruction",
@@ -112,11 +112,11 @@
     "text": "Codequiry Plagiarism Detection"
   },
   {
-    "objectID": "lessons/01-introduction.html#daaw",
-    "href": "lessons/01-introduction.html#daaw",
+    "objectID": "lessons/01-introduction.html#generative-ai-tools",
+    "href": "lessons/01-introduction.html#generative-ai-tools",
     "title": "Welcome to CY105",
-    "section": "DAAW",
-    "text": "DAAW\n\n\n\nAssistance vs Collaboration\nReference"
+    "section": "Generative AI Tools",
+    "text": "Generative AI Tools\n\nAI tools may be used to determine what AI-generated responses to a particular prompt may look like either before or after issuing an assignment.\nThese responses can be compared to cadets’ submissions using MOSS or zyLabs Similarity Checker to determine if a cadet’s submission contains features that suggest unauthorized or undocumented AI use."
   },
   {
     "objectID": "lessons/01-introduction.html#next-class",
