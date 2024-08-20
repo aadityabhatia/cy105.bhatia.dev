@@ -14,11 +14,11 @@
     "text": "Lesson Objectives\n\nArticulate the importance of Microsoft 365 to the Army\nDifferentiate the core Microsoft 365 products\nDistinguish when to use OneDrive, Teams, or SharePoint to share data\nUse OneDrive, Outlook, Teams, OneNote, Word, PowerPoint, and Office.com to accomplish a variety of tasks"
   },
   {
-    "objectID": "lessons/02-office.html#discussion-timing480",
-    "href": "lessons/02-office.html#discussion-timing480",
+    "objectID": "lessons/02-office.html#discussion",
+    "href": "lessons/02-office.html#discussion",
     "title": "Microsoft 365",
-    "section": "Discussion (timing=480)",
-    "text": "Discussion (timing=480)\n\nWhat can I do with Word? Excel?\nCan I use PowerPoint for anything other than briefings?\nWhen is it appropriate to use Teams vs Outlook?\nWhat is the difference between OneDrive and SharePoint? Which one is better?\nWhat is a quad chart? Why does the Army care?\nIs Microsoft better or worse than Google? Why?"
+    "section": "Discussion",
+    "text": "Discussion\n\nWhat can I do with Word? Excel?\nCan I use PowerPoint for anything other than briefings?\nWhen is it appropriate to use Teams vs Outlook?\nWhat is the difference between OneDrive and SharePoint? Which one is better?\nWhat is a quad chart? Why does the Army care?\nIs Microsoft better or worse than Google? Why?"
   },
   {
     "objectID": "lessons/02-office.html#word",
@@ -46,7 +46,7 @@
     "href": "lessons/02-office.html#onedrive",
     "title": "Microsoft 365",
     "section": "OneDrive",
-    "text": "OneDrive\n\n\nWhere is my data stored?\nWhat should I backup?\nWhat should I not backup?\nSetup backup"
+    "text": "OneDrive\n\n\nWhere is my data stored?\nWhat should I backup?\nWhat should I not backup?\nDemo: Setup backup"
   },
   {
     "objectID": "lessons/02-office.html#in-class-exercise",
@@ -70,11 +70,18 @@
     "text": "Check on Learning\n\n\nWhat are the key differences between using PowerPoint for presentations and Word for creating documents?\nHow do the features of Microsoft Teams differ from those of OneNote in terms of collaboration and communication?\nWhen would it be more appropriate to store a document in OneDrive versus Microsoft Teams?\nIn what scenarios should you choose to store files in SharePoint rather than in Microsoft Teams or OneDrive?\nWhere is OneDrive data located?\nWhat are the main functions of Microsoft Outlook?\nWhat can you use for note-taking?\nCan PowerPoint be used to create an elaborate concept of operations (CONOP) graphic?"
   },
   {
+    "objectID": "lessons/02-office.html#zybooks-and-cengage",
+    "href": "lessons/02-office.html#zybooks-and-cengage",
+    "title": "Microsoft 365",
+    "section": "zyBooks and Cengage",
+    "text": "zyBooks and Cengage"
+  },
+  {
     "objectID": "lessons/02-office.html#next-class",
     "href": "lessons/02-office.html#next-class",
     "title": "Microsoft 365",
     "section": "Next Class",
-    "text": "Next Class\n\nComputers and Data\nWPS1 due 25AUG\nWPS2 will be assigned soon\nzyBooks and Cengage!"
+    "text": "Next Class\n\nComputers and Data\nWPS1 due 25AUG\nWPS2 will be assigned soon\nzyBooks readings!"
   },
   {
     "objectID": "index.html",
