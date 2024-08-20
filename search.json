@@ -1,5 +1,110 @@
 [
   {
+    "objectID": "lessons/02-office.html#hide-and-seek",
+    "href": "lessons/02-office.html#hide-and-seek",
+    "title": "Microsoft 365",
+    "section": "Hide and Seek!",
+    "text": "Hide and Seek!"
+  },
+  {
+    "objectID": "lessons/02-office.html#lesson-objectives",
+    "href": "lessons/02-office.html#lesson-objectives",
+    "title": "Microsoft 365",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nArticulate the importance of Microsoft 365 to the Army\nDifferentiate the core Microsoft 365 products\nDistinguish when to use OneDrive, Teams, or SharePoint to share data\nUse OneDrive, Outlook, Teams, OneNote, Word, PowerPoint, and Office.com to accomplish a variety of tasks"
+  },
+  {
+    "objectID": "lessons/02-office.html#discussion-timing480",
+    "href": "lessons/02-office.html#discussion-timing480",
+    "title": "Microsoft 365",
+    "section": "Discussion (timing=480)",
+    "text": "Discussion (timing=480)\n\nWhat can I do with Word? Excel?\nCan I use PowerPoint for anything other than briefings?\nWhen is it appropriate to use Teams vs Outlook?\nWhat is the difference between OneDrive and SharePoint? Which one is better?\nWhat is a quad chart? Why does the Army care?\nIs Microsoft better or worse than Google? Why?"
+  },
+  {
+    "objectID": "lessons/02-office.html#word",
+    "href": "lessons/02-office.html#word",
+    "title": "Microsoft 365",
+    "section": "Word",
+    "text": "Word\n\nMemorandums\nOPORDs\n15-6 Investigations\nSITREPs"
+  },
+  {
+    "objectID": "lessons/02-office.html#powerpoint",
+    "href": "lessons/02-office.html#powerpoint",
+    "title": "Microsoft 365",
+    "section": "PowerPoint",
+    "text": "PowerPoint\n\nConcept of Operations (CONOPs)\nMission Analysis Briefings\nCommand and Staff slides"
+  },
+  {
+    "objectID": "lessons/02-office.html#excel",
+    "href": "lessons/02-office.html#excel",
+    "title": "Microsoft 365",
+    "section": "Excel",
+    "text": "Excel\n\nTrackers\ntrackers\nmore trackers…"
+  },
+  {
+    "objectID": "lessons/02-office.html#onedrive",
+    "href": "lessons/02-office.html#onedrive",
+    "title": "Microsoft 365",
+    "section": "OneDrive",
+    "text": "OneDrive\n\n\nWhere is my data stored?\nWhat should I backup?\nWhat should I not backup?\nSetup backup"
+  },
+  {
+    "objectID": "lessons/02-office.html#in-class-exercise",
+    "href": "lessons/02-office.html#in-class-exercise",
+    "title": "Microsoft 365",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\n\nOneDrive shared folder\nUpdate Seating Chart!"
+  },
+  {
+    "objectID": "lessons/02-office.html#outlook",
+    "href": "lessons/02-office.html#outlook",
+    "title": "Microsoft 365",
+    "section": "Outlook",
+    "text": "Outlook\n\nImport buff card, class schedule\nSetting availability\nSchedule meetings"
+  },
+  {
+    "objectID": "lessons/02-office.html#check-on-learning",
+    "href": "lessons/02-office.html#check-on-learning",
+    "title": "Microsoft 365",
+    "section": "Check on Learning",
+    "text": "Check on Learning\n\n\nWhat are the key differences between using PowerPoint for presentations and Word for creating documents?\nHow do the features of Microsoft Teams differ from those of OneNote in terms of collaboration and communication?\nWhen would it be more appropriate to store a document in OneDrive versus Microsoft Teams?\nIn what scenarios should you choose to store files in SharePoint rather than in Microsoft Teams or OneDrive?\nWhere is OneDrive data located?\nWhat are the main functions of Microsoft Outlook?\nWhat can you use for note-taking?\nCan PowerPoint be used to create an elaborate concept of operations (CONOP) graphic?"
+  },
+  {
+    "objectID": "lessons/02-office.html#next-class",
+    "href": "lessons/02-office.html#next-class",
+    "title": "Microsoft 365",
+    "section": "Next Class",
+    "text": "Next Class\n\nComputers and Data\nWPS1 due 25AUG\nWPS2 will be assigned soon\nzyBooks and Cengage!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computing Fundamentals",
+    "section": "",
+    "text": "This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
+  },
+  {
+    "objectID": "index.html#course-objectives",
+    "href": "index.html#course-objectives",
+    "title": "Computing Fundamentals",
+    "section": "Course Objectives",
+    "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
+  },
+  {
+    "objectID": "index.html#additional-instruction",
+    "href": "index.html#additional-instruction",
+    "title": "Computing Fundamentals",
+    "section": "Additional Instruction",
+    "text": "Additional Instruction\n\nComplete required readings and in-class exercises.\nBook a meeting\nCome prepared with specific questions and bring your computer!\n\nPlan ahead and do not wait until the assignment due date! Note that once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible."
+  },
+  {
+    "objectID": "index.html#lessons",
+    "href": "index.html#lessons",
+    "title": "Computing Fundamentals",
+    "section": "Lessons",
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
     "href": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
     "title": "Welcome to CY105",
@@ -124,33 +229,5 @@
     "title": "Welcome to CY105",
     "section": "Next Class",
     "text": "Next Class"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Computing Fundamentals",
-    "section": "",
-    "text": "This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
-  },
-  {
-    "objectID": "index.html#course-objectives",
-    "href": "index.html#course-objectives",
-    "title": "Computing Fundamentals",
-    "section": "Course Objectives",
-    "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
-  },
-  {
-    "objectID": "index.html#additional-instruction",
-    "href": "index.html#additional-instruction",
-    "title": "Computing Fundamentals",
-    "section": "Additional Instruction",
-    "text": "Additional Instruction\n\nComplete required readings and in-class exercises.\nBook a meeting\nCome prepared with specific questions and bring your computer!\n\nPlan ahead and do not wait until the assignment due date! Note that once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible."
-  },
-  {
-    "objectID": "index.html#lessons",
-    "href": "index.html#lessons",
-    "title": "Computing Fundamentals",
-    "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
