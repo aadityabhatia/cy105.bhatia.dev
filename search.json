@@ -84,34 +84,6 @@
     "text": "Next Class\n\nComputers and Data\nWPS1 due 25AUG\nWPS2 will be assigned soon\nzyBooks readings!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Computing Fundamentals",
-    "section": "",
-    "text": "This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
-  },
-  {
-    "objectID": "index.html#course-objectives",
-    "href": "index.html#course-objectives",
-    "title": "Computing Fundamentals",
-    "section": "Course Objectives",
-    "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
-  },
-  {
-    "objectID": "index.html#additional-instruction",
-    "href": "index.html#additional-instruction",
-    "title": "Computing Fundamentals",
-    "section": "Additional Instruction",
-    "text": "Additional Instruction\n\nComplete required readings and in-class exercises.\nBook a meeting\nCome prepared with specific questions and bring your computer!\n\nPlan ahead and do not wait until the assignment due date! Note that once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible."
-  },
-  {
-    "objectID": "index.html#lessons",
-    "href": "index.html#lessons",
-    "title": "Computing Fundamentals",
-    "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
     "href": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
     "title": "Welcome to CY105",
@@ -236,5 +208,215 @@
     "title": "Welcome to CY105",
     "section": "Next Class",
     "text": "Next Class"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computing Fundamentals",
+    "section": "",
+    "text": "This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
+  },
+  {
+    "objectID": "index.html#course-objectives",
+    "href": "index.html#course-objectives",
+    "title": "Computing Fundamentals",
+    "section": "Course Objectives",
+    "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
+  },
+  {
+    "objectID": "index.html#additional-instruction",
+    "href": "index.html#additional-instruction",
+    "title": "Computing Fundamentals",
+    "section": "Additional Instruction",
+    "text": "Additional Instruction\n\nComplete required readings and in-class exercises.\nBook a meeting\nCome prepared with specific questions and bring your computer!\n\nPlan ahead and do not wait until the assignment due date! Note that once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible."
+  },
+  {
+    "objectID": "index.html#lessons",
+    "href": "index.html#lessons",
+    "title": "Computing Fundamentals",
+    "section": "Lessons",
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#welcome",
+    "href": "lessons/03-computers-data.html#welcome",
+    "title": "Computers and Data",
+    "section": "Welcome!",
+    "text": "Welcome!\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#lesson-objectives",
+    "href": "lessons/03-computers-data.html#lesson-objectives",
+    "title": "Computers and Data",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nDefine data, how it differs from information, and its forms: analog and digital.\nDefine what a computer is, define common types of computers, and distinguish their uses from each other. \nDescribe how digital data is quantified and represented on computers.\nDescribe how computers process and store data.\nLearn how to read an ASCII table."
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#information",
+    "href": "lessons/03-computers-data.html#information",
+    "title": "Computers and Data",
+    "section": "Information",
+    "text": "Information\n\n\n\nData = facts\n\nmeasurements\nstatistics\nvalues\n\nInformation\n\ndata processed, organized, or structured in a meaningful way"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#analog-vs-digital-data",
+    "href": "lessons/03-computers-data.html#analog-vs-digital-data",
+    "title": "Computers and Data",
+    "section": "Analog vs Digital Data",
+    "text": "Analog vs Digital Data\n\n\n\nAnalog\n\nContinuous data\nSmooth, unbroken line\nSpeed, temperature\nMore accurate\nHarder to store, manipulate, and transmit\n\nDigital\n\nDiscrete data\nStaircase\ne.g. ACFT score table\nEasier to store, manipulate, and transmit"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#analog-to-digital",
+    "href": "lessons/03-computers-data.html#analog-to-digital",
+    "title": "Computers and Data",
+    "section": "Analog to Digital",
+    "text": "Analog to Digital\n\nVideo: Analog vs Digital"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#computers-are-everywhere",
+    "href": "lessons/03-computers-data.html#computers-are-everywhere",
+    "title": "Computers and Data",
+    "section": "Computers are Everywhere",
+    "text": "Computers are Everywhere\n\nEmbedded computers: inside of other electronic devices, usually not visible from the outside"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#microcontrollers",
+    "href": "lessons/03-computers-data.html#microcontrollers",
+    "title": "Computers and Data",
+    "section": "Microcontrollers",
+    "text": "Microcontrollers\n\n\n\nSmallest processor\nRun exactly one program\nCan run on battery power\nBluefruit!"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#mobile-computers",
+    "href": "lessons/03-computers-data.html#mobile-computers",
+    "title": "Computers and Data",
+    "section": "Mobile Computers",
+    "text": "Mobile Computers\n\nWhat are they?\n\n\n\nLaptops, tablets, smartphones\nCan run multiple programs at once\nDesigned for portability - battery power"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#desktops-and-servers",
+    "href": "lessons/03-computers-data.html#desktops-and-servers",
+    "title": "Computers and Data",
+    "section": "Desktops and Servers",
+    "text": "Desktops and Servers\n\n\n\nWhat about these?\n\n\n\nMost powerful computers\nCan run multiple programs at once\nDesigned for performance\nTypically plugged into a power source"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#check-on-learning",
+    "href": "lessons/03-computers-data.html#check-on-learning",
+    "title": "Computers and Data",
+    "section": "Check on Learning",
+    "text": "Check on Learning\n\n\nWhat is information?\nWhat is a microcontroller?\nIs microcontroller a general-purpose computer?\nIs calculator a general-purpose computer?\nIs a smartphone a general-purpose computer?"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#types-of-devices",
+    "href": "lessons/03-computers-data.html#types-of-devices",
+    "title": "Computers and Data",
+    "section": "Types of Devices",
+    "text": "Types of Devices\n\n\nInput\n\n\nKeyboard\nMouse\nTouchscreen\nMicrophone\nCamera\n\n\n\nOutput\n\n\nMonitor\nPrinter\nSpeaker\n\n\n\nPeripheral\n\nConnect through expansion slots\nGreatly expand computer capabilities\n\n\n\nGraphics card (GPU)\nNetwork card"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#central-processing-unit-cpu",
+    "href": "lessons/03-computers-data.html#central-processing-unit-cpu",
+    "title": "Computers and Data",
+    "section": "Central Processing Unit (CPU)",
+    "text": "Central Processing Unit (CPU)\n\n\n\nCache: small, fast memory\n\n\nReads instructions from memory\nPerforms logical and mathematical operations\nWrites results back to memory"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#storage",
+    "href": "lessons/03-computers-data.html#storage",
+    "title": "Computers and Data",
+    "section": "Storage",
+    "text": "Storage\n\n\n\nCache\nRAM\nHard Drive"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#the-bus",
+    "href": "lessons/03-computers-data.html#the-bus",
+    "title": "Computers and Data",
+    "section": "The Bus",
+    "text": "The Bus\n\n\n\nelectronic conduit, connects all components together inside the computer"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#scenario",
+    "href": "lessons/03-computers-data.html#scenario",
+    "title": "Computers and Data",
+    "section": "Scenario",
+    "text": "Scenario\nPower Outage\n\nYou are working on a paper in the middle of the night. Suddenly, a powerful thunderstorm appears in the area and you lose power.\nSuppose you are working on a desktop computer. What happens to your paper? What data is lost?\nHow does the above answer change if you were working on a laptop? What are some advantages/disadvantages of autosave?\n\nData Security\n\nYour friend is thinking about making some extra cash by selling their computer. What advice would you give them so their personal data does not get stolen?\nWhat concrete steps that you would recommend they take?\nAny components worth removing or keeping? How does your answer change if it is a phone, laptop or desktop?"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#binary",
+    "href": "lessons/03-computers-data.html#binary",
+    "title": "Computers and Data",
+    "section": "Binary",
+    "text": "Binary\n\nLight switch = on or off\nOnly two values: 0 and 1\nBit = binary digit\nByte = 8 bits\n[How exactly does binary code work?] (https://www.youtube.com/embed/wgbV6DLVezo)\nRepresenting Numbers and Letters with Binary\n\n\n\nBit = light switch, off or on"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#hexadecimal",
+    "href": "lessons/03-computers-data.html#hexadecimal",
+    "title": "Computers and Data",
+    "section": "Hexadecimal",
+    "text": "Hexadecimal\n\nBase 16 =&gt; 0-9, A-F\n4 bits = 1 hex digit\nEasier for humans to read\n\n\n\n16 objects, unique labels\nboard example"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#conversion-decimal---binary---hexadecimal",
+    "href": "lessons/03-computers-data.html#conversion-decimal---binary---hexadecimal",
+    "title": "Computers and Data",
+    "section": "Conversion: Decimal - Binary - Hexadecimal",
+    "text": "Conversion: Decimal - Binary - Hexadecimal"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#quantifying-data-sizes",
+    "href": "lessons/03-computers-data.html#quantifying-data-sizes",
+    "title": "Computers and Data",
+    "section": "Quantifying Data Sizes",
+    "text": "Quantifying Data Sizes"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#ascii",
+    "href": "lessons/03-computers-data.html#ascii",
+    "title": "Computers and Data",
+    "section": "ASCII",
+    "text": "ASCII\n\nAmerican Standard Code for Information Interchange\n7-bit encoding scheme\n95 printable characters, 33 control characters\nInvented in 1963; last updated in 1986"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#whats-the-message",
+    "href": "lessons/03-computers-data.html#whats-the-message",
+    "title": "Computers and Data",
+    "section": "What’s the Message?",
+    "text": "What’s the Message?\n\n\n\n\n\n69 110 105 103 109 97 32 77 97 99 104 105 110 101\n66 108 101 116 99 104 108 101 121 32 80 97 114 107\n65 108 97 110 32 84 117 114 105 110 103\n71 111 32 65 114 109 121 32 66 101 97 116 32 78 97 122 105\n67 111 100 101 98 114 101 97 107 101 114 115\n84 117 114 105 110 103 32 84 101 115 116\n\n\n\n\nEnigma Machine\nBletchley Park\nAlan Turing\nGo Army Beat Nazi\nCodebreakers\nTuring Test"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#file-extensions",
+    "href": "lessons/03-computers-data.html#file-extensions",
+    "title": "Computers and Data",
+    "section": "File Extensions",
+    "text": "File Extensions\n\nIndicate what type of data is in a file\nHelp computer deduce how to process and interpret\nNot foolproof, but helpful\nFile headers provide more information\nExamples: .docx, .xlsx, .pptx, .jpg, .mp4, .py"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#other-encoding-schemes",
+    "href": "lessons/03-computers-data.html#other-encoding-schemes",
+    "title": "Computers and Data",
+    "section": "Other Encoding Schemes",
+    "text": "Other Encoding Schemes"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#image-encoding",
+    "href": "lessons/03-computers-data.html#image-encoding",
+    "title": "Computers and Data",
+    "section": "Image Encoding",
+    "text": "Image Encoding\n\nVideo: Images, Pixels and RGB\nDigital Compression"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#check-on-learning-1",
+    "href": "lessons/03-computers-data.html#check-on-learning-1",
+    "title": "Computers and Data",
+    "section": "Check on Learning",
+    "text": "Check on Learning\n\n\nCompare and contrast information vs data.\nCompare and contrast analog and digital data\nWhy is digital data used in computers?\nDefine binary, bit, byte.\nHow is digital data quantified and represented on computers?\nWhat is Kilo? Mega? Giga? Tera?\nWhat is a computer?\nWhat are the different types of computers?\nWhat is an embedded computer? Give an example.\nWhere is data stored on a computer?\nHow do computers process data?\nWhat is the difference between RAM and a hard drive?\nList and describe popular encoding schemes including RGB, ASCII, and Unicode\nHow do file extensions give applications clues on how to process and interpret data?"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#reminders",
+    "href": "lessons/03-computers-data.html#reminders",
+    "title": "Computers and Data",
+    "section": "Reminders",
+    "text": "Reminders\n\nWPS2 due 25AUG\nAddress Cengage issues now!"
   }
 ]
