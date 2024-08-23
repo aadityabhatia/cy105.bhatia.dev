@@ -84,6 +84,62 @@
     "text": "Next Class\n\nComputers and Data\nWPS1 due 25AUG\nWPS2 will be assigned soon\nzyBooks readings!"
   },
   {
+    "objectID": "lessons/04-algorithms.html#discussion",
+    "href": "lessons/04-algorithms.html#discussion",
+    "title": "Algorithms",
+    "section": "Discussion!",
+    "text": "Discussion!\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#lesson-objectives",
+    "href": "lessons/04-algorithms.html#lesson-objectives",
+    "title": "Algorithms",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nArticulate the four steps of computational problem solving: Understand the problem, Design and Algorithm, Implement your Solution, Test the Code\nArticulate some strategies for understanding a problem and problem decomposition\nDefine what an algorithm is and its building blocks: Sequencing, Conditionals, and Loops\nExplain the difference between an algorithm, pseudocode and a program\nPractice writing algorithms the CY105 way"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#check-on-learning",
+    "href": "lessons/04-algorithms.html#check-on-learning",
+    "title": "Algorithms",
+    "section": "Check on Learning",
+    "text": "Check on Learning"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#reminders",
+    "href": "lessons/04-algorithms.html#reminders",
+    "title": "Algorithms",
+    "section": "Reminders",
+    "text": "Reminders\n\nWPS1 due 25AUG\nExtra credit assignments published!\nLesson 5 readings are long; start early and come prepared!\nCengage issues?"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computing Fundamentals",
+    "section": "",
+    "text": "This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
+  },
+  {
+    "objectID": "index.html#course-objectives",
+    "href": "index.html#course-objectives",
+    "title": "Computing Fundamentals",
+    "section": "Course Objectives",
+    "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
+  },
+  {
+    "objectID": "index.html#additional-instruction",
+    "href": "index.html#additional-instruction",
+    "title": "Computing Fundamentals",
+    "section": "Additional Instruction",
+    "text": "Additional Instruction\n\nComplete required readings and in-class exercises.\nBook a meeting\nCome prepared with specific questions and bring your computer!\n\nPlan ahead and do not wait until the assignment due date! Note that once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible."
+  },
+  {
+    "objectID": "index.html#lessons",
+    "href": "index.html#lessons",
+    "title": "Computing Fundamentals",
+    "section": "Lessons",
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
     "href": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
     "title": "Welcome to CY105",
@@ -210,39 +266,11 @@
     "text": "Next Class"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Computing Fundamentals",
-    "section": "",
-    "text": "This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
-  },
-  {
-    "objectID": "index.html#course-objectives",
-    "href": "index.html#course-objectives",
-    "title": "Computing Fundamentals",
-    "section": "Course Objectives",
-    "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
-  },
-  {
-    "objectID": "index.html#additional-instruction",
-    "href": "index.html#additional-instruction",
-    "title": "Computing Fundamentals",
-    "section": "Additional Instruction",
-    "text": "Additional Instruction\n\nComplete required readings and in-class exercises.\nBook a meeting\nCome prepared with specific questions and bring your computer!\n\nPlan ahead and do not wait until the assignment due date! Note that once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible."
-  },
-  {
-    "objectID": "index.html#lessons",
-    "href": "index.html#lessons",
-    "title": "Computing Fundamentals",
-    "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#welcome",
-    "href": "lessons/03-computers-data.html#welcome",
+    "objectID": "lessons/03-computers-data.html#discussion",
+    "href": "lessons/03-computers-data.html#discussion",
     "title": "Computers and Data",
-    "section": "Welcome!",
-    "text": "Welcome!\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com"
+    "section": "Discussion!",
+    "text": "Discussion!\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com"
   },
   {
     "objectID": "lessons/03-computers-data.html#lesson-objectives",
@@ -347,7 +375,7 @@
     "href": "lessons/03-computers-data.html#binary",
     "title": "Computers and Data",
     "section": "Binary",
-    "text": "Binary\n\nLight switch = on or off\nOnly two values: 0 and 1\nBit = binary digit\nByte = 8 bits\n[How exactly does binary code work?] (https://www.youtube.com/embed/wgbV6DLVezo)\nRepresenting Numbers and Letters with Binary\n\n\n\nBit = light switch, off or on"
+    "text": "Binary\n\nLight switch = on or off\nOnly two values: 0 and 1\nBit = binary digit\nByte = 8 bits\nHow exactly does binary code work?\nRepresenting Numbers and Letters with Binary\n\n\n\nBit = light switch, off or on"
   },
   {
     "objectID": "lessons/03-computers-data.html#hexadecimal",
@@ -417,6 +445,6 @@
     "href": "lessons/03-computers-data.html#reminders",
     "title": "Computers and Data",
     "section": "Reminders",
-    "text": "Reminders\n\nWPS2 due 25AUG\nAddress Cengage issues now!"
+    "text": "Reminders\n\nWPS1 due 25AUG\nExtra credit assignments published!\nAddress Cengage issues now!"
   }
 ]

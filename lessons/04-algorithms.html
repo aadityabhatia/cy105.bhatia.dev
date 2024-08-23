@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.5.55">
 
   <meta name="author" content="CPT Sonny Bhatia">
-  <title>CY105 Computing Fundamentals – Computers and Data</title>
+  <title>CY105 Computing Fundamentals – Algorithms</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -321,8 +321,8 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Computers and Data – CY105 Computing Fundamentals">
-<meta property="og:description" content="How machines process information">
+<meta property="og:title" content="Algorithms – CY105 Computing Fundamentals">
+<meta property="og:description" content="Solving problems with computers">
 <meta property="og:image" content="https://cy105.bhatia.dev//images/03/data-information-legos.webp">
 <meta property="og:site_name" content="CY105 Computing Fundamentals">
 </head>
@@ -331,7 +331,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Computers and Data</h1>
+  <h1 class="title">Algorithms</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -356,396 +356,22 @@ CPT Sonny Bhatia
 <section id="lesson-objectives" class="slide level2 center" data-timing="60">
 <h2>Lesson Objectives</h2>
 <ul>
-<li>Define data, how it differs from information, and its forms: analog and digital.</li>
-<li>Define what a computer is, define common types of computers, and distinguish their uses from each other.&nbsp;</li>
-<li>Describe how digital data is quantified and represented on computers.</li>
-<li>Describe how computers process and store data.</li>
-<li>Learn how to read an ASCII table.</li>
+<li>Articulate the four steps of computational problem solving: Understand the problem, Design and Algorithm, Implement your Solution, Test the Code</li>
+<li>Articulate some strategies for understanding a problem and problem decomposition</li>
+<li>Define what an algorithm is and its building blocks: Sequencing, Conditionals, and Loops</li>
+<li>Explain the difference between an algorithm, pseudocode and a program</li>
+<li>Practice writing algorithms the CY105 way</li>
 </ul>
 </section>
-<section>
-<section id="data-vs-information" class="title-slide slide level1 center" data-timing="0">
-<h1>Data vs Information</h1>
-
-</section>
-<section id="information" class="slide level2 center" data-timing="60">
-<h2>Information</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li>Data = facts
-<ul>
-<li>measurements</li>
-<li>statistics</li>
-<li>values</li>
-</ul></li>
-<li>Information
-<ul>
-<li>data processed, organized, or structured in a meaningful way</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:70%;">
-<p><img data-src="../images/03/data-information-legos.webp"></p>
-</div></div>
-</section>
-<section id="analog-vs-digital-data" class="slide level2 smaller center" data-timing="60">
-<h2>Analog vs Digital Data</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li>Analog
-<ul>
-<li>Continuous data</li>
-<li>Smooth, unbroken line</li>
-<li>Speed, temperature</li>
-<li>More accurate</li>
-<li>Harder to store, manipulate, and transmit</li>
-</ul></li>
-<li>Digital
-<ul>
-<li>Discrete data</li>
-<li>Staircase</li>
-<li>e.g.&nbsp;ACFT score table</li>
-<li>Easier to store, manipulate, and transmit</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:70%;">
-<p><img data-src="../images/03/analog-digital.webp"></p>
-</div></div>
-</section>
-<section id="analog-to-digital" class="slide level2 center" data-timing="0">
-<h2>Analog to Digital</h2>
-<ul>
-<li><a href="https://www.youtube.com/embed/oSZNQ1LZjHg">Video: Analog vs Digital</a></li>
-</ul>
-
-<img data-src="../images/03/analog-to-digital.png" class="r-stretch"></section></section>
-<section>
-<section id="computers" class="title-slide slide level1 center" data-timing="120">
-<h1>Computers</h1>
-<ul>
-<li>So, what are computers?</li>
-</ul>
-<div>
-<ul>
-<li class="fragment">Electronic devices that accept data</li>
-<li class="fragment">Perform mathematical and logical operations</li>
-<li class="fragment">Output results</li>
-<li class="fragment">General-purpose, reprogrammable</li>
-</ul>
-</div>
-</section>
-<section id="computers-are-everywhere" class="slide level2 center" data-timing="60">
-<h2>Computers are Everywhere</h2>
-
-<img data-src="../images/03/everywhere.png" class="r-stretch"><p>Embedded computers: inside of other electronic devices, usually not visible from the outside</p>
-</section>
-<section id="microcontrollers" class="slide level2 center" data-timing="60">
-<h2>Microcontrollers</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Smallest processor</li>
-<li>Run exactly one program</li>
-<li>Can run on battery power</li>
-<li>Bluefruit!</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="../images/01/12-bluefruit.png"></p>
-</div></div>
-</section>
-<section id="mobile-computers" class="slide level2 center" data-timing="60">
-<h2>Mobile Computers</h2>
-<ul>
-<li>What are they?</li>
-</ul>
-<div>
-<ul>
-<li class="fragment">Laptops, tablets, smartphones</li>
-<li class="fragment">Can run multiple programs at once</li>
-<li class="fragment">Designed for portability - battery power</li>
-</ul>
-</div>
-</section>
-<section id="desktops-and-servers" class="slide level2 center" data-timing="60">
-<h2>Desktops and Servers</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>What about these?</li>
-</ul>
-<div>
-<ul>
-<li class="fragment">Most powerful computers</li>
-<li class="fragment">Can run multiple programs at once</li>
-<li class="fragment">Designed for performance</li>
-<li class="fragment">Typically plugged into a power source</li>
-</ul>
-</div>
-</div><div class="column" style="width:50%;">
-<p><img data-src="https://media.bizj.us/view/img/11590645/gettyimages-885294108*1200xx3530-1991-1135-1035.jpg"></p>
-</div></div>
-</section>
-<section id="check-on-learning" class="slide level2 center" data-timing="120">
-<h2>Check on Learning</h2>
-<div>
-<ul>
-<li class="fragment">What is information?</li>
-<li class="fragment">What is a microcontroller?</li>
-<li class="fragment">Is microcontroller a general-purpose computer?</li>
-<li class="fragment">Is calculator a general-purpose computer?</li>
-<li class="fragment">Is a smartphone a general-purpose computer?</li>
-</ul>
-</div>
-</section></section>
-<section>
-<section id="components" class="title-slide slide level1 center" data-timing="0">
-<h1>Components</h1>
-
-</section>
-<section id="types-of-devices" class="slide level2 center" data-timing="120">
-<h2>Types of Devices</h2>
-<div class="columns">
-<div class="column" style="width:33%;">
-<h3 id="input">Input</h3>
-<div>
-<ul>
-<li class="fragment">Keyboard</li>
-<li class="fragment">Mouse</li>
-<li class="fragment">Touchscreen</li>
-<li class="fragment">Microphone</li>
-<li class="fragment">Camera</li>
-</ul>
-</div>
-</div><div class="column" style="width:33%;">
-<h3 id="output">Output</h3>
-<div>
-<ul>
-<li class="fragment">Monitor</li>
-<li class="fragment">Printer</li>
-<li class="fragment">Speaker</li>
-</ul>
-</div>
-</div><div class="column" style="width:33%;">
-<h3 id="peripheral">Peripheral</h3>
-<ul>
-<li>Connect through expansion slots</li>
-<li>Greatly expand computer capabilities</li>
-</ul>
-<div>
-<ul>
-<li class="fragment">Graphics card (GPU)</li>
-<li class="fragment">Network card</li>
-</ul>
-</div>
-</div></div>
-</section>
-<section id="central-processing-unit-cpu" class="slide level2 center" data-timing="60">
-<h2>Central Processing Unit (CPU)</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Cache: small, fast memory</li>
-</ul>
-<ol type="1">
-<li>Reads instructions from memory</li>
-<li>Performs logical and mathematical operations</li>
-<li>Writes results back to memory</li>
-</ol>
-</div><div class="column" style="width:50%;">
-<p><img data-src="../images/03/cpu.webp"></p>
-</div></div>
-</section>
-<section id="storage" class="slide level2 center" data-timing="120">
-<h2>Storage</h2>
-<div class="columns">
-<div class="column" style="width:20%;">
-<ol type="1">
-<li>Cache</li>
-<li>RAM</li>
-<li>Hard Drive</li>
-</ol>
-</div><div class="column" style="width:80%;">
-<p><img data-src="../images/03/storage.png"></p>
-</div></div>
-</section>
-<section id="the-bus" class="slide level2 center" data-timing="60">
-<h2>The Bus</h2>
-
-<img data-src="../images/03/bus.png" class="r-stretch"><div class="fragment">
-<ul>
-<li>electronic conduit, connects all components together inside the computer</li>
-</ul>
-</div>
-</section>
-<section id="scenario" class="slide level2 center" data-timing="300">
-<h2>Scenario</h2>
-<h3 id="power-outage">Power Outage</h3>
-<ul>
-<li>You are working on a paper in the middle of the night. Suddenly, a powerful thunderstorm appears in the area and you lose power.</li>
-<li>Suppose you are working on a desktop computer. What happens to your paper? What data is lost?</li>
-<li>How does the above answer change if you were working on a laptop? What are some advantages/disadvantages of autosave?</li>
-</ul>
-<h3 id="data-security">Data Security</h3>
-<ul>
-<li>Your friend is thinking about making some extra cash by selling their computer. What advice would you give them so their personal data does not get stolen?</li>
-<li>What concrete steps that you would recommend they take?</li>
-<li>Any components worth removing or keeping? How does your answer change if it is a phone, laptop or desktop?</li>
-</ul>
-</section></section>
-<section>
-<section id="data-representation" class="title-slide slide level1 center" data-timing="0">
-<h1>Data Representation</h1>
-
-</section>
-<section id="binary" class="slide level2 center" data-timing="120">
-<h2>Binary</h2>
-<ul>
-<li>Light switch = on or off</li>
-<li>Only two values: 0 and 1</li>
-<li>Bit = binary digit</li>
-<li>Byte = 8 bits</li>
-<li><a href="https://www.youtube.com/embed/wgbV6DLVezo">How exactly does binary code work?</a></li>
-<li><a href="https://www.youtube.com/embed/1GSjbWt0c9M">Representing Numbers and Letters with Binary</a></li>
-</ul>
-<aside class="notes">
-<ul>
-<li>Bit = light switch, off or on</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="hexadecimal" class="slide level2 center" data-timing="120">
-<h2>Hexadecimal</h2>
-<ul>
-<li>Base 16 =&gt; 0-9, A-F</li>
-<li>4 bits = 1 hex digit</li>
-<li>Easier for humans to read</li>
-</ul>
-<aside class="notes">
-<ul>
-<li>16 objects, unique labels</li>
-<li>board example</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="conversion-decimal---binary---hexadecimal" class="slide level2 center">
-<h2>Conversion: Decimal - Binary - Hexadecimal</h2>
-
-<img data-src="../images/03/bin-hex-dec.png" class="r-stretch"></section>
-<section id="quantifying-data-sizes" class="slide level2 center">
-<h2>Quantifying Data Sizes</h2>
-
-<img data-src="../images/03/data-sizes.png" class="r-stretch"></section>
-<section id="ascii" class="slide level2 center">
-<h2>ASCII</h2>
-<ul>
-<li>American Standard Code for Information Interchange</li>
-<li>7-bit encoding scheme</li>
-<li>95 printable characters, 33 control characters</li>
-<li>Invented in 1963; last updated in 1986</li>
-</ul>
-</section>
-<section id="whats-the-message" class="slide level2 smaller center" data-timing="300">
-<h2>What’s the Message?</h2>
-<div class="columns">
-<div class="column" style="width:80%;">
-<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/1/1b/ASCII-Table-wide.svg" style="width:100.0%"></p>
-</div><div class="column" style="width:20%;">
-<ol type="1">
-<li>69 110 105 103 109 97 32 77 97 99 104 105 110 101</li>
-<li>66 108 101 116 99 104 108 101 121 32 80 97 114 107</li>
-<li>65 108 97 110 32 84 117 114 105 110 103</li>
-<li>71 111 32 65 114 109 121 32 66 101 97 116 32 78 97 122 105</li>
-<li>67 111 100 101 98 114 101 97 107 101 114 115</li>
-<li>84 117 114 105 110 103 32 84 101 115 116</li>
-</ol>
-</div></div>
-<aside class="notes">
-<ul>
-<li>Enigma Machine</li>
-<li>Bletchley Park</li>
-<li>Alan Turing</li>
-<li>Go Army Beat Nazi</li>
-<li>Codebreakers</li>
-<li>Turing Test</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="file-extensions" class="slide level2 center" data-timing="120">
-<h2>File Extensions</h2>
-<ul>
-<li>Indicate what type of data is in a file</li>
-<li>Help computer deduce how to process and interpret</li>
-<li>Not foolproof, but helpful</li>
-<li>File headers provide more information</li>
-<li>Examples: <code>.docx</code>, <code>.xlsx</code>, <code>.pptx</code>, <code>.jpg</code>, <code>.mp4</code>, <code>.py</code></li>
-</ul>
-</section>
-<section id="other-encoding-schemes" class="slide level2 center" data-timing="180">
-<h2>Other Encoding Schemes</h2>
-
-<img data-src="../images/03/raw-file.png" class="r-stretch"></section>
-<section id="image-encoding" class="slide level2 center" data-timing="0">
-<h2>Image Encoding</h2>
-<ul>
-<li><a href="https://www.youtube.com/embed/15aqFQQVBWU">Video: Images, Pixels and RGB</a></li>
-<li><a href="https://www.youtube.com/embed/By30SCp-Tsw">Digital Compression</a></li>
-</ul>
-</section></section>
 <section>
 <section id="conclusion" class="title-slide slide level1 center" data-timing="0">
 <h1>Conclusion</h1>
 
 </section>
-<section id="check-on-learning-1" class="slide level2 smaller center" data-timing="300">
+<section id="check-on-learning" class="slide level2 smaller center" data-timing="300">
 <h2>Check on Learning</h2>
 <div>
-<ul>
-<li class="fragment">Compare and contrast information vs data.</li>
-<li class="fragment">Compare and contrast analog and digital data</li>
-<li class="fragment">Why is digital data used in computers?</li>
-<li class="fragment">Define binary, bit, byte.</li>
-<li class="fragment">How is digital data quantified and represented on computers?</li>
-<li class="fragment">What is Kilo? Mega? Giga? Tera?</li>
-<li class="fragment">What is a computer?</li>
-<li class="fragment">What are the different types of computers?</li>
-<li class="fragment">What is an embedded computer? Give an example.</li>
-<li class="fragment">Where is data stored on a computer?</li>
-<li class="fragment">How do computers process data?</li>
-<li class="fragment">What is the difference between RAM and a hard drive?</li>
-<li class="fragment">List and describe popular encoding schemes including RGB, ASCII, and Unicode</li>
-<li class="fragment">How do file extensions give applications clues on how to process and interpret data?</li>
-</ul>
+
 </div>
 </section>
 <section id="reminders" class="slide level2 center">
@@ -753,7 +379,8 @@ CPT Sonny Bhatia
 <ul>
 <li>WPS1 due 25AUG</li>
 <li>Extra credit assignments published!</li>
-<li>Address Cengage issues now!</li>
+<li>Lesson 5 readings are long; start early and come prepared!</li>
+<li>Cengage issues?</li>
 </ul>
 
 <div class="quarto-auto-generated-content">
@@ -772,8 +399,6 @@ CPT Sonny Bhatia
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
-  <script src="../site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -795,7 +420,6 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"4a287fac3f780f78","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -969,7 +593,7 @@ CPT Sonny Bhatia
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
-          
+          RevealNotes,
           RevealSearch,
           RevealZoom
         ]
