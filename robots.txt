@@ -1,1 +1,2 @@
-Sitemap: https://cy105.bhatia.dev/sitemap.xml
+User-agent: *
+Disallow: /

@@ -88,28 +88,189 @@
     "href": "lessons/04-algorithms.html#discussion",
     "title": "Algorithms",
     "section": "Discussion!",
-    "text": "Discussion!\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com"
+    "text": "Discussion!\n\nPB&J Sandwich\nWhat is happening in the video?\nWhat does this tell us about how a computer solves problems vs a human?"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#cy105-python-reference-card",
+    "href": "lessons/04-algorithms.html#cy105-python-reference-card",
+    "title": "Algorithms",
+    "section": "CY105 Python Reference Card",
+    "text": "CY105 Python Reference Card\n\n\n\n\n\nResource for exams!\nBring to class daily.\nDo not lose it.\nDo not write on it.\n\nNo scribbles, no notes!\nException: your name"
   },
   {
     "objectID": "lessons/04-algorithms.html#lesson-objectives",
     "href": "lessons/04-algorithms.html#lesson-objectives",
     "title": "Algorithms",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nArticulate the four steps of computational problem solving: Understand the problem, Design and Algorithm, Implement your Solution, Test the Code\nArticulate some strategies for understanding a problem and problem decomposition\nDefine what an algorithm is and its building blocks: Sequencing, Conditionals, and Loops\nExplain the difference between an algorithm, pseudocode and a program\nPractice writing algorithms the CY105 way"
+    "text": "Lesson Objectives\n\nArticulate the four steps of computational problem solving\nArticulate some strategies for understanding a problem and problem decomposition\nDefine what an algorithm is and its building blocks\n\nSequencing\nConditionals\nLoops\n\nExplain the difference between an algorithm, pseudocode and a program\nPractice writing algorithms the CY105 way"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#announcements",
+    "href": "lessons/04-algorithms.html#announcements",
+    "title": "Algorithms",
+    "section": "Announcements",
+    "text": "Announcements\n\nDAAW for WPS1 due yesterday!\nWPS2 due 02SEP\n\n5 attempts; highest score counts\n\nExtra credit assignments published!"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#best-practices-for-problem-solving",
+    "href": "lessons/04-algorithms.html#best-practices-for-problem-solving",
+    "title": "Algorithms",
+    "section": "Best Practices for Problem Solving",
+    "text": "Best Practices for Problem Solving\n\n\nGather key facts\nIdentify main tasks\nInputs - what is given?\nOutputs - what should you produce?\nWhat can you assume?\nCan you think of related mathematical equations?"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#when-in-doubt-draw-it-out",
+    "href": "lessons/04-algorithms.html#when-in-doubt-draw-it-out",
+    "title": "Algorithms",
+    "section": "When in doubt, draw it out!",
+    "text": "When in doubt, draw it out!"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#problem-decomposition",
+    "href": "lessons/04-algorithms.html#problem-decomposition",
+    "title": "Algorithms",
+    "section": "Problem Decomposition",
+    "text": "Problem Decomposition\n\nTop-Down Design\nBreak the problem into smaller parts\nSolve each part separately\nCombine the solutions"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#army-problem-solving-process",
+    "href": "lessons/04-algorithms.html#army-problem-solving-process",
+    "title": "Algorithms",
+    "section": "Army Problem Solving Process",
+    "text": "Army Problem Solving Process\n\n\nRef: FM 5-0 The Operations Process"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#what-is-an-algorithm",
+    "href": "lessons/04-algorithms.html#what-is-an-algorithm",
+    "title": "Algorithms",
+    "section": "What is an Algorithm?",
+    "text": "What is an Algorithm?\n\n\nStep-by-step process\nWritten in a human language\nDescribes how to solve a problem\nAlways gives the correct answer"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#is-this-a-good-algorithm",
+    "href": "lessons/04-algorithms.html#is-this-a-good-algorithm",
+    "title": "Algorithms",
+    "section": "Is this a good algorithm?",
+    "text": "Is this a good algorithm?\n\n\n\nWhat is the problem? What is unclear about this algorithm?\nHow much shampoo to add?\nHow long do you lather for?\nWhen does the cycle stop!\nIs repeating really applicable for washing your hair?\nDo you shampoo multiple times in one shower?"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#another-algorithm",
+    "href": "lessons/04-algorithms.html#another-algorithm",
+    "title": "Algorithms",
+    "section": "Another Algorithm",
+    "text": "Another Algorithm\n\nStep 1: Preheat the oven to 325°F. Grease a 9x5-inch loaf pan.\n\n\nStep 2: Whisk together flour and baking powder in a bowl. Cream together sugar and cream cheese with an electric mixer until fluffy. Stir in yogurt. Add eggs one at a time, beating well after each addition. Add vanilla bean paste. Slowly add flour mixture, beating on low speed and taking care not to overmix batter.\n\n\nStep 3: Warm chocolate-hazelnut spread in the microwave at 360 W until warm but not bubbling, about 1 minute. Stir and check consistency. Microwave for an additional 30 seconds if necessary.\n\n\nStep 4: Pour 1/2 of the cake batter into the prepared loaf pan. Pour in 2/3 of chocolate-hazelnut spread in a swirl over the batter. Pour in remaining batter and swirl remaining spread over the top. Use a bamboo skewer to create more swirls by running the skewer through the batter in a circular motion. Take care not to stir the mixture, but simply create a marbled design.\n\n\nStep 5: Bake in the preheated oven until a toothpick inserted into the center comes out clean, about 50 minutes. Allow to cool before removing from the pan.\n\n\n\nis it good?\nPrecise?\n\nroom temperature? (3 eggs)\nBeating well? (Step 2)\nTaking care not to overmix batter? (Step 2)\n\nUnambiguous\n\nabout 1 minute? (Step 3)\n\nEventually stops\n\nUntil…"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#building-blocks-of-algorithms",
+    "href": "lessons/04-algorithms.html#building-blocks-of-algorithms",
+    "title": "Algorithms",
+    "section": "Building Blocks of Algorithms",
+    "text": "Building Blocks of Algorithms\n\nSequencing\nConditionals\nLoops\n\n\nThe most simple algorithm may only contain sequence of steps, however, selection and iteration are important features to ensure all scenarios are accounted for and correct results are achieved.\nLet us look at some examples!"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#sequencing",
+    "href": "lessons/04-algorithms.html#sequencing",
+    "title": "Algorithms",
+    "section": "Sequencing",
+    "text": "Sequencing\n\n\nWake up\nBrush teeth\nShower\nWear clothes\nEat breakfast\nPut on socks\nPut on shoes\nGo to class"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#conditionals",
+    "href": "lessons/04-algorithms.html#conditionals",
+    "title": "Algorithms",
+    "section": "Conditionals",
+    "text": "Conditionals\n\n\nWake up\nBrush teeth\nShower\nWear clothes\nIf raining, wear raincoat\n\nElse, wear light jacket\n\nIf I have time, eat breakfast\n\nElse, grab a granola bar\n\nPut on socks\nPut on shoes\nGo to class"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#loops",
+    "href": "lessons/04-algorithms.html#loops",
+    "title": "Algorithms",
+    "section": "Loops",
+    "text": "Loops\n\n\nWake up\nBrush teeth\nShower\n\nGrab shampoo\nLather\nRinse\nRepeat until clean\n\n…"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#example-data-lost-algorithm",
+    "href": "lessons/04-algorithms.html#example-data-lost-algorithm",
+    "title": "Algorithms",
+    "section": "Example: Data Lost Algorithm",
+    "text": "Example: Data Lost Algorithm\nInputs: Size of HD (in GB)\nOutput: Displays actual size of HD in GiB, and the theoretical amount of data lost in GiB\nAssumptions: User inputs an integer\n\n1. Ask the user to input the size of the hard drive in GB (in_size).\n\n2. If in_size is less than or equal to 0, output 0 and quit. Otherwise, continue to step 3.\n\n3. Compute actual size of the hard drive (in bytes): actual = in_size x 109.\n\n4. Compute theoretical size of the hard drive (in bytes): theoretical = in_size x 230.\n\n5. Compute the data lost (in bytes): loss = theoretical - actual.\n\n6. Compute and output the actual size of the hard drive in GiB, rounded to two decimal places:  actual / 230.\n\n7. Compute and output the data lost in GiB, rounded to two decimal places: loss / 230."
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#example-data-lost-program",
+    "href": "lessons/04-algorithms.html#example-data-lost-program",
+    "title": "Algorithms",
+    "section": "Example: Data Lost Program",
+    "text": "Example: Data Lost Program\n#Ask the user to input the size of the hard drive in GB (in_size).\nin_size = int(input(\"Please enter drive size in GB: \"))\n\n#if in_size is less than or equal to 0, output 0 and quit. Otherwise, continue to step 3.\nif in_size &lt;= 0:\n    print(\"Invalid input.\")\n\nelse:\n    #Compute actual size of the hard drive (in bytes): actual = in_size x 10^9.\n    actual = in_size * 10**9\n\n    #Compute theoretical size of the hard drive (in bytes): theoretical = in_size x 230.\n    theoretical = in_size * 2**30\n\n    #Compute the data lost (in bytes): loss = theoretical - actual.\n    loss = theoretical - actual\n\n    #Compute and output the actual size of the hard drive in GiB, rounded to two decimal places\n    actual_GiB = actual / 2**30\n    print(\"The hard drive is actually:\", round(actual_GiB, 2), \"GiB\")\n\n    #Compute and output the data lost in GiB, rounded to two decimal places: loss / 230.\n    loss_GiB = loss / 2**30\n    print(\"This represents a loss of\", round(loss_GiB, 2), \"GiB\")"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#writing-algorithms-the-cy105-way",
+    "href": "lessons/04-algorithms.html#writing-algorithms-the-cy105-way",
+    "title": "Algorithms",
+    "section": "Writing Algorithms the CY105 Way​",
+    "text": "Writing Algorithms the CY105 Way​\n\nMust be written in English and not contain computer code!\nBe easy to read and understand!\nBe ordered in sequence!\nContain enough detail to solve the problem!"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#example",
+    "href": "lessons/04-algorithms.html#example",
+    "title": "Algorithms",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#base-frequency",
+    "href": "lessons/04-algorithms.html#base-frequency",
+    "title": "Algorithms",
+    "section": "Base Frequency",
+    "text": "Base Frequency\nGenomic data primarily consists of four bases: adenosine (A), guanine (G), cytosine (C), and thymine (T). It is the basic unit of data in the human body. Write an algorithm that computes the percentage of As, Gs, Cs, and Ts in a given DNA sequence and displays it to the screen.\nFor example, the sequence AGCCGTCGTCTATAT is 15 characters long. There are 3 As, 3 Gs, 4 Cs, and 5 Ts in this sequence. Therefore, the percentage of As is 20%, the percentage of Gs is 20%, the percentage of Cs is 26.7%, and the percentage of Ts s 33.3%. While you may assume that the only letters in the string are A,G,C, or T, you may not make any assumptions the length of the DNA sequence.\n\n\nProblem: Base Frequency\nInput: DNA sequence (sequence of As,Gs, Cs, and Ts)\nOutput: Frequence of each base\n\n\nInitialize individual counters for A, G, C and T to 0.\nFor each base in the sequence:\n\nIf the base is A, update the A counter by 1\nIf the base is G, update the G counter by 1\nIf the base is C, update the C counter by 1\nIf the base is T, update the T counter by 1\n\nCompute the length of the sequence.\nCompute the percentage occurrence of each base, which is its frequency / length.\nOutput the respective percentages of each base, rounded to one decimal place."
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#error-detection",
+    "href": "lessons/04-algorithms.html#error-detection",
+    "title": "Algorithms",
+    "section": "Error Detection",
+    "text": "Error Detection\nElectrical fluctuations in computers can sometimes cause bits to flip in data. As a result, many binary strings usually use a parity bit to help check if a bitstring has errors in it. For example, all ASCII characters can be represented using just 7 bits. Instead, the character data is stored using a total of 8 bits, where the last bit (the right-most), called the parity bit, is set to 0 if the number of 1s in the other 7 bits is even. Otherwise, the parity bit is set to 1.\nWrite an algorithm that takes an 8-bit string and determines if it is corrupted.\n\n\nProblem: Error Detection\nInput: Bit string (8-bits long)\nOutput: True if the bit string is corrupted, False otherwise\n\n\nInitialize a counter to 0\nFor each bit in the bitstring:\n\nIf the bit is a 1, increment the counter.\n\nIf the number of 1s is even, output False. Otherwise, output True."
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#high-low",
+    "href": "lessons/04-algorithms.html#high-low",
+    "title": "Algorithms",
+    "section": "High Low",
+    "text": "High Low\nThe radio station, 100.7 WHUD has a game called the High Low Cash Game, where people have to call in to guess the amount of money in a cash vault. The radio hosts never say the dollar amount on the air but will tell a caller if their guess is “too high” or “too low”. To win the jackpot, the caller has to guess the dollar amount down to the last cent. Assuming the jackpot is never more than $10,000.00, devise an algorithm that will guarantee a win in the fewest amount of calls (assume that all the callers agree to follow the same algorithm). Following your algorithm, what is the maximum number of calls needed to assure a win?\n\n\nProblem: High Low (Hard)\nInput: Nothing (some secret number is set)\nOutput: number of guesses?\nAssumptions: Secret number is between 0 and $10,000. Must get answer correct to last center to win.\n\n\nSet top tracker to 1,000,000 ($10,000 in cents)\nSet bottom tracker to $0\nSet guess counter to 1\nRepeat until the secret number is guessed:\n\nSet the guess to (top tracker – bottom tracker) / 2\nConvert guess to dollars and check to see if dollar amount is equal to secret number. If so, output number of guesses it took and quit.\nOtherwise, program outputs “too high” or “too low”. Increment guess counter by 1.\nIf guess was too high: set top tracker to the current guess value. Go back to step 3.\nIf the guess is too low: set the bottom tracker to the current guess value. Go back to step 3.\n\n\nSince the algorithm above cuts the search space in half each time, we are guaranteed to find the answer in about 20 guesses."
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#perfect-number",
+    "href": "lessons/04-algorithms.html#perfect-number",
+    "title": "Algorithms",
+    "section": "Perfect Number",
+    "text": "Perfect Number\nA number is considered perfect if the sum of its divisors (excluding the number itself) is equal to the number. Here are some examples of perfect numbers:\n\n6 = 1 + 2 + 3\n28 = 1 + 2 + 4 + 7 + 14\n496 = 1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248\n\nWrite an algorithm for a program that can if a particular integer is perfect. You may assume that the inputted number is always a positive integer.\n\n\nProblem: Perfect Number\nInput: An integer, n\nOutput: True if the number is perfect, False otherwise\nAssumptions: A perfect number is a number whose sum of its divisors (excluding itself) is equal to it.\n\n\nIf the inputted number is less than or equal to 5, return False. (there are no perfect numbers under 5)\nInitialize a counter to 0\nFor each number from 1 up to (but not including) n:\n\nDetermine if number evenly divides n.\nIf so, add the number to the counter.\n\nCheck to see if the value in the counter is equal to n. If so, output True. Otherwise, output False."
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#magic-number",
+    "href": "lessons/04-algorithms.html#magic-number",
+    "title": "Algorithms",
+    "section": "Magic Number",
+    "text": "Magic Number\nThere is a two-digit number that when squared, the resulting three-digit number has the same rightmost two digits as the original two-digit number. In other words, for a number of the form AB, AB * AB = CAB for some C.\nWrite an algorithm for a program that will discover what this special number is through brute-force (in other words, iterating through all possibilities).\n\n\nProblem: Magic Number\nInput: None\nOutput: The first two-digit number of the form AB, such that AB * AB = CAB for some C.\nAssumptions: The number is a two-digit integer [10..99]. Search is done “brute force”\n\n\nInitialize checker to 10.\nRepeat until magic number is determined (or we exceed 99):\n\nCompute the square of checker (checker * checker).\nIf checker squared does not contain three digits, skip and go to step 2.\nIf checker squared does contain three digits, determine if last two digits is equal to checker. If so, stop and output checker as the magic number.\nOtherwise, increment checker by 1, and go back to step 2."
+  },
+  {
+    "objectID": "lessons/04-algorithms.html#fibonacci-sum",
+    "href": "lessons/04-algorithms.html#fibonacci-sum",
+    "title": "Algorithms",
+    "section": "Fibonacci Sum",
+    "text": "Fibonacci Sum\nThe Fibonacci sequence is a famous one in mathematics, where Fibonacci number is derived from the sum of the previous two Fibonacci numbers. The first few Fibonacci numbers are:\n\n0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, …\n\nWrite an algorithm for a program that, given a number n, will compute the sum of the first n Fibonacci numbers. For example, inputting 3 should yield 2, while inputting 10 should yield 88.\n\n\nProblem: Fibonacci Sum (Hard)\nInput: Number of Fibonacci terms (n)\nOutput: Sum of the first n Fibonacci terms\n\n\nIf n is less than or equal to 1, output 0.\nSet current to be 1\nSet n_minus_one tracker to be 0\nSet n_minus_two tracker to be 0\nSet counter to 1\nSet sum to 1\nRepeat until counter is equal to n:\n\nUpdate sum by adding current to sum\nSet n_minus_two to be the value of the n-minus-one tracker\nSet n_minus_one to be the value of the current tracker\nSet current equal to n_minus_one + n_minus_two\nIncrement counter by 1\n\nOutput the sum"
   },
   {
     "objectID": "lessons/04-algorithms.html#check-on-learning",
     "href": "lessons/04-algorithms.html#check-on-learning",
     "title": "Algorithms",
     "section": "Check on Learning",
-    "text": "Check on Learning"
+    "text": "Check on Learning\n\n\nFour steps of computational problem solving\n\nUnderstand the Problem\nDesign an Algorithm\nImplement a Solution\nTest the Code\n\nHow do you decompose a problem?\nWhat are the building blocks of an algorithm?\n\nSequencing\nConditionals\nLoops\n\nWhat is pseudocode?\nIs an algorithm the same as pseudocode?\nCan you run pseudocode?\nWhat is the difference between an algorithm and a program?\nCan you run a program?"
   },
   {
     "objectID": "lessons/04-algorithms.html#reminders",
     "href": "lessons/04-algorithms.html#reminders",
     "title": "Algorithms",
     "section": "Reminders",
-    "text": "Reminders\n\nWPS1 due 25AUG\nExtra credit assignments published!\nLesson 5 readings are long; start early and come prepared!\nCengage issues?"
+    "text": "Reminders\n\nWPS2 due 02SEP\nExtra credit assignments published!\nLesson 5 readings are long; start early and come prepared!\nBluefruit?"
   },
   {
     "objectID": "index.html",
@@ -137,7 +298,7 @@
     "href": "index.html#lessons",
     "title": "Computing Fundamentals",
     "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\nCPT Sonny Bhatia\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
@@ -445,6 +606,6 @@
     "href": "lessons/03-computers-data.html#reminders",
     "title": "Computers and Data",
     "section": "Reminders",
-    "text": "Reminders\n\nWPS1 due 25AUG\nExtra credit assignments published!\nAddress Cengage issues now!"
+    "text": "Reminders\n\nWPS1 due 25AUG\nExtra credit assignments published!\nAddress Cengage issues now!\nNext week: Algorithms and Problem Solving\n\nzyBook readings!"
   }
 ]

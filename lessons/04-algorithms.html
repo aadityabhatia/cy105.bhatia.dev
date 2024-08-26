@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -323,7 +388,7 @@
   </style>
 <meta property="og:title" content="Algorithms – CY105 Computing Fundamentals">
 <meta property="og:description" content="Solving problems with computers">
-<meta property="og:image" content="https://cy105.bhatia.dev//images/03/data-information-legos.webp">
+<meta property="og:image" content="https://cy105.bhatia.dev//images/04/04.webp">
 <meta property="og:site_name" content="CY105 Computing Fundamentals">
 </head>
 <body class="quarto-light">
@@ -339,48 +404,617 @@
 CPT Sonny Bhatia 
 </div>
         <p class="quarto-title-affiliation">
-            United States Military Academy
+            CY105
           </p>
     </div>
 </div>
 
-  <p class="date">Thursday, August 22, 2024</p>
+  <p class="date">Monday, August 26, 2024</p>
 </section>
-<section id="discussion" class="slide level2 center" data-timing="360">
+<section id="discussion" class="slide level2 center" data-timing="300">
 <h2>Discussion!</h2>
 <ul>
-<li><a href="https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/">Inside the “3 Billion People” National Public Data Breach</a></li>
-<li><a href="https://haveibeenpwned.com/">haveibeenpwned.com</a></li>
+<li><a href="https://www.youtube.com/watch?v=FN2RM-CHkuI">PB&amp;J Sandwich</a></li>
+<li>What is happening in the video?</li>
+<li>What does this tell us about how a computer solves problems vs a human?</li>
 </ul>
 </section>
-<section id="lesson-objectives" class="slide level2 center" data-timing="60">
+<section id="cy105-python-reference-card" class="slide level2 center" data-timing="120">
+<h2>CY105 Python Reference Card</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><img data-src="../images/referenceCard/CY105_ReferenceCard_AY251_1.png"></p>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>Resource for exams!</li>
+<li>Bring to class daily.</li>
+<li>Do <strong>not</strong> lose it.</li>
+<li>Do <strong>not</strong> write on it.
+<ul>
+<li>No scribbles, no notes!</li>
+<li>Exception: your name</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="lesson-objectives" class="slide level2 center" data-timing="30">
 <h2>Lesson Objectives</h2>
 <ul>
-<li>Articulate the four steps of computational problem solving: Understand the problem, Design and Algorithm, Implement your Solution, Test the Code</li>
+<li>Articulate the four steps of computational problem solving</li>
 <li>Articulate some strategies for understanding a problem and problem decomposition</li>
-<li>Define what an algorithm is and its building blocks: Sequencing, Conditionals, and Loops</li>
+<li>Define what an algorithm is and its building blocks
+<ul>
+<li>Sequencing</li>
+<li>Conditionals</li>
+<li>Loops</li>
+</ul></li>
 <li>Explain the difference between an algorithm, pseudocode and a program</li>
 <li>Practice writing algorithms the CY105 way</li>
 </ul>
 </section>
+<section id="announcements" class="slide level2 center" data-timing="30">
+<h2>Announcements</h2>
+<ul>
+<li>DAAW for WPS1 due yesterday!</li>
+<li>WPS2 due 02SEP
+<ul>
+<li>5 attempts; highest score counts</li>
+</ul></li>
+<li>Extra credit assignments published!</li>
+</ul>
+</section>
+<section>
+<section id="computational-problem-solving" class="title-slide slide level1 center">
+<h1>Computational Problem Solving</h1>
+
+<img data-src="../images/04/computational-problem-solving.png" class="r-stretch"><aside class="notes">
+<ul>
+<li>Process to formulate and solve problems</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="best-practices-for-problem-solving" class="slide level2 center">
+<h2>Best Practices for Problem Solving</h2>
+<div>
+<ul>
+<li class="fragment">Gather key facts</li>
+<li class="fragment">Identify main tasks</li>
+<li class="fragment">Inputs - what is given?</li>
+<li class="fragment">Outputs - what should you produce?</li>
+<li class="fragment">What can you assume?</li>
+<li class="fragment">Can you think of related mathematical equations?</li>
+</ul>
+</div>
+</section>
+<section id="when-in-doubt-draw-it-out" class="slide level2 center">
+<h2>When in doubt, draw it out!</h2>
+
+<img data-src="../images/04/how-much-data-lost.svg" class="r-stretch"></section>
+<section id="problem-decomposition" class="slide level2 center">
+<h2>Problem Decomposition</h2>
+<ul>
+<li>Top-Down Design</li>
+<li>Break the problem into smaller parts</li>
+<li>Solve each part separately</li>
+<li>Combine the solutions</li>
+</ul>
+</section>
+<section id="army-problem-solving-process" class="slide level2 center">
+<h2>Army Problem Solving Process</h2>
+
+<img data-src="../images/04/army-problem-solving.png" class="r-stretch"><ul>
+<li>Ref: <a href="https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN36775-FM_5-0-001-WEB-3.pdf">FM 5-0 The Operations Process</a></li>
+</ul>
+</section></section>
+<section>
+<section id="algorithm" class="title-slide slide level1 center" data-timing="0">
+<h1>Algorithm</h1>
+
+</section>
+<section id="what-is-an-algorithm" class="slide level2 center">
+<h2>What is an Algorithm?</h2>
+<div>
+<ul>
+<li class="fragment">Step-by-step process</li>
+<li class="fragment">Written in a human language</li>
+<li class="fragment">Describes how to solve a problem</li>
+<li class="fragment">Always gives the correct answer</li>
+</ul>
+</div>
+</section>
+<section id="is-this-a-good-algorithm" class="slide level2 center">
+<h2>Is this a good algorithm?</h2>
+
+<img data-src="../images/04/shampoo.png" class="r-stretch"><aside class="notes">
+<ul>
+<li>What is the problem? What is unclear about this algorithm?</li>
+<li>How much shampoo to add?</li>
+<li>How long do you lather for?</li>
+<li>When does the cycle stop!</li>
+<li>Is repeating really applicable for washing your hair?</li>
+<li>Do you shampoo multiple times in one shower?</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="another-algorithm" class="slide level2 smaller center">
+<h2>Another Algorithm</h2>
+<blockquote>
+<p>Step 1: Preheat the oven to 325°F. Grease a 9x5-inch loaf pan.</p>
+</blockquote>
+<blockquote>
+<p>Step 2: Whisk together flour and baking powder in a bowl. Cream together sugar and cream cheese with an electric mixer until fluffy. Stir in yogurt. Add eggs one at a time, beating well after each addition. Add vanilla bean paste. Slowly add flour mixture, beating on low speed and taking care not to overmix batter.</p>
+</blockquote>
+<blockquote>
+<p>Step 3: Warm chocolate-hazelnut spread in the microwave at 360 W until warm but not bubbling, about 1 minute. Stir and check consistency. Microwave for an additional 30 seconds if necessary.</p>
+</blockquote>
+<blockquote>
+<p>Step 4: Pour 1/2 of the cake batter into the prepared loaf pan. Pour in 2/3 of chocolate-hazelnut spread in a swirl over the batter. Pour in remaining batter and swirl remaining spread over the top. Use a bamboo skewer to create more swirls by running the skewer through the batter in a circular motion. Take care not to stir the mixture, but simply create a marbled design.</p>
+</blockquote>
+<blockquote>
+<p>Step 5: Bake in the preheated oven until a toothpick inserted into the center comes out clean, about 50 minutes. Allow to cool before removing from the pan.</p>
+</blockquote>
+<aside class="notes">
+<ul>
+<li>is it good?</li>
+<li>Precise?
+<ul>
+<li>room temperature? (3 eggs)</li>
+<li>Beating well? (Step 2)</li>
+<li>Taking care not to overmix batter? (Step 2)</li>
+</ul></li>
+<li>Unambiguous
+<ul>
+<li>about 1 minute? (Step 3)</li>
+</ul></li>
+<li>Eventually stops
+<ul>
+<li>Until…</li>
+</ul></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="building-blocks-of-algorithms" class="slide level2 center">
+<h2>Building Blocks of Algorithms</h2>
+<ul>
+<li>Sequencing</li>
+<li>Conditionals</li>
+<li>Loops</li>
+</ul>
+<aside class="notes">
+<p>The most simple algorithm may only contain sequence of steps, however, selection and iteration are important features to ensure all scenarios are accounted for and correct results are achieved.</p>
+<p>Let us look at some examples!</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="sequencing" class="slide level2 center">
+<h2>Sequencing</h2>
+<div>
+<ul>
+<li class="fragment">Wake up</li>
+<li class="fragment">Brush teeth</li>
+<li class="fragment">Shower</li>
+<li class="fragment">Wear clothes</li>
+<li class="fragment">Eat breakfast</li>
+<li class="fragment">Put on socks</li>
+<li class="fragment">Put on shoes</li>
+<li class="fragment">Go to class</li>
+</ul>
+</div>
+</section>
+<section id="conditionals" class="slide level2 center">
+<h2>Conditionals</h2>
+<div>
+<ul>
+<li class="fragment">Wake up</li>
+<li class="fragment">Brush teeth</li>
+<li class="fragment">Shower</li>
+<li class="fragment">Wear clothes</li>
+<li class="fragment">If raining, wear raincoat
+<ul>
+<li class="fragment">Else, wear light jacket</li>
+</ul></li>
+<li class="fragment">If I have time, eat breakfast
+<ul>
+<li class="fragment">Else, grab a granola bar</li>
+</ul></li>
+<li class="fragment">Put on socks</li>
+<li class="fragment">Put on shoes</li>
+<li class="fragment">Go to class</li>
+</ul>
+</div>
+</section>
+<section id="loops" class="slide level2 center">
+<h2>Loops</h2>
+<div>
+<ul>
+<li class="fragment">Wake up</li>
+<li class="fragment">Brush teeth</li>
+<li class="fragment">Shower
+<ul>
+<li class="fragment">Grab shampoo</li>
+<li class="fragment">Lather</li>
+<li class="fragment">Rinse</li>
+<li class="fragment">Repeat until clean</li>
+</ul></li>
+<li class="fragment">…</li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="pseudocode" class="title-slide slide level1 center">
+<h1>Pseudocode</h1>
+<ul>
+<li>Notation more precise than English</li>
+<li>Not as precise as a programming language</li>
+<li>Uses sequencing, conditionals, and loops</li>
+<li>Does not actually run on a computer</li>
+</ul>
+</section>
+<section id="example-data-lost-algorithm" class="slide level2 center">
+<h2>Example: Data Lost Algorithm</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource pseudocode number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>Inputs: Size of HD (in GB)</span>
+<span id="cb1-2"><a></a>Output: Displays actual size of HD in GiB, and the theoretical amount of data lost in GiB</span>
+<span id="cb1-3"><a></a>Assumptions: User inputs an integer</span>
+<span id="cb1-4"><a></a></span>
+<span id="cb1-5"><a></a>1. Ask the user to input the size of the hard drive in GB (in_size).</span>
+<span id="cb1-6"><a></a></span>
+<span id="cb1-7"><a></a>2. If in_size is less than or equal to 0, output 0 and quit. Otherwise, continue to step 3.</span>
+<span id="cb1-8"><a></a></span>
+<span id="cb1-9"><a></a>3. Compute actual size of the hard drive (in bytes): actual = in_size x 109.</span>
+<span id="cb1-10"><a></a></span>
+<span id="cb1-11"><a></a>4. Compute theoretical size of the hard drive (in bytes): theoretical = in_size x 230.</span>
+<span id="cb1-12"><a></a></span>
+<span id="cb1-13"><a></a>5. Compute the data lost (in bytes): loss = theoretical - actual.</span>
+<span id="cb1-14"><a></a></span>
+<span id="cb1-15"><a></a>6. Compute and output the actual size of the hard drive in GiB, rounded to two decimal places:  actual / 230.</span>
+<span id="cb1-16"><a></a></span>
+<span id="cb1-17"><a></a>7. Compute and output the data lost in GiB, rounded to two decimal places: loss / 230.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section></section>
+<section>
+<section id="program" class="title-slide slide level1 center">
+<h1>Program</h1>
+<ul>
+<li>Expressed in a programming language</li>
+<li>Implementation of an algorithm</li>
+<li>Can be run on a computer</li>
+</ul>
+</section>
+<section id="example-data-lost-program" class="slide level2 center">
+<h2>Example: Data Lost Program</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="co">#Ask the user to input the size of the hard drive in GB (in_size).</span></span>
+<span id="cb2-2"><a></a>in_size <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Please enter drive size in GB: "</span>))</span>
+<span id="cb2-3"><a></a></span>
+<span id="cb2-4"><a></a><span class="co">#if in_size is less than or equal to 0, output 0 and quit. Otherwise, continue to step 3.</span></span>
+<span id="cb2-5"><a></a><span class="cf">if</span> in_size <span class="op">&lt;=</span> <span class="dv">0</span>:</span>
+<span id="cb2-6"><a></a>    <span class="bu">print</span>(<span class="st">"Invalid input."</span>)</span>
+<span id="cb2-7"><a></a></span>
+<span id="cb2-8"><a></a><span class="cf">else</span>:</span>
+<span id="cb2-9"><a></a>    <span class="co">#Compute actual size of the hard drive (in bytes): actual = in_size x 10^9.</span></span>
+<span id="cb2-10"><a></a>    actual <span class="op">=</span> in_size <span class="op">*</span> <span class="dv">10</span><span class="op">**</span><span class="dv">9</span></span>
+<span id="cb2-11"><a></a></span>
+<span id="cb2-12"><a></a>    <span class="co">#Compute theoretical size of the hard drive (in bytes): theoretical = in_size x 230.</span></span>
+<span id="cb2-13"><a></a>    theoretical <span class="op">=</span> in_size <span class="op">*</span> <span class="dv">2</span><span class="op">**</span><span class="dv">30</span></span>
+<span id="cb2-14"><a></a></span>
+<span id="cb2-15"><a></a>    <span class="co">#Compute the data lost (in bytes): loss = theoretical - actual.</span></span>
+<span id="cb2-16"><a></a>    loss <span class="op">=</span> theoretical <span class="op">-</span> actual</span>
+<span id="cb2-17"><a></a></span>
+<span id="cb2-18"><a></a>    <span class="co">#Compute and output the actual size of the hard drive in GiB, rounded to two decimal places</span></span>
+<span id="cb2-19"><a></a>    actual_GiB <span class="op">=</span> actual <span class="op">/</span> <span class="dv">2</span><span class="op">**</span><span class="dv">30</span></span>
+<span id="cb2-20"><a></a>    <span class="bu">print</span>(<span class="st">"The hard drive is actually:"</span>, <span class="bu">round</span>(actual_GiB, <span class="dv">2</span>), <span class="st">"GiB"</span>)</span>
+<span id="cb2-21"><a></a></span>
+<span id="cb2-22"><a></a>    <span class="co">#Compute and output the data lost in GiB, rounded to two decimal places: loss / 230.</span></span>
+<span id="cb2-23"><a></a>    loss_GiB <span class="op">=</span> loss <span class="op">/</span> <span class="dv">2</span><span class="op">**</span><span class="dv">30</span></span>
+<span id="cb2-24"><a></a>    <span class="bu">print</span>(<span class="st">"This represents a loss of"</span>, <span class="bu">round</span>(loss_GiB, <span class="dv">2</span>), <span class="st">"GiB"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="writing-algorithms-the-cy105-way" class="slide level2 center">
+<h2>Writing Algorithms the CY105 Way​</h2>
+<ul>
+<li>Must be written in English and not contain computer code!</li>
+<li>Be easy to read and understand!</li>
+<li>Be ordered in sequence!</li>
+<li>Contain enough detail to solve the problem!</li>
+</ul>
+</section>
+<section id="example" class="slide level2 center">
+<h2>Example</h2>
+
+<img data-src="../images/04/pseudocode-examples.svg" class="r-stretch"></section></section>
+<section>
+<section id="in-class-exercise" class="title-slide slide level1 center" data-timing="960">
+<h1>In-Class Exercise</h1>
+
+</section>
+<section id="base-frequency" class="slide level2 center">
+<h2>Base Frequency</h2>
+<p>Genomic data primarily consists of four bases: adenosine (A), guanine (G), cytosine (C), and thymine (T). It is the basic unit of data in the human body. Write an algorithm that computes the percentage of As, Gs, Cs, and Ts in a given DNA sequence and displays it to the screen.</p>
+<p>For example, the sequence AGCCGTCGTCTATAT is 15 characters long. There are 3 As, 3 Gs, 4 Cs, and 5 Ts in this sequence. Therefore, the percentage of As is 20%, the percentage of Gs is 20%, the percentage of Cs is 26.7%, and the percentage of Ts s 33.3%. While you may assume that the only letters in the string are A,G,C, or T, you may not make any assumptions the length of the DNA sequence.</p>
+<aside class="notes">
+<ul>
+<li>Problem: Base Frequency</li>
+<li>Input: DNA sequence (sequence of As,Gs, Cs, and Ts)</li>
+<li>Output: Frequence of each base</li>
+</ul>
+<ol type="1">
+<li>Initialize individual counters for A, G, C and T to 0.</li>
+<li>For each base in the sequence:
+<ul>
+<li>If the base is A, update the A counter by 1</li>
+<li>If the base is G, update the G counter by 1</li>
+<li>If the base is C, update the C counter by 1</li>
+<li>If the base is T, update the T counter by 1</li>
+</ul></li>
+<li>Compute the length of the sequence.</li>
+<li>Compute the percentage occurrence of each base, which is its frequency / length.</li>
+<li>Output the respective percentages of each base, rounded to one decimal place.</li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="error-detection" class="slide level2 center">
+<h2>Error Detection</h2>
+<p>Electrical fluctuations in computers can sometimes cause bits to flip in data. As a result, many binary strings usually use a parity bit to help check if a bitstring has errors in it. For example, all ASCII characters can be represented using just 7 bits. Instead, the character data is stored using a total of 8 bits, where the last bit (the right-most), called the parity bit, is set to 0 if the number of 1s in the other 7 bits is even. Otherwise, the parity bit is set to 1.</p>
+<p>Write an algorithm that takes an 8-bit string and determines if it is corrupted.</p>
+<aside class="notes">
+<ul>
+<li>Problem: Error Detection</li>
+<li>Input: Bit string (8-bits long)</li>
+<li>Output: True if the bit string is corrupted, False otherwise</li>
+</ul>
+<ol type="1">
+<li>Initialize a counter to 0</li>
+<li>For each bit in the bitstring:
+<ul>
+<li>If the bit is a 1, increment the counter.</li>
+</ul></li>
+<li>If the number of 1s is even, output False. Otherwise, output True.</li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="high-low" class="slide level2 center">
+<h2>High Low</h2>
+<p>The radio station, 100.7 WHUD has a game called the High Low Cash Game, where people have to call in to guess the amount of money in a cash vault. The radio hosts never say the dollar amount on the air but will tell a caller if their guess is “too high” or “too low”. To win the jackpot, the caller has to guess the dollar amount down to the last cent. Assuming the jackpot is never more than $10,000.00, devise an algorithm that will guarantee a win in the fewest amount of calls (assume that all the callers agree to follow the same algorithm). Following your algorithm, what is the maximum number of calls needed to assure a win?</p>
+<aside class="notes">
+<ul>
+<li>Problem: High Low (Hard)</li>
+<li>Input: Nothing (some secret number is set)</li>
+<li>Output: number of guesses?</li>
+<li>Assumptions: Secret number is between 0 and $10,000. Must get answer correct to last center to win.</li>
+</ul>
+<ol type="1">
+<li>Set top tracker to 1,000,000 ($10,000 in cents)</li>
+<li>Set bottom tracker to $0</li>
+<li>Set guess counter to 1</li>
+<li>Repeat until the secret number is guessed:
+<ul>
+<li>Set the guess to (top tracker – bottom tracker) / 2</li>
+<li>Convert guess to dollars and check to see if dollar amount is equal to secret number. If so, output number of guesses it took and quit.</li>
+<li>Otherwise, program outputs “too high” or “too low”. Increment guess counter by 1.</li>
+<li>If guess was too high: set top tracker to the current guess value. Go back to step 3.</li>
+<li>If the guess is too low: set the bottom tracker to the current guess value. Go back to step 3.</li>
+</ul></li>
+</ol>
+<p>Since the algorithm above cuts the search space in half each time, we are guaranteed to find the answer in about 20 guesses.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="perfect-number" class="slide level2 center">
+<h2>Perfect Number</h2>
+<p>A number is considered perfect if the sum of its divisors (excluding the number itself) is equal to the number. Here are some examples of perfect numbers:</p>
+<ul>
+<li><code>6 = 1 + 2 + 3</code></li>
+<li><code>28 = 1 + 2 + 4 + 7 + 14</code></li>
+<li><code>496 = 1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248</code></li>
+</ul>
+<p>Write an algorithm for a program that can if a particular integer is perfect. You may assume that the inputted number is always a positive integer.</p>
+<aside class="notes">
+<ul>
+<li>Problem: Perfect Number</li>
+<li>Input: An integer, n</li>
+<li>Output: True if the number is perfect, False otherwise</li>
+<li>Assumptions: A perfect number is a number whose sum of its divisors (excluding itself) is equal to it.</li>
+</ul>
+<ol type="1">
+<li>If the inputted number is less than or equal to 5, return False. (there are no perfect numbers under 5)</li>
+<li>Initialize a counter to 0</li>
+<li>For each number from 1 up to (but not including) n:
+<ul>
+<li>Determine if number evenly divides n.</li>
+<li>If so, add the number to the counter.</li>
+</ul></li>
+<li>Check to see if the value in the counter is equal to n.&nbsp;If so, output True. Otherwise, output False.</li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="magic-number" class="slide level2 center">
+<h2>Magic Number</h2>
+<p>There is a two-digit number that when squared, the resulting three-digit number has the same rightmost two digits as the original two-digit number. In other words, for a number of the form AB, <code>AB * AB = CAB</code> for some C.</p>
+<p>Write an algorithm for a program that will discover what this special number is through brute-force (in other words, iterating through all possibilities).</p>
+<aside class="notes">
+<ul>
+<li>Problem: Magic Number</li>
+<li>Input: None</li>
+<li>Output: The first two-digit number of the form AB, such that AB * AB = CAB for some C.</li>
+<li>Assumptions: The number is a two-digit integer [10..99]. Search is done “brute force”</li>
+</ul>
+<ol type="1">
+<li>Initialize checker to 10.</li>
+<li>Repeat until magic number is determined (or we exceed 99):
+<ul>
+<li>Compute the square of checker (checker * checker).</li>
+<li>If checker squared does not contain three digits, skip and go to step 2.</li>
+<li>If checker squared does contain three digits, determine if last two digits is equal to checker. If so, stop and output checker as the magic number.</li>
+<li>Otherwise, increment checker by 1, and go back to step 2.</li>
+</ul></li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="fibonacci-sum" class="slide level2 center">
+<h2>Fibonacci Sum</h2>
+<p>The Fibonacci sequence is a famous one in mathematics, where Fibonacci number is derived from the sum of the previous two Fibonacci numbers. The first few Fibonacci numbers are:</p>
+<blockquote>
+<p>0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, …</p>
+</blockquote>
+<p>Write an algorithm for a program that, given a number n, will compute the sum of the first n Fibonacci numbers. For example, inputting 3 should yield 2, while inputting 10 should yield 88.</p>
+<aside class="notes">
+<ul>
+<li>Problem: Fibonacci Sum (Hard)</li>
+<li>Input: Number of Fibonacci terms (n)</li>
+<li>Output: Sum of the first n Fibonacci terms</li>
+</ul>
+<ol type="1">
+<li>If n is less than or equal to 1, output 0.</li>
+<li>Set current to be 1</li>
+<li>Set n_minus_one tracker to be 0</li>
+<li>Set n_minus_two tracker to be 0</li>
+<li>Set counter to 1</li>
+<li>Set sum to 1</li>
+<li>Repeat until counter is equal to n:
+<ul>
+<li>Update sum by adding current to sum</li>
+<li>Set n_minus_two to be the value of the n-minus-one tracker</li>
+<li>Set n_minus_one to be the value of the current tracker</li>
+<li>Set current equal to n_minus_one + n_minus_two</li>
+<li>Increment counter by 1</li>
+</ul></li>
+<li>Output the sum</li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
 <section>
 <section id="conclusion" class="title-slide slide level1 center" data-timing="0">
 <h1>Conclusion</h1>
 
 </section>
-<section id="check-on-learning" class="slide level2 smaller center" data-timing="300">
+<section id="check-on-learning" class="slide level2 smaller center" data-timing="120">
 <h2>Check on Learning</h2>
 <div>
-
+<ul>
+<li class="fragment">Four steps of computational problem solving
+<ul>
+<li class="fragment">Understand the Problem</li>
+<li class="fragment">Design an Algorithm</li>
+<li class="fragment">Implement a Solution</li>
+<li class="fragment">Test the Code</li>
+</ul></li>
+<li class="fragment">How do you decompose a problem?</li>
+<li class="fragment">What are the building blocks of an algorithm?
+<ul>
+<li class="fragment">Sequencing</li>
+<li class="fragment">Conditionals</li>
+<li class="fragment">Loops</li>
+</ul></li>
+<li class="fragment">What is pseudocode?</li>
+<li class="fragment">Is an algorithm the same as pseudocode?</li>
+<li class="fragment">Can you run pseudocode?</li>
+<li class="fragment">What is the difference between an algorithm and a program?</li>
+<li class="fragment">Can you run a program?</li>
+</ul>
 </div>
 </section>
 <section id="reminders" class="slide level2 center">
 <h2>Reminders</h2>
 <ul>
-<li>WPS1 due 25AUG</li>
+<li>WPS2 due 02SEP</li>
 <li>Extra credit assignments published!</li>
 <li>Lesson 5 readings are long; start early and come prepared!</li>
-<li>Cengage issues?</li>
+<li>Bluefruit?</li>
 </ul>
 
 <div class="quarto-auto-generated-content">
@@ -399,6 +1033,8 @@ CPT Sonny Bhatia
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
+  <script src="../site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -420,6 +1056,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'multiplex': {"secret":null,"id":"e2d7bff9391fb493","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -593,7 +1230,7 @@ CPT Sonny Bhatia
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
-          RevealNotes,
+          
           RevealSearch,
           RevealZoom
         ]
