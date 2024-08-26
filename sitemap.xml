@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cy105.bhatia.dev/lessons/02-office.html</loc>
-    <lastmod>2024-08-20T23:21:18.786Z</lastmod>
+    <lastmod>2024-08-26T03:20:52.680Z</lastmod>
   </url>
   <url>
-    <loc>https://cy105.bhatia.dev/lessons/04-algorithms.html</loc>
-    <lastmod>2024-08-26T03:10:42.166Z</lastmod>
+    <loc>https://cy105.bhatia.dev/lessons/05-python.html</loc>
+    <lastmod>2024-08-26T03:24:52.474Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cy105.bhatia.dev/lessons/01-introduction.html</loc>
+    <lastmod>2024-08-26T03:20:18.780Z</lastmod>
   </url>
   <url>
     <loc>https://cy105.bhatia.dev/index.html</loc>
     <lastmod>2024-08-26T03:15:29.501Z</lastmod>
   </url>
   <url>
-    <loc>https://cy105.bhatia.dev/lessons/01-introduction.html</loc>
-    <lastmod>2024-08-19T01:46:54.401Z</lastmod>
+    <loc>https://cy105.bhatia.dev/lessons/04-algorithms.html</loc>
+    <lastmod>2024-08-26T03:20:26.907Z</lastmod>
   </url>
   <url>
     <loc>https://cy105.bhatia.dev/lessons/03-computers-data.html</loc>
-    <lastmod>2024-08-22T20:34:06.121Z</lastmod>
+    <lastmod>2024-08-26T03:20:22.932Z</lastmod>
   </url>
 </urlset>
