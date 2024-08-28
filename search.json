@@ -84,333 +84,39 @@
     "text": "Next Class\n\nComputers and Data\nWPS1 due 25AUG\nWPS2 will be assigned soon\nzyBooks readings!"
   },
   {
-    "objectID": "lessons/05-python.html#discussion",
-    "href": "lessons/05-python.html#discussion",
-    "title": "Python Basics",
+    "objectID": "lessons/06-built-in-functions.html#discussion",
+    "href": "lessons/06-built-in-functions.html#discussion",
+    "title": "Built-in Functions",
     "section": "Discussion!",
-    "text": "Discussion!\n\nFlipper Zero\nRaspberry Pi\nWhat is Python?"
+    "text": "Discussion!"
   },
   {
-    "objectID": "lessons/05-python.html#lesson-objectives",
-    "href": "lessons/05-python.html#lesson-objectives",
-    "title": "Python Basics",
+    "objectID": "lessons/06-built-in-functions.html#lesson-objectives",
+    "href": "lessons/06-built-in-functions.html#lesson-objectives",
+    "title": "Built-in Functions",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nIdentify basic data types represented in programs\nDistinguish between data types and data values.\nUse variables to store information in a program\nWrite very basic Python programs.\n\n\n\nBring up agenda\nReference cards!\n\nBring them daily.\n\nTest your monitors.\n\nConsider bringing a spare mouse to easily navigate between screens."
+    "text": "Lesson Objectives"
   },
   {
-    "objectID": "lessons/05-python.html#writing-algorithms",
-    "href": "lessons/05-python.html#writing-algorithms",
-    "title": "Python Basics",
-    "section": "Writing Algorithms",
-    "text": "Writing Algorithms\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite an algorithm that accomplishes this task!\n\n\nask the user for their name\nprint out hello followed by their name\nask how many slices of pizza they want\nmultiply quantity by the cost (2.50)\nprint total to the screen"
+    "objectID": "lessons/06-built-in-functions.html#announcements",
+    "href": "lessons/06-built-in-functions.html#announcements",
+    "title": "Built-in Functions",
+    "section": "Announcements",
+    "text": "Announcements"
   },
   {
-    "objectID": "lessons/05-python.html#check-on-learning",
-    "href": "lessons/05-python.html#check-on-learning",
-    "title": "Python Basics",
+    "objectID": "lessons/06-built-in-functions.html#check-on-learning",
+    "href": "lessons/06-built-in-functions.html#check-on-learning",
+    "title": "Built-in Functions",
     "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nWhat is a data type?\nIs data type the same as a variable?\nWhat are the standard data types in Python?\nHow do you assign a variable in Python?\nWhat is a procedure?\nWhat does print() do?\nWhat does type() do?\nWhat is a list?\nWhat is a boolean?\nWhat is the difference between = and ==?\n\n\n\n\nint, float, str, list, bool"
+    "text": "Check on Learning"
   },
   {
-    "objectID": "lessons/05-python.html#more-check-on-learning",
-    "href": "lessons/05-python.html#more-check-on-learning",
-    "title": "Python Basics",
-    "section": "More Check on Learning",
-    "text": "More Check on Learning\n\n\nIs this a string? \"hello\"\nIs this a string? \"11\"\nWhat is the type of: 3.1415\nWhat is the type of: 3\nWhat is the type of: 3.0\nWhat is the type of: True\nWhat is the type of: \"True\"\nWhat is the value of: 5 + 3 * 2\nWhat is the value of: 5 % 3\nWhat is the value of: 5 / 2\nWhat is the value of: 5 // 2"
-  },
-  {
-    "objectID": "lessons/05-python.html#programming-environment",
-    "href": "lessons/05-python.html#programming-environment",
-    "title": "Python Basics",
-    "section": "Programming Environment",
-    "text": "Programming Environment\n\nStart -&gt; python\nNotepad++\nzyBook\n\n\nPython Tutor\nBlack Code Formatter"
-  },
-  {
-    "objectID": "lessons/05-python.html#hello-world",
-    "href": "lessons/05-python.html#hello-world",
-    "title": "Python Basics",
-    "section": "Hello World!",
-    "text": "Hello World!\n\nSimplest program in any language\nDemonstrates how to accomplish a basic task\n\nprint(\"Hello, World!\")"
-  },
-  {
-    "objectID": "lessons/05-python.html#writing-code",
-    "href": "lessons/05-python.html#writing-code",
-    "title": "Python Basics",
-    "section": "Writing Code",
-    "text": "Writing Code"
-  },
-  {
-    "objectID": "lessons/05-python.html#running-code",
-    "href": "lessons/05-python.html#running-code",
-    "title": "Python Basics",
-    "section": "Running Code",
-    "text": "Running Code"
-  },
-  {
-    "objectID": "lessons/05-python.html#real-python-program",
-    "href": "lessons/05-python.html#real-python-program",
-    "title": "Python Basics",
-    "section": "Real Python Program",
-    "text": "Real Python Program\n\"\"\"\nUse triple quotes to create multi-line comments.\nThe Python interpreter ignore comments.\n\"\"\"\n\ndef main():  # a procedure called main\n    print(\"hello world!\")  # print statement\n\nmain()  # invoke the main procedure\n\nCopy the code above into Notepad++\nObserve the different colors. What do they mean?"
-  },
-  {
-    "objectID": "lessons/05-python.html#variables",
-    "href": "lessons/05-python.html#variables",
-    "title": "Python Basics",
-    "section": "Variables",
-    "text": "Variables\n\nStore data in memory\nCan be changed as many times as needed\nMust be assigned a value before first use!\nName is how you refer to the value\nValue is what is stored in the variable\n\nx = 5\ny = 3.14\nz = \"hello\"\n\n\n\n\nx = 5 y = 3.14 z = “hello” x"
-  },
-  {
-    "objectID": "lessons/05-python.html#variable-names",
-    "href": "lessons/05-python.html#variable-names",
-    "title": "Python Basics",
-    "section": "Variable Names",
-    "text": "Variable Names\n\nMust start with a letter or underscore\nCan contain letters, numbers, and underscores\nCase sensitive\nCannot be a reserved word\n\n\n\n\n\nx = 5 4x = 20 x4 = 20 x_x = 1 print(X_X) True = 1 False = 0 return = True"
-  },
-  {
-    "objectID": "lessons/05-python.html#data-types",
-    "href": "lessons/05-python.html#data-types",
-    "title": "Python Basics",
-    "section": "Data Types",
-    "text": "Data Types\n\nint - integer\nfloat - floating point number\nstr - string\nbool - boolean\nlist - list\n\n\n\n\n\ntype(x) type(y) type(z)"
-  },
-  {
-    "objectID": "lessons/05-python.html#basic-arithmetic",
-    "href": "lessons/05-python.html#basic-arithmetic",
-    "title": "Python Basics",
-    "section": "Basic Arithmetic",
-    "text": "Basic Arithmetic\n\n+ - addition\n- - subtraction\n* - multiplication\n/ - division\n** - exponentiation\n// - floor division\n% - modulo\n\n\n\n\n\n10 + 4 10 - 4 10 * 4 10 / 4 10 ** 4 10 // 4 10 % 4 10 % 3 10 % 1"
-  },
-  {
-    "objectID": "lessons/05-python.html#order-of-operations",
-    "href": "lessons/05-python.html#order-of-operations",
-    "title": "Python Basics",
-    "section": "Order of Operations",
-    "text": "Order of Operations\n\nParentheses\nExponents\nMultiplication and Division\nAddition and Subtraction\n\n\n\n\n\n5 + 3 * 2 = 11 (5 + 3) * 2 = 16 5 + 3 * 2 ** 2 = 17 (5 + 3) * 2 ** 2 = 32"
-  },
-  {
-    "objectID": "lessons/05-python.html#converting-data-types",
-    "href": "lessons/05-python.html#converting-data-types",
-    "title": "Python Basics",
-    "section": "Converting Data Types",
-    "text": "Converting Data Types\n\nint() - convert to integer\nfloat() - convert to floating point number\nstr() - convert to string\n\n\n\n\n\nint(3.14) float(3) str(3)"
-  },
-  {
-    "objectID": "lessons/05-python.html#lists",
-    "href": "lessons/05-python.html#lists",
-    "title": "Python Basics",
-    "section": "Lists",
-    "text": "Lists\n\nStore multiple values in one variable\nCan store different data types\nUse square brackets []\n\n\n\n\n\nx = [1, 2, 3] y = [“hello”, 3.14, True]"
-  },
-  {
-    "objectID": "lessons/05-python.html#concatenation",
-    "href": "lessons/05-python.html#concatenation",
-    "title": "Python Basics",
-    "section": "Concatenation",
-    "text": "Concatenation\n\nCombine strings using +\nCan combine lists!\n\n\n\n\n\n“hello” + “world” [1, 2, 3] + [4, 5, 6]"
-  },
-  {
-    "objectID": "lessons/05-python.html#user-input",
-    "href": "lessons/05-python.html#user-input",
-    "title": "Python Basics",
-    "section": "User Input",
-    "text": "User Input\n\ninput() - get user input\nAlways returns a string\nUse int() or float() to convert\n\n\n\n\n\nx = input(“Enter a number:”) x type(x) x = int(x) type(x)"
-  },
-  {
-    "objectID": "lessons/05-python.html#pizza",
-    "href": "lessons/05-python.html#pizza",
-    "title": "Python Basics",
-    "section": "Pizza!",
-    "text": "Pizza!\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite a Python program following your algorithm!"
-  },
-  {
-    "objectID": "lessons/05-python.html#in-class-exercise-2",
-    "href": "lessons/05-python.html#in-class-exercise-2",
-    "title": "Python Basics",
-    "section": "In-Class Exercise 2",
-    "text": "In-Class Exercise 2\n\nWrite a program that stores the value 18 in a variable named Age, and displays My age is followed by the value in Age. To do this, place both items inside the parentheses for print() but separate them with a comma.\nAdd more code to display what happens when you have a birthday (assign the value 19 to the same variable Age) and display the age again. Run the code so you can see both lines of output.\n\n\nzyBook ICE 2\n\ndef main():\n    # Write your code here\n\nmain()"
-  },
-  {
-    "objectID": "lessons/05-python.html#in-class-exercise-3",
-    "href": "lessons/05-python.html#in-class-exercise-3",
-    "title": "Python Basics",
-    "section": "In-Class Exercise 3",
-    "text": "In-Class Exercise 3\n\nCopy the code from ICE 2 to the box below. Next, replace the assignment statement Age = 19 with Age = Age + 1 to make the code more versatile. (This way, Age could have any value and it would still be increased by one.) Note that the expression Age + 1 will be evaluated as 19 before that value is assigned to Age. Run the program again to verify that the result is still the same as before.\nNow replace that statement with Age += 1. The only practical difference in this line is that it’s shorter. Verify that the program still works.\n\ndef main():\n    # Write your code here\n\nmain()"
-  },
-  {
-    "objectID": "lessons/05-python.html#in-class-exercise-5",
-    "href": "lessons/05-python.html#in-class-exercise-5",
-    "title": "Python Basics",
-    "section": "In-Class Exercise 5",
-    "text": "In-Class Exercise 5\n\nWrite a program to perform floor (integer) division of two numbers provided by a user.\n\n\nTo accomplish this, first you should request a number from the user and store it in a variable; be sure to also convert it to an integer.\nDo the same to request a smaller number and store it in a second variable.\nPerform floor division (divide the large number by the small number) and store the result in a third variable.\nThen calculate the remainder of dividing the large number by the small number and store it in a fourth variable.\nDisplay the results of the division using all four variables, as seen below."
-  },
-  {
-    "objectID": "lessons/05-python.html#in-class-exercise",
-    "href": "lessons/05-python.html#in-class-exercise",
-    "title": "Python Basics",
-    "section": "In-Class Exercise",
-    "text": "In-Class Exercise\n3**2 + 4 * -2 + (6 + 5) * (2 + 3)"
-  },
-  {
-    "objectID": "lessons/05-python.html#reminders",
-    "href": "lessons/05-python.html#reminders",
-    "title": "Python Basics",
+    "objectID": "lessons/06-built-in-functions.html#reminders",
+    "href": "lessons/06-built-in-functions.html#reminders",
+    "title": "Built-in Functions",
     "section": "Reminders",
-    "text": "Reminders\n\nBring your reference cards to class daily\nErase whiteboards and clean up your area\nWPS2 is due 02SEP"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
-    "href": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
-    "title": "Welcome to CY105",
-    "section": "Dean’s Intellectual Theme for AY25",
-    "text": "Dean’s Intellectual Theme for AY25\n\nThe Human and the Machine: Leadership on the Emerging Battlefield"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#about-me",
-    "href": "lessons/01-introduction.html#about-me",
-    "title": "Welcome to CY105",
-    "section": "About Me",
-    "text": "About Me\n\n\n\nBS Computer Science, San Jose State Univ\nWorked in Silicon Valley\nEnlisted -&gt; Infantry -&gt; deployed (Afg)\nCommissioned as Cyber Officer\nOCO, Tactical, DCO, Company Cdr\nMS Computer Science, Univ of Central Florida\nMarried for 4 years\n\nLove to travel and hike\nEnjoy new (vegetarian) foods!"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#cadet-introductions",
-    "href": "lessons/01-introduction.html#cadet-introductions",
-    "title": "Welcome to CY105",
-    "section": "Cadet Introductions",
-    "text": "Cadet Introductions\n\nFull Name\nName you like to be called\nCompany\nHometown\nActivities or sports plan to be involved with\nWhat excites you about technology?"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#cy105-course-objectives",
-    "href": "lessons/01-introduction.html#cy105-course-objectives",
-    "title": "Welcome to CY105",
-    "section": "CY105 Course Objectives",
-    "text": "CY105 Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
-  },
-  {
-    "objectID": "lessons/01-introduction.html#whats-in-it-for-you",
-    "href": "lessons/01-introduction.html#whats-in-it-for-you",
-    "title": "Welcome to CY105",
-    "section": "What’s in it for you?",
-    "text": "What’s in it for you?\n\n\n\n\n\n“Information superiority is the operational advantage derived from the ability to collect, process, and disseminate an uninterrupted flow of information while exploiting or denying an adversary’s ability to do the same…”\nFM 3-0, Operations, February 2008​\n\n\n\n\ninformation makes you smarter\naccess to information makes you an effective leader\nincrease your confidence with IT systems\nhelp you learn new IT concepts and systems​\nprotect yourself and your organization\nfoundational course for everyone"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#section-marcher-duties",
-    "href": "lessons/01-introduction.html#section-marcher-duties",
-    "title": "Welcome to CY105",
-    "section": "Section Marcher Duties",
-    "text": "Section Marcher Duties\n\n\n\nExhibit peer leadership\nVolunteer Section Marcher (first 4 lessons)\n\nand Assistant Section Marcher\n\nAfterwards: based on PDR assignments\nDuties\n\nInspection at beginning of class\nAttendance\nBriefly inspect uniforms, general appearance\nNo food, gum or backpacks\n\nIf Dean or Supt visit, call class to attention"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#additional-instruction",
-    "href": "lessons/01-introduction.html#additional-instruction",
-    "title": "Welcome to CY105",
-    "section": "Additional Instruction",
-    "text": "Additional Instruction\n\nWhen you need additional help, reach out\nUse the booking link at cy105.bhatia.dev or email signature\nComplete required readings and in-class exercises\nBook a meeting\nCome prepared with specific questions and bring your computer\nPlan ahead and do not wait until the assignment due date!"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#zybooks",
-    "href": "lessons/01-introduction.html#zybooks",
-    "title": "Welcome to CY105",
-    "section": "zyBooks",
-    "text": "zyBooks\n\n\n\nAccess key provided by bookstore\nCanvas -&gt; zyBooks\n\ndo not create a separate account!\n“practice” zyBook assignment\n\nEnter access key\nDaily readings before class!"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#cengage",
-    "href": "lessons/01-introduction.html#cengage",
-    "title": "Welcome to CY105",
-    "section": "Cengage",
-    "text": "Cengage\nNeed access before next class!\n\nIf unable to access, email me immediately!\n\n\nLogin to Canvas\nNavigate to the course titled “Canvas Activation Course 2024”\nClick “Please complete this module”\nClick “Load Cengage Unlimited Multi-term 24 months Instant Access to a new window”\nRegister for an account using westpoint.edu email address\nOpen the Microsoft 365 lesson module and click the “Cengage: Microsoft 365 Pre-Class Exercise (ungraded)” link\nLog in\nEnroll in the course"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#python",
-    "href": "lessons/01-introduction.html#python",
-    "title": "Welcome to CY105",
-    "section": "python",
-    "text": "python\n \nStart Menu –&gt; PowerShell –&gt; Type python"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#text-editor",
-    "href": "lessons/01-introduction.html#text-editor",
-    "title": "Welcome to CY105",
-    "section": "Text Editor",
-    "text": "Text Editor\n\nNotepad++\nVisual Studio Code\nMicrosoft Word?"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#writing-code",
-    "href": "lessons/01-introduction.html#writing-code",
-    "title": "Welcome to CY105",
-    "section": "Writing Code",
-    "text": "Writing Code"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#running-code",
-    "href": "lessons/01-introduction.html#running-code",
-    "title": "Welcome to CY105",
-    "section": "Running Code",
-    "text": "Running Code"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#moss---measure-of-software-similarity",
-    "href": "lessons/01-introduction.html#moss---measure-of-software-similarity",
-    "title": "Welcome to CY105",
-    "section": "MOSS - Measure of Software Similarity",
-    "text": "MOSS - Measure of Software Similarity"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#zybooks-simchecker",
-    "href": "lessons/01-introduction.html#zybooks-simchecker",
-    "title": "Welcome to CY105",
-    "section": "zyBooks SimChecker",
-    "text": "zyBooks SimChecker"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#codequiry-plagiarism-detection",
-    "href": "lessons/01-introduction.html#codequiry-plagiarism-detection",
-    "title": "Welcome to CY105",
-    "section": "Codequiry Plagiarism Detection",
-    "text": "Codequiry Plagiarism Detection"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#generative-ai-tools",
-    "href": "lessons/01-introduction.html#generative-ai-tools",
-    "title": "Welcome to CY105",
-    "section": "Generative AI Tools",
-    "text": "Generative AI Tools\n\nAI tools may be used to determine what AI-generated responses to a particular prompt may look like either before or after issuing an assignment.\nThese responses can be compared to cadets’ submissions using MOSS or zyLabs Similarity Checker to determine if a cadet’s submission contains features that suggest unauthorized or undocumented AI use."
-  },
-  {
-    "objectID": "lessons/01-introduction.html#next-class",
-    "href": "lessons/01-introduction.html#next-class",
-    "title": "Welcome to CY105",
-    "section": "Next Class",
-    "text": "Next Class"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Computing Fundamentals",
-    "section": "",
-    "text": "This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
-  },
-  {
-    "objectID": "index.html#course-objectives",
-    "href": "index.html#course-objectives",
-    "title": "Computing Fundamentals",
-    "section": "Course Objectives",
-    "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
-  },
-  {
-    "objectID": "index.html#additional-instruction",
-    "href": "index.html#additional-instruction",
-    "title": "Computing Fundamentals",
-    "section": "Additional Instruction",
-    "text": "Additional Instruction\n\nComplete required readings and in-class exercises.\nBook a meeting\nCome prepared with specific questions and bring your computer!\n\nPlan ahead and do not wait until the assignment due date! Note that once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible."
-  },
-  {
-    "objectID": "index.html#lessons",
-    "href": "index.html#lessons",
-    "title": "Computing Fundamentals",
-    "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\nCPT Sonny Bhatia\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\nCPT Sonny Bhatia\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Reminders"
   },
   {
     "objectID": "lessons/04-algorithms.html#discussion",
@@ -600,6 +306,335 @@
     "title": "Algorithms",
     "section": "Reminders",
     "text": "Reminders\n\nComplete DAAW in Canvas\nWPS2 due 02SEP\n\nExcel sheet upload, 5 attempts\n\nExtra credit assignments published!\nLesson 5 readings are long and really important\n\nStart early and come prepared!\n\nClear the boards!\nBluefruit?"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computing Fundamentals",
+    "section": "",
+    "text": "This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
+  },
+  {
+    "objectID": "index.html#course-objectives",
+    "href": "index.html#course-objectives",
+    "title": "Computing Fundamentals",
+    "section": "Course Objectives",
+    "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
+  },
+  {
+    "objectID": "index.html#additional-instruction",
+    "href": "index.html#additional-instruction",
+    "title": "Computing Fundamentals",
+    "section": "Additional Instruction",
+    "text": "Additional Instruction\n\nComplete required readings and in-class exercises.\nBook a meeting\nCome prepared with specific questions and bring your computer!\n\nPlan ahead and do not wait until the assignment due date! Note that once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible."
+  },
+  {
+    "objectID": "index.html#lessons",
+    "href": "index.html#lessons",
+    "title": "Computing Fundamentals",
+    "section": "Lessons",
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\nCPT Sonny Bhatia\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\nCPT Sonny Bhatia\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\nCPT Sonny Bhatia\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
+    "href": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
+    "title": "Welcome to CY105",
+    "section": "Dean’s Intellectual Theme for AY25",
+    "text": "Dean’s Intellectual Theme for AY25\n\nThe Human and the Machine: Leadership on the Emerging Battlefield"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#about-me",
+    "href": "lessons/01-introduction.html#about-me",
+    "title": "Welcome to CY105",
+    "section": "About Me",
+    "text": "About Me\n\n\n\nBS Computer Science, San Jose State Univ\nWorked in Silicon Valley\nEnlisted -&gt; Infantry -&gt; deployed (Afg)\nCommissioned as Cyber Officer\nOCO, Tactical, DCO, Company Cdr\nMS Computer Science, Univ of Central Florida\nMarried for 4 years\n\nLove to travel and hike\nEnjoy new (vegetarian) foods!"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#cadet-introductions",
+    "href": "lessons/01-introduction.html#cadet-introductions",
+    "title": "Welcome to CY105",
+    "section": "Cadet Introductions",
+    "text": "Cadet Introductions\n\nFull Name\nName you like to be called\nCompany\nHometown\nActivities or sports plan to be involved with\nWhat excites you about technology?"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#cy105-course-objectives",
+    "href": "lessons/01-introduction.html#cy105-course-objectives",
+    "title": "Welcome to CY105",
+    "section": "CY105 Course Objectives",
+    "text": "CY105 Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
+  },
+  {
+    "objectID": "lessons/01-introduction.html#whats-in-it-for-you",
+    "href": "lessons/01-introduction.html#whats-in-it-for-you",
+    "title": "Welcome to CY105",
+    "section": "What’s in it for you?",
+    "text": "What’s in it for you?\n\n\n\n\n\n“Information superiority is the operational advantage derived from the ability to collect, process, and disseminate an uninterrupted flow of information while exploiting or denying an adversary’s ability to do the same…”\nFM 3-0, Operations, February 2008​\n\n\n\n\ninformation makes you smarter\naccess to information makes you an effective leader\nincrease your confidence with IT systems\nhelp you learn new IT concepts and systems​\nprotect yourself and your organization\nfoundational course for everyone"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#section-marcher-duties",
+    "href": "lessons/01-introduction.html#section-marcher-duties",
+    "title": "Welcome to CY105",
+    "section": "Section Marcher Duties",
+    "text": "Section Marcher Duties\n\n\n\nExhibit peer leadership\nVolunteer Section Marcher (first 4 lessons)\n\nand Assistant Section Marcher\n\nAfterwards: based on PDR assignments\nDuties\n\nInspection at beginning of class\nAttendance\nBriefly inspect uniforms, general appearance\nNo food, gum or backpacks\n\nIf Dean or Supt visit, call class to attention"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#additional-instruction",
+    "href": "lessons/01-introduction.html#additional-instruction",
+    "title": "Welcome to CY105",
+    "section": "Additional Instruction",
+    "text": "Additional Instruction\n\nWhen you need additional help, reach out\nUse the booking link at cy105.bhatia.dev or email signature\nComplete required readings and in-class exercises\nBook a meeting\nCome prepared with specific questions and bring your computer\nPlan ahead and do not wait until the assignment due date!"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#zybooks",
+    "href": "lessons/01-introduction.html#zybooks",
+    "title": "Welcome to CY105",
+    "section": "zyBooks",
+    "text": "zyBooks\n\n\n\nAccess key provided by bookstore\nCanvas -&gt; zyBooks\n\ndo not create a separate account!\n“practice” zyBook assignment\n\nEnter access key\nDaily readings before class!"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#cengage",
+    "href": "lessons/01-introduction.html#cengage",
+    "title": "Welcome to CY105",
+    "section": "Cengage",
+    "text": "Cengage\nNeed access before next class!\n\nIf unable to access, email me immediately!\n\n\nLogin to Canvas\nNavigate to the course titled “Canvas Activation Course 2024”\nClick “Please complete this module”\nClick “Load Cengage Unlimited Multi-term 24 months Instant Access to a new window”\nRegister for an account using westpoint.edu email address\nOpen the Microsoft 365 lesson module and click the “Cengage: Microsoft 365 Pre-Class Exercise (ungraded)” link\nLog in\nEnroll in the course"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#python",
+    "href": "lessons/01-introduction.html#python",
+    "title": "Welcome to CY105",
+    "section": "python",
+    "text": "python\n \nStart Menu –&gt; PowerShell –&gt; Type python"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#text-editor",
+    "href": "lessons/01-introduction.html#text-editor",
+    "title": "Welcome to CY105",
+    "section": "Text Editor",
+    "text": "Text Editor\n\nNotepad++\nVisual Studio Code\nMicrosoft Word?"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#writing-code",
+    "href": "lessons/01-introduction.html#writing-code",
+    "title": "Welcome to CY105",
+    "section": "Writing Code",
+    "text": "Writing Code"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#running-code",
+    "href": "lessons/01-introduction.html#running-code",
+    "title": "Welcome to CY105",
+    "section": "Running Code",
+    "text": "Running Code"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#moss---measure-of-software-similarity",
+    "href": "lessons/01-introduction.html#moss---measure-of-software-similarity",
+    "title": "Welcome to CY105",
+    "section": "MOSS - Measure of Software Similarity",
+    "text": "MOSS - Measure of Software Similarity"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#zybooks-simchecker",
+    "href": "lessons/01-introduction.html#zybooks-simchecker",
+    "title": "Welcome to CY105",
+    "section": "zyBooks SimChecker",
+    "text": "zyBooks SimChecker"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#codequiry-plagiarism-detection",
+    "href": "lessons/01-introduction.html#codequiry-plagiarism-detection",
+    "title": "Welcome to CY105",
+    "section": "Codequiry Plagiarism Detection",
+    "text": "Codequiry Plagiarism Detection"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#generative-ai-tools",
+    "href": "lessons/01-introduction.html#generative-ai-tools",
+    "title": "Welcome to CY105",
+    "section": "Generative AI Tools",
+    "text": "Generative AI Tools\n\nAI tools may be used to determine what AI-generated responses to a particular prompt may look like either before or after issuing an assignment.\nThese responses can be compared to cadets’ submissions using MOSS or zyLabs Similarity Checker to determine if a cadet’s submission contains features that suggest unauthorized or undocumented AI use."
+  },
+  {
+    "objectID": "lessons/01-introduction.html#next-class",
+    "href": "lessons/01-introduction.html#next-class",
+    "title": "Welcome to CY105",
+    "section": "Next Class",
+    "text": "Next Class"
+  },
+  {
+    "objectID": "lessons/05-python.html#discussion",
+    "href": "lessons/05-python.html#discussion",
+    "title": "Python Basics",
+    "section": "Discussion!",
+    "text": "Discussion!\n\nFlipper Zero\nMeanwhile, in Canada…"
+  },
+  {
+    "objectID": "lessons/05-python.html#lesson-objectives",
+    "href": "lessons/05-python.html#lesson-objectives",
+    "title": "Python Basics",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nIdentify basic data types represented in programs\nDistinguish between data types and data values.\nUse variables to store information in a program\nWrite very basic Python programs.\n\n\n\nBring up agenda\nReference cards!\n\nBring them daily.\n\nTest your monitors.\n\nConsider bringing a spare mouse to easily navigate between screens."
+  },
+  {
+    "objectID": "lessons/05-python.html#writing-algorithms",
+    "href": "lessons/05-python.html#writing-algorithms",
+    "title": "Python Basics",
+    "section": "Writing Algorithms",
+    "text": "Writing Algorithms\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite an algorithm that accomplishes this task!\n\n\nask the user for their name\nprint out hello followed by their name\nask how many slices of pizza they want\nmultiply quantity by the cost (2.50)\nprint total to the screen"
+  },
+  {
+    "objectID": "lessons/05-python.html#check-on-learning",
+    "href": "lessons/05-python.html#check-on-learning",
+    "title": "Python Basics",
+    "section": "Check on Learning",
+    "text": "Check on Learning\n\n\nWhat is a data type?\nIs data type the same as a variable?\nWhat are the standard data types in Python?\nHow do you assign a variable in Python?\nWhat is a procedure?\nWhat does print() do?\nWhat does type() do?\nWhat is a list?\nWhat is a boolean?\nWhat is the difference between = and ==?\n\n\n\n\nint, float, str, list, bool"
+  },
+  {
+    "objectID": "lessons/05-python.html#more-check-on-learning",
+    "href": "lessons/05-python.html#more-check-on-learning",
+    "title": "Python Basics",
+    "section": "More Check on Learning",
+    "text": "More Check on Learning\n\n\nIs this a string? \"hello\"\nIs this a string? \"11\"\nWhat is the type of: 3.1415\nWhat is the type of: 3\nWhat is the type of: 3.0\nWhat is the type of: True\nWhat is the type of: \"True\"\nWhat is the value of: 5 + 3 * 2\nWhat is the value of: 5 % 3\nWhat is the value of: 5 / 2\nWhat is the value of: 5 // 2"
+  },
+  {
+    "objectID": "lessons/05-python.html#programming-environment",
+    "href": "lessons/05-python.html#programming-environment",
+    "title": "Python Basics",
+    "section": "Programming Environment",
+    "text": "Programming Environment\n\nStart -&gt; python\nNotepad++\nzyBook\n\n\nPython Tutor\nBlack Code Formatter"
+  },
+  {
+    "objectID": "lessons/05-python.html#hello-world",
+    "href": "lessons/05-python.html#hello-world",
+    "title": "Python Basics",
+    "section": "Hello World!",
+    "text": "Hello World!\n\nSimplest program in any language\nDemonstrates how to accomplish a basic task\n\nprint(\"Hello, World!\")"
+  },
+  {
+    "objectID": "lessons/05-python.html#writing-code",
+    "href": "lessons/05-python.html#writing-code",
+    "title": "Python Basics",
+    "section": "Writing Code",
+    "text": "Writing Code"
+  },
+  {
+    "objectID": "lessons/05-python.html#running-code",
+    "href": "lessons/05-python.html#running-code",
+    "title": "Python Basics",
+    "section": "Running Code",
+    "text": "Running Code"
+  },
+  {
+    "objectID": "lessons/05-python.html#real-python-program",
+    "href": "lessons/05-python.html#real-python-program",
+    "title": "Python Basics",
+    "section": "Real Python Program",
+    "text": "Real Python Program\n\"\"\"\nUse triple quotes to create multi-line comments.\nThe Python interpreter ignore comments.\n\"\"\"\n\ndef main():  # a procedure called main\n    print(\"hello world!\")  # print statement\n\nmain()  # invoke the main procedure\n\nCopy the code above into Notepad++\nObserve the different colors. What do they mean?"
+  },
+  {
+    "objectID": "lessons/05-python.html#variables",
+    "href": "lessons/05-python.html#variables",
+    "title": "Python Basics",
+    "section": "Variables",
+    "text": "Variables\n\nStore data in memory\nCan be changed as many times as needed\nMust be assigned a value before first use!\nName is how you refer to the value\nValue is what is stored in the variable\n\nx = 5\ny = 3.14\nz = \"hello\"\n\n&gt;&gt;&gt; x = 5\n&gt;&gt;&gt; y = 3.14\n&gt;&gt;&gt; z = \"hello\"\n&gt;&gt;&gt; x"
+  },
+  {
+    "objectID": "lessons/05-python.html#variable-names",
+    "href": "lessons/05-python.html#variable-names",
+    "title": "Python Basics",
+    "section": "Variable Names",
+    "text": "Variable Names\n\nMust start with a letter or underscore\nCan contain letters, numbers, and underscores\nCase sensitive\nCannot be a reserved word\n\n\n&gt;&gt;&gt; x = 5\n&gt;&gt;&gt; 4x = 20\n&gt;&gt;&gt; x4 = 20\n&gt;&gt;&gt; x_x = 1\n&gt;&gt;&gt; print(X_X)\n&gt;&gt;&gt; True = 1\n&gt;&gt;&gt; False = 0\n&gt;&gt;&gt; return = True"
+  },
+  {
+    "objectID": "lessons/05-python.html#data-types",
+    "href": "lessons/05-python.html#data-types",
+    "title": "Python Basics",
+    "section": "Data Types",
+    "text": "Data Types\n\nint - integer\nfloat - floating point number\nstr - string\nbool - boolean\nlist - list\n\n\n&gt;&gt;&gt; type(x)\n&gt;&gt;&gt; type(y)\n&gt;&gt;&gt; type(z)"
+  },
+  {
+    "objectID": "lessons/05-python.html#basic-arithmetic",
+    "href": "lessons/05-python.html#basic-arithmetic",
+    "title": "Python Basics",
+    "section": "Basic Arithmetic",
+    "text": "Basic Arithmetic\n\n+ - addition\n- - subtraction\n* - multiplication\n/ - division\n** - exponentiation\n// - floor division\n% - modulo\n\n\n&gt;&gt;&gt; 10 + 4\n&gt;&gt;&gt; 10 - 4\n&gt;&gt;&gt; 10 * 4\n&gt;&gt;&gt; 10 / 4\n&gt;&gt;&gt; 10 ** 4\n&gt;&gt;&gt; 10 // 4\n&gt;&gt;&gt; 10 % 4\n&gt;&gt;&gt; 10 % 3\n&gt;&gt;&gt; 10 % 1"
+  },
+  {
+    "objectID": "lessons/05-python.html#order-of-operations",
+    "href": "lessons/05-python.html#order-of-operations",
+    "title": "Python Basics",
+    "section": "Order of Operations",
+    "text": "Order of Operations\n\nParentheses\nExponents\nMultiplication and Division\nAddition and Subtraction\n\n\n&gt;&gt;&gt; 5 + 3 * 2 = 11\n&gt;&gt;&gt; (5 + 3) * 2 = 16\n&gt;&gt;&gt; 5 + 3 * 2 ** 2 = 17\n&gt;&gt;&gt; (5 + 3) * 2 ** 2 = 32"
+  },
+  {
+    "objectID": "lessons/05-python.html#converting-data-types",
+    "href": "lessons/05-python.html#converting-data-types",
+    "title": "Python Basics",
+    "section": "Converting Data Types",
+    "text": "Converting Data Types\n\nint() - convert to integer\nfloat() - convert to floating point number\nstr() - convert to string\n\n\n&gt;&gt;&gt; int(3.14)\n&gt;&gt;&gt; float(3)\n&gt;&gt;&gt; str(3)"
+  },
+  {
+    "objectID": "lessons/05-python.html#lists",
+    "href": "lessons/05-python.html#lists",
+    "title": "Python Basics",
+    "section": "Lists",
+    "text": "Lists\n\nStore multiple values in one variable\nCan store different data types\nUse square brackets []\n\n\n&gt;&gt;&gt; x = [1, 2, 3]\n&gt;&gt;&gt; y = [\"hello\", 3.14, True]"
+  },
+  {
+    "objectID": "lessons/05-python.html#concatenation",
+    "href": "lessons/05-python.html#concatenation",
+    "title": "Python Basics",
+    "section": "Concatenation",
+    "text": "Concatenation\n\nCombine strings using +\nCan combine lists!\n\n\n&gt;&gt;&gt; \"hello\" + \"world\"\n&gt;&gt;&gt; [1, 2, 3] + [4, 5, 6]"
+  },
+  {
+    "objectID": "lessons/05-python.html#user-input",
+    "href": "lessons/05-python.html#user-input",
+    "title": "Python Basics",
+    "section": "User Input",
+    "text": "User Input\n\ninput() - get user input\nAlways returns a string\nUse int() or float() to convert\n\n\n&gt;&gt;&gt; x = input(\"Enter a number: \")\n&gt;&gt;&gt; x\n&gt;&gt;&gt; type(x)\n&gt;&gt;&gt; x = int(x)\n&gt;&gt;&gt; type(x)"
+  },
+  {
+    "objectID": "lessons/05-python.html#pizza",
+    "href": "lessons/05-python.html#pizza",
+    "title": "Python Basics",
+    "section": "Pizza!",
+    "text": "Pizza!\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite a Python program following your algorithm!"
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise-2",
+    "href": "lessons/05-python.html#in-class-exercise-2",
+    "title": "Python Basics",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\n\nWrite a program that stores the value 18 in a variable named Age, and displays My age is followed by the value in Age. To do this, place both items inside the parentheses for print() but separate them with a comma.\nAdd more code to display what happens when you have a birthday (assign the value 19 to the same variable Age) and display the age again. Run the code so you can see both lines of output.\n\n\nzyBook ICE 2\n\n\"\"\"\nWhispers in the code,\nPython ignores, doesn’t care,\nYet they light the path.\n\"\"\"\ndef main():\n    # Write your code here\n\nmain()"
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise-3",
+    "href": "lessons/05-python.html#in-class-exercise-3",
+    "title": "Python Basics",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\n\nCopy the code from ICE 2 to the box below. Next, replace the assignment statement Age = 19 with Age = Age + 1 to make the code more versatile. (This way, Age could have any value and it would still be increased by one.) Note that the expression Age + 1 will be evaluated as 19 before that value is assigned to Age. Run the program again to verify that the result is still the same as before.\nNow replace that statement with Age += 1. The only practical difference in this line is that it’s shorter. Verify that the program still works.\n\ndef main():\n    # Write your code here\n\nmain()"
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise-5",
+    "href": "lessons/05-python.html#in-class-exercise-5",
+    "title": "Python Basics",
+    "section": "In-Class Exercise 5",
+    "text": "In-Class Exercise 5\n\nWrite a program to perform floor (integer) division of two numbers provided by a user.\n\n\nTo accomplish this, first you should request a number from the user and store it in a variable; be sure to also convert it to an integer.\nDo the same to request a smaller number and store it in a second variable.\nPerform floor division (divide the large number by the small number) and store the result in a third variable.\nThen calculate the remainder of dividing the large number by the small number and store it in a fourth variable.\nDisplay the results of the division using all four variables, as seen below."
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise",
+    "href": "lessons/05-python.html#in-class-exercise",
+    "title": "Python Basics",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\n3**2 + 4 * -2 + (6 + 5) * (2 + 3)"
+  },
+  {
+    "objectID": "lessons/05-python.html#reminders",
+    "href": "lessons/05-python.html#reminders",
+    "title": "Python Basics",
+    "section": "Reminders",
+    "text": "Reminders\n\nBring your reference cards to class daily\nErase whiteboards and clean up your area\nWPS2 is due 02SEP"
   },
   {
     "objectID": "lessons/03-computers-data.html#discussion",
