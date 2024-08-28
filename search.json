@@ -1,220 +1,262 @@
 [
   {
+    "objectID": "lessons/02-office.html#hide-and-seek",
+    "href": "lessons/02-office.html#hide-and-seek",
+    "title": "Microsoft 365",
+    "section": "Hide and Seek!",
+    "text": "Hide and Seek!"
+  },
+  {
+    "objectID": "lessons/02-office.html#lesson-objectives",
+    "href": "lessons/02-office.html#lesson-objectives",
+    "title": "Microsoft 365",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nArticulate the importance of Microsoft 365 to the Army\nDifferentiate the core Microsoft 365 products\nDistinguish when to use OneDrive, Teams, or SharePoint to share data\nUse OneDrive, Outlook, Teams, OneNote, Word, PowerPoint, and Office.com to accomplish a variety of tasks"
+  },
+  {
+    "objectID": "lessons/02-office.html#discussion",
+    "href": "lessons/02-office.html#discussion",
+    "title": "Microsoft 365",
+    "section": "Discussion",
+    "text": "Discussion\n\nWhat can I do with Word? Excel?\nCan I use PowerPoint for anything other than briefings?\nWhen is it appropriate to use Teams vs Outlook?\nWhat is the difference between OneDrive and SharePoint? Which one is better?\nWhat is a quad chart? Why does the Army care?\nIs Microsoft better or worse than Google? Why?"
+  },
+  {
+    "objectID": "lessons/02-office.html#word",
+    "href": "lessons/02-office.html#word",
+    "title": "Microsoft 365",
+    "section": "Word",
+    "text": "Word\n\nMemorandums\nOPORDs\n15-6 Investigations\nSITREPs"
+  },
+  {
+    "objectID": "lessons/02-office.html#powerpoint",
+    "href": "lessons/02-office.html#powerpoint",
+    "title": "Microsoft 365",
+    "section": "PowerPoint",
+    "text": "PowerPoint\n\nConcept of Operations (CONOPs)\nMission Analysis Briefings\nCommand and Staff slides"
+  },
+  {
+    "objectID": "lessons/02-office.html#excel",
+    "href": "lessons/02-office.html#excel",
+    "title": "Microsoft 365",
+    "section": "Excel",
+    "text": "Excel\n\nTrackers\ntrackers\nmore trackers…"
+  },
+  {
+    "objectID": "lessons/02-office.html#onedrive",
+    "href": "lessons/02-office.html#onedrive",
+    "title": "Microsoft 365",
+    "section": "OneDrive",
+    "text": "OneDrive\n\n\nWhere is my data stored?\nWhat should I backup?\nWhat should I not backup?\nDemo: Setup backup"
+  },
+  {
+    "objectID": "lessons/02-office.html#in-class-exercise",
+    "href": "lessons/02-office.html#in-class-exercise",
+    "title": "Microsoft 365",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\n\nOneDrive shared folder\nUpdate Seating Chart!"
+  },
+  {
+    "objectID": "lessons/02-office.html#outlook",
+    "href": "lessons/02-office.html#outlook",
+    "title": "Microsoft 365",
+    "section": "Outlook",
+    "text": "Outlook\n\nImport buff card, class schedule\nSetting availability\nSchedule meetings"
+  },
+  {
+    "objectID": "lessons/02-office.html#check-on-learning",
+    "href": "lessons/02-office.html#check-on-learning",
+    "title": "Microsoft 365",
+    "section": "Check on Learning",
+    "text": "Check on Learning\n\n\nWhat are the key differences between using PowerPoint for presentations and Word for creating documents?\nHow do the features of Microsoft Teams differ from those of OneNote in terms of collaboration and communication?\nWhen would it be more appropriate to store a document in OneDrive versus Microsoft Teams?\nIn what scenarios should you choose to store files in SharePoint rather than in Microsoft Teams or OneDrive?\nWhere is OneDrive data located?\nWhat are the main functions of Microsoft Outlook?\nWhat can you use for note-taking?\nCan PowerPoint be used to create an elaborate concept of operations (CONOP) graphic?"
+  },
+  {
+    "objectID": "lessons/02-office.html#zybooks-and-cengage",
+    "href": "lessons/02-office.html#zybooks-and-cengage",
+    "title": "Microsoft 365",
+    "section": "zyBooks and Cengage",
+    "text": "zyBooks and Cengage"
+  },
+  {
+    "objectID": "lessons/02-office.html#next-class",
+    "href": "lessons/02-office.html#next-class",
+    "title": "Microsoft 365",
+    "section": "Next Class",
+    "text": "Next Class\n\nComputers and Data\nWPS1 due 25AUG\nWPS2 will be assigned soon\nzyBooks readings!"
+  },
+  {
     "objectID": "lessons/05-python.html#discussion",
     "href": "lessons/05-python.html#discussion",
     "title": "Python Basics",
     "section": "Discussion!",
-    "text": "Discussion!"
+    "text": "Discussion!\n\nFlipper Zero\nRaspberry Pi\nWhat is Python?"
   },
   {
     "objectID": "lessons/05-python.html#lesson-objectives",
     "href": "lessons/05-python.html#lesson-objectives",
     "title": "Python Basics",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nIdentify basic data types represented in programs\nDistinguish between data types and data values.\nUse variables to store information in a program\nWrite very basic Python programs."
+    "text": "Lesson Objectives\n\nIdentify basic data types represented in programs\nDistinguish between data types and data values.\nUse variables to store information in a program\nWrite very basic Python programs.\n\n\n\nBring up agenda\nReference cards!\n\nBring them daily.\n\nTest your monitors.\n\nConsider bringing a spare mouse to easily navigate between screens."
   },
   {
-    "objectID": "lessons/05-python.html#announcements",
-    "href": "lessons/05-python.html#announcements",
+    "objectID": "lessons/05-python.html#writing-algorithms",
+    "href": "lessons/05-python.html#writing-algorithms",
     "title": "Python Basics",
-    "section": "Announcements",
-    "text": "Announcements"
+    "section": "Writing Algorithms",
+    "text": "Writing Algorithms\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite an algorithm that accomplishes this task!\n\n\nask the user for their name\nprint out hello followed by their name\nask how many slices of pizza they want\nmultiply quantity by the cost (2.50)\nprint total to the screen"
   },
   {
     "objectID": "lessons/05-python.html#check-on-learning",
     "href": "lessons/05-python.html#check-on-learning",
     "title": "Python Basics",
     "section": "Check on Learning",
-    "text": "Check on Learning"
+    "text": "Check on Learning\n\n\nWhat is a data type?\nIs data type the same as a variable?\nWhat are the standard data types in Python?\nHow do you assign a variable in Python?\nWhat is a procedure?\nWhat does print() do?\nWhat does type() do?\nWhat is a list?\nWhat is a boolean?\nWhat is the difference between = and ==?\n\n\n\n\nint, float, str, list, bool"
+  },
+  {
+    "objectID": "lessons/05-python.html#more-check-on-learning",
+    "href": "lessons/05-python.html#more-check-on-learning",
+    "title": "Python Basics",
+    "section": "More Check on Learning",
+    "text": "More Check on Learning\n\n\nIs this a string? \"hello\"\nIs this a string? \"11\"\nWhat is the type of: 3.1415\nWhat is the type of: 3\nWhat is the type of: 3.0\nWhat is the type of: True\nWhat is the type of: \"True\"\nWhat is the value of: 5 + 3 * 2\nWhat is the value of: 5 % 3\nWhat is the value of: 5 / 2\nWhat is the value of: 5 // 2"
+  },
+  {
+    "objectID": "lessons/05-python.html#programming-environment",
+    "href": "lessons/05-python.html#programming-environment",
+    "title": "Python Basics",
+    "section": "Programming Environment",
+    "text": "Programming Environment\n\nStart -&gt; python\nNotepad++\nzyBook\n\n\nPython Tutor\nBlack Code Formatter"
+  },
+  {
+    "objectID": "lessons/05-python.html#hello-world",
+    "href": "lessons/05-python.html#hello-world",
+    "title": "Python Basics",
+    "section": "Hello World!",
+    "text": "Hello World!\n\nSimplest program in any language\nDemonstrates how to accomplish a basic task\n\nprint(\"Hello, World!\")"
+  },
+  {
+    "objectID": "lessons/05-python.html#writing-code",
+    "href": "lessons/05-python.html#writing-code",
+    "title": "Python Basics",
+    "section": "Writing Code",
+    "text": "Writing Code"
+  },
+  {
+    "objectID": "lessons/05-python.html#running-code",
+    "href": "lessons/05-python.html#running-code",
+    "title": "Python Basics",
+    "section": "Running Code",
+    "text": "Running Code"
+  },
+  {
+    "objectID": "lessons/05-python.html#real-python-program",
+    "href": "lessons/05-python.html#real-python-program",
+    "title": "Python Basics",
+    "section": "Real Python Program",
+    "text": "Real Python Program\n\"\"\"\nUse triple quotes to create multi-line comments.\nThe Python interpreter ignore comments.\n\"\"\"\n\ndef main():  # a procedure called main\n    print(\"hello world!\")  # print statement\n\nmain()  # invoke the main procedure\n\nCopy the code above into Notepad++\nObserve the different colors. What do they mean?"
+  },
+  {
+    "objectID": "lessons/05-python.html#variables",
+    "href": "lessons/05-python.html#variables",
+    "title": "Python Basics",
+    "section": "Variables",
+    "text": "Variables\n\nStore data in memory\nCan be changed as many times as needed\nMust be assigned a value before first use!\nName is how you refer to the value\nValue is what is stored in the variable\n\nx = 5\ny = 3.14\nz = \"hello\"\n\n\n\n\nx = 5 y = 3.14 z = “hello” x"
+  },
+  {
+    "objectID": "lessons/05-python.html#variable-names",
+    "href": "lessons/05-python.html#variable-names",
+    "title": "Python Basics",
+    "section": "Variable Names",
+    "text": "Variable Names\n\nMust start with a letter or underscore\nCan contain letters, numbers, and underscores\nCase sensitive\nCannot be a reserved word\n\n\n\n\n\nx = 5 4x = 20 x4 = 20 x_x = 1 print(X_X) True = 1 False = 0 return = True"
+  },
+  {
+    "objectID": "lessons/05-python.html#data-types",
+    "href": "lessons/05-python.html#data-types",
+    "title": "Python Basics",
+    "section": "Data Types",
+    "text": "Data Types\n\nint - integer\nfloat - floating point number\nstr - string\nbool - boolean\nlist - list\n\n\n\n\n\ntype(x) type(y) type(z)"
+  },
+  {
+    "objectID": "lessons/05-python.html#basic-arithmetic",
+    "href": "lessons/05-python.html#basic-arithmetic",
+    "title": "Python Basics",
+    "section": "Basic Arithmetic",
+    "text": "Basic Arithmetic\n\n+ - addition\n- - subtraction\n* - multiplication\n/ - division\n** - exponentiation\n// - floor division\n% - modulo\n\n\n\n\n\n10 + 4 10 - 4 10 * 4 10 / 4 10 ** 4 10 // 4 10 % 4 10 % 3 10 % 1"
+  },
+  {
+    "objectID": "lessons/05-python.html#order-of-operations",
+    "href": "lessons/05-python.html#order-of-operations",
+    "title": "Python Basics",
+    "section": "Order of Operations",
+    "text": "Order of Operations\n\nParentheses\nExponents\nMultiplication and Division\nAddition and Subtraction\n\n\n\n\n\n5 + 3 * 2 = 11 (5 + 3) * 2 = 16 5 + 3 * 2 ** 2 = 17 (5 + 3) * 2 ** 2 = 32"
+  },
+  {
+    "objectID": "lessons/05-python.html#converting-data-types",
+    "href": "lessons/05-python.html#converting-data-types",
+    "title": "Python Basics",
+    "section": "Converting Data Types",
+    "text": "Converting Data Types\n\nint() - convert to integer\nfloat() - convert to floating point number\nstr() - convert to string\n\n\n\n\n\nint(3.14) float(3) str(3)"
+  },
+  {
+    "objectID": "lessons/05-python.html#lists",
+    "href": "lessons/05-python.html#lists",
+    "title": "Python Basics",
+    "section": "Lists",
+    "text": "Lists\n\nStore multiple values in one variable\nCan store different data types\nUse square brackets []\n\n\n\n\n\nx = [1, 2, 3] y = [“hello”, 3.14, True]"
+  },
+  {
+    "objectID": "lessons/05-python.html#concatenation",
+    "href": "lessons/05-python.html#concatenation",
+    "title": "Python Basics",
+    "section": "Concatenation",
+    "text": "Concatenation\n\nCombine strings using +\nCan combine lists!\n\n\n\n\n\n“hello” + “world” [1, 2, 3] + [4, 5, 6]"
+  },
+  {
+    "objectID": "lessons/05-python.html#user-input",
+    "href": "lessons/05-python.html#user-input",
+    "title": "Python Basics",
+    "section": "User Input",
+    "text": "User Input\n\ninput() - get user input\nAlways returns a string\nUse int() or float() to convert\n\n\n\n\n\nx = input(“Enter a number:”) x type(x) x = int(x) type(x)"
+  },
+  {
+    "objectID": "lessons/05-python.html#pizza",
+    "href": "lessons/05-python.html#pizza",
+    "title": "Python Basics",
+    "section": "Pizza!",
+    "text": "Pizza!\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite a Python program following your algorithm!"
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise-2",
+    "href": "lessons/05-python.html#in-class-exercise-2",
+    "title": "Python Basics",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\n\nWrite a program that stores the value 18 in a variable named Age, and displays My age is followed by the value in Age. To do this, place both items inside the parentheses for print() but separate them with a comma.\nAdd more code to display what happens when you have a birthday (assign the value 19 to the same variable Age) and display the age again. Run the code so you can see both lines of output.\n\n\nzyBook ICE 2\n\ndef main():\n    # Write your code here\n\nmain()"
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise-3",
+    "href": "lessons/05-python.html#in-class-exercise-3",
+    "title": "Python Basics",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\n\nCopy the code from ICE 2 to the box below. Next, replace the assignment statement Age = 19 with Age = Age + 1 to make the code more versatile. (This way, Age could have any value and it would still be increased by one.) Note that the expression Age + 1 will be evaluated as 19 before that value is assigned to Age. Run the program again to verify that the result is still the same as before.\nNow replace that statement with Age += 1. The only practical difference in this line is that it’s shorter. Verify that the program still works.\n\ndef main():\n    # Write your code here\n\nmain()"
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise-5",
+    "href": "lessons/05-python.html#in-class-exercise-5",
+    "title": "Python Basics",
+    "section": "In-Class Exercise 5",
+    "text": "In-Class Exercise 5\n\nWrite a program to perform floor (integer) division of two numbers provided by a user.\n\n\nTo accomplish this, first you should request a number from the user and store it in a variable; be sure to also convert it to an integer.\nDo the same to request a smaller number and store it in a second variable.\nPerform floor division (divide the large number by the small number) and store the result in a third variable.\nThen calculate the remainder of dividing the large number by the small number and store it in a fourth variable.\nDisplay the results of the division using all four variables, as seen below."
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise",
+    "href": "lessons/05-python.html#in-class-exercise",
+    "title": "Python Basics",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\n3**2 + 4 * -2 + (6 + 5) * (2 + 3)"
   },
   {
     "objectID": "lessons/05-python.html#reminders",
     "href": "lessons/05-python.html#reminders",
     "title": "Python Basics",
     "section": "Reminders",
-    "text": "Reminders"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#discussion",
-    "href": "lessons/03-computers-data.html#discussion",
-    "title": "Computers and Data",
-    "section": "Discussion!",
-    "text": "Discussion!\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#lesson-objectives",
-    "href": "lessons/03-computers-data.html#lesson-objectives",
-    "title": "Computers and Data",
-    "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nDefine data, how it differs from information, and its forms: analog and digital.\nDefine what a computer is, define common types of computers, and distinguish their uses from each other. \nDescribe how digital data is quantified and represented on computers.\nDescribe how computers process and store data.\nLearn how to read an ASCII table."
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#information",
-    "href": "lessons/03-computers-data.html#information",
-    "title": "Computers and Data",
-    "section": "Information",
-    "text": "Information\n\n\n\nData = facts\n\nmeasurements\nstatistics\nvalues\n\nInformation\n\ndata processed, organized, or structured in a meaningful way"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#analog-vs-digital-data",
-    "href": "lessons/03-computers-data.html#analog-vs-digital-data",
-    "title": "Computers and Data",
-    "section": "Analog vs Digital Data",
-    "text": "Analog vs Digital Data\n\n\n\nAnalog\n\nContinuous data\nSmooth, unbroken line\nSpeed, temperature\nMore accurate\nHarder to store, manipulate, and transmit\n\nDigital\n\nDiscrete data\nStaircase\ne.g. ACFT score table\nEasier to store, manipulate, and transmit"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#analog-to-digital",
-    "href": "lessons/03-computers-data.html#analog-to-digital",
-    "title": "Computers and Data",
-    "section": "Analog to Digital",
-    "text": "Analog to Digital\n\nVideo: Analog vs Digital"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#computers-are-everywhere",
-    "href": "lessons/03-computers-data.html#computers-are-everywhere",
-    "title": "Computers and Data",
-    "section": "Computers are Everywhere",
-    "text": "Computers are Everywhere\n\nEmbedded computers: inside of other electronic devices, usually not visible from the outside"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#microcontrollers",
-    "href": "lessons/03-computers-data.html#microcontrollers",
-    "title": "Computers and Data",
-    "section": "Microcontrollers",
-    "text": "Microcontrollers\n\n\n\nSmallest processor\nRun exactly one program\nCan run on battery power\nBluefruit!"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#mobile-computers",
-    "href": "lessons/03-computers-data.html#mobile-computers",
-    "title": "Computers and Data",
-    "section": "Mobile Computers",
-    "text": "Mobile Computers\n\nWhat are they?\n\n\n\nLaptops, tablets, smartphones\nCan run multiple programs at once\nDesigned for portability - battery power"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#desktops-and-servers",
-    "href": "lessons/03-computers-data.html#desktops-and-servers",
-    "title": "Computers and Data",
-    "section": "Desktops and Servers",
-    "text": "Desktops and Servers\n\n\n\nWhat about these?\n\n\n\nMost powerful computers\nCan run multiple programs at once\nDesigned for performance\nTypically plugged into a power source"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#check-on-learning",
-    "href": "lessons/03-computers-data.html#check-on-learning",
-    "title": "Computers and Data",
-    "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nWhat is information?\nWhat is a microcontroller?\nIs microcontroller a general-purpose computer?\nIs calculator a general-purpose computer?\nIs a smartphone a general-purpose computer?"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#types-of-devices",
-    "href": "lessons/03-computers-data.html#types-of-devices",
-    "title": "Computers and Data",
-    "section": "Types of Devices",
-    "text": "Types of Devices\n\n\nInput\n\n\nKeyboard\nMouse\nTouchscreen\nMicrophone\nCamera\n\n\n\nOutput\n\n\nMonitor\nPrinter\nSpeaker\n\n\n\nPeripheral\n\nConnect through expansion slots\nGreatly expand computer capabilities\n\n\n\nGraphics card (GPU)\nNetwork card"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#central-processing-unit-cpu",
-    "href": "lessons/03-computers-data.html#central-processing-unit-cpu",
-    "title": "Computers and Data",
-    "section": "Central Processing Unit (CPU)",
-    "text": "Central Processing Unit (CPU)\n\n\n\nCache: small, fast memory\n\n\nReads instructions from memory\nPerforms logical and mathematical operations\nWrites results back to memory"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#storage",
-    "href": "lessons/03-computers-data.html#storage",
-    "title": "Computers and Data",
-    "section": "Storage",
-    "text": "Storage\n\n\n\nCache\nRAM\nHard Drive"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#the-bus",
-    "href": "lessons/03-computers-data.html#the-bus",
-    "title": "Computers and Data",
-    "section": "The Bus",
-    "text": "The Bus\n\n\n\nelectronic conduit, connects all components together inside the computer"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#scenario",
-    "href": "lessons/03-computers-data.html#scenario",
-    "title": "Computers and Data",
-    "section": "Scenario",
-    "text": "Scenario\nPower Outage\n\nYou are working on a paper in the middle of the night. Suddenly, a powerful thunderstorm appears in the area and you lose power.\nSuppose you are working on a desktop computer. What happens to your paper? What data is lost?\nHow does the above answer change if you were working on a laptop? What are some advantages/disadvantages of autosave?\n\nData Security\n\nYour friend is thinking about making some extra cash by selling their computer. What advice would you give them so their personal data does not get stolen?\nWhat concrete steps that you would recommend they take?\nAny components worth removing or keeping? How does your answer change if it is a phone, laptop or desktop?"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#binary",
-    "href": "lessons/03-computers-data.html#binary",
-    "title": "Computers and Data",
-    "section": "Binary",
-    "text": "Binary\n\nLight switch = on or off\nOnly two values: 0 and 1\nBit = binary digit\nByte = 8 bits\nHow exactly does binary code work?\nRepresenting Numbers and Letters with Binary\n\n\n\nBit = light switch, off or on"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#hexadecimal",
-    "href": "lessons/03-computers-data.html#hexadecimal",
-    "title": "Computers and Data",
-    "section": "Hexadecimal",
-    "text": "Hexadecimal\n\nBase 16 =&gt; 0-9, A-F\n4 bits = 1 hex digit\nEasier for humans to read\n\n\n\n16 objects, unique labels\nboard example"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#conversion-decimal---binary---hexadecimal",
-    "href": "lessons/03-computers-data.html#conversion-decimal---binary---hexadecimal",
-    "title": "Computers and Data",
-    "section": "Conversion: Decimal - Binary - Hexadecimal",
-    "text": "Conversion: Decimal - Binary - Hexadecimal"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#quantifying-data-sizes",
-    "href": "lessons/03-computers-data.html#quantifying-data-sizes",
-    "title": "Computers and Data",
-    "section": "Quantifying Data Sizes",
-    "text": "Quantifying Data Sizes"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#ascii",
-    "href": "lessons/03-computers-data.html#ascii",
-    "title": "Computers and Data",
-    "section": "ASCII",
-    "text": "ASCII\n\nAmerican Standard Code for Information Interchange\n7-bit encoding scheme\n95 printable characters, 33 control characters\nInvented in 1963; last updated in 1986"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#whats-the-message",
-    "href": "lessons/03-computers-data.html#whats-the-message",
-    "title": "Computers and Data",
-    "section": "What’s the Message?",
-    "text": "What’s the Message?\n\n\n\n\n\n69 110 105 103 109 97 32 77 97 99 104 105 110 101\n66 108 101 116 99 104 108 101 121 32 80 97 114 107\n65 108 97 110 32 84 117 114 105 110 103\n71 111 32 65 114 109 121 32 66 101 97 116 32 78 97 122 105\n67 111 100 101 98 114 101 97 107 101 114 115\n84 117 114 105 110 103 32 84 101 115 116\n\n\n\n\nEnigma Machine\nBletchley Park\nAlan Turing\nGo Army Beat Nazi\nCodebreakers\nTuring Test"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#file-extensions",
-    "href": "lessons/03-computers-data.html#file-extensions",
-    "title": "Computers and Data",
-    "section": "File Extensions",
-    "text": "File Extensions\n\nIndicate what type of data is in a file\nHelp computer deduce how to process and interpret\nNot foolproof, but helpful\nFile headers provide more information\nExamples: .docx, .xlsx, .pptx, .jpg, .mp4, .py"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#other-encoding-schemes",
-    "href": "lessons/03-computers-data.html#other-encoding-schemes",
-    "title": "Computers and Data",
-    "section": "Other Encoding Schemes",
-    "text": "Other Encoding Schemes"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#image-encoding",
-    "href": "lessons/03-computers-data.html#image-encoding",
-    "title": "Computers and Data",
-    "section": "Image Encoding",
-    "text": "Image Encoding\n\nVideo: Images, Pixels and RGB\nDigital Compression"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#check-on-learning-1",
-    "href": "lessons/03-computers-data.html#check-on-learning-1",
-    "title": "Computers and Data",
-    "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nCompare and contrast information vs data.\nCompare and contrast analog and digital data\nWhy is digital data used in computers?\nDefine binary, bit, byte.\nHow is digital data quantified and represented on computers?\nWhat is Kilo? Mega? Giga? Tera?\nWhat is a computer?\nWhat are the different types of computers?\nWhat is an embedded computer? Give an example.\nWhere is data stored on a computer?\nHow do computers process data?\nWhat is the difference between RAM and a hard drive?\nList and describe popular encoding schemes including RGB, ASCII, and Unicode\nHow do file extensions give applications clues on how to process and interpret data?"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#reminders",
-    "href": "lessons/03-computers-data.html#reminders",
-    "title": "Computers and Data",
-    "section": "Reminders",
-    "text": "Reminders\n\nWPS1 due 25AUG\nExtra credit assignments published!\nAddress Cengage issues now!\nNext week: Algorithms and Problem Solving\n\nzyBook readings!"
+    "text": "Reminders\n\nBring your reference cards to class daily\nErase whiteboards and clean up your area\nWPS2 is due 02SEP"
   },
   {
     "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
@@ -369,90 +411,6 @@
     "title": "Computing Fundamentals",
     "section": "Lessons",
     "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\nCPT Sonny Bhatia\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\nCPT Sonny Bhatia\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lessons/02-office.html#hide-and-seek",
-    "href": "lessons/02-office.html#hide-and-seek",
-    "title": "Microsoft 365",
-    "section": "Hide and Seek!",
-    "text": "Hide and Seek!"
-  },
-  {
-    "objectID": "lessons/02-office.html#lesson-objectives",
-    "href": "lessons/02-office.html#lesson-objectives",
-    "title": "Microsoft 365",
-    "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nArticulate the importance of Microsoft 365 to the Army\nDifferentiate the core Microsoft 365 products\nDistinguish when to use OneDrive, Teams, or SharePoint to share data\nUse OneDrive, Outlook, Teams, OneNote, Word, PowerPoint, and Office.com to accomplish a variety of tasks"
-  },
-  {
-    "objectID": "lessons/02-office.html#discussion",
-    "href": "lessons/02-office.html#discussion",
-    "title": "Microsoft 365",
-    "section": "Discussion",
-    "text": "Discussion\n\nWhat can I do with Word? Excel?\nCan I use PowerPoint for anything other than briefings?\nWhen is it appropriate to use Teams vs Outlook?\nWhat is the difference between OneDrive and SharePoint? Which one is better?\nWhat is a quad chart? Why does the Army care?\nIs Microsoft better or worse than Google? Why?"
-  },
-  {
-    "objectID": "lessons/02-office.html#word",
-    "href": "lessons/02-office.html#word",
-    "title": "Microsoft 365",
-    "section": "Word",
-    "text": "Word\n\nMemorandums\nOPORDs\n15-6 Investigations\nSITREPs"
-  },
-  {
-    "objectID": "lessons/02-office.html#powerpoint",
-    "href": "lessons/02-office.html#powerpoint",
-    "title": "Microsoft 365",
-    "section": "PowerPoint",
-    "text": "PowerPoint\n\nConcept of Operations (CONOPs)\nMission Analysis Briefings\nCommand and Staff slides"
-  },
-  {
-    "objectID": "lessons/02-office.html#excel",
-    "href": "lessons/02-office.html#excel",
-    "title": "Microsoft 365",
-    "section": "Excel",
-    "text": "Excel\n\nTrackers\ntrackers\nmore trackers…"
-  },
-  {
-    "objectID": "lessons/02-office.html#onedrive",
-    "href": "lessons/02-office.html#onedrive",
-    "title": "Microsoft 365",
-    "section": "OneDrive",
-    "text": "OneDrive\n\n\nWhere is my data stored?\nWhat should I backup?\nWhat should I not backup?\nDemo: Setup backup"
-  },
-  {
-    "objectID": "lessons/02-office.html#in-class-exercise",
-    "href": "lessons/02-office.html#in-class-exercise",
-    "title": "Microsoft 365",
-    "section": "In-Class Exercise",
-    "text": "In-Class Exercise\n\nOneDrive shared folder\nUpdate Seating Chart!"
-  },
-  {
-    "objectID": "lessons/02-office.html#outlook",
-    "href": "lessons/02-office.html#outlook",
-    "title": "Microsoft 365",
-    "section": "Outlook",
-    "text": "Outlook\n\nImport buff card, class schedule\nSetting availability\nSchedule meetings"
-  },
-  {
-    "objectID": "lessons/02-office.html#check-on-learning",
-    "href": "lessons/02-office.html#check-on-learning",
-    "title": "Microsoft 365",
-    "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nWhat are the key differences between using PowerPoint for presentations and Word for creating documents?\nHow do the features of Microsoft Teams differ from those of OneNote in terms of collaboration and communication?\nWhen would it be more appropriate to store a document in OneDrive versus Microsoft Teams?\nIn what scenarios should you choose to store files in SharePoint rather than in Microsoft Teams or OneDrive?\nWhere is OneDrive data located?\nWhat are the main functions of Microsoft Outlook?\nWhat can you use for note-taking?\nCan PowerPoint be used to create an elaborate concept of operations (CONOP) graphic?"
-  },
-  {
-    "objectID": "lessons/02-office.html#zybooks-and-cengage",
-    "href": "lessons/02-office.html#zybooks-and-cengage",
-    "title": "Microsoft 365",
-    "section": "zyBooks and Cengage",
-    "text": "zyBooks and Cengage"
-  },
-  {
-    "objectID": "lessons/02-office.html#next-class",
-    "href": "lessons/02-office.html#next-class",
-    "title": "Microsoft 365",
-    "section": "Next Class",
-    "text": "Next Class\n\nComputers and Data\nWPS1 due 25AUG\nWPS2 will be assigned soon\nzyBooks readings!"
   },
   {
     "objectID": "lessons/04-algorithms.html#discussion",
@@ -642,5 +600,187 @@
     "title": "Algorithms",
     "section": "Reminders",
     "text": "Reminders\n\nComplete DAAW in Canvas\nWPS2 due 02SEP\n\nExcel sheet upload, 5 attempts\n\nExtra credit assignments published!\nLesson 5 readings are long and really important\n\nStart early and come prepared!\n\nClear the boards!\nBluefruit?"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#discussion",
+    "href": "lessons/03-computers-data.html#discussion",
+    "title": "Computers and Data",
+    "section": "Discussion!",
+    "text": "Discussion!\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#lesson-objectives",
+    "href": "lessons/03-computers-data.html#lesson-objectives",
+    "title": "Computers and Data",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nDefine data, how it differs from information, and its forms: analog and digital.\nDefine what a computer is, define common types of computers, and distinguish their uses from each other. \nDescribe how digital data is quantified and represented on computers.\nDescribe how computers process and store data.\nLearn how to read an ASCII table."
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#information",
+    "href": "lessons/03-computers-data.html#information",
+    "title": "Computers and Data",
+    "section": "Information",
+    "text": "Information\n\n\n\nData = facts\n\nmeasurements\nstatistics\nvalues\n\nInformation\n\ndata processed, organized, or structured in a meaningful way"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#analog-vs-digital-data",
+    "href": "lessons/03-computers-data.html#analog-vs-digital-data",
+    "title": "Computers and Data",
+    "section": "Analog vs Digital Data",
+    "text": "Analog vs Digital Data\n\n\n\nAnalog\n\nContinuous data\nSmooth, unbroken line\nSpeed, temperature\nMore accurate\nHarder to store, manipulate, and transmit\n\nDigital\n\nDiscrete data\nStaircase\ne.g. ACFT score table\nEasier to store, manipulate, and transmit"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#analog-to-digital",
+    "href": "lessons/03-computers-data.html#analog-to-digital",
+    "title": "Computers and Data",
+    "section": "Analog to Digital",
+    "text": "Analog to Digital\n\nVideo: Analog vs Digital"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#computers-are-everywhere",
+    "href": "lessons/03-computers-data.html#computers-are-everywhere",
+    "title": "Computers and Data",
+    "section": "Computers are Everywhere",
+    "text": "Computers are Everywhere\n\nEmbedded computers: inside of other electronic devices, usually not visible from the outside"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#microcontrollers",
+    "href": "lessons/03-computers-data.html#microcontrollers",
+    "title": "Computers and Data",
+    "section": "Microcontrollers",
+    "text": "Microcontrollers\n\n\n\nSmallest processor\nRun exactly one program\nCan run on battery power\nBluefruit!"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#mobile-computers",
+    "href": "lessons/03-computers-data.html#mobile-computers",
+    "title": "Computers and Data",
+    "section": "Mobile Computers",
+    "text": "Mobile Computers\n\nWhat are they?\n\n\n\nLaptops, tablets, smartphones\nCan run multiple programs at once\nDesigned for portability - battery power"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#desktops-and-servers",
+    "href": "lessons/03-computers-data.html#desktops-and-servers",
+    "title": "Computers and Data",
+    "section": "Desktops and Servers",
+    "text": "Desktops and Servers\n\n\n\nWhat about these?\n\n\n\nMost powerful computers\nCan run multiple programs at once\nDesigned for performance\nTypically plugged into a power source"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#check-on-learning",
+    "href": "lessons/03-computers-data.html#check-on-learning",
+    "title": "Computers and Data",
+    "section": "Check on Learning",
+    "text": "Check on Learning\n\n\nWhat is information?\nWhat is a microcontroller?\nIs microcontroller a general-purpose computer?\nIs calculator a general-purpose computer?\nIs a smartphone a general-purpose computer?"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#types-of-devices",
+    "href": "lessons/03-computers-data.html#types-of-devices",
+    "title": "Computers and Data",
+    "section": "Types of Devices",
+    "text": "Types of Devices\n\n\nInput\n\n\nKeyboard\nMouse\nTouchscreen\nMicrophone\nCamera\n\n\n\nOutput\n\n\nMonitor\nPrinter\nSpeaker\n\n\n\nPeripheral\n\nConnect through expansion slots\nGreatly expand computer capabilities\n\n\n\nGraphics card (GPU)\nNetwork card"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#central-processing-unit-cpu",
+    "href": "lessons/03-computers-data.html#central-processing-unit-cpu",
+    "title": "Computers and Data",
+    "section": "Central Processing Unit (CPU)",
+    "text": "Central Processing Unit (CPU)\n\n\n\nCache: small, fast memory\n\n\nReads instructions from memory\nPerforms logical and mathematical operations\nWrites results back to memory"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#storage",
+    "href": "lessons/03-computers-data.html#storage",
+    "title": "Computers and Data",
+    "section": "Storage",
+    "text": "Storage\n\n\n\nCache\nRAM\nHard Drive"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#the-bus",
+    "href": "lessons/03-computers-data.html#the-bus",
+    "title": "Computers and Data",
+    "section": "The Bus",
+    "text": "The Bus\n\n\n\nelectronic conduit, connects all components together inside the computer"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#scenario",
+    "href": "lessons/03-computers-data.html#scenario",
+    "title": "Computers and Data",
+    "section": "Scenario",
+    "text": "Scenario\nPower Outage\n\nYou are working on a paper in the middle of the night. Suddenly, a powerful thunderstorm appears in the area and you lose power.\nSuppose you are working on a desktop computer. What happens to your paper? What data is lost?\nHow does the above answer change if you were working on a laptop? What are some advantages/disadvantages of autosave?\n\nData Security\n\nYour friend is thinking about making some extra cash by selling their computer. What advice would you give them so their personal data does not get stolen?\nWhat concrete steps that you would recommend they take?\nAny components worth removing or keeping? How does your answer change if it is a phone, laptop or desktop?"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#binary",
+    "href": "lessons/03-computers-data.html#binary",
+    "title": "Computers and Data",
+    "section": "Binary",
+    "text": "Binary\n\nLight switch = on or off\nOnly two values: 0 and 1\nBit = binary digit\nByte = 8 bits\nHow exactly does binary code work?\nRepresenting Numbers and Letters with Binary\n\n\n\nBit = light switch, off or on"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#hexadecimal",
+    "href": "lessons/03-computers-data.html#hexadecimal",
+    "title": "Computers and Data",
+    "section": "Hexadecimal",
+    "text": "Hexadecimal\n\nBase 16 =&gt; 0-9, A-F\n4 bits = 1 hex digit\nEasier for humans to read\n\n\n\n16 objects, unique labels\nboard example"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#conversion-decimal---binary---hexadecimal",
+    "href": "lessons/03-computers-data.html#conversion-decimal---binary---hexadecimal",
+    "title": "Computers and Data",
+    "section": "Conversion: Decimal - Binary - Hexadecimal",
+    "text": "Conversion: Decimal - Binary - Hexadecimal"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#quantifying-data-sizes",
+    "href": "lessons/03-computers-data.html#quantifying-data-sizes",
+    "title": "Computers and Data",
+    "section": "Quantifying Data Sizes",
+    "text": "Quantifying Data Sizes"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#ascii",
+    "href": "lessons/03-computers-data.html#ascii",
+    "title": "Computers and Data",
+    "section": "ASCII",
+    "text": "ASCII\n\nAmerican Standard Code for Information Interchange\n7-bit encoding scheme\n95 printable characters, 33 control characters\nInvented in 1963; last updated in 1986"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#whats-the-message",
+    "href": "lessons/03-computers-data.html#whats-the-message",
+    "title": "Computers and Data",
+    "section": "What’s the Message?",
+    "text": "What’s the Message?\n\n\n\n\n\n69 110 105 103 109 97 32 77 97 99 104 105 110 101\n66 108 101 116 99 104 108 101 121 32 80 97 114 107\n65 108 97 110 32 84 117 114 105 110 103\n71 111 32 65 114 109 121 32 66 101 97 116 32 78 97 122 105\n67 111 100 101 98 114 101 97 107 101 114 115\n84 117 114 105 110 103 32 84 101 115 116\n\n\n\n\nEnigma Machine\nBletchley Park\nAlan Turing\nGo Army Beat Nazi\nCodebreakers\nTuring Test"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#file-extensions",
+    "href": "lessons/03-computers-data.html#file-extensions",
+    "title": "Computers and Data",
+    "section": "File Extensions",
+    "text": "File Extensions\n\nIndicate what type of data is in a file\nHelp computer deduce how to process and interpret\nNot foolproof, but helpful\nFile headers provide more information\nExamples: .docx, .xlsx, .pptx, .jpg, .mp4, .py"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#other-encoding-schemes",
+    "href": "lessons/03-computers-data.html#other-encoding-schemes",
+    "title": "Computers and Data",
+    "section": "Other Encoding Schemes",
+    "text": "Other Encoding Schemes"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#image-encoding",
+    "href": "lessons/03-computers-data.html#image-encoding",
+    "title": "Computers and Data",
+    "section": "Image Encoding",
+    "text": "Image Encoding\n\nVideo: Images, Pixels and RGB\nDigital Compression"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#check-on-learning-1",
+    "href": "lessons/03-computers-data.html#check-on-learning-1",
+    "title": "Computers and Data",
+    "section": "Check on Learning",
+    "text": "Check on Learning\n\n\nCompare and contrast information vs data.\nCompare and contrast analog and digital data\nWhy is digital data used in computers?\nDefine binary, bit, byte.\nHow is digital data quantified and represented on computers?\nWhat is Kilo? Mega? Giga? Tera?\nWhat is a computer?\nWhat are the different types of computers?\nWhat is an embedded computer? Give an example.\nWhere is data stored on a computer?\nHow do computers process data?\nWhat is the difference between RAM and a hard drive?\nList and describe popular encoding schemes including RGB, ASCII, and Unicode\nHow do file extensions give applications clues on how to process and interpret data?"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#reminders",
+    "href": "lessons/03-computers-data.html#reminders",
+    "title": "Computers and Data",
+    "section": "Reminders",
+    "text": "Reminders\n\nWPS1 due 25AUG\nExtra credit assignments published!\nAddress Cengage issues now!\nNext week: Algorithms and Problem Solving\n\nzyBook readings!"
   }
 ]
