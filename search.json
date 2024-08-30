@@ -102,7 +102,7 @@
     "href": "lessons/06-built-in-functions.html#check-on-learning",
     "title": "Built-in Functions",
     "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nWhat is a function? Is it fruitful?\nWhat is a procedure? Is it fruitful?\nWhat can a function return?\nWhat is a built-in function?\nWhat is an argument?"
+    "text": "Check on Learning\n\n\nWhat is a function?\n\nIs it fruitful?\n\nWhat is a procedure?\n\nIs it fruitful?\n\nWhat can a function return?\nWhat is a built-in function?\nWhat is an argument?"
   },
   {
     "objectID": "lessons/06-built-in-functions.html#pizza-program",
@@ -123,14 +123,7 @@
     "href": "lessons/06-built-in-functions.html#functions",
     "title": "Built-in Functions",
     "section": "Functions",
-    "text": "Functions\n\norganize code into reusable blocks\ntransforms some input (X) to some output (Y)\n\n\\[f: X \\rightarrow Y\\]\n\nfactory that takes multiple inputs and produces one thing"
-  },
-  {
-    "objectID": "lessons/06-built-in-functions.html#procedures-vs-functions",
-    "href": "lessons/06-built-in-functions.html#procedures-vs-functions",
-    "title": "Built-in Functions",
-    "section": "Procedures vs Functions",
-    "text": "Procedures vs Functions\n\nProcedures: do something, but don’t return a value\nFunctions: do something and return a value"
+    "text": "Functions\n\norganize code into reusable blocks\ntransforms some input (X) to some output (Y)\n\n\\[f: X \\rightarrow Y\\]\n\nfactory that takes multiple inputs and produces one thing\nprocedures are functions that do not return anything"
   },
   {
     "objectID": "lessons/06-built-in-functions.html#built-in-functions",
