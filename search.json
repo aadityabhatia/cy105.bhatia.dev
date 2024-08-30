@@ -88,35 +88,133 @@
     "href": "lessons/06-built-in-functions.html#discussion",
     "title": "Built-in Functions",
     "section": "Discussion!",
-    "text": "Discussion!"
+    "text": "Discussion!\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\n\n\nWhat is the most you have been sleep deprived?\nHow bad was it?\nCan you always tell when you are sleep deprived?\nDo you feel that you have enough time to sleep?"
   },
   {
     "objectID": "lessons/06-built-in-functions.html#lesson-objectives",
     "href": "lessons/06-built-in-functions.html#lesson-objectives",
     "title": "Built-in Functions",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives"
-  },
-  {
-    "objectID": "lessons/06-built-in-functions.html#announcements",
-    "href": "lessons/06-built-in-functions.html#announcements",
-    "title": "Built-in Functions",
-    "section": "Announcements",
-    "text": "Announcements"
+    "text": "Lesson Objectives\n\nUnderstand the purpose of built-in functions in the Python language.\nArticulate the difference between procedures (non-fruitful functions) and fruitful functions.\nIllustrate how to use the assignment operator to store the result of a built-in function in a variable.\nArticulate what arguments are, and how to use them in the context of built-in functions.\nUse built-in functions to write Python code."
   },
   {
     "objectID": "lessons/06-built-in-functions.html#check-on-learning",
     "href": "lessons/06-built-in-functions.html#check-on-learning",
     "title": "Built-in Functions",
     "section": "Check on Learning",
-    "text": "Check on Learning"
+    "text": "Check on Learning\n\n\nWhat is a function? Is it fruitful?\nWhat is a procedure? Is it fruitful?\nWhat can a function return?\nWhat is a built-in function?\nWhat is an argument?"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#reminders",
-    "href": "lessons/06-built-in-functions.html#reminders",
+    "objectID": "lessons/06-built-in-functions.html#pizza-program",
+    "href": "lessons/06-built-in-functions.html#pizza-program",
     "title": "Built-in Functions",
-    "section": "Reminders",
-    "text": "Reminders"
+    "section": "Pizza Program",
+    "text": "Pizza Program\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite a program that accomplishes this task!\n\nAsk the user for their name.\nPrint out hello followed by their name.\nAsk how many slices of pizza they want.\nMultiply quantity by the cost (2.50).\nPrint total to the screen.\n\nUse Notepad++ or zyBook IDE."
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#will-this-work",
+    "href": "lessons/06-built-in-functions.html#will-this-work",
+    "title": "Built-in Functions",
+    "section": "Will this work?",
+    "text": "Will this work?\n\"\"\"\nprogram: pizza checkout\ninput: name, slices\noutput: total amount of money they owe\n\"\"\"\n\ndef main():\n    name = input(\"What is your name? \")  # ask the user for their name\n    print(\"Hello\", name)  # greet the user\n    slices = input(\"How many slices of pizza do you want? \")  # get user input\n    total = slices * 2.50  # multiply quantity by the cost\n    print(\"The total is\", total) # print the total amount\n\nmain()  # call the function"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#functions",
+    "href": "lessons/06-built-in-functions.html#functions",
+    "title": "Built-in Functions",
+    "section": "Functions",
+    "text": "Functions\n\norganize code into reusable blocks\ntransforms some input (X) to some output (Y)\n\n\\[f: X \\rightarrow Y\\]\n\nfactory that takes multiple inputs and produces one thing"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#procedures-vs-functions",
+    "href": "lessons/06-built-in-functions.html#procedures-vs-functions",
+    "title": "Built-in Functions",
+    "section": "Procedures vs Functions",
+    "text": "Procedures vs Functions\n\nProcedures: do something, but don’t return a value\nFunctions: do something and return a value"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#built-in-functions",
+    "href": "lessons/06-built-in-functions.html#built-in-functions",
+    "title": "Built-in Functions",
+    "section": "Built-in Functions",
+    "text": "Built-in Functions\nname = input(\"What is your name? \")\nprint(\"Hello\", name)\ntype(name)\n\nlist('hello')\n\npi = 3.14159\nround(pi)\nround(pi, 2)\n\na = [17, 23, 11, 29, 37, 13]\nlen(a)\nmax(a)\nmin(a)\n\nfloor(pi)\nceil(pi)\n\na = \"\"\"this string\nhas multiple\nlines.\nWhat now?\"\"\""
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#debugging",
+    "href": "lessons/06-built-in-functions.html#debugging",
+    "title": "Built-in Functions",
+    "section": "Debugging",
+    "text": "Debugging\n\nPython Tutor\nBlack Code Formatter\nuse print() to display variable values\nuse type() to check the type of a variable"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#pizza-program-2",
+    "href": "lessons/06-built-in-functions.html#pizza-program-2",
+    "title": "Built-in Functions",
+    "section": "Pizza Program 2",
+    "text": "Pizza Program 2\n\nModify the pizza program to account for 8.5% tax.\nPrepend the total with a $ sign.\nHave the dollar amount rounded to two decimal places.\n\nSample Input/Output:\n\nWhat is your name? Pikachu\nHello Pikachu\nHow many slices of pizza do you want? 3\nThe total is $8.14"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#how-tall-in-feet-and-inches",
+    "href": "lessons/06-built-in-functions.html#how-tall-in-feet-and-inches",
+    "title": "Built-in Functions",
+    "section": "How tall in feet and inches?",
+    "text": "How tall in feet and inches?\nWrite a program that prompts a user to enter their height in inches. Your program should then display the corresponding height in feet, along with any leftover inches.\nSample Input/Output:\n\n\n\nEnter your height in inches: 70\nYou are 5 feet and 10 inches.\n\n\ndef main():\n    # enter code here\n\n\nmain()"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#circle-program",
+    "href": "lessons/06-built-in-functions.html#circle-program",
+    "title": "Built-in Functions",
+    "section": "Circle Program",
+    "text": "Circle Program\nPrompt the user to input the circle’s radius as a float. Compute and display the circumference and area of the circle. Assume \\(\\pi = 3.14\\).\nCircumference = \\(2 \\pi r\\)\nArea = \\(\\pi r^2\\)\nSample Input/Output:\n\n\n\nEnter the radius as a float: 4.28\nCircumference: 26.8784\nArea: 57.519776\n\n\ndef main():\n    # enter code here\n\n\nmain()"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#next-lesson-for-loops",
+    "href": "lessons/06-built-in-functions.html#next-lesson-for-loops",
+    "title": "Built-in Functions",
+    "section": "Next Lesson: For Loops",
+    "text": "Next Lesson: For Loops\n\nWhy we need loops?\nHow to write code that repeats statements?\nHow to use the accumulator pattern?\nHow to use the built-in function range()?"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#daaw",
+    "href": "lessons/06-built-in-functions.html#daaw",
+    "title": "Built-in Functions",
+    "section": "DAAW",
+    "text": "DAAW\n\n\n\nPick the appropriate statement.\nDocument assistance.\nInitial.\nSign.\n\n\n___ I CERTIFY THAT I DID NOT USE ANY SOURCES OR RECEIVE ANY ASSISTANCE REQUIRING DOCUMENTATION WHILE COMPLETING THIS ASSIGNMENT.\n___ I CERTIFY THAT I HAVE COMPLETELY DOCUMENTED ALL SOURCES THAT I USED TO COMPLETE THIS ASSIGNMENT AND THAT I ACKNOWLEDGED ALL ASSISTANCE I RECEIVED IN THE COMPLETION OF THIS ASSIGNMENT.\n\n\nzyBook"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#tools-available-to-us",
+    "href": "lessons/06-built-in-functions.html#tools-available-to-us",
+    "title": "Built-in Functions",
+    "section": "Tools Available to Us",
+    "text": "Tools Available to Us\n\nMOSS – Evaluation of multiple files for degree of similarity\nzyLabs Similarity Checker – MOSS-like tool built into zyLabs\nzyLabs Playback – playback of work progression on individual files\nCodequiry – Compares files with each other and online sources\nGenerative AI Tools – See sample responses to particular prompt before or after issuing assignment. Sample responses can be used in MOSS or zyLabs Similarity Checker against student submissions."
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#documenting-in-cy105",
+    "href": "lessons/06-built-in-functions.html#documenting-in-cy105",
+    "title": "Built-in Functions",
+    "section": "Documenting in CY105",
+    "text": "Documenting in CY105\n\nWeekly Problem Set assignments are individual assignments.\nAssistance is encouraged, but collaboration and copying will result in a heavy deduction.\n\nSee the DAAW Section II paragraphs C, E, and H for definitions of each.\n\nDon’t be afraid to ask for assistance! Be aware of the examples of assistance below – you are encouraged to receive this kind of assistance if you are struggling on an assignment!\n\nGetting a verbal answer from another person or receiving an answer from an artificial intelligence about general questions about coding, tools, or concepts covered in the course.\nHaving another person or an artificial intelligence source help you identify and understand specific errors in your own solution."
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#documenting-in-cy105-1",
+    "href": "lessons/06-built-in-functions.html#documenting-in-cy105-1",
+    "title": "Built-in Functions",
+    "section": "Documenting in CY105",
+    "text": "Documenting in CY105\nExamples of Collaboration or Copying (will result in point deduction if not explicitly allowed, must cite):\n\nWorking with one or more people (or artificial intelligence tools) to jointly produce a solution.\nWorking with one or more people (or artificial intelligence tools) to complete separate parts of a graded events, and then joining the parts together to form a common solution.\nLooking at someone else’s code (or code found online) and then typing the same (or slightly modified solution) into your computer and submitting the work as your own.\nProviding the prompt for an assignment to an artificial intelligence source and submitting the work as your own."
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#generative-ai",
+    "href": "lessons/06-built-in-functions.html#generative-ai",
+    "title": "Built-in Functions",
+    "section": "Generative AI",
+    "text": "Generative AI\n\nGenerative AI represents a remarkable frontier in technology, holding transformative potential for expanding knowledge and enhancing learning.\nYou are forbidden from using generative A.I. to generate solutions to weekly problem sets.\nYou are permitted to utilize generative AI for weekly problem sets in the following specific contexts only:\nReceiving an answer from an artificial intelligence source about general questions about course concepts or programming construct (e.g., how to take user input of a certain data type in Python, what is the purpose of a for loop, what does cybersecurity mean, etc.)\nHaving an artificial intelligence source help you identify specific errors in your own solution (i.e., identifying potential bugs in your code after you have written the program)\nHaving artificial intelligence explain why your program gives a particular (wrong) output."
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#generative-ai-1",
+    "href": "lessons/06-built-in-functions.html#generative-ai-1",
+    "title": "Built-in Functions",
+    "section": "Generative AI",
+    "text": "Generative AI\n\nYou are NEVER authorized to use generative AI to generate solutions (or partial solutions) to weekly problem set problems!\nIf the tool is capable of generating a link to the conversation, include that in your acknowledgements. Otherwise, provide a copy of the full transcript in your acknowledgements section.\nThis includes any and all follow-up questions/prompts to the artificial intelligence source and the provided answers."
   },
   {
     "objectID": "lessons/04-algorithms.html#discussion",
@@ -529,7 +627,7 @@
     "href": "lessons/05-python.html#real-python-program",
     "title": "Python Basics",
     "section": "Real Python Program",
-    "text": "Real Python Program\n\"\"\"\nUse triple quotes to create multi-line comments.\nThe Python interpreter ignore comments.\n\"\"\"\n\ndef main():  # a procedure called main\n    print(\"hello world!\")  # print statement\n\nmain()  # invoke the main procedure\n\nCopy the code above into Notepad++\nObserve the different colors. What do they mean?"
+    "text": "Real Python Program\n\"\"\"\nWhispers in the code,\nPython ignores, doesn’t care,\nYet they light the path.\n\"\"\"\n\ndef main():  # a procedure called main\n    print(\"hello world!\")  # print statement\n\nmain()  # invoke the main procedure\n\nCopy the code above into Notepad++\nSave with a .py extension, e.g. hello.py\nObserve the different colors. What do they mean?"
   },
   {
     "objectID": "lessons/05-python.html#variables",
