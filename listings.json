@@ -7,7 +7,10 @@
       "/lessons/03-computers-data.html",
       "/lessons/04-algorithms.html",
       "/lessons/05-python.html",
-      "/lessons/06-built-in-functions.html"
+      "/lessons/06-built-in-functions.html",
+      "/lessons/07-iteration.html",
+      "/lessons/08-lists-strings.html",
+      "/lessons/09-file-io.html"
     ]
   }
 ]

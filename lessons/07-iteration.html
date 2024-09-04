@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.5.55">
 
   <meta name="author" content="CPT Sonny Bhatia">
-  <title>CY105 – Computers and Data</title>
+  <title>CY105 – Iteration pt 1</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -321,9 +386,9 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Computers and Data – CY105">
-<meta property="og:description" content="How machines process information">
-<meta property="og:image" content="https://cy105.bhatia.dev//images/03/data-information-legos.webp">
+<meta property="og:title" content="Iteration pt 1 – CY105">
+<meta property="og:description" content="Definite iteration using for loops">
+<meta property="og:image" content="https://cy105.bhatia.dev//images/07/07.webp">
 <meta property="og:site_name" content="CY105">
 </head>
 <body class="quarto-light">
@@ -331,7 +396,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Computers and Data</h1>
+  <h1 class="title">Iteration pt 1</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -341,274 +406,221 @@ CPT Sonny Bhatia
 </div>
 </div>
 
-  <p class="date">Thursday, August 22, 2024</p>
+  <p class="date">Wednesday, September 4, 2024</p>
 </section>
-<section id="discussion" class="slide level2 center" data-timing="360">
-<h2>Discussion!</h2>
+<section id="blooms-taxonomy" class="slide level2 center" data-timing="360">
+<h2>Bloom’s Taxonomy</h2>
 <ul>
-<li><a href="https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/">Inside the “3 Billion People” National Public Data Breach</a></li>
-<li><a href="https://haveibeenpwned.com/">haveibeenpwned.com</a></li>
+<li><a href="https://www.youtube.com/embed/ayefSTAnCR8">YouTube: Bloom’s Taxonomy: Structuring The Learning Journey</a></li>
 </ul>
+
+<img data-src="https://live.staticflickr.com/8231/29428436431_c12484fd8c_b.jpg" class="r-stretch"><p><a href="https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/">Ref: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.</a></p>
+<aside class="notes">
+<ul>
+<li>Set of different learning objectives</li>
+<li>Learning takes place in a hierarchy</li>
+<li>Lowest level is remembering, which is just recalling facts</li>
+<li>Where do the readings belong?
+<ul>
+<li>Where should these take place?</li>
+</ul></li>
+<li>What about in-class exercises?</li>
+<li>Improve learning by moving up the hierarchy</li>
+<li>Make best use of classroom time</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="lesson-objectives" class="slide level2 center" data-timing="60">
+<section id="announcements" class="slide level2 center" data-timing="60">
+<h2>Announcements</h2>
+<ul>
+<li>Cengage issues?
+<ul>
+<li>Email me or setup AI.</li>
+</ul></li>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/39/section/1">WPS3</a> is on zyBook; due 08SEP</li>
+<li>Written Periodic Review 1 is in two weeks!</li>
+</ul>
+
+<img data-src="../images/07/02-agenda.png" class="r-stretch"></section>
+<section id="lesson-objectives" class="slide level2 center" data-timing="30">
 <h2>Lesson Objectives</h2>
 <ul>
-<li>Define data, how it differs from information, and its forms: analog and digital.</li>
-<li>Define what a computer is, define common types of computers, and distinguish their uses from each other.&nbsp;</li>
-<li>Describe how digital data is quantified and represented on computers.</li>
-<li>Describe how computers process and store data.</li>
-<li>Learn how to read an ASCII table.</li>
+<li>Articulate the need for iteration in programs</li>
+<li>Describe the syntax and function of a for loop</li>
+<li>Write code that repeats a definite number of times using a for loop</li>
+<li>Define the Accumulator Pattern and give an example of it being used</li>
 </ul>
 </section>
-<section>
-<section id="data-vs-information" class="title-slide slide level1 center" data-timing="0">
-<h1>Data vs Information</h1>
+<section id="sequence---iteration" class="slide level2 center" data-timing="30">
+<h2>Sequence -&gt; Iteration</h2>
 
-</section>
-<section id="information" class="slide level2 center" data-timing="60">
-<h2>Information</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li>Data = facts
-<ul>
-<li>measurements</li>
-<li>statistics</li>
-<li>values</li>
-</ul></li>
-<li>Information
-<ul>
-<li>data processed, organized, or structured in a meaningful way</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:70%;">
-<p><img data-src="../images/03/data-information-legos.webp"></p>
-</div></div>
-</section>
-<section id="analog-vs-digital-data" class="slide level2 smaller center" data-timing="60">
-<h2>Analog vs Digital Data</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li>Analog
-<ul>
-<li>Continuous data</li>
-<li>Smooth, unbroken line</li>
-<li>Speed, temperature</li>
-<li>More accurate</li>
-<li>Harder to store, manipulate, and transmit</li>
-</ul></li>
-<li>Digital
-<ul>
-<li>Discrete data</li>
-<li>Staircase</li>
-<li>e.g.&nbsp;ACFT score table</li>
-<li>Easier to store, manipulate, and transmit</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:70%;">
-<p><img data-src="../images/03/analog-digital.webp"></p>
-</div></div>
-</section>
-<section id="analog-to-digital" class="slide level2 center" data-timing="0">
-<h2>Analog to Digital</h2>
-<ul>
-<li><a href="https://www.youtube.com/embed/oSZNQ1LZjHg">Video: Analog vs Digital</a></li>
-</ul>
-
-<img data-src="../images/03/analog-to-digital.png" class="r-stretch"></section></section>
-<section>
-<section id="computers" class="title-slide slide level1 center" data-timing="120">
-<h1>Computers</h1>
-<ul>
-<li>So, what are computers?</li>
-</ul>
-<div>
-<ul>
-<li class="fragment">Electronic devices that accept data</li>
-<li class="fragment">Perform mathematical and logical operations</li>
-<li class="fragment">Output results</li>
-<li class="fragment">General-purpose, reprogrammable</li>
-</ul>
-</div>
-</section>
-<section id="computers-are-everywhere" class="slide level2 center" data-timing="60">
-<h2>Computers are Everywhere</h2>
-
-<img data-src="../images/03/everywhere.png" class="r-stretch"><p>Embedded computers: inside of other electronic devices, usually not visible from the outside</p>
-</section>
-<section id="microcontrollers" class="slide level2 center" data-timing="60">
-<h2>Microcontrollers</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Smallest processor</li>
-<li>Run exactly one program</li>
-<li>Can run on battery power</li>
-<li>Bluefruit!</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="../images/01/12-bluefruit.png"></p>
-</div></div>
-</section>
-<section id="mobile-computers" class="slide level2 center" data-timing="60">
-<h2>Mobile Computers</h2>
-<ul>
-<li>What are they?</li>
-</ul>
-<div>
-<ul>
-<li class="fragment">Laptops, tablets, smartphones</li>
-<li class="fragment">Can run multiple programs at once</li>
-<li class="fragment">Designed for portability - battery power</li>
-</ul>
-</div>
-</section>
-<section id="desktops-and-servers" class="slide level2 center" data-timing="60">
-<h2>Desktops and Servers</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>What about these?</li>
-</ul>
-<div>
-<ul>
-<li class="fragment">Most powerful computers</li>
-<li class="fragment">Can run multiple programs at once</li>
-<li class="fragment">Designed for performance</li>
-<li class="fragment">Typically plugged into a power source</li>
-</ul>
-</div>
-</div><div class="column" style="width:50%;">
-<p><img data-src="https://media.bizj.us/view/img/11590645/gettyimages-885294108*1200xx3530-1991-1135-1035.jpg"></p>
-</div></div>
-</section>
-<section id="check-on-learning" class="slide level2 center" data-timing="120">
+<img data-src="../images/07/03-algorithm-building-blocks.png" class="r-stretch"></section>
+<section id="check-on-learning" class="slide level2 center" data-timing="180">
 <h2>Check on Learning</h2>
 <div>
 <ul>
-<li class="fragment">What is information?</li>
-<li class="fragment">What is a microcontroller?</li>
-<li class="fragment">Is microcontroller a general-purpose computer?</li>
-<li class="fragment">Is calculator a general-purpose computer?</li>
-<li class="fragment">Is a smartphone a general-purpose computer?</li>
+<li class="fragment">What is iteration?</li>
+<li class="fragment">What type of loops can we use in Python?</li>
+<li class="fragment">Where are loops on your reference card?</li>
+<li class="fragment">When would we use a <code>for</code> loop?</li>
+<li class="fragment">What is the syntax of <code>for</code> loop?</li>
+<li class="fragment">How do we initialize the variable <code>x</code>?</li>
+<li class="fragment">What can the sequence be?</li>
+<li class="fragment">What does <code>range()</code> do?</li>
+<li class="fragment">What is an accumulator?</li>
 </ul>
 </div>
-</section></section>
-<section>
-<section id="components" class="title-slide slide level1 center" data-timing="0">
-<h1>Components</h1>
-
+<aside class="notes">
+<ul>
+<li>Iteration is repeating a set of statements a certain number of times</li>
+<li><code>for x in sequence:</code></li>
+<li><code>range()</code> generates a sequence of values that a for loop can iterate over</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="types-of-devices" class="slide level2 center" data-timing="120">
-<h2>Types of Devices</h2>
-<div class="columns">
-<div class="column" style="width:33%;">
-<h3 id="input">Input</h3>
-<div>
+<section id="reminder-code-blocks" class="slide level2 center">
+<h2>Reminder: Code Blocks</h2>
 <ul>
-<li class="fragment">Keyboard</li>
-<li class="fragment">Mouse</li>
-<li class="fragment">Touchscreen</li>
-<li class="fragment">Microphone</li>
-<li class="fragment">Camera</li>
+<li>Begins with a colon</li>
+<li>Indentation is important!</li>
+<li>Indentation is how Python knows what is inside the loop</li>
+<li>Indentation is 4 spaces or a tab - be consistent!</li>
 </ul>
-</div>
-</div><div class="column" style="width:33%;">
-<h3 id="output">Output</h3>
-<div>
-<ul>
-<li class="fragment">Monitor</li>
-<li class="fragment">Printer</li>
-<li class="fragment">Speaker</li>
-</ul>
-</div>
-</div><div class="column" style="width:33%;">
-<h3 id="peripheral">Peripheral</h3>
-<ul>
-<li>Connect through expansion slots</li>
-<li>Greatly expand computer capabilities</li>
-</ul>
-<div>
-<ul>
-<li class="fragment">Graphics card (GPU)</li>
-<li class="fragment">Network card</li>
-</ul>
-</div>
-</div></div>
+<div class="sourceCode" id="cb1" data-code-line-numbers="|5-7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="kw">def</span> main():</span>
+<span id="cb1-2"><a></a>    total  <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb1-3"><a></a>    n <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Enter a value for n: "</span>))</span>
+<span id="cb1-4"><a></a>    <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(n<span class="op">+</span><span class="dv">1</span>):</span>
+<span id="cb1-5"><a></a>        y <span class="op">=</span> (<span class="dv">3</span><span class="op">*</span>x <span class="op">+</span> <span class="dv">5</span>)</span>
+<span id="cb1-6"><a></a>        y_squared <span class="op">=</span> y<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb1-7"><a></a>        total <span class="op">=</span> total <span class="op">+</span> y_squared</span>
+<span id="cb1-8"><a></a>    <span class="bu">print</span>(<span class="st">"The final sum is"</span>, total)</span>
+<span id="cb1-9"><a></a></span>
+<span id="cb1-10"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="central-processing-unit-cpu" class="slide level2 center" data-timing="60">
-<h2>Central Processing Unit (CPU)</h2>
+<section id="the-for-loop" class="slide level2 center">
+<h2>The <code>for</code> Loop</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li>Cache: small, fast memory</li>
+<li>Iteration = loop = repeating a set of statements a certain number of times</li>
+<li>Makes your code concise, easy to read</li>
+<li><code>for</code> loop is a definite loop
+<ul>
+<li>We know how many times it will run before it starts</li>
+</ul></li>
 </ul>
-<ol type="1">
-<li>Reads instructions from memory</li>
-<li>Performs logical and mathematical operations</li>
-<li>Writes results back to memory</li>
-</ol>
 </div><div class="column" style="width:50%;">
-<p><img data-src="../images/03/cpu.webp"></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="co">"""</span></span>
+<span id="cb2-2"><a></a><span class="co">Program: Squares of natural numbers</span></span>
+<span id="cb2-3"><a></a><span class="co">Input: List of natural numbers</span></span>
+<span id="cb2-4"><a></a><span class="co">Output: Squares of each number</span></span>
+<span id="cb2-5"><a></a><span class="co">"""</span></span>
+<span id="cb2-6"><a></a></span>
+<span id="cb2-7"><a></a><span class="kw">def</span> main():</span>
+<span id="cb2-8"><a></a>  <span class="cf">for</span> x <span class="kw">in</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]:</span>
+<span id="cb2-9"><a></a>      square <span class="op">=</span> x<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb2-10"><a></a>      <span class="bu">print</span>(<span class="st">"The square of"</span>, x, <span class="st">"is"</span>, square)</span>
+<span id="cb2-11"><a></a></span>
+<span id="cb2-12"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 </section>
-<section id="storage" class="slide level2 center" data-timing="120">
-<h2>Storage</h2>
-<div class="columns">
-<div class="column" style="width:20%;">
+<section id="examples" class="slide level2 center">
+<h2>Examples</h2>
+<ul>
+<li>For every cadet in this class room…</li>
+<li>Display the values of each item in a given list.</li>
+<li>Convert the characters of a given string to ASCII values</li>
+<li>Every prime number less than 100…</li>
+<li><a href="https://pythontutor.com/render.html#code=def%20main%28%29%3A%0A%20%20%20%20my_string%20%3D%20input%28%22Enter%20a%20string%3A%20%22%29%0A%20%20%20%20for%20char%20in%20my_string%3A%0A%20%20%20%20%20%20%20%20print%28char%29%0A%20%20%20%20print%28%22All%20done!%22%29%20%20%20%20%0A%0Amain%28%29&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;mode=display&amp;origin=opt-frontend.js&amp;py=311&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false">Python Tutor Example</a></li>
+</ul>
+<aside class="notes">
+<ul>
+<li>Do you know exactly how many times each loop will be repeated?</li>
+<li>What are the keywords/indicators in each prompt?</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="more-loops" class="slide level2 center">
+<h2>More Loops</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="st">"A"</span>, <span class="st">"B"</span>, <span class="st">"C"</span>]:</span>
+<span id="cb3-2"><a></a>    <span class="bu">print</span>(i)</span>
+<span id="cb3-3"><a></a></span>
+<span id="cb3-4"><a></a><span class="cf">for</span> letter <span class="kw">in</span> <span class="st">"California"</span>:</span>
+<span id="cb3-5"><a></a>    <span class="bu">print</span>(letter)</span>
+<span id="cb3-6"><a></a></span>
+<span id="cb3-7"><a></a><span class="cf">for</span> value <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>):</span>
+<span id="cb3-8"><a></a>    <span class="bu">print</span>(value)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="in-class-exercise-1" class="slide level2 center" data-timing="600">
+<h2>In-Class Exercise 1</h2>
 <ol type="1">
-<li>Cache</li>
-<li>RAM</li>
-<li>Hard Drive</li>
+<li>For each cadet in the list ask the user what company they are in using this format “Which company for CDT Anderson?”</li>
+<li>Display the results in this format: “CDT Anderson is assigned to company B4”</li>
+<li>You must use a for loop to iterate through each element in the list.</li>
 </ol>
-</div><div class="column" style="width:80%;">
-<p><img data-src="../images/03/storage.png"></p>
-</div></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="kw">def</span> main():</span>
+<span id="cb4-2"><a></a>  <span class="co"># Here is the list of cadet names</span></span>
+<span id="cb4-3"><a></a>  newCadetNames <span class="op">=</span> [<span class="st">'Anderson'</span>, <span class="st">'Kim'</span>, <span class="st">'Thornton'</span>, <span class="st">'Kofford'</span>, <span class="st">'Palau'</span>, <span class="st">'Traeger'</span>, <span class="st">'Yao'</span>]</span>
+<span id="cb4-4"><a></a>  <span class="co"># Your code goes here</span></span>
+<span id="cb4-5"><a></a></span>
+<span id="cb4-6"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/7/section/6">zyBook 7.6.7: ICE 8</a></p>
 </section>
-<section id="the-bus" class="slide level2 center" data-timing="60">
-<h2>The Bus</h2>
-
-<img data-src="../images/03/bus.png" class="r-stretch"><div class="fragment">
+<section id="range-function" class="slide level2 center">
+<h2><code>range()</code> Function</h2>
 <ul>
-<li>electronic conduit, connects all components together inside the computer</li>
+<li>Generates a sequence of values and is commonlyused in a for loop</li>
 </ul>
-</div>
-</section>
-<section id="scenario" class="slide level2 center" data-timing="300">
-<h2>Scenario</h2>
-<h3 id="power-outage">Power Outage</h3>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="bu">range</span>(start, stop, step)</span>
+<span id="cb5-2"><a></a></span>
+<span id="cb5-3"><a></a><span class="bu">range</span>(stop)</span>
+<span id="cb5-4"><a></a></span>
+<span id="cb5-5"><a></a><span class="bu">range</span>(start, stop)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>You are working on a paper in the middle of the night. Suddenly, a powerful thunderstorm appears in the area and you lose power.</li>
-<li>Suppose you are working on a desktop computer. What happens to your paper? What data is lost?</li>
-<li>How does the above answer change if you were working on a laptop? What are some advantages/disadvantages of autosave?</li>
-</ul>
-<h3 id="data-security">Data Security</h3>
-<ul>
-<li>Your friend is thinking about making some extra cash by selling their computer. What advice would you give them so their personal data does not get stolen?</li>
-<li>What concrete steps that you would recommend they take?</li>
-<li>Any components worth removing or keeping? How does your answer change if it is a phone, laptop or desktop?</li>
-</ul>
-</section></section>
-<section>
-<section id="data-representation" class="title-slide slide level1 center" data-timing="0">
-<h1>Data Representation</h1>
-
-</section>
-<section id="binary" class="slide level2 center" data-timing="120">
-<h2>Binary</h2>
-<ul>
-<li>Light switch = on or off</li>
-<li>Only two values: 0 and 1</li>
-<li>Bit = binary digit</li>
-<li>Byte = 8 bits</li>
-<li><a href="https://www.youtube.com/embed/wgbV6DLVezo">How exactly does binary code work?</a></li>
-<li><a href="https://www.youtube.com/embed/1GSjbWt0c9M">Representing Numbers and Letters with Binary</a></li>
+<li><code>start</code> is optional and defaults to 0</li>
+<li><code>stop</code> is required; not inclusive</li>
+<li><code>step</code> is optional and defaults to 1</li>
 </ul>
 <aside class="notes">
 <ul>
-<li>Bit = light switch, off or on</li>
+<li><code>start</code> is optional and defaults to 0</li>
+<li><code>stop</code> is required; not inclusive</li>
+<li><code>step</code> is optional and defaults to 1</li>
 </ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="bu">range</span>(<span class="dv">5</span>) <span class="co"># 0, 1, 2, 3, 4</span></span>
+<span id="cb6-2"><a></a><span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">5</span>) <span class="co"># 2, 3, 4</span></span>
+<span id="cb6-3"><a></a><span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">10</span>, <span class="dv">2</span>) <span class="co"># 2, 4, 6, 8</span></span>
+<span id="cb6-4"><a></a><span class="bu">range</span>(<span class="dv">20</span>, <span class="dv">0</span>, <span class="op">-</span><span class="dv">3</span>) <span class="co"># 20, 17, 14, 11, 8, 5, 2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -621,140 +633,80 @@ CPT Sonny Bhatia
           display:block!important;
       }</style></aside>
 </section>
-<section id="hexadecimal" class="slide level2 center" data-timing="120">
-<h2>Hexadecimal</h2>
+<section id="in-class-exercise-2" class="slide level2 center" data-timing="600">
+<h2>In-Class Exercise 2</h2>
 <ul>
-<li>Base 16 =&gt; 0-9, A-F</li>
-<li>4 bits = 1 hex digit</li>
-<li>Easier for humans to read</li>
+<li>Using a for loop and the range function, display the mathematical cube of each of the odd integers from 3 to 11 (inclusive).</li>
 </ul>
-<aside class="notes">
-<ul>
-<li>16 objects, unique labels</li>
-<li>board example</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="kw">def</span> main():</span>
+<span id="cb7-2"><a></a>  <span class="co"># enter code here</span></span>
+<span id="cb7-3"><a></a></span>
+<span id="cb7-4"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/7/section/6">zyBook 7.6.3: ICE 4</a></p>
 </section>
-<section id="conversion-decimal---binary---hexadecimal" class="slide level2 center">
-<h2>Conversion: Decimal - Binary - Hexadecimal</h2>
-
-<img data-src="../images/03/bin-hex-dec.png" class="r-stretch"></section>
-<section id="quantifying-data-sizes" class="slide level2 center">
-<h2>Quantifying Data Sizes</h2>
-
-<img data-src="../images/03/data-sizes.png" class="r-stretch"></section>
-<section id="ascii" class="slide level2 center">
-<h2>ASCII</h2>
+<section id="accumulators" class="slide level2 center">
+<h2>Accumulators</h2>
 <ul>
-<li>American Standard Code for Information Interchange</li>
-<li>7-bit encoding scheme</li>
-<li>95 printable characters, 33 control characters</li>
-<li>Invented in 1963; last updated in 1986</li>
+<li>A variable in the loop body that aggregates (or accumulates) a value we wanttokeep track of.</li>
+<li>Must be initialized before loop begins!</li>
+<li>Most common operations
+<ul>
+<li>addition (+=)</li>
+<li>subtraction (-=)</li>
+<li>multiplication (*=)</li>
+</ul></li>
 </ul>
 </section>
-<section id="whats-the-message" class="slide level2 smaller center" data-timing="300">
-<h2>What’s the Message?</h2>
-<div class="columns">
-<div class="column" style="width:80%;">
-<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/1/1b/ASCII-Table-wide.svg" style="width:100.0%"></p>
-</div><div class="column" style="width:20%;">
+<section id="accumulator-examples" class="slide level2 center">
+<h2>Accumulator Examples</h2>
+<ul>
+<li>For each new cadet in the list, assign a company. Count how many cadets are processed and display total.</li>
+<li>Iterate through a user-provided string and count how many letters there are.</li>
+<li>Have the user guess the password until they get it right or until they have reached 5 attempts.</li>
+<li>Sum the numbers within a range</li>
+</ul>
+</section>
+<section id="in-class-exercise-3" class="slide level2 center" data-timing="600">
+<h2>In-Class Exercise 3</h2>
+<p>You are studying the growth of an alien plant. The total growth of the plant over n days is described by the following summation:</p>
+<p><span class="math display">\[G_{total} = \sum_{i=1}^{n} (2i + 3)\]</span></p>
+<p>Write a Python program that:</p>
 <ol type="1">
-<li>69 110 105 103 109 97 32 77 97 99 104 105 110 101</li>
-<li>66 108 101 116 99 104 108 101 121 32 80 97 114 107</li>
-<li>65 108 97 110 32 84 117 114 105 110 103</li>
-<li>71 111 32 65 114 109 121 32 66 101 97 116 32 78 97 122 105</li>
-<li>67 111 100 101 98 114 101 97 107 101 114 115</li>
-<li>84 117 114 105 110 103 32 84 101 115 116</li>
+<li>Asks the user to input the number of days n.</li>
+<li>Calculates the total growth using the summation formula (implement using a for loop).</li>
+<li>Outputs the total growth after n days.</li>
 </ol>
-</div></div>
-<aside class="notes">
-<ul>
-<li>Enigma Machine</li>
-<li>Bletchley Park</li>
-<li>Alan Turing</li>
-<li>Go Army Beat Nazi</li>
-<li>Codebreakers</li>
-<li>Turing Test</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<p><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/7/section/6">zyBook 7.6.4: ICE 5</a></p>
 </section>
-<section id="file-extensions" class="slide level2 center" data-timing="120">
-<h2>File Extensions</h2>
-<ul>
-<li>Indicate what type of data is in a file</li>
-<li>Help computer deduce how to process and interpret</li>
-<li>Not foolproof, but helpful</li>
-<li>File headers provide more information</li>
-<li>Examples: <code>.docx</code>, <code>.xlsx</code>, <code>.pptx</code>, <code>.jpg</code>, <code>.mp4</code>, <code>.py</code></li>
-</ul>
-</section>
-<section id="other-encoding-schemes" class="slide level2 center" data-timing="180">
-<h2>Other Encoding Schemes</h2>
-
-<img data-src="../images/03/raw-file.png" class="r-stretch"></section>
-<section id="image-encoding" class="slide level2 center" data-timing="0">
-<h2>Image Encoding</h2>
-<ul>
-<li><a href="https://www.youtube.com/embed/15aqFQQVBWU">Video: Images, Pixels and RGB</a></li>
-<li><a href="https://www.youtube.com/embed/By30SCp-Tsw">Digital Compression</a></li>
-</ul>
-</section></section>
-<section>
-<section id="conclusion" class="title-slide slide level1 center" data-timing="0">
-<h1>Conclusion</h1>
-
-</section>
-<section id="check-on-learning-1" class="slide level2 smaller center" data-timing="300">
-<h2>Check on Learning</h2>
+<section id="lesson-review" class="slide level2 center" data-timing="120">
+<h2>Lesson Review</h2>
 <div>
 <ul>
-<li class="fragment">Compare and contrast information vs data.</li>
-<li class="fragment">Compare and contrast analog and digital data</li>
-<li class="fragment">Why is digital data used in computers?</li>
-<li class="fragment">Define binary, bit, byte.</li>
-<li class="fragment">How is digital data quantified and represented on computers?</li>
-<li class="fragment">What is Kilo? Mega? Giga? Tera?</li>
-<li class="fragment">What is a computer?</li>
-<li class="fragment">What are the different types of computers?</li>
-<li class="fragment">What is an embedded computer? Give an example.</li>
-<li class="fragment">Where is data stored on a computer?</li>
-<li class="fragment">How do computers process data?</li>
-<li class="fragment">What is the difference between RAM and a hard drive?</li>
-<li class="fragment">List and describe popular encoding schemes including RGB, ASCII, and Unicode</li>
-<li class="fragment">How do file extensions give applications clues on how to process and interpret data?</li>
+<li class="fragment">Why do we need loops?</li>
+<li class="fragment">What type of loops can we use in Python?</li>
+<li class="fragment">When would we use a <code>for</code> loop?</li>
+<li class="fragment">What does <code>range()</code> do?</li>
+<li class="fragment">What is an accumulator?</li>
 </ul>
 </div>
+<h3 id="next-lesson-strings-and-lists">Next Lesson: Strings and Lists</h3>
+<ul>
+<li>Common operations on lists and strings: indexing, concatenation, replication</li>
+<li>Built-in functions: <code>len()</code>, <code>min()</code>, <code>max()</code></li>
+<li>Iteration + lists and strings operations</li>
+</ul>
 </section>
 <section id="reminders" class="slide level2 center">
 <h2>Reminders</h2>
 <ul>
-<li>WPS1 due 25AUG</li>
-<li>Extra credit assignments published!</li>
-<li>Address Cengage issues now!</li>
-<li>Next week: Algorithms and Problem Solving
+<li>Clear whiteboards and desks</li>
+<li>Lower monitors; leave nothing behind</li>
+<li>Cengage issues?
 <ul>
-<li>zyBook readings!</li>
+<li>Email me or setup AI.</li>
 </ul></li>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/39/section/1">WPS3</a> is on zyBook; due 08SEP</li>
+<li>WPR1 is in two weeks!</li>
 </ul>
 
 <div class="quarto-auto-generated-content">
@@ -762,7 +714,7 @@ CPT Sonny Bhatia
 
 </div>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
@@ -796,7 +748,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"11070c3c5510ab10","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"c95fc6dfe8f46f01","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
