@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -343,19 +408,76 @@ CPT Sonny Bhatia
 
   <p class="date">Friday, September 6, 2024</p>
 </section>
-<section id="discussion" class="slide level2 center" data-timing="240">
+<section id="discussion" class="slide level2 center" data-timing="300">
 <h2>Discussion!</h2>
 <ul>
-<li><a href="https://www.youtube.com/embed/lvKrDsreUgM">Your Brain On Sleep Deprivation</a></li>
-<li><a href="https://www.youtube.com/embed/dqONk48l5vY">What would happen if you didn’t sleep?</a></li>
-<li><a href="https://www.youtube.com/embed/IzQ2siryQrM">How Sleep Affects Your Brain</a></li>
+<li><a href="https://www.youtube.com/embed/lsGwqk_agcQ">Pareto Principle [The 80/20 Rule Explained]</a></li>
+<li><a href="https://www.youtube.com/embed/KUWn_TJTrnU">Growth Mindset</a></li>
+</ul>
+</section>
+<section id="announcements" class="slide level2 center" data-timing="30">
+<h2>Announcements</h2>
+<ul>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/39/section/1">WPS3</a> due 08SEP</li>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/40/section/1">WPS4</a> due 15SEP</li>
+</ul>
+
+<img data-src="../images/agenda-block-1.png" class="r-stretch"></section>
+<section id="lesson-objectives" class="slide level2 center" data-timing="30">
+<h2>Lesson Objectives</h2>
+<ul>
+<li>Compare, contrast and use common operations on lists and strings, such as indexing, concatenation and replication</li>
+<li>Articulate which built-in functions operate on lists and strings and what they do: <code>len()</code>, <code>min()</code>, <code>max()</code></li>
+<li>Iterate through the elements in a list/string using a for loop</li>
+<li>Write programs that combine string/list operators with iteration</li>
+</ul>
+</section>
+<section id="note" class="slide level2 center">
+<h2>Note</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>These slides are interactive.
+<ul>
+<li>Use them as a reference</li>
+<li>Bring them up on your second monitor!</li>
+<li>Extended display -&gt; Windows + P</li>
+</ul></li>
+<li>Recommend bringing a mouse</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>ICEs are for your benefit
+<ul>
+<li>Cannot cover them all in class</li>
+<li>Not a test! Discuss the problem and help each other.</li>
+<li>Use them to practice and get better!!</li>
+<li>Also see the solution</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="review" class="slide level2 center" data-timing="180">
+<h2>Review</h2>
+<ul>
+<li>Lists and Strings are examples of a <strong>collection data type</strong>
+<ul>
+<li>Comprised of smaller pieces</li>
+<li>Both are <strong>sequences</strong> of elements</li>
+<li>Can be treated as a single entity or accessed in parts</li>
+</ul></li>
+<li>Each individual element is assigned a unique position called an <strong>index</strong>
+<ul>
+<li>Use <code>[index]</code> to access a specific element</li>
+</ul></li>
 </ul>
 <aside class="notes">
 <ul>
-<li>What is the most you have been sleep deprived?</li>
-<li>How bad was it?</li>
-<li>Can you always tell when you are sleep deprived?</li>
-<li>Do you feel that you have enough time to sleep?</li>
+<li>Think about how these compare to other data types.</li>
+<li>Are these the same? <code>''</code> and <code>' '</code></li>
+<li>Can a list contain another list?</li>
+<li>Can I add two strings?</li>
+<li>Can I add two lists?</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -369,53 +491,284 @@ CPT Sonny Bhatia
           display:block!important;
       }</style></aside>
 </section>
-<section id="lesson-objectives" class="slide level2 center" data-timing="30">
-<h2>Lesson Objectives</h2>
-<ul>
-<li>Compare, contrast and use common operations on lists and strings, such as indexing, concatenation and replication</li>
-<li>Articulate which built-in functions operate on lists and strings and what they do: len(), min(), max()</li>
-<li>Iterate through the elements in a list/string using a for loop</li>
-<li>Write programs that combine string/list operators with iteration</li>
-</ul>
-</section>
-<section id="announcements" class="slide level2 center" data-timing="30">
-<h2>Announcements</h2>
+<section id="in-class-exercise" class="slide level2 center" data-timing="300">
+<h2>In-Class Exercise</h2>
+<p>Write an algorithm for a program that prompts a user to enter a string. The program then should create a new version of the string where all the characters are stretched out, in other words, separated by spaces. Finally, the program should display the stretched-out string to the screen.</p>
+<blockquote>
+<p><code>Enter a string:</code> <em><code>stretch armstrong</code></em></p>
+<p><code>s t r e t c h   a r m s t r o n g</code></p>
+</blockquote>
+<p><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/8/section/7">zyBook: 8.7.2: ICE 2</a></p>
 </section>
 <section id="string-operations" class="slide level2 center">
 <h2>String Operations</h2>
+<ul>
+<li>Concatenation - <code>+</code></li>
+<li>Replication - <code>*</code></li>
+<li>Indexing - <code>[]</code></li>
+</ul>
+<aside class="notes">
+<ul>
+<li><code>x = 'hello'</code></li>
+<li><code>y = 'world'</code></li>
+<li><code>x + y</code></li>
+<li><code>x * 3 + y * 2</code></li>
+<li><code>z = "West Point!"</code></li>
+<li><code>z[0], z[1], z[2], z[-1], z[-2], z[-3]</code></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="list-operations" class="slide level2 center">
+<section id="string-iteration" class="slide level2 center" data-timing="180">
+<h2>String Iteration</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>my_string <span class="op">=</span> <span class="st">"Hello, World! This is a string."</span></span>
+<span id="cb1-2"><a></a>length <span class="op">=</span> <span class="bu">len</span>(my_string)</span>
+<span id="cb1-3"><a></a></span>
+<span id="cb1-4"><a></a><span class="cf">for</span> char <span class="kw">in</span> my_string:</span>
+<span id="cb1-5"><a></a>    <span class="bu">print</span>(char)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Using <code>len()</code> and <code>range()</code> to iterate over the <em>indices</em> of a string</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(length):</span>
+<span id="cb2-2"><a></a>    char <span class="op">=</span> my_string[i]</span>
+<span id="cb2-3"><a></a>    <span class="bu">print</span>(char)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Iterating over every other character</li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, length, <span class="dv">2</span>):</span>
+<span id="cb3-2"><a></a>    <span class="bu">print</span>(my_string[i])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Iterating in reverse</li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(length <span class="op">-</span> <span class="dv">1</span>, <span class="op">-</span><span class="dv">1</span>, <span class="op">-</span><span class="dv">1</span>):</span>
+<span id="cb4-2"><a></a>    <span class="bu">print</span>(my_string[i])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="in-class-exercise-1" class="slide level2 center" data-timing="300">
+<h2>In-Class Exercise</h2>
+<ul>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/8/section/7">zyBook: 8.7.2: ICE 2</a></li>
+</ul>
+<p>Implement a program that prompts a user to enter a string. The program then should create a new version of the string where all the characters are stretched out, in other words, separated by spaces. Finally, the program should display the stretched-out string to the screen.</p>
+<blockquote>
+<p><code>Enter a string:</code> <em><code>stretch armstrong</code></em></p>
+<p><code>s t r e t c h   a r m s t r o n g</code></p>
+</blockquote>
+<aside class="notes">
+<ul>
+<li>Program: Stretch a String</li>
+<li>Input: A string</li>
+<li>Output: A string with each character separated by a space</li>
+</ul>
+<ol type="1">
+<li>Prompt the user for a string</li>
+<li>Create a new string</li>
+<li>For each character in the original string
+<ol type="a">
+<li>Add the character to the new string</li>
+<li>Add a space to the new string</li>
+</ol></li>
+<li>Print the new string</li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="bonus-f-strings" class="slide level2 center" data-timing="120">
+<h2>Bonus: f-strings</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a>name <span class="op">=</span> <span class="st">"Dan"</span></span>
+<span id="cb5-2"><a></a>age <span class="op">=</span> <span class="dv">21</span></span>
+<span id="cb5-3"><a></a><span class="bu">print</span>(<span class="ss">f"Hello, my name is </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss"> and I am </span><span class="sc">{</span>age<span class="sc">}</span><span class="ss"> years old."</span>)</span>
+<span id="cb5-4"><a></a></span>
+<span id="cb5-5"><a></a>one <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb5-6"><a></a>two <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb5-7"><a></a><span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>one<span class="sc">}</span><span class="ss"> + </span><span class="sc">{</span>two<span class="sc">}</span><span class="ss"> = </span><span class="sc">{</span>one <span class="op">+</span> two<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><a href="https://fstring.help/">fstring.help</a></li>
+</ul>
+</section>
+<section id="list-operations" class="slide level2 center" data-timing="120">
 <h2>List Operations</h2>
+<ul>
+<li>Concatenation - <code>+</code></li>
+<li>Replication - <code>*</code></li>
+<li>Indexing - <code>[]</code></li>
+</ul>
+<aside class="notes">
+<ul>
+<li><code>x = [1, 2, 3]</code></li>
+<li><code>y = [4, 5, 6]</code></li>
+<li><code>x + y</code></li>
+<li><code>x * 3</code></li>
+<li><code>z = [1, 2, 3, 4, 5]</code></li>
+<li><code>z[0], z[1], z[2], z[-1], z[-2], z[-3]</code></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="modifying-a-list" class="slide level2 center">
+<section id="modifying-a-list" class="slide level2 center" data-timing="120">
 <h2>Modifying a List</h2>
+<ul>
+<li>List items can be modified: <code>stuff[2] = 5</code></li>
+<li>Strings cannot be modified: <code>x[2] = 'a'</code></li>
+</ul>
+<aside class="notes">
+<ul>
+<li><code>x = [1, 2, 3, 4, 5]</code></li>
+<li><code>x[2] = 10</code></li>
+<li><code>x[0] = x[1] + x[2]</code></li>
+<li><code>x[3] = x[4]</code></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="iterating-through-a-list-using-len-and-range" class="slide level2 center">
+<section id="modifying-a-list-of-characters" class="slide level2 center" data-timing="120">
+<h2>Modifying a List… of characters?</h2>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>snack <span class="op">=</span> <span class="bu">list</span>(<span class="st">"pineapple"</span>)</span>
+<span id="cb6-2"><a></a>snack[<span class="dv">0</span>] <span class="op">=</span> <span class="st">"l"</span></span>
+<span id="cb6-3"><a></a>snack[<span class="dv">2</span>] <span class="op">=</span> <span class="st">"m"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>What is the value of <code>snack</code> now?</p>
+</section>
+<section id="modifying-a-list-1" class="slide level2 center" data-timing="120">
+<h2>Modifying a List</h2>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a>numbers <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Which of the following code snippets successfully modifies the list so that all the elements are squared? Select all that apply.</p>
+<ol type="1">
+<li><div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a>   <span class="cf">for</span> i <span class="kw">in</span> numbers:</span>
+<span id="cb8-2"><a></a>       i <span class="op">**</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><div class="sourceCode" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a>   <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(numbers)):</span>
+<span id="cb9-2"><a></a>       numbers[i] <span class="op">**</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a>   <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(numbers)):</span>
+<span id="cb10-2"><a></a>       numbers[i] <span class="op">=</span> numbers[i] <span class="op">**</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ol>
+<aside class="notes">
+<p>Live demo</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="iterating-through-a-list-using-len-and-range" class="slide level2 center" data-timing="120">
 <h2>Iterating through a List using <code>len()</code> and <code>range()</code></h2>
+<ul>
+<li>A <code>for</code> loop can iterate over each <em>item</em> in a list</li>
+</ul>
+<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>fruits <span class="op">=</span> [<span class="st">"apple"</span>, <span class="st">"banana"</span>, <span class="st">"cherry"</span>, <span class="st">"date"</span>, <span class="st">"elderberry"</span>]</span>
+<span id="cb11-2"><a></a><span class="cf">for</span> item <span class="kw">in</span> fruits:</span>
+<span id="cb11-3"><a></a>    <span class="bu">print</span>(item)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>We can also use <code>len()</code> and <code>range()</code> to iterate over the <em>indices</em> of a list</li>
+</ul>
+<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a>fruits <span class="op">=</span> [<span class="st">"apple"</span>, <span class="st">"banana"</span>, <span class="st">"cherry"</span>, <span class="st">"date"</span>, <span class="st">"elderberry"</span>]</span>
+<span id="cb12-2"><a></a>length <span class="op">=</span> <span class="bu">len</span>(fruits)</span>
+<span id="cb12-3"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(length):</span>
+<span id="cb12-4"><a></a>    item <span class="op">=</span> fruits[i]</span>
+<span id="cb12-5"><a></a>    <span class="bu">print</span>(item)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<aside class="notes">
+<p>Live demo</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="iterating-through-a-list-using-a-for-loop" class="slide level2 center">
-<h2>Iterating through a List using a <code>for</code> loop</h2>
+<section id="in-class-exercise-2" class="slide level2 center" data-timing="300">
+<h2>In-Class Exercise</h2>
+<ul>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/8/section/7">zyBook: 8.7.5: ICE 5</a></li>
+<li>Write a program that counts displays the average length of the words in a given list.</li>
+<li>Hint: Use an accumulator.</li>
+</ul>
+<blockquote>
+<p>sample1 = [“A”, “rose”, “by”, “any”, “other”, “name”, “would”, “smell”, “as”, “sweet”]</p>
+<p>The average length of words is 3.6 characters</p>
+</blockquote>
+<blockquote>
+<p>sample1 = [‘Monday’, ‘Tuesday’, ‘Wednesday’, ‘Thursday’, ‘Friday’]</p>
+<p>The average length of words is 7.2 characters</p>
+</blockquote>
 </section>
-<section>
-<section id="conclusion" class="title-slide slide level1 center" data-timing="0">
-<h1>Conclusion</h1>
-
+<section id="in-class-exercise-3" class="slide level2 center" data-timing="300">
+<h2>In-Class Exercise</h2>
+<p>Write a program that first prompts the user to enter a string. Your program should then create a new string with all the characters in the input string reversed, and then display it to the user.</p>
+<p>Sample input/output:</p>
+<blockquote>
+<p>Enter a string: howitzer</p>
+<p>The reversed string is: retaziwoh</p>
+</blockquote>
 </section>
-<section id="check-on-learning" class="slide level2 smaller center" data-timing="300">
-<h2>Check on Learning</h2>
-<div>
-
-</div>
+<section id="in-class-exercise-4" class="slide level2 center" data-timing="300">
+<h2>In-Class Exercise</h2>
+<p>Write a program that calculates the sum of all the squared values of all the items in a numeric list.</p>
+<p>For example, for the given list,</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a>a_list <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The program will print the value <code>30</code>, since <code>1 + 4 + 9 + 16 = 30</code>.</p>
 </section>
-<section id="reminders" class="slide level2 center">
+<section id="reminders" class="slide level2 center" data-timing="0">
 <h2>Reminders</h2>
+<ul>
+<li>Clear whiteboards and desks</li>
+<li>Lower monitors; leave nothing behind</li>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/39/section/1">WPS3</a> due 08SEP
+<ul>
+<li>Reach out early!</li>
+</ul></li>
+<li>Practice!</li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
@@ -426,8 +779,6 @@ CPT Sonny Bhatia
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
-  <script src="../site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -449,7 +800,6 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"e45b92f5807d181a","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -623,7 +973,7 @@ CPT Sonny Bhatia
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
-          
+          RevealNotes,
           RevealSearch,
           RevealZoom
         ]

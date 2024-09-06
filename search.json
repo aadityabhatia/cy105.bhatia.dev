@@ -662,7 +662,14 @@
     "href": "lessons/08-lists-strings.html#discussion",
     "title": "Lists and Strings",
     "section": "Discussion!",
-    "text": "Discussion!\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\n\n\nWhat is the most you have been sleep deprived?\nHow bad was it?\nCan you always tell when you are sleep deprived?\nDo you feel that you have enough time to sleep?"
+    "text": "Discussion!\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#announcements",
+    "href": "lessons/08-lists-strings.html#announcements",
+    "title": "Lists and Strings",
+    "section": "Announcements",
+    "text": "Announcements\n\nWPS3 due 08SEP\nWPS4 due 15SEP"
   },
   {
     "objectID": "lessons/08-lists-strings.html#lesson-objectives",
@@ -672,60 +679,116 @@
     "text": "Lesson Objectives\n\nCompare, contrast and use common operations on lists and strings, such as indexing, concatenation and replication\nArticulate which built-in functions operate on lists and strings and what they do: len(), min(), max()\nIterate through the elements in a list/string using a for loop\nWrite programs that combine string/list operators with iteration"
   },
   {
-    "objectID": "lessons/08-lists-strings.html#announcements",
-    "href": "lessons/08-lists-strings.html#announcements",
+    "objectID": "lessons/08-lists-strings.html#note",
+    "href": "lessons/08-lists-strings.html#note",
     "title": "Lists and Strings",
-    "section": "Announcements",
-    "text": "Announcements"
+    "section": "Note",
+    "text": "Note\n\n\n\nThese slides are interactive.\n\nUse them as a reference\nBring them up on your second monitor!\nExtended display -&gt; Windows + P\n\nRecommend bringing a mouse\n\n\n\nICEs are for your benefit\n\nCannot cover them all in class\nNot a test! Discuss the problem and help each other.\nUse them to practice and get better!!\nAlso see the solution"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#review",
+    "href": "lessons/08-lists-strings.html#review",
+    "title": "Lists and Strings",
+    "section": "Review",
+    "text": "Review\n\nLists and Strings are examples of a collection data type\n\nComprised of smaller pieces\nBoth are sequences of elements\nCan be treated as a single entity or accessed in parts\n\nEach individual element is assigned a unique position called an index\n\nUse [index] to access a specific element\n\n\n\n\nThink about how these compare to other data types.\nAre these the same? '' and ' '\nCan a list contain another list?\nCan I add two strings?\nCan I add two lists?"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#in-class-exercise",
+    "href": "lessons/08-lists-strings.html#in-class-exercise",
+    "title": "Lists and Strings",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\nWrite an algorithm for a program that prompts a user to enter a string. The program then should create a new version of the string where all the characters are stretched out, in other words, separated by spaces. Finally, the program should display the stretched-out string to the screen.\n\nEnter a string: stretch armstrong\ns t r e t c h   a r m s t r o n g\n\nzyBook: 8.7.2: ICE 2"
   },
   {
     "objectID": "lessons/08-lists-strings.html#string-operations",
     "href": "lessons/08-lists-strings.html#string-operations",
     "title": "Lists and Strings",
     "section": "String Operations",
-    "text": "String Operations"
+    "text": "String Operations\n\nConcatenation - +\nReplication - *\nIndexing - []\n\n\n\nx = 'hello'\ny = 'world'\nx + y\nx * 3 + y * 2\nz = \"West Point!\"\nz[0], z[1], z[2], z[-1], z[-2], z[-3]"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#string-iteration",
+    "href": "lessons/08-lists-strings.html#string-iteration",
+    "title": "Lists and Strings",
+    "section": "String Iteration",
+    "text": "String Iteration\nmy_string = \"Hello, World! This is a string.\"\nlength = len(my_string)\n\nfor char in my_string:\n    print(char)\n\nUsing len() and range() to iterate over the indices of a string\n\nfor i in range(length):\n    char = my_string[i]\n    print(char)\n\nIterating over every other character\n\nfor i in range(0, length, 2):\n    print(my_string[i])\n\nIterating in reverse\n\nfor i in range(length - 1, -1, -1):\n    print(my_string[i])"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#in-class-exercise-1",
+    "href": "lessons/08-lists-strings.html#in-class-exercise-1",
+    "title": "Lists and Strings",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\n\nzyBook: 8.7.2: ICE 2\n\nImplement a program that prompts a user to enter a string. The program then should create a new version of the string where all the characters are stretched out, in other words, separated by spaces. Finally, the program should display the stretched-out string to the screen.\n\nEnter a string: stretch armstrong\ns t r e t c h   a r m s t r o n g\n\n\n\nProgram: Stretch a String\nInput: A string\nOutput: A string with each character separated by a space\n\n\nPrompt the user for a string\nCreate a new string\nFor each character in the original string\n\nAdd the character to the new string\nAdd a space to the new string\n\nPrint the new string"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#bonus-f-strings",
+    "href": "lessons/08-lists-strings.html#bonus-f-strings",
+    "title": "Lists and Strings",
+    "section": "Bonus: f-strings",
+    "text": "Bonus: f-strings\nname = \"Dan\"\nage = 21\nprint(f\"Hello, my name is {name} and I am {age} years old.\")\n\none = 1\ntwo = 2\nprint(f\"{one} + {two} = {one + two}\")\n\nfstring.help"
   },
   {
     "objectID": "lessons/08-lists-strings.html#list-operations",
     "href": "lessons/08-lists-strings.html#list-operations",
     "title": "Lists and Strings",
     "section": "List Operations",
-    "text": "List Operations"
+    "text": "List Operations\n\nConcatenation - +\nReplication - *\nIndexing - []\n\n\n\nx = [1, 2, 3]\ny = [4, 5, 6]\nx + y\nx * 3\nz = [1, 2, 3, 4, 5]\nz[0], z[1], z[2], z[-1], z[-2], z[-3]"
   },
   {
     "objectID": "lessons/08-lists-strings.html#modifying-a-list",
     "href": "lessons/08-lists-strings.html#modifying-a-list",
     "title": "Lists and Strings",
     "section": "Modifying a List",
-    "text": "Modifying a List"
+    "text": "Modifying a List\n\nList items can be modified: stuff[2] = 5\nStrings cannot be modified: x[2] = 'a'\n\n\n\nx = [1, 2, 3, 4, 5]\nx[2] = 10\nx[0] = x[1] + x[2]\nx[3] = x[4]"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#modifying-a-list-of-characters",
+    "href": "lessons/08-lists-strings.html#modifying-a-list-of-characters",
+    "title": "Lists and Strings",
+    "section": "Modifying a List… of characters?",
+    "text": "Modifying a List… of characters?\nsnack = list(\"pineapple\")\nsnack[0] = \"l\"\nsnack[2] = \"m\"\nWhat is the value of snack now?"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#modifying-a-list-1",
+    "href": "lessons/08-lists-strings.html#modifying-a-list-1",
+    "title": "Lists and Strings",
+    "section": "Modifying a List",
+    "text": "Modifying a List\nnumbers = [1, 2, 3, 4, 5]\nWhich of the following code snippets successfully modifies the list so that all the elements are squared? Select all that apply.\n\n   for i in numbers:\n       i ** 2\n   for i in range(len(numbers)):\n       numbers[i] ** 2\n   for i in range(len(numbers)):\n       numbers[i] = numbers[i] ** 2\n\n\nLive demo"
   },
   {
     "objectID": "lessons/08-lists-strings.html#iterating-through-a-list-using-len-and-range",
     "href": "lessons/08-lists-strings.html#iterating-through-a-list-using-len-and-range",
     "title": "Lists and Strings",
     "section": "Iterating through a List using len() and range()",
-    "text": "Iterating through a List using len() and range()"
+    "text": "Iterating through a List using len() and range()\n\nA for loop can iterate over each item in a list\n\nfruits = [\"apple\", \"banana\", \"cherry\", \"date\", \"elderberry\"]\nfor item in fruits:\n    print(item)\n\nWe can also use len() and range() to iterate over the indices of a list\n\nfruits = [\"apple\", \"banana\", \"cherry\", \"date\", \"elderberry\"]\nlength = len(fruits)\nfor i in range(length):\n    item = fruits[i]\n    print(item)\n\nLive demo"
   },
   {
-    "objectID": "lessons/08-lists-strings.html#iterating-through-a-list-using-a-for-loop",
-    "href": "lessons/08-lists-strings.html#iterating-through-a-list-using-a-for-loop",
+    "objectID": "lessons/08-lists-strings.html#in-class-exercise-2",
+    "href": "lessons/08-lists-strings.html#in-class-exercise-2",
     "title": "Lists and Strings",
-    "section": "Iterating through a List using a for loop",
-    "text": "Iterating through a List using a for loop"
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\n\nzyBook: 8.7.5: ICE 5\nWrite a program that counts displays the average length of the words in a given list.\nHint: Use an accumulator.\n\n\nsample1 = [“A”, “rose”, “by”, “any”, “other”, “name”, “would”, “smell”, “as”, “sweet”]\nThe average length of words is 3.6 characters\n\n\nsample1 = [‘Monday’, ‘Tuesday’, ‘Wednesday’, ‘Thursday’, ‘Friday’]\nThe average length of words is 7.2 characters"
   },
   {
-    "objectID": "lessons/08-lists-strings.html#check-on-learning",
-    "href": "lessons/08-lists-strings.html#check-on-learning",
+    "objectID": "lessons/08-lists-strings.html#in-class-exercise-3",
+    "href": "lessons/08-lists-strings.html#in-class-exercise-3",
     "title": "Lists and Strings",
-    "section": "Check on Learning",
-    "text": "Check on Learning"
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\nWrite a program that first prompts the user to enter a string. Your program should then create a new string with all the characters in the input string reversed, and then display it to the user.\nSample input/output:\n\nEnter a string: howitzer\nThe reversed string is: retaziwoh"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#in-class-exercise-4",
+    "href": "lessons/08-lists-strings.html#in-class-exercise-4",
+    "title": "Lists and Strings",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\nWrite a program that calculates the sum of all the squared values of all the items in a numeric list.\nFor example, for the given list,\na_list = [1, 2, 3, 4]\nThe program will print the value 30, since 1 + 4 + 9 + 16 = 30."
   },
   {
     "objectID": "lessons/08-lists-strings.html#reminders",
     "href": "lessons/08-lists-strings.html#reminders",
     "title": "Lists and Strings",
     "section": "Reminders",
-    "text": "Reminders"
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS3 due 08SEP\n\nReach out early!\n\nPractice!"
   },
   {
     "objectID": "lessons/04-algorithms.html#discussion",
@@ -921,7 +984,7 @@
     "href": "lessons/09-file-io.html#discussion",
     "title": "File Input/Output",
     "section": "Discussion!",
-    "text": "Discussion!"
+    "text": "Discussion!\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\n\n\n\nWhat is the most you have been sleep deprived?\nHow bad was it?\nCan you always tell when you are sleep deprived?\nDo you feel that you have enough time to sleep?"
   },
   {
     "objectID": "lessons/09-file-io.html#lesson-objectives",
