@@ -504,160 +504,6 @@
     "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nCengage issues?\n\nEmail me or setup AI.\n\nWPS3 is on zyBook; due 08SEP\nWPR1 is in two weeks!"
   },
   {
-    "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
-    "href": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
-    "title": "Welcome to CY105",
-    "section": "Dean’s Intellectual Theme for AY25",
-    "text": "Dean’s Intellectual Theme for AY25\n\nThe Human and the Machine: Leadership on the Emerging Battlefield"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#about-me",
-    "href": "lessons/01-introduction.html#about-me",
-    "title": "Welcome to CY105",
-    "section": "About Me",
-    "text": "About Me\n\n\n\nBS Computer Science, San Jose State Univ\nWorked in Silicon Valley\nEnlisted -&gt; Infantry -&gt; deployed (Afg)\nCommissioned as Cyber Officer\nOCO, Tactical, DCO, Company Cdr\nMS Computer Science, Univ of Central Florida\nMarried for 4 years\n\nLove to travel and hike\nEnjoy new (vegetarian) foods!"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#cadet-introductions",
-    "href": "lessons/01-introduction.html#cadet-introductions",
-    "title": "Welcome to CY105",
-    "section": "Cadet Introductions",
-    "text": "Cadet Introductions\n\nFull Name\nName you like to be called\nCompany\nHometown\nActivities or sports plan to be involved with\nWhat excites you about technology?"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#cy105-course-objectives",
-    "href": "lessons/01-introduction.html#cy105-course-objectives",
-    "title": "Welcome to CY105",
-    "section": "CY105 Course Objectives",
-    "text": "CY105 Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
-  },
-  {
-    "objectID": "lessons/01-introduction.html#whats-in-it-for-you",
-    "href": "lessons/01-introduction.html#whats-in-it-for-you",
-    "title": "Welcome to CY105",
-    "section": "What’s in it for you?",
-    "text": "What’s in it for you?\n\n\n\n\n\n“Information superiority is the operational advantage derived from the ability to collect, process, and disseminate an uninterrupted flow of information while exploiting or denying an adversary’s ability to do the same…”\nFM 3-0, Operations, February 2008​\n\n\n\n\ninformation makes you smarter\naccess to information makes you an effective leader\nincrease your confidence with IT systems\nhelp you learn new IT concepts and systems​\nprotect yourself and your organization\nfoundational course for everyone"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#section-marcher-duties",
-    "href": "lessons/01-introduction.html#section-marcher-duties",
-    "title": "Welcome to CY105",
-    "section": "Section Marcher Duties",
-    "text": "Section Marcher Duties\n\n\n\nExhibit peer leadership\nVolunteer Section Marcher (first 4 lessons)\n\nand Assistant Section Marcher\n\nAfterwards: based on PDR assignments\nDuties\n\nInspection at beginning of class\nAttendance\nBriefly inspect uniforms, general appearance\nNo food, gum or backpacks\n\nIf Dean or Supt visit, call class to attention"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#additional-instruction",
-    "href": "lessons/01-introduction.html#additional-instruction",
-    "title": "Welcome to CY105",
-    "section": "Additional Instruction",
-    "text": "Additional Instruction\n\nWhen you need additional help, reach out\nUse the booking link at cy105.bhatia.dev or email signature\nComplete required readings and in-class exercises\nBook a meeting\nCome prepared with specific questions and bring your computer\nPlan ahead and do not wait until the assignment due date!"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#zybooks",
-    "href": "lessons/01-introduction.html#zybooks",
-    "title": "Welcome to CY105",
-    "section": "zyBooks",
-    "text": "zyBooks\n\n\n\nAccess key provided by bookstore\nCanvas -&gt; zyBooks\n\ndo not create a separate account!\n“practice” zyBook assignment\n\nEnter access key\nDaily readings before class!"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#cengage",
-    "href": "lessons/01-introduction.html#cengage",
-    "title": "Welcome to CY105",
-    "section": "Cengage",
-    "text": "Cengage\nNeed access before next class!\n\nIf unable to access, email me immediately!\n\n\nLogin to Canvas\nNavigate to the course titled “Canvas Activation Course 2024”\nClick “Please complete this module”\nClick “Load Cengage Unlimited Multi-term 24 months Instant Access to a new window”\nRegister for an account using westpoint.edu email address\nOpen the Microsoft 365 lesson module and click the “Cengage: Microsoft 365 Pre-Class Exercise (ungraded)” link\nLog in\nEnroll in the course"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#python",
-    "href": "lessons/01-introduction.html#python",
-    "title": "Welcome to CY105",
-    "section": "python",
-    "text": "python\n \nStart Menu –&gt; PowerShell –&gt; Type python"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#text-editor",
-    "href": "lessons/01-introduction.html#text-editor",
-    "title": "Welcome to CY105",
-    "section": "Text Editor",
-    "text": "Text Editor\n\nNotepad++\nVisual Studio Code\nMicrosoft Word?"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#writing-code",
-    "href": "lessons/01-introduction.html#writing-code",
-    "title": "Welcome to CY105",
-    "section": "Writing Code",
-    "text": "Writing Code"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#running-code",
-    "href": "lessons/01-introduction.html#running-code",
-    "title": "Welcome to CY105",
-    "section": "Running Code",
-    "text": "Running Code"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#moss---measure-of-software-similarity",
-    "href": "lessons/01-introduction.html#moss---measure-of-software-similarity",
-    "title": "Welcome to CY105",
-    "section": "MOSS - Measure of Software Similarity",
-    "text": "MOSS - Measure of Software Similarity"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#zybooks-simchecker",
-    "href": "lessons/01-introduction.html#zybooks-simchecker",
-    "title": "Welcome to CY105",
-    "section": "zyBooks SimChecker",
-    "text": "zyBooks SimChecker"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#codequiry-plagiarism-detection",
-    "href": "lessons/01-introduction.html#codequiry-plagiarism-detection",
-    "title": "Welcome to CY105",
-    "section": "Codequiry Plagiarism Detection",
-    "text": "Codequiry Plagiarism Detection"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#generative-ai-tools",
-    "href": "lessons/01-introduction.html#generative-ai-tools",
-    "title": "Welcome to CY105",
-    "section": "Generative AI Tools",
-    "text": "Generative AI Tools\n\nAI tools may be used to determine what AI-generated responses to a particular prompt may look like either before or after issuing an assignment.\nThese responses can be compared to cadets’ submissions using MOSS or zyLabs Similarity Checker to determine if a cadet’s submission contains features that suggest unauthorized or undocumented AI use."
-  },
-  {
-    "objectID": "lessons/01-introduction.html#next-class",
-    "href": "lessons/01-introduction.html#next-class",
-    "title": "Welcome to CY105",
-    "section": "Next Class",
-    "text": "Next Class"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Computing Fundamentals",
-    "section": "",
-    "text": "This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
-  },
-  {
-    "objectID": "index.html#course-objectives",
-    "href": "index.html#course-objectives",
-    "title": "Computing Fundamentals",
-    "section": "Course Objectives",
-    "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
-  },
-  {
-    "objectID": "index.html#additional-instruction",
-    "href": "index.html#additional-instruction",
-    "title": "Computing Fundamentals",
-    "section": "Additional Instruction",
-    "text": "Additional Instruction\n\nComplete required readings and in-class exercises.\nBook a meeting\nCome prepared with specific questions and bring your computer!\n\nPlan ahead and do not wait until the assignment due date! Note that once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible."
-  },
-  {
-    "objectID": "index.html#lessons",
-    "href": "index.html#lessons",
-    "title": "Computing Fundamentals",
-    "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\nCPT Sonny Bhatia\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\nCPT Sonny Bhatia\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\nCPT Sonny Bhatia\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIteration pt 1\n\n\nDefinite iteration using for loops\n\n\n\nCPT Sonny Bhatia\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\nCPT Sonny Bhatia\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading and writing to files\n\n\n\nCPT Sonny Bhatia\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "lessons/08-lists-strings.html#discussion",
     "href": "lessons/08-lists-strings.html#discussion",
     "title": "Lists and Strings",
@@ -789,6 +635,209 @@
     "title": "Lists and Strings",
     "section": "Reminders",
     "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS3 due 08SEP\n\nReach out early!\n\nPractice!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computing Fundamentals",
+    "section": "",
+    "text": "This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
+  },
+  {
+    "objectID": "index.html#additional-instruction",
+    "href": "index.html#additional-instruction",
+    "title": "Computing Fundamentals",
+    "section": "Additional Instruction",
+    "text": "Additional Instruction\n\nComplete required readings\nAttempt practice in-class exercises.\nBook Additional Instruction\nCome prepared with specific questions!\n\nNote: once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible."
+  },
+  {
+    "objectID": "index.html#book-a-counseling-e.g.-pdr-dac",
+    "href": "index.html#book-a-counseling-e.g.-pdr-dac",
+    "title": "Computing Fundamentals",
+    "section": "Book a counseling (e.g. PDR, DAC)",
+    "text": "Book a counseling (e.g. PDR, DAC)\n\nBook a meeting - select the appropriate meeting type"
+  },
+  {
+    "objectID": "index.html#lessons",
+    "href": "index.html#lessons",
+    "title": "Computing Fundamentals",
+    "section": "Lessons",
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\nCPT Sonny Bhatia\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\nCPT Sonny Bhatia\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\nCPT Sonny Bhatia\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIteration pt 1\n\n\nDefinite iteration using for loops\n\n\n\nCPT Sonny Bhatia\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\nCPT Sonny Bhatia\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading and writing to files\n\n\n\nCPT Sonny Bhatia\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nImporting and using math and random\n\n\n\nCPT Sonny Bhatia\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#course-objectives",
+    "href": "index.html#course-objectives",
+    "title": "Computing Fundamentals",
+    "section": "Course Objectives",
+    "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
+  },
+  {
+    "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
+    "href": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
+    "title": "Welcome to CY105",
+    "section": "Dean’s Intellectual Theme for AY25",
+    "text": "Dean’s Intellectual Theme for AY25\n\nThe Human and the Machine: Leadership on the Emerging Battlefield"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#about-me",
+    "href": "lessons/01-introduction.html#about-me",
+    "title": "Welcome to CY105",
+    "section": "About Me",
+    "text": "About Me\n\n\n\nBS Computer Science, San Jose State Univ\nWorked in Silicon Valley\nEnlisted -&gt; Infantry -&gt; deployed (Afg)\nCommissioned as Cyber Officer\nOCO, Tactical, DCO, Company Cdr\nMS Computer Science, Univ of Central Florida\nMarried for 4 years\n\nLove to travel and hike\nEnjoy new (vegetarian) foods!"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#cadet-introductions",
+    "href": "lessons/01-introduction.html#cadet-introductions",
+    "title": "Welcome to CY105",
+    "section": "Cadet Introductions",
+    "text": "Cadet Introductions\n\nFull Name\nName you like to be called\nCompany\nHometown\nActivities or sports plan to be involved with\nWhat excites you about technology?"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#cy105-course-objectives",
+    "href": "lessons/01-introduction.html#cy105-course-objectives",
+    "title": "Welcome to CY105",
+    "section": "CY105 Course Objectives",
+    "text": "CY105 Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
+  },
+  {
+    "objectID": "lessons/01-introduction.html#whats-in-it-for-you",
+    "href": "lessons/01-introduction.html#whats-in-it-for-you",
+    "title": "Welcome to CY105",
+    "section": "What’s in it for you?",
+    "text": "What’s in it for you?\n\n\n\n\n\n“Information superiority is the operational advantage derived from the ability to collect, process, and disseminate an uninterrupted flow of information while exploiting or denying an adversary’s ability to do the same…”\nFM 3-0, Operations, February 2008​\n\n\n\n\ninformation makes you smarter\naccess to information makes you an effective leader\nincrease your confidence with IT systems\nhelp you learn new IT concepts and systems​\nprotect yourself and your organization\nfoundational course for everyone"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#section-marcher-duties",
+    "href": "lessons/01-introduction.html#section-marcher-duties",
+    "title": "Welcome to CY105",
+    "section": "Section Marcher Duties",
+    "text": "Section Marcher Duties\n\n\n\nExhibit peer leadership\nVolunteer Section Marcher (first 4 lessons)\n\nand Assistant Section Marcher\n\nAfterwards: based on PDR assignments\nDuties\n\nInspection at beginning of class\nAttendance\nBriefly inspect uniforms, general appearance\nNo food, gum or backpacks\n\nIf Dean or Supt visit, call class to attention"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#additional-instruction",
+    "href": "lessons/01-introduction.html#additional-instruction",
+    "title": "Welcome to CY105",
+    "section": "Additional Instruction",
+    "text": "Additional Instruction\n\nWhen you need additional help, reach out\nUse the booking link at cy105.bhatia.dev or email signature\nComplete required readings and in-class exercises\nBook a meeting\nCome prepared with specific questions and bring your computer\nPlan ahead and do not wait until the assignment due date!"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#zybooks",
+    "href": "lessons/01-introduction.html#zybooks",
+    "title": "Welcome to CY105",
+    "section": "zyBooks",
+    "text": "zyBooks\n\n\n\nAccess key provided by bookstore\nCanvas -&gt; zyBooks\n\ndo not create a separate account!\n“practice” zyBook assignment\n\nEnter access key\nDaily readings before class!"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#cengage",
+    "href": "lessons/01-introduction.html#cengage",
+    "title": "Welcome to CY105",
+    "section": "Cengage",
+    "text": "Cengage\nNeed access before next class!\n\nIf unable to access, email me immediately!\n\n\nLogin to Canvas\nNavigate to the course titled “Canvas Activation Course 2024”\nClick “Please complete this module”\nClick “Load Cengage Unlimited Multi-term 24 months Instant Access to a new window”\nRegister for an account using westpoint.edu email address\nOpen the Microsoft 365 lesson module and click the “Cengage: Microsoft 365 Pre-Class Exercise (ungraded)” link\nLog in\nEnroll in the course"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#python",
+    "href": "lessons/01-introduction.html#python",
+    "title": "Welcome to CY105",
+    "section": "python",
+    "text": "python\n \nStart Menu –&gt; PowerShell –&gt; Type python"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#text-editor",
+    "href": "lessons/01-introduction.html#text-editor",
+    "title": "Welcome to CY105",
+    "section": "Text Editor",
+    "text": "Text Editor\n\nNotepad++\nVisual Studio Code\nMicrosoft Word?"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#writing-code",
+    "href": "lessons/01-introduction.html#writing-code",
+    "title": "Welcome to CY105",
+    "section": "Writing Code",
+    "text": "Writing Code"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#running-code",
+    "href": "lessons/01-introduction.html#running-code",
+    "title": "Welcome to CY105",
+    "section": "Running Code",
+    "text": "Running Code"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#moss---measure-of-software-similarity",
+    "href": "lessons/01-introduction.html#moss---measure-of-software-similarity",
+    "title": "Welcome to CY105",
+    "section": "MOSS - Measure of Software Similarity",
+    "text": "MOSS - Measure of Software Similarity"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#zybooks-simchecker",
+    "href": "lessons/01-introduction.html#zybooks-simchecker",
+    "title": "Welcome to CY105",
+    "section": "zyBooks SimChecker",
+    "text": "zyBooks SimChecker"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#codequiry-plagiarism-detection",
+    "href": "lessons/01-introduction.html#codequiry-plagiarism-detection",
+    "title": "Welcome to CY105",
+    "section": "Codequiry Plagiarism Detection",
+    "text": "Codequiry Plagiarism Detection"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#generative-ai-tools",
+    "href": "lessons/01-introduction.html#generative-ai-tools",
+    "title": "Welcome to CY105",
+    "section": "Generative AI Tools",
+    "text": "Generative AI Tools\n\nAI tools may be used to determine what AI-generated responses to a particular prompt may look like either before or after issuing an assignment.\nThese responses can be compared to cadets’ submissions using MOSS or zyLabs Similarity Checker to determine if a cadet’s submission contains features that suggest unauthorized or undocumented AI use."
+  },
+  {
+    "objectID": "lessons/01-introduction.html#next-class",
+    "href": "lessons/01-introduction.html#next-class",
+    "title": "Welcome to CY105",
+    "section": "Next Class",
+    "text": "Next Class"
+  },
+  {
+    "objectID": "lessons/10-modules.html#announcements",
+    "href": "lessons/10-modules.html#announcements",
+    "title": "Modules",
+    "section": "Announcements",
+    "text": "Announcements\n\nWPS due on Sunday!"
+  },
+  {
+    "objectID": "lessons/10-modules.html#discussion",
+    "href": "lessons/10-modules.html#discussion",
+    "title": "Modules",
+    "section": "Discussion!",
+    "text": "Discussion!\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\n\n\nDo you feel that you have enough time to sleep?\nWhat is the most you have been sleep deprived?\nHow bad was it?\nCan you always tell when you are sleep deprived?"
+  },
+  {
+    "objectID": "lessons/10-modules.html#lesson-objectives",
+    "href": "lessons/10-modules.html#lesson-objectives",
+    "title": "Modules",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nDefine a Python module and describe what you must do before you can use that module in your program\nDescribe the primary intent of the following Python modules; describe a few of the methods or attributes that each module provides:\n\nmath\nrandom\nstatistics\n\nImport a module and use a custom method defined therein (math, random, statistics)\n\nGenerate random integers, pick a random item from a list, or generate random floating point values\nUse the math module to calculate square roots, ceilings, floors, degrees, radians, cosines, sines, and tangents. Use the value of \\(\\pi\\) and \\(e\\) from the math module.\nUse the statistics module to calculate common order statistics"
+  },
+  {
+    "objectID": "lessons/10-modules.html#what-are-modules",
+    "href": "lessons/10-modules.html#what-are-modules",
+    "title": "Modules",
+    "section": "What are Modules?",
+    "text": "What are Modules?"
+  },
+  {
+    "objectID": "lessons/10-modules.html#check-on-learning",
+    "href": "lessons/10-modules.html#check-on-learning",
+    "title": "Modules",
+    "section": "Check on Learning",
+    "text": "Check on Learning"
+  },
+  {
+    "objectID": "lessons/10-modules.html#reminders",
+    "href": "lessons/10-modules.html#reminders",
+    "title": "Modules",
+    "section": "Reminders",
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice!"
   },
   {
     "objectID": "lessons/04-algorithms.html#discussion",
@@ -980,67 +1029,109 @@
     "text": "Reminders\n\nComplete DAAW in Canvas\nWPS2 due 02SEP\n\nExcel sheet upload, 5 attempts\n\nExtra credit assignments published!\nLesson 5 readings are long and really important\n\nStart early and come prepared!\n\nClear the boards!\nBluefruit?"
   },
   {
+    "objectID": "lessons/09-file-io.html#announcements",
+    "href": "lessons/09-file-io.html#announcements",
+    "title": "File Input/Output",
+    "section": "Announcements",
+    "text": "Announcements\n\nWPS4 due on 15SEP!\n\nemail me with questions (quickest!)\nstart early and schedule AI as needed\n\nWPR1 is in 1 week!\n\n\n\n\n24 hour lead time\ncan setup AI individually or in groups\nTH460 B1 hour!\nHow do you document assistance from your instructor?"
+  },
+  {
     "objectID": "lessons/09-file-io.html#discussion",
     "href": "lessons/09-file-io.html#discussion",
     "title": "File Input/Output",
     "section": "Discussion!",
-    "text": "Discussion!\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\n\n\n\nWhat is the most you have been sleep deprived?\nHow bad was it?\nCan you always tell when you are sleep deprived?\nDo you feel that you have enough time to sleep?"
+    "text": "Discussion!\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nWhy?\n\nActive learning\nMemory retention\nFuture reference\n\nCan ChatGPT be wrong?"
   },
   {
     "objectID": "lessons/09-file-io.html#lesson-objectives",
     "href": "lessons/09-file-io.html#lesson-objectives",
     "title": "File Input/Output",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nArticulate the need for using files for input/output\nCompare and Contrast reading from files with reading from standard in\nCompare and contrast writing to files with writing to standard out\nRead and write to files using the Python programming language."
-  },
-  {
-    "objectID": "lessons/09-file-io.html#announcements",
-    "href": "lessons/09-file-io.html#announcements",
-    "title": "File Input/Output",
-    "section": "Announcements",
-    "text": "Announcements"
-  },
-  {
-    "objectID": "lessons/09-file-io.html#types-of-files",
-    "href": "lessons/09-file-io.html#types-of-files",
-    "title": "File Input/Output",
-    "section": "Types of Files",
-    "text": "Types of Files"
-  },
-  {
-    "objectID": "lessons/09-file-io.html#text-file",
-    "href": "lessons/09-file-io.html#text-file",
-    "title": "File Input/Output",
-    "section": "Text File",
-    "text": "Text File"
-  },
-  {
-    "objectID": "lessons/09-file-io.html#reading-from-a-file",
-    "href": "lessons/09-file-io.html#reading-from-a-file",
-    "title": "File Input/Output",
-    "section": "Reading from a File",
-    "text": "Reading from a File"
-  },
-  {
-    "objectID": "lessons/09-file-io.html#writing-to-a-file",
-    "href": "lessons/09-file-io.html#writing-to-a-file",
-    "title": "File Input/Output",
-    "section": "Writing to a File",
-    "text": "Writing to a File"
+    "text": "Lesson Objectives\n\nArticulate the need for using files\nReading from files vs standard input\nWriting to files vs standard output\nRead and write to files using Python"
   },
   {
     "objectID": "lessons/09-file-io.html#check-on-learning",
     "href": "lessons/09-file-io.html#check-on-learning",
     "title": "File Input/Output",
     "section": "Check on Learning",
-    "text": "Check on Learning"
+    "text": "Check on Learning\n\n\nWhat is a file?\nWhere are files stored?\nWhat is a common encoding for text files?\nWhat is an example of a type of text file?\nWhat can you store in a binary file?\nWhat type of files do we use in this class?\nWhere on the reference card can you find file I/O?"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#in-class-exercise-1",
+    "href": "lessons/09-file-io.html#in-class-exercise-1",
+    "title": "File Input/Output",
+    "section": "In-Class Exercise 1",
+    "text": "In-Class Exercise 1\nWrite an algorithm to calculate the average grade for all students in CY105 (581 Cadets).\n\nCadet 1: 90\nCadet 2: 85\nCadet 3: 95\n…\nCadet 581: 100\nAverage: 92.5\n\n\n\nHow do you get the data?\nCan you use input()?\nCan you use a list?"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#what-is-a-file",
+    "href": "lessons/09-file-io.html#what-is-a-file",
+    "title": "File Input/Output",
+    "section": "What is a file?",
+    "text": "What is a file?\n\n\nData stored on disk\n\nDoes it persist after you close the program?\nWhat happens if you turn off the computer?\n\nTypes of files\n\nText: can be read using a text editor\nBinary: require a special program\n\nNewline character - \\n\n\nprint('Hello\\nWorld')"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#why-bother",
+    "href": "lessons/09-file-io.html#why-bother",
+    "title": "File Input/Output",
+    "section": "Why bother?",
+    "text": "Why bother?\n\n\nStore data for later use\nShare data between programs or computers\ninput() is tedious and annoying"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#reading-from-a-file",
+    "href": "lessons/09-file-io.html#reading-from-a-file",
+    "title": "File Input/Output",
+    "section": "Reading from a File",
+    "text": "Reading from a File\n\n\n\nOpen the file\nFor each line in the file\n\nDo something\n\nClose the file\n\n\nfileHandle = open('file.txt', 'r')\n\nfor line in fileHandle:\n    print(line)\n\nfileHandle.close()"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#in-class-exercise-2",
+    "href": "lessons/09-file-io.html#in-class-exercise-2",
+    "title": "File Input/Output",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\n9.5.1: ICE 2\n\n\nWrite a program to compute the average grade of students stored in a file named AY24-2.txt. Assume numbers are on separate lines. Print the average to the screen.\n\nAverage Grade: 79.7\n\n\nfileHandle = open('file.txt', 'r')\n\nfor line in fileHandle:\n    print(line)\n\nfileHandle.close()"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#writing-to-a-file",
+    "href": "lessons/09-file-io.html#writing-to-a-file",
+    "title": "File Input/Output",
+    "section": "Writing to a File",
+    "text": "Writing to a File\n\n\n\nOpen the file for writing\nWrite to the file, one line at a time\nClose the file\n\n\nfileHandle = open('file.txt', 'w')\n\nfileHandle.write('Hello, World!')\nfileHandle.write('This is a file.')\n\nfileHandle.close()"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#in-class-exercise-3",
+    "href": "lessons/09-file-io.html#in-class-exercise-3",
+    "title": "File Input/Output",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\n9.5.2: ICE 3\n\n\nModify your program to read data from AY24-2.txt, compute the average and write it to averages.txt.\nNote: After you run your program, a new file called averages.txt should appear in your files.\n\nfileHandle = open('file.txt', 'w')\n\nfileHandle.write('Hello, World!')\nfileHandle.write('This is a file.')\n\nfileHandle.close()"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#other-useful-file-io-methods",
+    "href": "lessons/09-file-io.html#other-useful-file-io-methods",
+    "title": "File Input/Output",
+    "section": "Other Useful File I/O Methods",
+    "text": "Other Useful File I/O Methods\n\n.read(): read the entire file\n.read(n): read the next n characters\n.readline(): read the next line\n.readlines(): read all lines into a list"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#real-world-example-data-analysis",
+    "href": "lessons/09-file-io.html#real-world-example-data-analysis",
+    "title": "File Input/Output",
+    "section": "Real-World Example: Data Analysis",
+    "text": "Real-World Example: Data Analysis\n\nThe process of systematically applying statistical and logical techniques to describe, summarize, and evaluate data.\nIdentify trends: Spotting patterns that can lead to meaningful insights about the data.\nIsolate key statistics: Extracting specific figures that represent the essence of the datasets.\nMake predictions: Using historical data to forecast future occurrences."
+  },
+  {
+    "objectID": "lessons/09-file-io.html#in-class-exercise",
+    "href": "lessons/09-file-io.html#in-class-exercise",
+    "title": "File Input/Output",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\nThe mathematical constant \\(\\pi\\) has an infinite number of digits. Discovering digits of \\(\\pi\\) have become somewhat of an enthusiasts’ hobby. MIT has a list of the first billion digits of \\(\\pi\\). Download it from Canvas and unzip it.\nQuestion: Do any digits occur more frequently in \\(\\pi\\) than others?\nImplement the following algorithm:\n\nRead all the characters in the file as a single sequence. Close the file.\nInitialize a 10-element list to all 0s (freq)\nFor each character in the sequence starting at position 2:\nConvert the character to an integer (i)\nIncrement position i in freq by one\nIterate through freq, displaying the associated frequency."
   },
   {
     "objectID": "lessons/09-file-io.html#reminders",
     "href": "lessons/09-file-io.html#reminders",
     "title": "File Input/Output",
     "section": "Reminders",
-    "text": "Reminders"
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\nPractice!\n\nWPR1 is in 1 week!"
   },
   {
     "objectID": "lessons/03-computers-data.html#discussion",
