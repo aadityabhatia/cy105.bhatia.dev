@@ -411,12 +411,16 @@ CPT Sonny Bhatia
 <section id="announcements" class="slide level2 center" data-timing="0">
 <h2>Announcements</h2>
 <ul>
-<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/40/section/1/">WPS4</a> due on 15SEP!
+<li><p><a href="https://gist.github.com/aadityabhatia/86077fea4ccd353bfb017df733a70d19">Seating chart generator!</a></p></li>
+<li><p><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/40/section/1/">WPS4</a> due on 15SEP!</p>
 <ul>
-<li>email me with questions (quickest!)</li>
-<li>start early and <a href="https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu/meetingtype/jltYy6M1Zk-gtINzpqM9Zw2">schedule AI</a> as needed</li>
+<li>Email me with questions (quickest!)</li>
+<li>Start early and <a href="https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu/meetingtype/jltYy6M1Zk-gtINzpqM9Zw2">schedule AI</a> as needed</li>
 </ul></li>
-<li>WPR1 is in 1 week!</li>
+<li><p>WPR1 is in 1 week!</p>
+<ul>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/11/section/1">Study Guide</a></li>
+</ul></li>
 </ul>
 
 <img data-src="../images/agenda-block-1.png" class="r-stretch"><aside class="notes">
@@ -438,26 +442,25 @@ CPT Sonny Bhatia
           display:block!important;
       }</style></aside>
 </section>
-<section id="discussion" class="slide level2 center" data-timing="300">
-<h2>Discussion!</h2>
+<section id="september-11" class="slide level2 center" data-timing="480">
+<h2>September 11</h2>
 <ul>
-<li>How to take good notes?
-<ul>
-<li><a href="https://logseq.com/">Logseq</a> or <a href="https://obsidian.md/">Obsidian</a> - journaling, linking, knowledge management</li>
-<li>OneNote</li>
-<li><a href="https://zettelkasten.de/">Zettelkasten</a> - integrated thinking method!
-<ul>
-<li><a href="https://www.youtube.com/embed/GpV47rUYk8I">Zettelkasten Explained</a></li>
-</ul></li>
-</ul></li>
-<li>Why?
-<ul>
-<li><a href="https://www.youtube.com/embed/xxVxgQJwV7w">Active learning</a></li>
-<li>Memory retention</li>
-<li>Future reference</li>
-</ul></li>
-<li><a href="https://chatgpt.com/share/a329b032-7e1d-4568-be40-9227de866a8b">Can ChatGPT be wrong?</a></li>
+<li><a href="https://www.youtube.com/embed/CZwYIS9-6uo">Remembering 9/11</a></li>
+<li><a href="https://www.youtube.com/embed/Gz7S1v1k664">September 11, 2001: Former President George W. Bush addresses the nation</a></li>
+<li><a href="https://www.youtube.com/embed/9zEijHEQPhI">Military Response to 9/11</a></li>
 </ul>
+<!-- ## Discussion! {timing=300}
+
+- How to take good notes?
+    - [Logseq](https://logseq.com/) or [Obsidian](https://obsidian.md/) - journaling, linking, knowledge management
+    - OneNote
+    - [Zettelkasten](https://zettelkasten.de/) - integrated thinking method!
+        - [Zettelkasten Explained](https://www.youtube.com/embed/GpV47rUYk8I)
+- Why?
+    - [Active learning](https://www.youtube.com/embed/xxVxgQJwV7w)
+    - Memory retention
+    - Future reference
+- [Can ChatGPT be wrong?](https://chatgpt.com/share/a329b032-7e1d-4568-be40-9227de866a8b) -->
 </section>
 <section id="lesson-objectives" class="slide level2 center">
 <h2>Lesson Objectives</h2>
@@ -486,8 +489,7 @@ CPT Sonny Bhatia
 <h2>In-Class Exercise 1</h2>
 <p>Write an algorithm to calculate the average grade for all students in CY105 (581 Cadets).</p>
 <blockquote>
-<p>Cadet 1: <em>90</em></p>
-<p>Cadet 2: <em>85</em></p>
+<p>Cadet 1: <em>90</em> 0 Cadet 2: <em>85</em></p>
 <p>Cadet 3: <em>95</em></p>
 <p>…</p>
 <p>Cadet 581: <em>100</em></p>
@@ -677,6 +679,8 @@ CPT Sonny Bhatia
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
+  <script src="../site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -698,6 +702,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'multiplex': {"secret":null,"id":"91bcf82558f8ec24","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -871,7 +876,7 @@ CPT Sonny Bhatia
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
-          RevealNotes,
+          
           RevealSearch,
           RevealZoom
         ]

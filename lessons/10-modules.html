@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -322,7 +387,7 @@
     }
   </style>
 <meta property="og:title" content="Modules – CY105">
-<meta property="og:description" content="Importing and using math and random">
+<meta property="og:description" content="Using Python modules to do more!">
 <meta property="og:image" content="https://cy105.bhatia.dev//images/10/10.webp">
 <meta property="og:site_name" content="CY105">
 </head>
@@ -343,14 +408,23 @@ CPT Sonny Bhatia
 
   <p class="date">Thursday, September 12, 2024</p>
 </section>
-<section id="announcements" class="slide level2 center" data-timing="0">
+<section id="announcements" class="slide level2 center" data-timing="60">
 <h2>Announcements</h2>
 <ul>
-<li>WPS due on Sunday!</li>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/40/section/1/">WPS4</a> due on 15SEP!
+<ul>
+<li>Email me with questions (quickest!)</li>
+<li>Start early and <a href="https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu/meetingtype/jltYy6M1Zk-gtINzpqM9Zw2">schedule AI</a> as needed</li>
+</ul></li>
+<li>WPR1 is next week!
+<ul>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/11/section/1">Study Guide</a></li>
+</ul></li>
+<li>Looking for tutors (BDE and one-on-one)!</li>
 </ul>
 
 <img data-src="../images/agenda-block-1.png" class="r-stretch"></section>
-<section id="discussion" class="slide level2 center" data-timing="240">
+<section id="discussion" class="slide level2 center" data-timing="300">
 <h2>Discussion!</h2>
 <ul>
 <li><a href="https://www.youtube.com/embed/lvKrDsreUgM">Your Brain On Sleep Deprivation</a></li>
@@ -378,38 +452,308 @@ CPT Sonny Bhatia
 </section>
 <section id="lesson-objectives" class="slide level2 center">
 <h2>Lesson Objectives</h2>
-<ul>
-<li><p>Define a Python module and describe what you must do before you can use that module in your program</p></li>
-<li><p>Describe the primary intent of the following Python modules; describe a few of the methods or attributes that each module provides:</p>
+<ol type="1">
+<li>Describe a Python module and identify how to access it.</li>
+<li>Describe the primary intent of the following Python modules and how to use the functions/variables that each module provides.
 <ul>
 <li><code>math</code></li>
 <li><code>random</code></li>
 <li><code>statistics</code></li>
 </ul></li>
-<li><p>Import a module and use a custom method defined therein (math, random, statistics)</p>
+<li>Demonstrate ability to use Python modules.</li>
+</ol>
+</section>
+<section id="anitgravity" class="slide level2 center">
+<h2>anitgravity</h2>
+
+<img data-src="https://imgs.xkcd.com/comics/python.png" class="r-stretch quarto-figure-center"><p class="caption">xkcd.com/353</p><aside class="notes">
 <ul>
-<li>Generate random integers, pick a random item from a list, or generate random floating point values</li>
-<li>Use the <code>math</code> module to calculate square roots, ceilings, floors, degrees, radians, cosines, sines, and tangents. Use the value of <span class="math inline">\(\pi\)</span> and <span class="math inline">\(e\)</span> from the math module.</li>
-<li>Use the statistics module to calculate common order statistics</li>
-</ul></li>
+<li>modules give you superpowers!</li>
+<li>Have you seen this before?</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section>
+<section id="check-on-learning" class="title-slide slide level1 center" data-timing="300">
+<h1>Check on Learning</h1>
+
+</section>
+<section id="what-is-a-python-module" class="slide level2 center" data-timing="0">
+<h2>What is a Python module?</h2>
+<ol type="A">
+<li>A piece of hardware that Python uses</li>
+<li>A collection of functions and variables you can import into your program</li>
+<li>A type of error message in Python</li>
+<li>A fancy name for a Python loop</li>
+</ol>
+</section>
+<section id="which-command-do-you-use-to-include-a-module-in-your-python-program" class="slide level2 center" data-timing="0">
+<h2>Which command do you use to include a module in your Python program?</h2>
+<ol type="A">
+<li><code>use</code></li>
+<li><code>import</code></li>
+<li><code>include</code></li>
+<li><code>fetch</code></li>
+</ol>
+</section>
+<section id="if-you-want-to-calculate-the-square-root-of-a-number-which-module-and-function-should-you-use" class="slide level2 center" data-timing="0">
+<h2>If you want to calculate the square root of a number, which module and function should you use?</h2>
+<ol type="A">
+<li><code>math.pow()</code></li>
+<li><code>statistics.sqrt()</code></li>
+<li><code>math.sqrt()</code></li>
+<li><code>random.sqrt()</code></li>
+</ol>
+</section>
+<section id="the-random-module-can-be-used-to" class="slide level2 center" data-timing="0">
+<h2>The <code>random</code> module can be used to…</h2>
+<ol type="A">
+<li>Generate random numbers</li>
+<li>Perform matrix calculations</li>
+<li>Sort a list of numbers</li>
+<li>Calculate the average of numbers</li>
+</ol>
+</section>
+<section id="once-you-import-a-module-you-can-access-all-of-its-functions-using-the-dot-operator-e.g.-module.function." class="slide level2 center" data-timing="0">
+<h2>Once you import a module, you can access all of its functions using the dot operator (e.g., <code>module.function()</code>).</h2>
+<p>True or False?</p>
+</section>
+<section id="which-python-module-would-you-use-to-generate-a-random-number-between-1-and-10" class="slide level2 center" data-timing="0">
+<h2>Which Python module would you use to generate a random number between 1 and 10?</h2>
+<ol type="A">
+<li><code>math</code></li>
+<li><code>random</code></li>
+<li><code>statistics</code></li>
+<li><code>numbers</code></li>
+</ol>
+</section>
+<section id="what-does-the-function-random.randint1-6-do" class="slide level2 center" data-timing="0">
+<h2>What does the function <code>random.randint(1, 6)</code> do?</h2>
+<ol type="A">
+<li>Returns a random integer between 1 and 6, inclusive</li>
+<li>Returns a random float between 1 and 6</li>
+<li>Rolls a six-sided die and outputs the result</li>
+<li>Generates a random number between 1 and 5</li>
+</ol>
+</section>
+<section id="which-of-the-following-functions-is-not-part-of-the-math-module" class="slide level2 center" data-timing="0">
+<h2>Which of the following functions is NOT part of the <code>math</code> module?</h2>
+<ol type="A">
+<li><code>math.pi</code></li>
+<li><code>math.sin()</code></li>
+<li><code>math.factorial()</code></li>
+<li><code>math.shuffle()</code></li>
+</ol>
+</section>
+<section id="the-statistics.mean-function-is-used-to" class="slide level2 center" data-timing="0">
+<h2>The <code>statistics.mean()</code> function is used to:</h2>
+<ol type="A">
+<li>Find the maximum value in a list</li>
+<li>Compute the average of a list of numbers</li>
+<li>Generate a random number</li>
+<li>Calculate the standard deviation of numbers</li>
+</ol>
+</section>
+<section id="you-must-import-the-statistics-module-before-using-any-of-its-functions-like-mean-or-median." class="slide level2 center" data-timing="0">
+<h2>You must import the <code>statistics</code> module before using any of its functions, like <code>mean()</code> or <code>median()</code>.</h2>
+<p>True or False?</p>
+</section>
+<section id="which-of-the-following-modules-do-we-plan-to-use" class="slide level2 center" data-timing="0">
+<h2>Which of the following modules do we plan to use?</h2>
+<ol type="A">
+<li><code>math</code></li>
+<li><code>os</code></li>
+<li><code>random</code></li>
+<li><code>statistics</code></li>
+<li><code>sys</code></li>
+<li><code>time</code></li>
+</ol>
+</section></section>
+<section>
+<section id="modules" class="title-slide slide level1 center" data-timing="0">
+<h1>Modules</h1>
+
+</section>
+<section id="reference-card-pg3" class="slide level2 center" data-timing="0">
+<h2>Reference Card pg3</h2>
+
+<img data-src="../images/referenceCard/CY105_ReferenceCard_AY251_3.png" class="r-stretch"></section>
+<section id="thought-experiment" class="slide level2 center" data-timing="60">
+<h2>Thought Experiment</h2>
+<p>We previously created a Python program that computed the average grade on the CY105 WPR from last semester. It would be useful to find out some other useful facts about the scores: - What was the lowest score? What about the highest? - What about the median score (the one in the middle?) - What about the mode (the one that occurs most frequently?) - How about the standard deviation?</p>
+<aside class="notes">
+<ul>
+<li>What built-in functions can we use?</li>
+<li>What else would be helpful to have?</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-is-a-module" class="slide level2 center">
+<h2>What is a module?</h2>
+<ul>
+<li>Well-tested code that you can use in your own programs</li>
+<li>Contains functions and variables designed for a common purpose</li>
+<li>Allows you to do much more!</li>
+<li>To use a module: <code>import math</code></li>
 </ul>
 </section>
-<section id="what-are-modules" class="slide level2 center">
-<h2>What are Modules?</h2>
-
-<img data-src="https://imgs.xkcd.com/comics/python.png" class="r-stretch"></section>
-<section id="check-on-learning" class="slide level2 smaller center" data-timing="300">
-<h2>Check on Learning</h2>
+<section id="using-a-module" class="slide level2 center">
+<h2>Using a module</h2>
+<ol type="1">
+<li>Import the module</li>
+<li>Use the dot operator <span class="math inline">\(\dot\)</span> to access functions and variables</li>
+</ol>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> math</span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a><span class="co"># contains the value of $\pi$</span></span>
+<span id="cb1-4"><a></a>math.pi</span>
+<span id="cb1-5"><a></a></span>
+<span id="cb1-6"><a></a><span class="co"># compute square root</span></span>
+<span id="cb1-7"><a></a>math.sqrt(<span class="dv">16</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="the-statistics-module" class="slide level2 center">
+<h2>The <code>statistics</code> module</h2>
+<ul>
+<li><code>statistics.mean()</code> - average</li>
+<li><code>statistics.median()</code> - middle value</li>
+<li><code>statistics.mode()</code> - most common value</li>
+<li><code>statistics.stdev()</code> - standard deviation</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="im">import</span> statistics</span>
+<span id="cb2-2"><a></a></span>
+<span id="cb2-3"><a></a>nums <span class="op">=</span> [<span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">15</span>, <span class="dv">50</span>, <span class="dv">25</span>, <span class="dv">30</span>, <span class="dv">40</span>]</span>
+<span id="cb2-4"><a></a></span>
+<span id="cb2-5"><a></a>statistics.mean(nums)</span>
+<span id="cb2-6"><a></a>statistics.median(nums)</span>
+<span id="cb2-7"><a></a>statistics.mode(nums)</span>
+<span id="cb2-8"><a></a>statistics.stdev(nums)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="in-class-exercise-1" class="slide level2 center" data-timing="600">
+<h2>In-Class Exercise 1</h2>
+<p><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/10/section/5">10.5.1: ICE 1</a></p>
+<p>Update your previously designed program to compute the average grade of students stored in AY24-2.txt. This time, calculate:</p>
+<ul>
+<li>Lowest grade</li>
+<li>Average grade (round to 2 decimal places)</li>
+<li>Median</li>
+<li>Mode</li>
+<li>Highest grade</li>
+<li>Standard deviation (round to 2 decimal places)</li>
+</ul>
+<p>Write the results to a new file named <code>WPR-stats.txt</code>.</p>
+</section>
+<section id="the-math-module" class="slide level2 center">
+<h2>The <code>math</code> module</h2>
+<ul>
+<li><code>math.sqrt()</code> - square root</li>
+<li><code>math.ceil()</code> - ceiling</li>
+<li><code>math.floor()</code> - floor</li>
+<li><code>math.sin()</code>, <code>math.cos()</code>, <code>math.tan()</code> - trigonometric functions</li>
+<li><code>math.pi</code></li>
+<li><code>math.e</code></li>
+</ul>
+</section>
+<section id="in-class-exercise-2" class="slide level2 center" data-timing="600">
+<h2>In-Class Exercise 2</h2>
+<ul>
+<li><p><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/10/section/5">10.5.2: ICE 2: Pythagorean Theorem</a></p></li>
+<li><p>Write a program that asks the user for the length of two sides of a right triangle and then calculates the length of the hypotenuse.</p></li>
+</ul>
+<p><span class="math display">\[c = \sqrt{a^2 + b^2}\]</span></p>
+<blockquote>
+<p>Enter side a: <em>5</em></p>
+<p>Enter side b: <em>12</em></p>
+<p>Side c: 13.0</p>
+</blockquote>
+</section>
+<section id="random-numbers" class="slide level2 center" data-timing="120">
+<h2>Random Numbers</h2>
 <div>
-
+<ul>
+<li class="fragment">Why?
+<ul>
+<li class="fragment">Play a game</li>
+<li class="fragment">Shuffle a deck of cards</li>
+<li class="fragment">Generate a random password</li>
+<li class="fragment">Allow a new enemy spaceship to appear and shoot at you unpredictably</li>
+<li class="fragment">Simulate rainfall in a model to predict flooding</li>
+<li class="fragment">Encryption!</li>
+</ul></li>
+<li class="fragment">How random are these numbers really?
+<ul>
+<li class="fragment">Not so much. You can generate a pattern starting with a <code>seed</code> value.</li>
+</ul></li>
+</ul>
 </div>
+</section>
+<section id="the-random-module" class="slide level2 center">
+<h2>The <code>random</code> module</h2>
+<ul>
+<li><code>random.randint(a, b)</code> - random integer between <code>a</code> and <code>b</code>, inclusive!</li>
+<li><code>random.random()</code> - random float between 0 and 1</li>
+<li><code>random.choice()</code> - random item from a list</li>
+<li><code>random.randrange(start, stop, step)</code> - random integer from <code>range(start, stop, step)</code></li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="im">import</span> random</span>
+<span id="cb3-2"><a></a></span>
+<span id="cb3-3"><a></a>random.randint(<span class="dv">1</span>, <span class="dv">6</span>)</span>
+<span id="cb3-4"><a></a>random.random()</span>
+<span id="cb3-5"><a></a>random.choice([<span class="st">'rock'</span>, <span class="st">'paper'</span>, <span class="st">'scissors'</span>])</span>
+<span id="cb3-6"><a></a>random.randrange(<span class="dv">0</span>, <span class="dv">101</span>, <span class="dv">7</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="in-class-exercise-3" class="slide level2 center" data-timing="540">
+<h2>In-Class Exercise 3</h2>
+<ul>
+<li><p><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/10/section/5">zyBooks 10.5.3: ICE 3: Dice Rolls</a></p></li>
+<li><p>Write a program that asks the user to enter the desired number of rolls (<code>n</code>).</p></li>
+<li><p>Simulate <code>n</code> dice rolls, keeping track of the times each number is rolled.</p></li>
+<li><p>Print out the frequency with which each number was rolled.</p></li>
+</ul>
+<blockquote>
+<p>Enter the number of rolls: <em>10</em></p>
+<p>1: 4</p>
+<p>2: 2</p>
+<p>3: 1</p>
+<p>4: 1</p>
+<p>5: 2</p>
+<p>6: 0</p>
+</blockquote>
 </section>
 <section id="reminders" class="slide level2 center">
 <h2>Reminders</h2>
 <ul>
 <li>Clear whiteboards and desks</li>
 <li>Lower monitors; leave nothing behind</li>
-<li>Practice!</li>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/40/section/1/">WPS4</a> due on 15SEP!
+<ul>
+<li>Email me with questions (quickest!)</li>
+<li>Start early and <a href="https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu/meetingtype/jltYy6M1Zk-gtINzpqM9Zw2">schedule AI</a> as needed</li>
+</ul></li>
+<li>WPR1 is next week!
+<ul>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/11/section/1">Study Guide</a></li>
+</ul></li>
+<li>Looking for tutors (BDE and one-on-one)!</li>
 </ul>
 
 <div class="quarto-auto-generated-content">
@@ -417,7 +761,7 @@ CPT Sonny Bhatia
 
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 
@@ -451,7 +795,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"ff1933f957593950","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"40b7004345e4a9ff","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner

@@ -641,14 +641,14 @@
     "href": "index.html",
     "title": "Computing Fundamentals",
     "section": "",
-    "text": "This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
+    "text": "CPT Sonny Bhatia\nOffice: TH106\nThis course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
   },
   {
-    "objectID": "index.html#additional-instruction",
-    "href": "index.html#additional-instruction",
+    "objectID": "index.html#how-to-get-better-at-cy105",
+    "href": "index.html#how-to-get-better-at-cy105",
     "title": "Computing Fundamentals",
-    "section": "Additional Instruction",
-    "text": "Additional Instruction\n\nComplete required readings\nAttempt practice in-class exercises.\nBook Additional Instruction\nCome prepared with specific questions!\n\nNote: once you setup a meeting for additional instruction, it becomes your assigned place of duty. If you cannot make it, please notify me as early as possible."
+    "section": "How to get better at CY105?",
+    "text": "How to get better at CY105?\n\nComplete required readings\nAttempt practice in-class exercises.\nBook Additional Instruction\nCome prepared with specific questions!\n\nNote: once you setup a meeting, it becomes your assigned place of duty. If you cannot make it, please notify me ahead of time."
   },
   {
     "objectID": "index.html#book-a-counseling-e.g.-pdr-dac",
@@ -662,7 +662,7 @@
     "href": "index.html#lessons",
     "title": "Computing Fundamentals",
     "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\nCPT Sonny Bhatia\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\nCPT Sonny Bhatia\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\nCPT Sonny Bhatia\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIteration pt 1\n\n\nDefinite iteration using for loops\n\n\n\nCPT Sonny Bhatia\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\nCPT Sonny Bhatia\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading and writing to files\n\n\n\nCPT Sonny Bhatia\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nImporting and using math and random\n\n\n\nCPT Sonny Bhatia\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\nCPT Sonny Bhatia\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\nCPT Sonny Bhatia\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\nCPT Sonny Bhatia\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIteration pt 1\n\n\nDefinite iteration using for loops\n\n\n\nCPT Sonny Bhatia\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\nCPT Sonny Bhatia\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading and writing to files\n\n\n\nCPT Sonny Bhatia\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\nCPT Sonny Bhatia\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#course-objectives",
@@ -670,6 +670,20 @@
     "title": "Computing Fundamentals",
     "section": "Course Objectives",
     "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "Computing Fundamentals",
+    "section": "Resources",
+    "text": "Resources\n\nCourse Material\n\nCanvas\nzyBook\n\nDocumentation\n\nPython Documentation\nPython Notes for Professionals\n\nTools\n\nNotepad++\nVisual Studio Code\nPython Tutor\nBlack Code Formatter"
+  },
+  {
+    "objectID": "index.html#potentially-interesting-links",
+    "href": "index.html#potentially-interesting-links",
+    "title": "Computing Fundamentals",
+    "section": "Potentially Interesting Links",
+    "text": "Potentially Interesting Links\n\nHide and Seek! {timing=480}\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\nPB&J Sandwich\nFlipper Zero\n\nMeanwhile, in Canada…\n\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nSeating chart generator\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nCan ChatGPT be wrong?\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain"
   },
   {
     "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
@@ -802,7 +816,7 @@
     "href": "lessons/10-modules.html#announcements",
     "title": "Modules",
     "section": "Announcements",
-    "text": "Announcements\n\nWPS due on Sunday!"
+    "text": "Announcements\n\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\n\nWPR1 is next week!\n\nStudy Guide\n\nLooking for tutors (BDE and one-on-one)!"
   },
   {
     "objectID": "lessons/10-modules.html#discussion",
@@ -816,28 +830,175 @@
     "href": "lessons/10-modules.html#lesson-objectives",
     "title": "Modules",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nDefine a Python module and describe what you must do before you can use that module in your program\nDescribe the primary intent of the following Python modules; describe a few of the methods or attributes that each module provides:\n\nmath\nrandom\nstatistics\n\nImport a module and use a custom method defined therein (math, random, statistics)\n\nGenerate random integers, pick a random item from a list, or generate random floating point values\nUse the math module to calculate square roots, ceilings, floors, degrees, radians, cosines, sines, and tangents. Use the value of \\(\\pi\\) and \\(e\\) from the math module.\nUse the statistics module to calculate common order statistics"
+    "text": "Lesson Objectives\n\nDescribe a Python module and identify how to access it.\nDescribe the primary intent of the following Python modules and how to use the functions/variables that each module provides.\n\nmath\nrandom\nstatistics\n\nDemonstrate ability to use Python modules."
   },
   {
-    "objectID": "lessons/10-modules.html#what-are-modules",
-    "href": "lessons/10-modules.html#what-are-modules",
+    "objectID": "lessons/10-modules.html#anitgravity",
+    "href": "lessons/10-modules.html#anitgravity",
     "title": "Modules",
-    "section": "What are Modules?",
-    "text": "What are Modules?"
+    "section": "anitgravity",
+    "text": "anitgravity\n\nxkcd.com/353\n\nmodules give you superpowers!\nHave you seen this before?"
   },
   {
-    "objectID": "lessons/10-modules.html#check-on-learning",
-    "href": "lessons/10-modules.html#check-on-learning",
+    "objectID": "lessons/10-modules.html#what-is-a-python-module",
+    "href": "lessons/10-modules.html#what-is-a-python-module",
     "title": "Modules",
-    "section": "Check on Learning",
-    "text": "Check on Learning"
+    "section": "What is a Python module?",
+    "text": "What is a Python module?\n\nA piece of hardware that Python uses\nA collection of functions and variables you can import into your program\nA type of error message in Python\nA fancy name for a Python loop"
+  },
+  {
+    "objectID": "lessons/10-modules.html#which-command-do-you-use-to-include-a-module-in-your-python-program",
+    "href": "lessons/10-modules.html#which-command-do-you-use-to-include-a-module-in-your-python-program",
+    "title": "Modules",
+    "section": "Which command do you use to include a module in your Python program?",
+    "text": "Which command do you use to include a module in your Python program?\n\nuse\nimport\ninclude\nfetch"
+  },
+  {
+    "objectID": "lessons/10-modules.html#if-you-want-to-calculate-the-square-root-of-a-number-which-module-and-function-should-you-use",
+    "href": "lessons/10-modules.html#if-you-want-to-calculate-the-square-root-of-a-number-which-module-and-function-should-you-use",
+    "title": "Modules",
+    "section": "If you want to calculate the square root of a number, which module and function should you use?",
+    "text": "If you want to calculate the square root of a number, which module and function should you use?\n\nmath.pow()\nstatistics.sqrt()\nmath.sqrt()\nrandom.sqrt()"
+  },
+  {
+    "objectID": "lessons/10-modules.html#the-random-module-can-be-used-to",
+    "href": "lessons/10-modules.html#the-random-module-can-be-used-to",
+    "title": "Modules",
+    "section": "The random module can be used to…",
+    "text": "The random module can be used to…\n\nGenerate random numbers\nPerform matrix calculations\nSort a list of numbers\nCalculate the average of numbers"
+  },
+  {
+    "objectID": "lessons/10-modules.html#once-you-import-a-module-you-can-access-all-of-its-functions-using-the-dot-operator-e.g.-module.function.",
+    "href": "lessons/10-modules.html#once-you-import-a-module-you-can-access-all-of-its-functions-using-the-dot-operator-e.g.-module.function.",
+    "title": "Modules",
+    "section": "Once you import a module, you can access all of its functions using the dot operator (e.g., module.function()).",
+    "text": "Once you import a module, you can access all of its functions using the dot operator (e.g., module.function()).\nTrue or False?"
+  },
+  {
+    "objectID": "lessons/10-modules.html#which-python-module-would-you-use-to-generate-a-random-number-between-1-and-10",
+    "href": "lessons/10-modules.html#which-python-module-would-you-use-to-generate-a-random-number-between-1-and-10",
+    "title": "Modules",
+    "section": "Which Python module would you use to generate a random number between 1 and 10?",
+    "text": "Which Python module would you use to generate a random number between 1 and 10?\n\nmath\nrandom\nstatistics\nnumbers"
+  },
+  {
+    "objectID": "lessons/10-modules.html#what-does-the-function-random.randint1-6-do",
+    "href": "lessons/10-modules.html#what-does-the-function-random.randint1-6-do",
+    "title": "Modules",
+    "section": "What does the function random.randint(1, 6) do?",
+    "text": "What does the function random.randint(1, 6) do?\n\nReturns a random integer between 1 and 6, inclusive\nReturns a random float between 1 and 6\nRolls a six-sided die and outputs the result\nGenerates a random number between 1 and 5"
+  },
+  {
+    "objectID": "lessons/10-modules.html#which-of-the-following-functions-is-not-part-of-the-math-module",
+    "href": "lessons/10-modules.html#which-of-the-following-functions-is-not-part-of-the-math-module",
+    "title": "Modules",
+    "section": "Which of the following functions is NOT part of the math module?",
+    "text": "Which of the following functions is NOT part of the math module?\n\nmath.pi\nmath.sin()\nmath.factorial()\nmath.shuffle()"
+  },
+  {
+    "objectID": "lessons/10-modules.html#the-statistics.mean-function-is-used-to",
+    "href": "lessons/10-modules.html#the-statistics.mean-function-is-used-to",
+    "title": "Modules",
+    "section": "The statistics.mean() function is used to:",
+    "text": "The statistics.mean() function is used to:\n\nFind the maximum value in a list\nCompute the average of a list of numbers\nGenerate a random number\nCalculate the standard deviation of numbers"
+  },
+  {
+    "objectID": "lessons/10-modules.html#you-must-import-the-statistics-module-before-using-any-of-its-functions-like-mean-or-median.",
+    "href": "lessons/10-modules.html#you-must-import-the-statistics-module-before-using-any-of-its-functions-like-mean-or-median.",
+    "title": "Modules",
+    "section": "You must import the statistics module before using any of its functions, like mean() or median().",
+    "text": "You must import the statistics module before using any of its functions, like mean() or median().\nTrue or False?"
+  },
+  {
+    "objectID": "lessons/10-modules.html#which-of-the-following-modules-do-we-plan-to-use",
+    "href": "lessons/10-modules.html#which-of-the-following-modules-do-we-plan-to-use",
+    "title": "Modules",
+    "section": "Which of the following modules do we plan to use?",
+    "text": "Which of the following modules do we plan to use?\n\nmath\nos\nrandom\nstatistics\nsys\ntime"
+  },
+  {
+    "objectID": "lessons/10-modules.html#reference-card-pg3",
+    "href": "lessons/10-modules.html#reference-card-pg3",
+    "title": "Modules",
+    "section": "Reference Card pg3",
+    "text": "Reference Card pg3"
+  },
+  {
+    "objectID": "lessons/10-modules.html#thought-experiment",
+    "href": "lessons/10-modules.html#thought-experiment",
+    "title": "Modules",
+    "section": "Thought Experiment",
+    "text": "Thought Experiment\nWe previously created a Python program that computed the average grade on the CY105 WPR from last semester. It would be useful to find out some other useful facts about the scores: - What was the lowest score? What about the highest? - What about the median score (the one in the middle?) - What about the mode (the one that occurs most frequently?) - How about the standard deviation?\n\n\nWhat built-in functions can we use?\nWhat else would be helpful to have?"
+  },
+  {
+    "objectID": "lessons/10-modules.html#what-is-a-module",
+    "href": "lessons/10-modules.html#what-is-a-module",
+    "title": "Modules",
+    "section": "What is a module?",
+    "text": "What is a module?\n\nWell-tested code that you can use in your own programs\nContains functions and variables designed for a common purpose\nAllows you to do much more!\nTo use a module: import math"
+  },
+  {
+    "objectID": "lessons/10-modules.html#using-a-module",
+    "href": "lessons/10-modules.html#using-a-module",
+    "title": "Modules",
+    "section": "Using a module",
+    "text": "Using a module\n\nImport the module\nUse the dot operator \\(\\dot\\) to access functions and variables\n\nimport math\n\n# contains the value of $\\pi$\nmath.pi\n\n# compute square root\nmath.sqrt(16)"
+  },
+  {
+    "objectID": "lessons/10-modules.html#the-statistics-module",
+    "href": "lessons/10-modules.html#the-statistics-module",
+    "title": "Modules",
+    "section": "The statistics module",
+    "text": "The statistics module\n\nstatistics.mean() - average\nstatistics.median() - middle value\nstatistics.mode() - most common value\nstatistics.stdev() - standard deviation\n\nimport statistics\n\nnums = [10, 10, 20, 15, 50, 25, 30, 40]\n\nstatistics.mean(nums)\nstatistics.median(nums)\nstatistics.mode(nums)\nstatistics.stdev(nums)"
+  },
+  {
+    "objectID": "lessons/10-modules.html#in-class-exercise-1",
+    "href": "lessons/10-modules.html#in-class-exercise-1",
+    "title": "Modules",
+    "section": "In-Class Exercise 1",
+    "text": "In-Class Exercise 1\n10.5.1: ICE 1\nUpdate your previously designed program to compute the average grade of students stored in AY24-2.txt. This time, calculate:\n\nLowest grade\nAverage grade (round to 2 decimal places)\nMedian\nMode\nHighest grade\nStandard deviation (round to 2 decimal places)\n\nWrite the results to a new file named WPR-stats.txt."
+  },
+  {
+    "objectID": "lessons/10-modules.html#the-math-module",
+    "href": "lessons/10-modules.html#the-math-module",
+    "title": "Modules",
+    "section": "The math module",
+    "text": "The math module\n\nmath.sqrt() - square root\nmath.ceil() - ceiling\nmath.floor() - floor\nmath.sin(), math.cos(), math.tan() - trigonometric functions\nmath.pi\nmath.e"
+  },
+  {
+    "objectID": "lessons/10-modules.html#in-class-exercise-2",
+    "href": "lessons/10-modules.html#in-class-exercise-2",
+    "title": "Modules",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\n\n10.5.2: ICE 2: Pythagorean Theorem\nWrite a program that asks the user for the length of two sides of a right triangle and then calculates the length of the hypotenuse.\n\n\\[c = \\sqrt{a^2 + b^2}\\]\n\nEnter side a: 5\nEnter side b: 12\nSide c: 13.0"
+  },
+  {
+    "objectID": "lessons/10-modules.html#random-numbers",
+    "href": "lessons/10-modules.html#random-numbers",
+    "title": "Modules",
+    "section": "Random Numbers",
+    "text": "Random Numbers\n\n\nWhy?\n\nPlay a game\nShuffle a deck of cards\nGenerate a random password\nAllow a new enemy spaceship to appear and shoot at you unpredictably\nSimulate rainfall in a model to predict flooding\nEncryption!\n\nHow random are these numbers really?\n\nNot so much. You can generate a pattern starting with a seed value."
+  },
+  {
+    "objectID": "lessons/10-modules.html#the-random-module",
+    "href": "lessons/10-modules.html#the-random-module",
+    "title": "Modules",
+    "section": "The random module",
+    "text": "The random module\n\nrandom.randint(a, b) - random integer between a and b, inclusive!\nrandom.random() - random float between 0 and 1\nrandom.choice() - random item from a list\nrandom.randrange(start, stop, step) - random integer from range(start, stop, step)\n\nimport random\n\nrandom.randint(1, 6)\nrandom.random()\nrandom.choice(['rock', 'paper', 'scissors'])\nrandom.randrange(0, 101, 7)"
+  },
+  {
+    "objectID": "lessons/10-modules.html#in-class-exercise-3",
+    "href": "lessons/10-modules.html#in-class-exercise-3",
+    "title": "Modules",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\n\nzyBooks 10.5.3: ICE 3: Dice Rolls\nWrite a program that asks the user to enter the desired number of rolls (n).\nSimulate n dice rolls, keeping track of the times each number is rolled.\nPrint out the frequency with which each number was rolled.\n\n\nEnter the number of rolls: 10\n1: 4\n2: 2\n3: 1\n4: 1\n5: 2\n6: 0"
   },
   {
     "objectID": "lessons/10-modules.html#reminders",
     "href": "lessons/10-modules.html#reminders",
     "title": "Modules",
     "section": "Reminders",
-    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice!"
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\n\nWPR1 is next week!\n\nStudy Guide\n\nLooking for tutors (BDE and one-on-one)!"
   },
   {
     "objectID": "lessons/04-algorithms.html#discussion",
@@ -1033,14 +1194,14 @@
     "href": "lessons/09-file-io.html#announcements",
     "title": "File Input/Output",
     "section": "Announcements",
-    "text": "Announcements\n\nWPS4 due on 15SEP!\n\nemail me with questions (quickest!)\nstart early and schedule AI as needed\n\nWPR1 is in 1 week!\n\n\n\n\n24 hour lead time\ncan setup AI individually or in groups\nTH460 B1 hour!\nHow do you document assistance from your instructor?"
+    "text": "Announcements\n\nSeating chart generator!\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\n\nWPR1 is in 1 week!\n\nStudy Guide\n\n\n\n\n\n24 hour lead time\ncan setup AI individually or in groups\nTH460 B1 hour!\nHow do you document assistance from your instructor?"
   },
   {
-    "objectID": "lessons/09-file-io.html#discussion",
-    "href": "lessons/09-file-io.html#discussion",
+    "objectID": "lessons/09-file-io.html#september-11",
+    "href": "lessons/09-file-io.html#september-11",
     "title": "File Input/Output",
-    "section": "Discussion!",
-    "text": "Discussion!\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nWhy?\n\nActive learning\nMemory retention\nFuture reference\n\nCan ChatGPT be wrong?"
+    "section": "September 11",
+    "text": "September 11\n\nRemembering 9/11\nSeptember 11, 2001: Former President George W. Bush addresses the nation\nMilitary Response to 9/11"
   },
   {
     "objectID": "lessons/09-file-io.html#lesson-objectives",
@@ -1061,7 +1222,7 @@
     "href": "lessons/09-file-io.html#in-class-exercise-1",
     "title": "File Input/Output",
     "section": "In-Class Exercise 1",
-    "text": "In-Class Exercise 1\nWrite an algorithm to calculate the average grade for all students in CY105 (581 Cadets).\n\nCadet 1: 90\nCadet 2: 85\nCadet 3: 95\n…\nCadet 581: 100\nAverage: 92.5\n\n\n\nHow do you get the data?\nCan you use input()?\nCan you use a list?"
+    "text": "In-Class Exercise 1\nWrite an algorithm to calculate the average grade for all students in CY105 (581 Cadets).\n\nCadet 1: 90 0 Cadet 2: 85\nCadet 3: 95\n…\nCadet 581: 100\nAverage: 92.5\n\n\n\nHow do you get the data?\nCan you use input()?\nCan you use a list?"
   },
   {
     "objectID": "lessons/09-file-io.html#what-is-a-file",
