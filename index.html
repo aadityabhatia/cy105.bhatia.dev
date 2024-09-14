@@ -25,10 +25,14 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
 <link href=".//images/favicon_0.ico" rel="icon">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -41,6 +45,18 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -141,6 +157,7 @@ window.Quarto = {
         <div class="quarto-navbar-tools tools-end">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
+          <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -148,9 +165,27 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#how-to-get-better-at-cy105" id="toc-how-to-get-better-at-cy105" class="nav-link active" data-scroll-target="#how-to-get-better-at-cy105">How to get better at CY105?</a></li>
+  <li><a href="#book-a-pdr-or-dac-counseling-not-additional-instruction" id="toc-book-a-pdr-or-dac-counseling-not-additional-instruction" class="nav-link" data-scroll-target="#book-a-pdr-or-dac-counseling-not-additional-instruction">Book a PDR or DAC counseling (not Additional Instruction)</a></li>
+  <li><a href="#lessons" id="toc-lessons" class="nav-link" data-scroll-target="#lessons">Lessons</a></li>
+  <li><a href="#course-objectives" id="toc-course-objectives" class="nav-link" data-scroll-target="#course-objectives">Course Objectives</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#potentially-interesting-links" id="toc-potentially-interesting-links" class="nav-link" data-scroll-target="#potentially-interesting-links">Potentially Interesting Links</a>
+  <ul class="collapse">
+  <li><a href="#cyber-computing-and-technology" id="toc-cyber-computing-and-technology" class="nav-link" data-scroll-target="#cyber-computing-and-technology">Cyber, Computing, and Technology</a></li>
+  <li><a href="#learning-and-productivity" id="toc-learning-and-productivity" class="nav-link" data-scroll-target="#learning-and-productivity">Learning and Productivity</a></li>
+  <li><a href="#lifestyle" id="toc-lifestyle" class="nav-link" data-scroll-target="#lifestyle">Lifestyle</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -159,7 +194,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -174,6 +209,8 @@ window.Quarto = {
 <ul>
 <li>CPT Sonny Bhatia</li>
 <li>Office: TH106</li>
+<li>Class Hours: A1, C1, A2, B2</li>
+<li>Additional Instruction in classroom (TH460): B1, C2 (email beforehand to confirm)</li>
 </ul>
 <p>This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain.</p>
 <section id="how-to-get-better-at-cy105" class="level2">
@@ -181,13 +218,19 @@ window.Quarto = {
 <ol type="1">
 <li>Complete <a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024">required readings</a></li>
 <li>Attempt practice in-class exercises.</li>
-<li><a href="https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu/meetingtype/jltYy6M1Zk-gtINzpqM9Zw2">Book Additional Instruction</a></li>
-<li>Come prepared with specific questions!</li>
+<li><a href="https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu/meetingtype/jltYy6M1Zk-gtINzpqM9Zw2">Book Additional Instruction</a>
+<ul>
+<li>Select the <em>correct timezone</em> before selecting a time!</li>
+<li>Automatic booking is limited to 1100-1600. If you can see times outside that window, those are not in Eastern time.</li>
+<li>If you need a time outside that window, please email me.</li>
+<li>B1 and C2 hours are generally open; email me or stop by TH460.</li>
+</ul></li>
+<li>Come prepared with <strong>specific questions</strong>!</li>
 </ol>
 <p>Note: once you setup a meeting, it becomes your <strong>assigned place of duty</strong>. If you cannot make it, please notify me ahead of time.</p>
 </section>
-<section id="book-a-counseling-e.g.-pdr-dac" class="level2">
-<h2 class="anchored" data-anchor-id="book-a-counseling-e.g.-pdr-dac">Book a counseling (e.g.&nbsp;PDR, DAC)</h2>
+<section id="book-a-pdr-or-dac-counseling-not-additional-instruction" class="level2">
+<h2 class="anchored" data-anchor-id="book-a-pdr-or-dac-counseling-not-additional-instruction">Book a PDR or DAC counseling (not Additional Instruction)</h2>
 <ul>
 <li><a href="https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu">Book a meeting</a> - select the appropriate meeting type</li>
 </ul>
@@ -396,7 +439,7 @@ Sep 6, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1725940800000" data-listing-file-modified-sort="1726023122733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="759">
+<div class="g-col-1" data-index="8" data-listing-date-sort="1725940800000" data-listing-file-modified-sort="1726069038144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="774">
 <a href="./lessons/09-file-io.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -421,7 +464,7 @@ Sep 10, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-date-sort="1726113600000" data-listing-file-modified-sort="1726025754838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="960">
+<div class="g-col-1" data-index="9" data-listing-date-sort="1726113600000" data-listing-file-modified-sort="1726200404709" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="960">
 <a href="./lessons/10-modules.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -472,8 +515,9 @@ No matching items
 </ul></li>
 <li>Documentation
 <ul>
-<li><a href="https://docs.python.org/">Python Documentation</a></li>
+<li><a href="https://devdocs.io/python~3.12/">DevDocs.io</a></li>
 <li><a href="https://goalkicker.com/PythonBook/">Python Notes for Professionals</a></li>
+<li><a href="https://docs.python.org/">Official Python Documentation</a></li>
 </ul></li>
 <li>Tools
 <ul>
@@ -486,22 +530,37 @@ No matching items
 </section>
 <section id="potentially-interesting-links" class="level2">
 <h2 class="anchored" data-anchor-id="potentially-interesting-links">Potentially Interesting Links</h2>
+<section id="cyber-computing-and-technology" class="level3">
+<h3 class="anchored" data-anchor-id="cyber-computing-and-technology">Cyber, Computing, and Technology</h3>
 <ul>
-<li><p><a href="https://www.youtube.com/embed/Lu56xVlZ40M">Hide and Seek!</a> {timing=480}</p></li>
-<li><p><a href="https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/">Inside the “3 Billion People” National Public Data Breach</a></p></li>
-<li><p><a href="https://haveibeenpwned.com/">haveibeenpwned.com</a></p></li>
-<li><p><a href="https://www.youtube.com/watch?v=FN2RM-CHkuI">PB&amp;J Sandwich</a></p></li>
-<li><p><a href="https://www.youtube.com/embed/nLIp4wd0oXs">Flipper Zero</a></p>
+<li><a href="https://aj-labz.gitbook.io/aj-labz">Building a home lab</a></li>
+<li><a href="https://www.youtube.com/embed/Lu56xVlZ40M">Hide and Seek!</a></li>
+<li><a href="https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/">Inside the “3 Billion People” National Public Data Breach</a></li>
+<li><a href="https://haveibeenpwned.com/">haveibeenpwned.com</a></li>
+<li><a href="https://www.youtube.com/embed/nLIp4wd0oXs">Flipper Zero</a>
 <ul>
 <li><a href="https://arstechnica.com/security/2024/02/canada-vows-to-ban-flipper-zero-device-in-crackdown-on-car-theft/">Meanwhile, in Canada…</a></li>
 </ul></li>
+<li><a href="https://hackaday.com/">Hackaday</a></li>
+<li><a href="https://gist.github.com/aadityabhatia/86077fea4ccd353bfb017df733a70d19">Seating chart generator</a></li>
+</ul>
+</section>
+<section id="learning-and-productivity" class="level3">
+<h3 class="anchored" data-anchor-id="learning-and-productivity">Learning and Productivity</h3>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=FN2RM-CHkuI">PB&amp;J Sandwich</a></p></li>
 <li><p><a href="https://www.youtube.com/embed/ayefSTAnCR8">YouTube: Bloom’s Taxonomy: Structuring The Learning Journey</a></p>
 <ul>
 <li><a href="https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/">Ref: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.</a></li>
 </ul></li>
 <li><p><a href="https://www.youtube.com/embed/lsGwqk_agcQ">Pareto Principle [The 80/20 Rule Explained]</a></p></li>
 <li><p><a href="https://www.youtube.com/embed/KUWn_TJTrnU">Growth Mindset</a></p></li>
-<li><p><a href="https://gist.github.com/aadityabhatia/86077fea4ccd353bfb017df733a70d19">Seating chart generator</a></p></li>
+<li><p>Why take good notes?</p>
+<ul>
+<li><a href="https://www.youtube.com/embed/xxVxgQJwV7w">Active learning</a></li>
+<li>Memory retention</li>
+<li>Future reference</li>
+</ul></li>
 <li><p>How to take good notes?</p>
 <ul>
 <li><a href="https://logseq.com/">Logseq</a> or <a href="https://obsidian.md/">Obsidian</a> - journaling, linking, knowledge management</li>
@@ -511,20 +570,20 @@ No matching items
 <li><a href="https://www.youtube.com/embed/GpV47rUYk8I">Zettelkasten Explained</a></li>
 </ul></li>
 </ul></li>
-<li><p>Why take good notes?</p>
+</ul>
+</section>
+<section id="lifestyle" class="level3">
+<h3 class="anchored" data-anchor-id="lifestyle">Lifestyle</h3>
 <ul>
-<li><a href="https://www.youtube.com/embed/xxVxgQJwV7w">Active learning</a></li>
-<li>Memory retention</li>
-<li>Future reference</li>
-</ul></li>
-<li><p><a href="https://chatgpt.com/share/a329b032-7e1d-4568-be40-9227de866a8b">Can ChatGPT be wrong?</a></p></li>
-<li><p><a href="https://www.youtube.com/embed/lvKrDsreUgM">Your Brain On Sleep Deprivation</a></p></li>
-<li><p><a href="https://www.youtube.com/embed/dqONk48l5vY">What would happen if you didn’t sleep?</a></p></li>
-<li><p><a href="https://www.youtube.com/embed/IzQ2siryQrM">How Sleep Affects Your Brain</a></p></li>
+<li><a href="https://chatgpt.com/share/a329b032-7e1d-4568-be40-9227de866a8b">Can ChatGPT be wrong?</a></li>
+<li><a href="https://www.youtube.com/embed/lvKrDsreUgM">Your Brain On Sleep Deprivation</a></li>
+<li><a href="https://www.youtube.com/embed/dqONk48l5vY">What would happen if you didn’t sleep?</a></li>
+<li><a href="https://www.youtube.com/embed/IzQ2siryQrM">How Sleep Affects Your Brain</a></li>
 </ul>
 
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -489,7 +489,8 @@ CPT Sonny Bhatia
 <h2>In-Class Exercise 1</h2>
 <p>Write an algorithm to calculate the average grade for all students in CY105 (581 Cadets).</p>
 <blockquote>
-<p>Cadet 1: <em>90</em> 0 Cadet 2: <em>85</em></p>
+<p>Cadet 1: <em>90</em></p>
+<p>Cadet 2: <em>85</em></p>
 <p>Cadet 3: <em>95</em></p>
 <p>…</p>
 <p>Cadet 581: <em>100</em></p>
@@ -595,10 +596,13 @@ CPT Sonny Bhatia
 </div><div class="column" style="width:50%;">
 <div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>fileHandle <span class="op">=</span> <span class="bu">open</span>(<span class="st">'file.txt'</span>, <span class="st">'w'</span>)</span>
 <span id="cb3-2"><a></a></span>
-<span id="cb3-3"><a></a>fileHandle.write(<span class="st">'Hello, World!'</span>)</span>
-<span id="cb3-4"><a></a>fileHandle.write(<span class="st">'This is a file.'</span>)</span>
-<span id="cb3-5"><a></a></span>
-<span id="cb3-6"><a></a>fileHandle.close()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-3"><a></a>fileHandle.write(<span class="st">'Hello, World!</span><span class="ch">\n</span><span class="st">'</span>)</span>
+<span id="cb3-4"><a></a>fileHandle.write(<span class="st">'This is my new file.</span><span class="ch">\n</span><span class="st">'</span>)</span>
+<span id="cb3-5"><a></a>fileHandle.write(<span class="st">'No line breaks here...'</span>)</span>
+<span id="cb3-6"><a></a>fileHandle.write(<span class="st">'and this appears on the same line.</span><span class="ch">\n</span><span class="st">'</span>)</span>
+<span id="cb3-7"><a></a>fileHandle.write(<span class="st">'Now I can end my file</span><span class="ch">\n</span><span class="st">'</span>)</span>
+<span id="cb3-8"><a></a></span>
+<span id="cb3-9"><a></a>fileHandle.close()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 </section>
 <section id="in-class-exercise-3" class="slide level2 center" data-timing="480">
@@ -702,7 +706,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"91bcf82558f8ec24","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"556211b93c9f34bc","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner

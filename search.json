@@ -641,21 +641,21 @@
     "href": "index.html",
     "title": "Computing Fundamentals",
     "section": "",
-    "text": "CPT Sonny Bhatia\nOffice: TH106\nThis course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
+    "text": "CPT Sonny Bhatia\nOffice: TH106\nClass Hours: A1, C1, A2, B2\nAdditional Instruction in classroom (TH460): B1, C2 (email beforehand to confirm)\nThis course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
   },
   {
     "objectID": "index.html#how-to-get-better-at-cy105",
     "href": "index.html#how-to-get-better-at-cy105",
     "title": "Computing Fundamentals",
     "section": "How to get better at CY105?",
-    "text": "How to get better at CY105?\n\nComplete required readings\nAttempt practice in-class exercises.\nBook Additional Instruction\nCome prepared with specific questions!\n\nNote: once you setup a meeting, it becomes your assigned place of duty. If you cannot make it, please notify me ahead of time."
+    "text": "How to get better at CY105?\n\nComplete required readings\nAttempt practice in-class exercises.\nBook Additional Instruction\n\nSelect the correct timezone before selecting a time!\nAutomatic booking is limited to 1100-1600. If you can see times outside that window, those are not in Eastern time.\nIf you need a time outside that window, please email me.\nB1 and C2 hours are generally open; email me or stop by TH460.\n\nCome prepared with specific questions!\n\nNote: once you setup a meeting, it becomes your assigned place of duty. If you cannot make it, please notify me ahead of time."
   },
   {
-    "objectID": "index.html#book-a-counseling-e.g.-pdr-dac",
-    "href": "index.html#book-a-counseling-e.g.-pdr-dac",
+    "objectID": "index.html#book-a-pdr-or-dac-counseling-not-additional-instruction",
+    "href": "index.html#book-a-pdr-or-dac-counseling-not-additional-instruction",
     "title": "Computing Fundamentals",
-    "section": "Book a counseling (e.g. PDR, DAC)",
-    "text": "Book a counseling (e.g. PDR, DAC)\n\nBook a meeting - select the appropriate meeting type"
+    "section": "Book a PDR or DAC counseling (not Additional Instruction)",
+    "text": "Book a PDR or DAC counseling (not Additional Instruction)\n\nBook a meeting - select the appropriate meeting type"
   },
   {
     "objectID": "index.html#lessons",
@@ -676,14 +676,14 @@
     "href": "index.html#resources",
     "title": "Computing Fundamentals",
     "section": "Resources",
-    "text": "Resources\n\nCourse Material\n\nCanvas\nzyBook\n\nDocumentation\n\nPython Documentation\nPython Notes for Professionals\n\nTools\n\nNotepad++\nVisual Studio Code\nPython Tutor\nBlack Code Formatter"
+    "text": "Resources\n\nCourse Material\n\nCanvas\nzyBook\n\nDocumentation\n\nDevDocs.io\nPython Notes for Professionals\nOfficial Python Documentation\n\nTools\n\nNotepad++\nVisual Studio Code\nPython Tutor\nBlack Code Formatter"
   },
   {
     "objectID": "index.html#potentially-interesting-links",
     "href": "index.html#potentially-interesting-links",
     "title": "Computing Fundamentals",
     "section": "Potentially Interesting Links",
-    "text": "Potentially Interesting Links\n\nHide and Seek! {timing=480}\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\nPB&J Sandwich\nFlipper Zero\n\nMeanwhile, in Canada…\n\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nSeating chart generator\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nCan ChatGPT be wrong?\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain"
+    "text": "Potentially Interesting Links\n\nCyber, Computing, and Technology\n\nBuilding a home lab\nHide and Seek!\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\nFlipper Zero\n\nMeanwhile, in Canada…\n\nHackaday\nSeating chart generator\n\n\n\nLearning and Productivity\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\n\n\n\nLifestyle\n\nCan ChatGPT be wrong?\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain"
   },
   {
     "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
@@ -928,7 +928,7 @@
     "href": "lessons/10-modules.html#thought-experiment",
     "title": "Modules",
     "section": "Thought Experiment",
-    "text": "Thought Experiment\nWe previously created a Python program that computed the average grade on the CY105 WPR from last semester. It would be useful to find out some other useful facts about the scores: - What was the lowest score? What about the highest? - What about the median score (the one in the middle?) - What about the mode (the one that occurs most frequently?) - How about the standard deviation?\n\n\nWhat built-in functions can we use?\nWhat else would be helpful to have?"
+    "text": "Thought Experiment\nWe previously created a Python program that computed the average grade on the CY105 WPR from last semester. It would be useful to find out some other useful facts about the scores:\n\nWhat was the lowest score? What about the highest?\nWhat about the median score (the one in the middle?)\nWhat about the mode (the one that occurs most frequently?)\nHow about the standard deviation?\n\n\n\nWhat built-in functions can we use?\nWhat else would be helpful to have?"
   },
   {
     "objectID": "lessons/10-modules.html#what-is-a-module",
@@ -1222,7 +1222,7 @@
     "href": "lessons/09-file-io.html#in-class-exercise-1",
     "title": "File Input/Output",
     "section": "In-Class Exercise 1",
-    "text": "In-Class Exercise 1\nWrite an algorithm to calculate the average grade for all students in CY105 (581 Cadets).\n\nCadet 1: 90 0 Cadet 2: 85\nCadet 3: 95\n…\nCadet 581: 100\nAverage: 92.5\n\n\n\nHow do you get the data?\nCan you use input()?\nCan you use a list?"
+    "text": "In-Class Exercise 1\nWrite an algorithm to calculate the average grade for all students in CY105 (581 Cadets).\n\nCadet 1: 90\nCadet 2: 85\nCadet 3: 95\n…\nCadet 581: 100\nAverage: 92.5\n\n\n\nHow do you get the data?\nCan you use input()?\nCan you use a list?"
   },
   {
     "objectID": "lessons/09-file-io.html#what-is-a-file",
@@ -1257,7 +1257,7 @@
     "href": "lessons/09-file-io.html#writing-to-a-file",
     "title": "File Input/Output",
     "section": "Writing to a File",
-    "text": "Writing to a File\n\n\n\nOpen the file for writing\nWrite to the file, one line at a time\nClose the file\n\n\nfileHandle = open('file.txt', 'w')\n\nfileHandle.write('Hello, World!')\nfileHandle.write('This is a file.')\n\nfileHandle.close()"
+    "text": "Writing to a File\n\n\n\nOpen the file for writing\nWrite to the file, one line at a time\nClose the file\n\n\nfileHandle = open('file.txt', 'w')\n\nfileHandle.write('Hello, World!\\n')\nfileHandle.write('This is my new file.\\n')\nfileHandle.write('No line breaks here...')\nfileHandle.write('and this appears on the same line.\\n')\nfileHandle.write('Now I can end my file\\n')\n\nfileHandle.close()"
   },
   {
     "objectID": "lessons/09-file-io.html#in-class-exercise-3",
