@@ -641,21 +641,28 @@
     "href": "index.html",
     "title": "Computing Fundamentals",
     "section": "",
-    "text": "CPT Sonny Bhatia\nOffice: TH106\nClass Hours: A1, C1, A2, B2\nAdditional Instruction in classroom (TH460): B1, C2 (email beforehand to confirm)\nThis course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
+    "text": "CPT Sonny Bhatia\nOffice: Thayer Hall 106\nClass Hours: A1, C1, A2, B2\nAdditional Instruction in TH460: B1, C2 (email beforehand to confirm)\nThis course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
   },
   {
     "objectID": "index.html#how-to-get-better-at-cy105",
     "href": "index.html#how-to-get-better-at-cy105",
     "title": "Computing Fundamentals",
     "section": "How to get better at CY105?",
-    "text": "How to get better at CY105?\n\nComplete required readings\nAttempt practice in-class exercises.\nBook Additional Instruction\n\nSelect the correct timezone before selecting a time!\nAutomatic booking is limited to 1100-1600. If you can see times outside that window, those are not in Eastern time.\nIf you need a time outside that window, please email me.\nB1 and C2 hours are generally open; email me or stop by TH460.\n\nCome prepared with specific questions!\n\nNote: once you setup a meeting, it becomes your assigned place of duty. If you cannot make it, please notify me ahead of time."
+    "text": "How to get better at CY105?\n\nComplete zyBook required readings.\nAttempt zyBook practice ICEs going back to the chapter that you do not fully grasp.\nReach out to me.\n\nYour success in this course is directly proportional to the number of in-class exercises (ICEs) that you successfully complete."
   },
   {
-    "objectID": "index.html#book-a-pdr-or-dac-counseling-not-additional-instruction",
-    "href": "index.html#book-a-pdr-or-dac-counseling-not-additional-instruction",
+    "objectID": "index.html#book-additional-instruction",
+    "href": "index.html#book-additional-instruction",
     "title": "Computing Fundamentals",
-    "section": "Book a PDR or DAC counseling (not Additional Instruction)",
-    "text": "Book a PDR or DAC counseling (not Additional Instruction)\n\nBook a meeting - select the appropriate meeting type"
+    "section": "Book Additional Instruction",
+    "text": "Book Additional Instruction\n\nUse Outlook Bookings.\n\nSelect the correct timezone before selecting a time!\nAutomatic booking is limited to 1100-1600. If you can see times outside that window, those are not in Eastern time.\nIf you cannot find a suitable time, please email me.\nB1 and C2 hours are generally open; email me or stop by TH460.\n\nCome prepared with specific questions!\n\nNote: once you setup a meeting, it becomes your assigned place of duty. If you cannot make it, please notify me ahead of time."
+  },
+  {
+    "objectID": "index.html#book-a-pdr-or-dac-counseling",
+    "href": "index.html#book-a-pdr-or-dac-counseling",
+    "title": "Computing Fundamentals",
+    "section": "Book a PDR or DAC counseling",
+    "text": "Book a PDR or DAC counseling\n\nBook a meeting - select the appropriate meeting type\nNote: This is not Additional Instruction. To setup AI, look above."
   },
   {
     "objectID": "index.html#lessons",
@@ -683,7 +690,7 @@
     "href": "index.html#potentially-interesting-links",
     "title": "Computing Fundamentals",
     "section": "Potentially Interesting Links",
-    "text": "Potentially Interesting Links\n\nCyber, Computing, and Technology\n\nBuilding a home lab\nHide and Seek!\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\nFlipper Zero\n\nMeanwhile, in Canada…\n\nHackaday\nSeating chart generator\n\n\n\nLearning and Productivity\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\n\n\n\nLifestyle\n\nCan ChatGPT be wrong?\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain"
+    "text": "Potentially Interesting Links\n\nCyber, Computing, and Technology\n\nHide and Seek!\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\nFlipper Zero\n\nMeanwhile, in Canada…\n\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\nBuilding a home lab\n\n\n\nLearning and Productivity\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain"
   },
   {
     "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
