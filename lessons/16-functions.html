@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.5.55">
 
   <meta name="author" content="CPT Sonny Bhatia">
-  <title>CY105 – Python Basics</title>
+  <title>CY105 – Writing Functions</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,71 +30,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -386,19 +321,17 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Python Basics – CY105">
-<meta property="og:description" content="Introduction to Programming">
-<meta property="og:image" content="https://cy105.bhatia.dev//images/05/05.png">
+<meta property="og:title" content="Writing Functions – CY105">
+<meta property="og:description" content="Reusable pieces of code">
+<meta property="og:image" content="https://cy105.bhatia.dev//images/16/16.webp">
 <meta property="og:site_name" content="CY105">
-<meta property="og:image:height" content="840">
-<meta property="og:image:width" content="1470">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Python Basics</h1>
+  <h1 class="title">Writing Functions</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -408,457 +341,33 @@ CPT Sonny Bhatia
 </div>
 </div>
 
-  <p class="date">Wednesday, August 28, 2024</p>
+  <p class="date">Monday, September 30, 2024</p>
+</section>
+<section id="announcements" class="slide level2 center" data-timing="0">
+<h2>Announcements</h2>
+<ul>
+<li>WPS due on Sunday!</li>
+</ul>
+<!-- ![](/images/agenda-block-1.png) -->
 </section>
 <section id="discussion" class="slide level2 center" data-timing="240">
 <h2>Discussion!</h2>
-<ul>
-<li><a href="https://www.youtube.com/embed/nLIp4wd0oXs">Flipper Zero</a></li>
-<li><a href="https://arstechnica.com/security/2024/02/canada-vows-to-ban-flipper-zero-device-in-crackdown-on-car-theft/">Meanwhile, in Canada…</a></li>
-</ul>
 </section>
-<section id="lesson-objectives" class="slide level2 center" data-timing="60">
+<section id="lesson-objectives" class="slide level2 center">
 <h2>Lesson Objectives</h2>
-<ul>
-<li>Identify basic data types represented in programs</li>
-<li>Distinguish between data types and data values.</li>
-<li>Use variables to store information in a program</li>
-<li>Write very basic Python programs.</li>
-</ul>
-<aside class="notes">
-<ul>
-<li>Bring up agenda</li>
-<li>Reference cards!
-<ul>
-<li>Bring them daily.</li>
-</ul></li>
-<li>Test your monitors.
-<ul>
-<li>Consider bringing a spare mouse to easily navigate between screens.</li>
-</ul></li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
-<section id="writing-algorithms" class="slide level2 center" data-timing="240">
-<h2>Writing Algorithms</h2>
-<p>Suppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.</p>
-<p>Write an algorithm that accomplishes this task!</p>
-<aside class="notes">
-<ul>
-<li>ask the user for their name</li>
-<li>print out hello followed by their name</li>
-<li>ask how many slices of pizza they want</li>
-<li>multiply quantity by the cost (2.50)</li>
-<li>print total to the screen</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="check-on-learning" class="slide level2 center" data-timing="180">
+<section id="check-on-learning" class="slide level2 smaller center" data-timing="300">
 <h2>Check on Learning</h2>
 <div>
-<ul>
-<li class="fragment">What is a data type?</li>
-<li class="fragment">Is data type the same as a variable?</li>
-<li class="fragment">What are the standard data types in Python?</li>
-<li class="fragment">How do you assign a variable in Python?</li>
-<li class="fragment">What is a procedure?</li>
-<li class="fragment">What does <code>print()</code> do?</li>
-<li class="fragment">What does <code>type()</code> do?</li>
-<li class="fragment">What is a list?</li>
-<li class="fragment">What is a boolean?</li>
-<li class="fragment">What is the difference between <code>=</code> and <code>==</code>?</li>
-</ul>
-</div>
-<aside class="notes">
-<ul>
-<li>int, float, str, list, bool</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="more-check-on-learning" class="slide level2 center" data-timing="180">
-<h2>More Check on Learning</h2>
-<div>
-<ul>
-<li class="fragment">Is this a string? <code>"hello"</code></li>
-<li class="fragment">Is this a string? <code>"11"</code></li>
-<li class="fragment">What is the type of: <code>3.1415</code></li>
-<li class="fragment">What is the type of: <code>3</code></li>
-<li class="fragment">What is the type of: <code>3.0</code></li>
-<li class="fragment">What is the type of: <code>True</code></li>
-<li class="fragment">What is the type of: <code>"True"</code></li>
-<li class="fragment">What is the value of: <code>5 + 3 * 2</code></li>
-<li class="fragment">What is the value of: <code>5 % 3</code></li>
-<li class="fragment">What is the value of: <code>5 / 2</code></li>
-<li class="fragment">What is the value of: <code>5 // 2</code></li>
-</ul>
-</div>
-</section>
-<section id="programming-environment" class="slide level2 center" data-timing="120">
-<h2>Programming Environment</h2>
-<ol type="1">
-<li>Start -&gt; <code>python</code></li>
-<li><a href="https://notepad-plus-plus.org/">Notepad++</a></li>
-<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/5/section/11">zyBook</a></li>
-</ol>
-<ul>
-<li><a href="https://pythontutor.com/python-compiler.html">Python Tutor</a></li>
-<li><a href="https://black.vercel.app/">Black Code Formatter</a></li>
-</ul>
-</section>
-<section id="hello-world" class="slide level2 center" data-timing="120">
-<h2>Hello World!</h2>
-<ul>
-<li>Simplest program in any language</li>
-<li>Demonstrates how to accomplish a basic task</li>
-</ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource py number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="bu">print</span>(<span class="st">"Hello, World!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="writing-code" class="slide level2 center" data-timing="120">
-<h2>Writing Code</h2>
 
-<img data-src="../images/01/08-writing-code.png" class="r-stretch"></section>
-<section id="running-code" class="slide level2 center" data-timing="120">
-<h2>Running Code</h2>
-
-<img data-src="../images/01/09-running-code.png" class="r-stretch"></section>
-<section id="real-python-program" class="slide level2 center" data-timing="120">
-<h2>Real Python Program</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="co">"""</span></span>
-<span id="cb2-2"><a></a><span class="co">Whispers in the code,</span></span>
-<span id="cb2-3"><a></a><span class="co">Python ignores, doesn’t care,</span></span>
-<span id="cb2-4"><a></a><span class="co">Yet they light the path.</span></span>
-<span id="cb2-5"><a></a><span class="co">"""</span></span>
-<span id="cb2-6"><a></a></span>
-<span id="cb2-7"><a></a><span class="kw">def</span> main():  <span class="co"># a procedure called main</span></span>
-<span id="cb2-8"><a></a>    <span class="bu">print</span>(<span class="st">"hello world!"</span>)  <span class="co"># print statement</span></span>
-<span id="cb2-9"><a></a></span>
-<span id="cb2-10"><a></a>main()  <span class="co"># invoke the main procedure</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ul>
-<li>Copy the code above into Notepad++</li>
-<li>Save with a <code>.py</code> extension, e.g.&nbsp;<code>hello.py</code></li>
-<li>Observe the different colors. What do they mean?</li>
-</ul>
-</section>
-<section id="variables" class="slide level2 center" data-timing="120">
-<h2>Variables</h2>
-<ul>
-<li>Store data in memory</li>
-<li>Can be changed as many times as needed</li>
-<li>Must be assigned a value before first use!</li>
-<li>Name is how you refer to the value</li>
-<li>Value is what is stored in the variable</li>
-</ul>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>x <span class="op">=</span> <span class="dv">5</span></span>
-<span id="cb3-2"><a></a>y <span class="op">=</span> <span class="fl">3.14</span></span>
-<span id="cb3-3"><a></a>z <span class="op">=</span> <span class="st">"hello"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<aside class="notes">
-<pre><code>&gt;&gt;&gt; x = 5
-&gt;&gt;&gt; y = 3.14
-&gt;&gt;&gt; z = "hello"
-&gt;&gt;&gt; x</code></pre>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="variable-names" class="slide level2 center" data-timing="120">
-<h2>Variable Names</h2>
-<ul>
-<li>Must start with a letter or underscore</li>
-<li>Can contain letters, numbers, and underscores</li>
-<li>Case sensitive</li>
-<li>Cannot be a reserved word</li>
-</ul>
-<aside class="notes">
-<pre><code>&gt;&gt;&gt; x = 5
-&gt;&gt;&gt; 4x = 20
-&gt;&gt;&gt; x4 = 20
-&gt;&gt;&gt; x_x = 1
-&gt;&gt;&gt; print(X_X)
-&gt;&gt;&gt; True = 1
-&gt;&gt;&gt; False = 0
-&gt;&gt;&gt; return = True</code></pre>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="data-types" class="slide level2 center" data-timing="120">
-<h2>Data Types</h2>
-<ul>
-<li><code>int</code> - integer</li>
-<li><code>float</code> - floating point number</li>
-<li><code>str</code> - string</li>
-<li><code>bool</code> - boolean</li>
-<li><code>list</code> - list</li>
-</ul>
-<aside class="notes">
-<pre><code>&gt;&gt;&gt; type(x)
-&gt;&gt;&gt; type(y)
-&gt;&gt;&gt; type(z)</code></pre>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="basic-arithmetic" class="slide level2 center" data-timing="120">
-<h2>Basic Arithmetic</h2>
-<ul>
-<li><code>+</code> - addition</li>
-<li><code>-</code> - subtraction</li>
-<li><code>*</code> - multiplication</li>
-<li><code>/</code> - division</li>
-<li><code>**</code> - exponentiation</li>
-<li><code>//</code> - floor division</li>
-<li><code>%</code> - modulo</li>
-</ul>
-<aside class="notes">
-<pre><code>&gt;&gt;&gt; 10 + 4
-&gt;&gt;&gt; 10 - 4
-&gt;&gt;&gt; 10 * 4
-&gt;&gt;&gt; 10 / 4
-&gt;&gt;&gt; 10 ** 4
-&gt;&gt;&gt; 10 // 4
-&gt;&gt;&gt; 10 % 4
-&gt;&gt;&gt; 10 % 3
-&gt;&gt;&gt; 10 % 1</code></pre>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="order-of-operations" class="slide level2 center" data-timing="180">
-<h2>Order of Operations</h2>
-<ul>
-<li>Parentheses</li>
-<li>Exponents</li>
-<li>Multiplication and Division</li>
-<li>Addition and Subtraction</li>
-</ul>
-<aside class="notes">
-<pre><code>&gt;&gt;&gt; 5 + 3 * 2 = 11
-&gt;&gt;&gt; (5 + 3) * 2 = 16
-&gt;&gt;&gt; 5 + 3 * 2 ** 2 = 17
-&gt;&gt;&gt; (5 + 3) * 2 ** 2 = 32</code></pre>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="converting-data-types" class="slide level2 center" data-timing="120">
-<h2>Converting Data Types</h2>
-<ul>
-<li><code>int()</code> - convert to integer</li>
-<li><code>float()</code> - convert to floating point number</li>
-<li><code>str()</code> - convert to string</li>
-</ul>
-<aside class="notes">
-<pre><code>&gt;&gt;&gt; int(3.14)
-&gt;&gt;&gt; float(3)
-&gt;&gt;&gt; str(3)</code></pre>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="lists" class="slide level2 center" data-timing="120">
-<h2>Lists</h2>
-<ul>
-<li>Store multiple values in one variable</li>
-<li>Can store different data types</li>
-<li>Use square brackets <code>[]</code></li>
-</ul>
-<aside class="notes">
-<pre><code>&gt;&gt;&gt; x = [1, 2, 3]
-&gt;&gt;&gt; y = ["hello", 3.14, True]</code></pre>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="concatenation" class="slide level2 center" data-timing="60">
-<h2>Concatenation</h2>
-<ul>
-<li>Combine strings using <code>+</code></li>
-<li>Can combine lists!</li>
-</ul>
-<aside class="notes">
-<pre><code>&gt;&gt;&gt; "hello" + "world"
-&gt;&gt;&gt; [1, 2, 3] + [4, 5, 6]</code></pre>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="user-input" class="slide level2 center" data-timing="60">
-<h2>User Input</h2>
-<ul>
-<li><code>input()</code> - get user input</li>
-<li>Always returns a string</li>
-<li>Use <code>int()</code> or <code>float()</code> to convert</li>
-</ul>
-<aside class="notes">
-<pre><code>&gt;&gt;&gt; x = input("Enter a number: ")
-&gt;&gt;&gt; x
-&gt;&gt;&gt; type(x)
-&gt;&gt;&gt; x = int(x)
-&gt;&gt;&gt; type(x)</code></pre>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="pizza" class="slide level2 center" data-timing="600">
-<h2>Pizza!</h2>
-<p>Suppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.</p>
-<p>Write a Python program following your algorithm!</p>
-</section>
-<section id="in-class-exercise-2" class="slide level2 center" data-timing="0">
-<h2>In-Class Exercise 2</h2>
-<ol type="1">
-<li><p>Write a program that stores the value <code>18</code> in a variable named <code>Age</code>, and displays <code>My age is</code> followed by the value in <code>Age</code>. To do this, place both items inside the parentheses for <code>print()</code> but separate them with a comma.</p></li>
-<li><p>Add more code to display what happens when you have a birthday (assign the value <code>19</code> to the same variable <code>Age</code>) and display the age again. Run the code so you can see both lines of output.</p></li>
-</ol>
-<ul>
-<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/5/section/11">zyBook ICE 2</a></li>
-</ul>
-<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a><span class="co">"""</span></span>
-<span id="cb13-2"><a></a><span class="co">Whispers in the code,</span></span>
-<span id="cb13-3"><a></a><span class="co">Python ignores, doesn’t care,</span></span>
-<span id="cb13-4"><a></a><span class="co">Yet they light the path.</span></span>
-<span id="cb13-5"><a></a><span class="co">"""</span></span>
-<span id="cb13-6"><a></a><span class="kw">def</span> main():</span>
-<span id="cb13-7"><a></a>    <span class="co"># Write your code here</span></span>
-<span id="cb13-8"><a></a></span>
-<span id="cb13-9"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="in-class-exercise-3" class="slide level2 center" data-timing="0">
-<h2>In-Class Exercise 3</h2>
-<ol type="1">
-<li><p>Copy the code from ICE 2 to the box below. Next, replace the assignment statement <code>Age = 19</code> with <code>Age = Age + 1</code> to make the code more versatile. (This way, Age could have any value and it would still be increased by one.) Note that the expression <code>Age + 1</code> will be evaluated as 19 before that value is assigned to <code>Age</code>. Run the program again to verify that the result is still the same as before.</p></li>
-<li><p>Now replace that statement with <code>Age += 1</code>. The only practical difference in this line is that it’s shorter. Verify that the program still works.</p></li>
-</ol>
-<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a><span class="kw">def</span> main():</span>
-<span id="cb14-2"><a></a>    <span class="co"># Write your code here</span></span>
-<span id="cb14-3"><a></a></span>
-<span id="cb14-4"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="in-class-exercise-5" class="slide level2 center" data-timing="0">
-<h2>In-Class Exercise 5</h2>
-<ul>
-<li>Write a program to perform floor (integer) division of two numbers provided by a user.</li>
-</ul>
-<ol type="1">
-<li>To accomplish this, first you should request a number from the user and store it in a variable; be sure to also convert it to an integer.</li>
-<li>Do the same to request a smaller number and store it in a second variable.</li>
-<li>Perform floor division (divide the large number by the small number) and store the result in a third variable.</li>
-<li>Then calculate the remainder of dividing the large number by the small number and store it in a fourth variable.</li>
-<li>Display the results of the division using all four variables, as seen below.</li>
-</ol>
-</section>
-<section id="in-class-exercise" class="slide level2 center" data-timing="0">
-<h2>In-Class Exercise</h2>
-<p><code>3**2 + 4 * -2 + (6 + 5) * (2 + 3)</code></p>
+</div>
 </section>
 <section id="reminders" class="slide level2 center">
 <h2>Reminders</h2>
 <ul>
-<li>Bring your reference cards to class daily</li>
-<li>Erase whiteboards and clean up your area</li>
-<li>WPS2 is due 02SEP</li>
+<li>Clear whiteboards and desks</li>
+<li>Lower monitors; leave nothing behind</li>
+<li>Practice!</li>
 </ul>
 
 <div class="quarto-auto-generated-content">
@@ -900,7 +409,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"61e2924c8ea7aaef","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"6a15f8a7f4d3e98d","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner

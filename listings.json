@@ -11,7 +11,11 @@
       "/lessons/07-iteration.html",
       "/lessons/08-lists-strings.html",
       "/lessons/09-file-io.html",
-      "/lessons/10-modules.html"
+      "/lessons/10-modules.html",
+      "/lessons/13-conditionals.html",
+      "/lessons/14-conditionals-2.html",
+      "/lessons/15-iteration-while.html",
+      "/lessons/16-functions.html"
     ]
   }
 ]
