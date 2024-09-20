@@ -1257,35 +1257,189 @@
     "href": "lessons/13-conditionals.html#announcements",
     "title": "Conditional Statements 1",
     "section": "Announcements",
-    "text": "Announcements\n\nWPS due on Sunday!"
+    "text": "Announcements\n\nWPS 5 due 29SEP\nRobotics Lab starts on 04OCT\n\nBluefruit?"
   },
   {
     "objectID": "lessons/13-conditionals.html#discussion",
     "href": "lessons/13-conditionals.html#discussion",
     "title": "Conditional Statements 1",
     "section": "Discussion!",
-    "text": "Discussion!"
+    "text": "Discussion!\n\nThayer Award\narrr - Pirate module!\nWhat is Python\nThe Better Boarding Method Airlines Won’t Use"
   },
   {
     "objectID": "lessons/13-conditionals.html#lesson-objectives",
     "href": "lessons/13-conditionals.html#lesson-objectives",
     "title": "Conditional Statements 1",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives"
+    "text": "Lesson Objectives\n\nEvaluate expressions with Boolean values and logical operators\nTrace through programs that use conditional statements\nWrite programs that include simple conditional statements"
   },
   {
-    "objectID": "lessons/13-conditionals.html#check-on-learning",
-    "href": "lessons/13-conditionals.html#check-on-learning",
+    "objectID": "lessons/13-conditionals.html#which-of-the-following-is-a-boolean-value-in-python",
+    "href": "lessons/13-conditionals.html#which-of-the-following-is-a-boolean-value-in-python",
     "title": "Conditional Statements 1",
-    "section": "Check on Learning",
-    "text": "Check on Learning"
+    "section": "Which of the following is a Boolean value in Python?",
+    "text": "Which of the following is a Boolean value in Python?\n\nTrue\n“True”\ntrue\n“true”"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#a-boolean-expression",
+    "href": "lessons/13-conditionals.html#a-boolean-expression",
+    "title": "Conditional Statements 1",
+    "section": "A Boolean expression…",
+    "text": "A Boolean expression…\n\n…always returns an integer\n…evaluates to either True or False\n…checks if two variables are strings\n…must contain an arithmetic operation"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#which-of-the-following-correctly-checks-if-a-number-is-either-5-or-6",
+    "href": "lessons/13-conditionals.html#which-of-the-following-correctly-checks-if-a-number-is-either-5-or-6",
+    "title": "Conditional Statements 1",
+    "section": "Which of the following correctly checks if a number is either 5 or 6?",
+    "text": "Which of the following correctly checks if a number is either 5 or 6?\n\nnumber == 5 or 6\nnumber == (5 or 6)\nnumber == 5 or number == 6\nnumber == 5 and number == 6"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#which-operator-checks-if-two-values-are-equal",
+    "href": "lessons/13-conditionals.html#which-operator-checks-if-two-values-are-equal",
+    "title": "Conditional Statements 1",
+    "section": "Which operator checks if two values are equal?",
+    "text": "Which operator checks if two values are equal?\n\n=\n==\n=&gt;\n=&lt;"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#which-of-the-following-is-not-a-logical-operator",
+    "href": "lessons/13-conditionals.html#which-of-the-following-is-not-a-logical-operator",
+    "title": "Conditional Statements 1",
+    "section": "Which of the following is not a logical operator?",
+    "text": "Which of the following is not a logical operator?\n\nand\nor\nnot\nyes"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#evaluate-the-expression-true-and-false",
+    "href": "lessons/13-conditionals.html#evaluate-the-expression-true-and-false",
+    "title": "Conditional Statements 1",
+    "section": "Evaluate the expression: True and False",
+    "text": "Evaluate the expression: True and False\n\nTrue\nFalse\nError\nNone of the above"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#how-should-you-properly-structure-the-condition-to-check-if-a-variable-x-is-greater-than-10-and-less-than-20",
+    "href": "lessons/13-conditionals.html#how-should-you-properly-structure-the-condition-to-check-if-a-variable-x-is-greater-than-10-and-less-than-20",
+    "title": "Conditional Statements 1",
+    "section": "How should you properly structure the condition to check if a variable x is greater than 10 and less than 20?",
+    "text": "How should you properly structure the condition to check if a variable x is greater than 10 and less than 20?\n\nx &gt; 10 and &lt; 20\nx &gt; 10 or x &lt; 20\nx &gt; 10 and x &lt; 20\nx == 10 or x == 20"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#what-will-not-true-or-false-evaluate-to",
+    "href": "lessons/13-conditionals.html#what-will-not-true-or-false-evaluate-to",
+    "title": "Conditional Statements 1",
+    "section": "What will not (True or False) evaluate to?",
+    "text": "What will not (True or False) evaluate to?\n\nTrue\nFalse\nError\nNone of the above"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#what-is-the-result-of-5-3-or-4-4",
+    "href": "lessons/13-conditionals.html#what-is-the-result-of-5-3-or-4-4",
+    "title": "Conditional Statements 1",
+    "section": "What is the result of 5 < 3 or 4 == 4?",
+    "text": "What is the result of 5 &lt; 3 or 4 == 4?\n\nTrue\nFalse\nError\nNone of the above"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#algorithm-pizza-shop",
+    "href": "lessons/13-conditionals.html#algorithm-pizza-shop",
+    "title": "Conditional Statements 1",
+    "section": "Algorithm: Pizza Shop",
+    "text": "Algorithm: Pizza Shop\nOur pizzeria is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, and soda. A slice of pizza still costs $2.50, but you can get fries for $1.25 and onion rings for $1.50. A soda costs 99 cents.\n\nWrite the algorithm for a program that firsts asks the user for the number of times they want to order. For each iteration, the program should prompt the user on whether they want pizza, onion rings, or soda, and the associated quantity. At the end, your program should display the total plus the 8.25% NY State sales tax.\nNote: Clearly identify the sequence, selection, and iteration in your algorithm."
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#boolean-values",
+    "href": "lessons/13-conditionals.html#boolean-values",
+    "title": "Conditional Statements 1",
+    "section": "Boolean Values",
+    "text": "Boolean Values\n\nTrue or False\nis_it_raining = True\nam_i_hungry = False\ncadet_is_sleepy = True\ntype(cadet_is_sleepy)\n\nPython Console"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#comparison-operators",
+    "href": "lessons/13-conditionals.html#comparison-operators",
+    "title": "Conditional Statements 1",
+    "section": "Comparison Operators",
+    "text": "Comparison Operators\n\nx &lt; y - less than\nx &lt;= y - less than or equal to\nx &gt; y - greater than\nx &gt;= y - greater than or equal to\nx == y - equal to\nx != y - not equal to"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#practice-with-comparison-operators",
+    "href": "lessons/13-conditionals.html#practice-with-comparison-operators",
+    "title": "Conditional Statements 1",
+    "section": "Practice with Comparison Operators",
+    "text": "Practice with Comparison Operators\n\nx = 5; y = 10; z = 8\nx &lt; y\nx &lt;= y\nx &gt; y\ny == 10\nz != 8\n5 &lt;= y &lt;= 10\n\nPython Console"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#logical-operators",
+    "href": "lessons/13-conditionals.html#logical-operators",
+    "title": "Conditional Statements 1",
+    "section": "Logical Operators",
+    "text": "Logical Operators\n\nand - both conditions must be True\nor - at least one condition must be True\nnot - negates the condition"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#practice-with-logical-operators",
+    "href": "lessons/13-conditionals.html#practice-with-logical-operators",
+    "title": "Conditional Statements 1",
+    "section": "Practice with Logical Operators",
+    "text": "Practice with Logical Operators\n\nAge = 43, NeedsHaircut = True, Num = 7\nAge &gt; 40 and NeedsHaircut\nAge &lt; 40 or NeedsHaircut\nnot NeedsHaircut\nNum &gt; 5 and Num &lt; 10\nnot NeedsHaircut or Num &gt; 5\nNeedsHaircut or not Num &lt; 5\n\nPython Console"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#precedence-of-operators",
+    "href": "lessons/13-conditionals.html#precedence-of-operators",
+    "title": "Conditional Statements 1",
+    "section": "Precedence of Operators",
+    "text": "Precedence of Operators\n\nSee reference card!"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#more-practice",
+    "href": "lessons/13-conditionals.html#more-practice",
+    "title": "Conditional Statements 1",
+    "section": "More Practice",
+    "text": "More Practice\n\nx = 14 and y = 15\nx &lt; 15 and y &gt; 10\nx != y and (2 &lt; x &lt; 20)\nnot(y &lt; 0) and not(x &gt; 15)\nnot(x != y)\nx == 15 or y &lt; 15\nx == y or x &gt; 10\n\nPython Console"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#membership-operator-in",
+    "href": "lessons/13-conditionals.html#membership-operator-in",
+    "title": "Conditional Statements 1",
+    "section": "Membership Operator in",
+    "text": "Membership Operator in\n\nCheck membership in a sequence\nFor strings, checks if a substring is present\n\n'a' in 'California'\n'ork' in 'New York'\n\nFor lists, checks if an element is present\n\n3 in [1, 2, 3]\n5 in [1, 2, 3]\n\nnot in to check the opposite\n\n2 not in [1, 2, 3]\n'a' not in 'California'\n\n\nPython Console"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#if-statements",
+    "href": "lessons/13-conditionals.html#if-statements",
+    "title": "Conditional Statements 1",
+    "section": "if Statements",
+    "text": "if Statements\n\nExecute a block of code sometimes\n\nif is_it_raining:\n    print(\"Bring an umbrella!\")\n\nif am_i_hungry:\n    print(\"Eat a granola bar!\")\n\nprint(\"Go to class either way.\")"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#if-else-statements",
+    "href": "lessons/13-conditionals.html#if-else-statements",
+    "title": "Conditional Statements 1",
+    "section": "if-else Statements",
+    "text": "if-else Statements\n\nExecute one block of code if a condition is True\nOtherwise, execute another block\n\nif cadet_is_sleepy:\n    print(\"Go to bed!\")\nelse:\n    print(\"Go to class!\")"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#in-class-exercise-1",
+    "href": "lessons/13-conditionals.html#in-class-exercise-1",
+    "title": "Conditional Statements 1",
+    "section": "In-Class Exercise 1",
+    "text": "In-Class Exercise 1\nOur pizzeria is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings and soda. A slice of pizza still costs $2.50, but you can get fries for $1.25 and onion rings for $1.50. A soda costs 99 cents.\nWrite a program that firsts asks the user for the number of times they want to order. For each iteration, the program should prompt the user on whether they want pizza, onion rings, or soda, and the associated quantity. At the end, your program should display the total plus the 8.25% NY State tax."
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#in-class-exercise-2",
+    "href": "lessons/13-conditionals.html#in-class-exercise-2",
+    "title": "Conditional Statements 1",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\nWrite a program that prompts a user to input a number, n. Your program should then generate a list of n random numbers between 1 and 50 (inclusive), and display the list. Lastly, scan through the list and display the number of times a you observe a value that is 25 or less.\nSample input/output:\n\nEnter a number: 4\n[25, 12, 50, 25]\nThere are 3 values that are 25 or less.\n\n\nEnter a number: 6\n[25, 12, 50, 25, 30, 40]\nThere are 4 values that are 25 or less."
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#in-class-exercise-3",
+    "href": "lessons/13-conditionals.html#in-class-exercise-3",
+    "title": "Conditional Statements 1",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\nA substring is a string that occurs directly in another string. However, a subsequence is a string that appears in another string, though the characters need not be contiguous.\nFor example, fragile is not a substring of supercalifragilisticespialidocious but is a subsequence.\nWrite a program that prompts the user for two strings. The program should then output if the first string is or is not a subsequence of the second.\nSample input/output:\n\nEnter the first string: fragile\nEnter another string: supercalifragilisticespialidocious\nfragile is a subsequence of supercalifragilisticespialidocious.\n\n\nEnter the first string: delicious\nEnter another string: supercalifragilisticespialidocious\ndelicious is not a subsequence of supercalifragilisticespialidocious."
   },
   {
     "objectID": "lessons/13-conditionals.html#reminders",
     "href": "lessons/13-conditionals.html#reminders",
     "title": "Conditional Statements 1",
     "section": "Reminders",
-    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice!"
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice more!\nIf still missing Bluefruit, email me!"
   },
   {
     "objectID": "lessons/05-python.html#discussion",

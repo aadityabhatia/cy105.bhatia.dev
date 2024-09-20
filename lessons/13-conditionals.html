@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -343,31 +408,298 @@ CPT Sonny Bhatia
 
   <p class="date">Friday, September 20, 2024</p>
 </section>
-<section id="announcements" class="slide level2 center" data-timing="0">
+<section id="announcements" class="slide level2 center" data-timing="60">
 <h2>Announcements</h2>
 <ul>
-<li>WPS due on Sunday!</li>
+<li>WPS 5 due 29SEP</li>
+<li>Robotics Lab starts on 04OCT
+<ul>
+<li>Bluefruit?</li>
+</ul></li>
 </ul>
-<!-- ![](/images/agenda-block-1.png) -->
-</section>
-<section id="discussion" class="slide level2 center" data-timing="240">
-<h2>Discussion!</h2>
-</section>
-<section id="lesson-objectives" class="slide level2 center">
-<h2>Lesson Objectives</h2>
-</section>
-<section id="check-on-learning" class="slide level2 smaller center" data-timing="300">
-<h2>Check on Learning</h2>
-<div>
 
-</div>
+<img data-src="../images/agenda-block-2.png" class="r-stretch"></section>
+<section id="discussion" class="slide level2 center" data-timing="300">
+<h2>Discussion!</h2>
+<ul>
+<li>Thayer Award</li>
+<li><a href="https://arrr.readthedocs.io/">arrr</a> - Pirate module!</li>
+<li><a href="https://www.youtube.com/watch?v=x7X9w_GIm1s">What is Python</a></li>
+<li><a href="https://www.youtube.com/watch?v=oAHbLRjF0vo">The Better Boarding Method Airlines Won’t Use</a></li>
+</ul>
+</section>
+<section id="lesson-objectives" class="slide level2 center" data-timing="30">
+<h2>Lesson Objectives</h2>
+<ul>
+<li>Evaluate expressions with <strong>Boolean</strong> values and <strong>logical operators</strong></li>
+<li>Trace through programs that use conditional statements</li>
+<li>Write programs that include simple <strong>conditional statements</strong></li>
+</ul>
+</section>
+<section>
+<section id="check-on-learning" class="title-slide slide level1 center" data-timing="300">
+<h1>Check on Learning</h1>
+
+</section>
+<section id="which-of-the-following-is-a-boolean-value-in-python" class="slide level2 center" data-timing="0">
+<h2>Which of the following is a Boolean value in Python?</h2>
+<ol type="A">
+<li>True</li>
+<li>“True”</li>
+<li>true</li>
+<li>“true”</li>
+</ol>
+</section>
+<section id="a-boolean-expression" class="slide level2 center" data-timing="0">
+<h2>A Boolean expression…</h2>
+<ol type="A">
+<li>…always returns an integer</li>
+<li>…evaluates to either True or False</li>
+<li>…checks if two variables are strings</li>
+<li>…must contain an arithmetic operation</li>
+</ol>
+</section>
+<section id="which-of-the-following-correctly-checks-if-a-number-is-either-5-or-6" class="slide level2 center" data-timing="0">
+<h2>Which of the following correctly checks if a number is either <code>5</code> or <code>6</code>?</h2>
+<ol type="A">
+<li><code>number == 5 or 6</code></li>
+<li><code>number == (5 or 6)</code></li>
+<li><code>number == 5 or number == 6</code></li>
+<li><code>number == 5 and number == 6</code></li>
+</ol>
+</section>
+<section id="which-operator-checks-if-two-values-are-equal" class="slide level2 center" data-timing="0">
+<h2>Which operator checks if two values are equal?</h2>
+<ol type="A">
+<li><code>=</code></li>
+<li><code>==</code></li>
+<li><code>=&gt;</code></li>
+<li><code>=&lt;</code></li>
+</ol>
+</section>
+<section id="which-of-the-following-is-not-a-logical-operator" class="slide level2 center" data-timing="0">
+<h2>Which of the following is not a logical operator?</h2>
+<ol type="A">
+<li><code>and</code></li>
+<li><code>or</code></li>
+<li><code>not</code></li>
+<li><code>yes</code></li>
+</ol>
+</section>
+<section id="evaluate-the-expression-true-and-false" class="slide level2 center" data-timing="0">
+<h2>Evaluate the expression: <code>True and False</code></h2>
+<ol type="A">
+<li>True</li>
+<li>False</li>
+<li>Error</li>
+<li>None of the above</li>
+</ol>
+</section>
+<section id="how-should-you-properly-structure-the-condition-to-check-if-a-variable-x-is-greater-than-10-and-less-than-20" class="slide level2 center" data-timing="0">
+<h2>How should you properly structure the condition to check if a variable <code>x</code> is greater than <code>10</code> and less than <code>20</code>?</h2>
+<ol type="A">
+<li><code>x &gt; 10 and &lt; 20</code></li>
+<li><code>x &gt; 10 or x &lt; 20</code></li>
+<li><code>x &gt; 10 and x &lt; 20</code></li>
+<li><code>x == 10 or x == 20</code></li>
+</ol>
+</section>
+<section id="what-will-not-true-or-false-evaluate-to" class="slide level2 center" data-timing="0">
+<h2>What will <code>not (True or False)</code> evaluate to?</h2>
+<ol type="A">
+<li>True</li>
+<li>False</li>
+<li>Error</li>
+<li>None of the above</li>
+</ol>
+</section>
+<section id="what-is-the-result-of-5-3-or-4-4" class="slide level2 center" data-timing="0">
+<h2>What is the result of <code>5 &lt; 3 or 4 == 4</code>?</h2>
+<ol type="A">
+<li>True</li>
+<li>False</li>
+<li>Error</li>
+<li>None of the above</li>
+</ol>
+</section></section>
+<section>
+<section id="conditionals" class="title-slide slide level1 center" data-timing="30">
+<h1>Conditionals</h1>
+
+<img data-src="../images/13/algorithm-building-blocks.png" class="r-stretch"></section>
+<section id="algorithm-pizza-shop" class="slide level2 center" data-timing="300">
+<h2>Algorithm: Pizza Shop</h2>
+<p>Our pizzeria is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, and soda. A slice of pizza still costs $2.50, but you can get fries for $1.25 and onion rings for $1.50. A soda costs 99 cents.</p>
+<ul>
+<li><p>Write the algorithm for a program that firsts asks the user for the number of times they want to order. For each iteration, the program should prompt the user on whether they want pizza, onion rings, or soda, and the associated quantity. At the end, your program should display the total plus the 8.25% NY State sales tax.</p></li>
+<li><p>Note: Clearly identify the sequence, selection, and iteration in your algorithm.</p></li>
+</ul>
+</section>
+<section id="boolean-values" class="slide level2 center">
+<h2>Boolean Values</h2>
+<ul>
+<li><code>True</code> or <code>False</code></li>
+<li><code>is_it_raining = True</code></li>
+<li><code>am_i_hungry = False</code></li>
+<li><code>cadet_is_sleepy = True</code></li>
+<li><code>type(cadet_is_sleepy)</code></li>
+</ul>
+<p><a href="https://pyodide.org/en/stable/console.html">Python Console</a></p>
+</section>
+<section id="comparison-operators" class="slide level2 center">
+<h2>Comparison Operators</h2>
+<ul>
+<li><code>x &lt; y</code> - less than</li>
+<li><code>x &lt;= y</code> - less than or equal to</li>
+<li><code>x &gt; y</code> - greater than</li>
+<li><code>x &gt;= y</code> - greater than or equal to</li>
+<li><code>x == y</code> - equal to</li>
+<li><code>x != y</code> - not equal to</li>
+</ul>
+</section>
+<section id="practice-with-comparison-operators" class="slide level2 center" data-timing="180">
+<h2>Practice with Comparison Operators</h2>
+<ul>
+<li><code>x = 5</code>; <code>y = 10</code>; <code>z = 8</code></li>
+<li><code>x &lt; y</code></li>
+<li><code>x &lt;= y</code></li>
+<li><code>x &gt; y</code></li>
+<li><code>y == 10</code></li>
+<li><code>z != 8</code></li>
+<li><code>5 &lt;= y &lt;= 10</code></li>
+</ul>
+<p><a href="https://pyodide.org/en/stable/console.html">Python Console</a></p>
+</section>
+<section id="logical-operators" class="slide level2 center">
+<h2>Logical Operators</h2>
+<ul>
+<li><code>and</code> - both conditions must be <code>True</code></li>
+<li><code>or</code> - at least one condition must be <code>True</code></li>
+<li><code>not</code> - negates the condition</li>
+</ul>
+</section>
+<section id="practice-with-logical-operators" class="slide level2 center" data-timing="180">
+<h2>Practice with Logical Operators</h2>
+<ul>
+<li><code>Age = 43</code>, <code>NeedsHaircut = True</code>, <code>Num = 7</code></li>
+<li><code>Age &gt; 40 and NeedsHaircut</code></li>
+<li><code>Age &lt; 40 or NeedsHaircut</code></li>
+<li><code>not NeedsHaircut</code></li>
+<li><code>Num &gt; 5 and Num &lt; 10</code></li>
+<li><code>not NeedsHaircut or Num &gt; 5</code></li>
+<li><code>NeedsHaircut or not Num &lt; 5</code></li>
+</ul>
+<p><a href="https://pyodide.org/en/stable/console.html">Python Console</a></p>
+</section>
+<section id="precedence-of-operators" class="slide level2 center">
+<h2>Precedence of Operators</h2>
+<ul>
+<li>See reference card!</li>
+</ul>
+</section>
+<section id="more-practice" class="slide level2 center" data-timing="180">
+<h2>More Practice</h2>
+<ul>
+<li><code>x = 14</code> and <code>y = 15</code></li>
+<li><code>x &lt; 15 and y &gt; 10</code></li>
+<li><code>x != y and (2 &lt; x &lt; 20)</code></li>
+<li><code>not(y &lt; 0) and not(x &gt; 15)</code></li>
+<li><code>not(x != y)</code></li>
+<li><code>x == 15 or y &lt; 15</code></li>
+<li><code>x == y or x &gt; 10</code></li>
+</ul>
+<p><a href="https://pyodide.org/en/stable/console.html">Python Console</a></p>
+</section>
+<section id="membership-operator-in" class="slide level2 center" data-timing="180">
+<h2>Membership Operator <code>in</code></h2>
+<ul>
+<li>Check membership in a sequence</li>
+<li>For strings, checks if a substring is present
+<ul>
+<li><code>'a' in 'California'</code></li>
+<li><code>'ork' in 'New York'</code></li>
+</ul></li>
+<li>For lists, checks if an element is present
+<ul>
+<li><code>3 in [1, 2, 3]</code></li>
+<li><code>5 in [1, 2, 3]</code></li>
+</ul></li>
+<li><code>not in</code> to check the opposite
+<ul>
+<li><code>2 not in [1, 2, 3]</code></li>
+<li><code>'a' not in 'California'</code></li>
+</ul></li>
+</ul>
+<p><a href="https://pyodide.org/en/stable/console.html">Python Console</a></p>
+</section>
+<section id="if-statements" class="slide level2 center">
+<h2><code>if</code> Statements</h2>
+<ul>
+<li>Execute a block of code sometimes</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="cf">if</span> is_it_raining:</span>
+<span id="cb1-2"><a></a>    <span class="bu">print</span>(<span class="st">"Bring an umbrella!"</span>)</span>
+<span id="cb1-3"><a></a></span>
+<span id="cb1-4"><a></a><span class="cf">if</span> am_i_hungry:</span>
+<span id="cb1-5"><a></a>    <span class="bu">print</span>(<span class="st">"Eat a granola bar!"</span>)</span>
+<span id="cb1-6"><a></a></span>
+<span id="cb1-7"><a></a><span class="bu">print</span>(<span class="st">"Go to class either way."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="if-else-statements" class="slide level2 center">
+<h2><code>if-else</code> Statements</h2>
+<ul>
+<li>Execute one block of code if a condition is <code>True</code></li>
+<li>Otherwise, execute another block</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="cf">if</span> cadet_is_sleepy:</span>
+<span id="cb2-2"><a></a>    <span class="bu">print</span>(<span class="st">"Go to bed!"</span>)</span>
+<span id="cb2-3"><a></a><span class="cf">else</span>:</span>
+<span id="cb2-4"><a></a>    <span class="bu">print</span>(<span class="st">"Go to class!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="in-class-exercise-1" class="slide level2 center" data-timing="300">
+<h2>In-Class Exercise 1</h2>
+<p>Our pizzeria is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings and soda. A slice of pizza still costs $2.50, but you can get fries for $1.25 and onion rings for $1.50. A soda costs 99 cents.</p>
+<p><strong>Write a program</strong> that firsts asks the user for the number of times they want to order. For each iteration, the program should prompt the user on whether they want pizza, onion rings, or soda, and the associated quantity. At the end, your program should display the total plus the 8.25% NY State tax.</p>
+</section>
+<section id="in-class-exercise-2" class="slide level2 center" data-timing="300">
+<h2>In-Class Exercise 2</h2>
+<p>Write a program that prompts a user to input a number, <code>n</code>. Your program should then generate a list of <code>n</code> random numbers between <code>1</code> and <code>50</code> (inclusive), and display the list. Lastly, scan through the list and display the number of times a you observe a value that is <code>25</code> or less.</p>
+<p>Sample input/output:</p>
+<blockquote>
+<p>Enter a number: 4</p>
+<p>[25, 12, 50, 25]</p>
+<p>There are 3 values that are 25 or less.</p>
+</blockquote>
+<blockquote>
+<p>Enter a number: 6</p>
+<p>[25, 12, 50, 25, 30, 40]</p>
+<p>There are 4 values that are 25 or less.</p>
+</blockquote>
+</section>
+<section id="in-class-exercise-3" class="slide level2 smaller center" data-timing="300">
+<h2>In-Class Exercise 3</h2>
+<p>A substring is a string that occurs directly in another string. However, a <strong>subsequence</strong> is a string that appears in another string, though the characters <em>need not be contiguous</em>.</p>
+<p>For example, <code>fragile</code> is not a substring of <code>supercalifragilisticespialidocious</code> but is a subsequence.</p>
+<p>Write a program that prompts the user for two strings. The program should then output if the first string is or is not a subsequence of the second.</p>
+<p>Sample input/output:</p>
+<blockquote>
+<p>Enter the first string: fragile</p>
+<p>Enter another string: supercalifragilisticespialidocious</p>
+<p>fragile is a subsequence of supercalifragilisticespialidocious.</p>
+</blockquote>
+<blockquote>
+<p>Enter the first string: delicious</p>
+<p>Enter another string: supercalifragilisticespialidocious</p>
+<p>delicious is not a subsequence of supercalifragilisticespialidocious.</p>
+</blockquote>
 </section>
 <section id="reminders" class="slide level2 center">
 <h2>Reminders</h2>
 <ul>
 <li>Clear whiteboards and desks</li>
 <li>Lower monitors; leave nothing behind</li>
-<li>Practice!</li>
+<li>Practice more!</li>
+<li>If still missing Bluefruit, email me!</li>
 </ul>
 
 <div class="quarto-auto-generated-content">
@@ -375,7 +707,7 @@ CPT Sonny Bhatia
 
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 
@@ -409,7 +741,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"d3a4a931ede06121","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"5bfa3415dc74890c","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
