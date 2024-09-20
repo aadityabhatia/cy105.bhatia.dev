@@ -690,7 +690,7 @@
     "href": "lessons/10-modules.html#discussion",
     "title": "Modules",
     "section": "Discussion!",
-    "text": "Discussion!\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\n\n\nDo you feel that you have enough time to sleep?\nWhat is the most you have been sleep deprived?\nHow bad was it?\nCan you always tell when you are sleep deprived?"
+    "text": "Discussion!"
   },
   {
     "objectID": "lessons/10-modules.html#lesson-objectives",
@@ -700,11 +700,11 @@
     "text": "Lesson Objectives\n\nDescribe a Python module and identify how to access it.\nDescribe the primary intent of the following Python modules and how to use the functions/variables that each module provides.\n\nmath\nrandom\nstatistics\n\nDemonstrate ability to use Python modules."
   },
   {
-    "objectID": "lessons/10-modules.html#anitgravity",
-    "href": "lessons/10-modules.html#anitgravity",
+    "objectID": "lessons/10-modules.html#antigravity",
+    "href": "lessons/10-modules.html#antigravity",
     "title": "Modules",
-    "section": "anitgravity",
-    "text": "anitgravity\n\nxkcd.com/353\n\nmodules give you superpowers!\nHave you seen this before?"
+    "section": "antigravity",
+    "text": "antigravity\n\nxkcd.com/353\n\nmodules give you superpowers!\nHave you seen this before?"
   },
   {
     "objectID": "lessons/10-modules.html#what-is-a-python-module",
@@ -1005,7 +1005,7 @@
     "href": "index.html#how-to-get-better-at-cy105",
     "title": "Computing Fundamentals",
     "section": "How to get better at CY105?",
-    "text": "How to get better at CY105?\n\nComplete zyBook required readings.\nAttempt zyBook practice ICEs going back to the chapter that you do not fully grasp.\nReach out to me.\n\nYour success in this course is directly proportional to the number of in-class exercises (ICEs) that you successfully complete."
+    "text": "How to get better at CY105?\n\nComplete zyBook required readings.\nAttempt zyBook practice ICEs going back to the chapter that you do not fully grasp.\nSeek assistance. Email me or book additional instruction.\n\nYour success in this course is directly proportional to the number of in-class exercises (ICEs) that you successfully complete."
   },
   {
     "objectID": "index.html#book-additional-instruction",
@@ -1054,14 +1054,14 @@
     "href": "lessons/14-conditionals-2.html#announcements",
     "title": "Conditional Statements 2",
     "section": "Announcements",
-    "text": "Announcements\n\nWPS due on Sunday!"
+    "text": "Announcements\n\nWPS 5 due 29SEP\nRobotics Lab starts on 04OCT\n\nBluefruit issues -&gt; email me!"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#discussion",
     "href": "lessons/14-conditionals-2.html#discussion",
     "title": "Conditional Statements 2",
     "section": "Discussion!",
-    "text": "Discussion!"
+    "text": "Discussion!\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\n\n\nDo you feel that you have enough time to sleep?\nWhat is the most you have been sleep deprived?\nHow bad was it?\nCan you always tell when you are sleep deprived?"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#lesson-objectives",
@@ -1082,7 +1082,7 @@
     "href": "lessons/14-conditionals-2.html#reminders",
     "title": "Conditional Statements 2",
     "section": "Reminders",
-    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice!"
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice more!\nIf still missing Bluefruit, email me!"
   },
   {
     "objectID": "lessons/08-lists-strings.html#discussion",
@@ -1229,7 +1229,7 @@
     "href": "lessons/15-iteration-while.html#discussion",
     "title": "Iteration with while loops",
     "section": "Discussion!",
-    "text": "Discussion!"
+    "text": "Discussion!\n\nLinux in 100 seconds\nBash in 100 seconds\nWhat is Linux\nHow Linux is Built"
   },
   {
     "objectID": "lessons/15-iteration-while.html#lesson-objectives",
