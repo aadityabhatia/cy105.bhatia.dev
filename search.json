@@ -998,14 +998,14 @@
     "href": "index.html",
     "title": "Computing Fundamentals",
     "section": "",
-    "text": "CPT Sonny Bhatia\nOffice: Thayer Hall 106\nClass Hours: A1, C1, A2, B2\nAdditional Instruction in TH460: B1, C2 (email beforehand to confirm)\nThis course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
+    "text": "CPT Sonny Bhatia\nOffice: Thayer Hall 106\nClass Hours: A1, C1, A2, B2\nAdditional Instruction in TH460: B1, C2 (email ahead of time to confirm)\nThis course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
   },
   {
     "objectID": "index.html#how-to-get-better-at-cy105",
     "href": "index.html#how-to-get-better-at-cy105",
     "title": "Computing Fundamentals",
     "section": "How to get better at CY105?",
-    "text": "How to get better at CY105?\n\nComplete zyBook required readings.\nAttempt zyBook practice ICEs going back to the chapter that you do not fully grasp.\nReach out to me.\n\nYour success in this course is directly proportional to the number of in-class exercises (ICEs) that you successfully complete."
+    "text": "How to get better at CY105?\n\nComplete zyBook required readings.\nAttempt zyBook practice ICEs going back to the chapter that you do not fully grasp.\nSeek assistance. Email me or book additional instruction.\n\nYour success in this course is directly proportional to the number of in-class exercises (ICEs) that you successfully complete."
   },
   {
     "objectID": "index.html#book-additional-instruction",
@@ -1026,7 +1026,7 @@
     "href": "index.html#lessons",
     "title": "Computing Fundamentals",
     "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\nCPT Sonny Bhatia\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\nCPT Sonny Bhatia\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\nCPT Sonny Bhatia\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\nCPT Sonny Bhatia\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\nCPT Sonny Bhatia\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\nCPT Sonny Bhatia\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIteration pt 1\n\n\nDefinite iteration using for loops\n\n\n\nCPT Sonny Bhatia\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\nCPT Sonny Bhatia\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading and writing to files\n\n\n\nCPT Sonny Bhatia\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\nCPT Sonny Bhatia\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\nCPT Sonny Bhatia\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and more decisions\n\n\n\nCPT Sonny Bhatia\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIteration with while loops\n\n\nRepeating your code indefinitely\n\n\n\nCPT Sonny Bhatia\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\nCPT Sonny Bhatia\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIteration pt 1\n\n\nDefinite iteration using for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIteration with while loops\n\n\nRepeating your code indefinitely\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\nCPT Sonny Bhatia\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#course-objectives",
@@ -1047,42 +1047,119 @@
     "href": "index.html#random-interesting-material",
     "title": "Computing Fundamentals",
     "section": "Random, Interesting Material",
-    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python\n\n\n\nCyber\n\nBuilding a home lab\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nThe Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
+    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python ### Cyber\nBuilding a home lab\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#announcements",
     "href": "lessons/14-conditionals-2.html#announcements",
     "title": "Conditional Statements 2",
     "section": "Announcements",
-    "text": "Announcements\n\nWPS 5 due 29SEP\nRobotics Lab starts on 04OCT\n\nBluefruit issues -&gt; email me!"
+    "text": "Announcements\n\nWPR3 grades are out!\nWPS 5 due 29SEP\nRobotics Lab starts on 04OCT\n\nIf still missing Bluefruit, email me!"
   },
   {
-    "objectID": "lessons/14-conditionals-2.html#discussion",
-    "href": "lessons/14-conditionals-2.html#discussion",
+    "objectID": "lessons/14-conditionals-2.html#are-you-sleeping-enough",
+    "href": "lessons/14-conditionals-2.html#are-you-sleeping-enough",
     "title": "Conditional Statements 2",
-    "section": "Discussion!",
-    "text": "Discussion!\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\n\n\nDo you feel that you have enough time to sleep?\nWhat is the most you have been sleep deprived?\nHow bad was it?\nCan you always tell when you are sleep deprived?"
+    "section": "Are you sleeping enough?",
+    "text": "Are you sleeping enough?\n\n\n\n\n\n\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\n\n\nDo you feel that you have enough time to sleep?\nWhat is the most you have been sleep deprived?\nHow bad was it?\nCan you always tell when you are sleep deprived?"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#lesson-objectives",
     "href": "lessons/14-conditionals-2.html#lesson-objectives",
     "title": "Conditional Statements 2",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives"
+    "text": "Lesson Objectives\n\nTrace programs that include chained and nested conditional statements \nWrite programs that employ chained and nested conditional statements"
   },
   {
-    "objectID": "lessons/14-conditionals-2.html#check-on-learning",
-    "href": "lessons/14-conditionals-2.html#check-on-learning",
+    "objectID": "lessons/14-conditionals-2.html#pizza-shop",
+    "href": "lessons/14-conditionals-2.html#pizza-shop",
     "title": "Conditional Statements 2",
-    "section": "Check on Learning",
-    "text": "Check on Learning"
+    "section": "Pizza Shop",
+    "text": "Pizza Shop\n\n\n\n\n\n\nNotebook\nCode Tracing\n\n\n\n\n\n\n\nflowchart LR\n    choice[\"user input (choice)\"]\n    pizza{choice == 'pizza'}\n    pizza_prep['Pizza will cost $2.50']\n    soda{choice == 'soda'}\n    soda_prep['Soda will cost $1.00']\n    onion{choice == 'onion rings'}\n    onion_prep['Onion rings will cost $1.50']\n    fries{choice == 'fries'}\n    fries_prep['Fries will cost $1.00']\n    invalid['Invalid option!']\n\n    choice --&gt; pizza\n    pizza -- True --&gt; pizza_prep --&gt; soda\n    soda -- True --&gt; soda_prep --&gt; onion\n    onion -- True --&gt; onion_prep --&gt; fries\n    fries -- True --&gt; fries_prep\n    pizza -- False --&gt; soda -- False --&gt; onion -- False --&gt; fries -- False --&gt; invalid"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#section",
+    "href": "lessons/14-conditionals-2.html#section",
+    "title": "Conditional Statements 2",
+    "section": "",
+    "text": "Nested Conditionals\ndef pass_planner(distance, flying):\n    if distance &lt;= 250:\n        print(\"You do not need a pass!\")\n        if flying:\n            print(\"Consider driving!\")\n        else:\n            print(\"Enjoy the drive!\")\n    else:\n        print(\"Get your DA31 signed!\")\n        if flying:\n            print(\"Print your itinerary!\")\n        else:\n            print(\"Get your vehicle inspected!\")\n\npass_planner(150, True)\npass_planner(150, False)\npass_planner(500, True)\npass_planner(500, False)\nNotebook\nCode Tracing\n\n\n\n\n\n\nflowchart TD\n    distance{staying within 250 miles?}\n    airplane{Are you flying?}\n    airplane2{Are you flying?}\n    pass[You do not need a pass!]\n    da31[Get your DA31 signed!]\n    itinerary[Print your itinerary!]\n    vehicle[Get your vehicle inspected!]\n    considerdriving[Consider driving!]\n    enjoy[Enjoy the drive!]\n\n    distance -- True --&gt; pass --&gt; airplane\n    airplane -- True --&gt; considerdriving\n    airplane -- False --&gt; enjoy\n    distance -- False --&gt; da31 --&gt; airplane2\n    airplane2 -- True --&gt; itinerary\n    airplane2 -- False --&gt; vehicle"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#nested-conditional-code-tracing",
+    "href": "lessons/14-conditionals-2.html#nested-conditional-code-tracing",
+    "title": "Conditional Statements 2",
+    "section": "Nested Conditional Code Tracing",
+    "text": "Nested Conditional Code Tracing\n\n\n\n\n\n\nNotebook\nCode Tracing"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#section-1",
+    "href": "lessons/14-conditionals-2.html#section-1",
+    "title": "Conditional Statements 2",
+    "section": "",
+    "text": "Chained Conditionals\n\nMany, many possibilities\nEach condition is checked in order\nIf one is true, the rest are skipped\nif ➔ elif ➔ elif ➔ elif ➔ else\nThat last else catches everything!\n\nif next_lesson == 'lecture':\n    print(\"Do the assigned reading!\")\nelif next_lesson == 'lab':\n    print(\"Bring Bluefruit and eye protection!\")\nelif next_lesson == 'WPR':\n    print(\"Study and practice programming!\")\nelse:\n    print(\"Wander around aimlessly!\")\n\n\n\n\n\n\nflowchart TD\n    lecture{next_lesson == 'lecture'}\n    lectureprep[\"Do the assigned reading!\"]\n    labprep[\"Bring Bluefruit and eye protection!\"]\n    lab{next_lesson == 'lab'}\n    WPR{next_lesson == 'WPR'}\n    WPRprep[\"Study and practice programming!\"]\n    seekguidance[\"Wander around aimlessly!\"]\n\n    lecture -- True --&gt; lectureprep\n    lab -- True --&gt; labprep\n    WPR -- True --&gt; WPRprep\n    lecture -- False --&gt; lab -- False --&gt; WPR -- False --&gt; seekguidance"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#in-class-exercise-1",
+    "href": "lessons/14-conditionals-2.html#in-class-exercise-1",
+    "title": "Conditional Statements 2",
+    "section": "In-Class Exercise 1",
+    "text": "In-Class Exercise 1\nOur pizza shop is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, chicken sandwiches and soda.\n\nA slice of pizza still costs 2.50,\nbut you can get fries for 1.25\nand onion rings for 1.50.\nA soda costs 99 cents.\n\nModify the given program so that\n\nif the user enters something not listed above, print “invalid option!”\nOtherwise prompt for the quantity, add up the cost of the items and display the total plus the 8.5% NY State tax."
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#keeping-it-simple",
+    "href": "lessons/14-conditionals-2.html#keeping-it-simple",
+    "title": "Conditional Statements 2",
+    "section": "Keeping it simple",
+    "text": "Keeping it simple\n\nWhat is the difference between the following two?\n\n\n\nif not (age &gt;= 17):\n    print(\"Too young to drive!\")\n\nif age &lt; 17:\n    print(\"Too young to drive!\")"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#de-morgans-laws",
+    "href": "lessons/14-conditionals-2.html#de-morgans-laws",
+    "title": "Conditional Statements 2",
+    "section": "De Morgan’s Laws",
+    "text": "De Morgan’s Laws\n\nnot (A and B) is the same as not A or not B\nnot (A or B) is the same as not A and not B\n\nif not (sword_charge &gt;= 0.90 and shield_energy &gt;= 100):\n    print(\"Your attack has no effect. The dragon fries you to a crisp!\")\nelse:\n    print(\"The dragon crumples in a heap. You defeated the dragon!\")\n\n\nif sword_charge &lt; 0.90 or shield_energy &lt; 100:\n    print(\"Your attack has no effect. The dragon fries you to a crisp!\")\nelse:\n    print(\"The dragon crumples in a heap. You defeated the dragon!\")"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#keeping-it-really-simple",
+    "href": "lessons/14-conditionals-2.html#keeping-it-really-simple",
+    "title": "Conditional Statements 2",
+    "section": "Keeping it really simple",
+    "text": "Keeping it really simple\n# less readable and more error-prone\nif height &gt;= 48:\n    print(\"You can ride the roller coaster!\")\nelif height &gt;= 36 and height &lt; 48:                # could height be above 48?\n    print(\"Need adult supervision!\")\nelif height &lt; 36:                                 # could height be above 36?\n    print(\"Sorry, you're too short!\")\n\n# cleaner, more readable, best practice\nif height &gt;= 48:\n    print(\"You can ride the roller coaster!\")\nelif height &gt;= 36:                            # height is definitely below 48\n    print(\"Need adult supervision!\")\nelse:                                        # same results but more readable\n    print(\"Sorry, you're too short!\")"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#type-of-conditional-statements",
+    "href": "lessons/14-conditionals-2.html#type-of-conditional-statements",
+    "title": "Conditional Statements 2",
+    "section": "Type of Conditional Statements",
+    "text": "Type of Conditional Statements"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#in-class-exercise-2",
+    "href": "lessons/14-conditionals-2.html#in-class-exercise-2",
+    "title": "Conditional Statements 2",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\nModify the Pizza Shop program to also prompt the customer on whether they are a student.\n\nIf the customer responds “Y” for yes, they should receive a 10% discount on the entire order.\nOtherwise, they pay the full price."
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#in-class-exercise-3",
+    "href": "lessons/14-conditionals-2.html#in-class-exercise-3",
+    "title": "Conditional Statements 2",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\nImplement a program that prompts the user to enter a numeric grade (from 0 … 100).\n\nBased on the score, display the corresponding letter grade based on the following criteria.\n\nA when &gt;= 90\nB when [80-90)\nC when [70-80)\nD when [65-70)\nF when &lt; 65\n\nYou must use an else statement."
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#in-class-exercise-4",
+    "href": "lessons/14-conditionals-2.html#in-class-exercise-4",
+    "title": "Conditional Statements 2",
+    "section": "In-Class Exercise 4",
+    "text": "In-Class Exercise 4\nWrite a program that determines if an inputted year is a leap year.\n\nDetermine if the year is a leap year using the following criteria:\n\nIs evenly divisible by 4 and not evenly divisible by 100\nIs evenly divisible by 400\n\nDisplay “Leap Year” or “Not a leap year” as appropriate."
   },
   {
     "objectID": "lessons/14-conditionals-2.html#reminders",
     "href": "lessons/14-conditionals-2.html#reminders",
     "title": "Conditional Statements 2",
     "section": "Reminders",
-    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice more!\nIf still missing Bluefruit, email me!"
+    "text": "Reminders\n\n\nif whiteboards_have_text:\n    erase('whiteboards')\n\nif monitors_are_up:\n    lower('monitors')\n\nif still_missing_bluefruit:\n    email('your instructor')\n\nread('next_chapter')\npractice('zyBook problems')\n\nNext Lesson\n\nIndefinite iteration using while loops"
   },
   {
     "objectID": "lessons/08-lists-strings.html#discussion",
@@ -1222,14 +1299,28 @@
     "href": "lessons/15-iteration-while.html#announcements",
     "title": "Iteration with while loops",
     "section": "Announcements",
-    "text": "Announcements\n\nWPS due on Sunday!"
+    "text": "Announcements\n\nWPS 5 due 29SEP\nRobotics Lab starts on 04OCT\n\nIf still missing Bluefruit, email me!"
   },
   {
     "objectID": "lessons/15-iteration-while.html#discussion",
     "href": "lessons/15-iteration-while.html#discussion",
     "title": "Iteration with while loops",
     "section": "Discussion!",
-    "text": "Discussion!\n\nLinux in 100 seconds\nBash in 100 seconds\nWhat is Linux\nHow Linux is Built"
+    "text": "Discussion!\n\nInteractive Python Notebooks!\n\nMarimo\nJupyter\nGoogle Colab\nKaggle"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#announcements-1",
+    "href": "lessons/15-iteration-while.html#announcements-1",
+    "title": "Iteration with while loops",
+    "section": "Announcements",
+    "text": "Announcements\n\nWPS due Sunday!"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#discussion-1",
+    "href": "lessons/15-iteration-while.html#discussion-1",
+    "title": "Iteration with while loops",
+    "section": "Discussion!",
+    "text": "Discussion!"
   },
   {
     "objectID": "lessons/15-iteration-while.html#lesson-objectives",
@@ -1239,18 +1330,32 @@
     "text": "Lesson Objectives"
   },
   {
-    "objectID": "lessons/15-iteration-while.html#check-on-learning",
-    "href": "lessons/15-iteration-while.html#check-on-learning",
+    "objectID": "lessons/15-iteration-while.html#in-class-exercise-1",
+    "href": "lessons/15-iteration-while.html#in-class-exercise-1",
     "title": "Iteration with while loops",
-    "section": "Check on Learning",
-    "text": "Check on Learning"
+    "section": "In-Class Exercise 1",
+    "text": "In-Class Exercise 1"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#in-class-exercise-2",
+    "href": "lessons/15-iteration-while.html#in-class-exercise-2",
+    "title": "Iteration with while loops",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#in-class-exercise-3",
+    "href": "lessons/15-iteration-while.html#in-class-exercise-3",
+    "title": "Iteration with while loops",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3"
   },
   {
     "objectID": "lessons/15-iteration-while.html#reminders",
     "href": "lessons/15-iteration-while.html#reminders",
     "title": "Iteration with while loops",
     "section": "Reminders",
-    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice!"
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice more!"
   },
   {
     "objectID": "lessons/13-conditionals.html#announcements",
@@ -1369,28 +1474,14 @@
     "href": "lessons/13-conditionals.html#logical-operators",
     "title": "Conditional Statements 1",
     "section": "Logical Operators",
-    "text": "Logical Operators\n\nand - both conditions must be True\nor - at least one condition must be True\nnot - negates the condition"
+    "text": "Logical Operators\n\nand - both conditions must be True\nor - at least one condition must be True\nnot - negates the condition\n\nSee the reference card for precedence of operators!"
   },
   {
     "objectID": "lessons/13-conditionals.html#practice-with-logical-operators",
     "href": "lessons/13-conditionals.html#practice-with-logical-operators",
     "title": "Conditional Statements 1",
     "section": "Practice with Logical Operators",
-    "text": "Practice with Logical Operators\n\nAge = 43, NeedsHaircut = True, Num = 7\nAge &gt; 40 and NeedsHaircut\nAge &lt; 40 or NeedsHaircut\nnot NeedsHaircut\nNum &gt; 5 and Num &lt; 10\nnot NeedsHaircut or Num &gt; 5\nNeedsHaircut or not Num &lt; 5\n\nPython Console"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#precedence-of-operators",
-    "href": "lessons/13-conditionals.html#precedence-of-operators",
-    "title": "Conditional Statements 1",
-    "section": "Precedence of Operators",
-    "text": "Precedence of Operators\n\nSee reference card!"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#more-practice",
-    "href": "lessons/13-conditionals.html#more-practice",
-    "title": "Conditional Statements 1",
-    "section": "More Practice",
-    "text": "More Practice\n\nx = 14 and y = 15\nx &lt; 15 and y &gt; 10\nx != y and (2 &lt; x &lt; 20)\nnot(y &lt; 0) and not(x &gt; 15)\nnot(x != y)\nx == 15 or y &lt; 15\nx == y or x &gt; 10\n\nPython Console"
+    "text": "Practice with Logical Operators\n\n\n\nx = 42; y = 15; z = True\nx &gt; 40 and z\nx &lt; 40 or z\nnot z\ny &gt; 5 and y &lt; 10\nnot z or y &gt; 5\nz or not y &lt; 5\n\n\n\nx &lt; 15 and y &gt; 10\nx != y and (2 &lt; x &lt; 20)\nnot(y &lt; 0) and not(x &gt; 15)\nnot(x != y)\nx == 15 or y &lt; 15\nx == y and z\nx == y or z\n\n\nPython Console"
   },
   {
     "objectID": "lessons/13-conditionals.html#membership-operator-in",
@@ -1446,7 +1537,7 @@
     "href": "lessons/05-python.html#discussion",
     "title": "Python Basics",
     "section": "Discussion!",
-    "text": "Discussion!\n\nFlipper Zero\nMeanwhile, in Canada…"
+    "text": "Discussion!\n\nFlipper Zero\n\nMeanwhile, in Canada…"
   },
   {
     "objectID": "lessons/05-python.html#lesson-objectives",
@@ -1747,14 +1838,14 @@
     "href": "lessons/16-functions.html#announcements",
     "title": "Writing Functions",
     "section": "Announcements",
-    "text": "Announcements\n\nWPS due on Sunday!"
+    "text": "Announcements\n\nWPS due Sunday!"
   },
   {
     "objectID": "lessons/16-functions.html#discussion",
     "href": "lessons/16-functions.html#discussion",
     "title": "Writing Functions",
     "section": "Discussion!",
-    "text": "Discussion!"
+    "text": "Discussion!\n\nLinux in 100 seconds\nBash in 100 seconds\nWhat is Linux\nHow Linux is Built"
   },
   {
     "objectID": "lessons/16-functions.html#lesson-objectives",
@@ -1764,17 +1855,31 @@
     "text": "Lesson Objectives"
   },
   {
-    "objectID": "lessons/16-functions.html#check-on-learning",
-    "href": "lessons/16-functions.html#check-on-learning",
+    "objectID": "lessons/16-functions.html#in-class-exercise-1",
+    "href": "lessons/16-functions.html#in-class-exercise-1",
     "title": "Writing Functions",
-    "section": "Check on Learning",
-    "text": "Check on Learning"
+    "section": "In-Class Exercise 1",
+    "text": "In-Class Exercise 1"
+  },
+  {
+    "objectID": "lessons/16-functions.html#in-class-exercise-2",
+    "href": "lessons/16-functions.html#in-class-exercise-2",
+    "title": "Writing Functions",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2"
+  },
+  {
+    "objectID": "lessons/16-functions.html#in-class-exercise-3",
+    "href": "lessons/16-functions.html#in-class-exercise-3",
+    "title": "Writing Functions",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3"
   },
   {
     "objectID": "lessons/16-functions.html#reminders",
     "href": "lessons/16-functions.html#reminders",
     "title": "Writing Functions",
     "section": "Reminders",
-    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice!"
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice more!"
   }
 ]

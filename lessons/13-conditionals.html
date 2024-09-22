@@ -7,9 +7,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.55">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-79bb3942e891885f9f7af119cd221462.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.11">
 
   <meta name="author" content="CPT Sonny Bhatia">
   <title>CY105 – Conditional Statements 1</title>
@@ -96,7 +95,8 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-d8ec3bf3d63248d75447a4d52ccc54a0.css">
+  <link rel="stylesheet" href="../slides.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -395,8 +395,9 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../images/13/13.webp" data-background-opacity="0.2" data-background-size="cover" class="quarto-title-block center">
+<section id="title-slide" data-background-image="../images/13/13.webp" data-background-opacity="0.3" class="quarto-title-block center">
   <h1 class="title">Conditional Statements 1</h1>
+  <p class="subtitle">Boolean expressions and decisions</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -423,8 +424,8 @@ CPT Sonny Bhatia
 <h2>Discussion!</h2>
 <ul>
 <li><a href="https://arrr.readthedocs.io/">arrr</a> - Pirate module!</li>
-<li><a href="https://www.youtube.com/watch?v=x7X9w_GIm1s">What is Python</a></li>
-<li>Algorithm: <a href="https://www.youtube.com/watch?v=oAHbLRjF0vo">The Better Boarding Method Airlines Won’t Use</a></li>
+<li><a href="https://www.youtube.com/embed/x7X9w_GIm1s">What is Python</a></li>
+<li>Algorithm: <a href="https://www.youtube.com/embed/oAHbLRjF0vo">The Better Boarding Method Airlines Won’t Use</a></li>
 </ul>
 </section>
 <section id="lesson-objectives" class="slide level2 center" data-timing="30">
@@ -576,37 +577,32 @@ CPT Sonny Bhatia
 <li><code>or</code> - at least one condition must be <code>True</code></li>
 <li><code>not</code> - negates the condition</li>
 </ul>
+<p>See the <a href="../images/referenceCard/CY105_ReferenceCard_AY251.pdf">reference card</a> for precedence of operators!</p>
 </section>
 <section id="practice-with-logical-operators" class="slide level2 center" data-timing="180">
 <h2>Practice with Logical Operators</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li><code>Age = 43</code>, <code>NeedsHaircut = True</code>, <code>Num = 7</code></li>
-<li><code>Age &gt; 40 and NeedsHaircut</code></li>
-<li><code>Age &lt; 40 or NeedsHaircut</code></li>
-<li><code>not NeedsHaircut</code></li>
-<li><code>Num &gt; 5 and Num &lt; 10</code></li>
-<li><code>not NeedsHaircut or Num &gt; 5</code></li>
-<li><code>NeedsHaircut or not Num &lt; 5</code></li>
+<li><code>x = 42; y = 15; z = True</code></li>
+<li><code>x &gt; 40 and z</code></li>
+<li><code>x &lt; 40 or z</code></li>
+<li><code>not z</code></li>
+<li><code>y &gt; 5 and y &lt; 10</code></li>
+<li><code>not z or y &gt; 5</code></li>
+<li><code>z or not y &lt; 5</code></li>
 </ul>
-<p><a href="https://pyodide.org/en/stable/console.html">Python Console</a></p>
-</section>
-<section id="precedence-of-operators" class="slide level2 center">
-<h2>Precedence of Operators</h2>
+</div><div class="column" style="width:50%;">
 <ul>
-<li>See reference card!</li>
-</ul>
-</section>
-<section id="more-practice" class="slide level2 center" data-timing="180">
-<h2>More Practice</h2>
-<ul>
-<li><code>x = 14</code> and <code>y = 15</code></li>
 <li><code>x &lt; 15 and y &gt; 10</code></li>
 <li><code>x != y and (2 &lt; x &lt; 20)</code></li>
 <li><code>not(y &lt; 0) and not(x &gt; 15)</code></li>
 <li><code>not(x != y)</code></li>
 <li><code>x == 15 or y &lt; 15</code></li>
-<li><code>x == y or x &gt; 10</code></li>
+<li><code>x == y and z</code></li>
+<li><code>x == y or z</code></li>
 </ul>
+</div></div>
 <p><a href="https://pyodide.org/en/stable/console.html">Python Console</a></p>
 </section>
 <section id="membership-operator-in" class="slide level2 center" data-timing="180">
@@ -654,8 +650,13 @@ CPT Sonny Bhatia
 <span id="cb2-2"><a></a>    <span class="bu">print</span>(<span class="st">"Go to bed!"</span>)</span>
 <span id="cb2-3"><a></a><span class="cf">else</span>:</span>
 <span id="cb2-4"><a></a>    <span class="bu">print</span>(<span class="st">"Go to class!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section></section>
+<section>
+<section id="in-class-exercises" class="title-slide slide level1 center" data-timing="900">
+<h1>In-Class Exercises</h1>
+
 </section>
-<section id="in-class-exercise-1" class="slide level2 center" data-timing="900">
+<section id="in-class-exercise-1" class="slide level2 center" data-timing="0">
 <h2>In-Class Exercise 1</h2>
 <p>Our pizzeria is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings and soda. A slice of pizza still costs $2.50, but you can get fries for $1.25 and onion rings for $1.50. A soda costs 99 cents.</p>
 <p><strong>Write a program</strong> that firsts asks the user for the number of times they want to order. For each iteration, the program should prompt the user on whether they want pizza, onion rings, or soda, and the associated quantity. At the end, your program should display the total plus the 8.25% NY State tax.</p>
@@ -701,14 +702,15 @@ CPT Sonny Bhatia
 <li><strong>If still missing Bluefruit, email me!</strong></li>
 </ul>
 
-<div class="quarto-auto-generated-content">
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="../images/wp_crest_new_only.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>
-</div>
-</section></section>
-    </div>
-  </div>
+</div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
   <script src="../site_libs/revealjs/dist/reveal.js"></script>
@@ -740,7 +742,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"9e4c4d586c99f0fe","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"062eb5d2d1311bbc","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -823,7 +825,7 @@ CPT Sonny Bhatia
         help: true,
 
         // Flags if it should be possible to pause the presentation (blackout)
-        pause: true,
+        pause: false,
 
         // Flags if speaker notes should be visible to all viewers
         showNotes: false,
@@ -866,7 +868,7 @@ CPT Sonny Bhatia
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'slide',
+        transition: 'concave',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',

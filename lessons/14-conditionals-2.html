@@ -7,9 +7,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.55">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-79bb3942e891885f9f7af119cd221462.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.11">
 
   <meta name="author" content="CPT Sonny Bhatia">
   <title>CY105 – Conditional Statements 2</title>
@@ -30,8 +29,74 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-d8ec3bf3d63248d75447a4d52ccc54a0.css">
+  <link rel="stylesheet" href="../slides.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -321,8 +386,12 @@
       margin-right: 0; 
     }
   </style>
+  <meta name="mermaid-theme" content="default">
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <meta property="og:title" content="Conditional Statements 2 – CY105">
-<meta property="og:description" content="More expressions and more decisions">
+<meta property="og:description" content="More expressions and decisions">
 <meta property="og:image" content="https://cy105.bhatia.dev//images/14/14.webp">
 <meta property="og:site_name" content="CY105">
 </head>
@@ -330,8 +399,9 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../images/14/14.webp" data-background-opacity="0.2" data-background-size="cover" class="quarto-title-block center">
+<section id="title-slide" data-background-image="../images/14/14.webp" data-background-opacity="0.3" class="quarto-title-block center">
   <h1 class="title">Conditional Statements 2</h1>
+  <p class="subtitle">More expressions and decisions</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -343,19 +413,26 @@ CPT Sonny Bhatia
 
   <p class="date">Tuesday, September 24, 2024</p>
 </section>
-<section id="announcements" class="slide level2 center" data-timing="60">
+<section id="announcements" class="slide level2 center" data-timing="30">
 <h2>Announcements</h2>
 <ul>
+<li>WPR3 grades are out!</li>
 <li>WPS 5 due 29SEP</li>
 <li>Robotics Lab starts on 04OCT
 <ul>
-<li>Bluefruit issues -&gt; email me!</li>
+<li><strong>If still missing Bluefruit, email me!</strong></li>
 </ul></li>
 </ul>
 
 <img data-src="../images/agenda-block-2.png" class="r-stretch"></section>
-<section id="discussion" class="slide level2 center" data-timing="240">
-<h2>Discussion!</h2>
+<section id="are-you-sleeping-enough" class="slide level2 center" data-timing="300">
+<h2>Are you sleeping enough?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<iframe data-external="1" src="https://www.youtube.com/embed/lvKrDsreUgM" width="800" height="450" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div><div class="column" style="width:50%;">
+<iframe data-external="1" src="https://www.youtube.com/embed/IzQ2siryQrM" width="800" height="450" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div></div>
 <ul>
 <li><a href="https://www.youtube.com/embed/lvKrDsreUgM">Your Brain On Sleep Deprivation</a></li>
 <li><a href="https://www.youtube.com/embed/dqONk48l5vY">What would happen if you didn’t sleep?</a></li>
@@ -380,32 +457,306 @@ CPT Sonny Bhatia
           display:block!important;
       }</style></aside>
 </section>
-<section id="lesson-objectives" class="slide level2 center">
+<section id="lesson-objectives" class="slide level2 center" data-timing="30">
 <h2>Lesson Objectives</h2>
+<ul>
+<li>Trace programs that include <strong>chained</strong> and <strong>nested</strong> conditional statements </li>
+<li>Write programs that employ <strong>chained</strong> and <strong>nested</strong> conditional statements </li>
+</ul>
 </section>
-<section id="check-on-learning" class="slide level2 smaller center" data-timing="300">
-<h2>Check on Learning</h2>
+<section id="pizza-shop" class="slide level2 smaller center" data-timing="180">
+<h2>Pizza Shop</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
+<iframe width="100%" height="600" src="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW40YVEwWIEcqoN0IYCN1eycwuGArf0CjJmYWMGAALyTEFlDwzLAUAhhVFgAFZNS4GlM4AwgAZ3gAEgAmDgBWNhZNTMdIioCgvDjWKp80jI6nbOBc-IBlIdLgcsqauFreDjZW9o6u6N7+lggCYAO4HJwq9IdRsZy8lgB5Q+PTqrmF6rrVlrbLzO2e2MY8QsKDw5xGV3GkxYADEQS8ysYKu9lqt1t9RiYqnhwaNIbcAJIEESIYzAciuMAwI4EACE6KcUDwMAArlACHBVG5iJ5vOQADSaDC6GSGExmFw2LkeLw+EI-VxQdw8nyqADkwOAoNVm0cjJZbK0XWwBEQIDw2D22CQE2wFzCeg4UGZBA0aCAA">
+</iframe>
+</div><div class="column" style="width:20%;">
+<ul>
+<li><a href="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW40YVEwWIEcqoN0IYCN1eycwuGArf0CjJmYWMGAALyTEFlDwzLAUAhhVFgAFZNS4GlM4AwgAZ3gAEgAmDgBWNhZNTMdIioCgvDjWKp80jI6nbOBc-IBlIdLgcsqauFreDjZW9o6u6N7+lggCYAO4HJwq9IdRsZy8lgB5Q+PTqrmF6rrVlrbLzO2e2MY8QsKDw5xGV3GkxYADEQS8ysYKu9lqt1t9RiYqnhwaNIbcAJIEESIYzAciuMAwI4EACE6KcUDwMAArlACHBVG5iJ5vOQADSaDC6GSGExmFw2LkeLw+EI-VxQdw8nyqADkwOAoNVm0cjJZbK0XWwBEQIDw2D22CQE2wFzCeg4UGZBA0aCAA">Notebook</a></li>
+<li><a href="https://pythontutor.com/render.html#code=choice%20%3D%20input%28%22do%20you%20want%20pizza,%20soda,%20onion%20rings%20or%20fries%3F%22%29%0A%0Aif%20choice%20%3D%3D%20%22pizza%22%3A%0A%20%20%20%20print%28%22Pizza%20will%20cost%20%242.50%22%29%0Aif%20choice%20%3D%3D%20%22soda%22%3A%0A%20%20%20%20print%28%22Soda%20will%20cost%20%241.00%22%29%0Aif%20choice%20%3D%3D%20%22onion%20rings%22%3A%0A%20%20%20%20print%28%22Onion%20rings%20will%20cost%20%241.50%22%29%0Aif%20choice%20%3D%3D%20%22fries%22%3A%0A%20%20%20%20print%28%22Fries%20will%20cost%20%241.00%22%29%0Aelse%3A%0A%20%20%20%20print%28%22Invalid%20option!%22%29&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;mode=display&amp;origin=opt-frontend.js&amp;py=311&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false">Code Tracing</a></li>
+</ul>
+</div></div>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
 <div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    choice["user input (choice)"]
+    pizza{choice == 'pizza'}
+    pizza_prep['Pizza will cost $2.50']
+    soda{choice == 'soda'}
+    soda_prep['Soda will cost $1.00']
+    onion{choice == 'onion rings'}
+    onion_prep['Onion rings will cost $1.50']
+    fries{choice == 'fries'}
+    fries_prep['Fries will cost $1.00']
+    invalid['Invalid option!']
 
+    choice --&gt; pizza
+    pizza -- True --&gt; pizza_prep --&gt; soda
+    soda -- True --&gt; soda_prep --&gt; onion
+    onion -- True --&gt; onion_prep --&gt; fries
+    fries -- True --&gt; fries_prep
+    pizza -- False --&gt; soda -- False --&gt; onion -- False --&gt; fries -- False --&gt; invalid
+</pre>
 </div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="section" class="slide level2 smaller center" data-timing="180">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="nested-conditionals">Nested Conditionals</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="kw">def</span> pass_planner(distance, flying):</span>
+<span id="cb1-2"><a></a>    <span class="cf">if</span> distance <span class="op">&lt;=</span> <span class="dv">250</span>:</span>
+<span id="cb1-3"><a></a>        <span class="bu">print</span>(<span class="st">"You do not need a pass!"</span>)</span>
+<span id="cb1-4"><a></a>        <span class="cf">if</span> flying:</span>
+<span id="cb1-5"><a></a>            <span class="bu">print</span>(<span class="st">"Consider driving!"</span>)</span>
+<span id="cb1-6"><a></a>        <span class="cf">else</span>:</span>
+<span id="cb1-7"><a></a>            <span class="bu">print</span>(<span class="st">"Enjoy the drive!"</span>)</span>
+<span id="cb1-8"><a></a>    <span class="cf">else</span>:</span>
+<span id="cb1-9"><a></a>        <span class="bu">print</span>(<span class="st">"Get your DA31 signed!"</span>)</span>
+<span id="cb1-10"><a></a>        <span class="cf">if</span> flying:</span>
+<span id="cb1-11"><a></a>            <span class="bu">print</span>(<span class="st">"Print your itinerary!"</span>)</span>
+<span id="cb1-12"><a></a>        <span class="cf">else</span>:</span>
+<span id="cb1-13"><a></a>            <span class="bu">print</span>(<span class="st">"Get your vehicle inspected!"</span>)</span>
+<span id="cb1-14"><a></a></span>
+<span id="cb1-15"><a></a>pass_planner(<span class="dv">150</span>, <span class="va">True</span>)</span>
+<span id="cb1-16"><a></a>pass_planner(<span class="dv">150</span>, <span class="va">False</span>)</span>
+<span id="cb1-17"><a></a>pass_planner(<span class="dv">500</span>, <span class="va">True</span>)</span>
+<span id="cb1-18"><a></a>pass_planner(<span class="dv">500</span>, <span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><a href="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4YRAGd3mMMcQEiUKrkwO4wfkYANHAWxgCewAQ46vZOqXDAVsGh4XhwADzMAEwArGwpaRVgKAQwqiwAmhAArs4QcAQQ8EQUcIiuHu4AhCyaFRUZ0XEJOOVjY1UJtSwAwhAE7sDCUM4oItPDo3NOJu54s0epCzV1AKIEAFYQsXD0ueS7eAcOYydn3xdXJYAcTw8FizW2ABElABmXhwDY4IjkL4XRwTGLxRLnNGuapLAAK+Lg4Ka21oCWIyFiqLRvxxaMBdRBYIhcBEeDowAMxlyCXcYDwBjIKJG-zgUFBZIIcFUbk83l8-mIEU0GF0MkMJjMLhs8q8Pj8AWS4v1iqNxFUvFKUQAKlAmnhDo5JTBpVoNfojKZzHgrHqBublVATZdA4bg1abXAAGKIYynZ0SqVQAgevRan26zBy8NK43nM0RgKqUpsO0Op3i13u9UZ706v3WHNF-PEUNOVsWwJlqJxhNV1I11NaCbYAiIEB4bBMZgsbBIBLYFjnDMOggaNBAA">Notebook</a></p>
+<p><a href="https://pythontutor.com/render.html#code=def%20pass_planner%28distance,%20flying%29%3A%0A%20%20%20%20if%20distance%20%3C%3D%20250%3A%0A%20%20%20%20%20%20%20%20print%28%22You%20do%20not%20need%20a%20pass!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Consider%20driving!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Enjoy%20the%20drive!%22%29%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22Get%20your%20DA31%20signed!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Print%20your%20itinerary!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Get%20your%20vehicle%20inspected!%22%29%0A%0Apass_planner%28150,%20True%29%0Apass_planner%28150,%20False%29%0Apass_planner%28500,%20True%29%0Apass_planner%28500,%20False%29&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;mode=display&amp;origin=opt-frontend.js&amp;py=311&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false">Code Tracing</a></p>
+</div><div class="column" style="width:50%;">
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    distance{staying within 250 miles?}
+    airplane{Are you flying?}
+    airplane2{Are you flying?}
+    pass[You do not need a pass!]
+    da31[Get your DA31 signed!]
+    itinerary[Print your itinerary!]
+    vehicle[Get your vehicle inspected!]
+    considerdriving[Consider driving!]
+    enjoy[Enjoy the drive!]
+
+    distance -- True --&gt; pass --&gt; airplane
+    airplane -- True --&gt; considerdriving
+    airplane -- False --&gt; enjoy
+    distance -- False --&gt; da31 --&gt; airplane2
+    airplane2 -- True --&gt; itinerary
+    airplane2 -- False --&gt; vehicle
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="nested-conditional-code-tracing" class="slide level2 center" data-timing="180">
+<h2>Nested Conditional Code Tracing</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
+<iframe width="100%" height="800" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=def%20pass_planner%28distance,%20flying%29%3A%0A%20%20%20%20if%20distance%20%3C%3D%20250%3A%0A%20%20%20%20%20%20%20%20print%28%22You%20do%20not%20need%20a%20pass!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Consider%20driving!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Enjoy%20the%20drive!%22%29%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22Get%20your%20DA31%20signed!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Print%20your%20itinerary!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Get%20your%20vehicle%20inspected!%22%29%0A%0Aprint%28%22Test%201%3A%20Flying%20150%20miles%22%29%0Apass_planner%28150,%20True%29%0Aprint%28%22Test%202%3A%20Driving%20150%20miles%22%29%0Apass_planner%28150,%20False%29%0Aprint%28%22Test%203%3A%20Flying%20500%20miles%22%29%0Apass_planner%28500,%20True%29%0Aprint%28%22Test%204%3A%20Driving%20500%20miles%22%29%0Apass_planner%28500,%20False%29&amp;codeDivHeight=600&amp;codeDivWidth=600&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;origin=opt-frontend.js&amp;py=311&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false">
+</iframe>
+</div><div class="column" style="width:20%;">
+<ul>
+<li><p><a href="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4YRAGd3mMMcQEiUKrkwO4wfkYANHAWxgCewAQ46vZOqXDAVsGh4XhwADzMAEwArGwpaRVgKAQwqiwAmhAArs4QcAQQ8EQUcIiuHu4AhCyaFRUZ0XEJOOVjY1UJtSwAwhAE7sDCUM4oItPDo3NOJu54s0epCzV1AKIEAFYQsXD0ueS7eAcOYydn3xdXJYAcTw8FizW2ABElABmXhwDY4IjkL4XRwTGLxRLnNGuapLAAK+Lg4Ka21oCWIyFiqLRvxxaMBdRBYIhcBEeDowAMxlyCXcYDwBjIKJG-zgUFBZIIcFUbk83l8-mIEU0GF0MkMJjMLhs8q8Pj8AWS4v1iqNxFUvFKUQAKlAmnhDo5JTBpVoNfojKZzHgrHqBublVATZdA4bg1abXAAGKIYynZ0SqVQAgevRan26zBy8NK43nM0RgKqUpsO0Op3i13u9UZ706v3WHNF-PEUNOVsWwJlqJxhNV1I11NaCbYAiIEB4bBMZgsbBIBLYFjnDMOggaNBAA">Notebook</a></p></li>
+<li><p><a href="https://pythontutor.com/render.html#code=def%20pass_planner%28distance,%20flying%29%3A%0A%20%20%20%20if%20distance%20%3C%3D%20250%3A%0A%20%20%20%20%20%20%20%20print%28%22You%20do%20not%20need%20a%20pass!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Consider%20driving!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Enjoy%20the%20drive!%22%29%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22Get%20your%20DA31%20signed!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Print%20your%20itinerary!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Get%20your%20vehicle%20inspected!%22%29%0A%0Aprint%28%22Test%201%3A%20Flying%20150%20miles%22%29%0Apass_planner%28150,%20True%29%0Aprint%28%22Test%202%3A%20Driving%20150%20miles%22%29%0Apass_planner%28150,%20False%29%0Aprint%28%22Test%203%3A%20Flying%20500%20miles%22%29%0Apass_planner%28500,%20True%29%0Aprint%28%22Test%204%3A%20Driving%20500%20miles%22%29%0Apass_planner%28500,%20False%29&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;mode=display&amp;origin=opt-frontend.js&amp;py=311&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false">Code Tracing</a></p></li>
+</ul>
+</div></div>
+</section>
+<section id="section-1" class="slide level2 smaller center" data-timing="120">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<h3 id="chained-conditionals">Chained Conditionals</h3>
+<ul>
+<li>Many, many possibilities</li>
+<li>Each condition is checked in order</li>
+<li>If one is true, the rest are skipped</li>
+<li><code>if</code> ➔ <code>elif</code> ➔ <code>elif</code> ➔ <code>elif</code> ➔ <code>else</code></li>
+<li>That last <code>else</code> catches everything!</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="cf">if</span> next_lesson <span class="op">==</span> <span class="st">'lecture'</span>:</span>
+<span id="cb2-2"><a></a>    <span class="bu">print</span>(<span class="st">"Do the assigned reading!"</span>)</span>
+<span id="cb2-3"><a></a><span class="cf">elif</span> next_lesson <span class="op">==</span> <span class="st">'lab'</span>:</span>
+<span id="cb2-4"><a></a>    <span class="bu">print</span>(<span class="st">"Bring Bluefruit and eye protection!"</span>)</span>
+<span id="cb2-5"><a></a><span class="cf">elif</span> next_lesson <span class="op">==</span> <span class="st">'WPR'</span>:</span>
+<span id="cb2-6"><a></a>    <span class="bu">print</span>(<span class="st">"Study and practice programming!"</span>)</span>
+<span id="cb2-7"><a></a><span class="cf">else</span>:</span>
+<span id="cb2-8"><a></a>    <span class="bu">print</span>(<span class="st">"Wander around aimlessly!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:40%;">
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    lecture{next_lesson == 'lecture'}
+    lectureprep["Do the assigned reading!"]
+    labprep["Bring Bluefruit and eye protection!"]
+    lab{next_lesson == 'lab'}
+    WPR{next_lesson == 'WPR'}
+    WPRprep["Study and practice programming!"]
+    seekguidance["Wander around aimlessly!"]
+
+    lecture -- True --&gt; lectureprep
+    lab -- True --&gt; labprep
+    WPR -- True --&gt; WPRprep
+    lecture -- False --&gt; lab -- False --&gt; WPR -- False --&gt; seekguidance
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="in-class-exercise-1" class="slide level2 center" data-timing="300">
+<h2><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/14/section/6">In-Class Exercise 1</a></h2>
+<p>Our pizza shop is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, chicken sandwiches and soda.</p>
+<ul>
+<li>A slice of pizza still costs 2.50,</li>
+<li>but you can get fries for 1.25</li>
+<li>and onion rings for 1.50.</li>
+<li>A soda costs 99 cents.</li>
+</ul>
+<p><em>Modify the given program</em> so that</p>
+<ul>
+<li>if the user enters something not listed above, print “invalid option!”</li>
+<li>Otherwise prompt for the quantity, add up the cost of the items and display the total plus the 8.5% NY State tax.</li>
+</ul>
+</section>
+<section id="keeping-it-simple" class="slide level2 center">
+<h2>Keeping it simple</h2>
+<ul>
+<li>What is the difference between the following two?</li>
+</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">if</span> <span class="kw">not</span> (age <span class="op">&gt;=</span> <span class="dv">17</span>):</span>
+<span id="cb3-2"><a></a>    <span class="bu">print</span>(<span class="st">"Too young to drive!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:50%;">
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="cf">if</span> age <span class="op">&lt;</span> <span class="dv">17</span>:</span>
+<span id="cb4-2"><a></a>    <span class="bu">print</span>(<span class="st">"Too young to drive!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+</section>
+<section id="de-morgans-laws" class="slide level2 center" data-timing="120">
+<h2>De Morgan’s Laws</h2>
+<ul>
+<li><code>not (A and B)</code> is the same as <code>not A or not B</code></li>
+<li><code>not (A or B)</code> is the same as <code>not A and not B</code></li>
+</ul>
+<div class="sourceCode" id="cb5" data-code-line-numbers="|1,7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="cf">if</span> <span class="kw">not</span> (sword_charge <span class="op">&gt;=</span> <span class="fl">0.90</span> <span class="kw">and</span> shield_energy <span class="op">&gt;=</span> <span class="dv">100</span>):</span>
+<span id="cb5-2"><a></a>    <span class="bu">print</span>(<span class="st">"Your attack has no effect. The dragon fries you to a crisp!"</span>)</span>
+<span id="cb5-3"><a></a><span class="cf">else</span>:</span>
+<span id="cb5-4"><a></a>    <span class="bu">print</span>(<span class="st">"The dragon crumples in a heap. You defeated the dragon!"</span>)</span>
+<span id="cb5-5"><a></a></span>
+<span id="cb5-6"><a></a></span>
+<span id="cb5-7"><a></a><span class="cf">if</span> sword_charge <span class="op">&lt;</span> <span class="fl">0.90</span> <span class="kw">or</span> shield_energy <span class="op">&lt;</span> <span class="dv">100</span>:</span>
+<span id="cb5-8"><a></a>    <span class="bu">print</span>(<span class="st">"Your attack has no effect. The dragon fries you to a crisp!"</span>)</span>
+<span id="cb5-9"><a></a><span class="cf">else</span>:</span>
+<span id="cb5-10"><a></a>    <span class="bu">print</span>(<span class="st">"The dragon crumples in a heap. You defeated the dragon!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="keeping-it-really-simple" class="slide level2 center" data-timing="120">
+<h2>Keeping it really simple</h2>
+<div class="sourceCode" id="cb6" data-code-line-numbers="|1,9,2,10|1,9,2,10,4,12|1,9,2,10,4,12,6,14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="co"># less readable and more error-prone</span></span>
+<span id="cb6-2"><a></a><span class="cf">if</span> height <span class="op">&gt;=</span> <span class="dv">48</span>:</span>
+<span id="cb6-3"><a></a>    <span class="bu">print</span>(<span class="st">"You can ride the roller coaster!"</span>)</span>
+<span id="cb6-4"><a></a><span class="cf">elif</span> height <span class="op">&gt;=</span> <span class="dv">36</span> <span class="kw">and</span> height <span class="op">&lt;</span> <span class="dv">48</span>:                <span class="co"># could height be above 48?</span></span>
+<span id="cb6-5"><a></a>    <span class="bu">print</span>(<span class="st">"Need adult supervision!"</span>)</span>
+<span id="cb6-6"><a></a><span class="cf">elif</span> height <span class="op">&lt;</span> <span class="dv">36</span>:                                 <span class="co"># could height be above 36?</span></span>
+<span id="cb6-7"><a></a>    <span class="bu">print</span>(<span class="st">"Sorry, you're too short!"</span>)</span>
+<span id="cb6-8"><a></a></span>
+<span id="cb6-9"><a></a><span class="co"># cleaner, more readable, best practice</span></span>
+<span id="cb6-10"><a></a><span class="cf">if</span> height <span class="op">&gt;=</span> <span class="dv">48</span>:</span>
+<span id="cb6-11"><a></a>    <span class="bu">print</span>(<span class="st">"You can ride the roller coaster!"</span>)</span>
+<span id="cb6-12"><a></a><span class="cf">elif</span> height <span class="op">&gt;=</span> <span class="dv">36</span>:                            <span class="co"># height is definitely below 48</span></span>
+<span id="cb6-13"><a></a>    <span class="bu">print</span>(<span class="st">"Need adult supervision!"</span>)</span>
+<span id="cb6-14"><a></a><span class="cf">else</span>:                                        <span class="co"># same results but more readable</span></span>
+<span id="cb6-15"><a></a>    <span class="bu">print</span>(<span class="st">"Sorry, you're too short!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="type-of-conditional-statements" class="slide level2 center">
+<h2>Type of Conditional Statements</h2>
+
+<img data-src="https://instructor-content.zybooks.com/valid_conditionals.png-8448198" class="r-stretch"></section>
+<section id="in-class-exercise-2" class="slide level2 center" data-timing="0">
+<h2><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/14/section/6">In-Class Exercise 2</a></h2>
+<p>Modify the Pizza Shop program to also prompt the customer on whether they are a student.</p>
+<ul>
+<li>If the customer responds “Y” for yes, they should receive a 10% discount on the entire order.</li>
+<li>Otherwise, they pay the full price.</li>
+</ul>
+</section>
+<section id="in-class-exercise-3" class="slide level2 center" data-timing="0">
+<h2><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/14/section/6">In-Class Exercise 3</a></h2>
+<p>Implement a program that prompts the user to enter a numeric grade (from 0 … 100).</p>
+<ul>
+<li>Based on the score, display the corresponding letter grade based on the following criteria.
+<ul>
+<li>A when &gt;= 90</li>
+<li>B when [80-90)</li>
+<li>C when [70-80)</li>
+<li>D when [65-70)</li>
+<li>F when &lt; 65</li>
+</ul></li>
+<li>You must use an else statement.</li>
+</ul>
+</section>
+<section id="in-class-exercise-4" class="slide level2 center" data-timing="0">
+<h2><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/14/section/6">In-Class Exercise 4</a></h2>
+<p>Write a program that determines if an inputted year is a leap year.</p>
+<ul>
+<li>Determine if the year is a leap year using the following criteria:
+<ul>
+<li>Is evenly divisible by 4 and not evenly divisible by 100</li>
+<li>Is evenly divisible by 400</li>
+</ul></li>
+<li>Display “Leap Year” or “Not a leap year” as appropriate.</li>
+</ul>
 </section>
 <section id="reminders" class="slide level2 center">
 <h2>Reminders</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="cf">if</span> whiteboards_have_text:</span>
+<span id="cb7-2"><a></a>    erase(<span class="st">'whiteboards'</span>)</span>
+<span id="cb7-3"><a></a></span>
+<span id="cb7-4"><a></a><span class="cf">if</span> monitors_are_up:</span>
+<span id="cb7-5"><a></a>    lower(<span class="st">'monitors'</span>)</span>
+<span id="cb7-6"><a></a></span>
+<span id="cb7-7"><a></a><span class="cf">if</span> still_missing_bluefruit:</span>
+<span id="cb7-8"><a></a>    email(<span class="st">'your instructor'</span>)</span>
+<span id="cb7-9"><a></a></span>
+<span id="cb7-10"><a></a>read(<span class="st">'next_chapter'</span>)</span>
+<span id="cb7-11"><a></a>practice(<span class="st">'zyBook problems'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:50%;">
+<h3 id="next-lesson">Next Lesson</h3>
 <ul>
-<li>Clear whiteboards and desks</li>
-<li>Lower monitors; leave nothing behind</li>
-<li>Practice more!</li>
-<li>If still missing Bluefruit, email me!</li>
+<li>Indefinite iteration using <code>while</code> loops</li>
 </ul>
+</div></div>
 
-<div class="quarto-auto-generated-content">
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="../images/wp_crest_new_only.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>
-</div>
-</section>
-    </div>
-  </div>
+</div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
   <script src="../site_libs/revealjs/dist/reveal.js"></script>
@@ -437,7 +788,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"1677789612d4bbb6","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"2f9ee30713269a2b","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -520,7 +871,7 @@ CPT Sonny Bhatia
         help: true,
 
         // Flags if it should be possible to pause the presentation (blackout)
-        pause: true,
+        pause: false,
 
         // Flags if speaker notes should be visible to all viewers
         showNotes: false,
@@ -563,7 +914,7 @@ CPT Sonny Bhatia
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'slide',
+        transition: 'concave',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
