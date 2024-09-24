@@ -1075,7 +1075,7 @@
     "href": "lessons/14-conditionals-2.html#pizza-shop",
     "title": "Conditional Statements 2",
     "section": "Pizza Shop",
-    "text": "Pizza Shop\n\n\n\n\n\n\nNotebook\nCode Tracing\n\n\n\n\n\n\n\nflowchart LR\n    choice[\"user input (choice)\"]\n    pizza{choice == 'pizza'}\n    pizza_prep['Pizza will cost $2.50']\n    soda{choice == 'soda'}\n    soda_prep['Soda will cost $1.00']\n    onion{choice == 'onion rings'}\n    onion_prep['Onion rings will cost $1.50']\n    fries{choice == 'fries'}\n    fries_prep['Fries will cost $1.00']\n    invalid['Invalid option!']\n\n    choice --&gt; pizza\n    pizza -- True --&gt; pizza_prep --&gt; soda\n    soda -- True --&gt; soda_prep --&gt; onion\n    onion -- True --&gt; onion_prep --&gt; fries\n    fries -- True --&gt; fries_prep\n    pizza -- False --&gt; soda -- False --&gt; onion -- False --&gt; fries -- False --&gt; invalid"
+    "text": "Pizza Shop\n\n\n\n\n\n\nNotebook\nCode Tracing"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#nested-conditionals",
@@ -1096,7 +1096,7 @@
     "href": "lessons/14-conditionals-2.html#section",
     "title": "Conditional Statements 2",
     "section": "",
-    "text": "Chained Conditionals\n\nMany, many possibilities\nEach condition is checked in order\nIf one is true, the rest are skipped\nif ➔ elif ➔ elif ➔ elif ➔ else\nThat last else catches everything!\n\nif next_lesson == 'lecture':\n    print(\"Do the assigned reading!\")\nelif next_lesson == 'lab':\n    print(\"Bring Bluefruit and eye protection!\")\nelif next_lesson == 'WPR':\n    print(\"Study and practice programming!\")\nelse:\n    print(\"Wander around aimlessly!\")\n\n\n\n\n\n\nflowchart TD\n    lecture{next_lesson == 'lecture'}\n    lectureprep[\"Do the assigned reading!\"]\n    labprep[\"Bring Bluefruit and eye protection!\"]\n    lab{next_lesson == 'lab'}\n    WPR{next_lesson == 'WPR'}\n    WPRprep[\"Study and practice programming!\"]\n    seekguidance[\"Wander around aimlessly!\"]\n\n    lecture -- True --&gt; lectureprep\n    lab -- True --&gt; labprep\n    WPR -- True --&gt; WPRprep\n    lecture -- False --&gt; lab -- False --&gt; WPR -- False --&gt; seekguidance"
+    "text": "Chained Conditionals\n\nMany, many possibilities\nEach condition is checked in order\nIf one is true, the rest are skipped\nif ➔ elif ➔ elif ➔ elif ➔ else\nThat last else catches everything!\n\nif next_lesson == 'lecture':\n    print(\"Do the assigned reading!\")\nelif next_lesson == 'lab':\n    print(\"Bring Bluefruit and eye protection!\")\nelif next_lesson == 'WPR':\n    print(\"Study and practice programming!\")\nelse:\n    print(\"Wander around aimlessly!\")"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#in-class-exercise-1",

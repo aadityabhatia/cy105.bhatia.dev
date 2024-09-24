@@ -387,10 +387,6 @@
       margin-right: 0; 
     }
   </style>
-  <meta name="mermaid-theme" content="default">
-  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <meta property="og:title" content="Conditional Statements 2 – CY105">
 <meta property="og:description" content="More expressions and decisions">
 <meta property="og:image" content="https://cy105.bhatia.dev//images/14/14.webp">
@@ -471,30 +467,12 @@ CPT Sonny Bhatia
 <li><a href="https://pythontutor.com/render.html#code=choice%20%3D%20input%28%22do%20you%20want%20pizza,%20soda,%20onion%20rings%20or%20fries%3F%22%29%0A%0Aif%20choice%20%3D%3D%20%22pizza%22%3A%0A%20%20%20%20print%28%22Pizza%20will%20cost%20%242.50%22%29%0Aif%20choice%20%3D%3D%20%22soda%22%3A%0A%20%20%20%20print%28%22Soda%20will%20cost%20%241.00%22%29%0Aif%20choice%20%3D%3D%20%22onion%20rings%22%3A%0A%20%20%20%20print%28%22Onion%20rings%20will%20cost%20%241.50%22%29%0Aif%20choice%20%3D%3D%20%22fries%22%3A%0A%20%20%20%20print%28%22Fries%20will%20cost%20%241.00%22%29%0Aelse%3A%0A%20%20%20%20print%28%22Invalid%20option!%22%29&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;mode=display&amp;origin=opt-frontend.js&amp;py=311&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false">Code Tracing</a></li>
 </ul>
 </div></div>
-<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart LR
-    choice["user input (choice)"]
-    pizza{choice == 'pizza'}
-    pizza_prep['Pizza will cost $2.50']
-    soda{choice == 'soda'}
-    soda_prep['Soda will cost $1.00']
-    onion{choice == 'onion rings'}
-    onion_prep['Onion rings will cost $1.50']
-    fries{choice == 'fries'}
-    fries_prep['Fries will cost $1.00']
-    invalid['Invalid option!']
-
-    choice --&gt; pizza
-    pizza -- True --&gt; pizza_prep --&gt; soda
-    soda -- True --&gt; soda_prep --&gt; onion
-    onion -- True --&gt; onion_prep --&gt; fries
-    fries -- True --&gt; fries_prep
-    pizza -- False --&gt; soda -- False --&gt; onion -- False --&gt; fries -- False --&gt; invalid
-</pre>
+<p><img data-src="14-conditionals-2_files/figure-revealjs/mermaid-figure-1.png" style="width:21.76in;height:2.31in"></p>
 </div>
 <p></p></figure><p></p>
 </div>
@@ -682,26 +660,12 @@ CPT Sonny Bhatia
 <span id="cb2-7"><a></a><span class="cf">else</span>:</span>
 <span id="cb2-8"><a></a>    <span class="bu">print</span>(<span class="st">"Wander around aimlessly!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:40%;">
-<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart TD
-    lecture{next_lesson == 'lecture'}
-    lectureprep["Do the assigned reading!"]
-    labprep["Bring Bluefruit and eye protection!"]
-    lab{next_lesson == 'lab'}
-    WPR{next_lesson == 'WPR'}
-    WPRprep["Study and practice programming!"]
-    seekguidance["Wander around aimlessly!"]
-
-    lecture -- True --&gt; lectureprep
-    lab -- True --&gt; labprep
-    WPR -- True --&gt; WPRprep
-    lecture -- False --&gt; lab -- False --&gt; WPR -- False --&gt; seekguidance
-
-</pre>
+<p><img data-src="14-conditionals-2_files/figure-revealjs/mermaid-figure-2.png" style="width:7.61in;height:8.97in"></p>
 </div>
 <p></p></figure><p></p>
 </div>
@@ -874,7 +838,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"781bd346c3841de1","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"9e1eea353eb88a3d","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
