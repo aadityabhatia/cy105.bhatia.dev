@@ -387,6 +387,10 @@
       margin-right: 0; 
     }
   </style>
+  <meta name="mermaid-theme" content="default">
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <meta property="og:title" content="Conditional Statements 2 – CY105">
 <meta property="og:description" content="More expressions and decisions">
 <meta property="og:image" content="https://cy105.bhatia.dev//images/14/14.webp">
@@ -467,23 +471,40 @@ CPT Sonny Bhatia
 <li><a href="https://pythontutor.com/render.html#code=choice%20%3D%20input%28%22do%20you%20want%20pizza,%20soda,%20onion%20rings%20or%20fries%3F%22%29%0A%0Aif%20choice%20%3D%3D%20%22pizza%22%3A%0A%20%20%20%20print%28%22Pizza%20will%20cost%20%242.50%22%29%0Aif%20choice%20%3D%3D%20%22soda%22%3A%0A%20%20%20%20print%28%22Soda%20will%20cost%20%241.00%22%29%0Aif%20choice%20%3D%3D%20%22onion%20rings%22%3A%0A%20%20%20%20print%28%22Onion%20rings%20will%20cost%20%241.50%22%29%0Aif%20choice%20%3D%3D%20%22fries%22%3A%0A%20%20%20%20print%28%22Fries%20will%20cost%20%241.00%22%29%0Aelse%3A%0A%20%20%20%20print%28%22Invalid%20option!%22%29&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;mode=display&amp;origin=opt-frontend.js&amp;py=311&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false">Code Tracing</a></li>
 </ul>
 </div></div>
-<div class="cell" data-layout-align="default">
+<div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<p><img data-src="14-conditionals-2_files/figure-revealjs/mermaid-figure-1.png" style="width:21.76in;height:2.31in"></p>
+<pre class="mermaid mermaid-js">flowchart LR
+    choice["user input (choice)"]
+    pizza{choice == 'pizza'}
+    pizza_prep['Pizza will cost $2.50']
+    soda{choice == 'soda'}
+    soda_prep['Soda will cost $1.00']
+    onion{choice == 'onion rings'}
+    onion_prep['Onion rings will cost $1.50']
+    fries{choice == 'fries'}
+    fries_prep['Fries will cost $1.00']
+    invalid['Invalid option!']
+
+    choice --&gt; pizza
+    pizza -- True --&gt; pizza_prep --&gt; soda
+    soda -- True --&gt; soda_prep --&gt; onion
+    onion -- True --&gt; onion_prep --&gt; fries
+    fries -- True --&gt; fries_prep
+    pizza -- False --&gt; soda -- False --&gt; onion -- False --&gt; fries -- False --&gt; invalid
+</pre>
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
 </section>
-<section id="section" class="slide level2 smaller center" data-timing="180">
-<h2></h2>
+<section id="nested-conditionals" class="slide level2 smaller center" data-timing="180">
+<h2>Nested Conditionals</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<h3 id="nested-conditionals">Nested Conditionals</h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="kw">def</span> pass_planner(distance, flying):</span>
 <span id="cb1-2"><a></a>    <span class="cf">if</span> distance <span class="op">&lt;=</span> <span class="dv">250</span>:</span>
 <span id="cb1-3"><a></a>        <span class="bu">print</span>(<span class="st">"You do not need a pass!"</span>)</span>
@@ -502,15 +523,124 @@ CPT Sonny Bhatia
 <span id="cb1-16"><a></a>pass_planner(<span class="dv">150</span>, <span class="va">False</span>)</span>
 <span id="cb1-17"><a></a>pass_planner(<span class="dv">500</span>, <span class="va">True</span>)</span>
 <span id="cb1-18"><a></a>pass_planner(<span class="dv">500</span>, <span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><a href="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4YRAGd3mMMcQEiUKrkwO4wfkYANHAWxgCewAQ46vZOqXDAVsGh4XhwADzMAEwArGwpaRVgKAQwqiwAmhAArs4QcAQQ8EQUcIiuHu4AhCyaFRUZ0XEJOOVjY1UJtSwAwhAE7sDCUM4oItPDo3NOJu54s0epCzV1AKIEAFYQsXD0ueS7eAcOYydn3xdXJYAcTw8FizW2ABElABmXhwDY4IjkL4XRwTGLxRLnNGuapLAAK+Lg4Ka21oCWIyFiqLRvxxaMBdRBYIhcBEeDowAMxlyCXcYDwBjIKJG-zgUFBZIIcFUbk83l8-mIEU0GF0MkMJjMLhs8q8Pj8AWS4v1iqNxFUvFKUQAKlAmnhDo5JTBpVoNfojKZzHgrHqBublVATZdA4bg1abXAAGKIYynZ0SqVQAgevRan26zBy8NK43nM0RgKqUpsO0Op3i13u9UZ706v3WHNF-PEUNOVsWwJlqJxhNV1I11NaCbYAiIEB4bBMZgsbBIBLYFjnDMOggaNBAA">Notebook</a></p>
-<p><a href="https://pythontutor.com/render.html#code=def%20pass_planner%28distance,%20flying%29%3A%0A%20%20%20%20if%20distance%20%3C%3D%20250%3A%0A%20%20%20%20%20%20%20%20print%28%22You%20do%20not%20need%20a%20pass!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Consider%20driving!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Enjoy%20the%20drive!%22%29%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22Get%20your%20DA31%20signed!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Print%20your%20itinerary!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Get%20your%20vehicle%20inspected!%22%29%0A%0Apass_planner%28150,%20True%29%0Apass_planner%28150,%20False%29%0Apass_planner%28500,%20True%29%0Apass_planner%28500,%20False%29&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;mode=display&amp;origin=opt-frontend.js&amp;py=311&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false">Code Tracing</a></p>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<p><img data-src="14-conditionals-2_files/figure-revealjs/mermaid-figure-3.png" style="width:8.16in;height:6.75in"></p>
+<svg width="960" height="480" viewbox="0.00 0.00 453.74 359.60" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(0 359.6)">
+<!-- distance -->
+<g id="node1" class="node">
+<title>distance</title>
+<polygon fill="none" stroke="black" points="226.58,-359.6 70.4,-341.6 226.58,-323.6 382.76,-341.6 226.58,-359.6"></polygon>
+<text text-anchor="middle" x="226.58" y="-337.4" font-family="Times,serif" font-size="14.00">staying within 250 miles?</text>
+</g>
+<!-- pass -->
+<g id="node4" class="node">
+<title>pass</title>
+<polygon fill="none" stroke="black" points="218.99,-270.8 68.16,-270.8 68.16,-234.8 218.99,-234.8 218.99,-270.8"></polygon>
+<text text-anchor="middle" x="143.58" y="-248.6" font-family="Times,serif" font-size="14.00">You do not need a pass!</text>
+</g>
+<!-- distance&#45;&gt;pass -->
+<g id="edge1" class="edge">
+<title>distance-&gt;pass</title>
+<path fill="none" stroke="black" d="M211.74,-325.08C199.35,-312.13 181.46,-293.42 167.12,-278.42"></path>
+<polygon fill="black" stroke="black" points="169.44,-275.78 159.99,-270.97 164.38,-280.61 169.44,-275.78"></polygon>
+<text text-anchor="middle" x="205.79" y="-293" font-family="Times,serif" font-size="14.00">True</text>
+</g>
+<!-- da31 -->
+<g id="node5" class="node">
+<title>da31</title>
+<polygon fill="none" stroke="black" points="391.39,-270.8 243.77,-270.8 243.77,-234.8 391.39,-234.8 391.39,-270.8"></polygon>
+<text text-anchor="middle" x="317.58" y="-248.6" font-family="Times,serif" font-size="14.00">Get your DA31 signed!</text>
+</g>
+<!-- distance&#45;&gt;da31 -->
+<g id="edge5" class="edge">
+<title>distance-&gt;da31</title>
+<path fill="none" stroke="black" d="M242.85,-325.08C256.55,-312.01 276.4,-293.08 292.19,-278.01"></path>
+<polygon fill="black" stroke="black" points="294.76,-280.4 299.58,-270.97 289.93,-275.34 294.76,-280.4"></polygon>
+<text text-anchor="middle" x="295.35" y="-293" font-family="Times,serif" font-size="14.00">False</text>
+</g>
+<!-- airplane -->
+<g id="node2" class="node">
+<title>airplane</title>
+<polygon fill="none" stroke="black" points="102.58,-197.8 0.42,-179.8 102.58,-161.8 204.73,-179.8 102.58,-197.8"></polygon>
+<text text-anchor="middle" x="102.58" y="-175.6" font-family="Times,serif" font-size="14.00">Are you flying?</text>
+</g>
+<!-- considerdriving -->
+<g id="node8" class="node">
+<title>considerdriving</title>
+<polygon fill="none" stroke="black" points="115.23,-109 -0.08,-109 -0.08,-73 115.23,-73 115.23,-109"></polygon>
+<text text-anchor="middle" x="57.58" y="-86.8" font-family="Times,serif" font-size="14.00">Consider driving!</text>
+</g>
+<!-- airplane&#45;&gt;considerdriving -->
+<g id="edge3" class="edge">
+<title>airplane-&gt;considerdriving</title>
+<path fill="none" stroke="black" d="M94.32,-162.88C87.83,-150.35 78.65,-132.64 71.08,-118.05"></path>
+<polygon fill="black" stroke="black" points="74.1,-116.27 66.39,-109.01 67.89,-119.5 74.1,-116.27"></polygon>
+<text text-anchor="middle" x="97.79" y="-131.2" font-family="Times,serif" font-size="14.00">True</text>
+</g>
+<!-- enjoy -->
+<g id="node9" class="node">
+<title>enjoy</title>
+<polygon fill="none" stroke="black" points="205.05,-36 98.1,-36 98.1,0 205.05,0 205.05,-36"></polygon>
+<text text-anchor="middle" x="151.58" y="-13.8" font-family="Times,serif" font-size="14.00">Enjoy the drive!</text>
+</g>
+<!-- airplane&#45;&gt;enjoy -->
+<g id="edge4" class="edge">
+<title>airplane-&gt;enjoy</title>
+<path fill="none" stroke="black" d="M108.34,-162.47C110.36,-156.6 112.62,-149.92 114.58,-143.8 125.34,-110.12 136.76,-71 144.02,-45.66"></path>
+<polygon fill="black" stroke="black" points="147.4,-46.6 146.78,-36.03 140.67,-44.68 147.4,-46.6"></polygon>
+<text text-anchor="middle" x="151.35" y="-86.8" font-family="Times,serif" font-size="14.00">False</text>
+</g>
+<!-- airplane2 -->
+<g id="node3" class="node">
+<title>airplane2</title>
+<polygon fill="none" stroke="black" points="324.58,-197.8 222.42,-179.8 324.58,-161.8 426.73,-179.8 324.58,-197.8"></polygon>
+<text text-anchor="middle" x="324.58" y="-175.6" font-family="Times,serif" font-size="14.00">Are you flying?</text>
+</g>
+<!-- itinerary -->
+<g id="node6" class="node">
+<title>itinerary</title>
+<polygon fill="none" stroke="black" points="332.55,-109 204.6,-109 204.6,-73 332.55,-73 332.55,-109"></polygon>
+<text text-anchor="middle" x="268.58" y="-86.8" font-family="Times,serif" font-size="14.00">Print your itinerary!</text>
+</g>
+<!-- airplane2&#45;&gt;itinerary -->
+<g id="edge7" class="edge">
+<title>airplane2-&gt;itinerary</title>
+<path fill="none" stroke="black" d="M314.57,-163.28C306.44,-150.68 294.8,-132.65 285.27,-117.87"></path>
+<polygon fill="black" stroke="black" points="288.02,-115.67 279.65,-109.17 282.13,-119.47 288.02,-115.67"></polygon>
+<text text-anchor="middle" x="315.79" y="-131.2" font-family="Times,serif" font-size="14.00">True</text>
+</g>
+<!-- vehicle -->
+<g id="node7" class="node">
+<title>vehicle</title>
+<polygon fill="none" stroke="black" points="453.91,-36 283.25,-36 283.25,0 453.91,0 453.91,-36"></polygon>
+<text text-anchor="middle" x="368.58" y="-13.8" font-family="Times,serif" font-size="14.00">Get your vehicle inspected!</text>
+</g>
+<!-- airplane2&#45;&gt;vehicle -->
+<g id="edge8" class="edge">
+<title>airplane2-&gt;vehicle</title>
+<path fill="none" stroke="black" d="M329.12,-162.3C336.69,-134.81 351.95,-79.39 361.12,-46.1"></path>
+<polygon fill="black" stroke="black" points="364.58,-46.7 363.86,-36.13 357.83,-44.84 364.58,-46.7"></polygon>
+<text text-anchor="middle" x="368.35" y="-86.8" font-family="Times,serif" font-size="14.00">False</text>
+</g>
+<!-- pass&#45;&gt;airplane -->
+<g id="edge2" class="edge">
+<title>pass-&gt;airplane</title>
+<path fill="none" stroke="black" d="M133.65,-234.61C128.55,-225.78 122.25,-214.86 116.66,-205.18"></path>
+<polygon fill="black" stroke="black" points="119.6,-203.29 111.57,-196.38 113.54,-206.79 119.6,-203.29"></polygon>
+</g>
+<!-- da31&#45;&gt;airplane2 -->
+<g id="edge6" class="edge">
+<title>da31-&gt;airplane2</title>
+<path fill="none" stroke="black" d="M319.27,-234.61C320.06,-226.59 321.02,-216.85 321.91,-207.87"></path>
+<polygon fill="black" stroke="black" points="325.4,-208.12 322.9,-197.83 318.43,-207.44 325.4,-208.12"></polygon>
+</g>
+</g>
+</svg>
 </div>
 <p></p></figure><p></p>
 </div>
@@ -531,7 +661,7 @@ CPT Sonny Bhatia
 </ul>
 </div></div>
 </section>
-<section id="section-1" class="slide level2 smaller center" data-timing="120">
+<section id="section" class="slide level2 smaller center" data-timing="120">
 <h2></h2>
 <div class="columns">
 <div class="column" style="width:60%;">
@@ -552,12 +682,26 @@ CPT Sonny Bhatia
 <span id="cb2-7"><a></a><span class="cf">else</span>:</span>
 <span id="cb2-8"><a></a>    <span class="bu">print</span>(<span class="st">"Wander around aimlessly!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:40%;">
-<div class="cell" data-layout-align="default">
+<div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<p><img data-src="14-conditionals-2_files/figure-revealjs/mermaid-figure-2.png" style="width:7.61in;height:8.97in"></p>
+<pre class="mermaid mermaid-js">flowchart TD
+    lecture{next_lesson == 'lecture'}
+    lectureprep["Do the assigned reading!"]
+    labprep["Bring Bluefruit and eye protection!"]
+    lab{next_lesson == 'lab'}
+    WPR{next_lesson == 'WPR'}
+    WPRprep["Study and practice programming!"]
+    seekguidance["Wander around aimlessly!"]
+
+    lecture -- True --&gt; lectureprep
+    lab -- True --&gt; labprep
+    WPR -- True --&gt; WPRprep
+    lecture -- False --&gt; lab -- False --&gt; WPR -- False --&gt; seekguidance
+
+</pre>
 </div>
 <p></p></figure><p></p>
 </div>
@@ -730,7 +874,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"00be5afe5ee17460","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"781bd346c3841de1","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner

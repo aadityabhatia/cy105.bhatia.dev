@@ -1075,14 +1075,14 @@
     "href": "lessons/14-conditionals-2.html#pizza-shop",
     "title": "Conditional Statements 2",
     "section": "Pizza Shop",
-    "text": "Pizza Shop\n\n\n\n\n\n\nNotebook\nCode Tracing"
+    "text": "Pizza Shop\n\n\n\n\n\n\nNotebook\nCode Tracing\n\n\n\n\n\n\n\nflowchart LR\n    choice[\"user input (choice)\"]\n    pizza{choice == 'pizza'}\n    pizza_prep['Pizza will cost $2.50']\n    soda{choice == 'soda'}\n    soda_prep['Soda will cost $1.00']\n    onion{choice == 'onion rings'}\n    onion_prep['Onion rings will cost $1.50']\n    fries{choice == 'fries'}\n    fries_prep['Fries will cost $1.00']\n    invalid['Invalid option!']\n\n    choice --&gt; pizza\n    pizza -- True --&gt; pizza_prep --&gt; soda\n    soda -- True --&gt; soda_prep --&gt; onion\n    onion -- True --&gt; onion_prep --&gt; fries\n    fries -- True --&gt; fries_prep\n    pizza -- False --&gt; soda -- False --&gt; onion -- False --&gt; fries -- False --&gt; invalid"
   },
   {
-    "objectID": "lessons/14-conditionals-2.html#section",
-    "href": "lessons/14-conditionals-2.html#section",
+    "objectID": "lessons/14-conditionals-2.html#nested-conditionals",
+    "href": "lessons/14-conditionals-2.html#nested-conditionals",
     "title": "Conditional Statements 2",
-    "section": "",
-    "text": "Nested Conditionals\ndef pass_planner(distance, flying):\n    if distance &lt;= 250:\n        print(\"You do not need a pass!\")\n        if flying:\n            print(\"Consider driving!\")\n        else:\n            print(\"Enjoy the drive!\")\n    else:\n        print(\"Get your DA31 signed!\")\n        if flying:\n            print(\"Print your itinerary!\")\n        else:\n            print(\"Get your vehicle inspected!\")\n\npass_planner(150, True)\npass_planner(150, False)\npass_planner(500, True)\npass_planner(500, False)\nNotebook\nCode Tracing"
+    "section": "Nested Conditionals",
+    "text": "Nested Conditionals\n\n\ndef pass_planner(distance, flying):\n    if distance &lt;= 250:\n        print(\"You do not need a pass!\")\n        if flying:\n            print(\"Consider driving!\")\n        else:\n            print(\"Enjoy the drive!\")\n    else:\n        print(\"Get your DA31 signed!\")\n        if flying:\n            print(\"Print your itinerary!\")\n        else:\n            print(\"Get your vehicle inspected!\")\n\npass_planner(150, True)\npass_planner(150, False)\npass_planner(500, True)\npass_planner(500, False)\n\n\n\n\n\n\n\n\n\n\ndistance\n\nstaying within 250 miles?\n\n\n\npass\n\nYou do not need a pass!\n\n\n\ndistance-&gt;pass\n\n\nTrue\n\n\n\nda31\n\nGet your DA31 signed!\n\n\n\ndistance-&gt;da31\n\n\nFalse\n\n\n\nairplane\n\nAre you flying?\n\n\n\nconsiderdriving\n\nConsider driving!\n\n\n\nairplane-&gt;considerdriving\n\n\nTrue\n\n\n\nenjoy\n\nEnjoy the drive!\n\n\n\nairplane-&gt;enjoy\n\n\nFalse\n\n\n\nairplane2\n\nAre you flying?\n\n\n\nitinerary\n\nPrint your itinerary!\n\n\n\nairplane2-&gt;itinerary\n\n\nTrue\n\n\n\nvehicle\n\nGet your vehicle inspected!\n\n\n\nairplane2-&gt;vehicle\n\n\nFalse\n\n\n\npass-&gt;airplane\n\n\n\n\n\nda31-&gt;airplane2"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#nested-conditional-code-tracing",
@@ -1092,11 +1092,11 @@
     "text": "Nested Conditional Code Tracing\n\n\n\n\n\n\nNotebook\nCode Tracing"
   },
   {
-    "objectID": "lessons/14-conditionals-2.html#section-1",
-    "href": "lessons/14-conditionals-2.html#section-1",
+    "objectID": "lessons/14-conditionals-2.html#section",
+    "href": "lessons/14-conditionals-2.html#section",
     "title": "Conditional Statements 2",
     "section": "",
-    "text": "Chained Conditionals\n\nMany, many possibilities\nEach condition is checked in order\nIf one is true, the rest are skipped\nif ➔ elif ➔ elif ➔ elif ➔ else\nThat last else catches everything!\n\nif next_lesson == 'lecture':\n    print(\"Do the assigned reading!\")\nelif next_lesson == 'lab':\n    print(\"Bring Bluefruit and eye protection!\")\nelif next_lesson == 'WPR':\n    print(\"Study and practice programming!\")\nelse:\n    print(\"Wander around aimlessly!\")"
+    "text": "Chained Conditionals\n\nMany, many possibilities\nEach condition is checked in order\nIf one is true, the rest are skipped\nif ➔ elif ➔ elif ➔ elif ➔ else\nThat last else catches everything!\n\nif next_lesson == 'lecture':\n    print(\"Do the assigned reading!\")\nelif next_lesson == 'lab':\n    print(\"Bring Bluefruit and eye protection!\")\nelif next_lesson == 'WPR':\n    print(\"Study and practice programming!\")\nelse:\n    print(\"Wander around aimlessly!\")\n\n\n\n\n\n\nflowchart TD\n    lecture{next_lesson == 'lecture'}\n    lectureprep[\"Do the assigned reading!\"]\n    labprep[\"Bring Bluefruit and eye protection!\"]\n    lab{next_lesson == 'lab'}\n    WPR{next_lesson == 'WPR'}\n    WPRprep[\"Study and practice programming!\"]\n    seekguidance[\"Wander around aimlessly!\"]\n\n    lecture -- True --&gt; lectureprep\n    lab -- True --&gt; labprep\n    WPR -- True --&gt; WPRprep\n    lecture -- False --&gt; lab -- False --&gt; WPR -- False --&gt; seekguidance"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#in-class-exercise-1",
