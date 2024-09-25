@@ -413,8 +413,7 @@ CPT Sonny Bhatia
 <section id="announcements" class="slide level2 center" data-timing="30">
 <h2>Announcements</h2>
 <ul>
-<li>WPR3 grades are out!</li>
-<li>WPS 5 due 29SEP</li>
+<li>WPS5 due 29SEP</li>
 <li>Robotics Lab starts on 04OCT
 <ul>
 <li><strong>If still missing Bluefruit, email me!</strong></li>
@@ -479,28 +478,77 @@ CPT Sonny Bhatia
 </div>
 </div>
 </section>
+<section id="section" class="slide level2 smaller center" data-timing="120">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<h3 id="chained-conditionals">Chained Conditionals</h3>
+<ul>
+<li>Many, many possibilities</li>
+<li>Each condition is checked in order</li>
+<li>If one is true, the rest are skipped</li>
+<li><code>if</code> ➔ <code>elif</code> ➔ <code>elif</code> ➔ <code>elif</code> ➔ <code>else</code></li>
+<li>That last <code>else</code> catches everything!</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="cf">if</span> next_lesson <span class="op">==</span> <span class="st">'lecture'</span>:</span>
+<span id="cb1-2"><a></a>    <span class="bu">print</span>(<span class="st">"Do the assigned reading!"</span>)</span>
+<span id="cb1-3"><a></a><span class="cf">elif</span> next_lesson <span class="op">==</span> <span class="st">'lab'</span>:</span>
+<span id="cb1-4"><a></a>    <span class="bu">print</span>(<span class="st">"Bring Bluefruit and eye protection!"</span>)</span>
+<span id="cb1-5"><a></a><span class="cf">elif</span> next_lesson <span class="op">==</span> <span class="st">'WPR'</span>:</span>
+<span id="cb1-6"><a></a>    <span class="bu">print</span>(<span class="st">"Study and practice programming!"</span>)</span>
+<span id="cb1-7"><a></a><span class="cf">else</span>:</span>
+<span id="cb1-8"><a></a>    <span class="bu">print</span>(<span class="st">"Wander around aimlessly!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:40%;">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<p><img data-src="14-conditionals-2_files/figure-revealjs/mermaid-figure-2.png" style="width:7.61in;height:8.97in"></p>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="in-class-exercise-1" class="slide level2 center" data-timing="300">
+<h2><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/14/section/6">In-Class Exercise 1</a></h2>
+<p>Our pizza shop is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, chicken sandwiches and soda.</p>
+<ul>
+<li>A slice of pizza still costs 2.50,</li>
+<li>but you can get fries for 1.25</li>
+<li>and onion rings for 1.50.</li>
+<li>A soda costs 99 cents.</li>
+</ul>
+<p><em>Modify the given program</em> so that</p>
+<ul>
+<li>if the user enters something not listed above, print “invalid option!”</li>
+<li>Otherwise prompt for the quantity, add up the cost of the items and display the total plus the 8.5% NY State tax.</li>
+</ul>
+</section>
 <section id="nested-conditionals" class="slide level2 smaller center" data-timing="180">
 <h2>Nested Conditionals</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="kw">def</span> pass_planner(distance, flying):</span>
-<span id="cb1-2"><a></a>    <span class="cf">if</span> distance <span class="op">&lt;=</span> <span class="dv">250</span>:</span>
-<span id="cb1-3"><a></a>        <span class="bu">print</span>(<span class="st">"You do not need a pass!"</span>)</span>
-<span id="cb1-4"><a></a>        <span class="cf">if</span> flying:</span>
-<span id="cb1-5"><a></a>            <span class="bu">print</span>(<span class="st">"Consider driving!"</span>)</span>
-<span id="cb1-6"><a></a>        <span class="cf">else</span>:</span>
-<span id="cb1-7"><a></a>            <span class="bu">print</span>(<span class="st">"Enjoy the drive!"</span>)</span>
-<span id="cb1-8"><a></a>    <span class="cf">else</span>:</span>
-<span id="cb1-9"><a></a>        <span class="bu">print</span>(<span class="st">"Get your DA31 signed!"</span>)</span>
-<span id="cb1-10"><a></a>        <span class="cf">if</span> flying:</span>
-<span id="cb1-11"><a></a>            <span class="bu">print</span>(<span class="st">"Print your itinerary!"</span>)</span>
-<span id="cb1-12"><a></a>        <span class="cf">else</span>:</span>
-<span id="cb1-13"><a></a>            <span class="bu">print</span>(<span class="st">"Get your vehicle inspected!"</span>)</span>
-<span id="cb1-14"><a></a></span>
-<span id="cb1-15"><a></a>pass_planner(<span class="dv">150</span>, <span class="va">True</span>)</span>
-<span id="cb1-16"><a></a>pass_planner(<span class="dv">150</span>, <span class="va">False</span>)</span>
-<span id="cb1-17"><a></a>pass_planner(<span class="dv">500</span>, <span class="va">True</span>)</span>
-<span id="cb1-18"><a></a>pass_planner(<span class="dv">500</span>, <span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="kw">def</span> pass_planner(distance, flying):</span>
+<span id="cb2-2"><a></a>    <span class="cf">if</span> distance <span class="op">&lt;=</span> <span class="dv">250</span>:</span>
+<span id="cb2-3"><a></a>        <span class="bu">print</span>(<span class="st">"You do not need a pass!"</span>)</span>
+<span id="cb2-4"><a></a>        <span class="cf">if</span> flying:</span>
+<span id="cb2-5"><a></a>            <span class="bu">print</span>(<span class="st">"Consider driving!"</span>)</span>
+<span id="cb2-6"><a></a>        <span class="cf">else</span>:</span>
+<span id="cb2-7"><a></a>            <span class="bu">print</span>(<span class="st">"Enjoy the drive!"</span>)</span>
+<span id="cb2-8"><a></a>    <span class="cf">else</span>:</span>
+<span id="cb2-9"><a></a>        <span class="bu">print</span>(<span class="st">"Get your DA31 signed!"</span>)</span>
+<span id="cb2-10"><a></a>        <span class="cf">if</span> flying:</span>
+<span id="cb2-11"><a></a>            <span class="bu">print</span>(<span class="st">"Print your itinerary!"</span>)</span>
+<span id="cb2-12"><a></a>        <span class="cf">else</span>:</span>
+<span id="cb2-13"><a></a>            <span class="bu">print</span>(<span class="st">"Get your vehicle inspected!"</span>)</span>
+<span id="cb2-14"><a></a></span>
+<span id="cb2-15"><a></a>pass_planner(<span class="dv">150</span>, <span class="va">True</span>)</span>
+<span id="cb2-16"><a></a>pass_planner(<span class="dv">150</span>, <span class="va">False</span>)</span>
+<span id="cb2-17"><a></a>pass_planner(<span class="dv">500</span>, <span class="va">True</span>)</span>
+<span id="cb2-18"><a></a>pass_planner(<span class="dv">500</span>, <span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -638,55 +686,6 @@ CPT Sonny Bhatia
 <li><p><a href="https://pythontutor.com/render.html#code=def%20pass_planner%28distance,%20flying%29%3A%0A%20%20%20%20if%20distance%20%3C%3D%20250%3A%0A%20%20%20%20%20%20%20%20print%28%22You%20do%20not%20need%20a%20pass!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Consider%20driving!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Enjoy%20the%20drive!%22%29%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22Get%20your%20DA31%20signed!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Print%20your%20itinerary!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Get%20your%20vehicle%20inspected!%22%29%0A%0Aprint%28%22Test%201%3A%20Flying%20150%20miles%22%29%0Apass_planner%28150,%20True%29%0Aprint%28%22Test%202%3A%20Driving%20150%20miles%22%29%0Apass_planner%28150,%20False%29%0Aprint%28%22Test%203%3A%20Flying%20500%20miles%22%29%0Apass_planner%28500,%20True%29%0Aprint%28%22Test%204%3A%20Driving%20500%20miles%22%29%0Apass_planner%28500,%20False%29&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;mode=display&amp;origin=opt-frontend.js&amp;py=311&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false">Code Tracing</a></p></li>
 </ul>
 </div></div>
-</section>
-<section id="section" class="slide level2 smaller center" data-timing="120">
-<h2></h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<h3 id="chained-conditionals">Chained Conditionals</h3>
-<ul>
-<li>Many, many possibilities</li>
-<li>Each condition is checked in order</li>
-<li>If one is true, the rest are skipped</li>
-<li><code>if</code> ➔ <code>elif</code> ➔ <code>elif</code> ➔ <code>elif</code> ➔ <code>else</code></li>
-<li>That last <code>else</code> catches everything!</li>
-</ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="cf">if</span> next_lesson <span class="op">==</span> <span class="st">'lecture'</span>:</span>
-<span id="cb2-2"><a></a>    <span class="bu">print</span>(<span class="st">"Do the assigned reading!"</span>)</span>
-<span id="cb2-3"><a></a><span class="cf">elif</span> next_lesson <span class="op">==</span> <span class="st">'lab'</span>:</span>
-<span id="cb2-4"><a></a>    <span class="bu">print</span>(<span class="st">"Bring Bluefruit and eye protection!"</span>)</span>
-<span id="cb2-5"><a></a><span class="cf">elif</span> next_lesson <span class="op">==</span> <span class="st">'WPR'</span>:</span>
-<span id="cb2-6"><a></a>    <span class="bu">print</span>(<span class="st">"Study and practice programming!"</span>)</span>
-<span id="cb2-7"><a></a><span class="cf">else</span>:</span>
-<span id="cb2-8"><a></a>    <span class="bu">print</span>(<span class="st">"Wander around aimlessly!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div><div class="column" style="width:40%;">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<p><img data-src="14-conditionals-2_files/figure-revealjs/mermaid-figure-2.png" style="width:7.61in;height:8.97in"></p>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section id="in-class-exercise-1" class="slide level2 center" data-timing="300">
-<h2><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/14/section/6">In-Class Exercise 1</a></h2>
-<p>Our pizza shop is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, chicken sandwiches and soda.</p>
-<ul>
-<li>A slice of pizza still costs 2.50,</li>
-<li>but you can get fries for 1.25</li>
-<li>and onion rings for 1.50.</li>
-<li>A soda costs 99 cents.</li>
-</ul>
-<p><em>Modify the given program</em> so that</p>
-<ul>
-<li>if the user enters something not listed above, print “invalid option!”</li>
-<li>Otherwise prompt for the quantity, add up the cost of the items and display the total plus the 8.5% NY State tax.</li>
-</ul>
 </section>
 <section id="keeping-it-simple" class="slide level2 center">
 <h2>Keeping it simple</h2>
@@ -838,7 +837,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"9e1eea353eb88a3d","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"dde5b1930ed52519","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner

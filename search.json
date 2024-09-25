@@ -1040,7 +1040,7 @@
     "href": "index.html#resources",
     "title": "Computing Fundamentals",
     "section": "Resources",
-    "text": "Resources\n\nCourse Material\n\nCanvas\nzyBook\nRobotics Lab\n\n\n\nDocumentation and Tutorials\n\nDevDocs.io\nPython Notes for Professionals\nOfficial Python Documentation\nHow to Python in VS Code\nHour of Python\n\n\n\nDeveloper Tools\n\nPyodide - in-browser REPL\nMarimo reactive notebook for Python\nPython Tutor\nBlack Code Formatter\nVisual Studio Code\nThonny - Python IDE for beginners\nNotepad++"
+    "text": "Resources\n\nCourse Material\n\nCanvas\nzyBook\nRobotics Lab\n\nCircuit Playground Bluefruit\n\nstudent discount code: GitHubEdu\n\n\n\n\n\nDocumentation and Tutorials\n\nDevDocs.io\nPython Notes for Professionals\nOfficial Python Documentation\nHow to Python in VS Code\nHour of Python\n\n\n\nDeveloper Tools\n\nPyodide - in-browser REPL\nMarimo reactive notebook for Python\nPython Tutor\nBlack Code Formatter\nVisual Studio Code\nThonny - Python IDE for beginners\nNotepad++"
   },
   {
     "objectID": "index.html#random-interesting-material",
@@ -1054,7 +1054,7 @@
     "href": "lessons/14-conditionals-2.html#announcements",
     "title": "Conditional Statements 2",
     "section": "Announcements",
-    "text": "Announcements\n\nWPR3 grades are out!\nWPS 5 due 29SEP\nRobotics Lab starts on 04OCT\n\nIf still missing Bluefruit, email me!"
+    "text": "Announcements\n\nWPS5 due 29SEP\nRobotics Lab starts on 04OCT\n\nIf still missing Bluefruit, email me!"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#discussion",
@@ -1078,20 +1078,6 @@
     "text": "Pizza Shop\n\n\n\n\n\n\nNotebook\nCode Tracing"
   },
   {
-    "objectID": "lessons/14-conditionals-2.html#nested-conditionals",
-    "href": "lessons/14-conditionals-2.html#nested-conditionals",
-    "title": "Conditional Statements 2",
-    "section": "Nested Conditionals",
-    "text": "Nested Conditionals\n\n\ndef pass_planner(distance, flying):\n    if distance &lt;= 250:\n        print(\"You do not need a pass!\")\n        if flying:\n            print(\"Consider driving!\")\n        else:\n            print(\"Enjoy the drive!\")\n    else:\n        print(\"Get your DA31 signed!\")\n        if flying:\n            print(\"Print your itinerary!\")\n        else:\n            print(\"Get your vehicle inspected!\")\n\npass_planner(150, True)\npass_planner(150, False)\npass_planner(500, True)\npass_planner(500, False)\n\n\n\n\n\n\n\n\n\n\ndistance\n\nstaying within 250 miles?\n\n\n\npass\n\nYou do not need a pass!\n\n\n\ndistance-&gt;pass\n\n\nTrue\n\n\n\nda31\n\nGet your DA31 signed!\n\n\n\ndistance-&gt;da31\n\n\nFalse\n\n\n\nairplane\n\nAre you flying?\n\n\n\nconsiderdriving\n\nConsider driving!\n\n\n\nairplane-&gt;considerdriving\n\n\nTrue\n\n\n\nenjoy\n\nEnjoy the drive!\n\n\n\nairplane-&gt;enjoy\n\n\nFalse\n\n\n\nairplane2\n\nAre you flying?\n\n\n\nitinerary\n\nPrint your itinerary!\n\n\n\nairplane2-&gt;itinerary\n\n\nTrue\n\n\n\nvehicle\n\nGet your vehicle inspected!\n\n\n\nairplane2-&gt;vehicle\n\n\nFalse\n\n\n\npass-&gt;airplane\n\n\n\n\n\nda31-&gt;airplane2"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#nested-conditional-code-tracing",
-    "href": "lessons/14-conditionals-2.html#nested-conditional-code-tracing",
-    "title": "Conditional Statements 2",
-    "section": "Nested Conditional Code Tracing",
-    "text": "Nested Conditional Code Tracing\n\n\n\n\n\n\nNotebook\nCode Tracing"
-  },
-  {
     "objectID": "lessons/14-conditionals-2.html#section",
     "href": "lessons/14-conditionals-2.html#section",
     "title": "Conditional Statements 2",
@@ -1104,6 +1090,20 @@
     "title": "Conditional Statements 2",
     "section": "In-Class Exercise 1",
     "text": "In-Class Exercise 1\nOur pizza shop is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, chicken sandwiches and soda.\n\nA slice of pizza still costs 2.50,\nbut you can get fries for 1.25\nand onion rings for 1.50.\nA soda costs 99 cents.\n\nModify the given program so that\n\nif the user enters something not listed above, print “invalid option!”\nOtherwise prompt for the quantity, add up the cost of the items and display the total plus the 8.5% NY State tax."
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#nested-conditionals",
+    "href": "lessons/14-conditionals-2.html#nested-conditionals",
+    "title": "Conditional Statements 2",
+    "section": "Nested Conditionals",
+    "text": "Nested Conditionals\n\n\ndef pass_planner(distance, flying):\n    if distance &lt;= 250:\n        print(\"You do not need a pass!\")\n        if flying:\n            print(\"Consider driving!\")\n        else:\n            print(\"Enjoy the drive!\")\n    else:\n        print(\"Get your DA31 signed!\")\n        if flying:\n            print(\"Print your itinerary!\")\n        else:\n            print(\"Get your vehicle inspected!\")\n\npass_planner(150, True)\npass_planner(150, False)\npass_planner(500, True)\npass_planner(500, False)\n\n\n\n\n\n\n\n\n\n\ndistance\n\nstaying within 250 miles?\n\n\n\npass\n\nYou do not need a pass!\n\n\n\ndistance-&gt;pass\n\n\nTrue\n\n\n\nda31\n\nGet your DA31 signed!\n\n\n\ndistance-&gt;da31\n\n\nFalse\n\n\n\nairplane\n\nAre you flying?\n\n\n\nconsiderdriving\n\nConsider driving!\n\n\n\nairplane-&gt;considerdriving\n\n\nTrue\n\n\n\nenjoy\n\nEnjoy the drive!\n\n\n\nairplane-&gt;enjoy\n\n\nFalse\n\n\n\nairplane2\n\nAre you flying?\n\n\n\nitinerary\n\nPrint your itinerary!\n\n\n\nairplane2-&gt;itinerary\n\n\nTrue\n\n\n\nvehicle\n\nGet your vehicle inspected!\n\n\n\nairplane2-&gt;vehicle\n\n\nFalse\n\n\n\npass-&gt;airplane\n\n\n\n\n\nda31-&gt;airplane2"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#nested-conditional-code-tracing",
+    "href": "lessons/14-conditionals-2.html#nested-conditional-code-tracing",
+    "title": "Conditional Statements 2",
+    "section": "Nested Conditional Code Tracing",
+    "text": "Nested Conditional Code Tracing\n\n\n\n\n\n\nNotebook\nCode Tracing"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#keeping-it-simple",
