@@ -1383,7 +1383,7 @@
     "href": "lessons/15-iteration-while.html#reminders",
     "title": "Iteration with while loops",
     "section": "Reminders",
-    "text": "Reminders\n\n\nwhile whiteboards_have_text:\n    erase('whiteboards')\n\nwhile monitors_are_up:\n    lower('monitors')\n\nwhile still_missing_bluefruit:\n    email('your instructor')\n\nwhile True:\n    read('next_chapter')\n    practice('zyBook problems')\n\nNext Lesson\n\nFunctions!"
+    "text": "Reminders\n\n\nfor whiteboard in whiteboards:\n    erase(whiteboard)\n\nwhile monitors_are_up:\n    lower('monitors')\n\nif still_missing_bluefruit:\n    email('your instructor')\n\nwhile True:\n    read('next_chapter')\n    practice('zyBook problems')\n    sleep()\n\nNext Lesson\n\nFunctions!\nWPS5 due on Sunday!"
   },
   {
     "objectID": "lessons/13-conditionals.html#announcements",
