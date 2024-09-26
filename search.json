@@ -1299,63 +1299,91 @@
     "href": "lessons/15-iteration-while.html#announcements",
     "title": "Iteration with while loops",
     "section": "Announcements",
-    "text": "Announcements\n\nWPS 5 due 29SEP\nRobotics Lab starts on 04OCT\n\nIf still missing Bluefruit, email me!"
+    "text": "Announcements\n\nWPS5 due 29SEP\nRobotics Lab starts on 04OCT\n\nIf still missing Bluefruit…"
   },
   {
     "objectID": "lessons/15-iteration-while.html#discussion",
     "href": "lessons/15-iteration-while.html#discussion",
     "title": "Iteration with while loops",
     "section": "Discussion!",
-    "text": "Discussion!\n\nInteractive Python Notebooks!\n\nMarimo\nJupyter\nGoogle Colab\nKaggle"
-  },
-  {
-    "objectID": "lessons/15-iteration-while.html#announcements-1",
-    "href": "lessons/15-iteration-while.html#announcements-1",
-    "title": "Iteration with while loops",
-    "section": "Announcements",
-    "text": "Announcements\n\nWPS due Sunday!"
-  },
-  {
-    "objectID": "lessons/15-iteration-while.html#discussion-1",
-    "href": "lessons/15-iteration-while.html#discussion-1",
-    "title": "Iteration with while loops",
-    "section": "Discussion!",
-    "text": "Discussion!"
+    "text": "Discussion!\n\nLinux in 100 seconds\nBash in 100 seconds\nWhat is Linux\nHow Linux is Built"
   },
   {
     "objectID": "lessons/15-iteration-while.html#lesson-objectives",
     "href": "lessons/15-iteration-while.html#lesson-objectives",
     "title": "Iteration with while loops",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives"
+    "text": "Lesson Objectives\n\nIdentify the need for conditional iteration based on scenario descriptions\nCompare and contrast while loops with for loops\nIdentify how a loop could repeat forever (infinite loop)\nWrite code that repeats an indefinite number of times using a while loop​"
   },
   {
-    "objectID": "lessons/15-iteration-while.html#in-class-exercise-1",
-    "href": "lessons/15-iteration-while.html#in-class-exercise-1",
+    "objectID": "lessons/15-iteration-while.html#pizza-program",
+    "href": "lessons/15-iteration-while.html#pizza-program",
     "title": "Iteration with while loops",
-    "section": "In-Class Exercise 1",
-    "text": "In-Class Exercise 1"
+    "section": "Pizza Program!",
+    "text": "Pizza Program!\nWrite a Vending Machine algorithm that simulates the purchase of either candy (1.50), chips (.99) or gum (0.75). Ask the user what item they want. Then, the vending machine should take in nickels, dimes, quarters, and half-dollars, and dispense the desired item when the amount is greater than or equal to the item’s cost. If the user inserts more than the item’s cost, tell them how much change they get back."
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#what-is-a-while-loop",
+    "href": "lessons/15-iteration-while.html#what-is-a-while-loop",
+    "title": "Iteration with while loops",
+    "section": "What is a while loop?",
+    "text": "What is a while loop?\n\n\nmore_pushups = not am_i_tired()\n\nif more_pushups:\n    print(\"Down! Up!\")\n\n\nprint(\"Good job!\")\n\nmore_pushups = True\n\nwhile more_pushups:\n    print(\"Down! Up!\")\n    more_pushups = not am_i_tired()\n\nprint(\"Good job!\")\n\n\nrepeat a block of code\n\nas long as a condition is true\nindefinite iteration!\n\njust like if statements\nsee page 3 of your reference card"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#controlling-condition",
+    "href": "lessons/15-iteration-while.html#controlling-condition",
+    "title": "Iteration with while loops",
+    "section": "Controlling Condition",
+    "text": "Controlling Condition\n\nwhile loops repeat as long as the condition stays True\nWhat if the condition is False before it starts?\nWhat if the condition never becomes False?\nCan we use it for definite iteration?\n\nCounting to 10?\n\n\ncount = 0\nwhile count &lt; 10:\n    print(count)\n    count += 1"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#example",
+    "href": "lessons/15-iteration-while.html#example",
+    "title": "Iteration with while loops",
+    "section": "Example",
+    "text": "Example\n\n\n\n\n\nWhat is the controlling condition? How does loop terminate?\nWhat lines are part of the loop body?\nAre the number of iterations definite or indefinite?\nWhat actions are inside the loop? Outside the loop?\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotebook"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#another-example",
+    "href": "lessons/15-iteration-while.html#another-example",
+    "title": "Iteration with while loops",
+    "section": "Another Example",
+    "text": "Another Example\nuser_says = \"\"\nwhile user_says != \"quit\":\n    user_says = input(\"Say something: \")\n    print(f\"You said: {user_says}\")\nprint(\"All done!\")\n\nWhat is the controlling condition? How does loop terminate?\nWhat lines are part of the loop body?\nAre the number of iterations definite or indefinite?\nWhat actions are inside the loop? Outside the loop?"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#one-more-example",
+    "href": "lessons/15-iteration-while.html#one-more-example",
+    "title": "Iteration with while loops",
+    "section": "One More Example",
+    "text": "One More Example\nuser_says = input(\"Say something: \")\nwhile user_says != \"quit\":\n    print(f\"You said: {user_says}\")\nprint(\"All done!\")\n\nWhat is the controlling condition? How does loop terminate?\nWhat lines are part of the loop body?\nAre the number of iterations definite or indefinite?\nWhat actions are inside the loop? Outside the loop?"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#for-vs-while-which-one-to-use",
+    "href": "lessons/15-iteration-while.html#for-vs-while-which-one-to-use",
+    "title": "Iteration with while loops",
+    "section": "for vs while: which one to use?",
+    "text": "for vs while: which one to use?\n\nList the mathematical cube of all odd integers from 3 to 11.\nAssign a company to each new cadet until no more names are given.\nAsk a customer to order menu items until they are satisfied.\nDisplay the values of each item in a list.\n\nNote: How many times will each loop run?"
   },
   {
     "objectID": "lessons/15-iteration-while.html#in-class-exercise-2",
     "href": "lessons/15-iteration-while.html#in-class-exercise-2",
     "title": "Iteration with while loops",
     "section": "In-Class Exercise 2",
-    "text": "In-Class Exercise 2"
+    "text": "In-Class Exercise 2\nWrite a Vending Machine program that simulates the purchase of either candy (1.50), chips (.99) or gum (0.75). The program should prompt the user what item they want. Then, the vending machine should take in nickels, dimes, quarters, and half-dollars, and dispense the desired item when the amount is greater than or equal to the item’s cost. If the user inserts more than the item’s cost, display the change.\n\nWhat item do you want? candy\ncandy costs $1.5\nPlease insert a coin: 50\nPlease insert a coin: 1\nInvalid coin type!\nPlease insert a coin: 50\nPlease insert a coin: 25\nPlease insert a coin: 50\nPlease enjoy your candy! Here is your change: 25 cents"
   },
   {
     "objectID": "lessons/15-iteration-while.html#in-class-exercise-3",
     "href": "lessons/15-iteration-while.html#in-class-exercise-3",
     "title": "Iteration with while loops",
     "section": "In-Class Exercise 3",
-    "text": "In-Class Exercise 3"
+    "text": "In-Class Exercise 3\nWrite a guessing game called TwentyQuestions. Your program should first pick a number between 1 and 100 inclusive. The user has only twenty guesses in which to guess the correct number. Each time the user guesses, your program should print out “Too low” if the guess is too low, and “too high” if it is too high. If the player guesses the number right, you should output “Congratulations!” along with the number of guesses it took them. If they lose, print “Better luck next time!”"
   },
   {
     "objectID": "lessons/15-iteration-while.html#reminders",
     "href": "lessons/15-iteration-while.html#reminders",
     "title": "Iteration with while loops",
     "section": "Reminders",
-    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice more!"
+    "text": "Reminders\n\n\nwhile whiteboards_have_text:\n    erase('whiteboards')\n\nwhile monitors_are_up:\n    lower('monitors')\n\nwhile still_missing_bluefruit:\n    email('your instructor')\n\nwhile True:\n    read('next_chapter')\n    practice('zyBook problems')\n\nNext Lesson\n\nFunctions!"
   },
   {
     "objectID": "lessons/13-conditionals.html#announcements",
@@ -1845,7 +1873,7 @@
     "href": "lessons/16-functions.html#discussion",
     "title": "Writing Functions",
     "section": "Discussion!",
-    "text": "Discussion!\n\nLinux in 100 seconds\nBash in 100 seconds\nWhat is Linux\nHow Linux is Built"
+    "text": "Discussion!\n\nInteractive Python Notebooks!\n\nMarimo\nJupyter\nGoogle Colab\nKaggle"
   },
   {
     "objectID": "lessons/16-functions.html#lesson-objectives",

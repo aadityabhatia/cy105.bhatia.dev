@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="../slides.css">
@@ -348,10 +413,10 @@ CPT Sonny Bhatia
 <section id="announcements" class="slide level2 center" data-timing="0">
 <h2>Announcements</h2>
 <ul>
-<li>WPS 5 due 29SEP</li>
+<li>WPS5 due 29SEP</li>
 <li>Robotics Lab starts on 04OCT
 <ul>
-<li><strong>If still missing Bluefruit, email me!</strong></li>
+<li><strong>If still missing Bluefruit…</strong></li>
 </ul></li>
 </ul>
 
@@ -359,54 +424,181 @@ CPT Sonny Bhatia
 <section id="discussion" class="slide level2 center" data-timing="300">
 <h2>Discussion!</h2>
 <ul>
-<li>Interactive Python Notebooks!
+<li><a href="https://www.youtube.com/embed/rrB15utjYV4">Linux in 100 seconds</a></li>
+<li><a href="https://www.youtube.com/embed/I4EWvMFj37g">Bash in 100 seconds</a></li>
+<li><a href="https://www.youtube.com/embed/zA3vmx0GaO8">What is Linux</a></li>
+<li><a href="https://www.youtube.com/embed/yVpbFMhOAwE">How Linux is Built</a></li>
+</ul>
+</section>
+<section id="lesson-objectives" class="slide level2 center">
+<h2>Lesson Objectives</h2>
 <ul>
-<li><a href="https://marimo.app/">Marimo</a></li>
-<li><a href="https://jupyter.org/">Jupyter</a></li>
-<li><a href="https://colab.research.google.com/">Google Colab</a></li>
-<li><a href="https://www.kaggle.com/">Kaggle</a></li>
+<li>Identify the need for conditional iteration based on scenario descriptions</li>
+<li>Compare and contrast <code>while</code> loops with <code>for</code> loops</li>
+<li>Identify how a loop could repeat forever (infinite loop)</li>
+<li>Write code that repeats an indefinite number of times using a <code>while</code> loop​</li>
+</ul>
+</section>
+<section id="pizza-program" class="slide level2 center" data-timing="600">
+<h2>Pizza Program!</h2>
+<p>Write a Vending Machine <strong>algorithm</strong> that simulates the purchase of either candy (1.50), chips (.99) or gum (0.75). Ask the user what item they want. Then, the vending machine should take in nickels, dimes, quarters, and half-dollars, and dispense the desired item when the amount is greater than or equal to the item’s cost. If the user inserts more than the item’s cost, tell them how much change they get back.</p>
+</section>
+<section id="what-is-a-while-loop" class="slide level2 center">
+<h2>What is a <code>while</code> loop?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>more_pushups <span class="op">=</span> <span class="kw">not</span> am_i_tired()</span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a><span class="cf">if</span> more_pushups:</span>
+<span id="cb1-4"><a></a>    <span class="bu">print</span>(<span class="st">"Down! Up!"</span>)</span>
+<span id="cb1-5"><a></a></span>
+<span id="cb1-6"><a></a></span>
+<span id="cb1-7"><a></a><span class="bu">print</span>(<span class="st">"Good job!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:50%;">
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>more_pushups <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb2-2"><a></a></span>
+<span id="cb2-3"><a></a><span class="cf">while</span> more_pushups:</span>
+<span id="cb2-4"><a></a>    <span class="bu">print</span>(<span class="st">"Down! Up!"</span>)</span>
+<span id="cb2-5"><a></a>    more_pushups <span class="op">=</span> <span class="kw">not</span> am_i_tired()</span>
+<span id="cb2-6"><a></a></span>
+<span id="cb2-7"><a></a><span class="bu">print</span>(<span class="st">"Good job!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+<ul>
+<li>repeat a block of code
+<ul>
+<li>as long as a condition is true</li>
+<li>indefinite iteration!</li>
+</ul></li>
+<li>just like <code>if</code> statements</li>
+<li>see page 3 of <a href="../images/referenceCard/CY105_ReferenceCard_AY251.pdf">your reference card</a></li>
+</ul>
+</section>
+<section id="controlling-condition" class="slide level2 center" data-timing="120">
+<h2>Controlling Condition</h2>
+<ul>
+<li><code>while</code> loops repeat as long as the condition stays <code>True</code></li>
+<li>What if the condition is <code>False</code> before it starts?</li>
+<li>What if the condition never becomes <code>False</code>?</li>
+<li>Can we use it for definite iteration?
+<ul>
+<li>Counting to 10?</li>
 </ul></li>
 </ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>count <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb3-2"><a></a><span class="cf">while</span> count <span class="op">&lt;</span> <span class="dv">10</span>:</span>
+<span id="cb3-3"><a></a>    <span class="bu">print</span>(count)</span>
+<span id="cb3-4"><a></a>    count <span class="op">+=</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="announcements-1" class="slide level2 center" data-timing="60">
-<h2>Announcements</h2>
+<section id="example" class="slide level2 center" data-timing="180">
+<h2>Example</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
+<iframe width="100%" height="450" src="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7gGIAVwLxmbB06p1gxnjObh5wAHzMvGz2TrFwYCgeqi7uMJpxTimhzFnwANRwvD6OCcBJLAAiEEQAhCzpTlB4MK5QBHDJITAANJoYwFbYBIggeNhMzCzYSGXYLDFOehxQ7hpoQA">
+</iframe>
 <ul>
-<li>WPS due Sunday!</li>
+<li>What is the controlling condition? How does loop terminate?</li>
+<li>What lines are part of the loop body?</li>
+<li>Are the number of iterations definite or indefinite?</li>
+<li>What actions are inside the loop? Outside the loop?</li>
 </ul>
-
-<img data-src="../images/agenda-block-2.png" class="r-stretch"></section>
-<section id="discussion-1" class="slide level2 center" data-timing="240">
-<h2>Discussion!</h2>
+</div><div class="column" style="width:20%;">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<p><img data-src="15-iteration-while_files/figure-revealjs/mermaid-figure-1.png" style="width:3.04in;height:4.42in"></p>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><a href="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7gGIAVwLxmbB06p1gxnjObh5wAHzMvGz2TrFwYCgeqi7uMJpxTimhzFnwANRwvD6OCcBJLAAiEEQAhCzpTlB4MK5QBHDJITAANJoYwFbYBIggeNhMzCzYSGXYLDFOehxQ7hpoQA">Notebook</a></p>
+</div></div>
 </section>
-<section id="lesson-objectives" class="slide level2 center" data-timing="30">
-<h2>Lesson Objectives</h2>
+<section id="another-example" class="slide level2 center">
+<h2>Another Example</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>user_says <span class="op">=</span> <span class="st">""</span></span>
+<span id="cb4-2"><a></a><span class="cf">while</span> user_says <span class="op">!=</span> <span class="st">"quit"</span>:</span>
+<span id="cb4-3"><a></a>    user_says <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Say something: "</span>)</span>
+<span id="cb4-4"><a></a>    <span class="bu">print</span>(<span class="ss">f"You said: </span><span class="sc">{</span>user_says<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb4-5"><a></a><span class="bu">print</span>(<span class="st">"All done!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>What is the controlling condition? How does loop terminate?</li>
+<li>What lines are part of the loop body?</li>
+<li>Are the number of iterations definite or indefinite?</li>
+<li>What actions are inside the loop? Outside the loop?</li>
+</ul>
 </section>
-<section id="check-on-learning" class="title-slide slide level1 center" data-timing="300">
-<h1>Check on Learning</h1>
-
+<section id="one-more-example" class="slide level2 center">
+<h2>One More Example</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a>user_says <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Say something: "</span>)</span>
+<span id="cb5-2"><a></a><span class="cf">while</span> user_says <span class="op">!=</span> <span class="st">"quit"</span>:</span>
+<span id="cb5-3"><a></a>    <span class="bu">print</span>(<span class="ss">f"You said: </span><span class="sc">{</span>user_says<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb5-4"><a></a><span class="bu">print</span>(<span class="st">"All done!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>What is the controlling condition? How does loop terminate?</li>
+<li>What lines are part of the loop body?</li>
+<li>Are the number of iterations definite or indefinite?</li>
+<li>What actions are inside the loop? Outside the loop?</li>
+</ul>
 </section>
-
+<section id="for-vs-while-which-one-to-use" class="slide level2 center">
+<h2><code>for</code> vs <code>while</code>: which one to use?</h2>
+<ul>
+<li>List the mathematical cube of <em>all</em> odd integers from 3 to 11.</li>
+<li>Assign a company to <em>each</em> new cadet <em>until</em> no more names are given.</li>
+<li>Ask a customer to order menu items <em>until</em> they are satisfied.</li>
+<li>Display the values of <em>each item</em> in a list.</li>
+</ul>
+<p>Note: How many times will each loop run?</p>
+</section>
 <section>
-<section id="in-class-exercises" class="title-slide slide level1 center" data-timing="900">
+<section id="in-class-exercises" class="title-slide slide level1 center" data-timing="1500">
 <h1>In-Class Exercises</h1>
 
 </section>
-<section id="in-class-exercise-1" class="slide level2 center" data-timing="0">
-<h2>In-Class Exercise 1</h2>
-</section>
 <section id="in-class-exercise-2" class="slide level2 center" data-timing="0">
 <h2>In-Class Exercise 2</h2>
+<p>Write a Vending Machine program that simulates the purchase of either candy (1.50), chips (.99) or gum (0.75). The program should prompt the user what item they want. Then, the vending machine should take in nickels, dimes, quarters, and half-dollars, and dispense the desired item when the amount is greater than or equal to the item’s cost. If the user inserts more than the item’s cost, display the change.</p>
+<blockquote>
+<p>What item do you want? candy</p>
+<p>candy costs $1.5</p>
+<p>Please insert a coin: 50</p>
+<p>Please insert a coin: 1</p>
+<p>Invalid coin type!</p>
+<p>Please insert a coin: 50</p>
+<p>Please insert a coin: 25</p>
+<p>Please insert a coin: 50</p>
+<p>Please enjoy your candy! Here is your change: 25 cents</p>
+</blockquote>
 </section>
 <section id="in-class-exercise-3" class="slide level2 center" data-timing="0">
 <h2>In-Class Exercise 3</h2>
+<p>Write a guessing game called TwentyQuestions. Your program should first pick a number between 1 and 100 inclusive. The user has only twenty guesses in which to guess the correct number. Each time the user guesses, your program should print out “Too low” if the guess is too low, and “too high” if it is too high. If the player guesses the number right, you should output “Congratulations!” along with the number of guesses it took them. If they lose, print “Better luck next time!”</p>
 </section>
-<section id="reminders" class="slide level2 center">
+<section id="reminders" class="slide level2 center" data-timing="60">
 <h2>Reminders</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="cf">while</span> whiteboards_have_text:</span>
+<span id="cb6-2"><a></a>    erase(<span class="st">'whiteboards'</span>)</span>
+<span id="cb6-3"><a></a></span>
+<span id="cb6-4"><a></a><span class="cf">while</span> monitors_are_up:</span>
+<span id="cb6-5"><a></a>    lower(<span class="st">'monitors'</span>)</span>
+<span id="cb6-6"><a></a></span>
+<span id="cb6-7"><a></a><span class="cf">while</span> still_missing_bluefruit:</span>
+<span id="cb6-8"><a></a>    email(<span class="st">'your instructor'</span>)</span>
+<span id="cb6-9"><a></a></span>
+<span id="cb6-10"><a></a><span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb6-11"><a></a>    read(<span class="st">'next_chapter'</span>)</span>
+<span id="cb6-12"><a></a>    practice(<span class="st">'zyBook problems'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:50%;">
+<h3 id="next-lesson">Next Lesson</h3>
 <ul>
-<li>Clear whiteboards and desks</li>
-<li>Lower monitors; leave nothing behind</li>
-<li>Practice more!</li>
+<li>Functions!</li>
 </ul>
+</div></div>
 
 <div class="quarto-auto-generated-content">
 <p><img src="../images/wp_crest_new_only.png" class="slide-logo"></p>
@@ -448,7 +640,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"dbb58fdd3a005059","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"6cd33b53a2802020","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -559,7 +751,7 @@ CPT Sonny Bhatia
         defaultTiming: 60,
 
         // Enable slide navigation via mouse wheel
-        mouseWheel: false,
+        mouseWheel: true,
 
         // The display mode that will be used to show slides
         display: 'block',
