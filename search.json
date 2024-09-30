@@ -1026,7 +1026,7 @@
     "href": "index.html#lessons",
     "title": "Computing Fundamentals",
     "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\nCPT Sonny Bhatia\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#course-objectives",
@@ -1873,7 +1873,7 @@
     "href": "lessons/16-functions.html#discussion",
     "title": "Writing Functions",
     "section": "Discussion!",
-    "text": "Discussion!\n\nMeanwhile, trying to learn English…"
+    "text": "Discussion!\n\nInteractive Python Notebooks!\n\nMarimo\nJupyter\nGoogle Colab\nKaggle\n\nMeanwhile, trying to learn a language…"
   },
   {
     "objectID": "lessons/16-functions.html#lesson-objectives",
@@ -1915,48 +1915,48 @@
     "href": "lessons/16-functions.html#example-is-prime-number",
     "title": "Writing Functions",
     "section": "Example: Is Prime Number?",
-    "text": "Example: Is Prime Number?\n\n\n\n\n\n\nNotebook\n\n\n\n\n\n\n\n\n\nIsPrime\n\nis_prime\n\nis_prime(n)\n\n\n\narg1\n\nn\n\n\n\ncheckIfEven\n\nn &lt; 2\n\n\n\narg1-&gt;checkIfEven\n\n\n\n\n\nloop\n\niterate over numbers\n i = 2 to n-1\n\n\n\ncheckIfEven-&gt;loop\n\n\nFalse\n\n\n\nreturnFalse\n\nreturn False\n\n\n\ncheckIfEven-&gt;returnFalse\n\n\nTrue\n\n\n\ncheckIfDivisible\n\nis n divisible by i?\n\n\n\nloop-&gt;checkIfDivisible\n\n\ncheck next number\n\n\n\nreturnTrue\n\nreturn True\n\n\n\nloop-&gt;returnTrue\n\n\niteration complete\n\n\n\ncheckIfDivisible-&gt;loop\n\n\nFalse\n\n\n\ncheckIfDivisible-&gt;returnFalse\n\n\n\n\n\nreturnFalse2\n\nreturn False\n\n\n\ncheckIfDivisible-&gt;returnFalse2\n\n\nTrue"
+    "text": "Example: Is Prime Number?\n\n\n\n\n\n\nNotebook\nis_prime() repeated\nHow does it work?\n\n\n\n\n\n\n\n\n\nIsPrime\n\nis_prime\n\nis_prime(n)\n\n\n\narg1\n\nn\n\n\n\ncheckIfEven\n\nn &lt; 2\n\n\n\narg1-&gt;checkIfEven\n\n\n\n\n\nloop\n\niterate over numbers\n i = 2 to n-1\n\n\n\ncheckIfEven-&gt;loop\n\n\nFalse\n\n\n\nreturnFalse\n\nreturn False\n\n\n\ncheckIfEven-&gt;returnFalse\n\n\nTrue\n\n\n\ncheckIfDivisible\n\nis n divisible by i?\n\n\n\nloop-&gt;checkIfDivisible\n\n\ncheck next number\n\n\n\nreturnTrue\n\nreturn True\n\n\n\nloop-&gt;returnTrue\n\n\niteration complete\n\n\n\ncheckIfDivisible-&gt;loop\n\n\nFalse\n\n\n\ncheckIfDivisible-&gt;returnFalse\n\n\n\n\n\nreturnFalse2\n\nreturn False\n\n\n\ncheckIfDivisible-&gt;returnFalse2\n\n\nTrue"
   },
   {
     "objectID": "lessons/16-functions.html#variable-scope",
     "href": "lessons/16-functions.html#variable-scope",
     "title": "Writing Functions",
     "section": "Variable Scope",
-    "text": "Variable Scope\n\n\n\nScope: where a variable is accessible\nLocal variables: declared inside a function\n\nWhat happens within a function…\n\nGlobal variables: declared outside a function\n\navoid this!\nthis is why we use a main() function\n\n\n\ndef pow(b, p):\n1    y = b**p\n    return y\n\ndef square(x):\n2    a = pow(x, 2)\n    return a\n\ndef main():\n3    b = 11\n4    a = 7\n5    p = square(a)\n6    print(a, b, p, y)\n\n1\n\ny defined in pow()\n\n2\n\na defined in square()\n\n3\n\nunrelated to the b in pow()\n\n4\n\nunrelated to the a in square()\n\n5\n\nthis p does not affect pow() or square()\n\n6\n\nError: y is not defined in this scope!"
+    "text": "Variable Scope\n\n\n\nScope: where a variable is accessible\nLocal variables: declared inside a function\n\nWhat happens within a function…\n\nGlobal variables: declared outside a function\n\nUse global keyword to access it\navoid this!\n\nmain() function provides a context\n\nkeeps your variables local and code organized\n\n\n\ndef pow(b, p):\n1    y = b**p\n    return y\n\ndef square(x):\n2    a = pow(x, 2)\n    return a\n\ndef main():\n3    a = 7\n4    b = 11\n5    p = square(a)\n6    print(a, b, p, y)\n\n1\n\ny defined in pow()\n\n2\n\na defined in square()\n\n3\n\nunrelated to the a in square()\n\n4\n\nunrelated to the b in pow()\n\n5\n\nthis p does not affect pow() or square()\n\n6\n\ny is not defined in this scope!"
   },
   {
     "objectID": "lessons/16-functions.html#example-exponents",
     "href": "lessons/16-functions.html#example-exponents",
     "title": "Writing Functions",
     "section": "Example: Exponents",
-    "text": "Example: Exponents\n\n\n\n\n\nNotebook"
+    "text": "Example: Exponents\n\n\n\n\n\n\nNotebook\nWhat is broken?\nWhy?"
   },
   {
     "objectID": "lessons/16-functions.html#in-class-exercise-1-code-tracing",
     "href": "lessons/16-functions.html#in-class-exercise-1-code-tracing",
     "title": "Writing Functions",
     "section": "In-Class Exercise 1: Code Tracing",
-    "text": "In-Class Exercise 1: Code Tracing\n\n\n\n\n\nPython Tutor"
+    "text": "In-Class Exercise 1: Code Tracing\n\n\n\n\n\n\nPython Tutor\nTrace the flow!\nUse the flowchart below.\n\n\n\n\n\n\n\n\n\nIsPrime\n\nis_prime\n\nis_prime(n)\n\n\n\narg1\n\nn\n\n\n\ncheckIfEven\n\nn &lt; 2\n\n\n\narg1-&gt;checkIfEven\n\n\n\n\n\nloop\n\niterate over numbers\n i = 2 to n-1\n\n\n\ncheckIfEven-&gt;loop\n\n\nFalse\n\n\n\nreturnFalse\n\nreturn False\n\n\n\ncheckIfEven-&gt;returnFalse\n\n\nTrue\n\n\n\ncheckIfDivisible\n\nis n divisible by i?\n\n\n\nloop-&gt;checkIfDivisible\n\n\ncheck next number\n\n\n\nreturnTrue\n\nreturn True\n\n\n\nloop-&gt;returnTrue\n\n\niteration complete\n\n\n\ncheckIfDivisible-&gt;loop\n\n\nFalse\n\n\n\ncheckIfDivisible-&gt;returnFalse\n\n\n\n\n\nreturnFalse2\n\nreturn False\n\n\n\ncheckIfDivisible-&gt;returnFalse2\n\n\nTrue"
   },
   {
     "objectID": "lessons/16-functions.html#in-class-exercise-2-factorial",
     "href": "lessons/16-functions.html#in-class-exercise-2-factorial",
     "title": "Writing Functions",
     "section": "In-Class Exercise 2: Factorial",
-    "text": "In-Class Exercise 2: Factorial\n\n\n\n\n\nNotebook"
+    "text": "In-Class Exercise 2: Factorial\n\n\n\n\n\n\nNotebook\nUpdate factorial()"
   },
   {
     "objectID": "lessons/16-functions.html#in-class-exercise-3-combination-count",
     "href": "lessons/16-functions.html#in-class-exercise-3-combination-count",
     "title": "Writing Functions",
     "section": "In-Class Exercise 3: Combination Count",
-    "text": "In-Class Exercise 3: Combination Count\nWrite a function n_choose_k() that takes two integers, n and k as its two parameters. Your function should return the value of \\({}^nC_k\\) as follows.\n\\[{}^nC_k = \\frac{n!}{k!(n-k)!}\\]\n\nNotebook\n\n\nSolution"
+    "text": "In-Class Exercise 3: Combination Count\n\\({}^nC_k\\) denotes the number of ways to choose \\(k\\) items from a set of \\(n\\) items. For example, if you have red, green, blue, and yellow marbles and you want to choose two of them, there are six possible combinations: red-green, red-blue, red-yellow, green-blue, green-yellow, and blue-yellow.\n\\({}^nC_k\\) is calculated using the formula:\n\\[{}^nC_k = \\frac{n!}{k!(n-k)!}\\]\nWrite a function n_choose_k() that takes two integers, n and k as its two parameters. Your function should return the value of \\({}^nC_k\\).\n\nNotebook\nHint: Use the factorial() function that you just wrote!\n\n\nSolution"
   },
   {
     "objectID": "lessons/16-functions.html#reminders",
     "href": "lessons/16-functions.html#reminders",
     "title": "Writing Functions",
     "section": "Reminders",
-    "text": "Reminders\n\n\nfor whiteboard in whiteboards:\n    erase(whiteboard)\n\nverify_bluefruit() # eyes on, hands on\n\nwhile missing_eye_protection:\n    try:\n        beg() or borrow() or tactically_acquire()\n        missing_eye_protection = False\n    except:\n        print(\"Keep trying!\")\n\nwhile not cadet_is_expert:\n    practice('zyBook ICEs')\n\nNext Lesson\n\nProgramming Lab\n\nCome with questions!\n\nWPS due on Sunday!"
+    "text": "Reminders\n\n\nfor whiteboard in whiteboards:\n    erase(whiteboard)\n\nverify_bluefruit() # eyes on, hands on\n\nwhile missing_eye_protection:\n    try:\n        beg() or borrow() or tactically_acquire()\n        missing_eye_protection = False\n    except:\n        print(\"Keep trying!\")\n\nwhile not cadet_is_expert:\n    practice('zyBook ICEs')\n\nNext Lesson\n\nProgramming Lab\n\nChoose your own adventure!\nCome prepared with questions!\n\nWPS due on Sunday!"
   }
 ]
