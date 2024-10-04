@@ -679,6 +679,447 @@
     "text": "Reminders\n\n\nfor whiteboard in whiteboards:\n    erase(whiteboard)\n\nwhile monitors_are_up:\n    lower('monitors')\n\nif still_missing_bluefruit:\n    email('your instructor')\n\nwhile True:\n    read('next_chapter')\n    practice('zyBook problems')\n    sleep()\n\nNext Lesson\n\nFunctions!\nWPS5 due on Sunday!"
   },
   {
+    "objectID": "lessons/08-lists-strings.html#discussion",
+    "href": "lessons/08-lists-strings.html#discussion",
+    "title": "Lists and Strings",
+    "section": "Discussion!",
+    "text": "Discussion!\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#announcements",
+    "href": "lessons/08-lists-strings.html#announcements",
+    "title": "Lists and Strings",
+    "section": "Announcements",
+    "text": "Announcements\n\nWPS3 due 08SEP\nWPS4 due 15SEP"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#lesson-objectives",
+    "href": "lessons/08-lists-strings.html#lesson-objectives",
+    "title": "Lists and Strings",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nCompare, contrast and use common operations on lists and strings, such as indexing, concatenation and replication\nArticulate which built-in functions operate on lists and strings and what they do: len(), min(), max()\nIterate through the elements in a list/string using a for loop\nWrite programs that combine string/list operators with iteration"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#note",
+    "href": "lessons/08-lists-strings.html#note",
+    "title": "Lists and Strings",
+    "section": "Note",
+    "text": "Note\n\n\n\nThese slides are interactive.\n\nUse them as a reference\nBring them up on your second monitor!\nExtended display -&gt; Windows + P\n\nRecommend bringing a mouse\n\n\n\nICEs are for your benefit\n\nCannot cover them all in class\nNot a test! Discuss the problem and help each other.\nUse them to practice and get better!!\nAlso see the solution"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#review",
+    "href": "lessons/08-lists-strings.html#review",
+    "title": "Lists and Strings",
+    "section": "Review",
+    "text": "Review\n\nLists and Strings are examples of a collection data type\n\nComprised of smaller pieces\nBoth are sequences of elements\nCan be treated as a single entity or accessed in parts\n\nEach individual element is assigned a unique position called an index\n\nUse [index] to access a specific element\n\n\n\n\nThink about how these compare to other data types.\nAre these the same? '' and ' '\nCan a list contain another list?\nCan I add two strings?\nCan I add two lists?"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#in-class-exercise",
+    "href": "lessons/08-lists-strings.html#in-class-exercise",
+    "title": "Lists and Strings",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\nWrite an algorithm for a program that prompts a user to enter a string. The program then should create a new version of the string where all the characters are stretched out, in other words, separated by spaces. Finally, the program should display the stretched-out string to the screen.\n\nEnter a string: stretch armstrong\ns t r e t c h   a r m s t r o n g\n\nzyBook: 8.7.2: ICE 2"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#string-operations",
+    "href": "lessons/08-lists-strings.html#string-operations",
+    "title": "Lists and Strings",
+    "section": "String Operations",
+    "text": "String Operations\n\nConcatenation - +\nReplication - *\nIndexing - []\n\n\n\nx = 'hello'\ny = 'world'\nx + y\nx * 3 + y * 2\nz = \"West Point!\"\nz[0], z[1], z[2], z[-1], z[-2], z[-3]"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#string-iteration",
+    "href": "lessons/08-lists-strings.html#string-iteration",
+    "title": "Lists and Strings",
+    "section": "String Iteration",
+    "text": "String Iteration\nmy_string = \"Hello, World! This is a string.\"\nlength = len(my_string)\n\nfor char in my_string:\n    print(char)\n\nUsing len() and range() to iterate over the indices of a string\n\nfor i in range(length):\n    char = my_string[i]\n    print(char)\n\nIterating over every other character\n\nfor i in range(0, length, 2):\n    print(my_string[i])\n\nIterating in reverse\n\nfor i in range(length - 1, -1, -1):\n    print(my_string[i])"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#in-class-exercise-1",
+    "href": "lessons/08-lists-strings.html#in-class-exercise-1",
+    "title": "Lists and Strings",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\n\nzyBook: 8.7.2: ICE 2\n\nImplement a program that prompts a user to enter a string. The program then should create a new version of the string where all the characters are stretched out, in other words, separated by spaces. Finally, the program should display the stretched-out string to the screen.\n\nEnter a string: stretch armstrong\ns t r e t c h   a r m s t r o n g\n\n\n\nProgram: Stretch a String\nInput: A string\nOutput: A string with each character separated by a space\n\n\nPrompt the user for a string\nCreate a new string\nFor each character in the original string\n\nAdd the character to the new string\nAdd a space to the new string\n\nPrint the new string"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#bonus-f-strings",
+    "href": "lessons/08-lists-strings.html#bonus-f-strings",
+    "title": "Lists and Strings",
+    "section": "Bonus: f-strings",
+    "text": "Bonus: f-strings\nname = \"Dan\"\nage = 21\nprint(f\"Hello, my name is {name} and I am {age} years old.\")\n\none = 1\ntwo = 2\nprint(f\"{one} + {two} = {one + two}\")\n\nfstring.help"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#list-operations",
+    "href": "lessons/08-lists-strings.html#list-operations",
+    "title": "Lists and Strings",
+    "section": "List Operations",
+    "text": "List Operations\n\nConcatenation - +\nReplication - *\nIndexing - []\n\n\n\nx = [1, 2, 3]\ny = [4, 5, 6]\nx + y\nx * 3\nz = [1, 2, 3, 4, 5]\nz[0], z[1], z[2], z[-1], z[-2], z[-3]"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#modifying-a-list",
+    "href": "lessons/08-lists-strings.html#modifying-a-list",
+    "title": "Lists and Strings",
+    "section": "Modifying a List",
+    "text": "Modifying a List\n\nList items can be modified: stuff[2] = 5\nStrings cannot be modified: x[2] = 'a'\n\n\n\nx = [1, 2, 3, 4, 5]\nx[2] = 10\nx[0] = x[1] + x[2]\nx[3] = x[4]"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#modifying-a-list-of-characters",
+    "href": "lessons/08-lists-strings.html#modifying-a-list-of-characters",
+    "title": "Lists and Strings",
+    "section": "Modifying a List… of characters?",
+    "text": "Modifying a List… of characters?\nsnack = list(\"pineapple\")\nsnack[0] = \"l\"\nsnack[2] = \"m\"\nWhat is the value of snack now?"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#modifying-a-list-1",
+    "href": "lessons/08-lists-strings.html#modifying-a-list-1",
+    "title": "Lists and Strings",
+    "section": "Modifying a List",
+    "text": "Modifying a List\nnumbers = [1, 2, 3, 4, 5]\nWhich of the following code snippets successfully modifies the list so that all the elements are squared? Select all that apply.\n\n   for i in numbers:\n       i ** 2\n   for i in range(len(numbers)):\n       numbers[i] ** 2\n   for i in range(len(numbers)):\n       numbers[i] = numbers[i] ** 2\n\n\nLive demo"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#iterating-through-a-list-using-len-and-range",
+    "href": "lessons/08-lists-strings.html#iterating-through-a-list-using-len-and-range",
+    "title": "Lists and Strings",
+    "section": "Iterating through a List using len() and range()",
+    "text": "Iterating through a List using len() and range()\n\nA for loop can iterate over each item in a list\n\nfruits = [\"apple\", \"banana\", \"cherry\", \"date\", \"elderberry\"]\nfor item in fruits:\n    print(item)\n\nWe can also use len() and range() to iterate over the indices of a list\n\nfruits = [\"apple\", \"banana\", \"cherry\", \"date\", \"elderberry\"]\nlength = len(fruits)\nfor i in range(length):\n    item = fruits[i]\n    print(item)\n\nLive demo"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#in-class-exercise-2",
+    "href": "lessons/08-lists-strings.html#in-class-exercise-2",
+    "title": "Lists and Strings",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\n\nzyBook: 8.7.5: ICE 5\nWrite a program that counts displays the average length of the words in a given list.\nHint: Use an accumulator.\n\n\nsample1 = [“A”, “rose”, “by”, “any”, “other”, “name”, “would”, “smell”, “as”, “sweet”]\nThe average length of words is 3.6 characters\n\n\nsample1 = [‘Monday’, ‘Tuesday’, ‘Wednesday’, ‘Thursday’, ‘Friday’]\nThe average length of words is 7.2 characters"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#in-class-exercise-3",
+    "href": "lessons/08-lists-strings.html#in-class-exercise-3",
+    "title": "Lists and Strings",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\nWrite a program that first prompts the user to enter a string. Your program should then create a new string with all the characters in the input string reversed, and then display it to the user.\nSample input/output:\n\nEnter a string: howitzer\nThe reversed string is: retaziwoh"
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#in-class-exercise-4",
+    "href": "lessons/08-lists-strings.html#in-class-exercise-4",
+    "title": "Lists and Strings",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\nWrite a program that calculates the sum of all the squared values of all the items in a numeric list.\nFor example, for the given list,\na_list = [1, 2, 3, 4]\nThe program will print the value 30, since 1 + 4 + 9 + 16 = 30."
+  },
+  {
+    "objectID": "lessons/08-lists-strings.html#reminders",
+    "href": "lessons/08-lists-strings.html#reminders",
+    "title": "Lists and Strings",
+    "section": "Reminders",
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS3 due 08SEP\n\nReach out early!\n\nPractice!"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#announcements",
+    "href": "lessons/14-conditionals-2.html#announcements",
+    "title": "Conditional Statements 2",
+    "section": "Announcements",
+    "text": "Announcements\n\nWPS5 due 29SEP\nRobotics Lab starts on 04OCT\n\nIf still missing Bluefruit, email me!"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#discussion",
+    "href": "lessons/14-conditionals-2.html#discussion",
+    "title": "Conditional Statements 2",
+    "section": "Discussion",
+    "text": "Discussion\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\n\n\nDo you feel that you have enough time to sleep?\nWhat is the most you have been sleep deprived?\nHow bad was it?\nCan you always tell when you are sleep deprived?"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#lesson-objectives",
+    "href": "lessons/14-conditionals-2.html#lesson-objectives",
+    "title": "Conditional Statements 2",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nTrace programs that include chained and nested conditional statements \nWrite programs that employ chained and nested conditional statements"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#pizza-shop",
+    "href": "lessons/14-conditionals-2.html#pizza-shop",
+    "title": "Conditional Statements 2",
+    "section": "Pizza Shop",
+    "text": "Pizza Shop\n\n\n\n\n\n\nNotebook\nCode Tracing"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#section",
+    "href": "lessons/14-conditionals-2.html#section",
+    "title": "Conditional Statements 2",
+    "section": "",
+    "text": "Chained Conditionals\n\nMany, many possibilities\nEach condition is checked in order\nIf one is true, the rest are skipped\nif ➔ elif ➔ elif ➔ elif ➔ else\nThat last else catches everything!\n\nif next_lesson == 'lecture':\n    print(\"Do the assigned reading!\")\nelif next_lesson == 'lab':\n    print(\"Bring Bluefruit and eye protection!\")\nelif next_lesson == 'WPR':\n    print(\"Study and practice programming!\")\nelse:\n    print(\"Wander around aimlessly!\")"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#in-class-exercise-1",
+    "href": "lessons/14-conditionals-2.html#in-class-exercise-1",
+    "title": "Conditional Statements 2",
+    "section": "In-Class Exercise 1",
+    "text": "In-Class Exercise 1\nOur pizza shop is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, chicken sandwiches and soda.\n\nA slice of pizza still costs 2.50,\nbut you can get fries for 1.25\nand onion rings for 1.50.\nA soda costs 99 cents.\n\nModify the given program so that\n\nif the user enters something not listed above, print “invalid option!”\nOtherwise prompt for the quantity, add up the cost of the items and display the total plus the 8.5% NY State tax."
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#nested-conditionals",
+    "href": "lessons/14-conditionals-2.html#nested-conditionals",
+    "title": "Conditional Statements 2",
+    "section": "Nested Conditionals",
+    "text": "Nested Conditionals\n\n\ndef pass_planner(distance, flying):\n    if distance &lt;= 250:\n        print(\"You do not need a pass!\")\n        if flying:\n            print(\"Consider driving!\")\n        else:\n            print(\"Enjoy the drive!\")\n    else:\n        print(\"Get your DA31 signed!\")\n        if flying:\n            print(\"Print your itinerary!\")\n        else:\n            print(\"Get your vehicle inspected!\")\n\npass_planner(150, True)\npass_planner(150, False)\npass_planner(500, True)\npass_planner(500, False)\n\n\n\n\n\n\n\n\n\n\ndistance\n\nstaying within 250 miles?\n\n\n\npass\n\nYou do not need a pass!\n\n\n\ndistance-&gt;pass\n\n\nTrue\n\n\n\nda31\n\nGet your DA31 signed!\n\n\n\ndistance-&gt;da31\n\n\nFalse\n\n\n\nairplane\n\nAre you flying?\n\n\n\nconsiderdriving\n\nConsider driving!\n\n\n\nairplane-&gt;considerdriving\n\n\nTrue\n\n\n\nenjoy\n\nEnjoy the drive!\n\n\n\nairplane-&gt;enjoy\n\n\nFalse\n\n\n\nairplane2\n\nAre you flying?\n\n\n\nitinerary\n\nPrint your itinerary!\n\n\n\nairplane2-&gt;itinerary\n\n\nTrue\n\n\n\nvehicle\n\nGet your vehicle inspected!\n\n\n\nairplane2-&gt;vehicle\n\n\nFalse\n\n\n\npass-&gt;airplane\n\n\n\n\n\nda31-&gt;airplane2"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#nested-conditional-code-tracing",
+    "href": "lessons/14-conditionals-2.html#nested-conditional-code-tracing",
+    "title": "Conditional Statements 2",
+    "section": "Nested Conditional Code Tracing",
+    "text": "Nested Conditional Code Tracing\n\n\n\n\n\n\nNotebook\nCode Tracing"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#keeping-it-simple",
+    "href": "lessons/14-conditionals-2.html#keeping-it-simple",
+    "title": "Conditional Statements 2",
+    "section": "Keeping it simple",
+    "text": "Keeping it simple\n\nWhat is the difference between the following two?\n\n\n\nif not (age &gt;= 17):\n    print(\"Too young to drive!\")\n\nif age &lt; 17:\n    print(\"Too young to drive!\")"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#de-morgans-laws",
+    "href": "lessons/14-conditionals-2.html#de-morgans-laws",
+    "title": "Conditional Statements 2",
+    "section": "De Morgan’s Laws",
+    "text": "De Morgan’s Laws\n\nnot (A and B) is the same as not A or not B\nnot (A or B) is the same as not A and not B\n\nif not (sword_charge &gt;= 0.90 and shield_energy &gt;= 100):\n    print(\"Your attack has no effect. The dragon fries you to a crisp!\")\nelse:\n    print(\"The dragon crumples in a heap. You defeated the dragon!\")\n\n\nif sword_charge &lt; 0.90 or shield_energy &lt; 100:\n    print(\"Your attack has no effect. The dragon fries you to a crisp!\")\nelse:\n    print(\"The dragon crumples in a heap. You defeated the dragon!\")"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#keeping-it-really-simple",
+    "href": "lessons/14-conditionals-2.html#keeping-it-really-simple",
+    "title": "Conditional Statements 2",
+    "section": "Keeping it really simple",
+    "text": "Keeping it really simple\n# less readable and more error-prone\nif height &gt;= 48:\n    print(\"You can ride the roller coaster!\")\nelif height &gt;= 36 and height &lt; 48:                # could height be above 48?\n    print(\"Need adult supervision!\")\nelif height &lt; 36:                                 # could height be above 36?\n    print(\"Sorry, you're too short!\")\n\n# cleaner, more readable, best practice\nif height &gt;= 48:\n    print(\"You can ride the roller coaster!\")\nelif height &gt;= 36:                            # height is definitely below 48\n    print(\"Need adult supervision!\")\nelse:                                        # same results but more readable\n    print(\"Sorry, you're too short!\")"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#type-of-conditional-statements",
+    "href": "lessons/14-conditionals-2.html#type-of-conditional-statements",
+    "title": "Conditional Statements 2",
+    "section": "Type of Conditional Statements",
+    "text": "Type of Conditional Statements"
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#in-class-exercise-2",
+    "href": "lessons/14-conditionals-2.html#in-class-exercise-2",
+    "title": "Conditional Statements 2",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\nModify the Pizza Shop program to also prompt the customer on whether they are a student.\n\nIf the customer responds “Y” for yes, they should receive a 10% discount on the entire order.\nOtherwise, they pay the full price."
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#in-class-exercise-3",
+    "href": "lessons/14-conditionals-2.html#in-class-exercise-3",
+    "title": "Conditional Statements 2",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\nImplement a program that prompts the user to enter a numeric grade (from 0 … 100).\n\nBased on the score, display the corresponding letter grade based on the following criteria.\n\nA when &gt;= 90\nB when [80-90)\nC when [70-80)\nD when [65-70)\nF when &lt; 65\n\nYou must use an else statement."
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#in-class-exercise-4",
+    "href": "lessons/14-conditionals-2.html#in-class-exercise-4",
+    "title": "Conditional Statements 2",
+    "section": "In-Class Exercise 4",
+    "text": "In-Class Exercise 4\nWrite a program that determines if an inputted year is a leap year.\n\nDetermine if the year is a leap year using the following criteria:\n\nIs evenly divisible by 4 and not evenly divisible by 100\nIs evenly divisible by 400\n\nDisplay “Leap Year” or “Not a leap year” as appropriate."
+  },
+  {
+    "objectID": "lessons/14-conditionals-2.html#reminders",
+    "href": "lessons/14-conditionals-2.html#reminders",
+    "title": "Conditional Statements 2",
+    "section": "Reminders",
+    "text": "Reminders\n\n\nif whiteboards_have_text:\n    erase('whiteboards')\n\nif monitors_are_up:\n    lower('monitors')\n\nif still_missing_bluefruit:\n    email('your instructor')\n\nread('next_chapter')\npractice('zyBook problems')\n\nNext Lesson\n\nIndefinite iteration using while loops"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computing Fundamentals",
+    "section": "",
+    "text": "CPT Sonny Bhatia\nOffice: Thayer Hall 106\nClass Hours: A1, C1, A2, B2\nAdditional Instruction in TH460: B1, C2 (email ahead of time to confirm)\nThis course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
+  },
+  {
+    "objectID": "index.html#how-to-get-better-at-cy105",
+    "href": "index.html#how-to-get-better-at-cy105",
+    "title": "Computing Fundamentals",
+    "section": "How to get better at CY105?",
+    "text": "How to get better at CY105?\n\nComplete zyBook required readings.\nAttempt zyBook practice ICEs going back to the chapter that you do not fully grasp.\nSeek assistance. Email me or book additional instruction.\n\nYour success in this course is directly proportional to the number of programming problems that you successfully solve without assistance."
+  },
+  {
+    "objectID": "index.html#additional-instruction",
+    "href": "index.html#additional-instruction",
+    "title": "Computing Fundamentals",
+    "section": "Additional Instruction",
+    "text": "Additional Instruction\n\nUse Outlook Bookings to schedule a time.\n\nPlease make the bookings in Eastern Time. If your computer or Outlook calendar shows a different time, pay extra attention.\nAutomatic booking is limited to 1100-1600. If you can see times outside that window, those are not in Eastern time.\n\nCome prepared with specific questions!\n\n\n\n\n\n\n\nNote\n\n\n\nIf Outlook booking times do not work, please email me. B1 and C2 hours are generally open. I can also meet outside of these hours if needed. Reach out.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nOnce you setup a meeting, it becomes your assigned place of duty. If you cannot make it, please notify me ahead of time. Not showing up to a scheduled meeting and failing to notify me ahead of time will typically result in a negative COR."
+  },
+  {
+    "objectID": "index.html#pdr-or-dac-counseling",
+    "href": "index.html#pdr-or-dac-counseling",
+    "title": "Computing Fundamentals",
+    "section": "PDR or DAC counseling",
+    "text": "PDR or DAC counseling\n\nBook a meeting - select the appropriate meeting type\n\n\n\n\n\n\n\nNote\n\n\n\nThis is not Additional Instruction. To setup AI, look above."
+  },
+  {
+    "objectID": "index.html#lessons",
+    "href": "index.html#lessons",
+    "title": "Computing Fundamentals",
+    "section": "Lessons",
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#course-objectives",
+    "href": "index.html#course-objectives",
+    "title": "Computing Fundamentals",
+    "section": "Course Objectives",
+    "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
+  },
+  {
+    "objectID": "index.html#course-material",
+    "href": "index.html#course-material",
+    "title": "Computing Fundamentals",
+    "section": "Course Material",
+    "text": "Course Material\n\nCanvas\nzyBook\nRobotics Lab\n\nMu Editor - IDE to work with Circuit Playground Bluefruit\nCircuit Playground Bluefruit - try student discount code: GitHubEdu\nCircuit Playground Bluefruit - no discount but easier to order"
+  },
+  {
+    "objectID": "index.html#documentation-and-tutorials",
+    "href": "index.html#documentation-and-tutorials",
+    "title": "Computing Fundamentals",
+    "section": "Documentation and Tutorials",
+    "text": "Documentation and Tutorials\n\nDevDocs.io\nPython Notes for Professionals\nOfficial Python Documentation\nHow to Python in VS Code\nHour of Python"
+  },
+  {
+    "objectID": "index.html#developer-tools",
+    "href": "index.html#developer-tools",
+    "title": "Computing Fundamentals",
+    "section": "Developer Tools",
+    "text": "Developer Tools\n\nPyodide - in-browser REPL\nMarimo reactive notebook for Python\nPython Tutor\nBlack Code Formatter\nVisual Studio Code\nThonny - Python IDE for beginners\nNotepad++"
+  },
+  {
+    "objectID": "index.html#random-interesting-material",
+    "href": "index.html#random-interesting-material",
+    "title": "Computing Fundamentals",
+    "section": "Random, Interesting Material",
+    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python\n\n\n\nCyber\n\nBuilding a home lab\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
+    "href": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
+    "title": "Welcome to CY105",
+    "section": "Dean’s Intellectual Theme for AY25",
+    "text": "Dean’s Intellectual Theme for AY25\n\nThe Human and the Machine: Leadership on the Emerging Battlefield"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#about-me",
+    "href": "lessons/01-introduction.html#about-me",
+    "title": "Welcome to CY105",
+    "section": "About Me",
+    "text": "About Me\n\n\n\nBS Computer Science, San Jose State Univ\nWorked in Silicon Valley\nEnlisted -&gt; Infantry -&gt; deployed (Afg)\nCommissioned as Cyber Officer\nOCO, Tactical, DCO, Company Cdr\nMS Computer Science, Univ of Central Florida\nMarried for 4 years\n\nLove to travel and hike\nEnjoy new (vegetarian) foods!"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#cadet-introductions",
+    "href": "lessons/01-introduction.html#cadet-introductions",
+    "title": "Welcome to CY105",
+    "section": "Cadet Introductions",
+    "text": "Cadet Introductions\n\nFull Name\nName you like to be called\nCompany\nHometown\nActivities or sports plan to be involved with\nWhat excites you about technology?"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#cy105-course-objectives",
+    "href": "lessons/01-introduction.html#cy105-course-objectives",
+    "title": "Welcome to CY105",
+    "section": "CY105 Course Objectives",
+    "text": "CY105 Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
+  },
+  {
+    "objectID": "lessons/01-introduction.html#whats-in-it-for-you",
+    "href": "lessons/01-introduction.html#whats-in-it-for-you",
+    "title": "Welcome to CY105",
+    "section": "What’s in it for you?",
+    "text": "What’s in it for you?\n\n\n\n\n\n“Information superiority is the operational advantage derived from the ability to collect, process, and disseminate an uninterrupted flow of information while exploiting or denying an adversary’s ability to do the same…”\nFM 3-0, Operations, February 2008​\n\n\n\n\ninformation makes you smarter\naccess to information makes you an effective leader\nincrease your confidence with IT systems\nhelp you learn new IT concepts and systems​\nprotect yourself and your organization\nfoundational course for everyone"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#section-marcher-duties",
+    "href": "lessons/01-introduction.html#section-marcher-duties",
+    "title": "Welcome to CY105",
+    "section": "Section Marcher Duties",
+    "text": "Section Marcher Duties\n\n\n\nExhibit peer leadership\nVolunteer Section Marcher (first 4 lessons)\n\nand Assistant Section Marcher\n\nAfterwards: based on PDR assignments\nDuties\n\nInspection at beginning of class\nAttendance\nBriefly inspect uniforms, general appearance\nNo food, gum or backpacks\n\nIf Dean or Supt visit, call class to attention"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#additional-instruction",
+    "href": "lessons/01-introduction.html#additional-instruction",
+    "title": "Welcome to CY105",
+    "section": "Additional Instruction",
+    "text": "Additional Instruction\n\nWhen you need additional help, reach out\nUse the booking link at cy105.bhatia.dev or email signature\nComplete required readings and in-class exercises\nBook a meeting\nCome prepared with specific questions and bring your computer\nPlan ahead and do not wait until the assignment due date!"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#zybooks",
+    "href": "lessons/01-introduction.html#zybooks",
+    "title": "Welcome to CY105",
+    "section": "zyBooks",
+    "text": "zyBooks\n\n\n\nAccess key provided by bookstore\nCanvas -&gt; zyBooks\n\ndo not create a separate account!\n“practice” zyBook assignment\n\nEnter access key\nDaily readings before class!"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#cengage",
+    "href": "lessons/01-introduction.html#cengage",
+    "title": "Welcome to CY105",
+    "section": "Cengage",
+    "text": "Cengage\nNeed access before next class!\n\nIf unable to access, email me immediately!\n\n\nLogin to Canvas\nNavigate to the course titled “Canvas Activation Course 2024”\nClick “Please complete this module”\nClick “Load Cengage Unlimited Multi-term 24 months Instant Access to a new window”\nRegister for an account using westpoint.edu email address\nOpen the Microsoft 365 lesson module and click the “Cengage: Microsoft 365 Pre-Class Exercise (ungraded)” link\nLog in\nEnroll in the course"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#python",
+    "href": "lessons/01-introduction.html#python",
+    "title": "Welcome to CY105",
+    "section": "python",
+    "text": "python\n \nStart Menu –&gt; PowerShell –&gt; Type python"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#text-editor",
+    "href": "lessons/01-introduction.html#text-editor",
+    "title": "Welcome to CY105",
+    "section": "Text Editor",
+    "text": "Text Editor\n\nNotepad++\nVisual Studio Code\nMicrosoft Word?"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#writing-code",
+    "href": "lessons/01-introduction.html#writing-code",
+    "title": "Welcome to CY105",
+    "section": "Writing Code",
+    "text": "Writing Code"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#running-code",
+    "href": "lessons/01-introduction.html#running-code",
+    "title": "Welcome to CY105",
+    "section": "Running Code",
+    "text": "Running Code"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#moss---measure-of-software-similarity",
+    "href": "lessons/01-introduction.html#moss---measure-of-software-similarity",
+    "title": "Welcome to CY105",
+    "section": "MOSS - Measure of Software Similarity",
+    "text": "MOSS - Measure of Software Similarity"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#zybooks-simchecker",
+    "href": "lessons/01-introduction.html#zybooks-simchecker",
+    "title": "Welcome to CY105",
+    "section": "zyBooks SimChecker",
+    "text": "zyBooks SimChecker"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#codequiry-plagiarism-detection",
+    "href": "lessons/01-introduction.html#codequiry-plagiarism-detection",
+    "title": "Welcome to CY105",
+    "section": "Codequiry Plagiarism Detection",
+    "text": "Codequiry Plagiarism Detection"
+  },
+  {
+    "objectID": "lessons/01-introduction.html#generative-ai-tools",
+    "href": "lessons/01-introduction.html#generative-ai-tools",
+    "title": "Welcome to CY105",
+    "section": "Generative AI Tools",
+    "text": "Generative AI Tools\n\nAI tools may be used to determine what AI-generated responses to a particular prompt may look like either before or after issuing an assignment.\nThese responses can be compared to cadets’ submissions using MOSS or zyLabs Similarity Checker to determine if a cadet’s submission contains features that suggest unauthorized or undocumented AI use."
+  },
+  {
+    "objectID": "lessons/01-introduction.html#next-class",
+    "href": "lessons/01-introduction.html#next-class",
+    "title": "Welcome to CY105",
+    "section": "Next Class",
+    "text": "Next Class"
+  },
+  {
     "objectID": "lessons/10-modules.html#announcements",
     "href": "lessons/10-modules.html#announcements",
     "title": "Modules",
@@ -866,482 +1307,6 @@
     "title": "Modules",
     "section": "Reminders",
     "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\n\nWPR1 is next week!\n\nStudy Guide\n\nLooking for tutors (BDE and one-on-one)!"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
-    "href": "lessons/01-introduction.html#deans-intellectual-theme-for-ay25",
-    "title": "Welcome to CY105",
-    "section": "Dean’s Intellectual Theme for AY25",
-    "text": "Dean’s Intellectual Theme for AY25\n\nThe Human and the Machine: Leadership on the Emerging Battlefield"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#about-me",
-    "href": "lessons/01-introduction.html#about-me",
-    "title": "Welcome to CY105",
-    "section": "About Me",
-    "text": "About Me\n\n\n\nBS Computer Science, San Jose State Univ\nWorked in Silicon Valley\nEnlisted -&gt; Infantry -&gt; deployed (Afg)\nCommissioned as Cyber Officer\nOCO, Tactical, DCO, Company Cdr\nMS Computer Science, Univ of Central Florida\nMarried for 4 years\n\nLove to travel and hike\nEnjoy new (vegetarian) foods!"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#cadet-introductions",
-    "href": "lessons/01-introduction.html#cadet-introductions",
-    "title": "Welcome to CY105",
-    "section": "Cadet Introductions",
-    "text": "Cadet Introductions\n\nFull Name\nName you like to be called\nCompany\nHometown\nActivities or sports plan to be involved with\nWhat excites you about technology?"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#cy105-course-objectives",
-    "href": "lessons/01-introduction.html#cy105-course-objectives",
-    "title": "Welcome to CY105",
-    "section": "CY105 Course Objectives",
-    "text": "CY105 Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
-  },
-  {
-    "objectID": "lessons/01-introduction.html#whats-in-it-for-you",
-    "href": "lessons/01-introduction.html#whats-in-it-for-you",
-    "title": "Welcome to CY105",
-    "section": "What’s in it for you?",
-    "text": "What’s in it for you?\n\n\n\n\n\n“Information superiority is the operational advantage derived from the ability to collect, process, and disseminate an uninterrupted flow of information while exploiting or denying an adversary’s ability to do the same…”\nFM 3-0, Operations, February 2008​\n\n\n\n\ninformation makes you smarter\naccess to information makes you an effective leader\nincrease your confidence with IT systems\nhelp you learn new IT concepts and systems​\nprotect yourself and your organization\nfoundational course for everyone"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#section-marcher-duties",
-    "href": "lessons/01-introduction.html#section-marcher-duties",
-    "title": "Welcome to CY105",
-    "section": "Section Marcher Duties",
-    "text": "Section Marcher Duties\n\n\n\nExhibit peer leadership\nVolunteer Section Marcher (first 4 lessons)\n\nand Assistant Section Marcher\n\nAfterwards: based on PDR assignments\nDuties\n\nInspection at beginning of class\nAttendance\nBriefly inspect uniforms, general appearance\nNo food, gum or backpacks\n\nIf Dean or Supt visit, call class to attention"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#additional-instruction",
-    "href": "lessons/01-introduction.html#additional-instruction",
-    "title": "Welcome to CY105",
-    "section": "Additional Instruction",
-    "text": "Additional Instruction\n\nWhen you need additional help, reach out\nUse the booking link at cy105.bhatia.dev or email signature\nComplete required readings and in-class exercises\nBook a meeting\nCome prepared with specific questions and bring your computer\nPlan ahead and do not wait until the assignment due date!"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#zybooks",
-    "href": "lessons/01-introduction.html#zybooks",
-    "title": "Welcome to CY105",
-    "section": "zyBooks",
-    "text": "zyBooks\n\n\n\nAccess key provided by bookstore\nCanvas -&gt; zyBooks\n\ndo not create a separate account!\n“practice” zyBook assignment\n\nEnter access key\nDaily readings before class!"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#cengage",
-    "href": "lessons/01-introduction.html#cengage",
-    "title": "Welcome to CY105",
-    "section": "Cengage",
-    "text": "Cengage\nNeed access before next class!\n\nIf unable to access, email me immediately!\n\n\nLogin to Canvas\nNavigate to the course titled “Canvas Activation Course 2024”\nClick “Please complete this module”\nClick “Load Cengage Unlimited Multi-term 24 months Instant Access to a new window”\nRegister for an account using westpoint.edu email address\nOpen the Microsoft 365 lesson module and click the “Cengage: Microsoft 365 Pre-Class Exercise (ungraded)” link\nLog in\nEnroll in the course"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#python",
-    "href": "lessons/01-introduction.html#python",
-    "title": "Welcome to CY105",
-    "section": "python",
-    "text": "python\n \nStart Menu –&gt; PowerShell –&gt; Type python"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#text-editor",
-    "href": "lessons/01-introduction.html#text-editor",
-    "title": "Welcome to CY105",
-    "section": "Text Editor",
-    "text": "Text Editor\n\nNotepad++\nVisual Studio Code\nMicrosoft Word?"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#writing-code",
-    "href": "lessons/01-introduction.html#writing-code",
-    "title": "Welcome to CY105",
-    "section": "Writing Code",
-    "text": "Writing Code"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#running-code",
-    "href": "lessons/01-introduction.html#running-code",
-    "title": "Welcome to CY105",
-    "section": "Running Code",
-    "text": "Running Code"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#moss---measure-of-software-similarity",
-    "href": "lessons/01-introduction.html#moss---measure-of-software-similarity",
-    "title": "Welcome to CY105",
-    "section": "MOSS - Measure of Software Similarity",
-    "text": "MOSS - Measure of Software Similarity"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#zybooks-simchecker",
-    "href": "lessons/01-introduction.html#zybooks-simchecker",
-    "title": "Welcome to CY105",
-    "section": "zyBooks SimChecker",
-    "text": "zyBooks SimChecker"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#codequiry-plagiarism-detection",
-    "href": "lessons/01-introduction.html#codequiry-plagiarism-detection",
-    "title": "Welcome to CY105",
-    "section": "Codequiry Plagiarism Detection",
-    "text": "Codequiry Plagiarism Detection"
-  },
-  {
-    "objectID": "lessons/01-introduction.html#generative-ai-tools",
-    "href": "lessons/01-introduction.html#generative-ai-tools",
-    "title": "Welcome to CY105",
-    "section": "Generative AI Tools",
-    "text": "Generative AI Tools\n\nAI tools may be used to determine what AI-generated responses to a particular prompt may look like either before or after issuing an assignment.\nThese responses can be compared to cadets’ submissions using MOSS or zyLabs Similarity Checker to determine if a cadet’s submission contains features that suggest unauthorized or undocumented AI use."
-  },
-  {
-    "objectID": "lessons/01-introduction.html#next-class",
-    "href": "lessons/01-introduction.html#next-class",
-    "title": "Welcome to CY105",
-    "section": "Next Class",
-    "text": "Next Class"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Computing Fundamentals",
-    "section": "",
-    "text": "CPT Sonny Bhatia\nOffice: Thayer Hall 106\nClass Hours: A1, C1, A2, B2\nAdditional Instruction in TH460: B1, C2 (email ahead of time to confirm)\nThis course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
-  },
-  {
-    "objectID": "index.html#how-to-get-better-at-cy105",
-    "href": "index.html#how-to-get-better-at-cy105",
-    "title": "Computing Fundamentals",
-    "section": "How to get better at CY105?",
-    "text": "How to get better at CY105?\n\nComplete zyBook required readings.\nAttempt zyBook practice ICEs going back to the chapter that you do not fully grasp.\nSeek assistance. Email me or book additional instruction.\n\nYour success in this course is directly proportional to the number of programming problems that you successfully solve without assistance."
-  },
-  {
-    "objectID": "index.html#additional-instruction",
-    "href": "index.html#additional-instruction",
-    "title": "Computing Fundamentals",
-    "section": "Additional Instruction",
-    "text": "Additional Instruction\n\nUse Outlook Bookings to schedule a time.\n\nPlease make the bookings in Eastern Time. If your computer or Outlook calendar shows a different time, pay extra attention.\nAutomatic booking is limited to 1100-1600. If you can see times outside that window, those are not in Eastern time.\n\nCome prepared with specific questions!\n\n\n\n\n\n\n\nNote\n\n\n\nIf Outlook booking times do not work, please email me. B1 and C2 hours are generally open. I can also meet outside of these hours if needed. Reach out.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nOnce you setup a meeting, it becomes your assigned place of duty. If you cannot make it, please notify me ahead of time. Not showing up to a scheduled meeting and failing to notify me ahead of time will typically result in a negative COR."
-  },
-  {
-    "objectID": "index.html#pdr-or-dac-counseling",
-    "href": "index.html#pdr-or-dac-counseling",
-    "title": "Computing Fundamentals",
-    "section": "PDR or DAC counseling",
-    "text": "PDR or DAC counseling\n\nBook a meeting - select the appropriate meeting type\n\n\n\n\n\n\n\nNote\n\n\n\nThis is not Additional Instruction. To setup AI, look above."
-  },
-  {
-    "objectID": "index.html#lessons",
-    "href": "index.html#lessons",
-    "title": "Computing Fundamentals",
-    "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming Lab\n\n\nChoose your own adventure!\n\n\n\n\n\n\nOct 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#course-objectives",
-    "href": "index.html#course-objectives",
-    "title": "Computing Fundamentals",
-    "section": "Course Objectives",
-    "text": "Course Objectives\n\nExamine legal, ethical, professional, and security issues associated with the cyber domain.\nFunction as an ethical, secure, and competent user in West Point’s immersive technology and cyber environment.\nApply sequential logic, control flow statements, and code libraries using a modern programming language, algorithmic thinking, and a problem-solving process.\nDescribe how data flows from data sources across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.\nDescribe and explore the opportunities and challenges presented by artificial intelligence in the modern world."
-  },
-  {
-    "objectID": "index.html#course-material",
-    "href": "index.html#course-material",
-    "title": "Computing Fundamentals",
-    "section": "Course Material",
-    "text": "Course Material\n\nCanvas\nzyBook\nRobotics Lab\n\nMu Editor - IDE to work with Circuit Playground Bluefruit\nCircuit Playground Bluefruit - try student discount code: GitHubEdu\nCircuit Playground Bluefruit - no discount but easier to order"
-  },
-  {
-    "objectID": "index.html#documentation-and-tutorials",
-    "href": "index.html#documentation-and-tutorials",
-    "title": "Computing Fundamentals",
-    "section": "Documentation and Tutorials",
-    "text": "Documentation and Tutorials\n\nDevDocs.io\nPython Notes for Professionals\nOfficial Python Documentation\nHow to Python in VS Code\nHour of Python"
-  },
-  {
-    "objectID": "index.html#developer-tools",
-    "href": "index.html#developer-tools",
-    "title": "Computing Fundamentals",
-    "section": "Developer Tools",
-    "text": "Developer Tools\n\nPyodide - in-browser REPL\nMarimo reactive notebook for Python\nPython Tutor\nBlack Code Formatter\nVisual Studio Code\nThonny - Python IDE for beginners\nNotepad++"
-  },
-  {
-    "objectID": "index.html#random-interesting-material",
-    "href": "index.html#random-interesting-material",
-    "title": "Computing Fundamentals",
-    "section": "Random, Interesting Material",
-    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python\n\n\n\nCyber\n\nBuilding a home lab\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#announcements",
-    "href": "lessons/14-conditionals-2.html#announcements",
-    "title": "Conditional Statements 2",
-    "section": "Announcements",
-    "text": "Announcements\n\nWPS5 due 29SEP\nRobotics Lab starts on 04OCT\n\nIf still missing Bluefruit, email me!"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#discussion",
-    "href": "lessons/14-conditionals-2.html#discussion",
-    "title": "Conditional Statements 2",
-    "section": "Discussion",
-    "text": "Discussion\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\n\n\nDo you feel that you have enough time to sleep?\nWhat is the most you have been sleep deprived?\nHow bad was it?\nCan you always tell when you are sleep deprived?"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#lesson-objectives",
-    "href": "lessons/14-conditionals-2.html#lesson-objectives",
-    "title": "Conditional Statements 2",
-    "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nTrace programs that include chained and nested conditional statements \nWrite programs that employ chained and nested conditional statements"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#pizza-shop",
-    "href": "lessons/14-conditionals-2.html#pizza-shop",
-    "title": "Conditional Statements 2",
-    "section": "Pizza Shop",
-    "text": "Pizza Shop\n\n\n\n\n\n\nNotebook\nCode Tracing"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#section",
-    "href": "lessons/14-conditionals-2.html#section",
-    "title": "Conditional Statements 2",
-    "section": "",
-    "text": "Chained Conditionals\n\nMany, many possibilities\nEach condition is checked in order\nIf one is true, the rest are skipped\nif ➔ elif ➔ elif ➔ elif ➔ else\nThat last else catches everything!\n\nif next_lesson == 'lecture':\n    print(\"Do the assigned reading!\")\nelif next_lesson == 'lab':\n    print(\"Bring Bluefruit and eye protection!\")\nelif next_lesson == 'WPR':\n    print(\"Study and practice programming!\")\nelse:\n    print(\"Wander around aimlessly!\")"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#in-class-exercise-1",
-    "href": "lessons/14-conditionals-2.html#in-class-exercise-1",
-    "title": "Conditional Statements 2",
-    "section": "In-Class Exercise 1",
-    "text": "In-Class Exercise 1\nOur pizza shop is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, chicken sandwiches and soda.\n\nA slice of pizza still costs 2.50,\nbut you can get fries for 1.25\nand onion rings for 1.50.\nA soda costs 99 cents.\n\nModify the given program so that\n\nif the user enters something not listed above, print “invalid option!”\nOtherwise prompt for the quantity, add up the cost of the items and display the total plus the 8.5% NY State tax."
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#nested-conditionals",
-    "href": "lessons/14-conditionals-2.html#nested-conditionals",
-    "title": "Conditional Statements 2",
-    "section": "Nested Conditionals",
-    "text": "Nested Conditionals\n\n\ndef pass_planner(distance, flying):\n    if distance &lt;= 250:\n        print(\"You do not need a pass!\")\n        if flying:\n            print(\"Consider driving!\")\n        else:\n            print(\"Enjoy the drive!\")\n    else:\n        print(\"Get your DA31 signed!\")\n        if flying:\n            print(\"Print your itinerary!\")\n        else:\n            print(\"Get your vehicle inspected!\")\n\npass_planner(150, True)\npass_planner(150, False)\npass_planner(500, True)\npass_planner(500, False)\n\n\n\n\n\n\n\n\n\n\ndistance\n\nstaying within 250 miles?\n\n\n\npass\n\nYou do not need a pass!\n\n\n\ndistance-&gt;pass\n\n\nTrue\n\n\n\nda31\n\nGet your DA31 signed!\n\n\n\ndistance-&gt;da31\n\n\nFalse\n\n\n\nairplane\n\nAre you flying?\n\n\n\nconsiderdriving\n\nConsider driving!\n\n\n\nairplane-&gt;considerdriving\n\n\nTrue\n\n\n\nenjoy\n\nEnjoy the drive!\n\n\n\nairplane-&gt;enjoy\n\n\nFalse\n\n\n\nairplane2\n\nAre you flying?\n\n\n\nitinerary\n\nPrint your itinerary!\n\n\n\nairplane2-&gt;itinerary\n\n\nTrue\n\n\n\nvehicle\n\nGet your vehicle inspected!\n\n\n\nairplane2-&gt;vehicle\n\n\nFalse\n\n\n\npass-&gt;airplane\n\n\n\n\n\nda31-&gt;airplane2"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#nested-conditional-code-tracing",
-    "href": "lessons/14-conditionals-2.html#nested-conditional-code-tracing",
-    "title": "Conditional Statements 2",
-    "section": "Nested Conditional Code Tracing",
-    "text": "Nested Conditional Code Tracing\n\n\n\n\n\n\nNotebook\nCode Tracing"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#keeping-it-simple",
-    "href": "lessons/14-conditionals-2.html#keeping-it-simple",
-    "title": "Conditional Statements 2",
-    "section": "Keeping it simple",
-    "text": "Keeping it simple\n\nWhat is the difference between the following two?\n\n\n\nif not (age &gt;= 17):\n    print(\"Too young to drive!\")\n\nif age &lt; 17:\n    print(\"Too young to drive!\")"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#de-morgans-laws",
-    "href": "lessons/14-conditionals-2.html#de-morgans-laws",
-    "title": "Conditional Statements 2",
-    "section": "De Morgan’s Laws",
-    "text": "De Morgan’s Laws\n\nnot (A and B) is the same as not A or not B\nnot (A or B) is the same as not A and not B\n\nif not (sword_charge &gt;= 0.90 and shield_energy &gt;= 100):\n    print(\"Your attack has no effect. The dragon fries you to a crisp!\")\nelse:\n    print(\"The dragon crumples in a heap. You defeated the dragon!\")\n\n\nif sword_charge &lt; 0.90 or shield_energy &lt; 100:\n    print(\"Your attack has no effect. The dragon fries you to a crisp!\")\nelse:\n    print(\"The dragon crumples in a heap. You defeated the dragon!\")"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#keeping-it-really-simple",
-    "href": "lessons/14-conditionals-2.html#keeping-it-really-simple",
-    "title": "Conditional Statements 2",
-    "section": "Keeping it really simple",
-    "text": "Keeping it really simple\n# less readable and more error-prone\nif height &gt;= 48:\n    print(\"You can ride the roller coaster!\")\nelif height &gt;= 36 and height &lt; 48:                # could height be above 48?\n    print(\"Need adult supervision!\")\nelif height &lt; 36:                                 # could height be above 36?\n    print(\"Sorry, you're too short!\")\n\n# cleaner, more readable, best practice\nif height &gt;= 48:\n    print(\"You can ride the roller coaster!\")\nelif height &gt;= 36:                            # height is definitely below 48\n    print(\"Need adult supervision!\")\nelse:                                        # same results but more readable\n    print(\"Sorry, you're too short!\")"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#type-of-conditional-statements",
-    "href": "lessons/14-conditionals-2.html#type-of-conditional-statements",
-    "title": "Conditional Statements 2",
-    "section": "Type of Conditional Statements",
-    "text": "Type of Conditional Statements"
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#in-class-exercise-2",
-    "href": "lessons/14-conditionals-2.html#in-class-exercise-2",
-    "title": "Conditional Statements 2",
-    "section": "In-Class Exercise 2",
-    "text": "In-Class Exercise 2\nModify the Pizza Shop program to also prompt the customer on whether they are a student.\n\nIf the customer responds “Y” for yes, they should receive a 10% discount on the entire order.\nOtherwise, they pay the full price."
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#in-class-exercise-3",
-    "href": "lessons/14-conditionals-2.html#in-class-exercise-3",
-    "title": "Conditional Statements 2",
-    "section": "In-Class Exercise 3",
-    "text": "In-Class Exercise 3\nImplement a program that prompts the user to enter a numeric grade (from 0 … 100).\n\nBased on the score, display the corresponding letter grade based on the following criteria.\n\nA when &gt;= 90\nB when [80-90)\nC when [70-80)\nD when [65-70)\nF when &lt; 65\n\nYou must use an else statement."
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#in-class-exercise-4",
-    "href": "lessons/14-conditionals-2.html#in-class-exercise-4",
-    "title": "Conditional Statements 2",
-    "section": "In-Class Exercise 4",
-    "text": "In-Class Exercise 4\nWrite a program that determines if an inputted year is a leap year.\n\nDetermine if the year is a leap year using the following criteria:\n\nIs evenly divisible by 4 and not evenly divisible by 100\nIs evenly divisible by 400\n\nDisplay “Leap Year” or “Not a leap year” as appropriate."
-  },
-  {
-    "objectID": "lessons/14-conditionals-2.html#reminders",
-    "href": "lessons/14-conditionals-2.html#reminders",
-    "title": "Conditional Statements 2",
-    "section": "Reminders",
-    "text": "Reminders\n\n\nif whiteboards_have_text:\n    erase('whiteboards')\n\nif monitors_are_up:\n    lower('monitors')\n\nif still_missing_bluefruit:\n    email('your instructor')\n\nread('next_chapter')\npractice('zyBook problems')\n\nNext Lesson\n\nIndefinite iteration using while loops"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#discussion",
-    "href": "lessons/08-lists-strings.html#discussion",
-    "title": "Lists and Strings",
-    "section": "Discussion!",
-    "text": "Discussion!\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#announcements",
-    "href": "lessons/08-lists-strings.html#announcements",
-    "title": "Lists and Strings",
-    "section": "Announcements",
-    "text": "Announcements\n\nWPS3 due 08SEP\nWPS4 due 15SEP"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#lesson-objectives",
-    "href": "lessons/08-lists-strings.html#lesson-objectives",
-    "title": "Lists and Strings",
-    "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nCompare, contrast and use common operations on lists and strings, such as indexing, concatenation and replication\nArticulate which built-in functions operate on lists and strings and what they do: len(), min(), max()\nIterate through the elements in a list/string using a for loop\nWrite programs that combine string/list operators with iteration"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#note",
-    "href": "lessons/08-lists-strings.html#note",
-    "title": "Lists and Strings",
-    "section": "Note",
-    "text": "Note\n\n\n\nThese slides are interactive.\n\nUse them as a reference\nBring them up on your second monitor!\nExtended display -&gt; Windows + P\n\nRecommend bringing a mouse\n\n\n\nICEs are for your benefit\n\nCannot cover them all in class\nNot a test! Discuss the problem and help each other.\nUse them to practice and get better!!\nAlso see the solution"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#review",
-    "href": "lessons/08-lists-strings.html#review",
-    "title": "Lists and Strings",
-    "section": "Review",
-    "text": "Review\n\nLists and Strings are examples of a collection data type\n\nComprised of smaller pieces\nBoth are sequences of elements\nCan be treated as a single entity or accessed in parts\n\nEach individual element is assigned a unique position called an index\n\nUse [index] to access a specific element\n\n\n\n\nThink about how these compare to other data types.\nAre these the same? '' and ' '\nCan a list contain another list?\nCan I add two strings?\nCan I add two lists?"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#in-class-exercise",
-    "href": "lessons/08-lists-strings.html#in-class-exercise",
-    "title": "Lists and Strings",
-    "section": "In-Class Exercise",
-    "text": "In-Class Exercise\nWrite an algorithm for a program that prompts a user to enter a string. The program then should create a new version of the string where all the characters are stretched out, in other words, separated by spaces. Finally, the program should display the stretched-out string to the screen.\n\nEnter a string: stretch armstrong\ns t r e t c h   a r m s t r o n g\n\nzyBook: 8.7.2: ICE 2"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#string-operations",
-    "href": "lessons/08-lists-strings.html#string-operations",
-    "title": "Lists and Strings",
-    "section": "String Operations",
-    "text": "String Operations\n\nConcatenation - +\nReplication - *\nIndexing - []\n\n\n\nx = 'hello'\ny = 'world'\nx + y\nx * 3 + y * 2\nz = \"West Point!\"\nz[0], z[1], z[2], z[-1], z[-2], z[-3]"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#string-iteration",
-    "href": "lessons/08-lists-strings.html#string-iteration",
-    "title": "Lists and Strings",
-    "section": "String Iteration",
-    "text": "String Iteration\nmy_string = \"Hello, World! This is a string.\"\nlength = len(my_string)\n\nfor char in my_string:\n    print(char)\n\nUsing len() and range() to iterate over the indices of a string\n\nfor i in range(length):\n    char = my_string[i]\n    print(char)\n\nIterating over every other character\n\nfor i in range(0, length, 2):\n    print(my_string[i])\n\nIterating in reverse\n\nfor i in range(length - 1, -1, -1):\n    print(my_string[i])"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#in-class-exercise-1",
-    "href": "lessons/08-lists-strings.html#in-class-exercise-1",
-    "title": "Lists and Strings",
-    "section": "In-Class Exercise",
-    "text": "In-Class Exercise\n\nzyBook: 8.7.2: ICE 2\n\nImplement a program that prompts a user to enter a string. The program then should create a new version of the string where all the characters are stretched out, in other words, separated by spaces. Finally, the program should display the stretched-out string to the screen.\n\nEnter a string: stretch armstrong\ns t r e t c h   a r m s t r o n g\n\n\n\nProgram: Stretch a String\nInput: A string\nOutput: A string with each character separated by a space\n\n\nPrompt the user for a string\nCreate a new string\nFor each character in the original string\n\nAdd the character to the new string\nAdd a space to the new string\n\nPrint the new string"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#bonus-f-strings",
-    "href": "lessons/08-lists-strings.html#bonus-f-strings",
-    "title": "Lists and Strings",
-    "section": "Bonus: f-strings",
-    "text": "Bonus: f-strings\nname = \"Dan\"\nage = 21\nprint(f\"Hello, my name is {name} and I am {age} years old.\")\n\none = 1\ntwo = 2\nprint(f\"{one} + {two} = {one + two}\")\n\nfstring.help"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#list-operations",
-    "href": "lessons/08-lists-strings.html#list-operations",
-    "title": "Lists and Strings",
-    "section": "List Operations",
-    "text": "List Operations\n\nConcatenation - +\nReplication - *\nIndexing - []\n\n\n\nx = [1, 2, 3]\ny = [4, 5, 6]\nx + y\nx * 3\nz = [1, 2, 3, 4, 5]\nz[0], z[1], z[2], z[-1], z[-2], z[-3]"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#modifying-a-list",
-    "href": "lessons/08-lists-strings.html#modifying-a-list",
-    "title": "Lists and Strings",
-    "section": "Modifying a List",
-    "text": "Modifying a List\n\nList items can be modified: stuff[2] = 5\nStrings cannot be modified: x[2] = 'a'\n\n\n\nx = [1, 2, 3, 4, 5]\nx[2] = 10\nx[0] = x[1] + x[2]\nx[3] = x[4]"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#modifying-a-list-of-characters",
-    "href": "lessons/08-lists-strings.html#modifying-a-list-of-characters",
-    "title": "Lists and Strings",
-    "section": "Modifying a List… of characters?",
-    "text": "Modifying a List… of characters?\nsnack = list(\"pineapple\")\nsnack[0] = \"l\"\nsnack[2] = \"m\"\nWhat is the value of snack now?"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#modifying-a-list-1",
-    "href": "lessons/08-lists-strings.html#modifying-a-list-1",
-    "title": "Lists and Strings",
-    "section": "Modifying a List",
-    "text": "Modifying a List\nnumbers = [1, 2, 3, 4, 5]\nWhich of the following code snippets successfully modifies the list so that all the elements are squared? Select all that apply.\n\n   for i in numbers:\n       i ** 2\n   for i in range(len(numbers)):\n       numbers[i] ** 2\n   for i in range(len(numbers)):\n       numbers[i] = numbers[i] ** 2\n\n\nLive demo"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#iterating-through-a-list-using-len-and-range",
-    "href": "lessons/08-lists-strings.html#iterating-through-a-list-using-len-and-range",
-    "title": "Lists and Strings",
-    "section": "Iterating through a List using len() and range()",
-    "text": "Iterating through a List using len() and range()\n\nA for loop can iterate over each item in a list\n\nfruits = [\"apple\", \"banana\", \"cherry\", \"date\", \"elderberry\"]\nfor item in fruits:\n    print(item)\n\nWe can also use len() and range() to iterate over the indices of a list\n\nfruits = [\"apple\", \"banana\", \"cherry\", \"date\", \"elderberry\"]\nlength = len(fruits)\nfor i in range(length):\n    item = fruits[i]\n    print(item)\n\nLive demo"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#in-class-exercise-2",
-    "href": "lessons/08-lists-strings.html#in-class-exercise-2",
-    "title": "Lists and Strings",
-    "section": "In-Class Exercise",
-    "text": "In-Class Exercise\n\nzyBook: 8.7.5: ICE 5\nWrite a program that counts displays the average length of the words in a given list.\nHint: Use an accumulator.\n\n\nsample1 = [“A”, “rose”, “by”, “any”, “other”, “name”, “would”, “smell”, “as”, “sweet”]\nThe average length of words is 3.6 characters\n\n\nsample1 = [‘Monday’, ‘Tuesday’, ‘Wednesday’, ‘Thursday’, ‘Friday’]\nThe average length of words is 7.2 characters"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#in-class-exercise-3",
-    "href": "lessons/08-lists-strings.html#in-class-exercise-3",
-    "title": "Lists and Strings",
-    "section": "In-Class Exercise",
-    "text": "In-Class Exercise\nWrite a program that first prompts the user to enter a string. Your program should then create a new string with all the characters in the input string reversed, and then display it to the user.\nSample input/output:\n\nEnter a string: howitzer\nThe reversed string is: retaziwoh"
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#in-class-exercise-4",
-    "href": "lessons/08-lists-strings.html#in-class-exercise-4",
-    "title": "Lists and Strings",
-    "section": "In-Class Exercise",
-    "text": "In-Class Exercise\nWrite a program that calculates the sum of all the squared values of all the items in a numeric list.\nFor example, for the given list,\na_list = [1, 2, 3, 4]\nThe program will print the value 30, since 1 + 4 + 9 + 16 = 30."
-  },
-  {
-    "objectID": "lessons/08-lists-strings.html#reminders",
-    "href": "lessons/08-lists-strings.html#reminders",
-    "title": "Lists and Strings",
-    "section": "Reminders",
-    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS3 due 08SEP\n\nReach out early!\n\nPractice!"
-  },
-  {
-    "objectID": "lessons/17-programming-lab.html#discussion",
-    "href": "lessons/17-programming-lab.html#discussion",
-    "title": "Programming Lab",
-    "section": "Discussion!",
-    "text": "Discussion!\n\nThe Big Bang Theory - The Irish Pub Formulation"
-  },
-  {
-    "objectID": "lessons/17-programming-lab.html#announcements",
-    "href": "lessons/17-programming-lab.html#announcements",
-    "title": "Programming Lab",
-    "section": "Announcements",
-    "text": "Announcements\n\nWPS due Sunday!"
-  },
-  {
-    "objectID": "lessons/17-programming-lab.html#lesson-objectives",
-    "href": "lessons/17-programming-lab.html#lesson-objectives",
-    "title": "Programming Lab",
-    "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nGet better at programming!"
-  },
-  {
-    "objectID": "lessons/17-programming-lab.html#text-adventure-game",
-    "href": "lessons/17-programming-lab.html#text-adventure-game",
-    "title": "Programming Lab",
-    "section": "Text Adventure Game!",
-    "text": "Text Adventure Game!\n\nBrowse a series of rooms\nCollect items\nSolve puzzles\nAvoid traps\nReach the end!"
-  },
-  {
-    "objectID": "lessons/17-programming-lab.html#reminders",
-    "href": "lessons/17-programming-lab.html#reminders",
-    "title": "Programming Lab",
-    "section": "Reminders",
-    "text": "Reminders\n\n\nfor whiteboard in whiteboards:\n    erase(whiteboard)\n\nwhile not cadet_is_expert:\n    practice('zyBook ICEs')\n\nUp Next\n\nBring your Bluefruit!\nMust bring eye protection!"
   },
   {
     "objectID": "lessons/07-iteration.html#blooms-taxonomy",
