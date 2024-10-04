@@ -88,7 +88,7 @@
     "href": "lessons/18-robotics.html#announcements",
     "title": "Robotics Lab",
     "section": "Announcements",
-    "text": "Announcements\n\nWPR2 is about two weeks away!\nDigital Footprint Audit assigned; due 27OCT\n\nrequest data from at least 3 sources!"
+    "text": "Announcements\n\nWPR2 is about two weeks away!\nDigital Footprint Audit assigned; due 27OCT\n\nRequest data from at least 3 sources!"
   },
   {
     "objectID": "lessons/18-robotics.html#lesson-objectives",
@@ -105,11 +105,11 @@
     "text": "Soldering Safety\n\n\n\nUse protective eyewear.\nDo not touch the tip of the soldering iron!!\n\nAvoid metal parts.\nDo not touch it against anything flammable.\n\nDo not inhale fumes.\nStore soldering iron on stand when not in use.\nWash hands after soldering. It contains lead.\n\n\n\nYouTube: How to Solder\nA Beginner’s Guide"
   },
   {
-    "objectID": "lessons/18-robotics.html#today",
-    "href": "lessons/18-robotics.html#today",
+    "objectID": "lessons/18-robotics.html#agenda",
+    "href": "lessons/18-robotics.html#agenda",
     "title": "Robotics Lab",
-    "section": "Today",
-    "text": "Today\n\nGrab a kit and write your name on the box\nInstall Mu Editor\nPull up Robotics Lab on second screen\nInventory all components\n\nSeparate screws (2x for stand) and combine with nuts\n\nAssemble the device\nRun the temperature sensor code\nContinue working outside of class\n\nStill need to check off activities in class\nDocument all assistance!"
+    "section": "Agenda",
+    "text": "Agenda\n\nGrab a box and write your name on it\nInstall Mu Editor to interact with Bluefruit\nPull up the Robotics Lab on your second screen\nInventory all components\n\nSeparate screws (2x for stand) and combine with nuts\n\nAssemble the device - connectors flush with board; attach on correct side\nRun the temperature sensor code\nContinue working outside of class\n\nStill need to check off activities in class\nDocument all assistance!"
   },
   {
     "objectID": "lessons/06-built-in-functions.html#discussion",
