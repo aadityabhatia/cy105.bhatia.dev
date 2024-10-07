@@ -109,7 +109,7 @@
     "href": "lessons/18-robotics.html#agenda",
     "title": "Robotics Lab",
     "section": "Agenda",
-    "text": "Agenda\n\nGrab a box and write your name on it\nInstall Mu Editor to interact with Bluefruit\nPull up the Robotics Lab on your second screen\nInventory all components\n\nSeparate screws (2x for stand) and combine with nuts\n\nAssemble the device - connectors flush with board; attach on correct side\nRun the temperature sensor code\nContinue working outside of class\n\nStill need to check off activities in class\nDocument all assistance!"
+    "text": "Agenda\n\nGrab a box and write your name on it; begin inventory!\nInstall Mu Editor to interact with Bluefruit\nPull up the Robotics Lab on your second screen\n\nInventory all components\nSeparate screws (2x for stand) and combine with nuts\n\nAssemble the device - connectors flush with board; attach on correct side\nRun the temperature sensor code\nContinue working outside of class\n\nStill need to check off activities in class\nDocument all assistance!"
   },
   {
     "objectID": "lessons/06-built-in-functions.html#discussion",
@@ -725,7 +725,7 @@
     "href": "lessons/08-lists-strings.html#string-operations",
     "title": "Lists and Strings",
     "section": "String Operations",
-    "text": "String Operations\n\nConcatenation - +\nReplication - *\nIndexing - []\n\n\n\nx = 'hello'\ny = 'world'\nx + y\nx * 3 + y * 2\nz = \"West Point!\"\nz[0], z[1], z[2], z[-1], z[-2], z[-3]"
+    "text": "String Operations\n\nConcatenation - +\nReplication - *\nIndexing - []\n\nTry the following in a Python Shell\nx = 'hello'\ny = 'world'\nx + y\nx * 3 + y * 2\nz = \"West Point!\"\nz[0] # see reference card, page 4, bottom-left\nz[2]\nz[-1]\nz[-2]"
   },
   {
     "objectID": "lessons/08-lists-strings.html#string-iteration",
@@ -753,14 +753,14 @@
     "href": "lessons/08-lists-strings.html#list-operations",
     "title": "Lists and Strings",
     "section": "List Operations",
-    "text": "List Operations\n\nConcatenation - +\nReplication - *\nIndexing - []\n\n\n\nx = [1, 2, 3]\ny = [4, 5, 6]\nx + y\nx * 3\nz = [1, 2, 3, 4, 5]\nz[0], z[1], z[2], z[-1], z[-2], z[-3]"
+    "text": "List Operations\n\nConcatenation - +\nReplication - *\nIndexing - []\n\nTry the following in a Python Shell\nx = [1, 2, 3]\ny = [4, 5, 6]\nx + y\nx * 3\nz = [1, 2, 3, 4, 5]\nz[0], z[1], z[2], z[-1], z[-2], z[-3]"
   },
   {
     "objectID": "lessons/08-lists-strings.html#modifying-a-list",
     "href": "lessons/08-lists-strings.html#modifying-a-list",
     "title": "Lists and Strings",
     "section": "Modifying a List",
-    "text": "Modifying a List\n\nList items can be modified: stuff[2] = 5\nStrings cannot be modified: x[2] = 'a'\n\n\n\nx = [1, 2, 3, 4, 5]\nx[2] = 10\nx[0] = x[1] + x[2]\nx[3] = x[4]"
+    "text": "Modifying a List\n\nList items can be modified: stuff[2] = 5\nStrings cannot be modified: x[2] = 'a'\n\nTry the following in a Python Shell\nx = [1, 2, 3, 4, 5]\nx[2] = 10\nx[0] = x[1] + x[2]\nx[3] = x[4]\nx"
   },
   {
     "objectID": "lessons/08-lists-strings.html#modifying-a-list-of-characters",
@@ -949,7 +949,7 @@
     "href": "index.html#pdr-or-dac-counseling",
     "title": "Computing Fundamentals",
     "section": "PDR or DAC counseling",
-    "text": "PDR or DAC counseling\n\nBook a meeting - select the appropriate meeting type\n\n\n\n\n\n\n\nNote\n\n\n\nThis is not Additional Instruction. To setup AI, look above."
+    "text": "PDR or DAC counseling\n\nBook a meeting - select the appropriate meeting type\n\n\n\n\n\n\n\nNote\n\n\n\nThis is not Additional Instruction. To setup AI, scroll up."
   },
   {
     "objectID": "index.html#lessons",
@@ -970,21 +970,21 @@
     "href": "index.html#course-material",
     "title": "Computing Fundamentals",
     "section": "Course Material",
-    "text": "Course Material\n\nCanvas\nzyBook\nRobotics Lab\n\nMu Editor - IDE to work with Circuit Playground Bluefruit\nCircuit Playground Bluefruit - try student discount code: GitHubEdu\nCircuit Playground Bluefruit - no discount but easier to order"
+    "text": "Course Material\n\nCanvas\nzyBook\nProgramming References on Canvas\nRobotics Lab\n\nMu Editor - IDE to work with Circuit Playground Bluefruit\nCircuit Playground Bluefruit - try student discount code: GitHubEdu\nCircuit Playground Bluefruit - no discount but easier to order"
   },
   {
     "objectID": "index.html#documentation-and-tutorials",
     "href": "index.html#documentation-and-tutorials",
     "title": "Computing Fundamentals",
     "section": "Documentation and Tutorials",
-    "text": "Documentation and Tutorials\n\nDevDocs.io\nPython Notes for Professionals\nOfficial Python Documentation\nHow to Python in VS Code\nHour of Python"
+    "text": "Documentation and Tutorials\n\nDevDocs.io\nPython Notes for Professionals\nOfficial Python Documentation\nProgramming References on Canvas\nHow to Python in VS Code\nHour of Python\nKhan Academy: Intro to Python Fundamentals"
   },
   {
     "objectID": "index.html#developer-tools",
     "href": "index.html#developer-tools",
     "title": "Computing Fundamentals",
     "section": "Developer Tools",
-    "text": "Developer Tools\n\nPyodide - in-browser REPL\nMarimo reactive notebook for Python\nPython Tutor\nBlack Code Formatter\nVisual Studio Code\nThonny - Python IDE for beginners\nNotepad++"
+    "text": "Developer Tools\n\nMarimo reactive notebook for Python\ndiff Check - compare text side-by-side; great for comparing expected and actual output\nPyodide - in-browser REPL\nPython Tutor - step through code execution, line-by-line\nBlack Code Formatter - format Python code following PEP 8 Style Guide\n\nzyLab does this too if you right click and select “Format Document”\n\nThonny - Python development environment for beginners\nVisual Studio Code - development environment for grown-ups\nNotepad++ - lightweight text editor"
   },
   {
     "objectID": "index.html#random-interesting-material",
