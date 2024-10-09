@@ -105,18 +105,25 @@
     "text": "Soldering Safety\n\n\n\nUse protective eyewear.\nDo not touch the tip of the soldering iron!!\n\nAvoid metal parts.\nDo not touch it against anything flammable.\n\nDo not inhale fumes.\nStore soldering iron on stand when not in use.\nWash hands after soldering. It contains lead.\n\n\n\nYouTube: How to Solder\nA Beginner’s Guide"
   },
   {
-    "objectID": "lessons/18-robotics.html#agenda",
-    "href": "lessons/18-robotics.html#agenda",
+    "objectID": "lessons/18-robotics.html#robotics-day-1",
+    "href": "lessons/18-robotics.html#robotics-day-1",
     "title": "Robotics Lab",
-    "section": "Agenda",
-    "text": "Agenda\n\nGrab a box and write your name on it; begin inventory!\nInstall Mu Editor to interact with Bluefruit\nPull up the Robotics Lab on your second screen\n\nInventory all components\nSeparate screws (2x for stand) and combine with nuts\n\nAssemble the device - connectors flush with board; attach on correct side\nRun the temperature sensor code\nContinue working outside of class\n\nStill need to check off activities in class\nDocument all assistance!"
+    "section": "Robotics Day 1",
+    "text": "Robotics Day 1\n\nGrab a box and write your name on it; begin inventory!\nInstall Mu Editor to interact with Bluefruit\nPull up the Robotics Lab on your second screen\n\nInventory all components\nWarning: Separate screws (12x Gizmo, 2x for stand)! Stand screws have bigger thread and do not fit the Gizmo. Do not jam them in; they will damage the Gizmo. Combine stand screws with nuts early to separate them out.\n\nAssemble the device - connectors flush with board; attach on correct side\nRun the temperature sensor code\nContinue working outside of class\n\nDocument all assistance outside classroom!"
   },
   {
     "objectID": "lessons/18-robotics.html#robotics-day-2",
     "href": "lessons/18-robotics.html#robotics-day-2",
     "title": "Robotics Lab",
     "section": "Robotics Day 2",
-    "text": "Robotics Day 2\n\nMu Editor\nBluefruit Assembly\nTemperature Sensor Activity\nSensor Labs\nRobotics Labs\n\nAll labs are due at the end of class on day 3!\n\nContinue working outside of class\n\nSave your work to separate files\nBe prepared to demo in class on day 3\n\nStill need to check off activities in class!\nDocument all assistance! Honor acknowledgment statement on Canvas."
+    "text": "Robotics Day 2\n\n\nTasks\n\nBluefruit Assembly\nTemperature Sensor Activity\nSensor activities!\nBuild a robot!\n\n\nResources\n\nRobotics Lab\nCircuitPython Editor\nBluefruit Tutorial\nCircuitPython Documentation\n\n\nAll labs are due at the end of class on day 3!\n\nContinue working outside of class\n\nSave your work to separate files\nDemo in class on day 3!\n\nDocument all assistance! Honor acknowledgment statement on Canvas."
+  },
+  {
+    "objectID": "lessons/18-robotics.html#robotics-day-3",
+    "href": "lessons/18-robotics.html#robotics-day-3",
+    "title": "Robotics Lab",
+    "section": "Robotics Day 3",
+    "text": "Robotics Day 3\nResources\n\nCircuitPython Editor\nRobotics Lab\nBluefruit Tutorial\nCircuitPython Documentation\n\nAll labs are due today!\n\nDocument all assistance!\nHonor acknowledgment statement on Canvas!!"
   },
   {
     "objectID": "lessons/06-built-in-functions.html#discussion",
