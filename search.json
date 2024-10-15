@@ -427,228 +427,270 @@
     "text": "Reminders\n\nBring your reference cards to class daily\nErase whiteboards and clean up your area\nWPS2 is due 02SEP"
   },
   {
-    "objectID": "lessons/21-wps2-review.html#robotics-quiz-1",
-    "href": "lessons/21-wps2-review.html#robotics-quiz-1",
-    "title": "WPR 2 Review",
-    "section": "Robotics Quiz",
-    "text": "Robotics Quiz\nStart Time:\nEnd Time:\nAccess Code for Quiz:\nAccess Code for Honor Statement:\nAcademic Security: do not discuss with anyone until 23OCT at 1600\n\n\nDay 1: Terminator\nDay 2: iRobot\nHonor Statement: Swarm"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#study-resources",
-    "href": "lessons/21-wps2-review.html#study-resources",
-    "title": "WPR 2 Review",
-    "section": "Study Resources",
-    "text": "Study Resources\n\nzyBooks readings!!\nWPR 2 Study Guide\nWeekly Problem Sets\nLesson slides\nPractice WPR in Canvas!\nKahoots (Block 1 & Block 2) \nChatGPT can go wrong sometimes\n\noften overly complex programs\n\n\nCenter for Enhanced Performance (CEP) study session\n\n16OCT 2000-2130"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#what-is-the-output",
-    "href": "lessons/21-wps2-review.html#what-is-the-output",
-    "title": "WPR 2 Review",
-    "section": "What is the output?",
-    "text": "What is the output?\ndef doubler(num):\n    num = num * 2\n    print(num)\n\ndef main():\n    num2 = doubler(2)\n    print(num2)\n\nmain()\n\n4\nNone"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#what-is-the-output-1",
-    "href": "lessons/21-wps2-review.html#what-is-the-output-1",
-    "title": "WPR 2 Review",
-    "section": "What is the output?",
-    "text": "What is the output?\ndef doubler(num):\n    num = num * 2\n    return num\n\ndef main():\n    doubler(2)\n    print(num)\n\nmain()\n\nError"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#what-is-the-output-2",
-    "href": "lessons/21-wps2-review.html#what-is-the-output-2",
-    "title": "WPR 2 Review",
-    "section": "What is the output?",
-    "text": "What is the output?\nx = 5\n\ndef doubler(x):\n    print(x*2)\n\ndef main():\n    doubler(10)\n\nmain()\n\n20"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#given-the-following-function",
-    "href": "lessons/21-wps2-review.html#given-the-following-function",
-    "title": "WPR 2 Review",
-    "section": "Given the following function",
-    "text": "Given the following function\ndef water_level(inches):\n    if inches &lt; 12:\n        return \"Low\"\n    elif inches &lt; 24:\n        return \"Medium\"\n    else:\n        return \"High\"\n    return \"Flooded!\"\n\n\nWhat is the return value of: water_level(15)\nWhat is the return value of: water_level(30)\nWhat is the return value of: water_level(10)\nCan the function return more than one value?\nCan the function return “Flooded!”?\n\n\n\nMedium\nHigh\nLow"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#which-of-the-following-are-true",
-    "href": "lessons/21-wps2-review.html#which-of-the-following-are-true",
-    "title": "WPR 2 Review",
-    "section": "Which of the following are true?",
-    "text": "Which of the following are true?\ndef countdown(x):\n    while x &gt; 0:\n        print(x)\n        x -= 1\n    return \"Blastoff!\"\n\ndef main():\n    print(countdown(5))\n\nmain()\n\nThis program contains an example of indefinite iteration.\nThis program contains an example of definite iteration.\nThe variable x starts out with the value 5.\nThe loop body executes only 3 times.\nThe function countdown is a fruitful function.\nThe variable x has a global scope.\n\n\nB, C, E"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#which-of-the-following-are-true-1",
-    "href": "lessons/21-wps2-review.html#which-of-the-following-are-true-1",
-    "title": "WPR 2 Review",
-    "section": "Which of the following are true?",
-    "text": "Which of the following are true?\nfor i in range(2, 10, 3):\n    print(i)\nThe loop…\n\nstarts with i = 2\nprints numbers up to and including 9.\nincrements i by 3 each iteration.\niterates 4 times.\nprints 8 as the final value.\nis an example of indefinite iteration.\n\n\nA, C, E"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#which-of-the-following-are-true-2",
-    "href": "lessons/21-wps2-review.html#which-of-the-following-are-true-2",
-    "title": "WPR 2 Review",
-    "section": "Which of the following are true?",
-    "text": "Which of the following are true?\ndef check_password():\n    password = \"\"\n    while password != \"OpenSesame\":\n        password = input(\"What is the password? \")\n    return \"Access granted!\"\n\ndef main():\n    result = check_password()\n    print(result)\n\nmain()\n\nThe function check_password is a fruitful function.\nThe loop body executes at least once.\nThe function check_password is an example of definite iteration.\nThe variable result has a local scope within the main() function.\n\n\nA, B, D"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#what-is-the-output-3",
-    "href": "lessons/21-wps2-review.html#what-is-the-output-3",
-    "title": "WPR 2 Review",
-    "section": "What is the output?",
-    "text": "What is the output?\ndef heart_rate_zone(hr):\n    if hr &gt; 80:\n        return \"Green\"\n    if hr &gt; 100:\n        return \"Yellow\"\n    if hr &gt; 120:\n        return \"Orange\"\n    else:\n        return \"Red\"\n\ndef main():\n    zone = heart_rate_zone(110)\n    print(zone)\n\nmain()\n\nGreen\nYellow\nRed"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#what-is-the-output-4",
-    "href": "lessons/21-wps2-review.html#what-is-the-output-4",
-    "title": "WPR 2 Review",
-    "section": "What is the output?",
-    "text": "What is the output?\ndef heart_rate_zone(hr):\n    if hr &gt; 80:\n        return \"Green\"\n    elif hr &gt; 100:\n        return \"Yellow\"\n    elif hr &gt; 120:\n        return \"Orange\"\n    else:\n        return \"Red\"\n\ndef main():\n    zone = heart_rate_zone(110)\n    print(zone)\n\nmain()\n\nGreen"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#what-is-the-output-5",
-    "href": "lessons/21-wps2-review.html#what-is-the-output-5",
-    "title": "WPR 2 Review",
-    "section": "What is the output?",
-    "text": "What is the output?\ndef heart_rate_zone(hr):\n    if hr &gt; 140:\n        return \"Red\"\n    elif hr &gt; 120:\n        return \"Orange\"\n    elif hr &gt; 100:\n        return \"Yellow\"\n    else:\n        return \"Green\"\n\n\ndef main():\n    zone = heart_rate_zone(110)\n    print(zone)\n\nmain()\n\nYellow"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#what-does-the-function-random.randint1-6-do",
-    "href": "lessons/21-wps2-review.html#what-does-the-function-random.randint1-6-do",
-    "title": "WPR 2 Review",
-    "section": "What does the function random.randint(1, 6) do?",
-    "text": "What does the function random.randint(1, 6) do?\n\nReturns a random integer between 1 and 6, inclusive\nReturns a random float between 1 and 6\nRolls a six-sided die and outputs the result\nGenerates a random number between 1 and 5"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#to-be-considered-a-robot-a-device-must-do-which-of-the-following",
-    "href": "lessons/21-wps2-review.html#to-be-considered-a-robot-a-device-must-do-which-of-the-following",
-    "title": "WPR 2 Review",
-    "section": "To be considered a robot, a device must do which of the following?",
-    "text": "To be considered a robot, a device must do which of the following?\n\nHave arms and/or legs\nAct\nBlink LEDs\nThink (Decide)\nSense\nDisplay information to the user\nDestroy something\nRun on batteries"
-  },
-  {
-    "objectID": "lessons/21-wps2-review.html#which-of-the-following-tasks-are-best-suited-for-a-robot",
-    "href": "lessons/21-wps2-review.html#which-of-the-following-tasks-are-best-suited-for-a-robot",
-    "title": "WPR 2 Review",
-    "section": "Which of the following tasks are best suited for a robot?",
-    "text": "Which of the following tasks are best suited for a robot?\n\nWriting an essay\nInspecting hazardous nuclear waste\nPainting a portrait\nTeaching a class"
-  },
-  {
-    "objectID": "lessons/07-iteration.html#blooms-taxonomy",
-    "href": "lessons/07-iteration.html#blooms-taxonomy",
-    "title": "Definite Iteration",
-    "section": "Bloom’s Taxonomy",
-    "text": "Bloom’s Taxonomy\n\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\n\nSet of different learning objectives\nLearning takes place in a hierarchy\nLowest level is remembering, which is just recalling facts\nWhere do the readings belong?\n\nWhere should these take place?\n\nWhat about in-class exercises?\nImprove learning by moving up the hierarchy\nMake best use of classroom time"
-  },
-  {
-    "objectID": "lessons/07-iteration.html#announcements",
-    "href": "lessons/07-iteration.html#announcements",
-    "title": "Definite Iteration",
+    "objectID": "lessons/13-conditionals.html#announcements",
+    "href": "lessons/13-conditionals.html#announcements",
+    "title": "Conditional Statements 1",
     "section": "Announcements",
-    "text": "Announcements\n\nCengage issues?\n\nEmail me or setup AI.\n\nWPS3 is on zyBook; due 08SEP\nWritten Periodic Review 1 is in two weeks!"
+    "text": "Announcements\n\nWPS 5 due 29SEP\nRobotics Lab starts on 04OCT\n\nBluefruit?"
   },
   {
-    "objectID": "lessons/07-iteration.html#lesson-objectives",
-    "href": "lessons/07-iteration.html#lesson-objectives",
-    "title": "Definite Iteration",
+    "objectID": "lessons/13-conditionals.html#discussion",
+    "href": "lessons/13-conditionals.html#discussion",
+    "title": "Conditional Statements 1",
+    "section": "Discussion!",
+    "text": "Discussion!\n\narrr - Pirate module!\nWhat is Python\nAlgorithm: The Better Boarding Method Airlines Won’t Use"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#lesson-objectives",
+    "href": "lessons/13-conditionals.html#lesson-objectives",
+    "title": "Conditional Statements 1",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nArticulate the need for iteration in programs\nDescribe the syntax and function of a for loop\nWrite code that repeats a definite number of times using a for loop\nDefine the Accumulator Pattern and give an example of it being used"
+    "text": "Lesson Objectives\n\nEvaluate expressions with Boolean values and logical operators\nTrace through programs that use conditional statements\nWrite programs that include simple conditional statements"
   },
   {
-    "objectID": "lessons/07-iteration.html#sequence---iteration",
-    "href": "lessons/07-iteration.html#sequence---iteration",
-    "title": "Definite Iteration",
-    "section": "Sequence -> Iteration",
-    "text": "Sequence -&gt; Iteration"
+    "objectID": "lessons/13-conditionals.html#which-of-the-following-is-a-boolean-value-in-python",
+    "href": "lessons/13-conditionals.html#which-of-the-following-is-a-boolean-value-in-python",
+    "title": "Conditional Statements 1",
+    "section": "Which of the following is a Boolean value in Python?",
+    "text": "Which of the following is a Boolean value in Python?\n\nTrue\n“True”\ntrue\n“true”"
   },
   {
-    "objectID": "lessons/07-iteration.html#check-on-learning",
-    "href": "lessons/07-iteration.html#check-on-learning",
-    "title": "Definite Iteration",
-    "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nWhat is iteration?\nWhat type of loops can we use in Python?\nWhere are loops on your reference card?\nWhen would we use a for loop?\nWhat is the syntax of for loop?\nHow do we initialize the variable x?\nWhat can the sequence be?\nWhat does range() do?\nWhat is an accumulator?\n\n\n\n\nIteration is repeating a set of statements a certain number of times\nfor x in sequence:\nrange() generates a sequence of values that a for loop can iterate over"
+    "objectID": "lessons/13-conditionals.html#a-boolean-expression",
+    "href": "lessons/13-conditionals.html#a-boolean-expression",
+    "title": "Conditional Statements 1",
+    "section": "A Boolean expression…",
+    "text": "A Boolean expression…\n\n…always returns an integer\n…evaluates to either True or False\n…checks if two variables are strings\n…must contain an arithmetic operation"
   },
   {
-    "objectID": "lessons/07-iteration.html#reminder-code-blocks",
-    "href": "lessons/07-iteration.html#reminder-code-blocks",
-    "title": "Definite Iteration",
-    "section": "Reminder: Code Blocks",
-    "text": "Reminder: Code Blocks\n\nBegins with a colon\nIndentation is important!\nIndentation is how Python knows what is inside the loop\nIndentation is 4 spaces or a tab - be consistent!\n\ndef main():\n    total  = 0\n    n = int(input(\"Enter a value for n: \"))\n    for x in range(n+1):\n        y = (3*x + 5)\n        y_squared = y**2\n        total = total + y_squared\n    print(\"The final sum is\", total)\n\nmain()"
+    "objectID": "lessons/13-conditionals.html#which-of-the-following-correctly-checks-if-a-number-is-either-5-or-6",
+    "href": "lessons/13-conditionals.html#which-of-the-following-correctly-checks-if-a-number-is-either-5-or-6",
+    "title": "Conditional Statements 1",
+    "section": "Which of the following correctly checks if a number is either 5 or 6?",
+    "text": "Which of the following correctly checks if a number is either 5 or 6?\n\nnumber == 5 or 6\nnumber == (5 or 6)\nnumber == 5 or number == 6\nnumber == 5 and number == 6"
   },
   {
-    "objectID": "lessons/07-iteration.html#the-for-loop",
-    "href": "lessons/07-iteration.html#the-for-loop",
-    "title": "Definite Iteration",
-    "section": "The for Loop",
-    "text": "The for Loop\n\n\n\nIteration = loop = repeating a set of statements a certain number of times\nMakes your code concise, easy to read\nfor loop is a definite loop\n\nWe know how many times it will run before it starts\n\n\n\n\"\"\"\nProgram: Squares of natural numbers\nInput: List of natural numbers\nOutput: Squares of each number\n\"\"\"\n\ndef main():\n  for x in [1, 2, 3, 4, 5]:\n      square = x**2\n      print(\"The square of\", x, \"is\", square)\n\nmain()"
+    "objectID": "lessons/13-conditionals.html#which-operator-checks-if-two-values-are-equal",
+    "href": "lessons/13-conditionals.html#which-operator-checks-if-two-values-are-equal",
+    "title": "Conditional Statements 1",
+    "section": "Which operator checks if two values are equal?",
+    "text": "Which operator checks if two values are equal?\n\n=\n==\n=&gt;\n=&lt;"
   },
   {
-    "objectID": "lessons/07-iteration.html#examples",
-    "href": "lessons/07-iteration.html#examples",
-    "title": "Definite Iteration",
-    "section": "Examples",
-    "text": "Examples\n\nFor every cadet in this class room…\nDisplay the values of each item in a given list.\nConvert the characters of a given string to ASCII values\nEvery prime number less than 100…\nPython Tutor Example\n\n\n\nDo you know exactly how many times each loop will be repeated?\nWhat are the keywords/indicators in each prompt?"
+    "objectID": "lessons/13-conditionals.html#which-of-the-following-is-not-a-logical-operator",
+    "href": "lessons/13-conditionals.html#which-of-the-following-is-not-a-logical-operator",
+    "title": "Conditional Statements 1",
+    "section": "Which of the following is not a logical operator?",
+    "text": "Which of the following is not a logical operator?\n\nand\nor\nnot\nyes"
   },
   {
-    "objectID": "lessons/07-iteration.html#more-loops",
-    "href": "lessons/07-iteration.html#more-loops",
-    "title": "Definite Iteration",
-    "section": "More Loops",
-    "text": "More Loops\nfor i in [1, 2, 3, \"A\", \"B\", \"C\"]:\n    print(i)\n\nfor letter in \"California\":\n    print(letter)\n\nfor value in range(5):\n    print(value)"
+    "objectID": "lessons/13-conditionals.html#evaluate-the-expression-true-and-false",
+    "href": "lessons/13-conditionals.html#evaluate-the-expression-true-and-false",
+    "title": "Conditional Statements 1",
+    "section": "Evaluate the expression: True and False",
+    "text": "Evaluate the expression: True and False\n\nTrue\nFalse\nError\nNone of the above"
   },
   {
-    "objectID": "lessons/07-iteration.html#in-class-exercise-1",
-    "href": "lessons/07-iteration.html#in-class-exercise-1",
-    "title": "Definite Iteration",
+    "objectID": "lessons/13-conditionals.html#how-should-you-properly-structure-the-condition-to-check-if-a-variable-x-is-greater-than-10-and-less-than-20",
+    "href": "lessons/13-conditionals.html#how-should-you-properly-structure-the-condition-to-check-if-a-variable-x-is-greater-than-10-and-less-than-20",
+    "title": "Conditional Statements 1",
+    "section": "How should you properly structure the condition to check if a variable x is greater than 10 and less than 20?",
+    "text": "How should you properly structure the condition to check if a variable x is greater than 10 and less than 20?\n\nx &gt; 10 and &lt; 20\nx &gt; 10 or x &lt; 20\nx &gt; 10 and x &lt; 20\nx == 10 or x == 20"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#what-will-not-true-or-false-evaluate-to",
+    "href": "lessons/13-conditionals.html#what-will-not-true-or-false-evaluate-to",
+    "title": "Conditional Statements 1",
+    "section": "What will not (True or False) evaluate to?",
+    "text": "What will not (True or False) evaluate to?\n\nTrue\nFalse\nError\nNone of the above"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#what-is-the-result-of-5-3-or-4-4",
+    "href": "lessons/13-conditionals.html#what-is-the-result-of-5-3-or-4-4",
+    "title": "Conditional Statements 1",
+    "section": "What is the result of 5 < 3 or 4 == 4?",
+    "text": "What is the result of 5 &lt; 3 or 4 == 4?\n\nTrue\nFalse\nError\nNone of the above"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#algorithm-pizza-shop",
+    "href": "lessons/13-conditionals.html#algorithm-pizza-shop",
+    "title": "Conditional Statements 1",
+    "section": "Algorithm: Pizza Shop",
+    "text": "Algorithm: Pizza Shop\nOur pizzeria is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, and soda. A slice of pizza still costs $2.50, but you can get fries for $1.25 and onion rings for $1.50. A soda costs 99 cents.\n\nWrite the algorithm for a program that firsts asks the user for the number of times they want to order. For each iteration, the program should prompt the user on whether they want pizza, onion rings, or soda, and the associated quantity. At the end, your program should display the total plus the 8.25% NY State sales tax.\nNote: Clearly identify the sequence, selection, and iteration in your algorithm."
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#boolean-values",
+    "href": "lessons/13-conditionals.html#boolean-values",
+    "title": "Conditional Statements 1",
+    "section": "Boolean Values",
+    "text": "Boolean Values\n\nTrue or False\nis_it_raining = True\nam_i_hungry = False\ncadet_is_sleepy = True\ntype(cadet_is_sleepy)\n\nPython Console"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#comparison-operators",
+    "href": "lessons/13-conditionals.html#comparison-operators",
+    "title": "Conditional Statements 1",
+    "section": "Comparison Operators",
+    "text": "Comparison Operators\n\nx &lt; y - less than\nx &lt;= y - less than or equal to\nx &gt; y - greater than\nx &gt;= y - greater than or equal to\nx == y - equal to\nx != y - not equal to"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#practice-with-comparison-operators",
+    "href": "lessons/13-conditionals.html#practice-with-comparison-operators",
+    "title": "Conditional Statements 1",
+    "section": "Practice with Comparison Operators",
+    "text": "Practice with Comparison Operators\n\nx = 5; y = 10; z = 8\nx &lt; y\nx &lt;= y\nx &gt; y\ny == 10\nz != 8\n5 &lt;= y &lt;= 10\n\nPython Console"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#logical-operators",
+    "href": "lessons/13-conditionals.html#logical-operators",
+    "title": "Conditional Statements 1",
+    "section": "Logical Operators",
+    "text": "Logical Operators\n\nand - both conditions must be True\nor - at least one condition must be True\nnot - negates the condition\n\nSee the reference card for precedence of operators!"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#practice-with-logical-operators",
+    "href": "lessons/13-conditionals.html#practice-with-logical-operators",
+    "title": "Conditional Statements 1",
+    "section": "Practice with Logical Operators",
+    "text": "Practice with Logical Operators\n\n\n\nx = 42; y = 15; z = True\nx &gt; 40 and z\nx &lt; 40 or z\nnot z\ny &gt; 5 and y &lt; 10\nnot z or y &gt; 5\nz or not y &lt; 5\n\n\n\nx &lt; 15 and y &gt; 10\nx != y and (2 &lt; x &lt; 20)\nnot(y &lt; 0) and not(x &gt; 15)\nnot(x != y)\nx == 15 or y &lt; 15\nx == y and z\nx == y or z\n\n\nPython Console"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#membership-operator-in",
+    "href": "lessons/13-conditionals.html#membership-operator-in",
+    "title": "Conditional Statements 1",
+    "section": "Membership Operator in",
+    "text": "Membership Operator in\n\nCheck membership in a sequence\nFor strings, checks if a substring is present\n\n'a' in 'California'\n'ork' in 'New York'\n\nFor lists, checks if an element is present\n\n3 in [1, 2, 3]\n5 in [1, 2, 3]\n\nnot in to check the opposite\n\n2 not in [1, 2, 3]\n'a' not in 'California'\n\n\nPython Console"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#if-statements",
+    "href": "lessons/13-conditionals.html#if-statements",
+    "title": "Conditional Statements 1",
+    "section": "if Statements",
+    "text": "if Statements\n\nExecute a block of code sometimes\n\nif is_it_raining:\n    print(\"Bring an umbrella!\")\n\nif am_i_hungry:\n    print(\"Eat a granola bar!\")\n\nprint(\"Go to class either way.\")"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#if-else-statements",
+    "href": "lessons/13-conditionals.html#if-else-statements",
+    "title": "Conditional Statements 1",
+    "section": "if-else Statements",
+    "text": "if-else Statements\n\nExecute one block of code if a condition is True\nOtherwise, execute another block\n\nif cadet_is_sleepy:\n    print(\"Go to bed!\")\nelse:\n    print(\"Go to class!\")"
+  },
+  {
+    "objectID": "lessons/13-conditionals.html#in-class-exercise-1",
+    "href": "lessons/13-conditionals.html#in-class-exercise-1",
+    "title": "Conditional Statements 1",
     "section": "In-Class Exercise 1",
-    "text": "In-Class Exercise 1\n\nFor each cadet in the list ask the user what company they are in using this format “Which company for CDT Anderson?”\nDisplay the results in this format: “CDT Anderson is assigned to company B4”\nYou must use a for loop to iterate through each element in the list.\n\ndef main():\n  # Here is the list of cadet names\n  newCadetNames = ['Anderson', 'Kim', 'Thornton', 'Kofford', 'Palau', 'Traeger', 'Yao']\n  # Your code goes here\n\nmain()\nzyBook 7.6.7: ICE 8"
+    "text": "In-Class Exercise 1\nOur pizzeria is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings and soda. A slice of pizza still costs $2.50, but you can get fries for $1.25 and onion rings for $1.50. A soda costs 99 cents.\nWrite a program that firsts asks the user for the number of times they want to order. For each iteration, the program should prompt the user on whether they want pizza, onion rings, or soda, and the associated quantity. At the end, your program should display the total plus the 8.25% NY State tax."
   },
   {
-    "objectID": "lessons/07-iteration.html#range-function",
-    "href": "lessons/07-iteration.html#range-function",
-    "title": "Definite Iteration",
-    "section": "range() Function",
-    "text": "range() Function\n\nGenerates a sequence of values and is commonlyused in a for loop\n\nrange(start, stop, step)\n\nrange(stop)\n\nrange(start, stop)\n\nstart is optional and defaults to 0\nstop is required; not inclusive\nstep is optional and defaults to 1\n\n\n\nstart is optional and defaults to 0\nstop is required; not inclusive\nstep is optional and defaults to 1\n\nrange(5) # 0, 1, 2, 3, 4\nrange(2, 5) # 2, 3, 4\nrange(2, 10, 2) # 2, 4, 6, 8\nrange(20, 0, -3) # 20, 17, 14, 11, 8, 5, 2"
-  },
-  {
-    "objectID": "lessons/07-iteration.html#in-class-exercise-2",
-    "href": "lessons/07-iteration.html#in-class-exercise-2",
-    "title": "Definite Iteration",
+    "objectID": "lessons/13-conditionals.html#in-class-exercise-2",
+    "href": "lessons/13-conditionals.html#in-class-exercise-2",
+    "title": "Conditional Statements 1",
     "section": "In-Class Exercise 2",
-    "text": "In-Class Exercise 2\n\nUsing a for loop and the range function, display the mathematical cube of each of the odd integers from 3 to 11 (inclusive).\n\ndef main():\n  # enter code here\n\nmain()\nzyBook 7.6.3: ICE 4"
+    "text": "In-Class Exercise 2\nWrite a program that prompts a user to input a number, n. Your program should then generate a list of n random numbers between 1 and 50 (inclusive), and display the list. Lastly, scan through the list and display the number of times a you observe a value that is 25 or less.\nSample input/output:\n\nEnter a number: 4\n[25, 12, 50, 25]\nThere are 3 values that are 25 or less.\n\n\nEnter a number: 6\n[25, 12, 50, 25, 30, 40]\nThere are 4 values that are 25 or less."
   },
   {
-    "objectID": "lessons/07-iteration.html#accumulators",
-    "href": "lessons/07-iteration.html#accumulators",
-    "title": "Definite Iteration",
-    "section": "Accumulators",
-    "text": "Accumulators\n\nA variable in the loop body that aggregates (or accumulates) a value we wanttokeep track of.\nMust be initialized before loop begins!\nMost common operations\n\naddition (+=)\nsubtraction (-=)\nmultiplication (*=)"
-  },
-  {
-    "objectID": "lessons/07-iteration.html#accumulator-examples",
-    "href": "lessons/07-iteration.html#accumulator-examples",
-    "title": "Definite Iteration",
-    "section": "Accumulator Examples",
-    "text": "Accumulator Examples\n\nFor each new cadet in the list, assign a company. Count how many cadets are processed and display total.\nIterate through a user-provided string and count how many letters there are.\nHave the user guess the password until they get it right or until they have reached 5 attempts.\nSum the numbers within a range"
-  },
-  {
-    "objectID": "lessons/07-iteration.html#in-class-exercise-3",
-    "href": "lessons/07-iteration.html#in-class-exercise-3",
-    "title": "Definite Iteration",
+    "objectID": "lessons/13-conditionals.html#in-class-exercise-3",
+    "href": "lessons/13-conditionals.html#in-class-exercise-3",
+    "title": "Conditional Statements 1",
     "section": "In-Class Exercise 3",
-    "text": "In-Class Exercise 3\nYou are studying the growth of an alien plant. The total growth of the plant over n days is described by the following summation:\n\\[G_{total} = \\sum_{i=1}^{n} (2i + 3)\\]\nWrite a Python program that:\n\nAsks the user to input the number of days n.\nCalculates the total growth using the summation formula (implement using a for loop).\nOutputs the total growth after n days.\n\nzyBook 7.6.4: ICE 5"
+    "text": "In-Class Exercise 3\nA substring is a string that occurs directly in another string. However, a subsequence is a string that appears in another string, though the characters need not be contiguous.\nFor example, fragile is not a substring of supercalifragilisticespialidocious but is a subsequence.\nWrite a program that prompts the user for two strings. The program should then output if the first string is or is not a subsequence of the second.\nSample input/output:\n\nEnter the first string: fragile\nEnter another string: supercalifragilisticespialidocious\nfragile is a subsequence of supercalifragilisticespialidocious.\n\n\nEnter the first string: delicious\nEnter another string: supercalifragilisticespialidocious\ndelicious is not a subsequence of supercalifragilisticespialidocious."
   },
   {
-    "objectID": "lessons/07-iteration.html#lesson-review",
-    "href": "lessons/07-iteration.html#lesson-review",
-    "title": "Definite Iteration",
-    "section": "Lesson Review",
-    "text": "Lesson Review\n\n\nWhy do we need loops?\nWhat type of loops can we use in Python?\nWhen would we use a for loop?\nWhat does range() do?\nWhat is an accumulator?\n\n\nNext Lesson: Strings and Lists\n\nCommon operations on lists and strings: indexing, concatenation, replication\nBuilt-in functions: len(), min(), max()\nIteration + lists and strings operations"
-  },
-  {
-    "objectID": "lessons/07-iteration.html#reminders",
-    "href": "lessons/07-iteration.html#reminders",
-    "title": "Definite Iteration",
+    "objectID": "lessons/13-conditionals.html#reminders",
+    "href": "lessons/13-conditionals.html#reminders",
+    "title": "Conditional Statements 1",
     "section": "Reminders",
-    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nCengage issues?\n\nEmail me or setup AI.\n\nWPS3 is on zyBook; due 08SEP\nWPR1 is in two weeks!"
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice more!\nIf still missing Bluefruit, email me!"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#announcements",
+    "href": "lessons/15-iteration-while.html#announcements",
+    "title": "Indefinite Iteration",
+    "section": "Announcements",
+    "text": "Announcements\n\nWPS5 due 29SEP\nRobotics Lab starts on 04OCT\n\nIf still missing Bluefruit…"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#discussion",
+    "href": "lessons/15-iteration-while.html#discussion",
+    "title": "Indefinite Iteration",
+    "section": "Discussion!",
+    "text": "Discussion!\n\nLinux in 100 seconds\nBash in 100 seconds\nWhat is Linux\nHow Linux is Built"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#lesson-objectives",
+    "href": "lessons/15-iteration-while.html#lesson-objectives",
+    "title": "Indefinite Iteration",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nIdentify the need for conditional iteration based on scenario descriptions\nCompare and contrast while loops with for loops\nIdentify how a loop could repeat forever (infinite loop)\nWrite code that repeats an indefinite number of times using a while loop​"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#pizza-program",
+    "href": "lessons/15-iteration-while.html#pizza-program",
+    "title": "Indefinite Iteration",
+    "section": "Pizza Program!",
+    "text": "Pizza Program!\nWrite a Vending Machine algorithm that simulates the purchase of either candy (1.50), chips (.99) or gum (0.75). Ask the user what item they want. Then, the vending machine should take in nickels, dimes, quarters, and half-dollars, and dispense the desired item when the amount is greater than or equal to the item’s cost. If the user inserts more than the item’s cost, tell them how much change they get back."
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#what-is-a-while-loop",
+    "href": "lessons/15-iteration-while.html#what-is-a-while-loop",
+    "title": "Indefinite Iteration",
+    "section": "What is a while loop?",
+    "text": "What is a while loop?\n\n\nmore_pushups = not am_i_tired()\n\nif more_pushups:\n    print(\"Down! Up!\")\n\n\nprint(\"Good job!\")\n\nmore_pushups = True\n\nwhile more_pushups:\n    print(\"Down! Up!\")\n    more_pushups = not am_i_tired()\n\nprint(\"Good job!\")\n\n\nrepeat a block of code\n\nas long as a condition is true\nindefinite iteration!\n\njust like if statements\nsee page 3 of your reference card"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#controlling-condition",
+    "href": "lessons/15-iteration-while.html#controlling-condition",
+    "title": "Indefinite Iteration",
+    "section": "Controlling Condition",
+    "text": "Controlling Condition\n\nwhile loops repeat as long as the condition stays True\nWhat if the condition is False before it starts?\nWhat if the condition never becomes False?\nCan we use it for definite iteration?\n\nCounting to 10?\n\n\ncount = 0\nwhile count &lt; 10:\n    print(count)\n    count += 1"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#example",
+    "href": "lessons/15-iteration-while.html#example",
+    "title": "Indefinite Iteration",
+    "section": "Example",
+    "text": "Example\n\n\n\n\n\nWhat is the controlling condition? How does loop terminate?\nWhat lines are part of the loop body?\nAre the number of iterations definite or indefinite?\nWhat actions are inside the loop? Outside the loop?\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotebook"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#another-example",
+    "href": "lessons/15-iteration-while.html#another-example",
+    "title": "Indefinite Iteration",
+    "section": "Another Example",
+    "text": "Another Example\nuser_says = \"\"\nwhile user_says != \"quit\":\n    user_says = input(\"Say something: \")\n    print(f\"You said: {user_says}\")\nprint(\"All done!\")\n\nWhat is the controlling condition? How does loop terminate?\nWhat lines are part of the loop body?\nAre the number of iterations definite or indefinite?\nWhat actions are inside the loop? Outside the loop?"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#one-more-example",
+    "href": "lessons/15-iteration-while.html#one-more-example",
+    "title": "Indefinite Iteration",
+    "section": "One More Example",
+    "text": "One More Example\nuser_says = input(\"Say something: \")\nwhile user_says != \"quit\":\n    print(f\"You said: {user_says}\")\nprint(\"All done!\")\n\nWhat is the controlling condition? How does loop terminate?\nWhat lines are part of the loop body?\nAre the number of iterations definite or indefinite?\nWhat actions are inside the loop? Outside the loop?"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#for-vs-while-which-one-to-use",
+    "href": "lessons/15-iteration-while.html#for-vs-while-which-one-to-use",
+    "title": "Indefinite Iteration",
+    "section": "for vs while: which one to use?",
+    "text": "for vs while: which one to use?\n\nList the mathematical cube of all odd integers from 3 to 11.\nAssign a company to each new cadet until no more names are given.\nAsk a customer to order menu items until they are satisfied.\nDisplay the values of each item in a list.\n\nNote: How many times will each loop run?"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#in-class-exercise-2",
+    "href": "lessons/15-iteration-while.html#in-class-exercise-2",
+    "title": "Indefinite Iteration",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\nWrite a Vending Machine program that simulates the purchase of either candy (1.50), chips (.99) or gum (0.75). The program should prompt the user what item they want. Then, the vending machine should take in nickels, dimes, quarters, and half-dollars, and dispense the desired item when the amount is greater than or equal to the item’s cost. If the user inserts more than the item’s cost, display the change.\n\nWhat item do you want? candy\ncandy costs $1.5\nPlease insert a coin: 50\nPlease insert a coin: 1\nInvalid coin type!\nPlease insert a coin: 50\nPlease insert a coin: 25\nPlease insert a coin: 50\nPlease enjoy your candy! Here is your change: 25 cents"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#in-class-exercise-3",
+    "href": "lessons/15-iteration-while.html#in-class-exercise-3",
+    "title": "Indefinite Iteration",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\nWrite a guessing game called TwentyQuestions. Your program should first pick a number between 1 and 100 inclusive. The user has only twenty guesses in which to guess the correct number. Each time the user guesses, your program should print out “Too low” if the guess is too low, and “too high” if it is too high. If the player guesses the number right, you should output “Congratulations!” along with the number of guesses it took them. If they lose, print “Better luck next time!”"
+  },
+  {
+    "objectID": "lessons/15-iteration-while.html#reminders",
+    "href": "lessons/15-iteration-while.html#reminders",
+    "title": "Indefinite Iteration",
+    "section": "Reminders",
+    "text": "Reminders\n\n\nfor whiteboard in whiteboards:\n    erase(whiteboard)\n\nwhile monitors_are_up:\n    lower('monitors')\n\nif still_missing_bluefruit:\n    email('your instructor')\n\nwhile True:\n    read('next_chapter')\n    practice('zyBook problems')\n    sleep()\n\nNext Lesson\n\nFunctions!\nWPS5 due on Sunday!"
   },
   {
     "objectID": "lessons/10-modules.html#announcements",
@@ -1281,270 +1323,235 @@
     "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS3 due 08SEP\n\nReach out early!\n\nPractice!"
   },
   {
-    "objectID": "lessons/15-iteration-while.html#announcements",
-    "href": "lessons/15-iteration-while.html#announcements",
-    "title": "Indefinite Iteration",
+    "objectID": "lessons/21-wpr2-review.html#robotics-quiz-1",
+    "href": "lessons/21-wpr2-review.html#robotics-quiz-1",
+    "title": "WPR 2 Review",
+    "section": "Robotics Quiz",
+    "text": "Robotics Quiz\nStart Time:\nEnd Time:\nAccess Code for Quiz:\nAccess Code for Honor Statement:\nAcademic Security: do not discuss with anyone until 23OCT at 1600\n\n\nDay 1: Terminator\nDay 2: iRobot\nHonor Statement: Swarm"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#honor-acknowledgment-statement",
+    "href": "lessons/21-wpr2-review.html#honor-acknowledgment-statement",
+    "title": "WPR 2 Review",
+    "section": "Honor Acknowledgment Statement!",
+    "text": "Honor Acknowledgment Statement!"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#study-resources",
+    "href": "lessons/21-wpr2-review.html#study-resources",
+    "title": "WPR 2 Review",
+    "section": "Study Resources",
+    "text": "Study Resources\n\nzyBooks readings!!\nWPR 2 Study Guide\nWeekly Problem Sets\nLesson slides\nPractice WPR in Canvas!\nKahoots (Block 1 & Block 2) \nChatGPT can go wrong sometimes\n\noften overly complex programs\n\n\nCenter for Enhanced Performance (CEP) study session\n\n16OCT 2000-2130"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#what-is-the-output",
+    "href": "lessons/21-wpr2-review.html#what-is-the-output",
+    "title": "WPR 2 Review",
+    "section": "What is the output?",
+    "text": "What is the output?\ndef doubler(num):\n    num = num * 2\n    print(num)\n\ndef main():\n    num2 = doubler(2)\n    print(num2)\n\nmain()\n\n4\nNone"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#what-is-the-output-1",
+    "href": "lessons/21-wpr2-review.html#what-is-the-output-1",
+    "title": "WPR 2 Review",
+    "section": "What is the output?",
+    "text": "What is the output?\ndef doubler(num):\n    num = num * 2\n    return num\n\ndef main():\n    doubler(2)\n    print(num)\n\nmain()\n\nError"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#what-is-the-output-2",
+    "href": "lessons/21-wpr2-review.html#what-is-the-output-2",
+    "title": "WPR 2 Review",
+    "section": "What is the output?",
+    "text": "What is the output?\nx = 5\n\ndef doubler(x):\n    print(x*2)\n\ndef main():\n    doubler(10)\n\nmain()\n\n20"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#given-the-following-function",
+    "href": "lessons/21-wpr2-review.html#given-the-following-function",
+    "title": "WPR 2 Review",
+    "section": "Given the following function",
+    "text": "Given the following function\ndef water_level(inches):\n    if inches &lt; 12:\n        return \"Low\"\n    elif inches &lt; 24:\n        return \"Medium\"\n    else:\n        return \"High\"\n    return \"Flooded!\"\n\n\nWhat is the return value of: water_level(15)\nWhat is the return value of: water_level(30)\nCan the function return more than one value?\nCan the function return “Flooded!”?\n\n\n\nMedium\nHigh\nNo\nNo"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#which-of-the-following-are-true",
+    "href": "lessons/21-wpr2-review.html#which-of-the-following-are-true",
+    "title": "WPR 2 Review",
+    "section": "Which of the following are true?",
+    "text": "Which of the following are true?\ndef countdown(x):\n    while x &gt; 0:\n        print(x)\n        x -= 1\n    return \"Blastoff!\"\n\ndef main():\n    print(countdown(5))\n\nmain()\n\nThis program contains an example of indefinite iteration.\nThis program contains an example of definite iteration.\nThe variable x starts out with the value 5.\nThe loop body executes only 3 times.\nThe function countdown is a fruitful function.\nThe variable x has a global scope.\n\n\nB, C, E"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#which-of-the-following-are-true-1",
+    "href": "lessons/21-wpr2-review.html#which-of-the-following-are-true-1",
+    "title": "WPR 2 Review",
+    "section": "Which of the following are true?",
+    "text": "Which of the following are true?\nfor i in range(2, 10, 3):\n    print(i)\nThe loop…\n\nstarts with i = 2\nprints numbers up to and including 9.\nincrements i by 3 each iteration.\niterates 4 times.\nprints 8 as the final value.\nis an example of indefinite iteration.\n\n\nA, C, E"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#which-of-the-following-are-true-2",
+    "href": "lessons/21-wpr2-review.html#which-of-the-following-are-true-2",
+    "title": "WPR 2 Review",
+    "section": "Which of the following are true?",
+    "text": "Which of the following are true?\ndef check_password():\n    password = \"\"\n    while password != \"OpenSesame\":\n        password = input(\"What is the password? \")\n    return \"Access granted!\"\n\ndef main():\n    result = check_password()\n    print(result)\n\nmain()\n\nThe function check_password is a fruitful function.\nThe loop body executes at least once.\nThe function check_password is an example of definite iteration.\nThe variable result has a local scope within the main() function.\n\n\nA, B, D"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#what-is-the-output-3",
+    "href": "lessons/21-wpr2-review.html#what-is-the-output-3",
+    "title": "WPR 2 Review",
+    "section": "What is the output?",
+    "text": "What is the output?\ndef heart_rate_zone(hr):\n    if hr &gt; 80:\n        print(\"Green\")\n    if hr &gt; 100:\n        print(\"Yellow\")\n    if hr &gt; 120:\n        print(\"Orange\")\n    else:\n        print(\"Red\")\n\ndef main():\n    heart_rate_zone(110)\n\nmain()\n\nGreen\nYellow\nRed"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#what-is-the-output-4",
+    "href": "lessons/21-wpr2-review.html#what-is-the-output-4",
+    "title": "WPR 2 Review",
+    "section": "What is the output?",
+    "text": "What is the output?\ndef heart_rate_zone(hr):\n    if hr &gt; 80:\n        print(\"Green\")\n    elif hr &gt; 100:\n        print(\"Yellow\")\n    elif hr &gt; 120:\n        print(\"Orange\")\n    else:\n        print(\"Red\")\n\ndef main():\n    heart_rate_zone(110)\n\nmain()\n\nGreen"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#what-is-the-output-5",
+    "href": "lessons/21-wpr2-review.html#what-is-the-output-5",
+    "title": "WPR 2 Review",
+    "section": "What is the output?",
+    "text": "What is the output?\ndef heart_rate_zone(hr):\n    if hr &gt; 140:\n        return \"Red\"\n    elif hr &gt; 120:\n        return \"Orange\"\n    elif hr &gt; 100:\n        return \"Yellow\"\n    else:\n        return \"Green\"\n\ndef main():\n    zone = heart_rate_zone(110)\n    print(zone)\n\nmain()\n\nYellow"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#what-does-the-function-random.randint1-6-do",
+    "href": "lessons/21-wpr2-review.html#what-does-the-function-random.randint1-6-do",
+    "title": "WPR 2 Review",
+    "section": "What does the function random.randint(1, 6) do?",
+    "text": "What does the function random.randint(1, 6) do?\n\nReturns a random integer between 1 and 6, inclusive\nReturns a random float between 1 and 6\nRolls a six-sided die and outputs the result\nGenerates a random number between 1 and 5"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#to-be-considered-a-robot-a-device-must-do-which-of-the-following",
+    "href": "lessons/21-wpr2-review.html#to-be-considered-a-robot-a-device-must-do-which-of-the-following",
+    "title": "WPR 2 Review",
+    "section": "To be considered a robot, a device must do which of the following?",
+    "text": "To be considered a robot, a device must do which of the following?\n\nHave arms and/or legs\nAct\nBlink LEDs\nThink (Decide)\nSense\nDisplay information to the user\nDestroy something\nRun on batteries"
+  },
+  {
+    "objectID": "lessons/21-wpr2-review.html#which-of-the-following-tasks-are-best-suited-for-a-robot",
+    "href": "lessons/21-wpr2-review.html#which-of-the-following-tasks-are-best-suited-for-a-robot",
+    "title": "WPR 2 Review",
+    "section": "Which of the following tasks are best suited for a robot?",
+    "text": "Which of the following tasks are best suited for a robot?\n\nWriting an essay\nInspecting hazardous nuclear waste\nPainting a portrait\nTeaching a class"
+  },
+  {
+    "objectID": "lessons/07-iteration.html#blooms-taxonomy",
+    "href": "lessons/07-iteration.html#blooms-taxonomy",
+    "title": "Definite Iteration",
+    "section": "Bloom’s Taxonomy",
+    "text": "Bloom’s Taxonomy\n\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\n\nSet of different learning objectives\nLearning takes place in a hierarchy\nLowest level is remembering, which is just recalling facts\nWhere do the readings belong?\n\nWhere should these take place?\n\nWhat about in-class exercises?\nImprove learning by moving up the hierarchy\nMake best use of classroom time"
+  },
+  {
+    "objectID": "lessons/07-iteration.html#announcements",
+    "href": "lessons/07-iteration.html#announcements",
+    "title": "Definite Iteration",
     "section": "Announcements",
-    "text": "Announcements\n\nWPS5 due 29SEP\nRobotics Lab starts on 04OCT\n\nIf still missing Bluefruit…"
+    "text": "Announcements\n\nCengage issues?\n\nEmail me or setup AI.\n\nWPS3 is on zyBook; due 08SEP\nWritten Periodic Review 1 is in two weeks!"
   },
   {
-    "objectID": "lessons/15-iteration-while.html#discussion",
-    "href": "lessons/15-iteration-while.html#discussion",
-    "title": "Indefinite Iteration",
-    "section": "Discussion!",
-    "text": "Discussion!\n\nLinux in 100 seconds\nBash in 100 seconds\nWhat is Linux\nHow Linux is Built"
-  },
-  {
-    "objectID": "lessons/15-iteration-while.html#lesson-objectives",
-    "href": "lessons/15-iteration-while.html#lesson-objectives",
-    "title": "Indefinite Iteration",
+    "objectID": "lessons/07-iteration.html#lesson-objectives",
+    "href": "lessons/07-iteration.html#lesson-objectives",
+    "title": "Definite Iteration",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nIdentify the need for conditional iteration based on scenario descriptions\nCompare and contrast while loops with for loops\nIdentify how a loop could repeat forever (infinite loop)\nWrite code that repeats an indefinite number of times using a while loop​"
+    "text": "Lesson Objectives\n\nArticulate the need for iteration in programs\nDescribe the syntax and function of a for loop\nWrite code that repeats a definite number of times using a for loop\nDefine the Accumulator Pattern and give an example of it being used"
   },
   {
-    "objectID": "lessons/15-iteration-while.html#pizza-program",
-    "href": "lessons/15-iteration-while.html#pizza-program",
-    "title": "Indefinite Iteration",
-    "section": "Pizza Program!",
-    "text": "Pizza Program!\nWrite a Vending Machine algorithm that simulates the purchase of either candy (1.50), chips (.99) or gum (0.75). Ask the user what item they want. Then, the vending machine should take in nickels, dimes, quarters, and half-dollars, and dispense the desired item when the amount is greater than or equal to the item’s cost. If the user inserts more than the item’s cost, tell them how much change they get back."
+    "objectID": "lessons/07-iteration.html#sequence---iteration",
+    "href": "lessons/07-iteration.html#sequence---iteration",
+    "title": "Definite Iteration",
+    "section": "Sequence -> Iteration",
+    "text": "Sequence -&gt; Iteration"
   },
   {
-    "objectID": "lessons/15-iteration-while.html#what-is-a-while-loop",
-    "href": "lessons/15-iteration-while.html#what-is-a-while-loop",
-    "title": "Indefinite Iteration",
-    "section": "What is a while loop?",
-    "text": "What is a while loop?\n\n\nmore_pushups = not am_i_tired()\n\nif more_pushups:\n    print(\"Down! Up!\")\n\n\nprint(\"Good job!\")\n\nmore_pushups = True\n\nwhile more_pushups:\n    print(\"Down! Up!\")\n    more_pushups = not am_i_tired()\n\nprint(\"Good job!\")\n\n\nrepeat a block of code\n\nas long as a condition is true\nindefinite iteration!\n\njust like if statements\nsee page 3 of your reference card"
+    "objectID": "lessons/07-iteration.html#check-on-learning",
+    "href": "lessons/07-iteration.html#check-on-learning",
+    "title": "Definite Iteration",
+    "section": "Check on Learning",
+    "text": "Check on Learning\n\n\nWhat is iteration?\nWhat type of loops can we use in Python?\nWhere are loops on your reference card?\nWhen would we use a for loop?\nWhat is the syntax of for loop?\nHow do we initialize the variable x?\nWhat can the sequence be?\nWhat does range() do?\nWhat is an accumulator?\n\n\n\n\nIteration is repeating a set of statements a certain number of times\nfor x in sequence:\nrange() generates a sequence of values that a for loop can iterate over"
   },
   {
-    "objectID": "lessons/15-iteration-while.html#controlling-condition",
-    "href": "lessons/15-iteration-while.html#controlling-condition",
-    "title": "Indefinite Iteration",
-    "section": "Controlling Condition",
-    "text": "Controlling Condition\n\nwhile loops repeat as long as the condition stays True\nWhat if the condition is False before it starts?\nWhat if the condition never becomes False?\nCan we use it for definite iteration?\n\nCounting to 10?\n\n\ncount = 0\nwhile count &lt; 10:\n    print(count)\n    count += 1"
+    "objectID": "lessons/07-iteration.html#reminder-code-blocks",
+    "href": "lessons/07-iteration.html#reminder-code-blocks",
+    "title": "Definite Iteration",
+    "section": "Reminder: Code Blocks",
+    "text": "Reminder: Code Blocks\n\nBegins with a colon\nIndentation is important!\nIndentation is how Python knows what is inside the loop\nIndentation is 4 spaces or a tab - be consistent!\n\ndef main():\n    total  = 0\n    n = int(input(\"Enter a value for n: \"))\n    for x in range(n+1):\n        y = (3*x + 5)\n        y_squared = y**2\n        total = total + y_squared\n    print(\"The final sum is\", total)\n\nmain()"
   },
   {
-    "objectID": "lessons/15-iteration-while.html#example",
-    "href": "lessons/15-iteration-while.html#example",
-    "title": "Indefinite Iteration",
-    "section": "Example",
-    "text": "Example\n\n\n\n\n\nWhat is the controlling condition? How does loop terminate?\nWhat lines are part of the loop body?\nAre the number of iterations definite or indefinite?\nWhat actions are inside the loop? Outside the loop?\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotebook"
+    "objectID": "lessons/07-iteration.html#the-for-loop",
+    "href": "lessons/07-iteration.html#the-for-loop",
+    "title": "Definite Iteration",
+    "section": "The for Loop",
+    "text": "The for Loop\n\n\n\nIteration = loop = repeating a set of statements a certain number of times\nMakes your code concise, easy to read\nfor loop is a definite loop\n\nWe know how many times it will run before it starts\n\n\n\n\"\"\"\nProgram: Squares of natural numbers\nInput: List of natural numbers\nOutput: Squares of each number\n\"\"\"\n\ndef main():\n  for x in [1, 2, 3, 4, 5]:\n      square = x**2\n      print(\"The square of\", x, \"is\", square)\n\nmain()"
   },
   {
-    "objectID": "lessons/15-iteration-while.html#another-example",
-    "href": "lessons/15-iteration-while.html#another-example",
-    "title": "Indefinite Iteration",
-    "section": "Another Example",
-    "text": "Another Example\nuser_says = \"\"\nwhile user_says != \"quit\":\n    user_says = input(\"Say something: \")\n    print(f\"You said: {user_says}\")\nprint(\"All done!\")\n\nWhat is the controlling condition? How does loop terminate?\nWhat lines are part of the loop body?\nAre the number of iterations definite or indefinite?\nWhat actions are inside the loop? Outside the loop?"
+    "objectID": "lessons/07-iteration.html#examples",
+    "href": "lessons/07-iteration.html#examples",
+    "title": "Definite Iteration",
+    "section": "Examples",
+    "text": "Examples\n\nFor every cadet in this class room…\nDisplay the values of each item in a given list.\nConvert the characters of a given string to ASCII values\nEvery prime number less than 100…\nPython Tutor Example\n\n\n\nDo you know exactly how many times each loop will be repeated?\nWhat are the keywords/indicators in each prompt?"
   },
   {
-    "objectID": "lessons/15-iteration-while.html#one-more-example",
-    "href": "lessons/15-iteration-while.html#one-more-example",
-    "title": "Indefinite Iteration",
-    "section": "One More Example",
-    "text": "One More Example\nuser_says = input(\"Say something: \")\nwhile user_says != \"quit\":\n    print(f\"You said: {user_says}\")\nprint(\"All done!\")\n\nWhat is the controlling condition? How does loop terminate?\nWhat lines are part of the loop body?\nAre the number of iterations definite or indefinite?\nWhat actions are inside the loop? Outside the loop?"
+    "objectID": "lessons/07-iteration.html#more-loops",
+    "href": "lessons/07-iteration.html#more-loops",
+    "title": "Definite Iteration",
+    "section": "More Loops",
+    "text": "More Loops\nfor i in [1, 2, 3, \"A\", \"B\", \"C\"]:\n    print(i)\n\nfor letter in \"California\":\n    print(letter)\n\nfor value in range(5):\n    print(value)"
   },
   {
-    "objectID": "lessons/15-iteration-while.html#for-vs-while-which-one-to-use",
-    "href": "lessons/15-iteration-while.html#for-vs-while-which-one-to-use",
-    "title": "Indefinite Iteration",
-    "section": "for vs while: which one to use?",
-    "text": "for vs while: which one to use?\n\nList the mathematical cube of all odd integers from 3 to 11.\nAssign a company to each new cadet until no more names are given.\nAsk a customer to order menu items until they are satisfied.\nDisplay the values of each item in a list.\n\nNote: How many times will each loop run?"
-  },
-  {
-    "objectID": "lessons/15-iteration-while.html#in-class-exercise-2",
-    "href": "lessons/15-iteration-while.html#in-class-exercise-2",
-    "title": "Indefinite Iteration",
-    "section": "In-Class Exercise 2",
-    "text": "In-Class Exercise 2\nWrite a Vending Machine program that simulates the purchase of either candy (1.50), chips (.99) or gum (0.75). The program should prompt the user what item they want. Then, the vending machine should take in nickels, dimes, quarters, and half-dollars, and dispense the desired item when the amount is greater than or equal to the item’s cost. If the user inserts more than the item’s cost, display the change.\n\nWhat item do you want? candy\ncandy costs $1.5\nPlease insert a coin: 50\nPlease insert a coin: 1\nInvalid coin type!\nPlease insert a coin: 50\nPlease insert a coin: 25\nPlease insert a coin: 50\nPlease enjoy your candy! Here is your change: 25 cents"
-  },
-  {
-    "objectID": "lessons/15-iteration-while.html#in-class-exercise-3",
-    "href": "lessons/15-iteration-while.html#in-class-exercise-3",
-    "title": "Indefinite Iteration",
-    "section": "In-Class Exercise 3",
-    "text": "In-Class Exercise 3\nWrite a guessing game called TwentyQuestions. Your program should first pick a number between 1 and 100 inclusive. The user has only twenty guesses in which to guess the correct number. Each time the user guesses, your program should print out “Too low” if the guess is too low, and “too high” if it is too high. If the player guesses the number right, you should output “Congratulations!” along with the number of guesses it took them. If they lose, print “Better luck next time!”"
-  },
-  {
-    "objectID": "lessons/15-iteration-while.html#reminders",
-    "href": "lessons/15-iteration-while.html#reminders",
-    "title": "Indefinite Iteration",
-    "section": "Reminders",
-    "text": "Reminders\n\n\nfor whiteboard in whiteboards:\n    erase(whiteboard)\n\nwhile monitors_are_up:\n    lower('monitors')\n\nif still_missing_bluefruit:\n    email('your instructor')\n\nwhile True:\n    read('next_chapter')\n    practice('zyBook problems')\n    sleep()\n\nNext Lesson\n\nFunctions!\nWPS5 due on Sunday!"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#announcements",
-    "href": "lessons/13-conditionals.html#announcements",
-    "title": "Conditional Statements 1",
-    "section": "Announcements",
-    "text": "Announcements\n\nWPS 5 due 29SEP\nRobotics Lab starts on 04OCT\n\nBluefruit?"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#discussion",
-    "href": "lessons/13-conditionals.html#discussion",
-    "title": "Conditional Statements 1",
-    "section": "Discussion!",
-    "text": "Discussion!\n\narrr - Pirate module!\nWhat is Python\nAlgorithm: The Better Boarding Method Airlines Won’t Use"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#lesson-objectives",
-    "href": "lessons/13-conditionals.html#lesson-objectives",
-    "title": "Conditional Statements 1",
-    "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nEvaluate expressions with Boolean values and logical operators\nTrace through programs that use conditional statements\nWrite programs that include simple conditional statements"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#which-of-the-following-is-a-boolean-value-in-python",
-    "href": "lessons/13-conditionals.html#which-of-the-following-is-a-boolean-value-in-python",
-    "title": "Conditional Statements 1",
-    "section": "Which of the following is a Boolean value in Python?",
-    "text": "Which of the following is a Boolean value in Python?\n\nTrue\n“True”\ntrue\n“true”"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#a-boolean-expression",
-    "href": "lessons/13-conditionals.html#a-boolean-expression",
-    "title": "Conditional Statements 1",
-    "section": "A Boolean expression…",
-    "text": "A Boolean expression…\n\n…always returns an integer\n…evaluates to either True or False\n…checks if two variables are strings\n…must contain an arithmetic operation"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#which-of-the-following-correctly-checks-if-a-number-is-either-5-or-6",
-    "href": "lessons/13-conditionals.html#which-of-the-following-correctly-checks-if-a-number-is-either-5-or-6",
-    "title": "Conditional Statements 1",
-    "section": "Which of the following correctly checks if a number is either 5 or 6?",
-    "text": "Which of the following correctly checks if a number is either 5 or 6?\n\nnumber == 5 or 6\nnumber == (5 or 6)\nnumber == 5 or number == 6\nnumber == 5 and number == 6"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#which-operator-checks-if-two-values-are-equal",
-    "href": "lessons/13-conditionals.html#which-operator-checks-if-two-values-are-equal",
-    "title": "Conditional Statements 1",
-    "section": "Which operator checks if two values are equal?",
-    "text": "Which operator checks if two values are equal?\n\n=\n==\n=&gt;\n=&lt;"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#which-of-the-following-is-not-a-logical-operator",
-    "href": "lessons/13-conditionals.html#which-of-the-following-is-not-a-logical-operator",
-    "title": "Conditional Statements 1",
-    "section": "Which of the following is not a logical operator?",
-    "text": "Which of the following is not a logical operator?\n\nand\nor\nnot\nyes"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#evaluate-the-expression-true-and-false",
-    "href": "lessons/13-conditionals.html#evaluate-the-expression-true-and-false",
-    "title": "Conditional Statements 1",
-    "section": "Evaluate the expression: True and False",
-    "text": "Evaluate the expression: True and False\n\nTrue\nFalse\nError\nNone of the above"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#how-should-you-properly-structure-the-condition-to-check-if-a-variable-x-is-greater-than-10-and-less-than-20",
-    "href": "lessons/13-conditionals.html#how-should-you-properly-structure-the-condition-to-check-if-a-variable-x-is-greater-than-10-and-less-than-20",
-    "title": "Conditional Statements 1",
-    "section": "How should you properly structure the condition to check if a variable x is greater than 10 and less than 20?",
-    "text": "How should you properly structure the condition to check if a variable x is greater than 10 and less than 20?\n\nx &gt; 10 and &lt; 20\nx &gt; 10 or x &lt; 20\nx &gt; 10 and x &lt; 20\nx == 10 or x == 20"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#what-will-not-true-or-false-evaluate-to",
-    "href": "lessons/13-conditionals.html#what-will-not-true-or-false-evaluate-to",
-    "title": "Conditional Statements 1",
-    "section": "What will not (True or False) evaluate to?",
-    "text": "What will not (True or False) evaluate to?\n\nTrue\nFalse\nError\nNone of the above"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#what-is-the-result-of-5-3-or-4-4",
-    "href": "lessons/13-conditionals.html#what-is-the-result-of-5-3-or-4-4",
-    "title": "Conditional Statements 1",
-    "section": "What is the result of 5 < 3 or 4 == 4?",
-    "text": "What is the result of 5 &lt; 3 or 4 == 4?\n\nTrue\nFalse\nError\nNone of the above"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#algorithm-pizza-shop",
-    "href": "lessons/13-conditionals.html#algorithm-pizza-shop",
-    "title": "Conditional Statements 1",
-    "section": "Algorithm: Pizza Shop",
-    "text": "Algorithm: Pizza Shop\nOur pizzeria is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, and soda. A slice of pizza still costs $2.50, but you can get fries for $1.25 and onion rings for $1.50. A soda costs 99 cents.\n\nWrite the algorithm for a program that firsts asks the user for the number of times they want to order. For each iteration, the program should prompt the user on whether they want pizza, onion rings, or soda, and the associated quantity. At the end, your program should display the total plus the 8.25% NY State sales tax.\nNote: Clearly identify the sequence, selection, and iteration in your algorithm."
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#boolean-values",
-    "href": "lessons/13-conditionals.html#boolean-values",
-    "title": "Conditional Statements 1",
-    "section": "Boolean Values",
-    "text": "Boolean Values\n\nTrue or False\nis_it_raining = True\nam_i_hungry = False\ncadet_is_sleepy = True\ntype(cadet_is_sleepy)\n\nPython Console"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#comparison-operators",
-    "href": "lessons/13-conditionals.html#comparison-operators",
-    "title": "Conditional Statements 1",
-    "section": "Comparison Operators",
-    "text": "Comparison Operators\n\nx &lt; y - less than\nx &lt;= y - less than or equal to\nx &gt; y - greater than\nx &gt;= y - greater than or equal to\nx == y - equal to\nx != y - not equal to"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#practice-with-comparison-operators",
-    "href": "lessons/13-conditionals.html#practice-with-comparison-operators",
-    "title": "Conditional Statements 1",
-    "section": "Practice with Comparison Operators",
-    "text": "Practice with Comparison Operators\n\nx = 5; y = 10; z = 8\nx &lt; y\nx &lt;= y\nx &gt; y\ny == 10\nz != 8\n5 &lt;= y &lt;= 10\n\nPython Console"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#logical-operators",
-    "href": "lessons/13-conditionals.html#logical-operators",
-    "title": "Conditional Statements 1",
-    "section": "Logical Operators",
-    "text": "Logical Operators\n\nand - both conditions must be True\nor - at least one condition must be True\nnot - negates the condition\n\nSee the reference card for precedence of operators!"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#practice-with-logical-operators",
-    "href": "lessons/13-conditionals.html#practice-with-logical-operators",
-    "title": "Conditional Statements 1",
-    "section": "Practice with Logical Operators",
-    "text": "Practice with Logical Operators\n\n\n\nx = 42; y = 15; z = True\nx &gt; 40 and z\nx &lt; 40 or z\nnot z\ny &gt; 5 and y &lt; 10\nnot z or y &gt; 5\nz or not y &lt; 5\n\n\n\nx &lt; 15 and y &gt; 10\nx != y and (2 &lt; x &lt; 20)\nnot(y &lt; 0) and not(x &gt; 15)\nnot(x != y)\nx == 15 or y &lt; 15\nx == y and z\nx == y or z\n\n\nPython Console"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#membership-operator-in",
-    "href": "lessons/13-conditionals.html#membership-operator-in",
-    "title": "Conditional Statements 1",
-    "section": "Membership Operator in",
-    "text": "Membership Operator in\n\nCheck membership in a sequence\nFor strings, checks if a substring is present\n\n'a' in 'California'\n'ork' in 'New York'\n\nFor lists, checks if an element is present\n\n3 in [1, 2, 3]\n5 in [1, 2, 3]\n\nnot in to check the opposite\n\n2 not in [1, 2, 3]\n'a' not in 'California'\n\n\nPython Console"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#if-statements",
-    "href": "lessons/13-conditionals.html#if-statements",
-    "title": "Conditional Statements 1",
-    "section": "if Statements",
-    "text": "if Statements\n\nExecute a block of code sometimes\n\nif is_it_raining:\n    print(\"Bring an umbrella!\")\n\nif am_i_hungry:\n    print(\"Eat a granola bar!\")\n\nprint(\"Go to class either way.\")"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#if-else-statements",
-    "href": "lessons/13-conditionals.html#if-else-statements",
-    "title": "Conditional Statements 1",
-    "section": "if-else Statements",
-    "text": "if-else Statements\n\nExecute one block of code if a condition is True\nOtherwise, execute another block\n\nif cadet_is_sleepy:\n    print(\"Go to bed!\")\nelse:\n    print(\"Go to class!\")"
-  },
-  {
-    "objectID": "lessons/13-conditionals.html#in-class-exercise-1",
-    "href": "lessons/13-conditionals.html#in-class-exercise-1",
-    "title": "Conditional Statements 1",
+    "objectID": "lessons/07-iteration.html#in-class-exercise-1",
+    "href": "lessons/07-iteration.html#in-class-exercise-1",
+    "title": "Definite Iteration",
     "section": "In-Class Exercise 1",
-    "text": "In-Class Exercise 1\nOur pizzeria is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings and soda. A slice of pizza still costs $2.50, but you can get fries for $1.25 and onion rings for $1.50. A soda costs 99 cents.\nWrite a program that firsts asks the user for the number of times they want to order. For each iteration, the program should prompt the user on whether they want pizza, onion rings, or soda, and the associated quantity. At the end, your program should display the total plus the 8.25% NY State tax."
+    "text": "In-Class Exercise 1\n\nFor each cadet in the list ask the user what company they are in using this format “Which company for CDT Anderson?”\nDisplay the results in this format: “CDT Anderson is assigned to company B4”\nYou must use a for loop to iterate through each element in the list.\n\ndef main():\n  # Here is the list of cadet names\n  newCadetNames = ['Anderson', 'Kim', 'Thornton', 'Kofford', 'Palau', 'Traeger', 'Yao']\n  # Your code goes here\n\nmain()\nzyBook 7.6.7: ICE 8"
   },
   {
-    "objectID": "lessons/13-conditionals.html#in-class-exercise-2",
-    "href": "lessons/13-conditionals.html#in-class-exercise-2",
-    "title": "Conditional Statements 1",
+    "objectID": "lessons/07-iteration.html#range-function",
+    "href": "lessons/07-iteration.html#range-function",
+    "title": "Definite Iteration",
+    "section": "range() Function",
+    "text": "range() Function\n\nGenerates a sequence of values and is commonlyused in a for loop\n\nrange(start, stop, step)\n\nrange(stop)\n\nrange(start, stop)\n\nstart is optional and defaults to 0\nstop is required; not inclusive\nstep is optional and defaults to 1\n\n\n\nstart is optional and defaults to 0\nstop is required; not inclusive\nstep is optional and defaults to 1\n\nrange(5) # 0, 1, 2, 3, 4\nrange(2, 5) # 2, 3, 4\nrange(2, 10, 2) # 2, 4, 6, 8\nrange(20, 0, -3) # 20, 17, 14, 11, 8, 5, 2"
+  },
+  {
+    "objectID": "lessons/07-iteration.html#in-class-exercise-2",
+    "href": "lessons/07-iteration.html#in-class-exercise-2",
+    "title": "Definite Iteration",
     "section": "In-Class Exercise 2",
-    "text": "In-Class Exercise 2\nWrite a program that prompts a user to input a number, n. Your program should then generate a list of n random numbers between 1 and 50 (inclusive), and display the list. Lastly, scan through the list and display the number of times a you observe a value that is 25 or less.\nSample input/output:\n\nEnter a number: 4\n[25, 12, 50, 25]\nThere are 3 values that are 25 or less.\n\n\nEnter a number: 6\n[25, 12, 50, 25, 30, 40]\nThere are 4 values that are 25 or less."
+    "text": "In-Class Exercise 2\n\nUsing a for loop and the range function, display the mathematical cube of each of the odd integers from 3 to 11 (inclusive).\n\ndef main():\n  # enter code here\n\nmain()\nzyBook 7.6.3: ICE 4"
   },
   {
-    "objectID": "lessons/13-conditionals.html#in-class-exercise-3",
-    "href": "lessons/13-conditionals.html#in-class-exercise-3",
-    "title": "Conditional Statements 1",
+    "objectID": "lessons/07-iteration.html#accumulators",
+    "href": "lessons/07-iteration.html#accumulators",
+    "title": "Definite Iteration",
+    "section": "Accumulators",
+    "text": "Accumulators\n\nA variable in the loop body that aggregates (or accumulates) a value we wanttokeep track of.\nMust be initialized before loop begins!\nMost common operations\n\naddition (+=)\nsubtraction (-=)\nmultiplication (*=)"
+  },
+  {
+    "objectID": "lessons/07-iteration.html#accumulator-examples",
+    "href": "lessons/07-iteration.html#accumulator-examples",
+    "title": "Definite Iteration",
+    "section": "Accumulator Examples",
+    "text": "Accumulator Examples\n\nFor each new cadet in the list, assign a company. Count how many cadets are processed and display total.\nIterate through a user-provided string and count how many letters there are.\nHave the user guess the password until they get it right or until they have reached 5 attempts.\nSum the numbers within a range"
+  },
+  {
+    "objectID": "lessons/07-iteration.html#in-class-exercise-3",
+    "href": "lessons/07-iteration.html#in-class-exercise-3",
+    "title": "Definite Iteration",
     "section": "In-Class Exercise 3",
-    "text": "In-Class Exercise 3\nA substring is a string that occurs directly in another string. However, a subsequence is a string that appears in another string, though the characters need not be contiguous.\nFor example, fragile is not a substring of supercalifragilisticespialidocious but is a subsequence.\nWrite a program that prompts the user for two strings. The program should then output if the first string is or is not a subsequence of the second.\nSample input/output:\n\nEnter the first string: fragile\nEnter another string: supercalifragilisticespialidocious\nfragile is a subsequence of supercalifragilisticespialidocious.\n\n\nEnter the first string: delicious\nEnter another string: supercalifragilisticespialidocious\ndelicious is not a subsequence of supercalifragilisticespialidocious."
+    "text": "In-Class Exercise 3\nYou are studying the growth of an alien plant. The total growth of the plant over n days is described by the following summation:\n\\[G_{total} = \\sum_{i=1}^{n} (2i + 3)\\]\nWrite a Python program that:\n\nAsks the user to input the number of days n.\nCalculates the total growth using the summation formula (implement using a for loop).\nOutputs the total growth after n days.\n\nzyBook 7.6.4: ICE 5"
   },
   {
-    "objectID": "lessons/13-conditionals.html#reminders",
-    "href": "lessons/13-conditionals.html#reminders",
-    "title": "Conditional Statements 1",
+    "objectID": "lessons/07-iteration.html#lesson-review",
+    "href": "lessons/07-iteration.html#lesson-review",
+    "title": "Definite Iteration",
+    "section": "Lesson Review",
+    "text": "Lesson Review\n\n\nWhy do we need loops?\nWhat type of loops can we use in Python?\nWhen would we use a for loop?\nWhat does range() do?\nWhat is an accumulator?\n\n\nNext Lesson: Strings and Lists\n\nCommon operations on lists and strings: indexing, concatenation, replication\nBuilt-in functions: len(), min(), max()\nIteration + lists and strings operations"
+  },
+  {
+    "objectID": "lessons/07-iteration.html#reminders",
+    "href": "lessons/07-iteration.html#reminders",
+    "title": "Definite Iteration",
     "section": "Reminders",
-    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nPractice more!\nIf still missing Bluefruit, email me!"
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nCengage issues?\n\nEmail me or setup AI.\n\nWPS3 is on zyBook; due 08SEP\nWPR1 is in two weeks!"
   },
   {
     "objectID": "lessons/04-algorithms.html#discussion",
