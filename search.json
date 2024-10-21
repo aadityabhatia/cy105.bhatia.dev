@@ -126,305 +126,410 @@
     "text": "Robotics Day 3\nResources\n\nCircuitPython Editor\nRobotics Lab\nBluefruit Tutorial\nCircuitPython Documentation\n\nAll labs are due today!\n\nDocument all assistance!\nHonor acknowledgment statement on Canvas!!"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#discussion",
-    "href": "lessons/06-built-in-functions.html#discussion",
-    "title": "Built-in Functions",
+    "objectID": "lessons/03-computers-data.html#discussion",
+    "href": "lessons/03-computers-data.html#discussion",
+    "title": "Computers and Data",
     "section": "Discussion!",
-    "text": "Discussion!\n\nChatGPT!"
+    "text": "Discussion!\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#lesson-objectives",
-    "href": "lessons/06-built-in-functions.html#lesson-objectives",
-    "title": "Built-in Functions",
+    "objectID": "lessons/03-computers-data.html#lesson-objectives",
+    "href": "lessons/03-computers-data.html#lesson-objectives",
+    "title": "Computers and Data",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nUnderstand the purpose of built-in functions in the Python language.\nArticulate the difference between procedures (non-fruitful functions) and fruitful functions.\nIllustrate how to use the assignment operator to store the result of a built-in function in a variable.\nArticulate what arguments are, and how to use them in the context of built-in functions.\nUse built-in functions to write Python code."
+    "text": "Lesson Objectives\n\nDefine data, how it differs from information, and its forms: analog and digital.\nDefine what a computer is, define common types of computers, and distinguish their uses from each other. \nDescribe how digital data is quantified and represented on computers.\nDescribe how computers process and store data.\nLearn how to read an ASCII table."
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#check-on-learning",
-    "href": "lessons/06-built-in-functions.html#check-on-learning",
-    "title": "Built-in Functions",
+    "objectID": "lessons/03-computers-data.html#information",
+    "href": "lessons/03-computers-data.html#information",
+    "title": "Computers and Data",
+    "section": "Information",
+    "text": "Information\n\n\n\nData = facts\n\nmeasurements\nstatistics\nvalues\n\nInformation\n\ndata processed, organized, or structured in a meaningful way"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#analog-vs-digital-data",
+    "href": "lessons/03-computers-data.html#analog-vs-digital-data",
+    "title": "Computers and Data",
+    "section": "Analog vs Digital Data",
+    "text": "Analog vs Digital Data\n\n\n\nAnalog\n\nContinuous data\nSmooth, unbroken line\nSpeed, temperature\nMore accurate\nHarder to store, manipulate, and transmit\n\nDigital\n\nDiscrete data\nStaircase\ne.g. ACFT score table\nEasier to store, manipulate, and transmit"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#analog-to-digital",
+    "href": "lessons/03-computers-data.html#analog-to-digital",
+    "title": "Computers and Data",
+    "section": "Analog to Digital",
+    "text": "Analog to Digital\n\nVideo: Analog vs Digital"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#computers-are-everywhere",
+    "href": "lessons/03-computers-data.html#computers-are-everywhere",
+    "title": "Computers and Data",
+    "section": "Computers are Everywhere",
+    "text": "Computers are Everywhere\n\nEmbedded computers: inside of other electronic devices, usually not visible from the outside"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#microcontrollers",
+    "href": "lessons/03-computers-data.html#microcontrollers",
+    "title": "Computers and Data",
+    "section": "Microcontrollers",
+    "text": "Microcontrollers\n\n\n\nSmallest processor\nRun exactly one program\nCan run on battery power\nBluefruit!"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#mobile-computers",
+    "href": "lessons/03-computers-data.html#mobile-computers",
+    "title": "Computers and Data",
+    "section": "Mobile Computers",
+    "text": "Mobile Computers\n\nWhat are they?\n\n\n\nLaptops, tablets, smartphones\nCan run multiple programs at once\nDesigned for portability - battery power"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#desktops-and-servers",
+    "href": "lessons/03-computers-data.html#desktops-and-servers",
+    "title": "Computers and Data",
+    "section": "Desktops and Servers",
+    "text": "Desktops and Servers\n\n\n\nWhat about these?\n\n\n\nMost powerful computers\nCan run multiple programs at once\nDesigned for performance\nTypically plugged into a power source"
+  },
+  {
+    "objectID": "lessons/03-computers-data.html#check-on-learning",
+    "href": "lessons/03-computers-data.html#check-on-learning",
+    "title": "Computers and Data",
     "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nWhat is a function?\n\nIs it fruitful?\n\nWhat is a procedure?\n\nIs it fruitful?\n\nWhat can a function return?\nWhat is a built-in function?\nWhat is an argument?"
+    "text": "Check on Learning\n\n\nWhat is information?\nWhat is a microcontroller?\nIs microcontroller a general-purpose computer?\nIs calculator a general-purpose computer?\nIs a smartphone a general-purpose computer?"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#pizza-program",
-    "href": "lessons/06-built-in-functions.html#pizza-program",
-    "title": "Built-in Functions",
-    "section": "Pizza Program",
-    "text": "Pizza Program\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite a program that accomplishes this task!\n\nAsk the user for their name.\nPrint out hello followed by their name.\nAsk how many slices of pizza they want.\nMultiply quantity by the cost (2.50).\nPrint total to the screen.\n\nUse Notepad++ or zyBook IDE."
+    "objectID": "lessons/03-computers-data.html#types-of-devices",
+    "href": "lessons/03-computers-data.html#types-of-devices",
+    "title": "Computers and Data",
+    "section": "Types of Devices",
+    "text": "Types of Devices\n\n\nInput\n\n\nKeyboard\nMouse\nTouchscreen\nMicrophone\nCamera\n\n\n\nOutput\n\n\nMonitor\nPrinter\nSpeaker\n\n\n\nPeripheral\n\nConnect through expansion slots\nGreatly expand computer capabilities\n\n\n\nGraphics card (GPU)\nNetwork card"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#will-this-work",
-    "href": "lessons/06-built-in-functions.html#will-this-work",
-    "title": "Built-in Functions",
-    "section": "Will this work?",
-    "text": "Will this work?\n\"\"\"\nprogram: pizza checkout\ninput: name, slices\noutput: total amount of money they owe\n\"\"\"\n\ndef main():\n    name = input(\"What is your name? \")  # ask the user for their name\n    print(\"Hello\", name)  # greet the user\n    slices = input(\"How many slices of pizza do you want? \")  # get user input\n    total = slices * 2.50  # multiply quantity by the cost\n    print(\"The total is\", total) # print the total amount\n\nmain()  # call the function"
+    "objectID": "lessons/03-computers-data.html#central-processing-unit-cpu",
+    "href": "lessons/03-computers-data.html#central-processing-unit-cpu",
+    "title": "Computers and Data",
+    "section": "Central Processing Unit (CPU)",
+    "text": "Central Processing Unit (CPU)\n\n\n\nCache: small, fast memory\n\n\nReads instructions from memory\nPerforms logical and mathematical operations\nWrites results back to memory"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#functions",
-    "href": "lessons/06-built-in-functions.html#functions",
-    "title": "Built-in Functions",
-    "section": "Functions",
-    "text": "Functions\n\norganize code into reusable blocks\ntransforms some input (X) to some output (Y)\n\n\\[f: X \\rightarrow Y\\]\n\nfactory that takes multiple inputs and produces one thing\nprocedures are functions that do not return anything"
+    "objectID": "lessons/03-computers-data.html#storage",
+    "href": "lessons/03-computers-data.html#storage",
+    "title": "Computers and Data",
+    "section": "Storage",
+    "text": "Storage\n\n\n\nCache\nRAM\nHard Drive"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#built-in-functions",
-    "href": "lessons/06-built-in-functions.html#built-in-functions",
-    "title": "Built-in Functions",
-    "section": "Built-in Functions",
-    "text": "Built-in Functions\nname = input(\"What is your name? \")\nprint(\"Hello\", name)\ntype(name)\n\nlist('hello')\n\npi = 3.14159\nround(pi)\nround(pi, 2)\n\na = [17, 23, 11, 29, 37, 13]\nlen(a)\nmax(a)\nmin(a)\n\nfloor(pi)\nceil(pi)\n\na = \"\"\"this string\nhas multiple\nlines.\nWhat now?\"\"\""
+    "objectID": "lessons/03-computers-data.html#the-bus",
+    "href": "lessons/03-computers-data.html#the-bus",
+    "title": "Computers and Data",
+    "section": "The Bus",
+    "text": "The Bus\n\n\n\nelectronic conduit, connects all components together inside the computer"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#debugging",
-    "href": "lessons/06-built-in-functions.html#debugging",
-    "title": "Built-in Functions",
-    "section": "Debugging",
-    "text": "Debugging\n\nPython Tutor\nBlack Code Formatter\nuse print() to display variable values\nuse type() to check the type of a variable"
+    "objectID": "lessons/03-computers-data.html#scenario",
+    "href": "lessons/03-computers-data.html#scenario",
+    "title": "Computers and Data",
+    "section": "Scenario",
+    "text": "Scenario\nPower Outage\n\nYou are working on a paper in the middle of the night. Suddenly, a powerful thunderstorm appears in the area and you lose power.\nSuppose you are working on a desktop computer. What happens to your paper? What data is lost?\nHow does the above answer change if you were working on a laptop? What are some advantages/disadvantages of autosave?\n\nData Security\n\nYour friend is thinking about making some extra cash by selling their computer. What advice would you give them so their personal data does not get stolen?\nWhat concrete steps that you would recommend they take?\nAny components worth removing or keeping? How does your answer change if it is a phone, laptop or desktop?"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#pizza-program-2",
-    "href": "lessons/06-built-in-functions.html#pizza-program-2",
-    "title": "Built-in Functions",
-    "section": "Pizza Program 2",
-    "text": "Pizza Program 2\n\nModify the pizza program to account for 8.5% tax.\nPrepend the total with a $ sign.\nHave the dollar amount rounded to two decimal places.\n\nSample Input/Output:\n\nWhat is your name? Pikachu\nHello Pikachu\nHow many slices of pizza do you want? 3\nThe total is $8.14"
+    "objectID": "lessons/03-computers-data.html#binary",
+    "href": "lessons/03-computers-data.html#binary",
+    "title": "Computers and Data",
+    "section": "Binary",
+    "text": "Binary\n\nLight switch = on or off\nOnly two values: 0 and 1\nBit = binary digit\nByte = 8 bits\nHow exactly does binary code work?\nRepresenting Numbers and Letters with Binary\n\n\n\nBit = light switch, off or on"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#how-tall-in-feet-and-inches",
-    "href": "lessons/06-built-in-functions.html#how-tall-in-feet-and-inches",
-    "title": "Built-in Functions",
-    "section": "How tall in feet and inches?",
-    "text": "How tall in feet and inches?\nWrite a program that prompts a user to enter their height in inches. Your program should then display the corresponding height in feet, along with any leftover inches.\nSample Input/Output:\n\n\n\nEnter your height in inches: 70\nYou are 5 feet and 10 inches.\n\n\ndef main():\n    # enter code here\n\n\nmain()"
+    "objectID": "lessons/03-computers-data.html#hexadecimal",
+    "href": "lessons/03-computers-data.html#hexadecimal",
+    "title": "Computers and Data",
+    "section": "Hexadecimal",
+    "text": "Hexadecimal\n\nBase 16 =&gt; 0-9, A-F\n4 bits = 1 hex digit\nEasier for humans to read\n\n\n\n16 objects, unique labels\nboard example"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#circle-program",
-    "href": "lessons/06-built-in-functions.html#circle-program",
-    "title": "Built-in Functions",
-    "section": "Circle Program",
-    "text": "Circle Program\nPrompt the user to input the circle’s radius as a float. Compute and display the circumference and area of the circle. Assume \\(\\pi = 3.14\\).\nCircumference = \\(2 \\pi r\\)\nArea = \\(\\pi r^2\\)\nSample Input/Output:\n\n\n\nEnter the radius as a float: 4.28\nCircumference: 26.8784\nArea: 57.519776\n\n\ndef main():\n    # enter code here\n\n\nmain()"
+    "objectID": "lessons/03-computers-data.html#conversion-decimal---binary---hexadecimal",
+    "href": "lessons/03-computers-data.html#conversion-decimal---binary---hexadecimal",
+    "title": "Computers and Data",
+    "section": "Conversion: Decimal - Binary - Hexadecimal",
+    "text": "Conversion: Decimal - Binary - Hexadecimal"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#next-lesson-for-loops",
-    "href": "lessons/06-built-in-functions.html#next-lesson-for-loops",
-    "title": "Built-in Functions",
-    "section": "Next Lesson: For Loops",
-    "text": "Next Lesson: For Loops\n\nWhy we need loops?\nHow to write code that repeats statements?\nHow to use the accumulator pattern?\nHow to use the built-in function range()?"
+    "objectID": "lessons/03-computers-data.html#quantifying-data-sizes",
+    "href": "lessons/03-computers-data.html#quantifying-data-sizes",
+    "title": "Computers and Data",
+    "section": "Quantifying Data Sizes",
+    "text": "Quantifying Data Sizes"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#daaw",
-    "href": "lessons/06-built-in-functions.html#daaw",
-    "title": "Built-in Functions",
-    "section": "DAAW",
-    "text": "DAAW\n\n\n\nPick the appropriate statement.\nDocument assistance.\nInitial.\nSign.\n\n\n___ I CERTIFY THAT I DID NOT USE ANY SOURCES OR RECEIVE ANY ASSISTANCE REQUIRING DOCUMENTATION WHILE COMPLETING THIS ASSIGNMENT.\n___ I CERTIFY THAT I HAVE COMPLETELY DOCUMENTED ALL SOURCES THAT I USED TO COMPLETE THIS ASSIGNMENT AND THAT I ACKNOWLEDGED ALL ASSISTANCE I RECEIVED IN THE COMPLETION OF THIS ASSIGNMENT.\n\n\nzyBook"
+    "objectID": "lessons/03-computers-data.html#ascii",
+    "href": "lessons/03-computers-data.html#ascii",
+    "title": "Computers and Data",
+    "section": "ASCII",
+    "text": "ASCII\n\nAmerican Standard Code for Information Interchange\n7-bit encoding scheme\n95 printable characters, 33 control characters\nInvented in 1963; last updated in 1986"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#tools-available-to-us",
-    "href": "lessons/06-built-in-functions.html#tools-available-to-us",
-    "title": "Built-in Functions",
-    "section": "Tools Available to Us",
-    "text": "Tools Available to Us\n\nMOSS – Evaluation of multiple files for degree of similarity\nzyLabs Similarity Checker – MOSS-like tool built into zyLabs\nzyLabs Playback – playback of work progression on individual files\nCodequiry – Compares files with each other and online sources\nGenerative AI Tools – See sample responses to particular prompt before or after issuing assignment. Sample responses can be used in MOSS or zyLabs Similarity Checker against student submissions."
+    "objectID": "lessons/03-computers-data.html#whats-the-message",
+    "href": "lessons/03-computers-data.html#whats-the-message",
+    "title": "Computers and Data",
+    "section": "What’s the Message?",
+    "text": "What’s the Message?\n\n\n\n\n\n69 110 105 103 109 97 32 77 97 99 104 105 110 101\n66 108 101 116 99 104 108 101 121 32 80 97 114 107\n65 108 97 110 32 84 117 114 105 110 103\n71 111 32 65 114 109 121 32 66 101 97 116 32 78 97 122 105\n67 111 100 101 98 114 101 97 107 101 114 115\n84 117 114 105 110 103 32 84 101 115 116\n\n\n\n\nEnigma Machine\nBletchley Park\nAlan Turing\nGo Army Beat Nazi\nCodebreakers\nTuring Test"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#documenting-in-cy105",
-    "href": "lessons/06-built-in-functions.html#documenting-in-cy105",
-    "title": "Built-in Functions",
-    "section": "Documenting in CY105",
-    "text": "Documenting in CY105\n\nWeekly Problem Set assignments are individual assignments.\nAssistance is encouraged, but collaboration and copying will result in a heavy deduction.\n\nSee the DAAW Section II paragraphs C, E, and H for definitions of each.\n\nDon’t be afraid to ask for assistance! Be aware of the examples of assistance below – you are encouraged to receive this kind of assistance if you are struggling on an assignment!\n\nGetting a verbal answer from another person or receiving an answer from an artificial intelligence about general questions about coding, tools, or concepts covered in the course.\nHaving another person or an artificial intelligence source help you identify and understand specific errors in your own solution."
+    "objectID": "lessons/03-computers-data.html#file-extensions",
+    "href": "lessons/03-computers-data.html#file-extensions",
+    "title": "Computers and Data",
+    "section": "File Extensions",
+    "text": "File Extensions\n\nIndicate what type of data is in a file\nHelp computer deduce how to process and interpret\nNot foolproof, but helpful\nFile headers provide more information\nExamples: .docx, .xlsx, .pptx, .jpg, .mp4, .py"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#documenting-in-cy105-1",
-    "href": "lessons/06-built-in-functions.html#documenting-in-cy105-1",
-    "title": "Built-in Functions",
-    "section": "Documenting in CY105",
-    "text": "Documenting in CY105\nExamples of Collaboration or Copying (will result in point deduction if not explicitly allowed, must cite):\n\nWorking with one or more people (or artificial intelligence tools) to jointly produce a solution.\nWorking with one or more people (or artificial intelligence tools) to complete separate parts of a graded events, and then joining the parts together to form a common solution.\nLooking at someone else’s code (or code found online) and then typing the same (or slightly modified solution) into your computer and submitting the work as your own.\nProviding the prompt for an assignment to an artificial intelligence source and submitting the work as your own."
+    "objectID": "lessons/03-computers-data.html#other-encoding-schemes",
+    "href": "lessons/03-computers-data.html#other-encoding-schemes",
+    "title": "Computers and Data",
+    "section": "Other Encoding Schemes",
+    "text": "Other Encoding Schemes"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#generative-ai",
-    "href": "lessons/06-built-in-functions.html#generative-ai",
-    "title": "Built-in Functions",
-    "section": "Generative AI",
-    "text": "Generative AI\n\nGenerative AI represents a remarkable frontier in technology, holding transformative potential for expanding knowledge and enhancing learning.\nYou are forbidden from using generative A.I. to generate solutions to weekly problem sets.\nYou are permitted to utilize generative AI for weekly problem sets in the following specific contexts only:\nReceiving an answer from an artificial intelligence source about general questions about course concepts or programming construct (e.g., how to take user input of a certain data type in Python, what is the purpose of a for loop, what does cybersecurity mean, etc.)\nHaving an artificial intelligence source help you identify specific errors in your own solution (i.e., identifying potential bugs in your code after you have written the program)\nHaving artificial intelligence explain why your program gives a particular (wrong) output."
+    "objectID": "lessons/03-computers-data.html#image-encoding",
+    "href": "lessons/03-computers-data.html#image-encoding",
+    "title": "Computers and Data",
+    "section": "Image Encoding",
+    "text": "Image Encoding\n\nVideo: Images, Pixels and RGB\nDigital Compression"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#generative-ai-1",
-    "href": "lessons/06-built-in-functions.html#generative-ai-1",
-    "title": "Built-in Functions",
-    "section": "Generative AI",
-    "text": "Generative AI\n\nYou are NEVER authorized to use generative AI to generate solutions (or partial solutions) to weekly problem set problems!\nIf the tool is capable of generating a link to the conversation, include that in your acknowledgements. Otherwise, provide a copy of the full transcript in your acknowledgements section.\nThis includes any and all follow-up questions/prompts to the artificial intelligence source and the provided answers."
-  },
-  {
-    "objectID": "lessons/05-python.html#discussion",
-    "href": "lessons/05-python.html#discussion",
-    "title": "Python Basics",
-    "section": "Discussion!",
-    "text": "Discussion!\n\nFlipper Zero\n\nMeanwhile, in Canada…"
-  },
-  {
-    "objectID": "lessons/05-python.html#lesson-objectives",
-    "href": "lessons/05-python.html#lesson-objectives",
-    "title": "Python Basics",
-    "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nIdentify basic data types represented in programs\nDistinguish between data types and data values.\nUse variables to store information in a program\nWrite very basic Python programs.\n\n\n\nBring up agenda\nReference cards!\n\nBring them daily.\n\nTest your monitors.\n\nConsider bringing a spare mouse to easily navigate between screens."
-  },
-  {
-    "objectID": "lessons/05-python.html#writing-algorithms",
-    "href": "lessons/05-python.html#writing-algorithms",
-    "title": "Python Basics",
-    "section": "Writing Algorithms",
-    "text": "Writing Algorithms\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite an algorithm that accomplishes this task!\n\n\nask the user for their name\nprint out hello followed by their name\nask how many slices of pizza they want\nmultiply quantity by the cost (2.50)\nprint total to the screen"
-  },
-  {
-    "objectID": "lessons/05-python.html#check-on-learning",
-    "href": "lessons/05-python.html#check-on-learning",
-    "title": "Python Basics",
+    "objectID": "lessons/03-computers-data.html#check-on-learning-1",
+    "href": "lessons/03-computers-data.html#check-on-learning-1",
+    "title": "Computers and Data",
     "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nWhat is a data type?\nIs data type the same as a variable?\nWhat are the standard data types in Python?\nHow do you assign a variable in Python?\nWhat is a procedure?\nWhat does print() do?\nWhat does type() do?\nWhat is a list?\nWhat is a boolean?\nWhat is the difference between = and ==?\n\n\n\n\nint, float, str, list, bool"
+    "text": "Check on Learning\n\n\nCompare and contrast information vs data.\nCompare and contrast analog and digital data\nWhy is digital data used in computers?\nDefine binary, bit, byte.\nHow is digital data quantified and represented on computers?\nWhat is Kilo? Mega? Giga? Tera?\nWhat is a computer?\nWhat are the different types of computers?\nWhat is an embedded computer? Give an example.\nWhere is data stored on a computer?\nHow do computers process data?\nWhat is the difference between RAM and a hard drive?\nList and describe popular encoding schemes including RGB, ASCII, and Unicode\nHow do file extensions give applications clues on how to process and interpret data?"
   },
   {
-    "objectID": "lessons/05-python.html#more-check-on-learning",
-    "href": "lessons/05-python.html#more-check-on-learning",
-    "title": "Python Basics",
-    "section": "More Check on Learning",
-    "text": "More Check on Learning\n\n\nIs this a string? \"hello\"\nIs this a string? \"11\"\nWhat is the type of: 3.1415\nWhat is the type of: 3\nWhat is the type of: 3.0\nWhat is the type of: True\nWhat is the type of: \"True\"\nWhat is the value of: 5 + 3 * 2\nWhat is the value of: 5 % 3\nWhat is the value of: 5 / 2\nWhat is the value of: 5 // 2"
-  },
-  {
-    "objectID": "lessons/05-python.html#programming-environment",
-    "href": "lessons/05-python.html#programming-environment",
-    "title": "Python Basics",
-    "section": "Programming Environment",
-    "text": "Programming Environment\n\nStart -&gt; python\nNotepad++\nzyBook\n\n\nPython Tutor\nBlack Code Formatter"
-  },
-  {
-    "objectID": "lessons/05-python.html#hello-world",
-    "href": "lessons/05-python.html#hello-world",
-    "title": "Python Basics",
-    "section": "Hello World!",
-    "text": "Hello World!\n\nSimplest program in any language\nDemonstrates how to accomplish a basic task\n\nprint(\"Hello, World!\")"
-  },
-  {
-    "objectID": "lessons/05-python.html#writing-code",
-    "href": "lessons/05-python.html#writing-code",
-    "title": "Python Basics",
-    "section": "Writing Code",
-    "text": "Writing Code"
-  },
-  {
-    "objectID": "lessons/05-python.html#running-code",
-    "href": "lessons/05-python.html#running-code",
-    "title": "Python Basics",
-    "section": "Running Code",
-    "text": "Running Code"
-  },
-  {
-    "objectID": "lessons/05-python.html#real-python-program",
-    "href": "lessons/05-python.html#real-python-program",
-    "title": "Python Basics",
-    "section": "Real Python Program",
-    "text": "Real Python Program\n\"\"\"\nWhispers in the code,\nPython ignores, doesn’t care,\nYet they light the path.\n\"\"\"\n\ndef main():  # a procedure called main\n    print(\"hello world!\")  # print statement\n\nmain()  # invoke the main procedure\n\nCopy the code above into Notepad++\nSave with a .py extension, e.g. hello.py\nObserve the different colors. What do they mean?"
-  },
-  {
-    "objectID": "lessons/05-python.html#variables",
-    "href": "lessons/05-python.html#variables",
-    "title": "Python Basics",
-    "section": "Variables",
-    "text": "Variables\n\n\n\nStore a value in memory\nLeft side is the name of the variable\nRight side is an expression!\nCan be changed as many times as needed\nMust be assigned a value before first use!\nName is how you refer to the value\nValue is what is stored in the variable\n\n\nx = 5\ny = 3.14\nz = \"hello\"\na = x + y\nb = x * y\nPython Console"
-  },
-  {
-    "objectID": "lessons/05-python.html#variable-names",
-    "href": "lessons/05-python.html#variable-names",
-    "title": "Python Basics",
-    "section": "Variable Names",
-    "text": "Variable Names\n\nMust start with a letter or underscore\nCan contain letters, numbers, and underscores\nCase sensitive\nCannot be a reserved word\n\n\n&gt;&gt;&gt; x = 5\n&gt;&gt;&gt; 4x = 20\n&gt;&gt;&gt; x4 = 20\n&gt;&gt;&gt; x_x = 1\n&gt;&gt;&gt; print(X_X)\n&gt;&gt;&gt; True = 1\n&gt;&gt;&gt; False = 0\n&gt;&gt;&gt; return = True"
-  },
-  {
-    "objectID": "lessons/05-python.html#data-types",
-    "href": "lessons/05-python.html#data-types",
-    "title": "Python Basics",
-    "section": "Data Types",
-    "text": "Data Types\n\nint - integer\nfloat - floating point number\nstr - string\nbool - boolean\nlist - list\n\n\n&gt;&gt;&gt; type(x)\n&gt;&gt;&gt; type(y)\n&gt;&gt;&gt; type(z)"
-  },
-  {
-    "objectID": "lessons/05-python.html#basic-arithmetic",
-    "href": "lessons/05-python.html#basic-arithmetic",
-    "title": "Python Basics",
-    "section": "Basic Arithmetic",
-    "text": "Basic Arithmetic\n\n+ - addition\n- - subtraction\n* - multiplication\n/ - division\n** - exponentiation\n// - floor division\n% - modulo\n\n\n&gt;&gt;&gt; 10 + 4\n&gt;&gt;&gt; 10 - 4\n&gt;&gt;&gt; 10 * 4\n&gt;&gt;&gt; 10 / 4\n&gt;&gt;&gt; 10 ** 4\n&gt;&gt;&gt; 10 // 4\n&gt;&gt;&gt; 10 % 4\n&gt;&gt;&gt; 10 % 3\n&gt;&gt;&gt; 10 % 1"
-  },
-  {
-    "objectID": "lessons/05-python.html#order-of-operations",
-    "href": "lessons/05-python.html#order-of-operations",
-    "title": "Python Basics",
-    "section": "Order of Operations",
-    "text": "Order of Operations\n\nParentheses\nExponents\nMultiplication and Division\nAddition and Subtraction\n\n\n&gt;&gt;&gt; 5 + 3 * 2 = 11\n&gt;&gt;&gt; (5 + 3) * 2 = 16\n&gt;&gt;&gt; 5 + 3 * 2 ** 2 = 17\n&gt;&gt;&gt; (5 + 3) * 2 ** 2 = 32"
-  },
-  {
-    "objectID": "lessons/05-python.html#converting-data-types",
-    "href": "lessons/05-python.html#converting-data-types",
-    "title": "Python Basics",
-    "section": "Converting Data Types",
-    "text": "Converting Data Types\n\nint() - convert to integer\nfloat() - convert to floating point number\nstr() - convert to string\n\n\n&gt;&gt;&gt; int(3.14)\n&gt;&gt;&gt; float(3)\n&gt;&gt;&gt; str(3)"
-  },
-  {
-    "objectID": "lessons/05-python.html#lists",
-    "href": "lessons/05-python.html#lists",
-    "title": "Python Basics",
-    "section": "Lists",
-    "text": "Lists\n\nStore multiple values in one variable\nCan store different data types\nUse square brackets []\n\n\n&gt;&gt;&gt; x = [1, 2, 3]\n&gt;&gt;&gt; y = [\"hello\", 3.14, True]"
-  },
-  {
-    "objectID": "lessons/05-python.html#concatenation",
-    "href": "lessons/05-python.html#concatenation",
-    "title": "Python Basics",
-    "section": "Concatenation",
-    "text": "Concatenation\n\nCombine strings using +\nCan combine lists!\n\n\n&gt;&gt;&gt; \"hello\" + \"world\"\n&gt;&gt;&gt; [1, 2, 3] + [4, 5, 6]"
-  },
-  {
-    "objectID": "lessons/05-python.html#user-input",
-    "href": "lessons/05-python.html#user-input",
-    "title": "Python Basics",
-    "section": "User Input",
-    "text": "User Input\n\ninput() - get user input\nAlways returns a string\nUse int() or float() to convert\n\n\n&gt;&gt;&gt; x = input(\"Enter a number: \")\n&gt;&gt;&gt; x\n&gt;&gt;&gt; type(x)\n&gt;&gt;&gt; x = int(x)\n&gt;&gt;&gt; type(x)"
-  },
-  {
-    "objectID": "lessons/05-python.html#pizza",
-    "href": "lessons/05-python.html#pizza",
-    "title": "Python Basics",
-    "section": "Pizza!",
-    "text": "Pizza!\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite a Python program following your algorithm!"
-  },
-  {
-    "objectID": "lessons/05-python.html#in-class-exercise-2",
-    "href": "lessons/05-python.html#in-class-exercise-2",
-    "title": "Python Basics",
-    "section": "In-Class Exercise 2",
-    "text": "In-Class Exercise 2\n\nWrite a program that stores the value 18 in a variable named Age, and displays My age is followed by the value in Age. To do this, place both items inside the parentheses for print() but separate them with a comma.\nAdd more code to display what happens when you have a birthday (assign the value 19 to the same variable Age) and display the age again. Run the code so you can see both lines of output.\n\n\nzyBook ICE 2\n\n\"\"\"\nWhispers in the code,\nPython ignores, doesn’t care,\nYet they light the path.\n\"\"\"\ndef main():\n    # Write your code here\n\nmain()"
-  },
-  {
-    "objectID": "lessons/05-python.html#in-class-exercise-3",
-    "href": "lessons/05-python.html#in-class-exercise-3",
-    "title": "Python Basics",
-    "section": "In-Class Exercise 3",
-    "text": "In-Class Exercise 3\n\nCopy the code from ICE 2 to the box below. Next, replace the assignment statement Age = 19 with Age = Age + 1 to make the code more versatile. (This way, Age could have any value and it would still be increased by one.) Note that the expression Age + 1 will be evaluated as 19 before that value is assigned to Age. Run the program again to verify that the result is still the same as before.\nNow replace that statement with Age += 1. The only practical difference in this line is that it’s shorter. Verify that the program still works.\n\ndef main():\n    # Write your code here\n\nmain()"
-  },
-  {
-    "objectID": "lessons/05-python.html#in-class-exercise-5",
-    "href": "lessons/05-python.html#in-class-exercise-5",
-    "title": "Python Basics",
-    "section": "In-Class Exercise 5",
-    "text": "In-Class Exercise 5\n\nWrite a program to perform floor (integer) division of two numbers provided by a user.\n\n\nTo accomplish this, first you should request a number from the user and store it in a variable; be sure to also convert it to an integer.\nDo the same to request a smaller number and store it in a second variable.\nPerform floor division (divide the large number by the small number) and store the result in a third variable.\nThen calculate the remainder of dividing the large number by the small number and store it in a fourth variable.\nDisplay the results of the division using all four variables, as seen below."
-  },
-  {
-    "objectID": "lessons/05-python.html#in-class-exercise",
-    "href": "lessons/05-python.html#in-class-exercise",
-    "title": "Python Basics",
-    "section": "In-Class Exercise",
-    "text": "In-Class Exercise\n3**2 + 4 * -2 + (6 + 5) * (2 + 3)"
-  },
-  {
-    "objectID": "lessons/05-python.html#reminders",
-    "href": "lessons/05-python.html#reminders",
-    "title": "Python Basics",
+    "objectID": "lessons/03-computers-data.html#reminders",
+    "href": "lessons/03-computers-data.html#reminders",
+    "title": "Computers and Data",
     "section": "Reminders",
-    "text": "Reminders\n\nBring your reference cards to class daily\nErase whiteboards and clean up your area\nWPS2 is due 02SEP"
+    "text": "Reminders\n\nWPS1 due 25AUG\nExtra credit assignments published!\nAddress Cengage issues now!\nNext week: Algorithms and Problem Solving\n\nzyBook readings!"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#announcements",
+    "href": "lessons/09-file-io.html#announcements",
+    "title": "File Input/Output",
+    "section": "Announcements",
+    "text": "Announcements\n\nSeating chart generator!\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\n\nWPR1 is in 1 week!\n\nStudy Guide\n\n\n\n\n\n24 hour lead time\ncan setup AI individually or in groups\nTH460 B1 hour!\nHow do you document assistance from your instructor?"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#discussion",
+    "href": "lessons/09-file-io.html#discussion",
+    "title": "File Input/Output",
+    "section": "Discussion!",
+    "text": "Discussion!\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nWhy?\n\nActive learning\nMemory retention\nFuture reference\n\nCan ChatGPT be wrong?"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#lesson-objectives",
+    "href": "lessons/09-file-io.html#lesson-objectives",
+    "title": "File Input/Output",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nArticulate the need for using files\nReading from files vs standard input\nWriting to files vs standard output\nRead and write to files using Python"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#check-on-learning",
+    "href": "lessons/09-file-io.html#check-on-learning",
+    "title": "File Input/Output",
+    "section": "Check on Learning",
+    "text": "Check on Learning\n\n\nWhat is a file?\nWhere are files stored?\nWhat is a common encoding for text files?\nWhat is an example of a type of text file?\nWhat can you store in a binary file?\nWhat type of files do we use in this class?\nWhere on the reference card can you find file I/O?"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#in-class-exercise-1",
+    "href": "lessons/09-file-io.html#in-class-exercise-1",
+    "title": "File Input/Output",
+    "section": "In-Class Exercise 1",
+    "text": "In-Class Exercise 1\nWrite an algorithm to calculate the average grade for all students in CY105 (581 Cadets).\n\nCadet 1: 90\nCadet 2: 85\nCadet 3: 95\n…\nCadet 581: 100\nAverage: 92.5\n\n\n\nHow do you get the data?\nCan you use input()?\nCan you use a list?"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#what-is-a-file",
+    "href": "lessons/09-file-io.html#what-is-a-file",
+    "title": "File Input/Output",
+    "section": "What is a file?",
+    "text": "What is a file?\n\n\nData stored on disk\n\nDoes it persist after you close the program?\nWhat happens if you turn off the computer?\n\nTypes of files\n\nText: can be read using a text editor\nBinary: require a special program\n\nNewline character - \\n\n\nprint('Hello\\nWorld')"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#why-bother",
+    "href": "lessons/09-file-io.html#why-bother",
+    "title": "File Input/Output",
+    "section": "Why bother?",
+    "text": "Why bother?\n\n\nStore data for later use\nShare data between programs or computers\ninput() is tedious and annoying"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#reading-from-a-file",
+    "href": "lessons/09-file-io.html#reading-from-a-file",
+    "title": "File Input/Output",
+    "section": "Reading from a File",
+    "text": "Reading from a File\n\n\n\nOpen the file\nFor each line in the file\n\nDo something\n\nClose the file\n\n\nfileHandle = open('file.txt', 'r')\n\nfor line in fileHandle:\n    print(line)\n\nfileHandle.close()"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#in-class-exercise-2",
+    "href": "lessons/09-file-io.html#in-class-exercise-2",
+    "title": "File Input/Output",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\n9.5.1: ICE 2\n\n\nWrite a program to compute the average grade of students stored in a file named AY24-2.txt. Assume numbers are on separate lines. Print the average to the screen.\n\nAverage Grade: 79.7\n\n\nfileHandle = open('file.txt', 'r')\n\nfor line in fileHandle:\n    print(line)\n\nfileHandle.close()"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#writing-to-a-file",
+    "href": "lessons/09-file-io.html#writing-to-a-file",
+    "title": "File Input/Output",
+    "section": "Writing to a File",
+    "text": "Writing to a File\n\n\n\nOpen the file for writing\nWrite to the file, one line at a time\nClose the file\n\n\nfileHandle = open('file.txt', 'w')\n\nfileHandle.write('Hello, World!\\n')\nfileHandle.write('This is my new file.\\n')\nfileHandle.write('No line breaks here...')\nfileHandle.write('and this appears on the same line.\\n')\nfileHandle.write('Now I can end my file\\n')\n\nfileHandle.close()"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#in-class-exercise-3",
+    "href": "lessons/09-file-io.html#in-class-exercise-3",
+    "title": "File Input/Output",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\n9.5.2: ICE 3\n\n\nModify your program to read data from AY24-2.txt, compute the average and write it to averages.txt.\nNote: After you run your program, a new file called averages.txt should appear in your files.\n\nfileHandle = open('file.txt', 'w')\n\nfileHandle.write('Hello, World!')\nfileHandle.write('This is a file.')\n\nfileHandle.close()"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#other-useful-file-io-methods",
+    "href": "lessons/09-file-io.html#other-useful-file-io-methods",
+    "title": "File Input/Output",
+    "section": "Other Useful File I/O Methods",
+    "text": "Other Useful File I/O Methods\n\n.read(): read the entire file\n.read(n): read the next n characters\n.readline(): read the next line\n.readlines(): read all lines into a list"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#real-world-example-data-analysis",
+    "href": "lessons/09-file-io.html#real-world-example-data-analysis",
+    "title": "File Input/Output",
+    "section": "Real-World Example: Data Analysis",
+    "text": "Real-World Example: Data Analysis\n\nThe process of systematically applying statistical and logical techniques to describe, summarize, and evaluate data.\nIdentify trends: Spotting patterns that can lead to meaningful insights about the data.\nIsolate key statistics: Extracting specific figures that represent the essence of the datasets.\nMake predictions: Using historical data to forecast future occurrences."
+  },
+  {
+    "objectID": "lessons/09-file-io.html#in-class-exercise",
+    "href": "lessons/09-file-io.html#in-class-exercise",
+    "title": "File Input/Output",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\nThe mathematical constant \\(\\pi\\) has an infinite number of digits. Discovering digits of \\(\\pi\\) have become somewhat of an enthusiasts’ hobby. MIT has a list of the first billion digits of \\(\\pi\\). Download it from Canvas and unzip it.\nQuestion: Do any digits occur more frequently in \\(\\pi\\) than others?\nImplement the following algorithm:\n\nRead all the characters in the file as a single sequence. Close the file.\nInitialize a 10-element list to all 0s (freq)\nFor each character in the sequence starting at position 2:\nConvert the character to an integer (i)\nIncrement position i in freq by one\nIterate through freq, displaying the associated frequency."
+  },
+  {
+    "objectID": "lessons/09-file-io.html#reminders",
+    "href": "lessons/09-file-io.html#reminders",
+    "title": "File Input/Output",
+    "section": "Reminders",
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\nPractice!\n\nWPR1 is in 1 week!"
+  },
+  {
+    "objectID": "lessons/23-networks.html#discussion",
+    "href": "lessons/23-networks.html#discussion",
+    "title": "Networks and Data",
+    "section": "Discussion!",
+    "text": "Discussion!\n\nHow Ukraine’s PAPER PLANES are Destroying Russia’s Military\n\n\n\nFeedback: What can we do better?\nReadings?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#ai-summative-project",
+    "href": "lessons/23-networks.html#ai-summative-project",
+    "title": "Networks and Data",
+    "section": "AI Summative Project",
+    "text": "AI Summative Project\n\nExample Projects\nGame ideas\n\n\n\n\nplay with AI tools\ntest the feasibility of the project\nthink about what you want to do\nstart early to allow for more iterations and questions\nif I can do with a couple of prompts -&gt; too simple\nhas to have a HUMAN element to guide AI\n5 minute presentation"
+  },
+  {
+    "objectID": "lessons/23-networks.html#arpanet",
+    "href": "lessons/23-networks.html#arpanet",
+    "title": "Networks and Data",
+    "section": "Arpanet",
+    "text": "Arpanet\n\n\nWhat is Arpanet?\nWho created it? When?\nWhy was it created?\nWhat happened to it?\n\n\n\nThe Internet was initially developed by the DoD’s Advanced Research Projects Agency (ARPA) as a communication mechanism that can withstand nuclear attack. This early version of the Internet was connected to other computer networks (like NSFNet) to create the modern version of the Internet.\n\nWhat is ARPA? Advanced Research Project Agency\nWho created it? When? DoD, 1969\nWhy was it created? Communication mechanism that can withstand nuclear attack\nWhat happened to it? Connected to other computer networks to create the modern version of the Internet"
+  },
+  {
+    "objectID": "lessons/23-networks.html#the-internet",
+    "href": "lessons/23-networks.html#the-internet",
+    "title": "Networks and Data",
+    "section": "The Internet",
+    "text": "The Internet\n\n\nWhat is the Internet? How does it work?\nWhat are the connections on the map?\nWhy not just use satellites?\nHow do we get the cables there? When was the first?\n\n\nRef: https://blog.telegeography.com/"
+  },
+  {
+    "objectID": "lessons/23-networks.html#in-class-activity",
+    "href": "lessons/23-networks.html#in-class-activity",
+    "title": "Networks and Data",
+    "section": "In-Class Activity",
+    "text": "In-Class Activity\n\nSubmarine Cable Map [submarinecablemap.com]\nFind the oldest cable out of US\nFind the oldest cable out of Europe\nHow many cables connect Hawaii? Why?\nWhat about Antarctica?\nHow many cables connect North Korea?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#how-do-computers-talk",
+    "href": "lessons/23-networks.html#how-do-computers-talk",
+    "title": "Networks and Data",
+    "section": "How do computers talk?",
+    "text": "How do computers talk?\n\nhttps://www.rtautomation.com/rtas-blog/a-refresher-course-on-osi-tcp-ip/\n\nWhat is a protocol?\nWhen did you start using the internet? Elementary school? Middle school?\nWho speaks more than one language?\nIs you raising your hand a protocol? Handshake?\nWhat are these layers?\nHow are they related?\nWhat do they do?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#wired-ethernet",
+    "href": "lessons/23-networks.html#wired-ethernet",
+    "title": "Networks and Data",
+    "section": "Wired: Ethernet",
+    "text": "Wired: Ethernet\n\n\n\nTwisted Pair -&gt; CAT6\nCoaxial\nFiber Optic\n\n\n\n\n\n\nWhat’s inside a twisted pair cable? Can you make your own?\nWhat’s inside a fiber optic cable?\nWhat is Ethernet?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#wireless",
+    "href": "lessons/23-networks.html#wireless",
+    "title": "Networks and Data",
+    "section": "Wireless",
+    "text": "Wireless\n\n\n\nWiFi\nBluetooth\nCellular\nSatellite\n\n\n\n\n\n\n\nHow does WiFi work? How do machines talk through the air?\nWhat does WiFi require? Wireless access point\nWhat are the common frequencies? Who else uses them?\n\n2.4 GHz, 5.8 GHz, unlicensed\nalso used by bluetooth, microwave ovens\n\nWhere is Bluetooth used? TV, smartwatches, phones, cars, speakers, headphones, keyboards, mice\nWhat is a cell? Why hexagons?\nWhat is actually transmitted?\nHow is it transmitted?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#how-to-measure-network-quality",
+    "href": "lessons/23-networks.html#how-to-measure-network-quality",
+    "title": "Networks and Data",
+    "section": "How to measure network quality?",
+    "text": "How to measure network quality?\n\n\n\nBit Rate -&gt; Bandwidth\nLatency\nRange\n\nInternet Speed = Bandwidth x Latency\n\nFCC: Broadband Consumer Label\n\nTry Now:\n\nSpeed Test -&gt; Show more info\nping google.com\nping 1.1.1.1\n\n\n\n\n\n\nWhat is bit rate? How many bits can your computer send in a second?\nWhat is bandwidth? (maximum bit rate)\nWhat is your home internet bandwidth?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#internet-protocol-ip-address",
+    "href": "lessons/23-networks.html#internet-protocol-ip-address",
+    "title": "Networks and Data",
+    "section": "Internet Protocol (IP) Address",
+    "text": "Internet Protocol (IP) Address\n\nUnique address for each device\nParts = Network + specific device\nIPv4: 32-bit address, e.g. 1.2.3.4, 127.0.0.1\nIPv6: 128-bit address, e.g. 2001:0db8:85a3:0000:0000:8a2e:0370:7334\n\nTry Now:\n\nipconfig\n\nHow many IP addresses does your computer have? Why?\n\nifconfig.co\n\nWhat is your public IP address? Is it the same as your computer’s IP address?\nCan your online activity be traced back to you?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#which-of-the-following-is-not-a-valid-ip-address",
+    "href": "lessons/23-networks.html#which-of-the-following-is-not-a-valid-ip-address",
+    "title": "Networks and Data",
+    "section": "Which of the following is not a valid IP address?",
+    "text": "Which of the following is not a valid IP address?\n\n2001:0db8:85a3:0000:0000:8a2e:0370:7334\nBldg 601, Cullum Road, West Point, NY 10996\n67.243.0.1\nwww.westpoint.edu\nAA:BB:CC:DD:EE:FF"
+  },
+  {
+    "objectID": "lessons/23-networks.html#ip-packet",
+    "href": "lessons/23-networks.html#ip-packet",
+    "title": "Networks and Data",
+    "section": "IP Packet",
+    "text": "IP Packet\n\n\n\nHeader = letter envelope\n\nSource IP\nDestination IP\n\nData = contents\n\nCan an IP packet contain as much data as we want?\nHow do we transfer large files?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#routing",
+    "href": "lessons/23-networks.html#routing",
+    "title": "Networks and Data",
+    "section": "Routing",
+    "text": "Routing\n\n\n\nSend packets to the nearest router\nRouter forwards to the best router based on address\nFinal router delivers to destination\n\nAre IP packets always routed using the shortest possible path?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#in-class-activity-1",
+    "href": "lessons/23-networks.html#in-class-activity-1",
+    "title": "Networks and Data",
+    "section": "In-Class Activity",
+    "text": "In-Class Activity\n\nping 1.1.1.1\nping 133.3.140.24\n\nCS Department at University of Kyoto\n\ntracert 133.3.140.24\n\nEnter output into Traceroute Mapper\nExample"
+  },
+  {
+    "objectID": "lessons/23-networks.html#protocols",
+    "href": "lessons/23-networks.html#protocols",
+    "title": "Networks and Data",
+    "section": "Protocols",
+    "text": "Protocols\n\n\nTransmission Control Protocol (TCP)\n\nConnection-oriented\nReliable delivery, data integrity ensured\nEmail, file transfer\n\n\nUser Datagram Protocol (UDP)\n\nConnectionless\nLess reliable, but much faster\nVoice/video calls, streaming, gaming"
+  },
+  {
+    "objectID": "lessons/23-networks.html#transmission-control-protocol-tcp-handshake",
+    "href": "lessons/23-networks.html#transmission-control-protocol-tcp-handshake",
+    "title": "Networks and Data",
+    "section": "Transmission Control Protocol (TCP) Handshake",
+    "text": "Transmission Control Protocol (TCP) Handshake"
+  },
+  {
+    "objectID": "lessons/23-networks.html#transmission-control-protocol-tcp-acknowledgement",
+    "href": "lessons/23-networks.html#transmission-control-protocol-tcp-acknowledgement",
+    "title": "Networks and Data",
+    "section": "Transmission Control Protocol (TCP) Acknowledgement",
+    "text": "Transmission Control Protocol (TCP) Acknowledgement"
   },
   {
     "objectID": "lessons/13-conditionals.html#announcements",
@@ -1040,7 +1145,7 @@
     "href": "index.html#lessons",
     "title": "Computing Fundamentals",
     "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 2 Review\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 2 Review\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetworks and Data\n\n\nHow do computers talk?\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInternet\n\n\n…and the World Wide Web\n\n\n\n\n\n\nOct 23, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#course-objectives",
@@ -1743,291 +1848,494 @@
     "text": "Reminders\n\nComplete DAAW in Canvas\nWPS2 due 02SEP\n\nExcel sheet upload, 5 attempts\n\nExtra credit assignments published!\nLesson 5 readings are long and really important\n\nStart early and come prepared!\n\nClear the boards!\nBluefruit?"
   },
   {
-    "objectID": "lessons/09-file-io.html#announcements",
-    "href": "lessons/09-file-io.html#announcements",
-    "title": "File Input/Output",
-    "section": "Announcements",
-    "text": "Announcements\n\nSeating chart generator!\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\n\nWPR1 is in 1 week!\n\nStudy Guide\n\n\n\n\n\n24 hour lead time\ncan setup AI individually or in groups\nTH460 B1 hour!\nHow do you document assistance from your instructor?"
-  },
-  {
-    "objectID": "lessons/09-file-io.html#discussion",
-    "href": "lessons/09-file-io.html#discussion",
-    "title": "File Input/Output",
+    "objectID": "lessons/05-python.html#discussion",
+    "href": "lessons/05-python.html#discussion",
+    "title": "Python Basics",
     "section": "Discussion!",
-    "text": "Discussion!\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nWhy?\n\nActive learning\nMemory retention\nFuture reference\n\nCan ChatGPT be wrong?"
+    "text": "Discussion!\n\nFlipper Zero\n\nMeanwhile, in Canada…"
   },
   {
-    "objectID": "lessons/09-file-io.html#lesson-objectives",
-    "href": "lessons/09-file-io.html#lesson-objectives",
-    "title": "File Input/Output",
+    "objectID": "lessons/05-python.html#lesson-objectives",
+    "href": "lessons/05-python.html#lesson-objectives",
+    "title": "Python Basics",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nArticulate the need for using files\nReading from files vs standard input\nWriting to files vs standard output\nRead and write to files using Python"
+    "text": "Lesson Objectives\n\nIdentify basic data types represented in programs\nDistinguish between data types and data values.\nUse variables to store information in a program\nWrite very basic Python programs.\n\n\n\nBring up agenda\nReference cards!\n\nBring them daily.\n\nTest your monitors.\n\nConsider bringing a spare mouse to easily navigate between screens."
   },
   {
-    "objectID": "lessons/09-file-io.html#check-on-learning",
-    "href": "lessons/09-file-io.html#check-on-learning",
-    "title": "File Input/Output",
+    "objectID": "lessons/05-python.html#writing-algorithms",
+    "href": "lessons/05-python.html#writing-algorithms",
+    "title": "Python Basics",
+    "section": "Writing Algorithms",
+    "text": "Writing Algorithms\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite an algorithm that accomplishes this task!\n\n\nask the user for their name\nprint out hello followed by their name\nask how many slices of pizza they want\nmultiply quantity by the cost (2.50)\nprint total to the screen"
+  },
+  {
+    "objectID": "lessons/05-python.html#check-on-learning",
+    "href": "lessons/05-python.html#check-on-learning",
+    "title": "Python Basics",
     "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nWhat is a file?\nWhere are files stored?\nWhat is a common encoding for text files?\nWhat is an example of a type of text file?\nWhat can you store in a binary file?\nWhat type of files do we use in this class?\nWhere on the reference card can you find file I/O?"
+    "text": "Check on Learning\n\n\nWhat is a data type?\nIs data type the same as a variable?\nWhat are the standard data types in Python?\nHow do you assign a variable in Python?\nWhat is a procedure?\nWhat does print() do?\nWhat does type() do?\nWhat is a list?\nWhat is a boolean?\nWhat is the difference between = and ==?\n\n\n\n\nint, float, str, list, bool"
   },
   {
-    "objectID": "lessons/09-file-io.html#in-class-exercise-1",
-    "href": "lessons/09-file-io.html#in-class-exercise-1",
-    "title": "File Input/Output",
-    "section": "In-Class Exercise 1",
-    "text": "In-Class Exercise 1\nWrite an algorithm to calculate the average grade for all students in CY105 (581 Cadets).\n\nCadet 1: 90\nCadet 2: 85\nCadet 3: 95\n…\nCadet 581: 100\nAverage: 92.5\n\n\n\nHow do you get the data?\nCan you use input()?\nCan you use a list?"
+    "objectID": "lessons/05-python.html#more-check-on-learning",
+    "href": "lessons/05-python.html#more-check-on-learning",
+    "title": "Python Basics",
+    "section": "More Check on Learning",
+    "text": "More Check on Learning\n\n\nIs this a string? \"hello\"\nIs this a string? \"11\"\nWhat is the type of: 3.1415\nWhat is the type of: 3\nWhat is the type of: 3.0\nWhat is the type of: True\nWhat is the type of: \"True\"\nWhat is the value of: 5 + 3 * 2\nWhat is the value of: 5 % 3\nWhat is the value of: 5 / 2\nWhat is the value of: 5 // 2"
   },
   {
-    "objectID": "lessons/09-file-io.html#what-is-a-file",
-    "href": "lessons/09-file-io.html#what-is-a-file",
-    "title": "File Input/Output",
-    "section": "What is a file?",
-    "text": "What is a file?\n\n\nData stored on disk\n\nDoes it persist after you close the program?\nWhat happens if you turn off the computer?\n\nTypes of files\n\nText: can be read using a text editor\nBinary: require a special program\n\nNewline character - \\n\n\nprint('Hello\\nWorld')"
+    "objectID": "lessons/05-python.html#programming-environment",
+    "href": "lessons/05-python.html#programming-environment",
+    "title": "Python Basics",
+    "section": "Programming Environment",
+    "text": "Programming Environment\n\nStart -&gt; python\nNotepad++\nzyBook\n\n\nPython Tutor\nBlack Code Formatter"
   },
   {
-    "objectID": "lessons/09-file-io.html#why-bother",
-    "href": "lessons/09-file-io.html#why-bother",
-    "title": "File Input/Output",
-    "section": "Why bother?",
-    "text": "Why bother?\n\n\nStore data for later use\nShare data between programs or computers\ninput() is tedious and annoying"
+    "objectID": "lessons/05-python.html#hello-world",
+    "href": "lessons/05-python.html#hello-world",
+    "title": "Python Basics",
+    "section": "Hello World!",
+    "text": "Hello World!\n\nSimplest program in any language\nDemonstrates how to accomplish a basic task\n\nprint(\"Hello, World!\")"
   },
   {
-    "objectID": "lessons/09-file-io.html#reading-from-a-file",
-    "href": "lessons/09-file-io.html#reading-from-a-file",
-    "title": "File Input/Output",
-    "section": "Reading from a File",
-    "text": "Reading from a File\n\n\n\nOpen the file\nFor each line in the file\n\nDo something\n\nClose the file\n\n\nfileHandle = open('file.txt', 'r')\n\nfor line in fileHandle:\n    print(line)\n\nfileHandle.close()"
+    "objectID": "lessons/05-python.html#writing-code",
+    "href": "lessons/05-python.html#writing-code",
+    "title": "Python Basics",
+    "section": "Writing Code",
+    "text": "Writing Code"
   },
   {
-    "objectID": "lessons/09-file-io.html#in-class-exercise-2",
-    "href": "lessons/09-file-io.html#in-class-exercise-2",
-    "title": "File Input/Output",
+    "objectID": "lessons/05-python.html#running-code",
+    "href": "lessons/05-python.html#running-code",
+    "title": "Python Basics",
+    "section": "Running Code",
+    "text": "Running Code"
+  },
+  {
+    "objectID": "lessons/05-python.html#real-python-program",
+    "href": "lessons/05-python.html#real-python-program",
+    "title": "Python Basics",
+    "section": "Real Python Program",
+    "text": "Real Python Program\n\"\"\"\nWhispers in the code,\nPython ignores, doesn’t care,\nYet they light the path.\n\"\"\"\n\ndef main():  # a procedure called main\n    print(\"hello world!\")  # print statement\n\nmain()  # invoke the main procedure\n\nCopy the code above into Notepad++\nSave with a .py extension, e.g. hello.py\nObserve the different colors. What do they mean?"
+  },
+  {
+    "objectID": "lessons/05-python.html#variables",
+    "href": "lessons/05-python.html#variables",
+    "title": "Python Basics",
+    "section": "Variables",
+    "text": "Variables\n\n\n\nStore a value in memory\nLeft side is the name of the variable\nRight side is an expression!\nCan be changed as many times as needed\nMust be assigned a value before first use!\nName is how you refer to the value\nValue is what is stored in the variable\n\n\nx = 5\ny = 3.14\nz = \"hello\"\na = x + y\nb = x * y\nPython Console"
+  },
+  {
+    "objectID": "lessons/05-python.html#variable-names",
+    "href": "lessons/05-python.html#variable-names",
+    "title": "Python Basics",
+    "section": "Variable Names",
+    "text": "Variable Names\n\nMust start with a letter or underscore\nCan contain letters, numbers, and underscores\nCase sensitive\nCannot be a reserved word\n\n\n&gt;&gt;&gt; x = 5\n&gt;&gt;&gt; 4x = 20\n&gt;&gt;&gt; x4 = 20\n&gt;&gt;&gt; x_x = 1\n&gt;&gt;&gt; print(X_X)\n&gt;&gt;&gt; True = 1\n&gt;&gt;&gt; False = 0\n&gt;&gt;&gt; return = True"
+  },
+  {
+    "objectID": "lessons/05-python.html#data-types",
+    "href": "lessons/05-python.html#data-types",
+    "title": "Python Basics",
+    "section": "Data Types",
+    "text": "Data Types\n\nint - integer\nfloat - floating point number\nstr - string\nbool - boolean\nlist - list\n\n\n&gt;&gt;&gt; type(x)\n&gt;&gt;&gt; type(y)\n&gt;&gt;&gt; type(z)"
+  },
+  {
+    "objectID": "lessons/05-python.html#basic-arithmetic",
+    "href": "lessons/05-python.html#basic-arithmetic",
+    "title": "Python Basics",
+    "section": "Basic Arithmetic",
+    "text": "Basic Arithmetic\n\n+ - addition\n- - subtraction\n* - multiplication\n/ - division\n** - exponentiation\n// - floor division\n% - modulo\n\n\n&gt;&gt;&gt; 10 + 4\n&gt;&gt;&gt; 10 - 4\n&gt;&gt;&gt; 10 * 4\n&gt;&gt;&gt; 10 / 4\n&gt;&gt;&gt; 10 ** 4\n&gt;&gt;&gt; 10 // 4\n&gt;&gt;&gt; 10 % 4\n&gt;&gt;&gt; 10 % 3\n&gt;&gt;&gt; 10 % 1"
+  },
+  {
+    "objectID": "lessons/05-python.html#order-of-operations",
+    "href": "lessons/05-python.html#order-of-operations",
+    "title": "Python Basics",
+    "section": "Order of Operations",
+    "text": "Order of Operations\n\nParentheses\nExponents\nMultiplication and Division\nAddition and Subtraction\n\n\n&gt;&gt;&gt; 5 + 3 * 2 = 11\n&gt;&gt;&gt; (5 + 3) * 2 = 16\n&gt;&gt;&gt; 5 + 3 * 2 ** 2 = 17\n&gt;&gt;&gt; (5 + 3) * 2 ** 2 = 32"
+  },
+  {
+    "objectID": "lessons/05-python.html#converting-data-types",
+    "href": "lessons/05-python.html#converting-data-types",
+    "title": "Python Basics",
+    "section": "Converting Data Types",
+    "text": "Converting Data Types\n\nint() - convert to integer\nfloat() - convert to floating point number\nstr() - convert to string\n\n\n&gt;&gt;&gt; int(3.14)\n&gt;&gt;&gt; float(3)\n&gt;&gt;&gt; str(3)"
+  },
+  {
+    "objectID": "lessons/05-python.html#lists",
+    "href": "lessons/05-python.html#lists",
+    "title": "Python Basics",
+    "section": "Lists",
+    "text": "Lists\n\nStore multiple values in one variable\nCan store different data types\nUse square brackets []\n\n\n&gt;&gt;&gt; x = [1, 2, 3]\n&gt;&gt;&gt; y = [\"hello\", 3.14, True]"
+  },
+  {
+    "objectID": "lessons/05-python.html#concatenation",
+    "href": "lessons/05-python.html#concatenation",
+    "title": "Python Basics",
+    "section": "Concatenation",
+    "text": "Concatenation\n\nCombine strings using +\nCan combine lists!\n\n\n&gt;&gt;&gt; \"hello\" + \"world\"\n&gt;&gt;&gt; [1, 2, 3] + [4, 5, 6]"
+  },
+  {
+    "objectID": "lessons/05-python.html#user-input",
+    "href": "lessons/05-python.html#user-input",
+    "title": "Python Basics",
+    "section": "User Input",
+    "text": "User Input\n\ninput() - get user input\nAlways returns a string\nUse int() or float() to convert\n\n\n&gt;&gt;&gt; x = input(\"Enter a number: \")\n&gt;&gt;&gt; x\n&gt;&gt;&gt; type(x)\n&gt;&gt;&gt; x = int(x)\n&gt;&gt;&gt; type(x)"
+  },
+  {
+    "objectID": "lessons/05-python.html#pizza",
+    "href": "lessons/05-python.html#pizza",
+    "title": "Python Basics",
+    "section": "Pizza!",
+    "text": "Pizza!\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite a Python program following your algorithm!"
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise-2",
+    "href": "lessons/05-python.html#in-class-exercise-2",
+    "title": "Python Basics",
     "section": "In-Class Exercise 2",
-    "text": "In-Class Exercise 2\n9.5.1: ICE 2\n\n\nWrite a program to compute the average grade of students stored in a file named AY24-2.txt. Assume numbers are on separate lines. Print the average to the screen.\n\nAverage Grade: 79.7\n\n\nfileHandle = open('file.txt', 'r')\n\nfor line in fileHandle:\n    print(line)\n\nfileHandle.close()"
+    "text": "In-Class Exercise 2\n\nWrite a program that stores the value 18 in a variable named Age, and displays My age is followed by the value in Age. To do this, place both items inside the parentheses for print() but separate them with a comma.\nAdd more code to display what happens when you have a birthday (assign the value 19 to the same variable Age) and display the age again. Run the code so you can see both lines of output.\n\n\nzyBook ICE 2\n\n\"\"\"\nWhispers in the code,\nPython ignores, doesn’t care,\nYet they light the path.\n\"\"\"\ndef main():\n    # Write your code here\n\nmain()"
   },
   {
-    "objectID": "lessons/09-file-io.html#writing-to-a-file",
-    "href": "lessons/09-file-io.html#writing-to-a-file",
-    "title": "File Input/Output",
-    "section": "Writing to a File",
-    "text": "Writing to a File\n\n\n\nOpen the file for writing\nWrite to the file, one line at a time\nClose the file\n\n\nfileHandle = open('file.txt', 'w')\n\nfileHandle.write('Hello, World!\\n')\nfileHandle.write('This is my new file.\\n')\nfileHandle.write('No line breaks here...')\nfileHandle.write('and this appears on the same line.\\n')\nfileHandle.write('Now I can end my file\\n')\n\nfileHandle.close()"
-  },
-  {
-    "objectID": "lessons/09-file-io.html#in-class-exercise-3",
-    "href": "lessons/09-file-io.html#in-class-exercise-3",
-    "title": "File Input/Output",
+    "objectID": "lessons/05-python.html#in-class-exercise-3",
+    "href": "lessons/05-python.html#in-class-exercise-3",
+    "title": "Python Basics",
     "section": "In-Class Exercise 3",
-    "text": "In-Class Exercise 3\n9.5.2: ICE 3\n\n\nModify your program to read data from AY24-2.txt, compute the average and write it to averages.txt.\nNote: After you run your program, a new file called averages.txt should appear in your files.\n\nfileHandle = open('file.txt', 'w')\n\nfileHandle.write('Hello, World!')\nfileHandle.write('This is a file.')\n\nfileHandle.close()"
+    "text": "In-Class Exercise 3\n\nCopy the code from ICE 2 to the box below. Next, replace the assignment statement Age = 19 with Age = Age + 1 to make the code more versatile. (This way, Age could have any value and it would still be increased by one.) Note that the expression Age + 1 will be evaluated as 19 before that value is assigned to Age. Run the program again to verify that the result is still the same as before.\nNow replace that statement with Age += 1. The only practical difference in this line is that it’s shorter. Verify that the program still works.\n\ndef main():\n    # Write your code here\n\nmain()"
   },
   {
-    "objectID": "lessons/09-file-io.html#other-useful-file-io-methods",
-    "href": "lessons/09-file-io.html#other-useful-file-io-methods",
-    "title": "File Input/Output",
-    "section": "Other Useful File I/O Methods",
-    "text": "Other Useful File I/O Methods\n\n.read(): read the entire file\n.read(n): read the next n characters\n.readline(): read the next line\n.readlines(): read all lines into a list"
+    "objectID": "lessons/05-python.html#in-class-exercise-5",
+    "href": "lessons/05-python.html#in-class-exercise-5",
+    "title": "Python Basics",
+    "section": "In-Class Exercise 5",
+    "text": "In-Class Exercise 5\n\nWrite a program to perform floor (integer) division of two numbers provided by a user.\n\n\nTo accomplish this, first you should request a number from the user and store it in a variable; be sure to also convert it to an integer.\nDo the same to request a smaller number and store it in a second variable.\nPerform floor division (divide the large number by the small number) and store the result in a third variable.\nThen calculate the remainder of dividing the large number by the small number and store it in a fourth variable.\nDisplay the results of the division using all four variables, as seen below."
   },
   {
-    "objectID": "lessons/09-file-io.html#real-world-example-data-analysis",
-    "href": "lessons/09-file-io.html#real-world-example-data-analysis",
-    "title": "File Input/Output",
-    "section": "Real-World Example: Data Analysis",
-    "text": "Real-World Example: Data Analysis\n\nThe process of systematically applying statistical and logical techniques to describe, summarize, and evaluate data.\nIdentify trends: Spotting patterns that can lead to meaningful insights about the data.\nIsolate key statistics: Extracting specific figures that represent the essence of the datasets.\nMake predictions: Using historical data to forecast future occurrences."
-  },
-  {
-    "objectID": "lessons/09-file-io.html#in-class-exercise",
-    "href": "lessons/09-file-io.html#in-class-exercise",
-    "title": "File Input/Output",
+    "objectID": "lessons/05-python.html#in-class-exercise",
+    "href": "lessons/05-python.html#in-class-exercise",
+    "title": "Python Basics",
     "section": "In-Class Exercise",
-    "text": "In-Class Exercise\nThe mathematical constant \\(\\pi\\) has an infinite number of digits. Discovering digits of \\(\\pi\\) have become somewhat of an enthusiasts’ hobby. MIT has a list of the first billion digits of \\(\\pi\\). Download it from Canvas and unzip it.\nQuestion: Do any digits occur more frequently in \\(\\pi\\) than others?\nImplement the following algorithm:\n\nRead all the characters in the file as a single sequence. Close the file.\nInitialize a 10-element list to all 0s (freq)\nFor each character in the sequence starting at position 2:\nConvert the character to an integer (i)\nIncrement position i in freq by one\nIterate through freq, displaying the associated frequency."
+    "text": "In-Class Exercise\n3**2 + 4 * -2 + (6 + 5) * (2 + 3)"
   },
   {
-    "objectID": "lessons/09-file-io.html#reminders",
-    "href": "lessons/09-file-io.html#reminders",
-    "title": "File Input/Output",
+    "objectID": "lessons/05-python.html#reminders",
+    "href": "lessons/05-python.html#reminders",
+    "title": "Python Basics",
     "section": "Reminders",
-    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\nPractice!\n\nWPR1 is in 1 week!"
+    "text": "Reminders\n\nBring your reference cards to class daily\nErase whiteboards and clean up your area\nWPS2 is due 02SEP"
   },
   {
-    "objectID": "lessons/03-computers-data.html#discussion",
-    "href": "lessons/03-computers-data.html#discussion",
-    "title": "Computers and Data",
+    "objectID": "lessons/06-built-in-functions.html#discussion",
+    "href": "lessons/06-built-in-functions.html#discussion",
+    "title": "Built-in Functions",
     "section": "Discussion!",
-    "text": "Discussion!\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com"
+    "text": "Discussion!\n\nChatGPT!"
   },
   {
-    "objectID": "lessons/03-computers-data.html#lesson-objectives",
-    "href": "lessons/03-computers-data.html#lesson-objectives",
-    "title": "Computers and Data",
+    "objectID": "lessons/06-built-in-functions.html#lesson-objectives",
+    "href": "lessons/06-built-in-functions.html#lesson-objectives",
+    "title": "Built-in Functions",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nDefine data, how it differs from information, and its forms: analog and digital.\nDefine what a computer is, define common types of computers, and distinguish their uses from each other. \nDescribe how digital data is quantified and represented on computers.\nDescribe how computers process and store data.\nLearn how to read an ASCII table."
+    "text": "Lesson Objectives\n\nUnderstand the purpose of built-in functions in the Python language.\nArticulate the difference between procedures (non-fruitful functions) and fruitful functions.\nIllustrate how to use the assignment operator to store the result of a built-in function in a variable.\nArticulate what arguments are, and how to use them in the context of built-in functions.\nUse built-in functions to write Python code."
   },
   {
-    "objectID": "lessons/03-computers-data.html#information",
-    "href": "lessons/03-computers-data.html#information",
-    "title": "Computers and Data",
-    "section": "Information",
-    "text": "Information\n\n\n\nData = facts\n\nmeasurements\nstatistics\nvalues\n\nInformation\n\ndata processed, organized, or structured in a meaningful way"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#analog-vs-digital-data",
-    "href": "lessons/03-computers-data.html#analog-vs-digital-data",
-    "title": "Computers and Data",
-    "section": "Analog vs Digital Data",
-    "text": "Analog vs Digital Data\n\n\n\nAnalog\n\nContinuous data\nSmooth, unbroken line\nSpeed, temperature\nMore accurate\nHarder to store, manipulate, and transmit\n\nDigital\n\nDiscrete data\nStaircase\ne.g. ACFT score table\nEasier to store, manipulate, and transmit"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#analog-to-digital",
-    "href": "lessons/03-computers-data.html#analog-to-digital",
-    "title": "Computers and Data",
-    "section": "Analog to Digital",
-    "text": "Analog to Digital\n\nVideo: Analog vs Digital"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#computers-are-everywhere",
-    "href": "lessons/03-computers-data.html#computers-are-everywhere",
-    "title": "Computers and Data",
-    "section": "Computers are Everywhere",
-    "text": "Computers are Everywhere\n\nEmbedded computers: inside of other electronic devices, usually not visible from the outside"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#microcontrollers",
-    "href": "lessons/03-computers-data.html#microcontrollers",
-    "title": "Computers and Data",
-    "section": "Microcontrollers",
-    "text": "Microcontrollers\n\n\n\nSmallest processor\nRun exactly one program\nCan run on battery power\nBluefruit!"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#mobile-computers",
-    "href": "lessons/03-computers-data.html#mobile-computers",
-    "title": "Computers and Data",
-    "section": "Mobile Computers",
-    "text": "Mobile Computers\n\nWhat are they?\n\n\n\nLaptops, tablets, smartphones\nCan run multiple programs at once\nDesigned for portability - battery power"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#desktops-and-servers",
-    "href": "lessons/03-computers-data.html#desktops-and-servers",
-    "title": "Computers and Data",
-    "section": "Desktops and Servers",
-    "text": "Desktops and Servers\n\n\n\nWhat about these?\n\n\n\nMost powerful computers\nCan run multiple programs at once\nDesigned for performance\nTypically plugged into a power source"
-  },
-  {
-    "objectID": "lessons/03-computers-data.html#check-on-learning",
-    "href": "lessons/03-computers-data.html#check-on-learning",
-    "title": "Computers and Data",
+    "objectID": "lessons/06-built-in-functions.html#check-on-learning",
+    "href": "lessons/06-built-in-functions.html#check-on-learning",
+    "title": "Built-in Functions",
     "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nWhat is information?\nWhat is a microcontroller?\nIs microcontroller a general-purpose computer?\nIs calculator a general-purpose computer?\nIs a smartphone a general-purpose computer?"
+    "text": "Check on Learning\n\n\nWhat is a function?\n\nIs it fruitful?\n\nWhat is a procedure?\n\nIs it fruitful?\n\nWhat can a function return?\nWhat is a built-in function?\nWhat is an argument?"
   },
   {
-    "objectID": "lessons/03-computers-data.html#types-of-devices",
-    "href": "lessons/03-computers-data.html#types-of-devices",
-    "title": "Computers and Data",
-    "section": "Types of Devices",
-    "text": "Types of Devices\n\n\nInput\n\n\nKeyboard\nMouse\nTouchscreen\nMicrophone\nCamera\n\n\n\nOutput\n\n\nMonitor\nPrinter\nSpeaker\n\n\n\nPeripheral\n\nConnect through expansion slots\nGreatly expand computer capabilities\n\n\n\nGraphics card (GPU)\nNetwork card"
+    "objectID": "lessons/06-built-in-functions.html#pizza-program",
+    "href": "lessons/06-built-in-functions.html#pizza-program",
+    "title": "Built-in Functions",
+    "section": "Pizza Program",
+    "text": "Pizza Program\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite a program that accomplishes this task!\n\nAsk the user for their name.\nPrint out hello followed by their name.\nAsk how many slices of pizza they want.\nMultiply quantity by the cost (2.50).\nPrint total to the screen.\n\nUse Notepad++ or zyBook IDE."
   },
   {
-    "objectID": "lessons/03-computers-data.html#central-processing-unit-cpu",
-    "href": "lessons/03-computers-data.html#central-processing-unit-cpu",
-    "title": "Computers and Data",
-    "section": "Central Processing Unit (CPU)",
-    "text": "Central Processing Unit (CPU)\n\n\n\nCache: small, fast memory\n\n\nReads instructions from memory\nPerforms logical and mathematical operations\nWrites results back to memory"
+    "objectID": "lessons/06-built-in-functions.html#will-this-work",
+    "href": "lessons/06-built-in-functions.html#will-this-work",
+    "title": "Built-in Functions",
+    "section": "Will this work?",
+    "text": "Will this work?\n\"\"\"\nprogram: pizza checkout\ninput: name, slices\noutput: total amount of money they owe\n\"\"\"\n\ndef main():\n    name = input(\"What is your name? \")  # ask the user for their name\n    print(\"Hello\", name)  # greet the user\n    slices = input(\"How many slices of pizza do you want? \")  # get user input\n    total = slices * 2.50  # multiply quantity by the cost\n    print(\"The total is\", total) # print the total amount\n\nmain()  # call the function"
   },
   {
-    "objectID": "lessons/03-computers-data.html#storage",
-    "href": "lessons/03-computers-data.html#storage",
-    "title": "Computers and Data",
-    "section": "Storage",
-    "text": "Storage\n\n\n\nCache\nRAM\nHard Drive"
+    "objectID": "lessons/06-built-in-functions.html#functions",
+    "href": "lessons/06-built-in-functions.html#functions",
+    "title": "Built-in Functions",
+    "section": "Functions",
+    "text": "Functions\n\norganize code into reusable blocks\ntransforms some input (X) to some output (Y)\n\n\\[f: X \\rightarrow Y\\]\n\nfactory that takes multiple inputs and produces one thing\nprocedures are functions that do not return anything"
   },
   {
-    "objectID": "lessons/03-computers-data.html#the-bus",
-    "href": "lessons/03-computers-data.html#the-bus",
-    "title": "Computers and Data",
-    "section": "The Bus",
-    "text": "The Bus\n\n\n\nelectronic conduit, connects all components together inside the computer"
+    "objectID": "lessons/06-built-in-functions.html#built-in-functions",
+    "href": "lessons/06-built-in-functions.html#built-in-functions",
+    "title": "Built-in Functions",
+    "section": "Built-in Functions",
+    "text": "Built-in Functions\nname = input(\"What is your name? \")\nprint(\"Hello\", name)\ntype(name)\n\nlist('hello')\n\npi = 3.14159\nround(pi)\nround(pi, 2)\n\na = [17, 23, 11, 29, 37, 13]\nlen(a)\nmax(a)\nmin(a)\n\nfloor(pi)\nceil(pi)\n\na = \"\"\"this string\nhas multiple\nlines.\nWhat now?\"\"\""
   },
   {
-    "objectID": "lessons/03-computers-data.html#scenario",
-    "href": "lessons/03-computers-data.html#scenario",
-    "title": "Computers and Data",
-    "section": "Scenario",
-    "text": "Scenario\nPower Outage\n\nYou are working on a paper in the middle of the night. Suddenly, a powerful thunderstorm appears in the area and you lose power.\nSuppose you are working on a desktop computer. What happens to your paper? What data is lost?\nHow does the above answer change if you were working on a laptop? What are some advantages/disadvantages of autosave?\n\nData Security\n\nYour friend is thinking about making some extra cash by selling their computer. What advice would you give them so their personal data does not get stolen?\nWhat concrete steps that you would recommend they take?\nAny components worth removing or keeping? How does your answer change if it is a phone, laptop or desktop?"
+    "objectID": "lessons/06-built-in-functions.html#debugging",
+    "href": "lessons/06-built-in-functions.html#debugging",
+    "title": "Built-in Functions",
+    "section": "Debugging",
+    "text": "Debugging\n\nPython Tutor\nBlack Code Formatter\nuse print() to display variable values\nuse type() to check the type of a variable"
   },
   {
-    "objectID": "lessons/03-computers-data.html#binary",
-    "href": "lessons/03-computers-data.html#binary",
-    "title": "Computers and Data",
-    "section": "Binary",
-    "text": "Binary\n\nLight switch = on or off\nOnly two values: 0 and 1\nBit = binary digit\nByte = 8 bits\nHow exactly does binary code work?\nRepresenting Numbers and Letters with Binary\n\n\n\nBit = light switch, off or on"
+    "objectID": "lessons/06-built-in-functions.html#pizza-program-2",
+    "href": "lessons/06-built-in-functions.html#pizza-program-2",
+    "title": "Built-in Functions",
+    "section": "Pizza Program 2",
+    "text": "Pizza Program 2\n\nModify the pizza program to account for 8.5% tax.\nPrepend the total with a $ sign.\nHave the dollar amount rounded to two decimal places.\n\nSample Input/Output:\n\nWhat is your name? Pikachu\nHello Pikachu\nHow many slices of pizza do you want? 3\nThe total is $8.14"
   },
   {
-    "objectID": "lessons/03-computers-data.html#hexadecimal",
-    "href": "lessons/03-computers-data.html#hexadecimal",
-    "title": "Computers and Data",
-    "section": "Hexadecimal",
-    "text": "Hexadecimal\n\nBase 16 =&gt; 0-9, A-F\n4 bits = 1 hex digit\nEasier for humans to read\n\n\n\n16 objects, unique labels\nboard example"
+    "objectID": "lessons/06-built-in-functions.html#how-tall-in-feet-and-inches",
+    "href": "lessons/06-built-in-functions.html#how-tall-in-feet-and-inches",
+    "title": "Built-in Functions",
+    "section": "How tall in feet and inches?",
+    "text": "How tall in feet and inches?\nWrite a program that prompts a user to enter their height in inches. Your program should then display the corresponding height in feet, along with any leftover inches.\nSample Input/Output:\n\n\n\nEnter your height in inches: 70\nYou are 5 feet and 10 inches.\n\n\ndef main():\n    # enter code here\n\n\nmain()"
   },
   {
-    "objectID": "lessons/03-computers-data.html#conversion-decimal---binary---hexadecimal",
-    "href": "lessons/03-computers-data.html#conversion-decimal---binary---hexadecimal",
-    "title": "Computers and Data",
-    "section": "Conversion: Decimal - Binary - Hexadecimal",
-    "text": "Conversion: Decimal - Binary - Hexadecimal"
+    "objectID": "lessons/06-built-in-functions.html#circle-program",
+    "href": "lessons/06-built-in-functions.html#circle-program",
+    "title": "Built-in Functions",
+    "section": "Circle Program",
+    "text": "Circle Program\nPrompt the user to input the circle’s radius as a float. Compute and display the circumference and area of the circle. Assume \\(\\pi = 3.14\\).\nCircumference = \\(2 \\pi r\\)\nArea = \\(\\pi r^2\\)\nSample Input/Output:\n\n\n\nEnter the radius as a float: 4.28\nCircumference: 26.8784\nArea: 57.519776\n\n\ndef main():\n    # enter code here\n\n\nmain()"
   },
   {
-    "objectID": "lessons/03-computers-data.html#quantifying-data-sizes",
-    "href": "lessons/03-computers-data.html#quantifying-data-sizes",
-    "title": "Computers and Data",
-    "section": "Quantifying Data Sizes",
-    "text": "Quantifying Data Sizes"
+    "objectID": "lessons/06-built-in-functions.html#next-lesson-for-loops",
+    "href": "lessons/06-built-in-functions.html#next-lesson-for-loops",
+    "title": "Built-in Functions",
+    "section": "Next Lesson: For Loops",
+    "text": "Next Lesson: For Loops\n\nWhy we need loops?\nHow to write code that repeats statements?\nHow to use the accumulator pattern?\nHow to use the built-in function range()?"
   },
   {
-    "objectID": "lessons/03-computers-data.html#ascii",
-    "href": "lessons/03-computers-data.html#ascii",
-    "title": "Computers and Data",
-    "section": "ASCII",
-    "text": "ASCII\n\nAmerican Standard Code for Information Interchange\n7-bit encoding scheme\n95 printable characters, 33 control characters\nInvented in 1963; last updated in 1986"
+    "objectID": "lessons/06-built-in-functions.html#daaw",
+    "href": "lessons/06-built-in-functions.html#daaw",
+    "title": "Built-in Functions",
+    "section": "DAAW",
+    "text": "DAAW\n\n\n\nPick the appropriate statement.\nDocument assistance.\nInitial.\nSign.\n\n\n___ I CERTIFY THAT I DID NOT USE ANY SOURCES OR RECEIVE ANY ASSISTANCE REQUIRING DOCUMENTATION WHILE COMPLETING THIS ASSIGNMENT.\n___ I CERTIFY THAT I HAVE COMPLETELY DOCUMENTED ALL SOURCES THAT I USED TO COMPLETE THIS ASSIGNMENT AND THAT I ACKNOWLEDGED ALL ASSISTANCE I RECEIVED IN THE COMPLETION OF THIS ASSIGNMENT.\n\n\nzyBook"
   },
   {
-    "objectID": "lessons/03-computers-data.html#whats-the-message",
-    "href": "lessons/03-computers-data.html#whats-the-message",
-    "title": "Computers and Data",
-    "section": "What’s the Message?",
-    "text": "What’s the Message?\n\n\n\n\n\n69 110 105 103 109 97 32 77 97 99 104 105 110 101\n66 108 101 116 99 104 108 101 121 32 80 97 114 107\n65 108 97 110 32 84 117 114 105 110 103\n71 111 32 65 114 109 121 32 66 101 97 116 32 78 97 122 105\n67 111 100 101 98 114 101 97 107 101 114 115\n84 117 114 105 110 103 32 84 101 115 116\n\n\n\n\nEnigma Machine\nBletchley Park\nAlan Turing\nGo Army Beat Nazi\nCodebreakers\nTuring Test"
+    "objectID": "lessons/06-built-in-functions.html#tools-available-to-us",
+    "href": "lessons/06-built-in-functions.html#tools-available-to-us",
+    "title": "Built-in Functions",
+    "section": "Tools Available to Us",
+    "text": "Tools Available to Us\n\nMOSS – Evaluation of multiple files for degree of similarity\nzyLabs Similarity Checker – MOSS-like tool built into zyLabs\nzyLabs Playback – playback of work progression on individual files\nCodequiry – Compares files with each other and online sources\nGenerative AI Tools – See sample responses to particular prompt before or after issuing assignment. Sample responses can be used in MOSS or zyLabs Similarity Checker against student submissions."
   },
   {
-    "objectID": "lessons/03-computers-data.html#file-extensions",
-    "href": "lessons/03-computers-data.html#file-extensions",
-    "title": "Computers and Data",
-    "section": "File Extensions",
-    "text": "File Extensions\n\nIndicate what type of data is in a file\nHelp computer deduce how to process and interpret\nNot foolproof, but helpful\nFile headers provide more information\nExamples: .docx, .xlsx, .pptx, .jpg, .mp4, .py"
+    "objectID": "lessons/06-built-in-functions.html#documenting-in-cy105",
+    "href": "lessons/06-built-in-functions.html#documenting-in-cy105",
+    "title": "Built-in Functions",
+    "section": "Documenting in CY105",
+    "text": "Documenting in CY105\n\nWeekly Problem Set assignments are individual assignments.\nAssistance is encouraged, but collaboration and copying will result in a heavy deduction.\n\nSee the DAAW Section II paragraphs C, E, and H for definitions of each.\n\nDon’t be afraid to ask for assistance! Be aware of the examples of assistance below – you are encouraged to receive this kind of assistance if you are struggling on an assignment!\n\nGetting a verbal answer from another person or receiving an answer from an artificial intelligence about general questions about coding, tools, or concepts covered in the course.\nHaving another person or an artificial intelligence source help you identify and understand specific errors in your own solution."
   },
   {
-    "objectID": "lessons/03-computers-data.html#other-encoding-schemes",
-    "href": "lessons/03-computers-data.html#other-encoding-schemes",
-    "title": "Computers and Data",
-    "section": "Other Encoding Schemes",
-    "text": "Other Encoding Schemes"
+    "objectID": "lessons/06-built-in-functions.html#documenting-in-cy105-1",
+    "href": "lessons/06-built-in-functions.html#documenting-in-cy105-1",
+    "title": "Built-in Functions",
+    "section": "Documenting in CY105",
+    "text": "Documenting in CY105\nExamples of Collaboration or Copying (will result in point deduction if not explicitly allowed, must cite):\n\nWorking with one or more people (or artificial intelligence tools) to jointly produce a solution.\nWorking with one or more people (or artificial intelligence tools) to complete separate parts of a graded events, and then joining the parts together to form a common solution.\nLooking at someone else’s code (or code found online) and then typing the same (or slightly modified solution) into your computer and submitting the work as your own.\nProviding the prompt for an assignment to an artificial intelligence source and submitting the work as your own."
   },
   {
-    "objectID": "lessons/03-computers-data.html#image-encoding",
-    "href": "lessons/03-computers-data.html#image-encoding",
-    "title": "Computers and Data",
-    "section": "Image Encoding",
-    "text": "Image Encoding\n\nVideo: Images, Pixels and RGB\nDigital Compression"
+    "objectID": "lessons/06-built-in-functions.html#generative-ai",
+    "href": "lessons/06-built-in-functions.html#generative-ai",
+    "title": "Built-in Functions",
+    "section": "Generative AI",
+    "text": "Generative AI\n\nGenerative AI represents a remarkable frontier in technology, holding transformative potential for expanding knowledge and enhancing learning.\nYou are forbidden from using generative A.I. to generate solutions to weekly problem sets.\nYou are permitted to utilize generative AI for weekly problem sets in the following specific contexts only:\nReceiving an answer from an artificial intelligence source about general questions about course concepts or programming construct (e.g., how to take user input of a certain data type in Python, what is the purpose of a for loop, what does cybersecurity mean, etc.)\nHaving an artificial intelligence source help you identify specific errors in your own solution (i.e., identifying potential bugs in your code after you have written the program)\nHaving artificial intelligence explain why your program gives a particular (wrong) output."
   },
   {
-    "objectID": "lessons/03-computers-data.html#check-on-learning-1",
-    "href": "lessons/03-computers-data.html#check-on-learning-1",
-    "title": "Computers and Data",
+    "objectID": "lessons/06-built-in-functions.html#generative-ai-1",
+    "href": "lessons/06-built-in-functions.html#generative-ai-1",
+    "title": "Built-in Functions",
+    "section": "Generative AI",
+    "text": "Generative AI\n\nYou are NEVER authorized to use generative AI to generate solutions (or partial solutions) to weekly problem set problems!\nIf the tool is capable of generating a link to the conversation, include that in your acknowledgements. Otherwise, provide a copy of the full transcript in your acknowledgements section.\nThis includes any and all follow-up questions/prompts to the artificial intelligence source and the provided answers."
+  },
+  {
+    "objectID": "lessons/24-internet.html#where-is-the-internet",
+    "href": "lessons/24-internet.html#where-is-the-internet",
+    "title": "Internet",
+    "section": "Where is the Internet?",
+    "text": "Where is the Internet?\n\nA. Cloud\nB. Ocean\nC. Ground\nD. Space\n\nVideo: Where really is the Internet?"
+  },
+  {
+    "objectID": "lessons/24-internet.html#announcements",
+    "href": "lessons/24-internet.html#announcements",
+    "title": "Internet",
+    "section": "Announcements",
+    "text": "Announcements"
+  },
+  {
+    "objectID": "lessons/24-internet.html#lesson-objectives",
+    "href": "lessons/24-internet.html#lesson-objectives",
+    "title": "Internet",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\n\n\nDefine and identify the purpose of the following protocols:\n\nHTTP, TLS, DNS.​\n\nDefine and identify the purpose of URLs and Browsers​\nExplain how users access data across the web\n\nhow it relates to the other internet layers and protocols.\n\nSummarize how HTTP provides access to web content\n\npurpose of HTML, CSS, & JavaScript​\n\nArticulate the different layers of the web\n\nand which are accessible by search engines​\n\n\n\n\n\n\nThe goal of this lesson is to familiarize cadets with how the Internet actually works, specifically the application layer, and how actions they take at the application layer actually affects the lower layers as well. By the end of this lesson, students should be well versed in the different protocols that exist at the application layer, and how they work together when data is requested or sent over the Internet."
+  },
+  {
+    "objectID": "lessons/24-internet.html#the-internet",
+    "href": "lessons/24-internet.html#the-internet",
+    "title": "Internet",
+    "section": "The Internet!",
+    "text": "The Internet!\n\n\n\nWhat is it?\nWho owns it?\nWho created it?\nWhen?\nWhy?\n\nYouTube Video: Vint Cerf\n\n\n\n\nWhat is the Internet?\nBegin with the code.org video on Slide 4, which includes narration from Vint Cert (one of the ‘fathers of the internet’ along with Bob Kahn). This video is a good ice-breaker to begin discussion about what the Internet is and to dispel some misconceptions about the Internet.\nSome follow-up questions could include: - the video touched on the Internet being a distributed network – what does this mean? - the video discussed the fact that the Internet is packet-switched – what does this mean? What are the benefits?"
+  },
+  {
+    "objectID": "lessons/24-internet.html#distributed-packet-switched-network",
+    "href": "lessons/24-internet.html#distributed-packet-switched-network",
+    "title": "Internet",
+    "section": "Distributed Packet-Switched Network",
+    "text": "Distributed Packet-Switched Network\n\n\nWhat does this mean?\n\nDistributed: No central control\nPacket-Switched: Data broken into packets\n\nWhat are the benefits?\n\nRedundancy\nScalability\nFlexibility\n\n\n\n\nThe Internet is a connection of billions of computers using the Internet Protocol’s communication rules."
+  },
+  {
+    "objectID": "lessons/24-internet.html#history-of-the-internet",
+    "href": "lessons/24-internet.html#history-of-the-internet",
+    "title": "Internet",
+    "section": "History of the Internet",
+    "text": "History of the Internet\n\n\n\n\nWhat is ARPANet​?\n\nPrecursor to modern Internet​\n\nWho created ARPANet​?\n\nDepartment of Defense​\n\nCreated in the​ 1960s​\nNSFNet created in mid-1980s for universities and government labs​\nARPANet connected to NSFNet in 1980s​ to create inter-network\nUse of TCP/IP protocol​ ensured massive scalability\n\n\n\n\n\n\nEarly roots include the U.S. Dept. of Defense’s ARPANET in the 1960s. In the 1980s, the U.S. National Science Foundation funded a further network “backbone” creation known as NSFNet, connecting universities and government research labs, mostly for email and file transfers (at a time when sending letters and documents via physical mail was the norm). When ARPANET and NSFNet were merged in the late 1980s, the name Internet took over (short for “inter-networking”)."
+  },
+  {
+    "objectID": "lessons/24-internet.html#world-wide-web",
+    "href": "lessons/24-internet.html#world-wide-web",
+    "title": "Internet",
+    "section": "World Wide Web",
+    "text": "World Wide Web\n\n\nWhat is it?\n\nA bunch of hypertext documents that link to each other​\n\nWhat documents?\n\nWeb pages!\n\nIs it the Internet?\n\nNo!\n\n\n\n\n\nThe web of hypertext documents (web pages) cross-referencing (linking) each other​\nThe World Wide Web is one use of the Internet that involves a vast collection of web pages (information) that is accessed via the Internet.\nMany people may think these are synonymous, but it is important to understand the distinction in this class."
+  },
+  {
+    "objectID": "lessons/24-internet.html#the-big-4-of-the-world-wide-web",
+    "href": "lessons/24-internet.html#the-big-4-of-the-world-wide-web",
+    "title": "Internet",
+    "section": "The Big 4 of the World Wide Web​",
+    "text": "The Big 4 of the World Wide Web​\n\n\n\n\nUniform Resource Locator (URL)​\n\npointer to a document on the network​\nuniquely identifies each website\n\nHyper Text Transfer Protocol (HTTP)​\n\nhow browsers and servers communicate​\n\nBrowser ​\n\nprogram to downloads and displays those documents​\n\nHyper Text Markup Language (HTML)​\n\nlanguage for writing those documents​\n\n\n\n\n\n\n\nThe fundamental building block of the Web is a single page of information that may include links to other pages. This is an image of a Wikipedia page, but you can pull up another website if you’d like. This example includes information (written in hypertext) along with click-able text, hyperlinks, which link the user to another webpage. This creates a “web” of interconnected information. Introduce the four (4) main components that build the web:  1. Uniform Resource Locator (URL) – Finds that file on any computer that is on the same network  2. Hyper Text Transport Protocol (HTTP) – Moves the contents of that file from the server to the client  3. Browsers – Display those documents in a readable format  4. Hyper Text Markup Language (HTML) - Represent a document with hyperlinks to any file on any computer on the Internet    Let’s discuss each of these in turn."
+  },
+  {
+    "objectID": "lessons/24-internet.html#uniform-resource-locator-url",
+    "href": "lessons/24-internet.html#uniform-resource-locator-url",
+    "title": "Internet",
+    "section": "Uniform Resource Locator (URL)​",
+    "text": "Uniform Resource Locator (URL)​\n\n\nURLs & DNS & HTTP (15 mins) (slide 9) In order to link pages to one another, each webpage must have a specific address, which is called a Uniform Resource Locator (URL). The components of a URL include the web’s protocol (like HTTPS), the host (the domain you wish to talk to), and the path (the page within the domain you are looking for)."
+  },
+  {
+    "objectID": "lessons/24-internet.html#domain-name-system-dns",
+    "href": "lessons/24-internet.html#domain-name-system-dns",
+    "title": "Internet",
+    "section": "Domain Name System (DNS)​",
+    "text": "Domain Name System (DNS)​\n\n\n\n\nWhat does it do?\n\nDomain name -&gt; IP address\n\nWhy is it important?\n\nAllows us to use names instead of numbers\n\nWho controls it?\n\nICANN controls root servers\nRegistrars control top-level domains\nCompanies control their subdomains\n\nWho can own a domain?\n\nAnyone!\n\nWhere is this massive directory stored?\n\n\n\n\n\n\nhttps://www.akamai.com/glossary/what-are-dns-servers\n\n\n\n\n(slide 10) But… in the Internet lesson, we learned that IP address are used to find things on the internet, not URL? Correct! But, how many students know the IP address for westpoint.edu?"
+  },
+  {
+    "objectID": "lessons/24-internet.html#but-how-does-dns-really-work",
+    "href": "lessons/24-internet.html#but-how-does-dns-really-work",
+    "title": "Internet",
+    "section": "But how does DNS really work?",
+    "text": "But how does DNS really work?\n\n\n\n\nBrowser: Where is www.example.com?\nResolver: Who knows about .com\nRoot Server: Here is your TLD server’s address\nResolver: Who knows about example.com?\nTLD Server: Here is the authoritative server for example.com\nResolver: IP address for www.example.com?\nAuthoritative Server: 1.2.3.4\nResolver: 1.2.3.4\n\n\n\n\n\n\nhttps://www.cloudflare.com/learning/dns/what-is-dns/\n\n\n\n\n(slide 11) When you request content from a URL, the first thing that happens is a DNS (Domain Name System) lookup, which takes the domain name from the URL as an input, and replies back with the IP address of the computer that is running the applicable web server. DNS is an example of another protocol!The DNS first looks at the root of the URL (.com, .gov, etc.), then it searches for the domain, and so on."
+  },
+  {
+    "objectID": "lessons/24-internet.html#hyper-text-transfer-protocol",
+    "href": "lessons/24-internet.html#hyper-text-transfer-protocol",
+    "title": "Internet",
+    "section": "Hyper Text Transfer Protocol",
+    "text": "Hyper Text Transfer Protocol\n\nhttps://medium.com/@terrybmochire/what-happens-when-you-type-a-url-in-your-browser-and-press-enter-d7357a555911\n(slide 14-15) A user uses the web-browser to connect to websites that are “served” by webservers. The hyper-text transfer protocol (“http” in the URLs) in conjunction with other protocols like DNS and TCP/IP help the browser communicate with a webserver. When a “client” requests the contents from a URL, the “server” sends back the HTML which is then displayed by the web browser, a program on our computer which requests the content and renders the HTML into a viewable format for the user.\nHTTP is exceptional insecure; it is highly recommended you always use HTTPS whenever you surf the web. In our programming lab in a few lessons you will see first-hand why."
+  },
+  {
+    "objectID": "lessons/24-internet.html#browser",
+    "href": "lessons/24-internet.html#browser",
+    "title": "Internet",
+    "section": "Browser",
+    "text": "Browser\n\n\n\n\nWhat is it?\n\nApplication on a user’s computer\n\nUses what protocol?\n\nHyper Text Transfer Protocol (HTTP)\nSecure version: HTTPS\n\nWhat do you enter in it?\n\nUniform Resource Locator (URL)\n\nWhat does it do with the URL?\n\nGets IP address from DNS server\nRequests the webpage from the server\nMakes it look pretty\n\n\n\n\n\n\n\n(slide 12) When the IP address is returned, the client (the user) sends a request to connect to the server (the IP address where content is located) for the information, following the Internet protocols and layers taught in the previous lesson."
+  },
+  {
+    "objectID": "lessons/24-internet.html#web-server",
+    "href": "lessons/24-internet.html#web-server",
+    "title": "Internet",
+    "section": "Web Server",
+    "text": "Web Server\n\n\n\nProgram on a computer\nListens for requests\nResponds with content\n\n\n\n\n\nGoogle Data Center\n\n\n\n\n(slide 13) Web servers are programs located on computers (typically stored in datacenters) that run the content or services being request. A map is provided of the Google Data Centers across the world and there is a video to provide further clarify into what a “server” is."
+  },
+  {
+    "objectID": "lessons/24-internet.html#a-modern-web-page",
+    "href": "lessons/24-internet.html#a-modern-web-page",
+    "title": "Internet",
+    "section": "A Modern Web Page",
+    "text": "A Modern Web Page\n\n\n\n\nHow do we represent a webpage? Text, Links\n\nHyperText!\n\nWhat is the language of HyperText?\n\nHyperText Markup Language (HTML)\n\nCan you see HTML?\n\nYes!\nRight-click on a page\nSelect “View page source”\n\nWhat do you see?"
+  },
+  {
+    "objectID": "lessons/24-internet.html#hyper-text-markup-language",
+    "href": "lessons/24-internet.html#hyper-text-markup-language",
+    "title": "Internet",
+    "section": "Hyper Text Markup Language",
+    "text": "Hyper Text Markup Language\n\nDefines the structure and content of the webpage\nDeveloped to specify links, headers, paragraphs, images, etc.\nUses tags such as &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;\n\n\n\nCan you write a program in HTML?\n\nNo, but you can write a webpage!\n\n\n\n\nBrowsers, HTML, CSS and JavaScript (15 mins)\n(slide 16-17) When we introduced the Web, we mentioned that webpages are written in hypertext and often includes hyperlinks to other webpages. Hypertext is simply plain text, but in order to add distinctions between plain text and hyperlinks, additional formatting what required. This is how Hyper Text Markup Language (HTML) was developed – a way to mark up a pages to specify links, headers, paragraphs, images, etc.\n(slide 18) Keep in mind, HTML is not a programming language like Python is; it is simply a markup language. That means, HTML cannot perform tasks and analyze logical conditions. It is just use to define the structure and content of a website.\nHTML (HyperText Markup Language) generally defines the content and some of the layout and format of the webpage."
+  },
+  {
+    "objectID": "lessons/24-internet.html#html-demo",
+    "href": "lessons/24-internet.html#html-demo",
+    "title": "Internet",
+    "section": "HTML Demo",
+    "text": "HTML Demo\n\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;title&gt;My first website&lt;/title&gt;\n\n&lt;body&gt;\n    &lt;h1&gt; The Gettysburg Address &lt;/h1&gt;\n    &lt;img src=\"gettysburg-address.jpg\" width=\"200\" /&gt;\n    &lt;p&gt;\n        &lt;a href=\"https://en.wikipedia.org/wiki/Abraham_Lincoln\"&gt; Abe Lincoln &lt;/a&gt; said:\n        Four score and seven years ago...\n    &lt;/p&gt;\n\n    &lt;h2&gt;What did our fathers do? &lt;/h2&gt;\n    &lt;ol&gt;\n        &lt;li&gt;brought forth on this continent a new nation&lt;/li&gt;\n        &lt;li&gt;conceived in liberty&lt;/li&gt;\n        &lt;li&gt;and dedicated to the proposition that all men are created equal&lt;/li&gt;\n    &lt;/ol&gt;\n&lt;/body&gt;\n\n&lt;/html&gt;\n\n\n\n\n\n\nRecommended to show a simple demo of creating a website in Notepad++ to demystify HTML a little bit.\n\nOpen Notepad++ application on computer\nType the HTML\nSave file as “GettysburgWebsite.html” à this converts it to an .html file instead of a .txt file\nClose file\nLocate document in File Manager, see how it is an HTML file type, and click on file. It will open in a browser and look like a website."
+  },
+  {
+    "objectID": "lessons/24-internet.html#cascading-style-sheets",
+    "href": "lessons/24-internet.html#cascading-style-sheets",
+    "title": "Internet",
+    "section": "Cascading Style Sheets",
+    "text": "Cascading Style Sheets\n\n\n\nLanguage to define looks of a webpage\nMaintain consistency in format and style\nChanges colors, sizes, spacing, fonts, etc.\n\nh1 {\n  color: red;\n}\n\np .special {\n  background-color: black;\n  padding: 5px;\n}\n\n\n\n\n(slide 19) A web page without any styling will have a white background, black text, and standard-sized text. Cascading Style Sheets (CSS) is a language that can be used to style a web page via changes in colors, sizes, spacing, fonts, and more. This helps to maintain consistency in format and style throughout the webpage and website. To continue the bird analogy, adding CSS to your website is like the baby bird gaining colorful feathers.\nCascading Style Sheets are used to maintain consistency in format and style throughout the webpage and website."
+  },
+  {
+    "objectID": "lessons/24-internet.html#javascript",
+    "href": "lessons/24-internet.html#javascript",
+    "title": "Internet",
+    "section": "JavaScript",
+    "text": "JavaScript\n\n\n\n\nComputer language that makes webpages interactive\nIs it a programming language?\n\nYes, it is the most popular language in the world!\n\nRuns everywhere!\n\n\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;script&gt;\nfunction ChangeTextColor(newColor) {\n   var x = document.getElementById(\"ColorableText\");\n   x.style.color = newColor;\n}\n        &lt;/script&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"ColorableText\"&gt;\n        Click a button to change this text's color.\n        &lt;/p&gt;\n        &lt;button type=\"button\" onclick=\"ChangeTextColor('red')\"&gt;Red&lt;/button&gt;\n        &lt;button type=\"button\" onclick=\"ChangeTextColor('blue')\"&gt;Blue&lt;/button&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n\n \n\n\n(slides 20) JavaScript is a computer programming language that makes webpages interactive. This means that it provides webpages with active content, such as graphical effects, validating information in forms, and controlling pop-up windows. Remember that JavaScript code is a program, like Python is, and like other programs, it can potentially be used for nefarious purposes too (like viruses, worms, etc.). We will discuss more about Because JS introduces more functionality to a webpage, it is analogous to the bird with colorful wings now taking flight.\nProgramming language that provides webpages with active content: provide graphical effects, validate information in forms, pop up both useful and irritating windows, and so on (UDW pg.169)\nRemember that JavaScript is a program and, like any other program, it can be used for nefarious purposes (viruses, worms, etc.)\nFun fact: at the time this was written, JavaScript was the most popular language in the world. This is because it is practically required to write a webpage. It can also be used to write a program like you would in Python."
+  },
+  {
+    "objectID": "lessons/24-internet.html#in-class-exercise",
+    "href": "lessons/24-internet.html#in-class-exercise",
+    "title": "Internet",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\n\nCreate a webpage!\nAdd style and interactivity\nZyBooks - 22.2 ICE: World Wide Web\nReference: W3 Schools\n\n\n(Slide 21) ICE – Make a Webpage\nHave students create a folder on their computer and download the files from the Canvas ICE: World Wide Web activity. This activity give the students starter code to copy into html, CSS or JS files to create their own webpage and provides links to W3 Schools to explore further. https://www.w3schools.com/html/\nThe intent of this ICE is for the student to be creative and change their webpage as they want. There are not prescribes tasks, except a suggestion to change paragraph text. If a student does not know where to begin or what to change, you can provide the following suggestions:\nHTML: Can you change the header to a sub header? (change h1 tags to h2 or h3)?\nCan you add a new paragraph sentence that says “Go Army”?\nCan you change the hyperlink in “CY105” to be the West Point home page?\nCSS: Can you move the header to be center aligned?\nCan you change the background color of the webpage?\nJS: When you click on the image of a pony, can you hide the text “Beat Navy!”?"
+  },
+  {
+    "objectID": "lessons/24-internet.html#cloud-computing",
+    "href": "lessons/24-internet.html#cloud-computing",
+    "title": "Internet",
+    "section": "Cloud Computing",
+    "text": "Cloud Computing\n\n\n\n\nWhat is it?\n\nSomeone else’s computer!\n\nWhy is it useful?\n\nLittle to no software installation\nApplications managed by the provider\nLower cost\nEliminates the need for physical media\nSeamless transition between many devices\n\n\n\n\n\n\n\nCloud Computing (10 mins) Today, we often utilize the processing resources, data, and storage available on the Internet available via different applications. This is called cloud computing and is in contract to local processing and storage that would utilize your specific computers hardware resources. Cloud applications process and deliver data located on remote servers that are accessible via the Internet. Cloud applications have advantages over local drive applications, including:\nLittle to no software installation: Many applications in the cloud run on remote servers and process or stream data in real-time, thus alleviating users from having to download large software programs that require significant amounts of disk space.\n\nUp-to-date software: Applications running on the cloud are the most recent releases.\n\nLower cost: Some software applications are very expensive. For example, the Adobe Creative Suite 6 Master Collection, a drawing, photo, and video editing suite, once cost $2,524. Adobe Creative Cloud has moved to a subscription model that offers the same suite of applications for $50 a month, which is cheaper if only needed for a short time.\n\nEliminates the need for physical media: To listen to music or watch videos on the computer, users could only play physical disks (CDs, DVDs) or media files on the local drive. Current applications like Netflix and Spotify allow users to stream videos and music in the respective online libraries.\n\nAccess from many locations and devices: Cloud applications can be accessed by various user devices and from various locations.\nZyBook also discusses the concept of cloud storage, which is the storage of files on remotely-located servers, with those files being managed by apps via the web. Cloud storage has several advantages over storing files solely on a local computer drive:\n\nLocal storage is limited. Moving lesser-used files to cloud storage, such as large video files, can make room in local storage for more regularly-used files.\nFiles on cloud storage can serve as a backup. A backup is a copy of a file kept in case the local version is accidentally damaged or lost.\nFiles on cloud storage can be accessed by various user devices and from various locations."
+  },
+  {
+    "objectID": "lessons/24-internet.html#business-models",
+    "href": "lessons/24-internet.html#business-models",
+    "title": "Internet",
+    "section": "Business Models",
+    "text": "Business Models\n\nInfrastructure as a Service (IaaS)\n\nPay for access to raw computing resources\nAmazon Web Services (AWS)\n\nPlatform as a Service (PaaS)\n\nPay for access to platforms or toolkits\nGoogle App Engine\n\nSoftware as a Service (SaaS)\n\nPay for applications\nMicrosoft Office 365\n\n\n\nCloud Computing has also led to the introduction of new business models and impacted the way people conduct business. ZyBook mentions the following:\n\nSoftware as a service (Saas) is a type of business model where users pay for a vendor’s apps, which process and store data on the cloud.\nInfrastructure as a service (IaaS) is a type of business model where users pay to access computing resources such as servers, storage, and networking. Example: Amazon Web Services (AWS)\nPlatform as a service (PaaS) is a type of business model where users pay to access vendor’s platforms or toolkits to develop and deploy new applications. Example: Google App Engine.\nTelecommuting, where an employee works outside of the traditional office space, has also increased due to the ability for cloud computing."
+  },
+  {
+    "objectID": "lessons/24-internet.html#discussion-search-engines",
+    "href": "lessons/24-internet.html#discussion-search-engines",
+    "title": "Internet",
+    "section": "Discussion: Search Engines",
+    "text": "Discussion: Search Engines\n\nWhat is a search engine? Give some examples.\nHow does it work? How often does a search engine contact other websites?\nWhat can it not find?\nCan you work without it? Why or why not?\n\nYouTube: How Search Works\n\nSearch Engines & Layers of the Web (5 mins)\nBy now, students should understand the process and protocols in place to request web content and receive it back. But what if the user does not know the URL for their desired content? Where do you go if you don’t know the exact page you want to request? Website such as www.google.com or yahoo, are what is called search engines. A search engine is a website that does web searches – takes user-typed words as an input and finds the web pages that best match.\n(Slide 43) A Code.org video explains search engines and search algorithms. (play ~ 0:44 – 3:50)\nKey takeaways: - Search engines do not go out to the WWW every time there is a new search to find the best answers - Spiders continuously creates and updates a search index which is then referenced to find the best answers - Algorithms for what is “the best” result(s) can vary and are often evolving to improve results and detect spammers."
+  },
+  {
+    "objectID": "lessons/24-internet.html#deep-and-dark-web",
+    "href": "lessons/24-internet.html#deep-and-dark-web",
+    "title": "Internet",
+    "section": "Deep and Dark Web",
+    "text": "Deep and Dark Web\n\n\n\nSurface Web\n\nPublicly accessible World Wide Web\nSearch engine spider can see this!\n\nDeep Web\n\nPrivate, unlinked, or hidden\nHidden behind login pages\nUnlinked, excluded by robots.txt\nSearch engines cannot see this!\n\nDark Web\n\nAnonymizing protocols\n\nUnusual routing techniques\nLots of Encryption\n\nI2P, Freenet, ZeroNet, GNUnet\nCommonly accessed using The Onion Router (TOR) browser \n\nDo not try this yourself!\n\n\n\n\n\n(slides 23 - 24) The content that the engine spider indexes makes up the surface web. This is only 4% of the total web content out there! Below the “surface”, is the deep web, content that is hidden behind login pages or proprietary information not accessible to the general public. Then there is the dark web, requiring specific networks, browsers, and software to enable anonymous routing protocols and often used for illegal activity, such as black-market trading and counterfeiting."
+  },
+  {
+    "objectID": "lessons/24-internet.html#cloud-computing-and-data",
+    "href": "lessons/24-internet.html#cloud-computing-and-data",
+    "title": "Internet",
+    "section": "Cloud Computing and Data",
+    "text": "Cloud Computing and Data\n\nIf you create content but it is stored on the cloud (another company’s web server), who owns the data?\nWhat if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?\nWhat implications does cloud services have on data privacy?\n\n\nInteresting questions to pose to the class. If there is time in class, these questions could lead to great discussions, but if not, share these as teasers for the upcoming Data and Ethics lesson.\n\nIf you create content but it is stored on the cloud (another company’s web server), who owns the data?\nWhat if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?\nWhat implications does cloud services have on data privacy?"
+  },
+  {
+    "objectID": "lessons/24-internet.html#check-on-learning",
+    "href": "lessons/24-internet.html#check-on-learning",
+    "title": "Internet",
     "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nCompare and contrast information vs data.\nCompare and contrast analog and digital data\nWhy is digital data used in computers?\nDefine binary, bit, byte.\nHow is digital data quantified and represented on computers?\nWhat is Kilo? Mega? Giga? Tera?\nWhat is a computer?\nWhat are the different types of computers?\nWhat is an embedded computer? Give an example.\nWhere is data stored on a computer?\nHow do computers process data?\nWhat is the difference between RAM and a hard drive?\nList and describe popular encoding schemes including RGB, ASCII, and Unicode\nHow do file extensions give applications clues on how to process and interpret data?"
+    "text": "Check on Learning\n\nWhat is the Internet?\nWho owns the Internet?\nWhat is the World Wide Web?\nHow does the WWW work?\nDoes DNS translate URLs to domain names?\nWhat is the purpose of HTTP?\nWhat is a browser?\nIs a browser a server or a client?\n\n\nDefine the internet. Who owns it? What is the world wide web? How is it different from the internet? Describe how the Domain Name System (DNS) relates to IP Addresses and Uniform Resource Locators (URLs). How does the WWW work? Define and describe the following terms: HTTP/HTTPS HTML URL Client vs Server CSS JavaScript Define a browser. Provide some examples of them."
   },
   {
-    "objectID": "lessons/03-computers-data.html#reminders",
-    "href": "lessons/03-computers-data.html#reminders",
-    "title": "Computers and Data",
-    "section": "Reminders",
-    "text": "Reminders\n\nWPS1 due 25AUG\nExtra credit assignments published!\nAddress Cengage issues now!\nNext week: Algorithms and Problem Solving\n\nzyBook readings!"
+    "objectID": "lessons/24-internet.html#final-notes",
+    "href": "lessons/24-internet.html#final-notes",
+    "title": "Internet",
+    "section": "Final Notes",
+    "text": "Final Notes\n\n\n\nOnline Tracking and Ethics\nDigital Footprint Audit\n\nDocument Assistance!\n\nSummative project\n\nPython program\nHardware project\nCan build a website! \n\n\n\n\n\n\nhttps://xkcd.com/303/"
   },
   {
     "objectID": "lessons/16-functions.html#announcements",
