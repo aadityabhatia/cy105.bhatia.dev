@@ -3,3 +3,6 @@
 /scratchpad/
 /.vscode/
 *-speaker.html
+.stfolder
+.stignore
+*_files/

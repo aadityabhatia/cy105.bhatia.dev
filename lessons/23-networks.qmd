@@ -1,0 +1,323 @@
+---
+format: revealjs
+title: Networks and Data
+subtitle: How do computers talk to each other?
+description: How do computers talk?
+date: 2024-10-21
+image: /images/23/23.webp
+title-slide-attributes:
+    data-background-image: /images/23/23.webp
+    data-background-opacity: "0.3"
+---
+
+## Discussion! {timing=240}
+
+- [Vortex Cannon vs Drone](https://www.youtube.com/embed/SrGENEXocJU)
+- [How Ukraine's PAPER PLANES are Destroying Russia's Military](https://www.youtube.com/embed/Z8P8Wp14na8)
+
+
+# Announcements
+
+- [AI Summative Project](https://westpoint.instructure.com/courses/7068/assignments/160502)
+    - [Project Proposal](https://westpoint.instructure.com/courses/7068/assignments/160503) due 12NOV
+- [Digital Footprint Audit](https://westpoint.instructure.com/courses/7068/assignments/160507) due 27OCT
+
+![](/images/agenda-block-3.png)
+
+::: {.notes}
+:::
+
+## AI Summative Project {timing=120}
+
+- [Example Projects](https://westpoint.instructure.com/courses/7068/files/1911864/download)
+- [Game ideas](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/17/section/1)
+
+![](/images/23/summative-project.png)
+
+::: {.notes}
+- play with AI tools
+- test the feasibility of the project
+- think about what you want to do
+- start early to allow for more iterations and questions
+- if I can do with a couple of prompts -> too simple
+- has to have a HUMAN element to guide AI
+- 5 minute presentation
+:::
+
+# Lesson Objectives
+
+- Identify the different layers of the network and for what they are responsible.
+    - Physical network layer
+    - Application layer
+- Understand key protocols involved.
+    - Transmission Control Protocol
+    - Internet Protocol
+
+# What is a computer network?
+
+::: {.notes}
+- How many devices?
+- How are they connected?
+:::
+
+
+## [Arpanet](https://en.wikipedia.org/wiki/ARPANET) {timing=120 background-image="/images/23/arpanet_map_1973.jpg" background-opacity="0.3"}
+
+::: {.incremental}
+- What is Arpanet?
+- Who created it? When?
+- Why was it created?
+- What happened to it?
+:::
+
+::: {.notes}
+The Internet was initially developed by the DoD’s Advanced Research Projects Agency (ARPA) as a communication mechanism that can withstand nuclear attack. This early version of the Internet was connected to other computer networks (like NSFNet) to create the modern version of the Internet.
+
+- What is ARPA? Advanced Research Project Agency
+- Who created it? When? DoD, 1969
+- Why was it created? Communication mechanism that can withstand nuclear attack
+- What happened to it? Connected to other computer networks to create the modern version of the Internet
+:::
+
+
+## The Internet {timing=180 background-image="/images/23/Submarine-Cable-Map-2024.jpg" background-opacity="0.4"}
+
+### Distributed Packet-Switched Network {timing=120}
+
+::: {.incremental}
+- What is the Internet? How does it work?
+    - Distributed: No central control
+    - Packet-Switched: Data broken into packets
+- What are the connections on the map?
+- Why not just use satellites?
+- How do we get the cables there? [When was the first?](https://en.wikipedia.org/wiki/Submarine_communications_cable)
+- What is special about this network of networks?
+    - Redundancy
+    - Scalability
+    - Flexibility
+:::
+
+Ref: https://blog.telegeography.com/
+
+## In-Class Activity {timing=300 background-image="https://blog.telegeography.com/hs-fs/hubfs/2017/blog-assets/submarine-cable-map-2013-color.jpg" background-opacity="0.4"}
+
+- [Submarine Cable Map [submarinecablemap.com]](https://www.submarinecablemap.com/)
+- Find the oldest cable out of US
+- Find the oldest cable out of Europe
+- How many cables connect Hawaii? Why?
+- What about Antarctica?
+- How many cables connect North Korea?
+
+
+## How do computers talk? {timing=240}
+
+![https://www.rtautomation.com/rtas-blog/a-refresher-course-on-osi-tcp-ip/](/images/23/layers.jpg)
+
+::: {.notes}
+- What is a protocol?
+- When did you start using the internet? Elementary school? Middle school?
+- Who speaks more than one language?
+- Is you raising your hand a protocol? Handshake?
+- What are these layers?
+- How are they related?
+- What do they do?
+:::
+
+
+# Physical Layer {background-image="/images/23/layers.jpg" background-opacity="0.2"}
+
+-  Actual cables and connections
+
+
+## Wired: Ethernet
+
+:::: {.columns}
+::: {.column width=35%}
+- [Twisted Pair](https://en.wikipedia.org/wiki/Twisted_pair) -> [CAT6](https://en.wikipedia.org/wiki/Category_6_cable)
+- [Coaxial](https://en.wikipedia.org/wiki/Coaxial_cable)
+- [Fiber Optic](https://en.wikipedia.org/wiki/Fiber-optic_cable)
+:::
+::: {.column width=65%}
+![](https://instructor-content.zybooks.com/cables.png-6231983)
+:::
+::::
+
+::: {.notes}
+- What's inside a twisted pair cable? Can you make your own?
+- What's inside a fiber optic cable?
+- What is Ethernet?
+:::
+
+
+## Wireless
+
+:::: {.columns}
+::: {.column width=40%}
+- WiFi
+- Bluetooth
+- Cellular
+- Satellite
+:::
+::: {.column width=60%}
+![](https://instructor-uploaded-content.s3.amazonaws.com/telephone-system-location-Operation-cell-call-area.jpg-4649362)
+
+![](https://instructor-uploaded-content.s3.amazonaws.com/range-icon-8.jpg-5397350)
+:::
+::::
+
+::: {.notes}
+- How does WiFi work? How do machines talk through the air?
+- What does WiFi require? Wireless access point
+- What are the common frequencies? Who else uses them?
+    - 2.4 GHz, 5.8 GHz, unlicensed
+    - also used by bluetooth, microwave ovens
+- Where is Bluetooth used? TV, smartwatches, phones, cars, speakers, headphones, keyboards, mice
+- What is a cell? Why hexagons?
+- What is actually transmitted?
+- How is it transmitted?
+:::
+
+## How to measure network quality? {timing=180}
+
+:::: {.columns}
+::: {.column width=70%}
+- Bit Rate -> Bandwidth
+- Latency
+- Range
+
+### Internet Speed = Bandwidth x Latency
+
+- [FCC: Broadband Consumer Label](https://www.fcc.gov/broadbandlabels)
+
+### Try Now:
+
+- [Speed Test](https://fast.com) -> Show more info
+- `ping google.com`
+- `ping 1.1.1.1`
+
+:::
+::: {.column width=30%}
+![](https://www.fcc.gov/sites/default/files/BroadBand-Label-Blank-xl.jpg){height=800px}
+:::
+::::
+
+::: {.notes}
+- What is bit rate? How many bits can your computer send in a second?
+- What is bandwidth? (maximum bit rate)
+- What is your home internet bandwidth?
+:::
+
+# Internet Layer {background-image="/images/23/layers.jpg" background-opacity="0.2"}
+
+- Addressing
+- Routing
+
+
+## Internet Protocol (IP) Address {timing=240}
+
+- Unique address for each device
+- Parts = Network + specific device
+- IPv4: 32-bit address, e.g. `1.2.3.4`, `127.0.0.1`
+- IPv6: 128-bit address, e.g. `2001:0db8:85a3:0000:0000:8a2e:0370:7334`
+
+### Try Now:
+- `ipconfig`
+    - How many IP addresses does your computer have? Why?
+- [ifconfig.co](https://ifconfig.co/)
+    - What is your public IP address? Is it the same as your computer's IP address?
+    - Can your online activity be traced back to you?
+
+
+## Which of the following is not a valid IP address?
+
+A) `2001:0db8:85a3:0000:0000:8a2e:0370:7334`
+A) `Bldg 601, Cullum Road, West Point, NY 10996`
+A) `67.243.0.1`
+A) `www.westpoint.edu`
+A) `AA:BB:CC:DD:EE:FF`
+
+
+## IP Packet {timing=180}
+
+:::: {.columns}
+::: {.column width=40%}
+- Header = letter envelope
+    - Source IP
+    - Destination IP
+- Data = contents
+
+### Can an IP packet contain as much data as we want? {.fragment}
+
+### How do we transfer large files? {.fragment}
+
+:::
+::: {.column width=60%}
+![](/images/23/ip-packet.svg){width="100%"}
+:::
+::::
+
+
+## Routing {timing=180}
+
+:::: {.columns}
+::: {.column width=70%}
+1. Send packets to the nearest router
+1. Router forwards to the best router based on address
+1. Final router delivers to destination
+
+### Are IP packets always routed using the shortest possible path? {.fragment}
+:::
+::: {.column width=30%}
+![](/images/23/routing1.svg){width="100%"}
+
+![](/images/23/routing2.png){width="100%"}
+
+![](/images/23/routing3.png){width="100%"}
+:::
+::::
+
+
+## In-Class Activity {timing=300}
+
+- `ping 1.1.1.1`
+- `ping 133.3.140.24`
+    - CS Department at University of Kyoto
+- `tracert 133.3.140.24`
+    - Enter output into [Traceroute Mapper](https://stefansundin.github.io/traceroute-mapper/)
+    - [Example](https://stefansundin.github.io/traceroute-mapper/?trace=%20%202%20%20%20%2061%20ms%20%20%20%2050%20ms%20%20%20%2017%20ms%20%20syn-067-243-098-001.res.spectrum.com%20%5B67.243.98.1%5D%0A%20%203%20%20%20%2022%20ms%20%20%20%2061%20ms%20%20%20%2032%20ms%20%20lag-61.nwbrnycx02h.netops.charter.com%20%5B24.164.160.38%5D%0A%20%204%20%20%20%2019%20ms%20%20%20%2016%20ms%20%20%20%2040%20ms%20%20lag-30.sctwny0101r.netops.charter.com%20%5B24.164.165.194%5D%0A%20%205%20%20%20%2025%20ms%20%20%20%2023%20ms%20%20%20%2028%20ms%20%20lag-64.nyquny9101r.netops.charter.com%20%5B24.164.164.254%5D%0A%20%206%20%20%20%2022%20ms%20%20%20%2022%20ms%20%20%20%2019%20ms%20%20lag-15.nycmny837aw-bcr00.netops.charter.com%20%5B66.109.6.76%5D%0A%20%207%20%20%20%2021%20ms%20%20%20%2022%20ms%20%20%20%2022%20ms%20%20lag-0.pr2.nyc20.netops.charter.com%20%5B66.109.5.119%5D%0A%20%208%20%20%20%2029%20ms%20%20%20%2022%20ms%20%20%20%2017%20ms%20%20ae5.cr4-nyc6.ip4.gtt.net%20%5B208.116.212.237%5D%0A%20%209%20%20%20%2036%20ms%20%20%20%2025%20ms%20%20%20%2017%20ms%20%20ae36.cr5-was1.ip4.gtt.net%20%5B89.149.181.50%5D%0A%2010%20%20%20%2037%20ms%20%20%20%2027%20ms%20%20%20%2022%20ms%20%20202.232.1.113%0A%2011%20%20%20%2087%20ms%20%20%20%2089%20ms%20%20%20%2089%20ms%20%20sjc002bb00.IIJ.Net%20%5B58.138.81.229%5D%0A%2012%20%20%20%20%20*%20%20%20%20%20%20%20%20*%20%20%20%20%20%20%20%20*%20%20%20%20%20Request%20timed%20out.%0A%2013%20%20%20266%20ms%20%20%20202%20ms%20%20%20305%20ms%20%20tky009ix50.IIJ.Net%20%5B58.138.114.250%5D%0A%2014%20%20%20193%20ms%20%20%20248%20ms%20%20%20195%20ms%20%20202.232.6.18%0A%2015%20%20%20211%20ms%20%20%20214%20ms%20%20%20203%20ms%20%20150.99.18.34%0A%2016%20%20%20196%20ms%20%20%20197%20ms%20%20%20199%20ms%20%2030-186-kyoto-u.gw.sinet.ad.jp%20%5B150.99.186.30%5D%0A%2017%20%20%20%20%20*%20%20%20%20%20%20%20%20*%20%20%20%20%20%20%20%20*%20%20%20%20%20Request%20timed%20out.%0A%2018%20%20%20195%20ms%20%20%20198%20ms%20%20%20246%20ms%20%20www6.cit.t.kyoto-u.ac.jp%20%5B133.3.140.24%5D)
+
+
+# Transport Layer {background-image="/images/23/layers.jpg" background-opacity="0.2"}
+
+## Protocols {timing=120}
+
+:::: {.columns}
+::: {.column width=50%}
+### Transmission Control Protocol (TCP)
+- Connection-oriented
+- Reliable delivery, data integrity ensured
+- Email, file transfer
+:::
+::: {.column width=50%}
+### User Datagram Protocol (UDP)
+- Connectionless
+- Less reliable, but much faster
+- Voice/video calls, streaming, gaming
+:::
+::::
+
+## Transmission Control Protocol (TCP) Handshake {timing=120}
+
+![](/images/23/tcp-handshake.svg){width="100%"}
+
+
+## Transmission Control Protocol (TCP) Acknowledgement {timing=60}
+
+![](/images/23/tcp-ack.svg){width="100%"}
+
+
+# Next Time: World Wide Web! {timing=0}
+
+- Application Layer!
+- Websites!
+- Browsers!

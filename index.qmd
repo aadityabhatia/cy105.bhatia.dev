@@ -7,14 +7,14 @@ listing:
     type: grid
     sort: filename asc
     grid-columns: 5
+    page-size: 50
     contents:
         - lessons/
 ---
 
 - [CPT Sonny Bhatia](https://bhatia.dev/)
 - Office: Thayer Hall 106
-- Class Hours: A1, C1, A2, B2
-- Additional Instruction in TH460: B1, C2 (email ahead of time to confirm)
+- Class Hours: A1, C1, A2, B2 (Fall 2024)
 
 This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain.
 
@@ -36,7 +36,7 @@ Your success in this course is directly proportional to the number of programmin
 - Come prepared with **specific questions**!
 
 ::: {.callout-note}
-If Outlook booking times do not work, please email me. B1 and C2 hours are generally open. I can also meet outside of these hours if needed. Reach out.
+If Outlook booking times do not work, please email me. B1 and C2 hours (Fall 2024) are generally open. I can also meet outside of listed hours if needed. Reach out.
 :::
 
 ::: {.callout-warning}
@@ -46,11 +46,7 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 ## PDR or DAC counseling
 
 - [Book a meeting](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu) - select the appropriate meeting type
-
-::: {.callout-note}
-This is not Additional Instruction. To setup AI, scroll up.
-:::
-
+    - This is not Additional Instruction. To setup AI, scroll up.
 
 ## Lessons
 

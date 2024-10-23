@@ -1,0 +1,254 @@
+---
+format: revealjs
+title: File Input/Output
+subtitle: Reading to and writing from files using Python
+description: Reading to and writing from files using Python
+date: 2024-09-10
+image: /images/09/09.webp
+title-slide-attributes:
+    data-background-image: /images/09/09.webp
+    data-background-opacity: "0.3"
+---
+
+## Announcements {timing=0}
+
+- [Seating chart generator!](https://gist.github.com/aadityabhatia/86077fea4ccd353bfb017df733a70d19)
+
+- [WPS4](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/40/section/1/) due on 15SEP!
+  - Email me with questions (quickest!)
+  - Start early and [schedule AI](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu/meetingtype/jltYy6M1Zk-gtINzpqM9Zw2) as needed
+- WPR1 is in 1 week!
+  - [Study Guide](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/11/section/1)
+
+![](/images/agenda-block-1.png)
+
+::: {.notes}
+- 24 hour lead time
+- can setup AI individually or in groups
+- TH460 B1 hour!
+- How do you document assistance from your instructor?
+:::
+
+<!-- ## September 11 {timing=480}
+
+- [Remembering 9/11](https://www.youtube.com/embed/CZwYIS9-6uo)
+- [September 11, 2001: Former President George W. Bush addresses the nation](https://www.youtube.com/embed/Gz7S1v1k664)
+- [Military Response to 9/11](https://www.youtube.com/embed/9zEijHEQPhI) -->
+
+
+## Discussion! {timing=300}
+
+- How to take good notes?
+    - [Logseq](https://logseq.com/) or [Obsidian](https://obsidian.md/) - journaling, linking, knowledge management
+    - OneNote
+    - [Zettelkasten](https://zettelkasten.de/) - integrated thinking method!
+        - [Zettelkasten Explained](https://www.youtube.com/embed/GpV47rUYk8I)
+- Why?
+    - [Active learning](https://www.youtube.com/embed/xxVxgQJwV7w)
+    - Memory retention
+    - Future reference
+- [Can ChatGPT be wrong?](https://chatgpt.com/share/a329b032-7e1d-4568-be40-9227de866a8b)
+
+
+## Lesson Objectives
+
+1. Articulate the _need_ for using files
+1. Reading from _files_ vs _standard input_
+1. Writing to _files_ vs _standard output_
+1. **Read and write to files using Python**
+
+
+## Check on Learning {timing=180}
+::: {.incremental}
+- What is a file?
+- Where are files stored?
+- What is a common encoding for text files?
+- What is an example of a type of text file?
+- What can you store in a binary file?
+- What type of files do we use in this class?
+- Where on the reference card can you find file I/O?
+:::
+
+
+## In-Class Exercise 1 {timing=300}
+
+Write an algorithm to calculate the average grade for all students in CY105 (581 Cadets).
+
+> Cadet 1: _90_
+>
+> Cadet 2: _85_
+>
+> Cadet 3: _95_
+>
+> ...
+>
+> Cadet 581: _100_
+>
+> **Average: 92.5**
+
+::: {.notes}
+- How do you get the data?
+- Can you use `input()`?
+- Can you use a list?
+:::
+
+
+## What is a file? {timing=120}
+
+::: {.incremental}
+- Data stored on disk
+  - Does it persist after you close the program?
+  - What happens if you turn off the computer?
+
+- Types of files
+  - **Text**: can be read using a text editor
+  - **Binary**: require a special program
+
+- Newline character - `\n`
+    - `print('Hello\nWorld')`
+:::
+
+
+## Why bother?
+
+::: {.incremental}
+- Store data for later use
+- Share data between programs or computers
+- `input()` is tedious and annoying
+:::
+
+
+## Reading from a File
+
+:::: {.columns}
+::: {.column width=50%}
+1. Open the file
+2. For each line in the file
+    a. Do something
+3. Close the file
+:::
+::: {.column width=50%}
+```python
+fileHandle = open('file.txt', 'r')
+
+for line in fileHandle:
+    print(line)
+
+fileHandle.close()
+```
+:::
+::::
+
+
+## In-Class Exercise 2 {timing=600}
+
+### [9.5.1: ICE 2](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/9/section/5)
+
+:::: {.columns}
+::: {.column width=50%}
+Write a program to compute the average grade of students stored in a file named `AY24-2.txt`.
+Assume numbers are on separate lines.
+Print the average to the screen.
+
+> Average Grade: 79.7
+:::
+::: {.column width=50%}
+```python
+fileHandle = open('file.txt', 'r')
+
+for line in fileHandle:
+    print(line)
+
+fileHandle.close()
+```
+:::
+::::
+
+
+## Writing to a File
+
+:::: {.columns}
+::: {.column width=50%}
+1. Open the file for writing
+2. Write to the file, one line at a time
+3. Close the file
+:::
+::: {.column width=50%}
+```python
+fileHandle = open('file.txt', 'w')
+
+fileHandle.write('Hello, World!\n')
+fileHandle.write('This is my new file.\n')
+fileHandle.write('No line breaks here...')
+fileHandle.write('and this appears on the same line.\n')
+fileHandle.write('Now I can end my file\n')
+
+fileHandle.close()
+```
+:::
+::::
+
+
+## In-Class Exercise 3 {timing=480}
+
+### [9.5.2: ICE 3](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/9/section/5)
+
+:::: {.columns}
+::: {.column width=50%}
+Modify your program to read data from `AY24-2.txt`, compute the average and write it to `averages.txt`.
+
+Note: After you run your program, a new file called `averages.txt` should appear in your files.
+:::
+::: {.column width=50%}
+```python
+fileHandle = open('file.txt', 'w')
+
+fileHandle.write('Hello, World!')
+fileHandle.write('This is a file.')
+
+fileHandle.close()
+```
+:::
+::::
+
+
+## Other Useful File I/O Methods
+
+- `.read()`: read the entire file
+- `.read(n)`: read the next `n` characters
+- `.readline()`: read the next line
+- `.readlines()`: read all lines into a list
+
+
+## Real-World Example: Data Analysis
+
+- The process of systematically applying statistical and logical techniques to describe, summarize, and evaluate data.
+- **Identify trends**: Spotting patterns that can lead to meaningful insights about the data.
+- ***Isolate key statistics***: Extracting specific figures that represent the essence of the datasets.
+- **Make predictions**: Using historical data to forecast future occurrences.
+
+
+## In-Class Exercise {timing=660}
+
+The mathematical constant $\pi$ has an infinite number of digits. Discovering digits of $\pi$ have become somewhat of an enthusiasts' hobby. MIT has a [list of the first billion digits of $\pi$](https://stuff.mit.edu/afs/sipb/contrib/pi/). Download it [from Canvas](https://westpoint.instructure.com/courses/7068/pages/file-i-slash-o) and unzip it.
+
+Question: Do any digits occur more frequently in $\pi$ than others?
+
+
+#### Implement the following algorithm:
+1. Read all the characters in the file as a single sequence. Close the file.
+1. Initialize a 10-element list to all 0s (freq)
+1. For each character in the sequence starting at position 2:
+  1. Convert the character to an integer (i)
+  1. Increment position i in freq by one
+  1. Iterate through freq, displaying the associated frequency.
+
+## Reminders
+
+- Clear whiteboards and desks
+- Lower monitors; leave nothing behind
+- [WPS4](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/40/section/1/) due on 15SEP!
+  - Email me with questions (quickest!)
+  - Start early and [schedule AI](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu/meetingtype/jltYy6M1Zk-gtINzpqM9Zw2) as needed
+  - Practice!
+- WPR1 is in 1 week!

@@ -1,0 +1,266 @@
+---
+format: revealjs
+title: Built-in Functions
+subtitle: Doing more with Python
+description: Doing more with Python
+date: 2024-08-30
+image: /images/06/06.webp
+title-slide-attributes:
+    data-background-image: /images/06/06.webp
+    data-background-opacity: "0.3"
+---
+
+## Discussion! {timing=270}
+
+- ChatGPT!
+
+## Lesson Objectives {timing=30}
+
+- Understand the purpose of built-in functions in the Python language.
+- Articulate the difference between procedures (non-fruitful functions) and fruitful functions.
+- Illustrate how to use the assignment operator to store the result of a built-in function in a variable.
+- Articulate what arguments are, and how to use them in the context of built-in functions.
+- Use built-in functions to write Python code.
+
+## Check on Learning {timing=180}
+
+::: {.incremental}
+- What is a function?
+  - Is it fruitful?
+- What is a procedure?
+  - Is it fruitful?
+- What can a function return?
+- What is a built-in function?
+- What is an argument?
+:::
+
+## Pizza Program {timing=600}
+
+Suppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.
+
+Write a program that accomplishes this task!
+
+1. Ask the user for their name.
+1. Print out hello followed by their name.
+1. Ask how many slices of pizza they want.
+1. Multiply quantity by the cost (2.50).
+1. Print total to the screen.
+
+Use [Notepad++](https://notepad-plus-plus.org/) or [zyBook IDE](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/6/section/5).
+
+## Will this work? {timing=180}
+
+```python
+"""
+program: pizza checkout
+input: name, slices
+output: total amount of money they owe
+"""
+
+def main():
+    name = input("What is your name? ")  # ask the user for their name
+    print("Hello", name)  # greet the user
+    slices = input("How many slices of pizza do you want? ")  # get user input
+    total = slices * 2.50  # multiply quantity by the cost
+    print("The total is", total) # print the total amount
+
+main()  # call the function
+```
+
+## Functions {timing=120}
+
+- organize code into reusable blocks
+- transforms some input (X) to some output (Y)
+
+$$f: X \rightarrow Y$$
+
+- factory that takes multiple inputs and produces one thing
+- procedures are functions that do not return anything
+
+
+## Built-in Functions {timing=240}
+
+```python
+name = input("What is your name? ")
+print("Hello", name)
+type(name)
+
+list('hello')
+
+pi = 3.14159
+round(pi)
+round(pi, 2)
+
+a = [17, 23, 11, 29, 37, 13]
+len(a)
+max(a)
+min(a)
+
+floor(pi)
+ceil(pi)
+
+a = """this string
+has multiple
+lines.
+What now?"""
+```
+
+## Debugging
+
+- [Python Tutor](https://pythontutor.com/python-compiler.html)
+- [Black Code Formatter](https://black.vercel.app/)
+- use `print()` to display variable values
+- use `type()` to check the type of a variable
+
+## Pizza Program 2 {timing=300}
+
+- Modify the pizza program to account for `8.5%` tax.
+- Prepend the total with a `$` sign.
+- Have the dollar amount rounded to two decimal places.
+
+Sample Input/Output:
+
+>
+> What is your name? `Pikachu`
+>
+> Hello Pikachu
+>
+> How many slices of pizza do you want? `3`
+>
+> The total is $8.14
+>
+
+
+## How tall in feet and inches? {timing=300}
+
+Write a program that prompts a user to enter their height in inches. Your program should then display the corresponding height in feet, along with any leftover inches.
+
+#### Sample Input/Output:
+
+:::: {.columns}
+::: {.column width=50%}
+>
+> Enter your height in inches: `70`
+>
+> You are 5 feet and 10 inches.
+>
+:::
+
+::: {.column width=50%}
+```python
+def main():
+    # enter code here
+
+
+main()
+```
+:::
+::::
+
+
+## Circle Program {timing=300}
+
+Prompt the user to input the circle's radius as a float. Compute and display the circumference and area of the circle. Assume $\pi = 3.14$.
+
+Circumference = $2 \pi r$
+
+Area = $\pi r^2$
+
+#### Sample Input/Output:
+
+:::: {.columns}
+::: {.column width=50%}
+>
+> Enter the radius as a float: `4.28`
+>
+> Circumference: 26.8784
+>
+> Area: 57.519776
+>
+:::
+::: {.column width=50%}
+```python
+def main():
+    # enter code here
+
+
+main()
+```
+:::
+::::
+
+## Next Lesson: For Loops {timing=120}
+- Why we need loops?
+- How to write code that repeats statements?
+- How to use the accumulator pattern?
+- How to use the built-in function `range()`?
+
+# Documenting your work {timing=0}
+
+## DAAW {.smaller}
+
+:::: {.columns}
+::: {.column width=60%}
+1. Pick the appropriate statement.
+2. Document assistance.
+3. Initial.
+4. Sign.
+
+>
+> ___ I CERTIFY THAT I DID NOT USE ANY SOURCES OR RECEIVE ANY ASSISTANCE REQUIRING DOCUMENTATION WHILE COMPLETING THIS ASSIGNMENT.
+>
+> ___ I CERTIFY THAT I HAVE COMPLETELY DOCUMENTED ALL SOURCES THAT I USED TO COMPLETE THIS ASSIGNMENT AND THAT I ACKNOWLEDGED ALL ASSISTANCE I RECEIVED IN THE COMPLETION OF THIS ASSIGNMENT.
+>
+
+- [zyBook](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/1/section/2)
+
+:::
+
+::: {.column width=40%}
+[![](/images/01/17-daaw.png)](https://s3.amazonaws.com/usma-media/inline-images/centers_research/west_point_writing_program/PDF/DAAW_2023.pdf)
+:::
+::::
+
+## Tools Available to Us
+
+1. MOSS – Evaluation of multiple files for degree of similarity
+1. zyLabs Similarity Checker – MOSS-like tool built into zyLabs
+1. zyLabs Playback – playback of work progression on individual files
+1. Codequiry – Compares files with each other and online sources
+1. Generative AI Tools – See sample responses to particular prompt before or after issuing assignment. Sample responses can be used in MOSS or zyLabs Similarity Checker against student submissions.
+
+## Documenting in CY105
+
+- Weekly Problem Set assignments are individual assignments.
+- Assistance is encouraged, but collaboration and copying will result in a heavy deduction.
+  - See the DAAW Section II paragraphs C, E, and H for definitions of each.
+- Don’t be afraid to ask for assistance! Be aware of the examples of assistance below – you are encouraged to receive this kind of assistance if you are struggling on an assignment!
+  - Getting a verbal answer from another person or receiving an answer from an artificial intelligence about general questions about coding, tools, or concepts covered in the course.
+  - Having another person or an artificial intelligence source help you identify and understand specific errors in your own solution.
+
+## Documenting in CY105
+
+Examples of Collaboration or Copying (will result in point deduction if not explicitly allowed, must cite):
+
+- Working with one or more people (or artificial intelligence tools) to jointly produce a solution.
+- Working with one or more people (or artificial intelligence tools) to complete separate parts of a graded events, and then joining the parts together to form a common solution.
+- Looking at someone else’s code (or code found online) and then typing the same (or slightly modified solution) into your computer and submitting the work as your own.
+- Providing the prompt for an assignment to an artificial intelligence source and submitting the work as your own.
+
+## Generative AI
+
+- Generative AI represents a remarkable frontier in technology, holding transformative potential for expanding knowledge and enhancing learning.
+- You are forbidden from using generative A.I. to generate solutions to weekly problem sets.
+- You are permitted to utilize generative AI for weekly problem sets in the following specific contexts only:
+- Receiving an answer from an artificial intelligence source about general questions about course concepts or programming construct (e.g., how to take user input of a certain data type in Python, what is the purpose of a for loop, what does cybersecurity mean, etc.)
+- Having an artificial intelligence source help you identify specific errors in your own solution (i.e., identifying potential bugs in your code after you have written the program)
+- Having artificial intelligence explain why your program gives a particular (wrong) output.
+
+
+## Generative AI
+
+- You are NEVER authorized to use generative AI to generate solutions (or partial solutions) to weekly problem set problems!
+
+- If the tool is capable of generating a link to the conversation, include that in your acknowledgements. Otherwise, provide a copy of the full transcript in your acknowledgements section.
+
+- This includes any and all follow-up questions/prompts to the artificial intelligence source and the provided answers.

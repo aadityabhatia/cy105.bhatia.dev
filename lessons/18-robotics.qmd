@@ -1,0 +1,102 @@
+---
+format: revealjs
+title: Robotics Lab
+subtitle: Python just got real!
+description: Python just got real!
+date: 2024-10-04
+image: /images/18/18.webp
+title-slide-attributes:
+    data-background-image: /images/18/18.webp
+    data-background-opacity: "0.3"
+---
+
+## Announcements {data-background-image="/images/18/18.webp" data-background-opacity="0.1"}
+
+- WPR2 is about two weeks away!
+- Digital Footprint Audit assigned; due 27OCT
+    - Request data from at least 3 sources!
+
+![](/images/agenda-block-2.png)
+
+
+## Lesson Objectives {data-background-image="/images/18/18.webp" data-background-opacity="0.1"}
+
+### Knowledge and Understanding = 25 points (quiz)
+
+- Understand what robots are through the sense, think, and act paradigm
+- List characteristics of tasks that are suited to being performed by robots instead of humans (dull, dirty, dangerous)
+- Understand the military applications of robots
+
+### Practical Skills = 75 points (activities)
+
+- Construct a simple robot with a sensor, controller, and actuator
+- Modify software to change hardware functionality
+    - Put your Python skills to use!
+
+
+## Soldering Safety {data-background-image="/images/18/18.webp" data-background-opacity="0.1"}
+
+:::: {.columns}
+::: {.column width=60%}
+- Use protective eyewear.
+- Do not touch the tip of the soldering iron!!
+    - Avoid metal parts.
+    - Do not touch it against anything flammable.
+- Do not inhale fumes.
+- Store soldering iron on stand when not in use.
+- Wash hands after soldering. It contains lead.
+:::
+::: {.column width=40%}
+- [YouTube: How to Solder](https://www.youtube.com/embed/kTURB6QboNY)
+- [A Beginner’s Guide](https://www.makerspaces.com/how-to-solder/)
+:::
+::::
+
+## Robotics Day 1 {data-background-image="/images/18/18.webp" data-background-opacity="0.2"}
+
+1. Grab a box and write your name on it; [begin inventory!](https://usma-eecs.github.io/CY105_Lab/Initial_Steps.html)
+1. Install [Mu Editor](https://codewith.mu/) to interact with Bluefruit
+1. Pull up the [Robotics Lab](https://usma-eecs.github.io/CY105_Lab/) on your second screen
+    - Inventory all components
+    - Warning: Separate screws (12x Gizmo, 2x for stand)! Stand screws have bigger thread and do not fit the Gizmo. Do not jam them in; they will damage the Gizmo. Combine stand screws with nuts early to separate them out.
+1. Assemble the device - connectors flush with board; attach on correct side
+1. Run the temperature sensor code
+1. Continue working outside of class
+    - Document all assistance outside classroom!
+
+## Robotics Day 2 {data-background-image="/images/18/18.webp" data-background-opacity="0.2"}
+
+:::: {.columns}
+::: {.column width=50%}
+### Tasks
+- [x] [Bluefruit Assembly](https://usma-eecs.github.io/CY105_Lab/Initial_Steps.html)
+- [x] Temperature Sensor Activity
+- [ ] Sensor activities!
+- [ ] Build a robot!
+:::
+::: {.column width=50%}
+### Resources
+- [Robotics Lab](https://usma-eecs.github.io/CY105_Lab/)
+- [CircuitPython Editor](https://code.circuitpython.org/)
+- [Bluefruit Tutorial](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit)
+- [CircuitPython Documentation](https://docs.circuitpython.org/en/latest/docs/index.html)
+:::
+::::
+
+### All labs are due at the end of class on day 3!
+- Continue working outside of class
+    - Save your work to separate files
+    - Demo in class on day 3!
+- Document all assistance! Honor acknowledgment statement on Canvas.
+
+## Robotics Day 3 {data-background-image="/images/18/18.webp" data-background-opacity="0.2"}
+
+### Resources
+- [CircuitPython Editor](https://code.circuitpython.org/)
+- [Robotics Lab](https://usma-eecs.github.io/CY105_Lab/)
+- [Bluefruit Tutorial](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit)
+- [CircuitPython Documentation](https://docs.circuitpython.org/en/latest/docs/index.html)
+
+### All labs are due today!
+- Document all assistance!
+- Honor acknowledgment statement on Canvas!!

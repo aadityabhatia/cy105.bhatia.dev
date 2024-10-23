@@ -1,0 +1,273 @@
+---
+format: revealjs
+title: Conditional Statements 1
+subtitle: Boolean expressions and decisions
+description: Boolean expressions and decisions
+date: 2024-09-20
+image: /images/13/13.webp
+title-slide-attributes:
+    data-background-image: /images/13/13.webp
+    data-background-opacity: "0.3"
+---
+
+## Announcements {timing=60}
+
+- WPS 5 due 29SEP
+- Robotics Lab starts on 04OCT
+    - Bluefruit?
+
+![](/images/agenda-block-2.png)
+
+## Discussion! {timing=300}
+
+- [arrr](https://arrr.readthedocs.io/) - Pirate module!
+- [What is Python](https://www.youtube.com/embed/x7X9w_GIm1s)
+- Algorithm: [The Better Boarding Method Airlines Won't Use](https://www.youtube.com/embed/oAHbLRjF0vo)
+
+## Lesson Objectives {timing=30}
+
+- Evaluate expressions with **Boolean** values and **logical operators**
+- Trace through programs that use conditional statements
+- Write programs that include simple **conditional statements**
+
+# Check on Learning {timing=300}
+
+## Which of the following is a Boolean value in Python? {timing=0}
+A) True
+A) "True"
+A) true
+A) "true"
+
+## A Boolean expression... {timing=0}
+A) ...always returns an integer
+A) ...evaluates to either True or False
+A) ...checks if two variables are strings
+A) ...must contain an arithmetic operation
+
+## Which of the following correctly checks if a number is either `5` or `6`? {timing=0}
+A) `number == 5 or 6`
+A) `number == (5 or 6)`
+A) `number == 5 or number == 6`
+A) `number == 5 and number == 6`
+
+## Which operator checks if two values are equal? {timing=0}
+A) `=`
+A) `==`
+A) `=>`
+A) `=<`
+
+## Which of the following is not a logical operator? {timing=0}
+A) `and`
+A) `or`
+A) `not`
+A) `yes`
+
+## Evaluate the expression: `True and False` {timing=0}
+A) True
+A) False
+A) Error
+A) None of the above
+
+## How should you properly structure the condition to check if a variable `x` is greater than `10` and less than `20`? {timing=0}
+A) `x > 10 and < 20`
+A) `x > 10 or x < 20`
+A) `x > 10 and x < 20`
+A) `x == 10 or x == 20`
+
+## What will `not (True or False)` evaluate to? {timing=0}
+A) True
+A) False
+A) Error
+A) None of the above
+
+## What is the result of `5 < 3 or 4 == 4`? {timing=0}
+A) True
+A) False
+A) Error
+A) None of the above
+
+
+# Conditionals {timing=30}
+
+![](/images/13/algorithm-building-blocks.png)
+
+## Algorithm: Pizza Shop {timing=300}
+
+Our pizzeria is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, and soda.  A slice of pizza still costs $2.50, but you can get fries for $1.25 and onion rings for $1.50. A soda costs 99 cents.
+
+- Write the algorithm for a program that firsts asks the user for the number of times they want to order. For each iteration, the program should prompt the user on whether they want pizza, onion rings, or soda, and the associated quantity. At the end, your program should display the total plus the 8.25% NY State sales tax.
+
+- Note: Clearly identify the sequence, selection, and iteration in your algorithm.
+
+
+## Boolean Values
+
+- `True` or `False`
+- `is_it_raining = True`
+- `am_i_hungry = False`
+- `cadet_is_sleepy = True`
+- `type(cadet_is_sleepy)`
+
+[Python Console](https://pyodide.org/en/stable/console.html)
+
+
+## Comparison Operators
+
+- `x < y` - less than
+- `x <= y` - less than or equal to
+- `x > y` - greater than
+- `x >= y` - greater than or equal to
+- `x == y` - equal to
+- `x != y` - not equal to
+
+
+## Practice with Comparison Operators {timing=180}
+
+- `x = 5`; `y = 10`; `z = 8`
+- `x < y`
+- `x <= y`
+- `x > y`
+- `y == 10`
+- `z != 8`
+- `5 <= y <= 10`
+
+[Python Console](https://pyodide.org/en/stable/console.html)
+
+
+## Logical Operators
+
+- `and` - both conditions must be `True`
+- `or` - at least one condition must be `True`
+- `not` - negates the condition
+
+See the [reference card](/images/referenceCard/CY105_ReferenceCard_AY251.pdf) for precedence of operators!
+
+
+## Practice with Logical Operators {timing=180}
+
+:::: {.columns}
+::: {.column width=50%}
+- `x = 42; y = 15; z = True`
+- `x > 40 and z`
+- `x < 40 or z`
+- `not z`
+- `y > 5 and y < 10`
+- `not z or y > 5`
+- `z or not y < 5`
+:::
+
+::: {.column width=50%}
+- `x < 15 and y > 10`
+- `x != y and (2 < x < 20)`
+- `not(y < 0) and not(x > 15)`
+- `not(x != y)`
+- `x == 15 or y < 15`
+- `x == y and z`
+- `x == y or z`
+:::
+::::
+
+[Python Console](https://pyodide.org/en/stable/console.html)
+
+
+## Membership Operator `in` {timing=180}
+
+- Check membership in a sequence
+- For strings, checks if a substring is present
+    - `'a' in 'California'`
+    - `'ork' in 'New York'`
+- For lists, checks if an element is present
+    - `3 in [1, 2, 3]`
+    - `5 in [1, 2, 3]`
+- `not in` to check the opposite
+    - `2 not in [1, 2, 3]`
+    - `'a' not in 'California'`
+
+[Python Console](https://pyodide.org/en/stable/console.html)
+
+
+## `if` Statements
+
+- Execute a block of code sometimes
+
+```python
+if is_it_raining:
+    print("Bring an umbrella!")
+
+if am_i_hungry:
+    print("Eat a granola bar!")
+
+print("Go to class either way.")
+```
+
+
+## `if-else` Statements
+
+- Execute one block of code if a condition is `True`
+- Otherwise, execute another block
+
+```python
+if cadet_is_sleepy:
+    print("Go to bed!")
+else:
+    print("Go to class!")
+```
+
+
+# In-Class Exercises {timing=900}
+
+## In-Class Exercise 1 {timing=0}
+
+Our pizzeria is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings and soda.  A slice of pizza still costs $2.50, but you can get fries for $1.25 and onion rings for $1.50. A soda costs 99 cents.
+
+**Write a program** that firsts asks the user for the number of times they want to order. For each iteration, the program should prompt the user on whether they want pizza, onion rings, or soda, and the associated quantity. At the end, your program should display the total  plus the 8.25% NY State tax.
+
+
+## In-Class Exercise 2 {timing=0}
+
+Write a program that prompts a user to input a number, `n`. Your program should then generate a list of `n` random numbers between `1` and `50` (inclusive), and display the list. Lastly, scan through the list and display the number of times a you observe a value that is `25` or less.
+
+Sample input/output:
+
+> Enter a number: 4
+>
+> [25, 12, 50, 25]
+>
+> There are 3 values that are 25 or less.
+
+> Enter a number: 6
+>
+> [25, 12, 50, 25, 30, 40]
+>
+> There are 4 values that are 25 or less.
+
+
+## In-Class Exercise 3 {timing=0}
+
+A substring is a string that occurs directly in another string. However, a __subsequence__ is a string that appears in another string, though the characters _need not be contiguous_.
+
+For example, `fragile` is not a substring of `supercalifragilisticespialidocious` but is a subsequence.
+
+Write a program that prompts the user for two strings. The program should then output if the first string is or is not a subsequence of the second.
+
+Sample input/output:
+
+> Enter the first string: fragile
+>
+> Enter another string: supercalifragilisticespialidocious
+>
+> fragile is a subsequence of supercalifragilisticespialidocious.
+
+> Enter the first string: delicious
+>
+> Enter another string: supercalifragilisticespialidocious
+>
+> delicious is not a subsequence of supercalifragilisticespialidocious.
+
+
+## Reminders
+
+- Clear whiteboards and desks
+- Lower monitors; leave nothing behind
+- Practice more!
+- **If still missing Bluefruit, email me!**

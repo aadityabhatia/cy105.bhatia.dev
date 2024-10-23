@@ -1,0 +1,284 @@
+---
+format: revealjs
+title: Modules
+subtitle: Using Python modules to do more!
+description: Using Python modules to do more!
+date: 2024-09-12
+image: /images/10/10.webp
+title-slide-attributes:
+    data-background-image: /images/10/10.webp
+    data-background-opacity: "0.3"
+---
+
+## Announcements {timing=60}
+
+- [WPS4](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/40/section/1/) due on 15SEP!
+  - Email me with questions (quickest!)
+  - Start early and [schedule AI](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu/meetingtype/jltYy6M1Zk-gtINzpqM9Zw2) as needed
+- WPR1 is next week!
+  - [Study Guide](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/11/section/1)
+- Looking for tutors (BDE and one-on-one)!
+
+![](/images/agenda-block-1.png)
+
+
+## Discussion! {timing=300}
+
+
+
+## Lesson Objectives
+
+1.	Describe a Python module and identify how to access it.
+1.	Describe the primary intent of the following Python modules and how to use the functions/variables that each module provides.
+    - `math`
+    - `random`
+    - `statistics`
+1. Demonstrate ability to use Python modules.
+
+
+## antigravity
+
+![xkcd.com/353](https://imgs.xkcd.com/comics/python.png)
+
+::: {.notes}
+- modules give you superpowers!
+- Have you seen this before?
+:::
+
+
+# Check on Learning {timing=300}
+
+
+## What is a Python module? {timing=0}
+
+A) A piece of hardware that Python uses
+A) A collection of functions and variables you can import into your program
+A) A type of error message in Python
+A) A fancy name for a Python loop
+
+## Which command do you use to include a module in your Python program? {timing=0}
+A) `use`
+A) `import`
+A) `include`
+A) `fetch`
+
+## If you want to calculate the square root of a number, which module and function should you use? {timing=0}
+A) `math.pow()`
+A) `statistics.sqrt()`
+A) `math.sqrt()`
+A) `random.sqrt()`
+
+## The `random` module can be used to... {timing=0}
+A) Generate random numbers
+A) Perform matrix calculations
+A) Sort a list of numbers
+A) Calculate the average of numbers
+
+## Once you import a module, you can access all of its functions using the dot operator (e.g., `module.function()`). {timing=0}
+
+True or False?
+
+## Which Python module would you use to generate a random number between 1 and 10? {timing=0}
+A) `math`
+A) `random`
+A) `statistics`
+A) `numbers`
+
+## What does the function `random.randint(1, 6)` do? {timing=0}
+A) Returns a random integer between 1 and 6, inclusive
+A) Returns a random float between 1 and 6
+A) Rolls a six-sided die and outputs the result
+A) Generates a random number between 1 and 5
+
+## Which of the following functions is NOT part of the `math` module? {timing=0}
+A) `math.pi`
+A) `math.sin()`
+A) `math.factorial()`
+A) `math.shuffle()`
+
+## The `statistics.mean()` function is used to: {timing=0}
+A) Find the maximum value in a list
+A) Compute the average of a list of numbers
+A) Generate a random number
+A) Calculate the standard deviation of numbers
+
+## You must import the `statistics` module before using any of its functions, like `mean()` or `median()`. {timing=0}
+
+True or False?
+
+## Which of the following modules do we plan to use? {timing=0}
+A) `math`
+A) `os`
+A) `random`
+A) `statistics`
+A) `sys`
+A) `time`
+
+# Modules {timing=0}
+
+## Reference Card pg3 {timing=0}
+
+![](/images/referenceCard/CY105_ReferenceCard_AY251_3.png)
+
+
+## Thought Experiment {timing=60}
+
+We previously created a Python program that computed the average grade on the CY105 WPR from last semester. It would be useful to find out some other useful facts about the scores:
+
+- What was the lowest score? What about the highest?
+- What about the median score (the one in the middle?)
+- What about the mode (the one that occurs most frequently?)
+- How about the standard deviation?
+
+::: {.notes}
+- What built-in functions can we use?
+- What else would be helpful to have?
+:::
+
+## What is a module?
+
+- Well-tested code that you can use in your own programs
+- Contains functions and variables designed for a common purpose
+- Allows you to do much more!
+- To use a module: `import math`
+
+## Using a module
+
+1. Import the module
+2. Use the dot operator $\dot$ to access functions and variables
+
+```python
+import math
+
+# contains the value of $\pi$
+math.pi
+
+# compute square root
+math.sqrt(16)
+```
+
+## The `statistics` module
+
+- `statistics.mean()` - average
+- `statistics.median()` - middle value
+- `statistics.mode()` - most common value
+- `statistics.stdev()` - standard deviation
+
+```python
+import statistics
+
+nums = [10, 10, 20, 15, 50, 25, 30, 40]
+
+statistics.mean(nums)
+statistics.median(nums)
+statistics.mode(nums)
+statistics.stdev(nums)
+```
+
+
+## In-Class Exercise 1 {timing=600}
+
+[10.5.1: ICE 1](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/10/section/5)
+
+Update your previously designed program to compute the average grade of students stored in AY24-2.txt. This time, calculate:
+
+- Lowest grade
+- Average grade (round to 2 decimal places)
+- Median
+- Mode
+- Highest grade
+- Standard deviation (round to 2 decimal places)
+
+Write the results to a new file named `WPR-stats.txt`.
+
+
+## The `math` module
+
+- `math.sqrt()` - square root
+- `math.ceil()` - ceiling
+- `math.floor()` - floor
+- `math.sin()`, `math.cos()`, `math.tan()` - trigonometric functions
+- `math.pi`
+- `math.e`
+
+
+## In-Class Exercise 2 {timing=600}
+
+- [10.5.2: ICE 2: Pythagorean Theorem](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/10/section/5)
+
+- Write a program that asks the user for the length of two sides of a right triangle and then calculates the length of the hypotenuse.
+
+$$c = \sqrt{a^2 + b^2}$$
+
+> Enter side a: _5_
+>
+> Enter side b: _12_
+>
+> Side c: 13.0
+
+
+## Random Numbers {timing=120}
+
+::: {.incremental}
+- Why?
+    - Play a game
+    - Shuffle a deck of cards
+    - Generate a random password
+    - Allow a new enemy spaceship to appear and shoot at you unpredictably
+    - Simulate rainfall in a model to predict flooding
+    - Encryption!
+
+- How random are these numbers really?
+    - Not so much. You can generate a pattern starting with a `seed` value.
+:::
+
+
+## The `random` module
+
+- `random.randint(a, b)` - random integer between `a` and `b`, inclusive!
+- `random.random()` - random float between 0 and 1
+- `random.choice()` - random item from a list
+- `random.randrange(start, stop, step)` - random integer from `range(start, stop, step)`
+
+```python
+import random
+
+random.randint(1, 6)
+random.random()
+random.choice(['rock', 'paper', 'scissors'])
+random.randrange(0, 101, 7)
+```
+
+
+## In-Class Exercise 3 {timing=540}
+
+- [zyBooks 10.5.3: ICE 3: Dice Rolls](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/10/section/5)
+
+- Write a program that asks the user to enter the desired number of rolls (`n`).
+- Simulate `n` dice rolls, keeping track of the times each number is rolled.
+- Print out the frequency with which each number was rolled.
+
+> Enter the number of rolls: _10_
+>
+> 1: 4
+>
+> 2: 2
+>
+> 3: 1
+>
+> 4: 1
+>
+> 5: 2
+>
+> 6: 0
+
+## Reminders
+
+- Clear whiteboards and desks
+- Lower monitors; leave nothing behind
+- [WPS4](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/40/section/1/) due on 15SEP!
+  - Email me with questions (quickest!)
+  - Start early and [schedule AI](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu/meetingtype/jltYy6M1Zk-gtINzpqM9Zw2) as needed
+- WPR1 is next week!
+  - [Study Guide](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/11/section/1)
+- Looking for tutors (BDE and one-on-one)!

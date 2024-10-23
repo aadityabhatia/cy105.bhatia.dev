@@ -1,0 +1,341 @@
+---
+format: revealjs
+title: Computers and Data
+subtitle: How machines process information
+description: How machines process information
+date: 2024-08-22
+image: /images/03/data-information-legos.webp
+title-slide-attributes:
+    data-background-image: /images/03/data-information-legos.webp
+    data-background-opacity: "0.3"
+---
+
+## Discussion! {timing=360}
+
+- [Inside the "3 Billion People" National Public Data Breach](https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/)
+- [haveibeenpwned.com](https://haveibeenpwned.com/)
+
+## Lesson Objectives {timing=60}
+
+- Define data, how it differs from information, and its forms: analog and digital.
+- Define what a computer is, define common types of computers, and distinguish their uses from each other. 
+- Describe how digital data is quantified and represented on computers.
+- Describe how computers process and store data.
+- Learn how to read an ASCII table.
+
+# Data vs Information {timing=0}
+
+## Information {timing=60}
+
+:::: {.columns}
+::: {.column width=30%}
+- Data = facts
+    - measurements
+    - statistics
+    - values
+- Information
+    - data processed, organized, or structured in a meaningful way
+:::
+::: {.column width=70%}
+![](/images/03/data-information-legos.webp)
+:::
+::::
+
+## Analog vs Digital Data {.smaller timing=60}
+
+:::: {.columns}
+::: {.column width=30%}
+- Analog
+    - Continuous data
+    - Smooth, unbroken line
+    - Speed, temperature
+    - More accurate
+    - Harder to store, manipulate, and transmit
+- Digital
+    - Discrete data
+    - Staircase
+    - e.g. ACFT score table
+    - Easier to store, manipulate, and transmit
+:::
+
+::: {.column width=70%}
+![](/images/03/analog-digital.webp)
+:::
+::::
+
+## Analog to Digital {timing=0}
+
+- [Video: Analog vs Digital](https://www.youtube.com/embed/oSZNQ1LZjHg)
+
+![](/images/03/analog-to-digital.png)
+
+# Computers {timing=120}
+
+- So, what are computers?
+
+::: {.incremental}
+- Electronic devices that accept data
+- Perform mathematical and logical operations
+- Output results
+- General-purpose, reprogrammable
+:::
+
+## Computers are Everywhere {timing=60}
+
+![](/images/03/everywhere.png)
+
+Embedded computers: inside of other electronic devices, usually not visible from the outside
+
+## Microcontrollers {timing=60}
+
+:::: {.columns}
+::: {.column width=50%}
+- Smallest processor
+- Run exactly one program
+- Can run on battery power
+- Bluefruit!
+:::
+
+::: {.column width=50%}
+![](/images/01/12-bluefruit.png)
+:::
+::::
+
+## Mobile Computers {timing=60}
+
+- What are they?
+
+::: {.incremental}
+- Laptops, tablets, smartphones
+- Can run multiple programs at once
+- Designed for portability - battery power
+:::
+
+## Desktops and Servers {timing=60}
+
+:::: {.columns}
+::: {.column width=50%}
+- What about these?
+
+::: {.incremental}
+- Most powerful computers
+- Can run multiple programs at once
+- Designed for performance
+- Typically plugged into a power source
+:::
+
+:::
+::: {.column width=50%}
+![](https://media.bizj.us/view/img/11590645/gettyimages-885294108*1200xx3530-1991-1135-1035.jpg)
+:::
+::::
+
+## Check on Learning {timing=120}
+
+::: {.incremental}
+- What is information?
+- What is a microcontroller?
+- Is microcontroller a general-purpose computer?
+- Is calculator a general-purpose computer?
+- Is a smartphone a general-purpose computer?
+:::
+
+# Components {timing=0}
+
+## Types of Devices {timing=120}
+
+:::: {.columns}
+
+::: {.column width=33%}
+### Input
+::: {.incremental}
+- Keyboard
+- Mouse
+- Touchscreen
+- Microphone
+- Camera
+:::
+:::
+::: {.column width=33%}
+### Output
+::: {.incremental}
+- Monitor
+- Printer
+- Speaker
+:::
+:::
+::: {.column width=33%}
+### Peripheral
+- Connect through expansion slots
+- Greatly expand computer capabilities
+
+::: {.incremental}
+- Graphics card (GPU)
+- Network card
+:::
+:::
+::::
+
+## Central Processing Unit (CPU) {timing=60}
+
+:::: {.columns}
+::: {.column width=50%}
+
+- Cache: small, fast memory
+
+1. Reads instructions from memory
+1. Performs logical and mathematical operations
+1. Writes results back to memory
+
+:::
+
+::: {.column width=50%}
+![](/images/03/cpu.webp)
+:::
+::::
+
+## Storage {timing=120}
+
+:::: {.columns}
+::: {.column width=20%}
+1. Cache
+1. RAM
+1. Hard Drive
+:::
+::: {.column width=80%}
+![](/images/03/storage.png)
+:::
+::::
+
+## The Bus {timing=60}
+
+![](/images/03/bus.png)
+
+::: {.fragment}
+- electronic conduit, connects all components together inside the computer
+:::
+
+## Scenario {timing=300}
+
+### Power Outage
+- You are working on a paper in the middle of the night. Suddenly, a powerful thunderstorm appears in the area and you lose power.
+- Suppose you are working on a desktop computer. What happens to your paper? What data is lost?
+- How does the above answer change if you were working on a laptop?
+What are some advantages/disadvantages of autosave?
+
+### Data Security
+- Your friend is thinking about making some extra cash by selling their computer. What advice would you give them so their personal data does not get stolen?
+- What concrete steps that you would recommend they take?
+- Any components worth removing or keeping? How does your answer change if it is a phone, laptop or desktop?
+
+# Data Representation {timing=0}
+
+## Binary {timing=120}
+
+- Light switch = on or off
+- Only two values: 0 and 1
+- Bit = binary digit
+- Byte = 8 bits
+- [How exactly does binary code work?](https://www.youtube.com/embed/wgbV6DLVezo)
+- [Representing Numbers and Letters with Binary](https://www.youtube.com/embed/1GSjbWt0c9M)
+
+::: {.notes}
+- Bit = light switch, off or on
+:::
+
+## Hexadecimal {timing=120}
+
+- Base 16 => 0-9, A-F
+- 4 bits = 1 hex digit
+- Easier for humans to read
+
+::: {.notes}
+- 16 objects, unique labels
+- board example
+:::
+
+## Conversion: Decimal - Binary - Hexadecimal
+
+![](/images/03/bin-hex-dec.png)
+
+## Quantifying Data Sizes
+
+![](/images/03/data-sizes.png)
+
+## ASCII
+
+- American Standard Code for Information Interchange
+- 7-bit encoding scheme
+- 95 printable characters, 33 control characters
+- Invented in 1963; last updated in 1986
+
+## What's the Message? {.smaller timing=300}
+
+:::: {.columns}
+::: {.column width=80%}
+![](https://upload.wikimedia.org/wikipedia/commons/1/1b/ASCII-Table-wide.svg){width=100%}
+:::
+
+::: {.column width=20%}
+1. 69 110 105 103 109 97 32 77 97 99 104 105 110 101
+1. 66 108 101 116 99 104 108 101 121 32 80 97 114 107
+1. 65 108 97 110 32 84 117 114 105 110 103
+1. 71 111 32 65 114 109 121 32 66 101 97 116 32 78 97 122 105
+1. 67 111 100 101 98 114 101 97 107 101 114 115
+1. 84 117 114 105 110 103 32 84 101 115 116
+:::
+::::
+
+::: {.notes}
+- Enigma Machine
+- Bletchley Park
+- Alan Turing
+- Go Army Beat Nazi
+- Codebreakers
+- Turing Test
+:::
+
+## File Extensions {timing=120}
+
+- Indicate what type of data is in a file
+- Help computer deduce how to process and interpret
+- Not foolproof, but helpful
+- File headers provide more information
+- Examples: `.docx`, `.xlsx`, `.pptx`, `.jpg`, `.mp4`, `.py`
+
+## Other Encoding Schemes {timing=180}
+
+![](/images/03/raw-file.png)
+
+## Image Encoding {timing=0}
+
+- [Video: Images, Pixels and RGB](https://www.youtube.com/embed/15aqFQQVBWU)
+- [Digital Compression](https://www.youtube.com/embed/By30SCp-Tsw)
+
+# Conclusion {timing=0}
+
+## Check on Learning {.smaller timing=300}
+::: {.incremental}
+- Compare and contrast information vs data.
+- Compare and contrast analog and digital data
+- Why is digital data used in computers?
+- Define binary, bit, byte.
+- How is digital data quantified and represented on computers?
+- What is Kilo? Mega? Giga? Tera?
+- What is a computer?
+- What are the different types of computers?
+- What is an embedded computer? Give an example.
+- Where is data stored on a computer?
+- How do computers process data?
+- What is the difference between RAM and a hard drive?
+- List and describe popular encoding schemes including RGB, ASCII, and Unicode
+- How do file extensions give applications clues on how to process and interpret data?
+:::
+
+## Reminders
+
+- WPS1 due 25AUG
+- Extra credit assignments published!
+- Address Cengage issues now!
+- Next week: Algorithms and Problem Solving
+    - zyBook readings!

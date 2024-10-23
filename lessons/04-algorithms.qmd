@@ -1,0 +1,433 @@
+---
+format: revealjs
+title: Algorithms
+subtitle: Solving problems with computers
+description: Solving problems with computers
+date: 2024-08-26
+image: /images/04/04.webp
+title-slide-attributes:
+    data-background-image: /images/04/04.webp
+    data-background-opacity: "0.3"
+---
+
+## Discussion! {timing=300}
+
+- [PB&J Sandwich](https://www.youtube.com/watch?v=FN2RM-CHkuI)
+- What is happening in the video?
+- What does this tell us about how a computer solves problems vs a human?
+
+## CY105 Python Reference Card {timing=120}
+
+:::: {.columns}
+::: {.column width=70%}
+![](/images/referenceCard/CY105_ReferenceCard_AY251_1.png)
+:::
+
+::: {.column width=30%}
+- Resource for exams!
+- Bring to class daily.
+- Do **not** lose it.
+- Do **not** write on it.
+    - No scribbles, no notes!
+    - Exception: your name
+:::
+::::
+
+## Lesson Objectives {timing=30}
+
+- Articulate the four steps of computational problem solving
+- Articulate some strategies for understanding a problem and problem decomposition
+- Define what an algorithm is and its building blocks
+    - Sequencing
+    - Conditionals
+    - Loops
+- Explain the difference between an algorithm, pseudocode and a program
+- Practice writing algorithms the CY105 way
+
+## Announcements {timing=30}
+
+- DAAW for WPS1 due yesterday!
+- WPS2 due 02SEP
+    - 5 attempts; highest score counts
+- Extra credit assignments published!
+
+# Computational Problem Solving
+
+![](/images/04/computational-problem-solving.png)
+
+::: {.notes}
+- Process to formulate and solve problems
+:::
+
+## Best Practices for Problem Solving
+
+::: {.incremental}
+- Gather key facts
+- Identify main tasks
+- Inputs - what is given?
+- Outputs - what should you produce?
+- What can you assume?
+- Can you think of related mathematical equations?
+:::
+
+## When in doubt, draw it out!
+
+![](/images/04/how-much-data-lost.svg)
+
+## Problem Decomposition
+- Top-Down Design
+- Break the problem into smaller parts
+- Solve each part separately
+- Combine the solutions
+
+## Army Problem Solving Process
+
+![](/images/04/army-problem-solving.png)
+
+- Ref: [FM 5-0 The Operations Process](https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN36775-FM_5-0-001-WEB-3.pdf)
+
+# Algorithm {timing=0}
+
+## What is an Algorithm?
+
+::: {.incremental}
+- Step-by-step process
+- Written in a human language
+- Describes how to solve a problem
+- Always gives the correct answer
+:::
+
+## Is this a good algorithm?
+
+![](/images/04/shampoo.png)
+
+::: {.notes}
+- What is the problem? What is unclear about this algorithm?
+- How much shampoo to add?
+- How long do you lather for?
+- When does the cycle stop!
+- Is repeating really applicable for washing your hair?
+- Do you shampoo multiple times in one shower?
+:::
+
+## Another Algorithm {.smaller}
+
+> Step 1: Preheat the oven to 325°F. Grease a 9x5-inch loaf pan.
+
+> Step 2: Whisk together flour and baking powder in a bowl. Cream together sugar and cream cheese with an electric mixer until fluffy. Stir in yogurt. Add eggs one at a time, beating well after each addition. Add vanilla bean paste. Slowly add flour mixture, beating on low speed and taking care not to overmix batter.
+
+> Step 3: Warm chocolate-hazelnut spread in the microwave at 360 W until warm but not bubbling, about 1 minute. Stir and check consistency. Microwave for an additional 30 seconds if necessary.
+
+> Step 4: Pour 1/2 of the cake batter into the prepared loaf pan. Pour in 2/3 of chocolate-hazelnut spread in a swirl over the batter. Pour in remaining batter and swirl remaining spread over the top. Use a bamboo skewer to create more swirls by running the skewer through the batter in a circular motion. Take care not to stir the mixture, but simply create a marbled design.
+
+> Step 5: Bake in the preheated oven until a toothpick inserted into the center comes out clean, about 50 minutes. Allow to cool before removing from the pan.
+
+::: {.notes}
+- is it good?
+- Precise?
+    - room temperature? (3 eggs)
+    - Beating well? (Step 2)
+    - Taking care not to overmix batter? (Step 2)
+- Unambiguous
+    - about 1 minute? (Step 3)
+- Eventually stops
+    - Until...
+:::
+
+## Building Blocks of Algorithms
+
+- Sequencing
+- Conditionals
+- Loops
+
+::: {.notes}
+The most simple algorithm may only contain sequence of steps, however, selection and iteration are important features to ensure all scenarios are accounted for and correct results are achieved.
+
+Let us look at some examples!
+:::
+
+## Sequencing
+
+::: {.incremental}
+- Wake up
+- Brush teeth
+- Shower
+- Wear clothes
+- Eat breakfast
+- Put on socks
+- Put on shoes
+- Go to class
+:::
+
+## Conditionals
+
+::: {.incremental}
+- Wake up
+- Brush teeth
+- Shower
+- Wear clothes
+- If raining, wear raincoat
+    - Else, wear light jacket
+- If I have time, eat breakfast
+    - Else, grab a granola bar
+- Put on socks
+- Put on shoes
+- Go to class
+:::
+
+## Loops
+
+::: {.incremental}
+- Wake up
+- Brush teeth
+- Shower
+    - Grab shampoo
+    - Lather
+    - Rinse
+    - Repeat until clean
+- ...
+:::
+
+# Pseudocode
+
+- Notation more precise than English
+- Not as precise as a programming language
+- Uses sequencing, conditionals, and loops
+- Does not actually run on a computer
+
+## Example: Data Lost Algorithm
+
+```pseudocode
+Inputs: Size of HD (in GB)
+Output: Displays actual size of HD in GiB, and the theoretical amount of data lost in GiB
+Assumptions: User inputs an integer
+
+1. Ask the user to input the size of the hard drive in GB (in_size).
+
+2. If in_size is less than or equal to 0, output 0 and quit. Otherwise, continue to step 3.
+
+3. Compute actual size of the hard drive (in bytes): actual = in_size x 109.
+
+4. Compute theoretical size of the hard drive (in bytes): theoretical = in_size x 230.
+
+5. Compute the data lost (in bytes): loss = theoretical - actual.
+
+6. Compute and output the actual size of the hard drive in GiB, rounded to two decimal places:  actual / 230.
+
+7. Compute and output the data lost in GiB, rounded to two decimal places: loss / 230.
+```
+
+# Program
+
+- Expressed in a programming language
+- Implementation of an algorithm
+- Can be run on a computer
+
+## Example: Data Lost Program
+
+```python
+#Ask the user to input the size of the hard drive in GB (in_size).
+in_size = int(input("Please enter drive size in GB: "))
+
+#if in_size is less than or equal to 0, output 0 and quit. Otherwise, continue to step 3.
+if in_size <= 0:
+    print("Invalid input.")
+
+else:
+    #Compute actual size of the hard drive (in bytes): actual = in_size x 10^9.
+    actual = in_size * 10**9
+
+    #Compute theoretical size of the hard drive (in bytes): theoretical = in_size x 230.
+    theoretical = in_size * 2**30
+
+    #Compute the data lost (in bytes): loss = theoretical - actual.
+    loss = theoretical - actual
+
+    #Compute and output the actual size of the hard drive in GiB, rounded to two decimal places
+    actual_GiB = actual / 2**30
+    print("The hard drive is actually:", round(actual_GiB, 2), "GiB")
+
+    #Compute and output the data lost in GiB, rounded to two decimal places: loss / 230.
+    loss_GiB = loss / 2**30
+    print("This represents a loss of", round(loss_GiB, 2), "GiB")
+```
+
+## Writing Algorithms the CY105 Way​
+
+- Must be written in English and not contain computer code!
+- Be easy to read and understand!
+- Be ordered in sequence!
+- Contain enough detail to solve the problem!
+
+## Example
+
+![](/images/04/pseudocode-examples.svg)
+
+# In-Class Exercise {timing=960}
+
+## Base Frequency
+
+Genomic data primarily consists of four bases: adenosine (A), guanine (G), cytosine (C), and thymine (T). It is the basic unit of data in the human body. Write an algorithm that computes the percentage of As, Gs, Cs, and Ts in a given DNA sequence and displays it to the screen.
+
+For example, the sequence AGCCGTCGTCTATAT is 15 characters long. There are 3 As, 3 Gs, 4 Cs, and 5 Ts in this sequence.  Therefore, the percentage of As is 20%, the percentage of Gs is 20%, the percentage of Cs is 26.7%,  and the percentage of Ts s 33.3%. While you may assume that the only letters in the string are A,G,C, or T, you may not make any assumptions the length of the DNA sequence.
+
+::: {.notes}
+- Problem: Base Frequency
+- Input: DNA sequence (sequence of As,Gs, Cs, and Ts)
+- Output: Frequence of each base
+
+1. Initialize individual counters for A, G, C and T to 0.
+2. For each base in the sequence:
+    - If the base is A, update the A counter by 1
+    - If the base is G, update the G counter by 1
+    - If the base is C, update the C counter by 1
+    - If the base is T, update the T counter by 1
+7. Compute the length of the sequence.
+8. Compute the percentage occurrence of each base, which is its frequency / length.
+9. Output the respective percentages of each base, rounded to one decimal place.
+:::
+
+## Error Detection
+
+Electrical fluctuations in computers can sometimes cause bits to flip in data. As a result, many binary strings usually use a parity bit to help check if a bitstring has errors in it.  For example, all ASCII characters can be represented using just 7 bits.  Instead, the character data is stored using a total of 8 bits, where the last bit (the right-most), called the parity bit, is set to 0 if the number of 1s in the other 7 bits is even. Otherwise, the parity bit is set to 1.
+
+Write an algorithm that takes an 8-bit string and determines if it is corrupted.
+
+::: {.notes}
+- Problem: Error Detection
+- Input: Bit string (8-bits long)
+- Output: True if the bit string is corrupted, False otherwise
+
+1. Initialize a counter to 0
+2. For each bit in the bitstring:
+    - If the bit is a 1, increment the counter.
+4. If the number of 1s is even, output False. Otherwise, output True.
+:::
+
+## High Low
+
+The radio station, 100.7 WHUD has a game called the High Low Cash Game, where people have to call in to guess the amount of money in a cash vault. The radio hosts never say the dollar amount on the air but will tell a caller if their guess is “too high” or “too low”.  To win the jackpot, the caller has to guess the dollar amount down to the last cent. Assuming the jackpot is never more than $10,000.00, devise an algorithm that will guarantee a win in the fewest amount of calls (assume that all the callers agree to follow the same algorithm). Following your algorithm, what is the maximum number of calls needed to assure a win?
+
+::: {.notes}
+- Problem: High Low (Hard)
+- Input: Nothing (some secret number is set)
+- Output: number of guesses?
+- Assumptions: Secret number is between 0 and $10,000. Must get answer correct to last center to win.
+
+1. Set top tracker to 1,000,000 ($10,000 in cents)
+2. Set bottom tracker to $0
+3. Set guess counter to 1
+4. Repeat until the secret number is guessed:
+     - Set the guess to (top tracker – bottom tracker) / 2
+     - Convert guess to dollars and check to see if dollar amount is equal to secret number. If so, output number of guesses it took and quit.
+     - Otherwise, program outputs “too high” or “too low”. Increment guess counter by 1.
+     - If guess was too high: set top tracker to the current guess value. Go back to step 3.
+     - If the guess is too low: set the bottom tracker to the current guess value. Go back to step 3.
+
+Since the algorithm above cuts the search space in half each time, we are guaranteed to find the answer in about 20 guesses.
+:::
+
+## Perfect Number
+
+A number is considered perfect if the sum of its divisors (excluding the number itself) is equal to the number. Here are some examples of perfect numbers:
+
+- `6 = 1 + 2 + 3`
+- `28 = 1 + 2 + 4 + 7 + 14`
+- `496 = 1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248`
+
+Write an algorithm for a program that can if a particular integer is perfect. You may assume that the inputted number is always a positive integer.
+
+::: {.notes}
+- Problem: Perfect Number
+- Input: An integer, n
+- Output: True if the number is perfect, False otherwise
+- Assumptions: A perfect number is a number whose sum of its divisors (excluding itself) is equal to it.
+
+1. If the inputted number is less than or equal to 5, return False. (there are no perfect numbers under 5)
+2. Initialize a counter to 0
+3. For each number from 1 up to (but not including) n:
+    - Determine if number evenly divides n.
+    - If so, add the number to the counter.
+6. Check to see if the value in the counter is equal to n. If so, output True. Otherwise, output False.
+:::
+
+
+## Magic Number
+
+There is a two-digit number that when squared, the resulting three-digit number has the same rightmost two digits as the original two-digit number. In other words, for a number of the form AB, `AB * AB = CAB` for some C.
+
+Write an algorithm for a program that will discover what this special number is through brute-force (in other words, iterating through all possibilities).
+
+::: {.notes}
+- Problem: Magic Number
+- Input: None
+- Output: The first two-digit number of the form AB, such that AB * AB = CAB for some C.
+- Assumptions: The number is a two-digit integer [10..99]. Search is done “brute force”
+
+1. Initialize checker to 10.
+2. Repeat until magic number is determined (or we exceed 99):
+    - Compute the square of checker (checker * checker).
+    - If checker squared does not contain three digits, skip and go to step 2.
+    - If checker squared does contain three digits, determine if last two digits is equal to checker. If so, stop and output checker as the magic number.
+    - Otherwise, increment checker by 1, and go back to step 2.
+:::
+
+## Fibonacci Sum
+
+The Fibonacci sequence is a famous one in mathematics, where Fibonacci number is derived from the sum of the previous two Fibonacci numbers. The first few Fibonacci numbers are:
+
+> 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, ...
+
+Write an algorithm for a program that, given a number n, will compute the sum of the first n Fibonacci numbers. For example, inputting 3 should yield 2, while inputting 10 should yield 88.
+
+::: {.notes}
+- Problem: Fibonacci Sum (Hard)
+- Input: Number of Fibonacci terms (n)
+- Output: Sum of the first n Fibonacci terms
+
+1. If n is less than or equal to 1, output 0.
+2. Set current to be 1
+3. Set n_minus_one tracker to be 0
+4. Set n_minus_two tracker to be 0
+5. Set counter to 1
+6. Set sum to 1
+7. Repeat until counter is equal to n:
+    - Update sum by adding current to sum
+    - Set n_minus_two to be the value of the n-minus-one tracker
+    - Set n_minus_one to be the value of the current tracker
+    - Set current equal to  n_minus_one  + n_minus_two
+    - Increment counter by 1
+13. Output the sum
+:::
+
+# Conclusion {timing=0}
+
+## Check on Learning {.smaller timing=120}
+::: {.incremental}
+- Four steps of computational problem solving
+    - Understand the Problem
+    - Design an Algorithm
+    - Implement a Solution
+    - Test the Code
+- How do you decompose a problem?
+- What are the building blocks of an algorithm?
+    - Sequencing
+    - Conditionals
+    - Loops
+- What is pseudocode?
+- Is an algorithm the same as pseudocode?
+- Can you run pseudocode?
+- What is the difference between an algorithm and a program?
+- Can you run a program?
+:::
+
+## Reminders
+
+- Complete DAAW in Canvas
+- WPS2 due 02SEP
+    - Excel sheet upload, 5 attempts
+- Extra credit assignments published!
+- Lesson 5 readings are long and really important
+    - Start early and come prepared!
+- Clear the boards!
+- Bluefruit?

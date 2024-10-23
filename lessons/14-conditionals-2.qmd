@@ -1,0 +1,327 @@
+---
+format: revealjs
+title: Conditional Statements 2
+subtitle: More expressions and decisions
+description: More expressions and decisions
+date: 2024-09-24
+image: /images/14/14.webp
+
+title-slide-attributes:
+    data-background-image: /images/14/14.webp
+    data-background-opacity: "0.3"
+---
+
+## Announcements {timing=30}
+
+- WPS5 due 29SEP
+- Robotics Lab starts on 04OCT
+    - **If still missing Bluefruit, email me!**
+
+![](/images/agenda-block-2.png)
+
+
+## Discussion {timing=300}
+
+- [Your Brain On Sleep Deprivation](https://www.youtube.com/embed/lvKrDsreUgM)
+- [What would happen if you didn’t sleep?](https://www.youtube.com/embed/dqONk48l5vY)
+- [How Sleep Affects Your Brain](https://www.youtube.com/embed/IzQ2siryQrM)
+
+::: {.notes}
+- Do you feel that you have enough time to sleep?
+- What is the most you have been sleep deprived?
+- How bad was it?
+- Can you always tell when you are sleep deprived?
+:::
+
+
+## Lesson Objectives {timing=30}
+
+- Trace programs that include __chained__ and __nested__ conditional statements 
+- Write programs that employ __chained__ and __nested__ conditional statements 
+
+
+## Pizza Shop {timing=180 .smaller}
+
+:::: {.columns}
+::: {.column width=80%}
+
+<iframe width=100% height=600 src="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW40YVEwWIEcqoN0IYCN1eycwuGArf0CjJmYWMGAALyTEFlDwzLAUAhhVFgAFZNS4GlM4AwgAZ3gAEgAmDgBWNhZNTMdIioCgvDjWKp80jI6nbOBc-IBlIdLgcsqauFreDjZW9o6u6N7+lggCYAO4HJwq9IdRsZy8lgB5Q+PTqrmF6rrVlrbLzO2e2MY8QsKDw5xGV3GkxYADEQS8ysYKu9lqt1t9RiYqnhwaNIbcAJIEESIYzAciuMAwI4EACE6KcUDwMAArlACHBVG5iJ5vOQADSaDC6GSGExmFw2LkeLw+EI-VxQdw8nyqADkwOAoNVm0cjJZbK0XWwBEQIDw2D22CQE2wFzCeg4UGZBA0aCAA"></iframe>
+
+:::
+::: {.column width=20%}
+- [Notebook](https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW40YVEwWIEcqoN0IYCN1eycwuGArf0CjJmYWMGAALyTEFlDwzLAUAhhVFgAFZNS4GlM4AwgAZ3gAEgAmDgBWNhZNTMdIioCgvDjWKp80jI6nbOBc-IBlIdLgcsqauFreDjZW9o6u6N7+lggCYAO4HJwq9IdRsZy8lgB5Q+PTqrmF6rrVlrbLzO2e2MY8QsKDw5xGV3GkxYADEQS8ysYKu9lqt1t9RiYqnhwaNIbcAJIEESIYzAciuMAwI4EACE6KcUDwMAArlACHBVG5iJ5vOQADSaDC6GSGExmFw2LkeLw+EI-VxQdw8nyqADkwOAoNVm0cjJZbK0XWwBEQIDw2D22CQE2wFzCeg4UGZBA0aCAA)
+- [Code Tracing](https://pythontutor.com/render.html#code=choice%20%3D%20input%28%22do%20you%20want%20pizza,%20soda,%20onion%20rings%20or%20fries%3F%22%29%0A%0Aif%20choice%20%3D%3D%20%22pizza%22%3A%0A%20%20%20%20print%28%22Pizza%20will%20cost%20%242.50%22%29%0Aif%20choice%20%3D%3D%20%22soda%22%3A%0A%20%20%20%20print%28%22Soda%20will%20cost%20%241.00%22%29%0Aif%20choice%20%3D%3D%20%22onion%20rings%22%3A%0A%20%20%20%20print%28%22Onion%20rings%20will%20cost%20%241.50%22%29%0Aif%20choice%20%3D%3D%20%22fries%22%3A%0A%20%20%20%20print%28%22Fries%20will%20cost%20%241.00%22%29%0Aelse%3A%0A%20%20%20%20print%28%22Invalid%20option!%22%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=311&rawInputLstJSON=%5B%5D&textReferences=false)
+:::
+::::
+```{mermaid}
+flowchart LR
+    choice["user input (choice)"]
+    pizza{choice == 'pizza'}
+    pizza_prep['Pizza will cost $2.50']
+    soda{choice == 'soda'}
+    soda_prep['Soda will cost $1.00']
+    onion{choice == 'onion rings'}
+    onion_prep['Onion rings will cost $1.50']
+    fries{choice == 'fries'}
+    fries_prep['Fries will cost $1.00']
+    invalid['Invalid option!']
+
+    choice --> pizza
+    pizza -- True --> pizza_prep --> soda
+    soda -- True --> soda_prep --> onion
+    onion -- True --> onion_prep --> fries
+    fries -- True --> fries_prep
+    pizza -- False --> soda -- False --> onion -- False --> fries -- False --> invalid
+```
+
+
+## {timing=120 .smaller}
+
+:::: {.columns}
+::: {.column width=60%}
+### Chained Conditionals
+
+- Many, many possibilities
+- Each condition is checked in order
+- If one is true, the rest are skipped
+- `if` ➔ `elif` ➔ `elif` ➔ `elif` ➔ `else`
+- That last `else` catches everything!
+
+```python
+if next_lesson == 'lecture':
+    print("Do the assigned reading!")
+elif next_lesson == 'lab':
+    print("Bring Bluefruit and eye protection!")
+elif next_lesson == 'WPR':
+    print("Study and practice programming!")
+else:
+    print("Wander around aimlessly!")
+```
+:::
+::: {.column width=40%}
+```{mermaid}
+flowchart TD
+    lecture{next_lesson == 'lecture'}
+    lectureprep["Do the assigned reading!"]
+    labprep["Bring Bluefruit and eye protection!"]
+    lab{next_lesson == 'lab'}
+    WPR{next_lesson == 'WPR'}
+    WPRprep["Study and practice programming!"]
+    seekguidance["Wander around aimlessly!"]
+
+    lecture -- True --> lectureprep
+    lab -- True --> labprep
+    WPR -- True --> WPRprep
+    lecture -- False --> lab -- False --> WPR -- False --> seekguidance
+
+```
+:::
+::::
+
+
+## [In-Class Exercise 1](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/14/section/6) {timing=300}
+
+Our pizza shop is branching out! Instead of just pizza, the shop now wants to sell fries, onion rings, chicken sandwiches and soda.
+
+- A slice of pizza still costs 2.50,
+- but you can get fries for 1.25
+- and onion rings for 1.50.
+- A soda costs 99 cents.
+
+*Modify the given program* so that
+
+- if the user enters something not listed above, print "invalid option!"
+- Otherwise prompt for the quantity, add up the cost of the items and display the total plus the 8.5% NY State tax.
+
+
+## Nested Conditionals {timing=180 .smaller}
+
+:::: {.columns}
+::: {.column width=50%}
+```python
+def pass_planner(distance, flying):
+    if distance <= 250:
+        print("You do not need a pass!")
+        if flying:
+            print("Consider driving!")
+        else:
+            print("Enjoy the drive!")
+    else:
+        print("Get your DA31 signed!")
+        if flying:
+            print("Print your itinerary!")
+        else:
+            print("Get your vehicle inspected!")
+
+pass_planner(150, True)
+pass_planner(150, False)
+pass_planner(500, True)
+pass_planner(500, False)
+```
+:::
+::: {.column width=50%}
+
+```{dot width=100%}
+digraph {
+    graph [margin=0, pad=0]; // Removes whitespace around the graph
+    node [shape=box];
+    bgcolor="transparent";
+    distance, airplane, airplane2 [shape=diamond];
+    distance [label="staying within 250 miles?"];
+    airplane [label="Are you flying?"];
+    airplane2 [label="Are you flying?"];
+    pass [label="You do not need a pass!"];
+    da31 [label="Get your DA31 signed!"];
+    itinerary [label="Print your itinerary!"];
+    vehicle [label="Get your vehicle inspected!"];
+    considerdriving [label="Consider driving!"];
+    enjoy [label="Enjoy the drive!"];
+
+    distance -> pass [label="True"];
+    pass -> airplane
+    airplane -> considerdriving [label="True"];
+    airplane -> enjoy [label="False", minlen=2];
+    distance -> da31 [label="False"];
+    da31 -> airplane2
+    airplane2 -> itinerary [label="True"];
+    airplane2 -> vehicle [label="False", minlen=2];
+}
+```
+:::
+::::
+
+
+## Nested Conditional Code Tracing {timing=180}
+
+:::: {.columns}
+::: {.column width=80%}
+<iframe width="100%" height="800" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=def%20pass_planner%28distance,%20flying%29%3A%0A%20%20%20%20if%20distance%20%3C%3D%20250%3A%0A%20%20%20%20%20%20%20%20print%28%22You%20do%20not%20need%20a%20pass!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Consider%20driving!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Enjoy%20the%20drive!%22%29%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22Get%20your%20DA31%20signed!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Print%20your%20itinerary!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Get%20your%20vehicle%20inspected!%22%29%0A%0Aprint%28%22Test%201%3A%20Flying%20150%20miles%22%29%0Apass_planner%28150,%20True%29%0Aprint%28%22Test%202%3A%20Driving%20150%20miles%22%29%0Apass_planner%28150,%20False%29%0Aprint%28%22Test%203%3A%20Flying%20500%20miles%22%29%0Apass_planner%28500,%20True%29%0Aprint%28%22Test%204%3A%20Driving%20500%20miles%22%29%0Apass_planner%28500,%20False%29&codeDivHeight=600&codeDivWidth=600&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=311&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+:::
+::: {.column width=20%}
+- [Notebook](https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4YRAGd3mMMcQEiUKrkwO4wfkYANHAWxgCewAQ46vZOqXDAVsGh4XhwADzMAEwArGwpaRVgKAQwqiwAmhAArs4QcAQQ8EQUcIiuHu4AhCyaFRUZ0XEJOOVjY1UJtSwAwhAE7sDCUM4oItPDo3NOJu54s0epCzV1AKIEAFYQsXD0ueS7eAcOYydn3xdXJYAcTw8FizW2ABElABmXhwDY4IjkL4XRwTGLxRLnNGuapLAAK+Lg4Ka21oCWIyFiqLRvxxaMBdRBYIhcBEeDowAMxlyCXcYDwBjIKJG-zgUFBZIIcFUbk83l8-mIEU0GF0MkMJjMLhs8q8Pj8AWS4v1iqNxFUvFKUQAKlAmnhDo5JTBpVoNfojKZzHgrHqBublVATZdA4bg1abXAAGKIYynZ0SqVQAgevRan26zBy8NK43nM0RgKqUpsO0Op3i13u9UZ706v3WHNF-PEUNOVsWwJlqJxhNV1I11NaCbYAiIEB4bBMZgsbBIBLYFjnDMOggaNBAA)
+
+- [Code Tracing](https://pythontutor.com/render.html#code=def%20pass_planner%28distance,%20flying%29%3A%0A%20%20%20%20if%20distance%20%3C%3D%20250%3A%0A%20%20%20%20%20%20%20%20print%28%22You%20do%20not%20need%20a%20pass!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Consider%20driving!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Enjoy%20the%20drive!%22%29%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28%22Get%20your%20DA31%20signed!%22%29%0A%20%20%20%20%20%20%20%20if%20flying%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Print%20your%20itinerary!%22%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20print%28%22Get%20your%20vehicle%20inspected!%22%29%0A%0Aprint%28%22Test%201%3A%20Flying%20150%20miles%22%29%0Apass_planner%28150,%20True%29%0Aprint%28%22Test%202%3A%20Driving%20150%20miles%22%29%0Apass_planner%28150,%20False%29%0Aprint%28%22Test%203%3A%20Flying%20500%20miles%22%29%0Apass_planner%28500,%20True%29%0Aprint%28%22Test%204%3A%20Driving%20500%20miles%22%29%0Apass_planner%28500,%20False%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=311&rawInputLstJSON=%5B%5D&textReferences=false)
+:::
+::::
+
+
+## Keeping it simple
+
+- What is the difference between the following two?
+
+:::: {.columns}
+::: {.column width=50%}
+```{.python}
+if not (age >= 17):
+    print("Too young to drive!")
+```
+:::
+::: {.column width=50%}
+```{.python}
+if age < 17:
+    print("Too young to drive!")
+```
+:::
+::::
+
+
+## De Morgan's Laws {timing=120}
+
+- `not (A and B)` is the same as `not A or not B`
+- `not (A or B)` is the same as `not A and not B`
+
+```{.python code-line-numbers="|1,7"}
+if not (sword_charge >= 0.90 and shield_energy >= 100):
+    print("Your attack has no effect. The dragon fries you to a crisp!")
+else:
+    print("The dragon crumples in a heap. You defeated the dragon!")
+
+
+if sword_charge < 0.90 or shield_energy < 100:
+    print("Your attack has no effect. The dragon fries you to a crisp!")
+else:
+    print("The dragon crumples in a heap. You defeated the dragon!")
+```
+
+
+## Keeping it really simple {timing=120}
+
+```{.python code-line-numbers="|1,9,2,10|1,9,2,10,4,12|1,9,2,10,4,12,6,14"}
+# less readable and more error-prone
+if height >= 48:
+    print("You can ride the roller coaster!")
+elif height >= 36 and height < 48:                # could height be above 48?
+    print("Need adult supervision!")
+elif height < 36:                                 # could height be above 36?
+    print("Sorry, you're too short!")
+
+# cleaner, more readable, best practice
+if height >= 48:
+    print("You can ride the roller coaster!")
+elif height >= 36:                            # height is definitely below 48
+    print("Need adult supervision!")
+else:                                        # same results but more readable
+    print("Sorry, you're too short!")
+```
+
+
+## Type of Conditional Statements
+
+![](https://instructor-content.zybooks.com/valid_conditionals.png-8448198)
+
+
+## [In-Class Exercise 2](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/14/section/6) {timing=0}
+
+Modify the Pizza Shop program to also prompt the customer on whether they are a student.
+
+- If the customer responds "Y" for yes, they should receive a 10% discount on the entire order.
+- Otherwise, they pay the full price.
+
+
+## [In-Class Exercise 3](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/14/section/6) {timing=0}
+
+Implement a program that prompts the user to enter a numeric grade (from 0 ... 100).
+
+- Based on the score, display the corresponding letter grade based on the following criteria.
+    - A when >= 90
+    - B when [80-90)
+    - C when [70-80)
+    - D when [65-70)
+    - F when < 65
+
+- You must use an else statement.
+
+
+## [In-Class Exercise 4](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/14/section/6) {timing=0}
+
+Write a program that determines if an inputted year is a leap year.
+
+- Determine if the year is a leap year using the following criteria:
+    - Is evenly divisible by 4 and not evenly divisible by 100
+    - Is evenly divisible by 400
+- Display "Leap Year" or "Not a leap year" as appropriate.
+
+
+## Reminders
+
+:::: {.columns}
+::: {.column width=50%}
+```{.python}
+if whiteboards_have_text:
+    erase('whiteboards')
+
+if monitors_are_up:
+    lower('monitors')
+
+if still_missing_bluefruit:
+    email('your instructor')
+
+read('next_chapter')
+practice('zyBook problems')
+```
+:::
+::: {.column width=50%}
+### Next Lesson
+- Indefinite iteration using `while` loops
+:::
+::::

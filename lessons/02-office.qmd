@@ -1,0 +1,100 @@
+---
+format: revealjs
+title: Microsoft 365
+subtitle: Army runs on Microsoft
+description: Army runs on Microsoft
+date: 2024-08-20
+image: /images/02/02.webp
+title-slide-attributes:
+    data-background-image: /images/02/02.webp
+    data-background-opacity: "0.3"
+---
+
+## [Hide and Seek!](https://www.youtube.com/embed/Lu56xVlZ40M) {timing=480}
+
+## Lesson Objectives {timing=120}
+
+- Articulate the importance of Microsoft 365 to the Army
+- Differentiate the core Microsoft 365 products
+- Distinguish when to use OneDrive, Teams, or SharePoint to share data
+- Use OneDrive, Outlook, Teams, OneNote, Word, PowerPoint, and Office.com to accomplish a variety of tasks
+
+# Microsoft 365 {timing=60}
+
+![](/images/02/Microsoft365.png)
+
+::: {.notes}
+- Office allows for collaboration
+- Multiple people can share and access the same document
+- About 27 products not including variations
+:::
+
+## Discussion {timing=480}
+
+1. What can I do with Word? Excel?
+1. Can I use PowerPoint for anything other than briefings?
+1. When is it appropriate to use Teams vs Outlook?
+1. What is the difference between OneDrive and SharePoint? Which one is better?
+1. What is a quad chart? Why does the Army care?
+1. Is Microsoft better or worse than Google? Why?
+
+## Word {timing=120}
+
+- Memorandums
+- OPORDs
+- 15-6 Investigations
+- SITREPs
+
+## PowerPoint {timing=180}
+
+- Concept of Operations (CONOPs)
+- Mission Analysis Briefings
+- Command and Staff slides
+
+## Excel {timing=180}
+
+- Trackers
+- trackers
+- more trackers...
+
+## OneDrive {timing=300}
+
+::: {.incremental}
+- Where is my data stored?
+- What should I backup?
+- What should I not backup?
+- Demo: Setup backup
+:::
+
+## In-Class Exercise {timing=600}
+
+- OneDrive shared folder
+- Update Seating Chart!
+
+## Outlook {timing=240}
+
+- Import buff card, class schedule
+- Setting availability
+- Schedule meetings
+
+## Check on Learning {timing=180}
+
+::: {.incremental}
+- What are the key differences between using PowerPoint for presentations and Word for creating documents?
+- How do the features of Microsoft Teams differ from those of OneNote in terms of collaboration and communication?
+- When would it be more appropriate to store a document in OneDrive versus Microsoft Teams?
+- In what scenarios should you choose to store files in SharePoint rather than in Microsoft Teams or OneDrive?
+- Where is OneDrive data located?
+- What are the main functions of Microsoft Outlook?
+- What can you use for note-taking?
+- Can PowerPoint be used to create an elaborate concept of operations (CONOP) graphic?
+:::
+
+## zyBooks and Cengage {timing=60}
+
+## Next Class {timing=60}
+
+- Computers and Data
+- WPS1 due 25AUG
+- WPS2 will be assigned soon
+- zyBooks readings!

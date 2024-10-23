@@ -1,0 +1,267 @@
+---
+format: revealjs
+title: Definite Iteration
+subtitle: using `for` loops
+description: using `for` loops
+date: 2024-09-04
+image: /images/07/07.webp
+title-slide-attributes:
+    data-background-image: /images/07/07.webp
+    data-background-opacity: "0.3"
+---
+
+## Bloom's Taxonomy {timing=360}
+
+- [YouTube: Bloom’s Taxonomy: Structuring The Learning Journey](https://www.youtube.com/embed/ayefSTAnCR8)
+
+![](https://live.staticflickr.com/8231/29428436431_c12484fd8c_b.jpg)
+
+[Ref: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/)
+
+::: {.notes}
+- Set of different learning objectives
+- Learning takes place in a hierarchy
+- Lowest level is remembering, which is just recalling facts
+- Where do the readings belong?
+  - Where should these take place?
+- What about in-class exercises?
+- Improve learning by moving up the hierarchy
+- Make best use of classroom time
+:::
+
+
+## Announcements {timing=60}
+
+- Cengage issues?
+  - Email me or setup AI.
+- [WPS3](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/39/section/1) is on zyBook; due 08SEP
+- Written Periodic Review 1 is in two weeks!
+
+![](/images/agenda-block-1.png)
+
+
+## Lesson Objectives {timing=30}
+
+- Articulate the need for iteration in programs
+- Describe the syntax and function of a for loop
+- Write code that repeats a definite number of times using a for loop
+- Define the Accumulator Pattern and give an example of it being used
+
+
+## Sequence -> Iteration {timing=30}
+
+![](/images/07/03-algorithm-building-blocks.png)
+
+
+## Check on Learning {timing=180}
+
+::: {.incremental}
+- What is iteration?
+- What type of loops can we use in Python?
+- Where are loops on your reference card?
+- When would we use a `for` loop?
+- What is the syntax of `for` loop?
+- How do we initialize the variable `x`?
+- What can the sequence be?
+- What does `range()` do?
+- What is an accumulator?
+:::
+
+::: {.notes}
+- Iteration is repeating a set of statements a certain number of times
+- `for x in sequence:`
+- `range()` generates a sequence of values that a for loop can iterate over
+:::
+
+
+## Reminder: Code Blocks
+
+- Begins with a colon
+- Indentation is important!
+- Indentation is how Python knows what is inside the loop
+- Indentation is 4 spaces or a tab - be consistent!
+
+```{.python code-line-numbers="|5-7"}
+def main():
+    total  = 0
+    n = int(input("Enter a value for n: "))
+    for x in range(n+1):
+        y = (3*x + 5)
+        y_squared = y**2
+        total = total + y_squared
+    print("The final sum is", total)
+
+main()
+```
+
+
+## The `for` Loop
+
+:::: {.columns}
+::: {.column width=50%}
+- Iteration = loop = repeating a set of statements a certain number of times
+- Makes your code concise, easy to read
+- `for` loop is a definite loop
+  - We know how many times it will run before it starts
+:::
+::: {.column width=50%}
+```python
+"""
+Program: Squares of natural numbers
+Input: List of natural numbers
+Output: Squares of each number
+"""
+
+def main():
+  for x in [1, 2, 3, 4, 5]:
+      square = x**2
+      print("The square of", x, "is", square)
+
+main()
+```
+:::
+::::
+
+## Examples
+
+- For every cadet in this class room...
+- Display the values of each item in a given list.
+- Convert the characters of a given string to ASCII values
+- Every prime number less than 100...
+- [Python Tutor Example](https://pythontutor.com/render.html#code=def%20main%28%29%3A%0A%20%20%20%20my_string%20%3D%20input%28%22Enter%20a%20string%3A%20%22%29%0A%20%20%20%20for%20char%20in%20my_string%3A%0A%20%20%20%20%20%20%20%20print%28char%29%0A%20%20%20%20print%28%22All%20done!%22%29%20%20%20%20%0A%0Amain%28%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=311&rawInputLstJSON=%5B%5D&textReferences=false)
+
+::: {.notes}
+- Do you know exactly how many times each loop will be repeated?
+- What are the keywords/indicators in each prompt?
+:::
+
+
+## More Loops
+
+```python
+for i in [1, 2, 3, "A", "B", "C"]:
+    print(i)
+
+for letter in "California":
+    print(letter)
+
+for value in range(5):
+    print(value)
+```
+
+## In-Class Exercise 1 {timing=600}
+
+1. For each cadet in the list ask the user what company they are in using this format "Which company for CDT Anderson?"
+1. Display the results in this format: "CDT Anderson is assigned to company B4"
+1. You must use a for loop to iterate through each element in the list.
+
+```python
+def main():
+  # Here is the list of cadet names
+  newCadetNames = ['Anderson', 'Kim', 'Thornton', 'Kofford', 'Palau', 'Traeger', 'Yao']
+  # Your code goes here
+
+main()
+```
+
+[zyBook 7.6.7: ICE 8](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/7/section/6)
+
+## `range()` Function
+
+- Generates a sequence of values and is commonlyused in a for loop
+
+```python
+range(start, stop, step)
+
+range(stop)
+
+range(start, stop)
+```
+
+- `start` is optional and defaults to 0
+- `stop` is required; not inclusive
+- `step` is optional and defaults to 1
+
+::: {.notes}
+- `start` is optional and defaults to 0
+- `stop` is required; not inclusive
+- `step` is optional and defaults to 1
+
+```python
+range(5) # 0, 1, 2, 3, 4
+range(2, 5) # 2, 3, 4
+range(2, 10, 2) # 2, 4, 6, 8
+range(20, 0, -3) # 20, 17, 14, 11, 8, 5, 2
+```
+:::
+
+
+## In-Class Exercise 2 {timing=600}
+
+- Using a for loop and the range function, display the mathematical cube of each of the odd integers from 3 to 11 (inclusive).
+
+```python
+def main():
+  # enter code here
+
+main()
+```
+
+[zyBook 7.6.3: ICE 4](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/7/section/6)
+
+
+## Accumulators
+
+- A variable in the loop body that aggregates (or accumulates) a value we wanttokeep track of.
+- Must be initialized before loop begins!
+- Most common operations
+  - addition (+=)
+  - subtraction (-=)
+  - multiplication (*=)
+
+## Accumulator Examples
+- For each new cadet in the list, assign a company. Count how many cadets are processed and display total.
+- Iterate through a user-provided string and count how many letters there are.
+- Have the user guess the password until they get it right or until they have reached 5 attempts.
+- Sum the numbers within a range
+
+## In-Class Exercise 3 {timing=600}
+
+You are studying the growth of an alien plant. The total growth of the plant over n days is described by the following summation:
+
+$$G_{total} = \sum_{i=1}^{n} (2i + 3)$$
+
+Write a Python program that:
+
+1. Asks the user to input the number of days n.
+1. Calculates the total growth using the summation formula (implement using a for loop).
+1. Outputs the total growth after n days.
+
+[zyBook 7.6.4: ICE 5](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/7/section/6)
+
+
+## Lesson Review {timing=120}
+
+::: {.incremental}
+- Why do we need loops?
+- What type of loops can we use in Python?
+- When would we use a `for` loop?
+- What does `range()` do?
+- What is an accumulator?
+:::
+
+### Next Lesson: Strings and Lists
+
+- Common operations on lists and strings: indexing, concatenation, replication
+- Built-in functions: `len()`, `min()`, `max()`
+- Iteration + lists and strings operations
+
+
+## Reminders
+
+- Clear whiteboards and desks
+- Lower monitors; leave nothing behind
+- Cengage issues?
+  - Email me or setup AI.
+- [WPS3](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/39/section/1) is on zyBook; due 08SEP
+- WPR1 is in two weeks!

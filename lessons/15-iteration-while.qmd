@@ -1,0 +1,213 @@
+---
+format: revealjs
+title: Indefinite Iteration
+subtitle: Repeating your code indefinitely with `while` loops
+description: Repeating your code indefinitely with `while` loops
+date: 2024-09-26
+image: /images/15/15.webp
+title-slide-attributes:
+    data-background-image: /images/15/15.webp
+    data-background-opacity: "0.3"
+---
+
+## Announcements {timing=0}
+
+- WPS5 due 29SEP
+- Robotics Lab starts on 04OCT
+    - **If still missing Bluefruit...**
+
+![](/images/agenda-block-2.png)
+
+
+## Discussion! {timing=300}
+
+- [Linux in 100 seconds](https://www.youtube.com/embed/rrB15utjYV4)
+- [Bash in 100 seconds](https://www.youtube.com/embed/I4EWvMFj37g)
+- [What is Linux](https://www.youtube.com/embed/zA3vmx0GaO8)
+- [How Linux is Built](https://www.youtube.com/embed/yVpbFMhOAwE)
+
+
+## Lesson Objectives
+
+- Identify the need for conditional iteration based on scenario descriptions
+- Compare and contrast `while` loops with `for` loops
+- Identify how a loop could repeat forever (infinite loop)
+- Write code that repeats an indefinite number of times using a `while` loop​
+
+
+## Pizza Program! {timing=600}
+
+Write a Vending Machine **algorithm** that simulates the purchase of either candy (1.50), chips (.99) or gum (0.75). Ask the user what item they want. Then, the vending machine should take in nickels, dimes, quarters, and half-dollars, and dispense the desired item when the amount is greater than or equal to the item’s cost. If the user inserts more than the item’s cost, tell them how much change they get back.
+
+
+## What is a `while` loop?
+
+:::: {.columns}
+::: {.column width=50%}
+```python
+more_pushups = not am_i_tired()
+
+if more_pushups:
+    print("Down! Up!")
+
+
+print("Good job!")
+```
+:::
+::: {.column width=50%}
+```python
+more_pushups = True
+
+while more_pushups:
+    print("Down! Up!")
+    more_pushups = not am_i_tired()
+
+print("Good job!")
+```
+:::
+::::
+
+- repeat a block of code
+    - as long as a condition is true
+    - indefinite iteration!
+- just like `if` statements
+- see page 3 of [your reference card](/images/referenceCard/CY105_ReferenceCard_AY251.pdf)
+
+
+## Controlling Condition {timing=120}
+
+- `while` loops repeat as long as the condition stays `True`
+- What if the condition is `False` before it starts?
+- What if the condition never becomes `False`?
+- Can we use it for definite iteration?
+    - Counting to 10?
+
+```python
+count = 0
+while count < 10:
+    print(count)
+    count += 1
+```
+
+## Example {timing=180}
+
+:::: {.columns}
+::: {.column width=80%}
+<iframe width=100% height=450 src="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7gGIAVwLxmbB06p1gxnjObh5wAHzMvGz2TrFwYCgeqi7uMJpxTimhzFnwANRwvD6OCcBJLAAiEEQAhCzpTlB4MK5QBHDJITAANJoYwFbYBIggeNhMzCzYSGXYLDFOehxQ7hpoQA"></iframe>
+
+- What is the controlling condition? How does loop terminate?
+- What lines are part of the loop body?
+- Are the number of iterations definite or indefinite?
+- What actions are inside the loop? Outside the loop?
+:::
+::: {.column width=20%}
+```{mermaid}
+flowchart TD
+    start[Set count to 0] --> condition{count >= 10?}
+    condition -- No --> done[Done!]
+    condition -- Yes --> print[display count]
+    print --> increment[count = count + 1]
+    increment --> condition
+```
+
+[Notebook](https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7gGIAVwLxmbB06p1gxnjObh5wAHzMvGz2TrFwYCgeqi7uMJpxTimhzFnwANRwvD6OCcBJLAAiEEQAhCzpTlB4MK5QBHDJITAANJoYwFbYBIggeNhMzCzYSGXYLDFOehxQ7hpoQA)
+:::
+::::
+
+
+## Another Example
+
+```python
+user_says = ""
+while user_says != "quit":
+    user_says = input("Say something: ")
+    print(f"You said: {user_says}")
+print("All done!")
+```
+
+- What is the controlling condition? How does loop terminate?
+- What lines are part of the loop body?
+- Are the number of iterations definite or indefinite?
+- What actions are inside the loop? Outside the loop?
+
+## One More Example
+
+```python
+user_says = input("Say something: ")
+while user_says != "quit":
+    print(f"You said: {user_says}")
+print("All done!")
+```
+
+- What is the controlling condition? How does loop terminate?
+- What lines are part of the loop body?
+- Are the number of iterations definite or indefinite?
+- What actions are inside the loop? Outside the loop?
+
+
+## `for` vs `while`: which one to use?
+
+- List the mathematical cube of _all_ odd integers from 3 to 11.
+- Assign a company to _each_ new cadet _until_ no more names are given.
+- Ask a customer to order menu items _until_ they are satisfied.
+- Display the values of _each item_ in a list.
+
+Note: How many times will each loop run?
+
+
+# In-Class Exercises {timing=1500}
+
+## [In-Class Exercise 2](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/15/section/5) {timing=0}
+
+Write a Vending Machine program that simulates the purchase of either candy (1.50), chips (.99) or gum (0.75). The program should prompt the user what item they want. Then, the vending machine should take in nickels, dimes, quarters, and half-dollars, and dispense the desired item when the amount is greater than or equal to the item's cost. If the user inserts more than the item's cost, display the change.
+
+> What item do you want? candy
+>
+> candy costs $1.5
+>
+> Please insert a coin: 50
+>
+> Please insert a coin: 1
+>
+> Invalid coin type!
+>
+> Please insert a coin: 50
+>
+> Please insert a coin: 25
+>
+> Please insert a coin: 50
+>
+> Please enjoy your candy! Here is your change: 25 cents
+
+
+## [In-Class Exercise 3](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/15/section/5) {timing=0}
+
+Write a guessing game called TwentyQuestions. Your program should first pick a number between 1 and 100 inclusive. The user has only twenty guesses in which to guess the correct number. Each time the user guesses, your program should print out "Too low" if the guess is too low, and "too high" if it is too high. If the player guesses the number right, you should output "Congratulations!" along with the number of guesses it took them. If they lose, print “Better luck next time!"
+
+
+## Reminders {timing=60}
+
+:::: {.columns}
+::: {.column width=50%}
+```{.python}
+for whiteboard in whiteboards:
+    erase(whiteboard)
+
+while monitors_are_up:
+    lower('monitors')
+
+if still_missing_bluefruit:
+    email('your instructor')
+
+while True:
+    read('next_chapter')
+    practice('zyBook problems')
+    sleep()
+```
+:::
+::: {.column width=50%}
+### Next Lesson
+- Functions!
+- WPS5 due on Sunday!
+:::
+::::

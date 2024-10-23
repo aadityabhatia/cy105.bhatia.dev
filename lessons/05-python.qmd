@@ -1,0 +1,341 @@
+---
+format: revealjs
+title: Python Basics
+subtitle: Introduction to Programming
+description: Introduction to Programming
+date: 2024-08-28
+image: /images/05/05.png
+title-slide-attributes:
+    data-background-image: /images/05/05.png
+    data-background-opacity: "0.3"
+---
+
+## Discussion! {timing=240}
+
+- [Flipper Zero](https://www.youtube.com/embed/nLIp4wd0oXs)
+  - [Meanwhile, in Canada...](https://arstechnica.com/security/2024/02/canada-vows-to-ban-flipper-zero-device-in-crackdown-on-car-theft/)
+
+## Lesson Objectives {timing=60}
+
+- Identify basic data types represented in programs
+- Distinguish between data types and data values.
+- Use variables to store information in a program
+- Write very basic Python programs.
+
+::: {.notes}
+- Bring up agenda
+- Reference cards!
+  - Bring them daily.
+- Test your monitors.
+  - Consider bringing a spare mouse to easily navigate between screens.
+:::
+
+
+## Writing Algorithms {timing=240}
+
+Suppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.
+
+Write an algorithm that accomplishes this task!
+
+::: {.notes}
+- ask the user for their name
+- print out hello followed by their name
+- ask how many slices of pizza they want
+- multiply quantity by the cost (2.50)
+- print total to the screen
+:::
+
+## Check on Learning {timing=180}
+::: {.incremental}
+- What is a data type?
+- Is data type the same as a variable?
+- What are the standard data types in Python?
+- How do you assign a variable in Python?
+- What is a procedure?
+- What does `print()` do?
+- What does `type()` do?
+- What is a list?
+- What is a boolean?
+- What is the difference between `=` and `==`?
+:::
+
+::: {.notes}
+- int, float, str, list, bool
+:::
+
+## More Check on Learning {timing=180}
+
+::: {.incremental}
+- Is this a string? `"hello"`
+- Is this a string? `"11"`
+- What is the type of: `3.1415`
+- What is the type of: `3`
+- What is the type of: `3.0`
+- What is the type of: `True`
+- What is the type of: `"True"`
+- What is the value of: `5 + 3 * 2`
+- What is the value of: `5 % 3`
+- What is the value of: `5 / 2`
+- What is the value of: `5 // 2`
+:::
+
+## Programming Environment {timing=120}
+
+1. Start -> `python`
+2. [Notepad++](https://notepad-plus-plus.org/)
+3. [zyBook](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/5/section/11)
+
+- [Python Tutor](https://pythontutor.com/python-compiler.html)
+- [Black Code Formatter](https://black.vercel.app/)
+
+## Hello World! {timing=120}
+
+- Simplest program in any language
+- Demonstrates how to accomplish a basic task
+
+```py
+print("Hello, World!")
+```
+
+## Writing Code {timing=120}
+
+![](/images/01/08-writing-code.png)
+
+## Running Code {timing=120}
+
+![](/images/01/09-running-code.png)
+
+## Real Python Program {timing=120}
+
+```python
+"""
+Whispers in the code,
+Python ignores, doesn’t care,
+Yet they light the path.
+"""
+
+def main():  # a procedure called main
+    print("hello world!")  # print statement
+
+main()  # invoke the main procedure
+```
+
+- Copy the code above into Notepad++
+- Save with a `.py` extension, e.g. `hello.py`
+- Observe the different colors. What do they mean?
+
+## Variables {timing=120}
+
+:::: {.columns}
+::: {.column width=50%}
+- Store a value in memory
+- Left side is the name of the variable
+- Right side is an expression!
+- Can be changed as many times as needed
+- Must be assigned a value before first use!
+- Name is how you refer to the value
+- Value is what is stored in the variable
+:::
+::: {.column width=50%}
+```python
+x = 5
+y = 3.14
+z = "hello"
+a = x + y
+b = x * y
+```
+
+[Python Console](https://pyodide.org/en/stable/console.html)
+:::
+::::
+
+
+## Variable Names {timing=120}
+
+- Must start with a letter or underscore
+- Can contain letters, numbers, and underscores
+- Case sensitive
+- Cannot be a reserved word
+
+::: {.notes}
+```
+>>> x = 5
+>>> 4x = 20
+>>> x4 = 20
+>>> x_x = 1
+>>> print(X_X)
+>>> True = 1
+>>> False = 0
+>>> return = True
+```
+:::
+
+## Data Types {timing=120}
+
+- `int` - integer
+- `float` - floating point number
+- `str` - string
+- `bool` - boolean
+- `list` - list
+
+::: {.notes}
+```
+>>> type(x)
+>>> type(y)
+>>> type(z)
+```
+:::
+
+## Basic Arithmetic {timing=120}
+- `+` - addition
+- `-` - subtraction
+- `*` - multiplication
+- `/` - division
+- `**` - exponentiation
+- `//` - floor division
+- `%` - modulo
+
+::: {.notes}
+```
+>>> 10 + 4
+>>> 10 - 4
+>>> 10 * 4
+>>> 10 / 4
+>>> 10 ** 4
+>>> 10 // 4
+>>> 10 % 4
+>>> 10 % 3
+>>> 10 % 1
+```
+:::
+
+## Order of Operations {timing=180}
+
+- Parentheses
+- Exponents
+- Multiplication and Division
+- Addition and Subtraction
+
+::: {.notes}
+```
+>>> 5 + 3 * 2 = 11
+>>> (5 + 3) * 2 = 16
+>>> 5 + 3 * 2 ** 2 = 17
+>>> (5 + 3) * 2 ** 2 = 32
+```
+:::
+
+## Converting Data Types {timing=120}
+
+- `int()` - convert to integer
+- `float()` - convert to floating point number
+- `str()` - convert to string
+
+::: {.notes}
+```
+>>> int(3.14)
+>>> float(3)
+>>> str(3)
+```
+:::
+
+## Lists {timing=120}
+
+- Store multiple values in one variable
+- Can store different data types
+- Use square brackets `[]`
+
+::: {.notes}
+```
+>>> x = [1, 2, 3]
+>>> y = ["hello", 3.14, True]
+```
+:::
+
+## Concatenation {timing=60}
+
+- Combine strings using `+`
+- Can combine lists!
+
+::: {.notes}
+```
+>>> "hello" + "world"
+>>> [1, 2, 3] + [4, 5, 6]
+```
+:::
+
+## User Input {timing=60}
+
+- `input()` - get user input
+- Always returns a string
+- Use `int()` or `float()` to convert
+
+::: {.notes}
+```
+>>> x = input("Enter a number: ")
+>>> x
+>>> type(x)
+>>> x = int(x)
+>>> type(x)
+```
+:::
+
+## Pizza! {timing=600}
+
+Suppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.
+
+Write a Python program following your algorithm!
+
+## In-Class Exercise 2 {timing=0}
+
+1. Write a program that stores the value `18` in a variable named `Age`, and displays `My age is` followed by the value in `Age`. To do this, place both items inside the parentheses for `print()` but separate them with a comma.
+
+2. Add more code to display what happens when you have a birthday (assign the value `19` to the same variable `Age`) and display the age again. Run the code so you can see both lines of output.
+
+- [zyBook ICE 2](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/5/section/11)
+
+```python
+"""
+Whispers in the code,
+Python ignores, doesn’t care,
+Yet they light the path.
+"""
+def main():
+    # Write your code here
+
+main()
+```
+
+
+## In-Class Exercise 3 {timing=0}
+
+1. Copy the code from ICE 2 to the box below. Next, replace the assignment statement `Age = 19` with `Age = Age + 1` to make the code more versatile. (This way, Age could have any value and it would still be increased by one.) Note that the expression `Age + 1` will be evaluated as 19 before that value is assigned to `Age`. Run the program again to verify that the result is still the same as before.
+
+2. Now replace that statement with `Age += 1`. The only practical difference in this line is that it’s shorter. Verify that the program still works.
+
+```python
+def main():
+    # Write your code here
+
+main()
+```
+
+## In-Class Exercise 5 {timing=0}
+
+- Write a program to perform floor (integer) division of two numbers provided by a user.
+
+1. To accomplish this, first you should request a number from the user and store it in a variable; be sure to also convert it to an integer.
+1. Do the same to request a smaller number and store it in a second variable.
+1. Perform floor division (divide the large number by the small number) and store the result in a third variable.
+1. Then calculate the remainder of dividing the large number by the small number and store it in a fourth variable.
+1. Display the results of the division using all four variables, as seen below.
+
+## In-Class Exercise {timing=0}
+
+`3**2 + 4 * -2 + (6 + 5) * (2 + 3)`
+
+## Reminders
+
+- Bring your reference cards to class daily
+- Erase whiteboards and clean up your area
+- WPS2 is due 02SEP

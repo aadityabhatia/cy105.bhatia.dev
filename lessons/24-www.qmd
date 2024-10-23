@@ -1,0 +1,527 @@
+---
+format: revealjs
+title: World Wide Web
+subtitle: How the Internet really works
+description: How the Internet really works
+date: 2024-10-23
+image: /images/24/24.webp
+title-slide-attributes:
+    data-background-image: /images/24/24.webp
+    data-background-opacity: "0.3"
+---
+
+## Discussion {data-background-image="/images/24/24.webp" data-background-opacity="0.3"}
+
+- [If US and China Go To War...](https://www.youtube.com/embed/en304pJSi20)
+
+::: {.notes}
+- What questions do you have about the Internet and the World Wide Web?
+- Reflection on notecards
+:::
+
+## Announcements {data-background-image="/images/24/24.webp" data-background-opacity="0.2"}
+
+- [Digital Footprint Audit](https://westpoint.instructure.com/courses/7068/assignments/160507) due 27OCT
+- Weekly Problem Set 7 due 03NOV
+- [AI Summative Project Proposal](https://westpoint.instructure.com/courses/7068/assignments/160503) due 12NOV
+
+![](/images/agenda-block-3.png)
+
+
+## Lesson Objectives {data-background-image="/images/24/24.webp" data-background-opacity="0.1"}
+
+- Articulate the different layers of the web
+    - and which ones are accessible by search engines​
+- Define and identify the purpose of **URLs** and **Browsers​**.
+- Define and identify the purpose of **HTTP**, **TLS**, **DNS**.​
+- Explain how users access data across the web
+    - how it relates to Network layers and protocols.
+- Summarize how HTTP provides access to web content
+    - purpose of **HTML**, **CSS**, & **JavaScript​**
+
+
+## Search Engines {timing=120}
+
+::: {.incremental}
+- What is a search engine?
+- Where does it get its information? [^1]
+- How does it decide what to show? [^2]
+- How often is the search index updated?
+- Can I control what a search engine sees? [^3]
+- How much of the web does a search engine see?
+:::
+
+[^1]: [*Spiders*](https://www.cloudflare.com/learning/bots/what-is-a-web-crawler/) build the world wide web by crawling through hyperlinks and building an index of what they find​
+
+[^2]: [PageRank](https://en.wikipedia.org/wiki/PageRank)
+
+[^3]: [robots.txt](https://en.wikipedia.org/wiki/Robots.txt)
+
+
+## Deep Web
+
+- Private, unlinked, or hidden
+- Hidden behind login pages
+- Unlinked, excluded by [robots.txt](https://en.wikipedia.org/wiki/Robots.txt)
+- Search engines _cannot_ see this!
+
+### Examples? {.fragment}
+
+::: {.notes}
+- Medical records
+- Legal documents
+- Proprietary information
+- IRS tax information
+- CIS
+:::
+
+
+## Dark Web
+
+:::: {.columns}
+::: {.column width=55%}
+- Anonymizing protocols
+    - Unusual routing techniques
+    - Lots of Encryption
+- I2P, Freenet, ZeroNet, GNUnet
+- Commonly accessed using The Onion Router (TOR) browser
+- Extensively used for **illegal** activities
+
+### Do **not** try this yourself!
+:::
+::: {.column width=45%}
+![](/images/24/dark-web-iceberg.jpg)
+:::
+::::
+
+::: {.notes}
+- Black market trading
+- Counterfeiting
+- Drug trafficking
+- Human trafficking
+:::
+
+
+## In-Class Exercise 1 {timing=300 data-background-image="/images/24/24.webp" data-background-opacity="0.1"}
+
+1. Create a new folder. Copy the following code into a new file. Save it as `first.html` in that new folder.
+
+```html
+<html>
+    <body>
+        This is my first website!
+    </body>
+</html>
+```
+
+2. Double click on the file to open it in a browser.
+3. Change the text in the body to something else. Save the file and refresh the browser.
+4. Add the following code inside the `<body>` tags. Save and refresh.
+
+```html
+<h1>CY105 rocks!</h1>
+```
+
+
+## World Wide Web {data-background-image="/images/24/www-docs.webp" data-background-opacity="0.2"}
+
+::: {.incremental}
+- What is it? [^www]
+- What documents?
+- Is it the same as the Internet? [^internet]
+:::
+
+[^www]: [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web)
+[^internet]: [Internet](https://en.wikipedia.org/wiki/Internet)
+
+
+## How it all works? {timing=120 data-background-image="/images/24/www-docs.webp" data-background-opacity="0.2"}
+
+- Uniform Resource Locator (URL)​
+    - Pointer to a document on the network​ that uniquely identifies each website
+
+- Browser: Firefox, Chrome, Edge
+    - Application on a user’s computer that requests and displays web content
+
+- Hyper Text Transfer Protocol (HTTP)​
+    - Protocol used to grab the contents of the file from the server
+    - Secure version: HTTPS!
+
+- Hyper Text Markup Language (HTML)​
+    - A document with text, images, and hyperlinks to other files on the Internet
+
+::: {.notes}
+- Uniform Resource Locator (URL) – Finds that file on any computer that is on the same network 
+- Hyper Text Transport Protocol (HTTP) – Moves the contents of that file from the server to the client 
+- Browsers – Download these documents and display them in a readable format
+- Hyper Text Markup Language (HTML) - Represent a document with hyperlinks to any file on any computer on the Internet 
+:::
+
+## Uniform Resource Locator (URL)​
+
+![](/images/24/url.png){width="100%"}
+
+::: {.notes}
+URLs & DNS & HTTP (15 mins)
+(slide 9) In order to link pages to one another, each webpage must have a specific address, which is called a Uniform Resource Locator (URL). The components of a URL include the web’s protocol (like HTTPS), the host (the domain you wish to talk to), and the path (the page within the domain you are looking for).
+:::
+
+
+## Domain Name System (DNS)​ {timing=120}
+
+:::: {.columns}
+::: {.column width=50%}
+- [Directory of the Internet](https://www.cloudflare.com/learning/dns/what-is-dns/)
+- Translates domain names to IP addresses
+- Allows us to use names instead of numbers
+
+- Who controls it?
+    - ICANN controls [root servers](https://www.cloudflare.com/learning/dns/glossary/dns-root-server/)
+    - Registrars control top-level domains
+    - Companies control their subdomains
+
+- [Who can own a domain?](https://www.cloudflare.com/products/registrar/)
+- [Where is this massive directory stored?](https://www.cloudflare.com/learning/dns/dns-server-types/)
+- [DNS encryption?](https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/)
+:::
+
+::: {.column width=50%}
+![https://www.akamai.com/glossary/what-are-dns-servers](/images/24/how-dns-works.avif)
+:::
+::::
+
+
+## But how does DNS really work? {timing=0}
+
+:::: {.columns}
+::: {.column width=50%}
+1. Browser: Where is `www.example.com`?
+2. Resolver: Who knows about `.com`
+3. Root Server: Here is your TLD server's address
+4. Resolver: Who knows about `example.com`?
+5. TLD Server: Here is the authoritative server for `example.com`
+6. Resolver: IP address for `www.example.com`?
+7. Authoritative Server: `1.2.3.4`
+8. Resolver: `1.2.3.4`
+:::
+::: {.column width=50%}
+![https://www.cloudflare.com/learning/dns/what-is-dns/](/images/24/dns.png)
+:::
+::::
+
+::: {.notes}
+(slide 11) When you request content from a URL, the first thing that happens is a DNS (Domain Name System) lookup, which takes the domain name from the URL as an input, and replies back with the IP address of the computer that is running the applicable web server. DNS is an example of another protocol!The DNS first looks at the root of the URL (.com, .gov, etc.), then it searches for the domain, and so on.
+:::
+
+
+## In-Class Exercise 2 {timing=300 data-background-image="/images/24/24.webp" data-background-opacity="0.1"}
+
+1. Add the following to the `<body>` of your `first.html` file:
+
+```html
+<a href="https://en.wikipedia.org/">Wikipedia</a>
+```
+
+2. Save and refresh the browser.
+
+3. Download [this image](https://upload.wikimedia.org/wikipedia/commons/6/6b/ArmyWestPointAthenaShield.png) to your website directory.
+
+4. Add to the `<body>`:
+
+```html
+<img src='ArmyWestPointAthenaShield.png' height="200" />
+```
+
+5. Save and refresh the browser.
+
+
+## Hyper Text Transfer Protocol (HTTP)
+
+![https://medium.com/@terrybmochire/what-happens-when-you-type-a-url-in-your-browser-and-press-enter-d7357a555911](/images/24/how-internet-works.webp)
+
+::: {.notes}
+(slide 14-15) A user uses the web-browser to connect to websites that are “served” by webservers. The hyper-text transfer protocol (“http” in the URLs) in conjunction with other protocols like DNS and TCP/IP help the browser communicate with a webserver. When a “client” requests the contents from a URL, the “server” sends back the HTML which is then displayed by the web browser, a program on our computer which requests the content and renders the HTML into a viewable format for the user.
+
+HTTP is exceptional insecure; it is highly recommended you always use HTTPS whenever you surf the web. In our programming lab in a few lessons you will see first-hand why.
+:::
+
+## Transport Layer Security (TLS)
+
+:::: {.columns}
+::: {.column width=50%}
+- Encrypts the data between the client and the server
+- Prevents eavesdropping and tampering
+- Protects the data from being stolen
+
+### HTTPS = HTTP + TLS
+
+- [I have nothing to hide. Why should I care?](https://www.privacyguides.org/en/basics/why-privacy-matters/)
+
+:::
+::: {.column width=50%}
+![](/images/24/https.webp)
+:::
+::::
+
+
+## Browser {timing=120}
+
+:::: {.columns}
+::: {.column width=60%}
+### Application on your computer
+1. Takes a Uniform Resource Locator (URL)
+1. Gets a webpage from some server somewhere
+1. Makes it look pretty
+:::
+::: {.column width=40%}
+![](/images/24/firefox.svg)
+:::
+::::
+
+
+## Web Server {timing=120}
+
+:::: {.columns}
+::: {.column width=30%}
+- Program running on a computer
+- Listens for requests
+- Responds with content
+:::
+::: {.column width=70%}
+![Google Data Center](/images/24/Google-Data-Center.jpg)
+:::
+::::
+
+### Can you run a web server in Python? {.fragment}
+
+
+## Cloud Computing {timing=120}
+
+:::: {.columns}
+
+::: {.column width=60%}
+::: {.incremental}
+- What is it?
+    - Someone else’s computer!
+- Why is it useful?
+    - Little to no software installation
+    - Applications managed by the provider
+    - Lower cost
+    - Eliminates the need for physical media
+    - Seamless transition between many devices
+:::
+
+:::
+
+::: {.column width=40%}
+![](/images/24/cloud.jpg)
+:::
+::::
+
+
+## Hyper Text Markup Language
+
+- Defines the structure and content of the webpage
+- Developed to specify links, headers, paragraphs, images, etc.
+- Uses tags such as `<h1>`, `<p>`, `<a>`, `<img>`
+
+### How do you see HTML behind a webpage? {.fragment}
+
+### Can you write a program in HTML? {.fragment}
+
+
+## In-Class Exercise 3 {timing=300 .smaller data-background-image="/images/24/24.webp" data-background-opacity="0.1"}
+
+1. Copy the following HTML code into a new file. Save it as `second.html` in the same website folder.
+1. Download the following image and save it to your website directory: [gettysburg-address.jpg](https://store.thehistorylist.com/cdn/shop/products/gettysburg-address-as-a-small-poster_1946x.jpg)
+1. Rename it to match the file name below in the `<img>` tag.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My second website</title>
+</head>
+<body>
+    <h1> The Gettysburg Address </h1>
+    <img src="gettysburg-address.jpg" width="500" />
+    <p>
+        <a href="https://en.wikipedia.org/wiki/Abraham_Lincoln"> Abe Lincoln </a> said:
+        Four score and seven years ago...
+    </p>
+
+    <h2>What did our fathers do? </h2>
+    <ol>
+        <li>brought forth on this continent a new nation</li>
+        <li>conceived in liberty</li>
+        <li>and dedicated to the proposition that all men are created equal</li>
+    </ol>
+</body>
+</html>
+```
+
+::: {.notes}
+What are these new tags? `<h2>`, `<ol>`, `<li>`, `<p>`
+:::
+
+## Cascading Style Sheets
+
+:::: {.columns}
+::: {.column width=50%}
+
+- Language to define looks of a webpage
+- Maintain consistency in format and style
+- Changes colors, sizes, spacing, fonts, etc.
+
+```css
+h1 {
+    color: red;
+}
+
+p.special {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+```
+
+:::
+::: {.column width=50%}
+![](/images/24/parrot-2.png)
+:::
+::::
+
+
+## In-Class Exercise 4 {timing=300 .smaller data-background-image="/images/24/24.webp" data-background-opacity="0.1"}
+
+1. Create a new file called `style.css` in your website directory.
+
+2. Copy the following code into the `style.css` file:
+
+```css
+h1 {
+  color: brown;
+}
+
+p {
+  background-color: peachpuff;
+  padding: 20px;
+}
+
+img {
+  border: 5px solid black;
+}
+```
+
+3. Add the following line to the `<head>` section of your `second.html` file:
+
+```html
+<link rel="stylesheet" type="text/css" href="style.css">
+```
+
+4. Save and refresh the browser.
+
+
+## JavaScript {.smaller}
+
+:::: {.columns}
+::: {.column width=70%}
+
+- Language that makes webpages interactive!
+- Is it a programming language?
+- Where can it run?
+
+```{.html code-line-numbers="4-7"}
+<html>
+    <head>
+        <script>
+function ChangeTextColor(newColor) {
+   var x = document.getElementById("ColorableText");
+   x.style.color = newColor;
+}
+        </script>
+    </head>
+    <body>
+        <p id="ColorableText">
+        Click a button to change this text's color.
+        </p>
+        <button type="button" onclick="ChangeTextColor('red')">Red</button>
+        <button type="button" onclick="ChangeTextColor('blue')">Blue</button>
+    </body>
+</html>
+```
+
+:::
+
+::: {.column width=30%}
+![](/images/24/parrot-2.png)
+![](/images/24/parrot-3.png)
+:::
+::::
+
+
+## In-Class Exercise 5 {timing=300 .smaller data-background-image="/images/24/24.webp" data-background-opacity="0.1"}
+
+1. Create a new file called `script.js` in your website directory with the following code:
+
+```javascript
+// press F12 in browser to see this "Hello World!"
+console.log('Hello World!');
+
+// define function to change image border
+function changeImageBorder() {
+    document.querySelector('img').style.border = '5px solid red';
+}
+
+// when document is ready
+document.addEventListener('DOMContentLoaded', function () {
+    // start watching for click event on image
+    document.querySelector('img').addEventListener('click',
+        function () {
+            // when image is clicked, change border
+            changeImageBorder()
+        }
+    );
+});
+```
+
+3. Add the following code to the `<head>` section of your `second.html` file:
+
+```html
+<script src="script.js"></script>
+```
+
+4. Save and refresh the browser.
+
+5. Click on the image.
+
+
+## Check on Learning {timing=120}
+
+::: {.incremental}
+- What is the Internet?
+- Who owns the Internet?
+- What is the World Wide Web?
+- How does the WWW work?
+- Does DNS translate URLs to domain names?
+- What is the purpose of HTTP?
+- Is HTML a programming language?
+- Is HTTP written in HTML?
+- What is a browser?
+- Is a browser a server or a client?
+:::
+
+
+## Cloud Computing and Data {timing=0}
+
+1. If you create content but it is stored on the cloud (another company’s web server), who owns the data?
+2. What if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?
+3. What implications does cloud services have on data privacy?
+
+::: {.notes}
+Interesting questions to pose to the class. If there is time in class, these questions could lead to great discussions, but if not, share these as teasers for the upcoming Data and Ethics lesson.
+
+- If you create content but it is stored on the cloud (another company’s web server), who owns the data?
+- What if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?
+- What implications does cloud services have on data privacy?
+:::

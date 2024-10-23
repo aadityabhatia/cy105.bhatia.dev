@@ -1,0 +1,357 @@
+---
+format: revealjs
+title: WPR 2 Review
+date: 2024-10-15
+image: /images/21/21.webp
+title-slide-attributes:
+    data-background-image: /images/21/21.webp
+    data-background-opacity: "0.3"
+---
+
+# Robotics Quiz {timing=60 data-background-image="/images/21/21.webp" data-background-opacity="0.1"}
+
+- 25 points, 20 minutes
+    - 2 knowledge check (10 points)
+    - 1 code tracing (5 points)
+    - 1 open ended (10 points) - demonstrate knowledge from readings!
+
+- Honor acknowledgment statement *after* submitting quiz
+
+- Authorized resources
+    - CY105 Reference Card
+    - Communication with instructor
+
+- Academic Security Expires: **23OCT at 1600**
+
+
+## Robotics Quiz {timing=1320 data-background-image="/images/21/21.webp" data-background-opacity="0.1"}
+
+### Start Time:
+
+### End Time:
+
+### Access Code for Quiz:
+
+### Access Code for Honor Statement:
+
+### Academic Security: do not discuss with anyone until **23OCT at 1600**
+
+
+## Honor Acknowledgment Statement!
+
+# Digital Footprint Audit {timing=120}
+
+- Due 27OCT, worth 100 points
+- Exploration
+    - How large is the data trail that you are leaving online?
+    - Why does it matter?
+- Request data from at least three sources
+- Respond to 7 prompts: thoughtful and thorough discussion
+
+::: {.notes}
+
+- How many points is this worth?
+- Who has already started?
+- What sources can you request data from?
+:::
+
+
+# Written Periodic Review 2 {timing=60}
+- 100 points, 55 minutes
+    - 8-10 knolwedge check questions (30 points)
+    - 7 code tracing questions (30 points)
+    - 1 open ended question (15 points)
+    - 1 code writing problem in zyLabs (25 points)
+- Lesson 2-20
+    - includes Robotics lab
+- Scratch paper provided
+- Authorized resources
+    - CY105 Reference Card
+    - Communication with instructor
+
+::: {.notes}
+Block 1 content = things most students struggle with.
+:::
+
+
+## Study Resources
+
+- zyBooks readings!!
+- [WPR 2 Study Guide](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/19/section/1)
+- Weekly Problem Sets
+- Lesson slides
+- Practice WPR in Canvas!
+- Kahoots (Block 1 & Block 2) <!-- TODO: link -->
+- ChatGPT [can go wrong sometimes](https://chatgpt.com/share/a329b032-7e1d-4568-be40-9227de866a8b)
+    - often overly complex programs
+
+### Center for Enhanced Performance (CEP) study session
+- 16OCT 2000-2130
+
+
+# Practice Quiz! {timing=0}
+
+## What is the output?
+
+```python
+def doubler(num):
+    num = num * 2
+    print(num)
+
+def main():
+    num2 = doubler(2)
+    print(num2)
+
+main()
+```
+
+::: {.notes}
+```
+4
+None
+```
+:::
+
+## What is the output?
+
+```python
+def doubler(num):
+    num = num * 2
+    return num
+
+def main():
+    doubler(2)
+    print(num)
+
+main()
+```
+
+::: {.notes}
+Error
+:::
+
+## What is the output?
+
+```python
+x = 5
+
+def doubler(x):
+    print(x*2)
+
+def main():
+    doubler(10)
+
+main()
+```
+
+::: {.notes}
+20
+:::
+
+## Given the following function {timing=120}
+
+```python
+def water_level(inches):
+    if inches < 12:
+        return "Low"
+    elif inches < 24:
+        return "Medium"
+    else:
+        return "High"
+    return "Flooded!"
+```
+
+::: {.incremental}
+- What is the return value of: `water_level(15)`
+- What is the return value of: `water_level(30)`
+- Can the function return more than one value?
+- Can the function return "Flooded!"?
+:::
+
+::: {.notes}
+```
+Medium
+High
+No
+No
+```
+:::
+
+
+## Which of the following are true? {timing=120}
+
+```python
+def countdown(x):
+    while x > 0:
+        print(x)
+        x -= 1
+    return "Blastoff!"
+
+def main():
+    print(countdown(5))
+
+main()
+```
+
+A) This program contains an example of indefinite iteration.
+A) This program contains an example of definite iteration.
+A) The variable `x` starts out with the value 5.
+A) The loop body executes only 3 times.
+A) The function `countdown` is a fruitful function.
+A) The variable `x` has a global scope.
+
+::: {.notes}
+B, C, E
+:::
+
+## Which of the following are true? {timing=120}
+
+```python
+for i in range(2, 10, 3):
+    print(i)
+```
+
+### The loop...
+A) starts with `i = 2`
+A) prints numbers up to and including `9`.
+A) increments `i` by `3` each iteration.
+A) iterates `4` times.
+A) prints `8` as the final value.
+A) is an example of indefinite iteration.
+
+::: {.notes}
+A, C, E
+:::
+
+## Which of the following are true? {timing=180}
+
+```python
+def check_password():
+    password = ""
+    while password != "OpenSesame":
+        password = input("What is the password? ")
+    return "Access granted!"
+
+def main():
+    result = check_password()
+    print(result)
+
+main()
+```
+
+A) The function `check_password` is a fruitful function.
+A) The loop body executes at least once.
+A) The function `check_password` is an example of definite iteration.
+A) The variable `result` has a local scope within the `main()` function.
+
+::: {.notes}
+A, B, D
+:::
+
+## What is the output? {timing=120}
+
+```python
+def heart_rate_zone(hr):
+    if hr > 80:
+        print("Green")
+    if hr > 100:
+        print("Yellow")
+    if hr > 120:
+        print("Orange")
+    else:
+        print("Red")
+
+def main():
+    heart_rate_zone(110)
+
+main()
+```
+
+::: {.notes}
+```
+Green
+Yellow
+Red
+```
+:::
+
+
+## What is the output? {timing=60}
+
+```python
+def heart_rate_zone(hr):
+    if hr > 80:
+        print("Green")
+    elif hr > 100:
+        print("Yellow")
+    elif hr > 120:
+        print("Orange")
+    else:
+        print("Red")
+
+def main():
+    heart_rate_zone(110)
+
+main()
+```
+
+::: {.notes}
+`Green`
+:::
+
+
+## What is the output? {timing=60}
+
+```python
+def heart_rate_zone(hr):
+    if hr > 140:
+        return "Red"
+    elif hr > 120:
+        return "Orange"
+    elif hr > 100:
+        return "Yellow"
+    else:
+        return "Green"
+
+def main():
+    zone = heart_rate_zone(110)
+    print(zone)
+
+main()
+```
+
+::: {.notes}
+`Yellow`
+:::
+
+## What does the function `random.randint(1, 6)` do?
+A) Returns a random integer between 1 and 6, inclusive
+A) Returns a random float between 1 and 6
+A) Rolls a six-sided die and outputs the result
+A) Generates a random number between 1 and 5
+
+## To be considered a robot, a device must do which of the following?
+A) Have arms and/or legs
+A) Act
+A) Blink LEDs
+A) Think (Decide)
+A) Sense
+A) Display information to the user
+A) Destroy something
+A) Run on batteries
+
+## Which of the following tasks are best suited for a robot?
+
+A) Writing an essay
+A) Inspecting hazardous nuclear waste
+A) Painting a portrait
+A) Teaching a class
+
+# Practice ICEs
+
+- [9.5.3: File Input/Output: Digits of Pi](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/9/section/5)
+- [14.6.4: Conditional Statements: Leap Year](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/14/section/6)
+- [15.5.3 While Loops: TwentyQuestions](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/15/section/5)
+- [Functions: `nChooseK`](https://cy105.bhatia.dev/lessons/16-functions.html#/in-class-exercise-3-combination-count)
+- [Weekly Problem Set 5](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/41/section/1)
+- [Weekly Problem Set 6](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/42/section/1)

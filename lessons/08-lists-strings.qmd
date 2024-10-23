@@ -1,0 +1,317 @@
+---
+format: revealjs
+title: Lists and Strings
+subtitle: How sequences work
+description: How sequences work
+date: 2024-09-06
+image: /images/08/08.webp
+title-slide-attributes:
+    data-background-image: /images/08/08.webp
+    data-background-opacity: "0.3"
+---
+
+## Discussion! {timing=300}
+
+- [Pareto Principle [The 80/20 Rule Explained]](https://www.youtube.com/embed/lsGwqk_agcQ)
+- [Growth Mindset](https://www.youtube.com/embed/KUWn_TJTrnU)
+
+
+## Announcements {timing=30}
+
+- [WPS3](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/39/section/1) due 08SEP
+- [WPS4](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/40/section/1) due 15SEP
+
+![](/images/agenda-block-1.png)
+
+
+## Lesson Objectives {timing=30}
+
+- Compare, contrast and use common operations on lists and strings, such as indexing, concatenation and replication
+- Articulate which built-in functions operate on lists and strings and what they do: `len()`, `min()`, `max()`
+- Iterate through the elements in a list/string using a for loop
+- Write programs that combine string/list operators with iteration
+
+
+## Note
+
+:::: {.columns}
+::: {.column width=50%}
+- These slides are interactive.
+    - Use them as a reference
+    - Bring them up on your second monitor!
+    - Extended display -> Windows + P
+- Recommend bringing a mouse
+:::
+::: {.column width=50%}
+- ICEs are for your benefit
+    - Cannot cover them all in class
+    - Not a test! Discuss the problem and help each other.
+    - Use them to practice and get better!!
+    - Also see the solution
+:::
+::::
+
+
+## Review {timing=180}
+
+- Lists and Strings are examples of a **collection data type**
+    - Comprised of smaller pieces
+    - Both are **sequences** of elements
+    - Can be treated as a single entity or accessed in parts
+- Each individual element is assigned a unique position called an **index**
+    - Use `[index]` to access a specific element
+
+::: {.notes}
+- Think about how these compare to other data types.
+- Are these the same? `''` and `' '`
+- Can a list contain another list?
+- Can I add two strings?
+- Can I add two lists?
+:::
+
+
+## In-Class Exercise {timing=300}
+
+Write an algorithm for a program that prompts a user to enter a string. The program then should create a new version of the string where all the characters are stretched out, in other words, separated by spaces. Finally, the program should display the stretched-out string to the screen.
+
+> `Enter a string:` _`stretch armstrong`_
+>
+> `s t r e t c h   a r m s t r o n g`
+
+[zyBook: 8.7.2: ICE 2](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/8/section/7)
+
+## String Operations
+
+- Concatenation - `+`
+- Replication - `*`
+- Indexing - `[]`
+
+### Try the following in a [Python Shell](https://pyodide.org/en/stable/console.html)
+
+```python
+x = 'hello'
+y = 'world'
+x + y
+x * 3 + y * 2
+z = "West Point!"
+z[0] # see reference card, page 4, bottom-left
+z[2]
+z[-1]
+z[-2]
+```
+
+## String Iteration {timing=180}
+
+```python
+my_string = "Hello, World! This is a string."
+length = len(my_string)
+
+for char in my_string:
+    print(char)
+```
+
+- Using `len()` and `range()` to iterate over the _indices_ of a string
+
+```python
+for i in range(length):
+    char = my_string[i]
+    print(char)
+```
+
+- Iterating over every other character
+```python
+for i in range(0, length, 2):
+    print(my_string[i])
+```
+
+- Iterating in reverse
+
+```python
+for i in range(length - 1, -1, -1):
+    print(my_string[i])
+```
+
+
+## In-Class Exercise {timing=300}
+
+- [zyBook: 8.7.2: ICE 2](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/8/section/7)
+
+Implement a program that prompts a user to enter a string. The program then should create a new version of the string where all the characters are stretched out, in other words, separated by spaces. Finally, the program should display the stretched-out string to the screen.
+
+> `Enter a string:` _`stretch armstrong`_
+>
+> `s t r e t c h   a r m s t r o n g`
+
+::: {.notes}
+- Program: Stretch a String
+- Input: A string
+- Output: A string with each character separated by a space
+1. Prompt the user for a string
+2. Create a new string
+3. For each character in the original string
+    a. Add the character to the new string
+    b. Add a space to the new string
+4. Print the new string
+:::
+
+
+## Bonus: f-strings {timing=120}
+
+```python
+name = "Dan"
+age = 21
+print(f"Hello, my name is {name} and I am {age} years old.")
+
+one = 1
+two = 2
+print(f"{one} + {two} = {one + two}")
+```
+
+- [fstring.help](https://fstring.help/)
+
+
+## List Operations {timing=120}
+
+- Concatenation - `+`
+- Replication - `*`
+- Indexing - `[]`
+
+### Try the following in a [Python Shell](https://pyodide.org/en/stable/console.html)
+
+```python
+x = [1, 2, 3]
+y = [4, 5, 6]
+x + y
+x * 3
+z = [1, 2, 3, 4, 5]
+z[0], z[1], z[2], z[-1], z[-2], z[-3]
+```
+
+
+## Modifying a List {timing=120}
+
+- List items can be modified: `stuff[2] = 5`
+- Strings cannot be modified: `x[2] = 'a'`
+
+### Try the following in a [Python Shell](https://pyodide.org/en/stable/console.html)
+
+```python
+x = [1, 2, 3, 4, 5]
+x[2] = 10
+x[0] = x[1] + x[2]
+x[3] = x[4]
+x
+```
+
+
+## Modifying a List... of characters? {timing=120}
+
+```python
+snack = list("pineapple")
+snack[0] = "l"
+snack[2] = "m"
+```
+
+What is the value of `snack` now?
+
+
+## Modifying a List {timing=120}
+
+```python
+numbers = [1, 2, 3, 4, 5]
+```
+
+Which of the following code snippets successfully modifies the list so that all the elements are squared? Select all that apply.
+
+1. ```python
+   for i in numbers:
+       i ** 2
+   ```
+
+1. ```python
+   for i in range(len(numbers)):
+       numbers[i] ** 2
+   ```
+
+1. ```python
+   for i in range(len(numbers)):
+       numbers[i] = numbers[i] ** 2
+   ```
+
+::: {.notes}
+Live demo
+:::
+
+
+## Iterating through a List using `len()` and `range()` {timing=120}
+
+- A `for` loop can iterate over each _item_ in a list
+
+```python
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+for item in fruits:
+    print(item)
+```
+
+- We can also use `len()` and `range()` to iterate over the _indices_ of a list
+
+```python
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+length = len(fruits)
+for i in range(length):
+    item = fruits[i]
+    print(item)
+```
+
+::: {.notes}
+Live demo
+:::
+
+
+## In-Class Exercise {timing=300}
+
+- [zyBook: 8.7.5: ICE 5](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/8/section/7)
+- Write a program that counts displays the average length of the words in a given list.
+- Hint: Use an accumulator.
+
+> sample1 = ["A", "rose", "by", "any", "other", "name", "would", "smell", "as", "sweet"]
+>
+> The average length of words is 3.6 characters
+
+> sample1 = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+>
+> The average length of words is 7.2 characters
+
+
+## In-Class Exercise {timing=300}
+
+Write a program that first prompts the user to enter a string. Your program should then create a new string with all the characters in the input string reversed, and then display it to the user.
+
+Sample input/output:
+
+>
+> Enter a string: howitzer
+>
+> The reversed string is: retaziwoh
+>
+
+## In-Class Exercise {timing=300}
+
+Write a program that calculates the sum of all the squared values of all the items in a numeric list.
+
+For example, for the given list,
+
+```python
+a_list = [1, 2, 3, 4]
+```
+
+The program will print the value `30`, since `1 + 4 + 9 + 16 = 30`.
+
+
+## Reminders {timing=0}
+
+- Clear whiteboards and desks
+- Lower monitors; leave nothing behind
+- [WPS3](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/39/section/1) due 08SEP
+    - Reach out early!
+- Practice!

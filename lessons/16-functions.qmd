@@ -1,0 +1,313 @@
+---
+format: revealjs
+title: Writing Functions
+description: Reusable pieces of code
+date: 2024-09-30
+image: /images/16/16.webp
+title-slide-attributes:
+    data-background-image: /images/16/16.webp
+    data-background-opacity: "0.3"
+---
+
+## Announcements {timing=60 .smaller background-image="/images/16/16.webp" background-opacity=0.1}
+
+```python
+verify_bluefruit() # eyes on, hands on
+
+while missing_eye_protection:
+    try:
+        beg() or borrow() or tactically_acquire()
+        missing_eye_protection = False
+    except:
+        print("Keep trying!")
+```
+
+![](/images/agenda-block-2.png)
+
+
+## Discussion! {timing=240}
+
+- Interactive Python Notebooks!
+	- [Marimo](https://marimo.app/)
+	- [Jupyter](https://jupyter.org/)
+	- [Google Colab](https://colab.research.google.com/)
+	- [Kaggle](https://www.kaggle.com/)
+
+- Meanwhile, [trying to learn a language](https://www.instagram.com/reel/C_tdGqYRwHo)...
+
+
+## Lesson Objectives
+
+- **Explain functions** and the _advantages_ for using functions in programming
+- Identify **variable scope** in different code segments
+- Write a function that **returns a value** or values
+
+
+## What is a function? {timing=120}
+
+:::: {.columns}
+::: {.column width=50%}
+- statements that belong together
+- perform a specific task
+- take _arguments_; _return_ output
+- can be reused multiple times
+
+### But why?
+- **Reusability**: write once, use many times
+- **Modularity**: break down complex problems into smaller, manageable parts
+- **Readability**: easier to understand
+- **Scoping**: variables stay within function
+:::
+::: {.column width=50%}
+```{dot}
+//| fig-width: 750px
+digraph Fn {
+    bgcolor="transparent"
+    argument1, argument2[style=filled, fillcolor=lightgray]
+    argument1 [label="Argument 1"]
+    argument2 [label="Argument 2"]
+    Function[shape=box, style=filled, fillcolor=lightblue, label="Function"]
+    Output[style=filled, fillcolor=lightgreen]
+    argument1 -> Function;
+    argument2 -> Function;
+    Function -> Output;
+}
+```
+:::
+::::
+
+## Types of Functions
+
+:::: {.columns}
+::: {.column width=50%}
+### Fruitful functions
+- Functions that return a value
+- Perform calculations
+- Example: `int()`, `math.sqrt()`
+- You can write your own!
+:::
+::: {.column width=50%}
+### Procedures
+- Do not return a value
+- Perform a series of actions
+- Example: `print()`, `list.append()`
+- You can write your own!
+:::
+::::
+
+## Defining functions {timing=120}
+
+:::: {.columns}
+::: {.column width=40%}
+- Header
+    - begins with `def`, ends with `:`
+    - name, just like a variable
+    - arguments
+- Body = code block
+    - one or more Python statements
+    - indented the same amount!!
+- `return` = what is generated
+    - immediately **exits** the function
+:::
+::: {.column width=60%}
+```{.python code-line-numbers="|1|2-7|3,6,7"}
+def is_prime(n): # <1>
+    if n < 2:
+        return False # <2>
+    for i in range(2, n):
+        if n % i == 0:
+            return False # <3>
+    return True # <4>
+```
+1. Function header
+2. First `return` statement based on a condition
+3. Second `return` statement within a loop based on another condition
+4. Final `return` statement only reached if no other conditions are met
+
+```{dot}
+//| fig-width: 940px
+//| fig-height: 200px
+{{< include /images/16/is_prime.dot >}}
+```
+:::
+::::
+
+
+## Using functions {timing=120}
+
+:::: {.columns}
+::: {.column width=45%}
+1. **Call** or **invoke** the function
+1. Pass input as **arguments**
+1. Capture **returned value** in a variable
+:::
+::: {.column width=55%}
+```{.python}
+n = 121
+root = math.sqrt(n) # <1>
+prime = is_prime(root) # <2>
+
+print(f"Square root of {n} is {root}") # <3>
+
+if prime:
+    print(f"and {root} is prime!") # <4>
+```
+1. `math.sqrt()` from the `math` module
+2. `is_prime()` function that we just defined
+3. built-in `print()` function
+4. built-in `print()` function
+:::
+::::
+
+
+## Example: Is Prime Number? {timing=180}
+
+:::: {.columns}
+::: {.column width=70%}
+<iframe width=100% height=480 style='margin-bottom: 0' src="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4wAM6YwKEHlUF19k5BrlYEcAA8cABMgcFxUHgwAK5QYQBiiMZueHAAxARJIABGxG5wxnhuZfSIYVFwyDkEEPBeoHgOcXAW0K6uYSQE+KpRADRw-rFdTsChcACkfYzMbFPTwQnJqXAZWR3TmylhACpQSftOh9uq7p7eeKOaGLoyhiZmLja3bT4BnY4uJDAAh2f7BNoEGCqCwsACSZV4cB+eAA-HAAN7fe6qXjqAC+LE00whUJh8OiSPuaMxHmRI3xhLBQRJ0LhZQAbJT2tSse1VOyGUSuiyyQjEciebTseJBRggkCQULHFcwqoFY8tLNrJgCIgfNgmMwWNgFdgWGs9Bwzoq0EA"></iframe>
+:::
+::: {.column width=30%}
+- [Notebook](https://marimo.app/#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4wAM6YwKEHlUF19k5BrlYEcAA8cABMgcFxUHgwAK5QYQBiiMZueHAAxARJIABGxG5wxnhuZfSIYVFwyDkEEPBeoHgOcXAW0K6uYSQE+KpRADRw-rFdTsChcACkfYzMbFPTwQnJqXAZWR3TmylhACpQSftOh9uq7p7eeKOaGLoyhiZmLja3bT4BnY4uJDAAh2f7BNoEGCqCwsACSZV4cB+eAA-HAAN7fe6qXjqAC+LE00whUJh8OiSPuaMxHmRI3xhLBQRJ0LhZQAbJT2tSse1VOyGUSuiyyQjEciebTseJBRggkCQULHFcwqoFY8tLNrJgCIgfNgmMwWNgFdgWGs9Bwzoq0EA)
+- `is_prime()` repeated
+- How does it work?
+:::
+::::
+
+```{dot}
+//| fig-width: 1600px
+//| fig-height: 340px
+{{< include /images/16/is_prime.dot >}}
+```
+
+
+## Variable Scope {timing=180}
+
+:::: {.columns}
+::: {.column width=60%}
+- **Scope**: where a variable is accessible
+- **Local variables**: declared inside a function
+    - What happens within a function...
+- **Global variables**: declared outside a function
+    - Use `global` keyword to access it
+    - avoid this!
+- `main()` function provides a context
+    - keeps your variables local and code organized
+:::
+::: {.column width=40%}
+```{.python}
+def pow(b, p):
+    y = b**p # <1>
+    return y
+
+def square(x):
+    a = pow(x, 2) # <2>
+    return a
+
+def main():
+    a = 7 # <3>
+    b = 11 # <4>
+    p = square(a) # <5>
+    print(a, b, p, y) # <6>
+```
+1. `y` defined in `pow()`
+2. `a` defined in `square()`
+3. unrelated to the `a` in `square()`
+4. unrelated to the `b` in `pow()`
+5. this `p` does not affect `pow()` or `square()`
+6. `y` is not defined in this scope!
+:::
+::::
+
+
+## Example: Exponents {timing=180}
+
+:::: {.columns}
+::: {.column width=70%}
+<iframe width=100% height=800 style='margin-bottom: 0' src="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4kKqoBGAGlfr7TgLgATzkPACowsAdAxyg8GABXKAJg6Nj4pJTVNy9NDF0ZQxMzFxs3PzTnPCsAZwBHBOQ8VQAPCpjHRDk3Vp8AJk0OuDjE5LhESpHMuFV6xrjcrQL9I1NzautMWYam9qcXAwSPZrb-Dq7mFrgwuDmm1sGOqbGJgOesw+PF-L0itdKtp88D4gntHC4kMACHZKgELnAAOywpweOTiZGOWTMIGqRCPGJgFAEGC4nzeVwgvIBSHQ-HDDJjVQ075oYBWbAERAgPDYJjMFjYGnYFhnTqFKAJWloIA"></iframe>
+:::
+::: {.column width=30%}
+- [Notebook](https://marimo.app/#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4kKqoBGAGlfr7TgLgATzkPACowsAdAxyg8GABXKAJg6Nj4pJTVNy9NDF0ZQxMzFxs3PzTnPCsAZwBHBOQ8VQAPCpjHRDk3Vp8AJk0OuDjE5LhESpHMuFV6xrjcrQL9I1NzautMWYam9qcXAwSPZrb-Dq7mFrgwuDmm1sGOqbGJgOesw+PF-L0itdKtp88D4gntHC4kMACHZKgELnAAOywpweOTiZGOWTMIGqRCPGJgFAEGC4nzeVwgvIBSHQ-HDDJjVQ075oYBWbAERAgPDYJjMFjYGnYFhnTqFKAJWloIA)
+- What is broken?
+- Why?
+:::
+::::
+
+
+## In-Class Exercise 1: Code Tracing {timing=180}
+
+:::: {.columns}
+::: {.column width=70%}
+<iframe width=100% height=480 style='margin-bottom: 0' src="https://pythontutor.com/iframe-embed.html#code=def%20is_prime%28n%29%3A%0A%20%20%20%20if%20n%20%3C%202%3A%0A%20%20%20%20%20%20%20%20return%20False%20%23numbers%20less%20than%202%20are%20not%20prime%0A%20%20%20%20for%20i%20in%20range%282,%20n%29%3A%0A%20%20%20%20%20%20%20%20if%20n%20%25%20i%20%3D%3D%200%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20False%0A%20%20%20%20return%20True%0A%0Aprint%28%22Is%201%20prime%3F%22,%20is_prime%281%29%29%0Aprint%28%22Is%202%20prime%3F%22,%20is_prime%282%29%29%0Aprint%28%22Is%206%20prime%3F%22,%20is_prime%286%29%29%0Aprint%28%22Is%2011%20prime%3F%22,%20is_prime%2811%29%29&codeDivHeight=480&codeDivWidth=600&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"></iframe>
+:::
+::: {.column width=30%}
+- [Python Tutor](https://pythontutor.com/render.html#code=def%20is_prime%28n%29%3A%0A%20%20%20%20if%20n%20%3C%202%3A%0A%20%20%20%20%20%20%20%20return%20False%20%23numbers%20less%20than%202%20are%20not%20prime%0A%20%20%20%20for%20i%20in%20range%282,%20n%29%3A%0A%20%20%20%20%20%20%20%20if%20n%20%25%20i%20%3D%3D%200%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20False%0A%20%20%20%20return%20True%0A%0Aprint%28%22Is%201%20prime%3F%22,%20is_prime%281%29%29%0Aprint%28%22Is%202%20prime%3F%22,%20is_prime%282%29%29%0Aprint%28%22Is%206%20prime%3F%22,%20is_prime%286%29%29%0Aprint%28%22Is%2011%20prime%3F%22,%20is_prime%2811%29%29&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
+- Trace the flow!
+- Use the flowchart below.
+:::
+::::
+
+```{dot}
+//| fig-width: 1600px
+//| fig-height: 340px
+{{< include /images/16/is_prime.dot >}}
+```
+
+## In-Class Exercise 2: Factorial {timing=900}
+
+:::: {.columns}
+::: {.column width=70%}
+<iframe width=100% height=800 src="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4FxAZjRgiY6oLr7BydggGI4QjIoOABPCABXKIMIYTg6YjwMYOCoPBgEgjg2IMccvKgC1TcPLx8AGk0MXRlDEzMXGyrPFB8A4uc8KyRgAjs+4ItoOALhuABtACZauABmJYBWJYB2AF17LP24MBQCGEqWABU013cu72M4CCsAbwIAXzhgAGdbOCfOmt8-leLAawSGI002Vy+TgqnB9S0wCs2AIiBAeGwTGYLGw4OwLD2Tj0HCgcQhaCAA"></iframe>
+:::
+::: {.column width=30%}
+- [Notebook](https://marimo.app/#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4FxAZjRgiY6oLr7BydggGI4QjIoOABPCABXKIMIYTg6YjwMYOCoPBgEgjg2IMccvKgC1TcPLx8AGk0MXRlDEzMXGyrPFB8A4uc8KyRgAjs+4ItoOALhuABtACZauABmJYBWJYB2AF17LP24MBQCGEqWABU013cu72M4CCsAbwIAXzhgAGdbOCfOmt8-leLAawSGI002Vy+TgqnB9S0wCs2AIiBAeGwTGYLGw4OwLD2Tj0HCgcQhaCAA)
+- Update `factorial()`
+:::
+::::
+
+## In-Class Exercise 3: [Combination Count](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/16/section/5) {timing=600}
+
+${}^nC_k$ denotes the number of ways to choose $k$ items from a set of $n$ items. For example, if you have red, green, blue, and yellow marbles and you want to choose two of them, there are six possible combinations: red-green, red-blue, red-yellow, green-blue, green-yellow, and blue-yellow.
+
+${}^nC_k$ is calculated using the formula:
+
+$${}^nC_k = \frac{n!}{k!(n-k)!}$$
+
+Write a function `n_choose_k()` that takes two integers, `n` and `k` as its two parameters. Your function should return the value of ${}^nC_k$.
+
+- [Notebook](https://marimo.app/#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4FxAZjRgiY6oLr7BydggGI4QjIoOABPCABXKIMIYTg6YjwMYOCoPBgEgjg2IMccvKgC1TcPLx8AGk0MXRlDEzMXGwDi5zwrAkwDOggIAGc8TABrP1q4cc6u0PCCSJj4xOS8VPTMrJLc-MKu0v2-fsGRsfH6rSb9I1NzHutME4Gh0YnO4JckYAI7eacFmgcAKvzgAG1xNNeABmaEAdmhAE4ALr2HY7IFRcZwMHggBM0zhcAArNN4WiARinAAPOR9V7nCZTGaaanUunMX4wVQ09SOMIDRAEfCuYwQUhwTy4pZU9lgFBLSosLEguQAbwIAF84MLyDMNeMtdNYnE4Ph4OqaVqWA0uj8-mynEdynBVA6rhhgFZsARECAxpgmMwWNgHdgWOinHoOFA4o60EA)
+
+- Hint: Use the `factorial()` function that you just wrote!
+
+::: {.notes}
+[Solution](https://marimo.app/#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4FxAZjRgiY6oLr7JyC4YCsCOAA+OF5A4LioPBgAVyhw8IAqV3dPFB8-OAFozTjHEwBnPFiSpwTk1OiHGsSU8NU3Dy8fABpNDF0ZQxMzFxt2nO9jAMbHFwJMAzoICArMAGs-LrhVqeralqyO3N9-OAB6ODbszt9tuEyx6-zC7eKmuta5haWV1Z6tfv0RlM5jwVhsn0Wyzwax2ThcSGABDs02CFmgcHCiLgAG1xJteABmfEAdnxAE4ALpVaqudGrELhbEAJk2RLgAFZNsSqSiaU4AB5yCHfaHrAibba8vlwQXMREwVT89SOADEcAWiAI+FcxggpDgngZMClfLAKAICosLDRUAxcgA3gQAL5wTXkLYO1ZOzYATwgSTg+Hg9v5TpYvRRCKRr0ce3qqijfwwoWsmAIiBA0MwTGYLGwUewLGpeg4UCS0bQQA)
+:::
+
+## Reminders
+
+:::: {.columns}
+::: {.column width=70%}
+```{.python}
+for whiteboard in whiteboards:
+    erase(whiteboard)
+
+verify_bluefruit() # eyes on, hands on
+
+while missing_eye_protection:
+    try:
+        beg() or borrow() or tactically_acquire()
+        missing_eye_protection = False
+    except:
+        print("Keep trying!")
+
+while not cadet_is_expert:
+    practice('zyBook ICEs')
+```
+:::
+::: {.column width=30%}
+### Next Lesson
+- Programming Lab
+    - Choose your own adventure!
+    - Come prepared with questions!
+- WPS due on Sunday!
+:::
+::::
