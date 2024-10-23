@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <link href="..//images/favicon_0.ico" rel="icon">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -507,7 +508,7 @@ CPT Sonny Bhatia
 <li>Indentation is how Python knows what is inside the loop</li>
 <li>Indentation is 4 spaces or a tab - be consistent!</li>
 </ul>
-<div class="sourceCode" id="cb1" data-code-line-numbers="|5-7"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="kw">def</span> main():</span>
+<div class="sourceCode" id="cb1" data-code-line-numbers="|5-7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="kw">def</span> main():</span>
 <span id="cb1-2"><a></a>    total  <span class="op">=</span> <span class="dv">0</span></span>
 <span id="cb1-3"><a></a>    n <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Enter a value for n: "</span>))</span>
 <span id="cb1-4"><a></a>    <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(n<span class="op">+</span><span class="dv">1</span>):</span>
@@ -516,7 +517,7 @@ CPT Sonny Bhatia
 <span id="cb1-7"><a></a>        total <span class="op">=</span> total <span class="op">+</span> y_squared</span>
 <span id="cb1-8"><a></a>    <span class="bu">print</span>(<span class="st">"The final sum is"</span>, total)</span>
 <span id="cb1-9"><a></a></span>
-<span id="cb1-10"><a></a>main()</span></code></pre></div>
+<span id="cb1-10"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="the-for-loop" class="slide level2 center">
 <h2>The <code>for</code> Loop</h2>
@@ -531,7 +532,7 @@ CPT Sonny Bhatia
 </ul></li>
 </ul>
 </div><div class="column" style="width:50%;">
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="co">"""</span></span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="co">"""</span></span>
 <span id="cb2-2"><a></a><span class="co">Program: Squares of natural numbers</span></span>
 <span id="cb2-3"><a></a><span class="co">Input: List of natural numbers</span></span>
 <span id="cb2-4"><a></a><span class="co">Output: Squares of each number</span></span>
@@ -542,7 +543,7 @@ CPT Sonny Bhatia
 <span id="cb2-9"><a></a>      square <span class="op">=</span> x<span class="op">**</span><span class="dv">2</span></span>
 <span id="cb2-10"><a></a>      <span class="bu">print</span>(<span class="st">"The square of"</span>, x, <span class="st">"is"</span>, square)</span>
 <span id="cb2-11"><a></a></span>
-<span id="cb2-12"><a></a>main()</span></code></pre></div>
+<span id="cb2-12"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 </section>
 <section id="examples" class="slide level2 center">
@@ -573,14 +574,14 @@ CPT Sonny Bhatia
 </section>
 <section id="more-loops" class="slide level2 center">
 <h2>More Loops</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="st">"A"</span>, <span class="st">"B"</span>, <span class="st">"C"</span>]:</span>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="st">"A"</span>, <span class="st">"B"</span>, <span class="st">"C"</span>]:</span>
 <span id="cb3-2"><a></a>    <span class="bu">print</span>(i)</span>
 <span id="cb3-3"><a></a></span>
 <span id="cb3-4"><a></a><span class="cf">for</span> letter <span class="kw">in</span> <span class="st">"California"</span>:</span>
 <span id="cb3-5"><a></a>    <span class="bu">print</span>(letter)</span>
 <span id="cb3-6"><a></a></span>
 <span id="cb3-7"><a></a><span class="cf">for</span> value <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>):</span>
-<span id="cb3-8"><a></a>    <span class="bu">print</span>(value)</span></code></pre></div>
+<span id="cb3-8"><a></a>    <span class="bu">print</span>(value)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="in-class-exercise-1" class="slide level2 center" data-timing="600">
 <h2>In-Class Exercise 1</h2>
@@ -589,12 +590,12 @@ CPT Sonny Bhatia
 <li>Display the results in this format: “CDT Anderson is assigned to company B4”</li>
 <li>You must use a for loop to iterate through each element in the list.</li>
 </ol>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="kw">def</span> main():</span>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="kw">def</span> main():</span>
 <span id="cb4-2"><a></a>  <span class="co"># Here is the list of cadet names</span></span>
 <span id="cb4-3"><a></a>  newCadetNames <span class="op">=</span> [<span class="st">'Anderson'</span>, <span class="st">'Kim'</span>, <span class="st">'Thornton'</span>, <span class="st">'Kofford'</span>, <span class="st">'Palau'</span>, <span class="st">'Traeger'</span>, <span class="st">'Yao'</span>]</span>
 <span id="cb4-4"><a></a>  <span class="co"># Your code goes here</span></span>
 <span id="cb4-5"><a></a></span>
-<span id="cb4-6"><a></a>main()</span></code></pre></div>
+<span id="cb4-6"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/7/section/6">zyBook 7.6.7: ICE 8</a></p>
 </section>
 <section id="range-function" class="slide level2 center">
@@ -602,11 +603,11 @@ CPT Sonny Bhatia
 <ul>
 <li>Generates a sequence of values and is commonlyused in a for loop</li>
 </ul>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="bu">range</span>(start, stop, step)</span>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="bu">range</span>(start, stop, step)</span>
 <span id="cb5-2"><a></a></span>
 <span id="cb5-3"><a></a><span class="bu">range</span>(stop)</span>
 <span id="cb5-4"><a></a></span>
-<span id="cb5-5"><a></a><span class="bu">range</span>(start, stop)</span></code></pre></div>
+<span id="cb5-5"><a></a><span class="bu">range</span>(start, stop)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><code>start</code> is optional and defaults to 0</li>
 <li><code>stop</code> is required; not inclusive</li>
@@ -618,10 +619,10 @@ CPT Sonny Bhatia
 <li><code>stop</code> is required; not inclusive</li>
 <li><code>step</code> is optional and defaults to 1</li>
 </ul>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="bu">range</span>(<span class="dv">5</span>) <span class="co"># 0, 1, 2, 3, 4</span></span>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="bu">range</span>(<span class="dv">5</span>) <span class="co"># 0, 1, 2, 3, 4</span></span>
 <span id="cb6-2"><a></a><span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">5</span>) <span class="co"># 2, 3, 4</span></span>
 <span id="cb6-3"><a></a><span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">10</span>, <span class="dv">2</span>) <span class="co"># 2, 4, 6, 8</span></span>
-<span id="cb6-4"><a></a><span class="bu">range</span>(<span class="dv">20</span>, <span class="dv">0</span>, <span class="op">-</span><span class="dv">3</span>) <span class="co"># 20, 17, 14, 11, 8, 5, 2</span></span></code></pre></div>
+<span id="cb6-4"><a></a><span class="bu">range</span>(<span class="dv">20</span>, <span class="dv">0</span>, <span class="op">-</span><span class="dv">3</span>) <span class="co"># 20, 17, 14, 11, 8, 5, 2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -639,10 +640,10 @@ CPT Sonny Bhatia
 <ul>
 <li>Using a for loop and the range function, display the mathematical cube of each of the odd integers from 3 to 11 (inclusive).</li>
 </ul>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="kw">def</span> main():</span>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="kw">def</span> main():</span>
 <span id="cb7-2"><a></a>  <span class="co"># enter code here</span></span>
 <span id="cb7-3"><a></a></span>
-<span id="cb7-4"><a></a>main()</span></code></pre></div>
+<span id="cb7-4"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/7/section/6">zyBook 7.6.3: ICE 4</a></p>
 </section>
 <section id="accumulators" class="slide level2 center">
@@ -750,7 +751,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"9f41700bf5879d09","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"2ade8be21ea81366","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -954,6 +955,69 @@ CPT Sonny Bhatia
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
       });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp("https:\/\/cy105\.bhatia\.dev\/");

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <link href="..//images/favicon_0.ico" rel="icon">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -347,24 +348,9 @@ CPT Sonny Bhatia
 <section id="discussion" class="slide level2 center" data-timing="240">
 <h2>Discussion!</h2>
 <ul>
+<li><a href="https://www.youtube.com/embed/SrGENEXocJU">Vortex Cannon vs Drone</a></li>
 <li><a href="https://www.youtube.com/embed/Z8P8Wp14na8">How Ukraine’s PAPER PLANES are Destroying Russia’s Military</a></li>
 </ul>
-<aside class="notes">
-<ul>
-<li>Feedback: What can we do better?</li>
-<li>Readings?</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
 <section>
 <section id="announcements" class="title-slide slide level1 center">
@@ -488,12 +474,23 @@ CPT Sonny Bhatia
 </section>
 <section id="the-internet" class="slide level2 center" data-timing="180" data-background-image="../images/23/Submarine-Cable-Map-2024.jpg" data-background-opacity="0.4">
 <h2>The Internet</h2>
+<h3 data-timing="120" id="distributed-packet-switched-network">Distributed Packet-Switched Network</h3>
 <div>
 <ul>
-<li class="fragment">What is the Internet? How does it work?</li>
+<li class="fragment">What is the Internet? How does it work?
+<ul>
+<li class="fragment">Distributed: No central control</li>
+<li class="fragment">Packet-Switched: Data broken into packets</li>
+</ul></li>
 <li class="fragment">What are the connections on the map?</li>
 <li class="fragment">Why not just use satellites?</li>
 <li class="fragment">How do we get the cables there? <a href="https://en.wikipedia.org/wiki/Submarine_communications_cable">When was the first?</a></li>
+<li class="fragment">What is special about this network of networks?
+<ul>
+<li class="fragment">Redundancy</li>
+<li class="fragment">Scalability</li>
+<li class="fragment">Flexibility</li>
+</ul></li>
 </ul>
 </div>
 <p>Ref: https://blog.telegeography.com/</p>
@@ -819,7 +816,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"d41adb8f1a80a8e9","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"7f08cd5c8881cebe","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -1023,6 +1020,69 @@ CPT Sonny Bhatia
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
       });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp("https:\/\/cy105\.bhatia\.dev\/");

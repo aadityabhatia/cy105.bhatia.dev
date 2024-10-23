@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <link href="..//images/favicon_0.ico" rel="icon">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -489,14 +490,14 @@ CPT Sonny Bhatia
 <li><code>if</code> ➔ <code>elif</code> ➔ <code>elif</code> ➔ <code>elif</code> ➔ <code>else</code></li>
 <li>That last <code>else</code> catches everything!</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="cf">if</span> next_lesson <span class="op">==</span> <span class="st">'lecture'</span>:</span>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="cf">if</span> next_lesson <span class="op">==</span> <span class="st">'lecture'</span>:</span>
 <span id="cb1-2"><a></a>    <span class="bu">print</span>(<span class="st">"Do the assigned reading!"</span>)</span>
 <span id="cb1-3"><a></a><span class="cf">elif</span> next_lesson <span class="op">==</span> <span class="st">'lab'</span>:</span>
 <span id="cb1-4"><a></a>    <span class="bu">print</span>(<span class="st">"Bring Bluefruit and eye protection!"</span>)</span>
 <span id="cb1-5"><a></a><span class="cf">elif</span> next_lesson <span class="op">==</span> <span class="st">'WPR'</span>:</span>
 <span id="cb1-6"><a></a>    <span class="bu">print</span>(<span class="st">"Study and practice programming!"</span>)</span>
 <span id="cb1-7"><a></a><span class="cf">else</span>:</span>
-<span id="cb1-8"><a></a>    <span class="bu">print</span>(<span class="st">"Wander around aimlessly!"</span>)</span></code></pre></div>
+<span id="cb1-8"><a></a>    <span class="bu">print</span>(<span class="st">"Wander around aimlessly!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:40%;">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -530,7 +531,7 @@ CPT Sonny Bhatia
 <h2>Nested Conditionals</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="kw">def</span> pass_planner(distance, flying):</span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="kw">def</span> pass_planner(distance, flying):</span>
 <span id="cb2-2"><a></a>    <span class="cf">if</span> distance <span class="op">&lt;=</span> <span class="dv">250</span>:</span>
 <span id="cb2-3"><a></a>        <span class="bu">print</span>(<span class="st">"You do not need a pass!"</span>)</span>
 <span id="cb2-4"><a></a>        <span class="cf">if</span> flying:</span>
@@ -547,7 +548,7 @@ CPT Sonny Bhatia
 <span id="cb2-15"><a></a>pass_planner(<span class="dv">150</span>, <span class="va">True</span>)</span>
 <span id="cb2-16"><a></a>pass_planner(<span class="dv">150</span>, <span class="va">False</span>)</span>
 <span id="cb2-17"><a></a>pass_planner(<span class="dv">500</span>, <span class="va">True</span>)</span>
-<span id="cb2-18"><a></a>pass_planner(<span class="dv">500</span>, <span class="va">False</span>)</span></code></pre></div>
+<span id="cb2-18"><a></a>pass_planner(<span class="dv">500</span>, <span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -693,11 +694,11 @@ CPT Sonny Bhatia
 </ul>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">if</span> <span class="kw">not</span> (age <span class="op">&gt;=</span> <span class="dv">17</span>):</span>
-<span id="cb3-2"><a></a>    <span class="bu">print</span>(<span class="st">"Too young to drive!"</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">if</span> <span class="kw">not</span> (age <span class="op">&gt;=</span> <span class="dv">17</span>):</span>
+<span id="cb3-2"><a></a>    <span class="bu">print</span>(<span class="st">"Too young to drive!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:50%;">
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="cf">if</span> age <span class="op">&lt;</span> <span class="dv">17</span>:</span>
-<span id="cb4-2"><a></a>    <span class="bu">print</span>(<span class="st">"Too young to drive!"</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="cf">if</span> age <span class="op">&lt;</span> <span class="dv">17</span>:</span>
+<span id="cb4-2"><a></a>    <span class="bu">print</span>(<span class="st">"Too young to drive!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 </section>
 <section id="de-morgans-laws" class="slide level2 center" data-timing="120">
@@ -706,7 +707,7 @@ CPT Sonny Bhatia
 <li><code>not (A and B)</code> is the same as <code>not A or not B</code></li>
 <li><code>not (A or B)</code> is the same as <code>not A and not B</code></li>
 </ul>
-<div class="sourceCode" id="cb5" data-code-line-numbers="|1,7"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="cf">if</span> <span class="kw">not</span> (sword_charge <span class="op">&gt;=</span> <span class="fl">0.90</span> <span class="kw">and</span> shield_energy <span class="op">&gt;=</span> <span class="dv">100</span>):</span>
+<div class="sourceCode" id="cb5" data-code-line-numbers="|1,7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="cf">if</span> <span class="kw">not</span> (sword_charge <span class="op">&gt;=</span> <span class="fl">0.90</span> <span class="kw">and</span> shield_energy <span class="op">&gt;=</span> <span class="dv">100</span>):</span>
 <span id="cb5-2"><a></a>    <span class="bu">print</span>(<span class="st">"Your attack has no effect. The dragon fries you to a crisp!"</span>)</span>
 <span id="cb5-3"><a></a><span class="cf">else</span>:</span>
 <span id="cb5-4"><a></a>    <span class="bu">print</span>(<span class="st">"The dragon crumples in a heap. You defeated the dragon!"</span>)</span>
@@ -715,11 +716,11 @@ CPT Sonny Bhatia
 <span id="cb5-7"><a></a><span class="cf">if</span> sword_charge <span class="op">&lt;</span> <span class="fl">0.90</span> <span class="kw">or</span> shield_energy <span class="op">&lt;</span> <span class="dv">100</span>:</span>
 <span id="cb5-8"><a></a>    <span class="bu">print</span>(<span class="st">"Your attack has no effect. The dragon fries you to a crisp!"</span>)</span>
 <span id="cb5-9"><a></a><span class="cf">else</span>:</span>
-<span id="cb5-10"><a></a>    <span class="bu">print</span>(<span class="st">"The dragon crumples in a heap. You defeated the dragon!"</span>)</span></code></pre></div>
+<span id="cb5-10"><a></a>    <span class="bu">print</span>(<span class="st">"The dragon crumples in a heap. You defeated the dragon!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="keeping-it-really-simple" class="slide level2 center" data-timing="120">
 <h2>Keeping it really simple</h2>
-<div class="sourceCode" id="cb6" data-code-line-numbers="|1,9,2,10|1,9,2,10,4,12|1,9,2,10,4,12,6,14"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="co"># less readable and more error-prone</span></span>
+<div class="sourceCode" id="cb6" data-code-line-numbers="|1,9,2,10|1,9,2,10,4,12|1,9,2,10,4,12,6,14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="co"># less readable and more error-prone</span></span>
 <span id="cb6-2"><a></a><span class="cf">if</span> height <span class="op">&gt;=</span> <span class="dv">48</span>:</span>
 <span id="cb6-3"><a></a>    <span class="bu">print</span>(<span class="st">"You can ride the roller coaster!"</span>)</span>
 <span id="cb6-4"><a></a><span class="cf">elif</span> height <span class="op">&gt;=</span> <span class="dv">36</span> <span class="kw">and</span> height <span class="op">&lt;</span> <span class="dv">48</span>:                <span class="co"># could height be above 48?</span></span>
@@ -733,7 +734,7 @@ CPT Sonny Bhatia
 <span id="cb6-12"><a></a><span class="cf">elif</span> height <span class="op">&gt;=</span> <span class="dv">36</span>:                            <span class="co"># height is definitely below 48</span></span>
 <span id="cb6-13"><a></a>    <span class="bu">print</span>(<span class="st">"Need adult supervision!"</span>)</span>
 <span id="cb6-14"><a></a><span class="cf">else</span>:                                        <span class="co"># same results but more readable</span></span>
-<span id="cb6-15"><a></a>    <span class="bu">print</span>(<span class="st">"Sorry, you're too short!"</span>)</span></code></pre></div>
+<span id="cb6-15"><a></a>    <span class="bu">print</span>(<span class="st">"Sorry, you're too short!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="type-of-conditional-statements" class="slide level2 center">
 <h2>Type of Conditional Statements</h2>
@@ -778,7 +779,7 @@ CPT Sonny Bhatia
 <h2>Reminders</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="cf">if</span> whiteboards_have_text:</span>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="cf">if</span> whiteboards_have_text:</span>
 <span id="cb7-2"><a></a>    erase(<span class="st">'whiteboards'</span>)</span>
 <span id="cb7-3"><a></a></span>
 <span id="cb7-4"><a></a><span class="cf">if</span> monitors_are_up:</span>
@@ -788,7 +789,7 @@ CPT Sonny Bhatia
 <span id="cb7-8"><a></a>    email(<span class="st">'your instructor'</span>)</span>
 <span id="cb7-9"><a></a></span>
 <span id="cb7-10"><a></a>read(<span class="st">'next_chapter'</span>)</span>
-<span id="cb7-11"><a></a>practice(<span class="st">'zyBook problems'</span>)</span></code></pre></div>
+<span id="cb7-11"><a></a>practice(<span class="st">'zyBook problems'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column" style="width:50%;">
 <h3 id="next-lesson">Next Lesson</h3>
 <ul>
@@ -836,7 +837,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"a0dd404f7b3d3b70","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"8d584fe7f81683be","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -1040,6 +1041,69 @@ CPT Sonny Bhatia
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
       });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp("https:\/\/cy105\.bhatia\.dev\/");

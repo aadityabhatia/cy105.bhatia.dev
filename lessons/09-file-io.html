@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <link href="..//images/favicon_0.ico" rel="icon">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -565,12 +566,12 @@ CPT Sonny Bhatia
 <li>Close the file</li>
 </ol>
 </div><div class="column" style="width:50%;">
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb1-1"><a></a>fileHandle <span class="op">=</span> <span class="bu">open</span>(<span class="st">'file.txt'</span>, <span class="st">'r'</span>)</span>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>fileHandle <span class="op">=</span> <span class="bu">open</span>(<span class="st">'file.txt'</span>, <span class="st">'r'</span>)</span>
 <span id="cb1-2"><a></a></span>
 <span id="cb1-3"><a></a><span class="cf">for</span> line <span class="kw">in</span> fileHandle:</span>
 <span id="cb1-4"><a></a>    <span class="bu">print</span>(line)</span>
 <span id="cb1-5"><a></a></span>
-<span id="cb1-6"><a></a>fileHandle.close()</span></code></pre></div>
+<span id="cb1-6"><a></a>fileHandle.close()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 </section>
 <section id="in-class-exercise-2" class="slide level2 center" data-timing="600">
@@ -583,12 +584,12 @@ CPT Sonny Bhatia
 <p>Average Grade: 79.7</p>
 </blockquote>
 </div><div class="column" style="width:50%;">
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb2-1"><a></a>fileHandle <span class="op">=</span> <span class="bu">open</span>(<span class="st">'file.txt'</span>, <span class="st">'r'</span>)</span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>fileHandle <span class="op">=</span> <span class="bu">open</span>(<span class="st">'file.txt'</span>, <span class="st">'r'</span>)</span>
 <span id="cb2-2"><a></a></span>
 <span id="cb2-3"><a></a><span class="cf">for</span> line <span class="kw">in</span> fileHandle:</span>
 <span id="cb2-4"><a></a>    <span class="bu">print</span>(line)</span>
 <span id="cb2-5"><a></a></span>
-<span id="cb2-6"><a></a>fileHandle.close()</span></code></pre></div>
+<span id="cb2-6"><a></a>fileHandle.close()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 </section>
 <section id="writing-to-a-file" class="slide level2 center">
@@ -601,7 +602,7 @@ CPT Sonny Bhatia
 <li>Close the file</li>
 </ol>
 </div><div class="column" style="width:50%;">
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb3-1"><a></a>fileHandle <span class="op">=</span> <span class="bu">open</span>(<span class="st">'file.txt'</span>, <span class="st">'w'</span>)</span>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>fileHandle <span class="op">=</span> <span class="bu">open</span>(<span class="st">'file.txt'</span>, <span class="st">'w'</span>)</span>
 <span id="cb3-2"><a></a></span>
 <span id="cb3-3"><a></a>fileHandle.write(<span class="st">'Hello, World!</span><span class="ch">\n</span><span class="st">'</span>)</span>
 <span id="cb3-4"><a></a>fileHandle.write(<span class="st">'This is my new file.</span><span class="ch">\n</span><span class="st">'</span>)</span>
@@ -609,7 +610,7 @@ CPT Sonny Bhatia
 <span id="cb3-6"><a></a>fileHandle.write(<span class="st">'and this appears on the same line.</span><span class="ch">\n</span><span class="st">'</span>)</span>
 <span id="cb3-7"><a></a>fileHandle.write(<span class="st">'Now I can end my file</span><span class="ch">\n</span><span class="st">'</span>)</span>
 <span id="cb3-8"><a></a></span>
-<span id="cb3-9"><a></a>fileHandle.close()</span></code></pre></div>
+<span id="cb3-9"><a></a>fileHandle.close()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 </section>
 <section id="in-class-exercise-3" class="slide level2 center" data-timing="480">
@@ -620,12 +621,12 @@ CPT Sonny Bhatia
 <p>Modify your program to read data from <code>AY24-2.txt</code>, compute the average and write it to <code>averages.txt</code>.</p>
 <p>Note: After you run your program, a new file called <code>averages.txt</code> should appear in your files.</p>
 </div><div class="column" style="width:50%;">
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb4-1"><a></a>fileHandle <span class="op">=</span> <span class="bu">open</span>(<span class="st">'file.txt'</span>, <span class="st">'w'</span>)</span>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>fileHandle <span class="op">=</span> <span class="bu">open</span>(<span class="st">'file.txt'</span>, <span class="st">'w'</span>)</span>
 <span id="cb4-2"><a></a></span>
 <span id="cb4-3"><a></a>fileHandle.write(<span class="st">'Hello, World!'</span>)</span>
 <span id="cb4-4"><a></a>fileHandle.write(<span class="st">'This is a file.'</span>)</span>
 <span id="cb4-5"><a></a></span>
-<span id="cb4-6"><a></a>fileHandle.close()</span></code></pre></div>
+<span id="cb4-6"><a></a>fileHandle.close()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 </section>
 <section id="other-useful-file-io-methods" class="slide level2 center">
@@ -714,7 +715,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"444400350fb35d40","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"dd34def9fd8a87b6","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -918,6 +919,69 @@ CPT Sonny Bhatia
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
       });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp("https:\/\/cy105\.bhatia\.dev\/");

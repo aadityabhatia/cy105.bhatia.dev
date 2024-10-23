@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="CPT Sonny Bhatia">
-  <title>CY105 – Built-in Functions</title>
+  <title>CY105 – World Wide Web</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -387,18 +387,18 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Built-in Functions – CY105">
-<meta property="og:description" content="Doing more with Python">
-<meta property="og:image" content="https://cy105.bhatia.dev//images/06/06.webp">
+<meta property="og:title" content="World Wide Web – CY105">
+<meta property="og:description" content="How the Internet really works">
+<meta property="og:image" content="https://cy105.bhatia.dev//images/24/24.webp">
 <meta property="og:site_name" content="CY105">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../images/06/06.webp" data-background-opacity="0.3" class="quarto-title-block center">
-  <h1 class="title">Built-in Functions</h1>
-  <p class="subtitle">Doing more with Python</p>
+<section id="title-slide" data-background-image="../images/24/24.webp" data-background-opacity="0.3" class="quarto-title-block center">
+  <h1 class="title">World Wide Web</h1>
+  <p class="subtitle">How the Internet really works</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -408,260 +408,517 @@ CPT Sonny Bhatia
 </div>
 </div>
 
-  <p class="date">Friday, August 30, 2024</p>
+  <p class="date">Wednesday, October 23, 2024</p>
 </section>
-<section id="discussion" class="slide level2 center" data-timing="270">
-<h2>Discussion!</h2>
+<section id="discussion" class="slide level2 center" data-background-image="../images/24/24.webp" data-background-opacity="0.2">
+<h2>Discussion</h2>
 <ul>
-<li>ChatGPT!</li>
+<li>What questions do you have about the Internet and the World Wide Web?</li>
 </ul>
 </section>
-<section id="lesson-objectives" class="slide level2 center" data-timing="30">
+<section id="announcements" class="slide level2 center">
+<h2>Announcements</h2>
+<ul>
+<li><a href="https://westpoint.instructure.com/courses/7068/assignments/160502">AI Summative Project</a>
+<ul>
+<li><a href="https://westpoint.instructure.com/courses/7068/assignments/160503">Project Proposal</a> due 12NOV</li>
+</ul></li>
+<li><a href="https://westpoint.instructure.com/courses/7068/assignments/160507">Digital Footprint Audit</a> due 27OCT</li>
+</ul>
+
+<img data-src="../images/agenda-block-3.png" class="r-stretch"></section>
+<section id="lesson-objectives" class="slide level2 center" data-background-image="../images/24/24.webp" data-background-opacity="0.2">
 <h2>Lesson Objectives</h2>
 <ul>
-<li>Understand the purpose of built-in functions in the Python language.</li>
-<li>Articulate the difference between procedures (non-fruitful functions) and fruitful functions.</li>
-<li>Illustrate how to use the assignment operator to store the result of a built-in function in a variable.</li>
-<li>Articulate what arguments are, and how to use them in the context of built-in functions.</li>
-<li>Use built-in functions to write Python code.</li>
+<li>Articulate the different layers of the web
+<ul>
+<li>and which ones are accessible by search engines​</li>
+</ul></li>
+<li>Define and identify the purpose of <strong>URLs</strong> and <strong>Browsers​</strong>.</li>
+<li>Define and identify the purpose of <strong>HTTP</strong>, <strong>TLS</strong>, <strong>DNS</strong>.​</li>
+<li>Explain how users access data across the web
+<ul>
+<li>how it relates to Network layers and protocols.</li>
+</ul></li>
+<li>Summarize how HTTP provides access to web content
+<ul>
+<li>purpose of <strong>HTML</strong>, <strong>CSS</strong>, &amp; <strong>JavaScript​</strong></li>
+</ul></li>
 </ul>
 </section>
-<section id="check-on-learning" class="slide level2 center" data-timing="180">
-<h2>Check on Learning</h2>
+<section id="in-class-exercise-1" class="slide level2 center" data-timing="300" data-background-image="../images/24/24.webp" data-background-opacity="0.2">
+<h2>In-Class Exercise 1</h2>
+<ol type="1">
+<li>Create a new folder. Copy the following code into a new file. Save it as <code>first.html</code> in that new folder.</li>
+</ol>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="dt">&gt;</span></span>
+<span id="cb1-2"><a></a>    <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb1-3"><a></a>        This is my first website!</span>
+<span id="cb1-4"><a></a>    <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb1-5"><a></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="2" type="1">
+<li>Double click on the file to open it in a browser.</li>
+<li>Change the text in the body to something else. Save the file and refresh the browser.</li>
+<li>Add the following code inside the <code>&lt;body&gt;</code> tags. Save and refresh.</li>
+</ol>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb2-1"><a></a><span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span>CY105 rocks!<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="search-engines" class="slide level2 center">
+<h2>Search Engines</h2>
 <div>
 <ul>
-<li class="fragment">What is a function?
-<ul>
-<li class="fragment">Is it fruitful?</li>
-</ul></li>
-<li class="fragment">What is a procedure?
-<ul>
-<li class="fragment">Is it fruitful?</li>
-</ul></li>
-<li class="fragment">What can a function return?</li>
-<li class="fragment">What is a built-in function?</li>
-<li class="fragment">What is an argument?</li>
+<li class="fragment">What is a search engine?</li>
+<li class="fragment">Where does it get its information? <sup>1</sup></li>
+<li class="fragment">How does it decide what to show? <sup>2</sup></li>
+<li class="fragment">How often is the search index updated?</li>
+<li class="fragment">Can I control what a search engine sees? <sup>3</sup></li>
+<li class="fragment">How much of the web does a search engine see?</li>
 </ul>
 </div>
+<aside><ol class="aside-footnotes"><li id="fn1"><p><a href="https://www.cloudflare.com/learning/bots/what-is-a-web-crawler/"><em>Spiders</em></a> build the world wide web by crawling through hyperlinks and building an index of what they find​</p></li><li id="fn2"><p><a href="https://en.wikipedia.org/wiki/PageRank">PageRank</a></p></li><li id="fn3"><p><a href="https://en.wikipedia.org/wiki/Robots.txt">robots.txt</a></p></li></ol></aside></section>
+<section id="deep-web" class="slide level2 center">
+<h2>Deep Web</h2>
+<ul>
+<li>Private, unlinked, or hidden</li>
+<li>Hidden behind login pages</li>
+<li>Unlinked, excluded by <a href="https://en.wikipedia.org/wiki/Robots.txt">robots.txt</a></li>
+<li>Search engines <em>cannot</em> see this!</li>
+</ul>
+<h3 class="fragment" id="examples">Examples?</h3>
+<aside class="notes">
+<ul>
+<li>Medical records</li>
+<li>Legal documents</li>
+<li>Proprietary information</li>
+<li>IRS tax information</li>
+<li>CIS</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="pizza-program" class="slide level2 center" data-timing="600">
-<h2>Pizza Program</h2>
-<p>Suppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.</p>
-<p>Write a program that accomplishes this task!</p>
+<section id="dark-web" class="slide level2 center">
+<h2>Dark Web</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li>Anonymizing protocols
+<ul>
+<li>Unusual routing techniques</li>
+<li>Lots of Encryption</li>
+</ul></li>
+<li>I2P, Freenet, ZeroNet, GNUnet</li>
+<li>Commonly accessed using The Onion Router (TOR) browser</li>
+<li>Extensively used for <strong>illegal</strong> activities</li>
+</ul>
+<h3 id="do-not-try-this-yourself">Do <strong>not</strong> try this yourself!</h3>
+</div><div class="column" style="width:45%;">
+<p><img data-src="../images/24/dark-web-iceberg.jpg"></p>
+</div></div>
+<aside class="notes">
+<ul>
+<li>Black market trading</li>
+<li>Counterfeiting</li>
+<li>Drug trafficking</li>
+<li>Human trafficking</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="in-class-exercise-2" class="slide level2 center" data-timing="300" data-background-image="../images/24/24.webp" data-background-opacity="0.2">
+<h2>In-Class Exercise 2</h2>
 <ol type="1">
-<li>Ask the user for their name.</li>
-<li>Print out hello followed by their name.</li>
-<li>Ask how many slices of pizza they want.</li>
-<li>Multiply quantity by the cost (2.50).</li>
-<li>Print total to the screen.</li>
+<li>Add the following to the <code>&lt;body&gt;</code> of your <code>first.html</code> file:</li>
 </ol>
-<p>Use <a href="https://notepad-plus-plus.org/">Notepad++</a> or <a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/6/section/5">zyBook IDE</a>.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb3-1"><a></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://en.wikipedia.org/"</span><span class="dt">&gt;</span>Wikipedia<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="2" type="1">
+<li><p>Save and refresh the browser.</p></li>
+<li><p>Download <a href="img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/ArmyWestPointAthenaShield.png'">this image</a> to your website directory.</p></li>
+<li><p>Add to the <code>&lt;body&gt;</code>:</p></li>
+</ol>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb4-1"><a></a><span class="dt">&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">'https://upload.wikimedia.org/wikipedia/commons/6/6b/ArmyWestPointAthenaShield.png'</span><span class="ot"> height</span><span class="op">=</span><span class="st">"20%"</span><span class="ot"> </span><span class="dt">/&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="5" type="1">
+<li>Save and refresh the browser.</li>
+</ol>
 </section>
-<section id="will-this-work" class="slide level2 center" data-timing="180">
-<h2>Will this work?</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="co">"""</span></span>
-<span id="cb1-2"><a></a><span class="co">program: pizza checkout</span></span>
-<span id="cb1-3"><a></a><span class="co">input: name, slices</span></span>
-<span id="cb1-4"><a></a><span class="co">output: total amount of money they owe</span></span>
-<span id="cb1-5"><a></a><span class="co">"""</span></span>
-<span id="cb1-6"><a></a></span>
-<span id="cb1-7"><a></a><span class="kw">def</span> main():</span>
-<span id="cb1-8"><a></a>    name <span class="op">=</span> <span class="bu">input</span>(<span class="st">"What is your name? "</span>)  <span class="co"># ask the user for their name</span></span>
-<span id="cb1-9"><a></a>    <span class="bu">print</span>(<span class="st">"Hello"</span>, name)  <span class="co"># greet the user</span></span>
-<span id="cb1-10"><a></a>    slices <span class="op">=</span> <span class="bu">input</span>(<span class="st">"How many slices of pizza do you want? "</span>)  <span class="co"># get user input</span></span>
-<span id="cb1-11"><a></a>    total <span class="op">=</span> slices <span class="op">*</span> <span class="fl">2.50</span>  <span class="co"># multiply quantity by the cost</span></span>
-<span id="cb1-12"><a></a>    <span class="bu">print</span>(<span class="st">"The total is"</span>, total) <span class="co"># print the total amount</span></span>
-<span id="cb1-13"><a></a></span>
-<span id="cb1-14"><a></a>main()  <span class="co"># call the function</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="functions" class="slide level2 center" data-timing="120">
-<h2>Functions</h2>
+<section id="world-wide-web" class="slide level2 center" data-background-image="../images/24/www-docs.webp" data-background-opacity="0.2">
+<h2>World Wide Web</h2>
+<div>
 <ul>
-<li>organize code into reusable blocks</li>
-<li>transforms some input (X) to some output (Y)</li>
+<li class="fragment">What is it? <sup>1</sup></li>
+<li class="fragment">What documents?</li>
+<li class="fragment">Is it the same as the Internet? <sup>2</sup></li>
 </ul>
-<p><span class="math display">\[f: X \rightarrow Y\]</span></p>
+</div>
+<aside><ol class="aside-footnotes"><li id="fn4"><p><a href="https://en.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a></p></li><li id="fn5"><p><a href="https://en.wikipedia.org/wiki/Internet">Internet</a></p></li></ol></aside></section>
+<section id="how-it-all-works" class="slide level2 center" data-background-image="../images/24/www-docs.webp" data-background-opacity="0.2">
+<h2>How it all works?</h2>
 <ul>
-<li>factory that takes multiple inputs and produces one thing</li>
-<li>procedures are functions that do not return anything</li>
-</ul>
-</section>
-<section id="built-in-functions" class="slide level2 center" data-timing="240">
-<h2>Built-in Functions</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>name <span class="op">=</span> <span class="bu">input</span>(<span class="st">"What is your name? "</span>)</span>
-<span id="cb2-2"><a></a><span class="bu">print</span>(<span class="st">"Hello"</span>, name)</span>
-<span id="cb2-3"><a></a><span class="bu">type</span>(name)</span>
-<span id="cb2-4"><a></a></span>
-<span id="cb2-5"><a></a><span class="bu">list</span>(<span class="st">'hello'</span>)</span>
-<span id="cb2-6"><a></a></span>
-<span id="cb2-7"><a></a>pi <span class="op">=</span> <span class="fl">3.14159</span></span>
-<span id="cb2-8"><a></a><span class="bu">round</span>(pi)</span>
-<span id="cb2-9"><a></a><span class="bu">round</span>(pi, <span class="dv">2</span>)</span>
-<span id="cb2-10"><a></a></span>
-<span id="cb2-11"><a></a>a <span class="op">=</span> [<span class="dv">17</span>, <span class="dv">23</span>, <span class="dv">11</span>, <span class="dv">29</span>, <span class="dv">37</span>, <span class="dv">13</span>]</span>
-<span id="cb2-12"><a></a><span class="bu">len</span>(a)</span>
-<span id="cb2-13"><a></a><span class="bu">max</span>(a)</span>
-<span id="cb2-14"><a></a><span class="bu">min</span>(a)</span>
-<span id="cb2-15"><a></a></span>
-<span id="cb2-16"><a></a>floor(pi)</span>
-<span id="cb2-17"><a></a>ceil(pi)</span>
-<span id="cb2-18"><a></a></span>
-<span id="cb2-19"><a></a>a <span class="op">=</span> <span class="st">"""this string</span></span>
-<span id="cb2-20"><a></a><span class="st">has multiple</span></span>
-<span id="cb2-21"><a></a><span class="st">lines.</span></span>
-<span id="cb2-22"><a></a><span class="st">What now?"""</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="debugging" class="slide level2 center">
-<h2>Debugging</h2>
+<li>Uniform Resource Locator (URL)​
 <ul>
-<li><a href="https://pythontutor.com/python-compiler.html">Python Tutor</a></li>
-<li><a href="https://black.vercel.app/">Black Code Formatter</a></li>
-<li>use <code>print()</code> to display variable values</li>
-<li>use <code>type()</code> to check the type of a variable</li>
-</ul>
-</section>
-<section id="pizza-program-2" class="slide level2 center" data-timing="300">
-<h2>Pizza Program 2</h2>
+<li>Pointer to a document on the network​ that uniquely identifies each website</li>
+</ul></li>
+<li>Browser: Firefox, Chrome, Edge
 <ul>
-<li>Modify the pizza program to account for <code>8.5%</code> tax.</li>
-<li>Prepend the total with a <code>$</code> sign.</li>
-<li>Have the dollar amount rounded to two decimal places.</li>
-</ul>
-<p>Sample Input/Output:</p>
-<blockquote>
-<p>What is your name? <code>Pikachu</code></p>
-<p>Hello Pikachu</p>
-<p>How many slices of pizza do you want? <code>3</code></p>
-<p>The total is $8.14</p>
-</blockquote>
-</section>
-<section id="how-tall-in-feet-and-inches" class="slide level2 center" data-timing="300">
-<h2>How tall in feet and inches?</h2>
-<p>Write a program that prompts a user to enter their height in inches. Your program should then display the corresponding height in feet, along with any leftover inches.</p>
-<h4 id="sample-inputoutput">Sample Input/Output:</h4>
-<div class="columns">
-<div class="column" style="width:50%;">
-<blockquote>
-<p>Enter your height in inches: <code>70</code></p>
-<p>You are 5 feet and 10 inches.</p>
-</blockquote>
-</div><div class="column" style="width:50%;">
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="kw">def</span> main():</span>
-<span id="cb3-2"><a></a>    <span class="co"># enter code here</span></span>
-<span id="cb3-3"><a></a></span>
-<span id="cb3-4"><a></a></span>
-<span id="cb3-5"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></div>
-</section>
-<section id="circle-program" class="slide level2 center" data-timing="300">
-<h2>Circle Program</h2>
-<p>Prompt the user to input the circle’s radius as a float. Compute and display the circumference and area of the circle. Assume <span class="math inline">\(\pi = 3.14\)</span>.</p>
-<p>Circumference = <span class="math inline">\(2 \pi r\)</span></p>
-<p>Area = <span class="math inline">\(\pi r^2\)</span></p>
-<h4 id="sample-inputoutput-1">Sample Input/Output:</h4>
-<div class="columns">
-<div class="column" style="width:50%;">
-<blockquote>
-<p>Enter the radius as a float: <code>4.28</code></p>
-<p>Circumference: 26.8784</p>
-<p>Area: 57.519776</p>
-</blockquote>
-</div><div class="column" style="width:50%;">
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="kw">def</span> main():</span>
-<span id="cb4-2"><a></a>    <span class="co"># enter code here</span></span>
-<span id="cb4-3"><a></a></span>
-<span id="cb4-4"><a></a></span>
-<span id="cb4-5"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></div>
-</section>
-<section id="next-lesson-for-loops" class="slide level2 center" data-timing="120">
-<h2>Next Lesson: For Loops</h2>
+<li>Application on a user’s computer that requests and displays web content</li>
+</ul></li>
+<li>Hyper Text Transfer Protocol (HTTP)​
 <ul>
-<li>Why we need loops?</li>
-<li>How to write code that repeats statements?</li>
-<li>How to use the accumulator pattern?</li>
-<li>How to use the built-in function <code>range()</code>?</li>
+<li>Protocol used to grab the contents of the file from the server</li>
+<li>Secure version: HTTPS!</li>
+</ul></li>
+<li>Hyper Text Markup Language (HTML)​
+<ul>
+<li>A document with text, images, and hyperlinks to other files on the Internet</li>
+</ul></li>
 </ul>
+<h3 class="fragment" id="how-do-you-see-html-behind-a-webpage">How do you see HTML behind a webpage?</h3>
+<aside class="notes">
+<ul>
+<li>Uniform Resource Locator (URL) – Finds that file on any computer that is on the same network&nbsp;</li>
+<li>Hyper Text Transport Protocol (HTTP) – Moves the contents of that file from the server to the client&nbsp;</li>
+<li>Browsers – Download these documents and display them in a readable format</li>
+<li>Hyper Text Markup Language (HTML) - Represent a document with hyperlinks to any file on any computer on the Internet&nbsp;</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section>
-<section id="documenting-your-work" class="title-slide slide level1 center" data-timing="0">
-<h1>Documenting your work</h1>
+<section id="uniform-resource-locator-url" class="slide level2 center">
+<h2>Uniform Resource Locator (URL)​</h2>
 
+<img data-src="../images/24/url.png" style="width:100.0%" class="r-stretch"><aside class="notes">
+<p>URLs &amp; DNS &amp; HTTP (15 mins) (slide 9) In order to link pages to one another, each webpage must have a specific address, which is called a Uniform Resource Locator (URL). The components of a URL include the web’s protocol (like HTTPS), the host (the domain you wish to talk to), and the path (the page within the domain you are looking for).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="daaw" class="slide level2 smaller center">
-<h2>DAAW</h2>
+<section id="domain-name-system-dns" class="slide level2 center" data-timing="120">
+<h2>Domain Name System (DNS)​</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p><a href="https://www.cloudflare.com/learning/dns/what-is-dns/">Directory of the Internet</a></p></li>
+<li><p>Translates domain names to IP addresses</p></li>
+<li><p>Allows us to use names instead of numbers</p></li>
+<li><p>Who controls it?</p>
+<ul>
+<li>ICANN controls <a href="https://www.cloudflare.com/learning/dns/glossary/dns-root-server/">root servers</a></li>
+<li>Registrars control top-level domains</li>
+<li>Companies control their subdomains</li>
+</ul></li>
+<li><p><a href="https://www.cloudflare.com/products/registrar/">Who can own a domain?</a></p></li>
+<li><p><a href="https://www.cloudflare.com/learning/dns/dns-server-types/">Where is this massive directory stored?</a></p></li>
+<li><p><a href="https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/">DNS encryption?</a></p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/24/how-dns-works.avif"></p>
+<figcaption>https://www.akamai.com/glossary/what-are-dns-servers</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="but-how-does-dns-really-work" class="slide level2 center" data-timing="0">
+<h2>But how does DNS really work?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ol type="1">
+<li>Browser: Where is <code>www.example.com</code>?</li>
+<li>Resolver: Who knows about <code>.com</code></li>
+<li>Root Server: Here is your TLD server’s address</li>
+<li>Resolver: Who knows about <code>example.com</code>?</li>
+<li>TLD Server: Here is the authoritative server for <code>example.com</code></li>
+<li>Resolver: IP address for <code>www.example.com</code>?</li>
+<li>Authoritative Server: <code>1.2.3.4</code></li>
+<li>Resolver: <code>1.2.3.4</code></li>
+</ol>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/24/dns.png"></p>
+<figcaption>https://www.cloudflare.com/learning/dns/what-is-dns/</figcaption>
+</figure>
+</div>
+</div></div>
+<aside class="notes">
+<p>(slide 11) When you request content from a URL, the first thing that happens is a DNS (Domain Name System) lookup, which takes the domain name from the URL as an input, and replies back with the IP address of the computer that is running the applicable web server. DNS is an example of another protocol!The DNS first looks at the root of the URL (.com, .gov, etc.), then it searches for the domain, and so on.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="hyper-text-transfer-protocol-http" class="slide level2 center" data-timing="60">
+<h2>Hyper Text Transfer Protocol (HTTP)</h2>
+
+<img data-src="../images/24/how-internet-works.webp" class="r-stretch quarto-figure-center"><p class="caption">https://medium.com/<span class="citation" data-cites="terrybmochire/what-happens-when-you-type-a-url-in-your-browser-and-press-enter-d7357a555911">@terrybmochire/what-happens-when-you-type-a-url-in-your-browser-and-press-enter-d7357a555911</span></p><aside class="notes">
+<p>(slide 14-15) A user uses the web-browser to connect to websites that are “served” by webservers. The hyper-text transfer protocol (“http” in the URLs) in conjunction with other protocols like DNS and TCP/IP help the browser communicate with a webserver. When a “client” requests the contents from a URL, the “server” sends back the HTML which is then displayed by the web browser, a program on our computer which requests the content and renders the HTML into a viewable format for the user.</p>
+<p>HTTP is exceptional insecure; it is highly recommended you always use HTTPS whenever you surf the web. In our programming lab in a few lessons you will see first-hand why.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="browser" class="slide level2 center" data-timing="120">
+<h2>Browser</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
+<h3 id="application-on-your-computer">Application on your computer</h3>
 <ol type="1">
-<li>Pick the appropriate statement.</li>
-<li>Document assistance.</li>
-<li>Initial.</li>
-<li>Sign.</li>
+<li>Takes a Uniform Resource Locator (URL)</li>
+<li>Gets a webpage from some server somewhere</li>
+<li>Makes it look pretty</li>
 </ol>
-<blockquote>
-<p>___ I CERTIFY THAT I DID NOT USE ANY SOURCES OR RECEIVE ANY ASSISTANCE REQUIRING DOCUMENTATION WHILE COMPLETING THIS ASSIGNMENT.</p>
-<p>___ I CERTIFY THAT I HAVE COMPLETELY DOCUMENTED ALL SOURCES THAT I USED TO COMPLETE THIS ASSIGNMENT AND THAT I ACKNOWLEDGED ALL ASSISTANCE I RECEIVED IN THE COMPLETION OF THIS ASSIGNMENT.</p>
-</blockquote>
-<ul>
-<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/1/section/2">zyBook</a></li>
-</ul>
 </div><div class="column" style="width:40%;">
-<p><a href="https://s3.amazonaws.com/usma-media/inline-images/centers_research/west_point_writing_program/PDF/DAAW_2023.pdf"><img data-src="../images/01/17-daaw.png"></a></p>
+<p><img data-src="../images/24/firefox.svg"></p>
 </div></div>
 </section>
-<section id="tools-available-to-us" class="slide level2 center">
-<h2>Tools Available to Us</h2>
+<section id="web-server" class="slide level2 center" data-timing="90">
+<h2>Web Server</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li>Program running on a computer</li>
+<li>Listens for requests</li>
+<li>Responds with content</li>
+</ul>
+</div><div class="column" style="width:70%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/24/Google-Data-Center.jpg"></p>
+<figcaption>Google Data Center</figcaption>
+</figure>
+</div>
+</div></div>
+<h3 class="fragment" id="can-you-run-a-web-server-in-python">Can you run a web server in Python?</h3>
+</section>
+<section id="hyper-text-markup-language" class="slide level2 center">
+<h2>Hyper Text Markup Language</h2>
+<ul>
+<li>Defines the structure and content of the webpage</li>
+<li>Developed to specify links, headers, paragraphs, images, etc.</li>
+<li>Uses tags such as <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;a&gt;</code>, <code>&lt;img&gt;</code></li>
+</ul>
+<h3 class="fragment" id="can-you-write-a-program-in-html">Can you write a program in HTML?</h3>
+</section>
+<section id="in-class-exercise-3" class="slide level2 smaller center" data-timing="300" data-background-image="../images/24/24.webp" data-background-opacity="0.2">
+<h2>In-Class Exercise 3</h2>
 <ol type="1">
-<li>MOSS – Evaluation of multiple files for degree of similarity</li>
-<li>zyLabs Similarity Checker – MOSS-like tool built into zyLabs</li>
-<li>zyLabs Playback – playback of work progression on individual files</li>
-<li>Codequiry – Compares files with each other and online sources</li>
-<li>Generative AI Tools – See sample responses to particular prompt before or after issuing assignment. Sample responses can be used in MOSS or zyLabs Similarity Checker against student submissions.</li>
+<li>Copy the following HTML code into a new file. Save it as <code>second.html</code> in the same website folder.</li>
+<li>Download the following image and save it to your website directory: <a href="https://store.thehistorylist.com/cdn/shop/products/gettysburg-address-as-a-small-poster_1946x.jpg">gettysburg-address.jpg</a></li>
+<li>Rename it to the correct name.</li>
+<li>What are these new tags? <code>&lt;h2&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code>, <code>&lt;p&gt;</code></li>
 </ol>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb5-1"><a></a><span class="dt">&lt;!DOCTYPE</span> html<span class="dt">&gt;</span></span>
+<span id="cb5-2"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="dt">&gt;</span></span>
+<span id="cb5-3"><a></a><span class="dt">&lt;</span><span class="kw">title</span><span class="dt">&gt;</span>My second website<span class="dt">&lt;/</span><span class="kw">title</span><span class="dt">&gt;</span></span>
+<span id="cb5-4"><a></a></span>
+<span id="cb5-5"><a></a><span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb5-6"><a></a>    <span class="dt">&lt;</span><span class="kw">h1</span><span class="dt">&gt;</span> The Gettysburg Address <span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb5-7"><a></a>    <span class="dt">&lt;</span><span class="kw">img</span><span class="ot"> src</span><span class="op">=</span><span class="st">"gettysburg-address.jpg"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"200"</span><span class="ot"> </span><span class="dt">/&gt;</span></span>
+<span id="cb5-8"><a></a>    <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb5-9"><a></a>        <span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://en.wikipedia.org/wiki/Abraham_Lincoln"</span><span class="dt">&gt;</span> Abe Lincoln <span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span> said:</span>
+<span id="cb5-10"><a></a>        Four score and seven years ago...</span>
+<span id="cb5-11"><a></a>    <span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb5-12"><a></a></span>
+<span id="cb5-13"><a></a>    <span class="dt">&lt;</span><span class="kw">h2</span><span class="dt">&gt;</span>What did our fathers do? <span class="dt">&lt;/</span><span class="kw">h2</span><span class="dt">&gt;</span></span>
+<span id="cb5-14"><a></a>    <span class="dt">&lt;</span><span class="kw">ol</span><span class="dt">&gt;</span></span>
+<span id="cb5-15"><a></a>        <span class="dt">&lt;</span><span class="kw">li</span><span class="dt">&gt;</span>brought forth on this continent a new nation<span class="dt">&lt;/</span><span class="kw">li</span><span class="dt">&gt;</span></span>
+<span id="cb5-16"><a></a>        <span class="dt">&lt;</span><span class="kw">li</span><span class="dt">&gt;</span>conceived in liberty<span class="dt">&lt;/</span><span class="kw">li</span><span class="dt">&gt;</span></span>
+<span id="cb5-17"><a></a>        <span class="dt">&lt;</span><span class="kw">li</span><span class="dt">&gt;</span>and dedicated to the proposition that all men are created equal<span class="dt">&lt;/</span><span class="kw">li</span><span class="dt">&gt;</span></span>
+<span id="cb5-18"><a></a>    <span class="dt">&lt;/</span><span class="kw">ol</span><span class="dt">&gt;</span></span>
+<span id="cb5-19"><a></a><span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb5-20"><a></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="documenting-in-cy105" class="slide level2 center">
-<h2>Documenting in CY105</h2>
+<section id="cascading-style-sheets" class="slide level2 center" data-timing="60">
+<h2>Cascading Style Sheets</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>Weekly Problem Set assignments are individual assignments.</li>
-<li>Assistance is encouraged, but collaboration and copying will result in a heavy deduction.
+<li>Language to define looks of a webpage</li>
+<li>Maintain consistency in format and style</li>
+<li>Changes colors, sizes, spacing, fonts, etc.</li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource css number-lines code-with-copy"><code class="sourceCode css"><span id="cb6-1"><a></a>h1 {</span>
+<span id="cb6-2"><a></a>  <span class="kw">color</span><span class="ch">:</span> <span class="cn">red</span><span class="op">;</span></span>
+<span id="cb6-3"><a></a>}</span>
+<span id="cb6-4"><a></a></span>
+<span id="cb6-5"><a></a>p <span class="fu">.special</span> {</span>
+<span id="cb6-6"><a></a>  <span class="kw">background-color</span><span class="ch">:</span> <span class="cn">black</span><span class="op">;</span></span>
+<span id="cb6-7"><a></a>  <span class="kw">padding</span><span class="ch">:</span> <span class="dv">5</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb6-8"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../images/24/parrot-2.png"></p>
+</div></div>
+<h3 class="fragment" id="task-copy-the-code-above-into-a-new-file-style.css">Task: Copy the code above into a new file: <code>style.css</code></h3>
+<aside class="notes">
+<p>(slide 19) A web page without any styling will have a white background, black text, and standard-sized text. Cascading Style Sheets (CSS) is a language that can be used to style a web page via changes in colors, sizes, spacing, fonts, and more. This helps to maintain consistency in format and style throughout the webpage and website. To continue the bird analogy, adding CSS to your website is like the baby bird gaining colorful feathers.</p>
+<p>Cascading Style Sheets are used to maintain consistency in format and style throughout the webpage and website.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="javascript" class="slide level2 smaller center">
+<h2>JavaScript</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <ul>
-<li>See the DAAW Section II paragraphs C, E, and H for definitions of each.</li>
+<li>Computer language that makes webpages interactive</li>
+<li>Is it a programming language?</li>
+<li>Where can it run?</li>
+</ul>
+<div class="sourceCode" id="cb7" data-code-line-numbers="|3,8|4-7"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb7-1"><a></a><span class="dt">&lt;</span><span class="kw">html</span><span class="dt">&gt;</span></span>
+<span id="cb7-2"><a></a>    <span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb7-3"><a></a>        <span class="dt">&lt;</span><span class="kw">script</span><span class="dt">&gt;</span></span>
+<span id="cb7-4"><a></a><span class="kw">function</span> <span class="fu">ChangeTextColor</span>(newColor) {</span>
+<span id="cb7-5"><a></a>   <span class="kw">var</span> x <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"ColorableText"</span>)<span class="op">;</span></span>
+<span id="cb7-6"><a></a>   x<span class="op">.</span><span class="at">style</span><span class="op">.</span><span class="at">color</span> <span class="op">=</span> newColor<span class="op">;</span></span>
+<span id="cb7-7"><a></a>}</span>
+<span id="cb7-8"><a></a>        <span class="dt">&lt;/</span><span class="kw">script</span><span class="dt">&gt;</span></span>
+<span id="cb7-9"><a></a>    <span class="dt">&lt;/</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb7-10"><a></a>    <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb7-11"><a></a>        <span class="dt">&lt;</span><span class="kw">p</span><span class="ot"> id</span><span class="op">=</span><span class="st">"ColorableText"</span><span class="dt">&gt;</span></span>
+<span id="cb7-12"><a></a>        Click a button to change this text's color.</span>
+<span id="cb7-13"><a></a>        <span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb7-14"><a></a>        <span class="dt">&lt;</span><span class="kw">button</span><span class="ot"> type</span><span class="op">=</span><span class="st">"button"</span><span class="ot"> onclick</span><span class="op">=</span><span class="st">"ChangeTextColor('red')"</span><span class="dt">&gt;</span>Red<span class="dt">&lt;/</span><span class="kw">button</span><span class="dt">&gt;</span></span>
+<span id="cb7-15"><a></a>        <span class="dt">&lt;</span><span class="kw">button</span><span class="ot"> type</span><span class="op">=</span><span class="st">"button"</span><span class="ot"> onclick</span><span class="op">=</span><span class="st">"ChangeTextColor('blue')"</span><span class="dt">&gt;</span>Blue<span class="dt">&lt;/</span><span class="kw">button</span><span class="dt">&gt;</span></span>
+<span id="cb7-16"><a></a>    <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb7-17"><a></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:30%;">
+<p><img data-src="../images/24/parrot-2.png"> <img data-src="../images/24/parrot-3.png"></p>
+</div></div>
+</section>
+<section id="cloud-computing" class="slide level2 center" data-timing="120">
+<h2>Cloud Computing</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div>
+<ul>
+<li class="fragment">What is it?
+<ul>
+<li class="fragment">Someone else’s computer!</li>
 </ul></li>
-<li>Don’t be afraid to ask for assistance! Be aware of the examples of assistance below – you are encouraged to receive this kind of assistance if you are struggling on an assignment!
+<li class="fragment">Why is it useful?
 <ul>
-<li>Getting a verbal answer from another person or receiving an answer from an artificial intelligence about general questions about coding, tools, or concepts covered in the course.</li>
-<li>Having another person or an artificial intelligence source help you identify and understand specific errors in your own solution.</li>
+<li class="fragment">Little to no software installation</li>
+<li class="fragment">Applications managed by the provider</li>
+<li class="fragment">Lower cost</li>
+<li class="fragment">Eliminates the need for physical media</li>
+<li class="fragment">Seamless transition between many devices</li>
 </ul></li>
 </ul>
+</div>
+</div><div class="column" style="width:40%;">
+<p><img data-src="../images/24/cloud.jpg"></p>
+</div></div>
 </section>
-<section id="documenting-in-cy105-1" class="slide level2 center">
-<h2>Documenting in CY105</h2>
-<p>Examples of Collaboration or Copying (will result in point deduction if not explicitly allowed, must cite):</p>
+<section id="cloud-computing-and-data" class="slide level2 center" data-timing="60">
+<h2>Cloud Computing and Data</h2>
+<ol type="1">
+<li>If you create content but it is stored on the cloud (another company’s web server), who owns the data?</li>
+<li>What if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?</li>
+<li>What implications does cloud services have on data privacy?</li>
+</ol>
+<aside class="notes">
+<p>Interesting questions to pose to the class. If there is time in class, these questions could lead to great discussions, but if not, share these as teasers for the upcoming Data and Ethics lesson.</p>
 <ul>
-<li>Working with one or more people (or artificial intelligence tools) to jointly produce a solution.</li>
-<li>Working with one or more people (or artificial intelligence tools) to complete separate parts of a graded events, and then joining the parts together to form a common solution.</li>
-<li>Looking at someone else’s code (or code found online) and then typing the same (or slightly modified solution) into your computer and submitting the work as your own.</li>
-<li>Providing the prompt for an assignment to an artificial intelligence source and submitting the work as your own.</li>
+<li>If you create content but it is stored on the cloud (another company’s web server), who owns the data?</li>
+<li>What if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?</li>
+<li>What implications does cloud services have on data privacy?</li>
 </ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="generative-ai" class="slide level2 center">
-<h2>Generative AI</h2>
+<section id="check-on-learning" class="slide level2 center" data-timing="120">
+<h2>Check on Learning</h2>
 <ul>
-<li>Generative AI represents a remarkable frontier in technology, holding transformative potential for expanding knowledge and enhancing learning.</li>
-<li>You are forbidden from using generative A.I. to generate solutions to weekly problem sets.</li>
-<li>You are permitted to utilize generative AI for weekly problem sets in the following specific contexts only:</li>
-<li>Receiving an answer from an artificial intelligence source about general questions about course concepts or programming construct (e.g., how to take user input of a certain data type in Python, what is the purpose of a for loop, what does cybersecurity mean, etc.)</li>
-<li>Having an artificial intelligence source help you identify specific errors in your own solution (i.e., identifying potential bugs in your code after you have written the program)</li>
-<li>Having artificial intelligence explain why your program gives a particular (wrong) output.</li>
+<li>What is the Internet?</li>
+<li>Who owns the Internet?</li>
+<li>What is the World Wide Web?</li>
+<li>How does the WWW work?</li>
+<li>Does DNS translate URLs to domain names?</li>
+<li>What is the purpose of HTTP?</li>
+<li>What is a browser?</li>
+<li>Is a browser a server or a client?</li>
 </ul>
-</section>
-<section id="generative-ai-1" class="slide level2 center">
-<h2>Generative AI</h2>
-<ul>
-<li><p>You are NEVER authorized to use generative AI to generate solutions (or partial solutions) to weekly problem set problems!</p></li>
-<li><p>If the tool is capable of generating a link to the conversation, include that in your acknowledgements. Otherwise, provide a copy of the full transcript in your acknowledgements section.</p></li>
-<li><p>This includes any and all follow-up questions/prompts to the artificial intelligence source and the provided answers.</p></li>
-</ul>
+<aside class="notes">
+<p>Define the internet. Who owns it? What is the world wide web? How is it different from the internet? Describe how the Domain Name System (DNS) relates to IP Addresses and Uniform Resource Locators (URLs). How does the WWW work? Define and describe the following terms: HTTP/HTTPS HTML URL Client vs Server CSS JavaScript Define a browser. Provide some examples of them.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 
 <div class="quarto-auto-generated-content">
 <p><img src="../images/wp_crest_new_only.png" class="slide-logo"></p>
@@ -669,7 +926,8 @@ CPT Sonny Bhatia
 
 </div>
 </div>
-</section></section>
+</section>
+
     </div>
   </div>
 
@@ -703,7 +961,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"e9b47c5156df1e51","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"4e1cd61d12347613","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner

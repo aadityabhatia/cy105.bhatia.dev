@@ -84,46 +84,165 @@
     "text": "Next Class\n\nComputers and Data\nWPS1 due 25AUG\nWPS2 will be assigned soon\nzyBooks readings!"
   },
   {
-    "objectID": "lessons/18-robotics.html#announcements",
-    "href": "lessons/18-robotics.html#announcements",
-    "title": "Robotics Lab",
+    "objectID": "lessons/24-www.html#discussion",
+    "href": "lessons/24-www.html#discussion",
+    "title": "World Wide Web",
+    "section": "Discussion",
+    "text": "Discussion\n\nWhat questions do you have about the Internet and the World Wide Web?"
+  },
+  {
+    "objectID": "lessons/24-www.html#announcements",
+    "href": "lessons/24-www.html#announcements",
+    "title": "World Wide Web",
     "section": "Announcements",
-    "text": "Announcements\n\nWPR2 is about two weeks away!\nDigital Footprint Audit assigned; due 27OCT\n\nRequest data from at least 3 sources!"
+    "text": "Announcements\n\nAI Summative Project\n\nProject Proposal due 12NOV\n\nDigital Footprint Audit due 27OCT"
   },
   {
-    "objectID": "lessons/18-robotics.html#lesson-objectives",
-    "href": "lessons/18-robotics.html#lesson-objectives",
-    "title": "Robotics Lab",
+    "objectID": "lessons/24-www.html#lesson-objectives",
+    "href": "lessons/24-www.html#lesson-objectives",
+    "title": "World Wide Web",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\nKnowledge and Understanding = 25 points (quiz)\n\nUnderstand what robots are through the sense, think, and act paradigm\nList characteristics of tasks that are suited to being performed by robots instead of humans (dull, dirty, dangerous)\nUnderstand the military applications of robots\n\nPractical Skills = 75 points (activities)\n\nConstruct a simple robot with a sensor, controller, and actuator\nModify software to change hardware functionality\n\nPut your Python skills to use!"
+    "text": "Lesson Objectives\n\nArticulate the different layers of the web\n\nand which ones are accessible by search engines​\n\nDefine and identify the purpose of URLs and Browsers​.\nDefine and identify the purpose of HTTP, TLS, DNS.​\nExplain how users access data across the web\n\nhow it relates to Network layers and protocols.\n\nSummarize how HTTP provides access to web content\n\npurpose of HTML, CSS, & JavaScript​"
   },
   {
-    "objectID": "lessons/18-robotics.html#soldering-safety",
-    "href": "lessons/18-robotics.html#soldering-safety",
-    "title": "Robotics Lab",
-    "section": "Soldering Safety",
-    "text": "Soldering Safety\n\n\n\nUse protective eyewear.\nDo not touch the tip of the soldering iron!!\n\nAvoid metal parts.\nDo not touch it against anything flammable.\n\nDo not inhale fumes.\nStore soldering iron on stand when not in use.\nWash hands after soldering. It contains lead.\n\n\n\nYouTube: How to Solder\nA Beginner’s Guide"
+    "objectID": "lessons/24-www.html#in-class-exercise-1",
+    "href": "lessons/24-www.html#in-class-exercise-1",
+    "title": "World Wide Web",
+    "section": "In-Class Exercise 1",
+    "text": "In-Class Exercise 1\n\nCreate a new folder. Copy the following code into a new file. Save it as first.html in that new folder.\n\n&lt;html&gt;\n    &lt;body&gt;\n        This is my first website!\n    &lt;/body&gt;\n&lt;/html&gt;\n\nDouble click on the file to open it in a browser.\nChange the text in the body to something else. Save the file and refresh the browser.\nAdd the following code inside the &lt;body&gt; tags. Save and refresh.\n\n&lt;h1&gt;CY105 rocks!&lt;/h1&gt;"
   },
   {
-    "objectID": "lessons/18-robotics.html#robotics-day-1",
-    "href": "lessons/18-robotics.html#robotics-day-1",
-    "title": "Robotics Lab",
-    "section": "Robotics Day 1",
-    "text": "Robotics Day 1\n\nGrab a box and write your name on it; begin inventory!\nInstall Mu Editor to interact with Bluefruit\nPull up the Robotics Lab on your second screen\n\nInventory all components\nWarning: Separate screws (12x Gizmo, 2x for stand)! Stand screws have bigger thread and do not fit the Gizmo. Do not jam them in; they will damage the Gizmo. Combine stand screws with nuts early to separate them out.\n\nAssemble the device - connectors flush with board; attach on correct side\nRun the temperature sensor code\nContinue working outside of class\n\nDocument all assistance outside classroom!"
+    "objectID": "lessons/24-www.html#search-engines",
+    "href": "lessons/24-www.html#search-engines",
+    "title": "World Wide Web",
+    "section": "Search Engines",
+    "text": "Search Engines\n\n\nWhat is a search engine?\nWhere does it get its information? 1\nHow does it decide what to show? 2\nHow often is the search index updated?\nCan I control what a search engine sees? 3\nHow much of the web does a search engine see?\n\n\nSpiders build the world wide web by crawling through hyperlinks and building an index of what they find​PageRankrobots.txt"
   },
   {
-    "objectID": "lessons/18-robotics.html#robotics-day-2",
-    "href": "lessons/18-robotics.html#robotics-day-2",
-    "title": "Robotics Lab",
-    "section": "Robotics Day 2",
-    "text": "Robotics Day 2\n\n\nTasks\n\nBluefruit Assembly\nTemperature Sensor Activity\nSensor activities!\nBuild a robot!\n\n\nResources\n\nRobotics Lab\nCircuitPython Editor\nBluefruit Tutorial\nCircuitPython Documentation\n\n\nAll labs are due at the end of class on day 3!\n\nContinue working outside of class\n\nSave your work to separate files\nDemo in class on day 3!\n\nDocument all assistance! Honor acknowledgment statement on Canvas."
+    "objectID": "lessons/24-www.html#deep-web",
+    "href": "lessons/24-www.html#deep-web",
+    "title": "World Wide Web",
+    "section": "Deep Web",
+    "text": "Deep Web\n\nPrivate, unlinked, or hidden\nHidden behind login pages\nUnlinked, excluded by robots.txt\nSearch engines cannot see this!\n\nExamples?\n\n\nMedical records\nLegal documents\nProprietary information\nIRS tax information\nCIS"
   },
   {
-    "objectID": "lessons/18-robotics.html#robotics-day-3",
-    "href": "lessons/18-robotics.html#robotics-day-3",
-    "title": "Robotics Lab",
-    "section": "Robotics Day 3",
-    "text": "Robotics Day 3\nResources\n\nCircuitPython Editor\nRobotics Lab\nBluefruit Tutorial\nCircuitPython Documentation\n\nAll labs are due today!\n\nDocument all assistance!\nHonor acknowledgment statement on Canvas!!"
+    "objectID": "lessons/24-www.html#dark-web",
+    "href": "lessons/24-www.html#dark-web",
+    "title": "World Wide Web",
+    "section": "Dark Web",
+    "text": "Dark Web\n\n\n\nAnonymizing protocols\n\nUnusual routing techniques\nLots of Encryption\n\nI2P, Freenet, ZeroNet, GNUnet\nCommonly accessed using The Onion Router (TOR) browser\nExtensively used for illegal activities\n\nDo not try this yourself!\n\n\n\n\n\nBlack market trading\nCounterfeiting\nDrug trafficking\nHuman trafficking"
+  },
+  {
+    "objectID": "lessons/24-www.html#in-class-exercise-2",
+    "href": "lessons/24-www.html#in-class-exercise-2",
+    "title": "World Wide Web",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\n\nAdd the following to the &lt;body&gt; of your first.html file:\n\n&lt;a href=\"https://en.wikipedia.org/\"&gt;Wikipedia&lt;/a&gt;\n\nSave and refresh the browser.\nDownload this image to your website directory.\nAdd to the &lt;body&gt;:\n\n&lt;img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/ArmyWestPointAthenaShield.png' height=\"20%\" /&gt;\n\nSave and refresh the browser."
+  },
+  {
+    "objectID": "lessons/24-www.html#world-wide-web",
+    "href": "lessons/24-www.html#world-wide-web",
+    "title": "World Wide Web",
+    "section": "World Wide Web",
+    "text": "World Wide Web\n\n\nWhat is it? 1\nWhat documents?\nIs it the same as the Internet? 2\n\n\nWorld Wide WebInternet"
+  },
+  {
+    "objectID": "lessons/24-www.html#how-it-all-works",
+    "href": "lessons/24-www.html#how-it-all-works",
+    "title": "World Wide Web",
+    "section": "How it all works?",
+    "text": "How it all works?\n\nUniform Resource Locator (URL)​\n\nPointer to a document on the network​ that uniquely identifies each website\n\nBrowser: Firefox, Chrome, Edge\n\nApplication on a user’s computer that requests and displays web content\n\nHyper Text Transfer Protocol (HTTP)​\n\nProtocol used to grab the contents of the file from the server\nSecure version: HTTPS!\n\nHyper Text Markup Language (HTML)​\n\nA document with text, images, and hyperlinks to other files on the Internet\n\n\nHow do you see HTML behind a webpage?\n\n\nUniform Resource Locator (URL) – Finds that file on any computer that is on the same network \nHyper Text Transport Protocol (HTTP) – Moves the contents of that file from the server to the client \nBrowsers – Download these documents and display them in a readable format\nHyper Text Markup Language (HTML) - Represent a document with hyperlinks to any file on any computer on the Internet"
+  },
+  {
+    "objectID": "lessons/24-www.html#uniform-resource-locator-url",
+    "href": "lessons/24-www.html#uniform-resource-locator-url",
+    "title": "World Wide Web",
+    "section": "Uniform Resource Locator (URL)​",
+    "text": "Uniform Resource Locator (URL)​\n\n\nURLs & DNS & HTTP (15 mins) (slide 9) In order to link pages to one another, each webpage must have a specific address, which is called a Uniform Resource Locator (URL). The components of a URL include the web’s protocol (like HTTPS), the host (the domain you wish to talk to), and the path (the page within the domain you are looking for)."
+  },
+  {
+    "objectID": "lessons/24-www.html#domain-name-system-dns",
+    "href": "lessons/24-www.html#domain-name-system-dns",
+    "title": "World Wide Web",
+    "section": "Domain Name System (DNS)​",
+    "text": "Domain Name System (DNS)​\n\n\n\nDirectory of the Internet\nTranslates domain names to IP addresses\nAllows us to use names instead of numbers\nWho controls it?\n\nICANN controls root servers\nRegistrars control top-level domains\nCompanies control their subdomains\n\nWho can own a domain?\nWhere is this massive directory stored?\nDNS encryption?\n\n\n\n\n\nhttps://www.akamai.com/glossary/what-are-dns-servers"
+  },
+  {
+    "objectID": "lessons/24-www.html#but-how-does-dns-really-work",
+    "href": "lessons/24-www.html#but-how-does-dns-really-work",
+    "title": "World Wide Web",
+    "section": "But how does DNS really work?",
+    "text": "But how does DNS really work?\n\n\n\nBrowser: Where is www.example.com?\nResolver: Who knows about .com\nRoot Server: Here is your TLD server’s address\nResolver: Who knows about example.com?\nTLD Server: Here is the authoritative server for example.com\nResolver: IP address for www.example.com?\nAuthoritative Server: 1.2.3.4\nResolver: 1.2.3.4\n\n\n\n\n\nhttps://www.cloudflare.com/learning/dns/what-is-dns/\n\n\n\n\n(slide 11) When you request content from a URL, the first thing that happens is a DNS (Domain Name System) lookup, which takes the domain name from the URL as an input, and replies back with the IP address of the computer that is running the applicable web server. DNS is an example of another protocol!The DNS first looks at the root of the URL (.com, .gov, etc.), then it searches for the domain, and so on."
+  },
+  {
+    "objectID": "lessons/24-www.html#hyper-text-transfer-protocol-http",
+    "href": "lessons/24-www.html#hyper-text-transfer-protocol-http",
+    "title": "World Wide Web",
+    "section": "Hyper Text Transfer Protocol (HTTP)",
+    "text": "Hyper Text Transfer Protocol (HTTP)\n\nhttps://medium.com/@terrybmochire/what-happens-when-you-type-a-url-in-your-browser-and-press-enter-d7357a555911\n(slide 14-15) A user uses the web-browser to connect to websites that are “served” by webservers. The hyper-text transfer protocol (“http” in the URLs) in conjunction with other protocols like DNS and TCP/IP help the browser communicate with a webserver. When a “client” requests the contents from a URL, the “server” sends back the HTML which is then displayed by the web browser, a program on our computer which requests the content and renders the HTML into a viewable format for the user.\nHTTP is exceptional insecure; it is highly recommended you always use HTTPS whenever you surf the web. In our programming lab in a few lessons you will see first-hand why."
+  },
+  {
+    "objectID": "lessons/24-www.html#browser",
+    "href": "lessons/24-www.html#browser",
+    "title": "World Wide Web",
+    "section": "Browser",
+    "text": "Browser\n\n\nApplication on your computer\n\nTakes a Uniform Resource Locator (URL)\nGets a webpage from some server somewhere\nMakes it look pretty"
+  },
+  {
+    "objectID": "lessons/24-www.html#web-server",
+    "href": "lessons/24-www.html#web-server",
+    "title": "World Wide Web",
+    "section": "Web Server",
+    "text": "Web Server\n\n\n\nProgram running on a computer\nListens for requests\nResponds with content\n\n\n\n\n\nGoogle Data Center\n\n\n\nCan you run a web server in Python?"
+  },
+  {
+    "objectID": "lessons/24-www.html#hyper-text-markup-language",
+    "href": "lessons/24-www.html#hyper-text-markup-language",
+    "title": "World Wide Web",
+    "section": "Hyper Text Markup Language",
+    "text": "Hyper Text Markup Language\n\nDefines the structure and content of the webpage\nDeveloped to specify links, headers, paragraphs, images, etc.\nUses tags such as &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;\n\nCan you write a program in HTML?"
+  },
+  {
+    "objectID": "lessons/24-www.html#in-class-exercise-3",
+    "href": "lessons/24-www.html#in-class-exercise-3",
+    "title": "World Wide Web",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\n\nCopy the following HTML code into a new file. Save it as second.html in the same website folder.\nDownload the following image and save it to your website directory: gettysburg-address.jpg\nRename it to the correct name.\nWhat are these new tags? &lt;h2&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;p&gt;\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;title&gt;My second website&lt;/title&gt;\n\n&lt;body&gt;\n    &lt;h1&gt; The Gettysburg Address &lt;/h1&gt;\n    &lt;img src=\"gettysburg-address.jpg\" width=\"200\" /&gt;\n    &lt;p&gt;\n        &lt;a href=\"https://en.wikipedia.org/wiki/Abraham_Lincoln\"&gt; Abe Lincoln &lt;/a&gt; said:\n        Four score and seven years ago...\n    &lt;/p&gt;\n\n    &lt;h2&gt;What did our fathers do? &lt;/h2&gt;\n    &lt;ol&gt;\n        &lt;li&gt;brought forth on this continent a new nation&lt;/li&gt;\n        &lt;li&gt;conceived in liberty&lt;/li&gt;\n        &lt;li&gt;and dedicated to the proposition that all men are created equal&lt;/li&gt;\n    &lt;/ol&gt;\n&lt;/body&gt;\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "lessons/24-www.html#cascading-style-sheets",
+    "href": "lessons/24-www.html#cascading-style-sheets",
+    "title": "World Wide Web",
+    "section": "Cascading Style Sheets",
+    "text": "Cascading Style Sheets\n\n\n\nLanguage to define looks of a webpage\nMaintain consistency in format and style\nChanges colors, sizes, spacing, fonts, etc.\n\nh1 {\n  color: red;\n}\n\np .special {\n  background-color: black;\n  padding: 5px;\n}\n\n\n\nTask: Copy the code above into a new file: style.css\n\n(slide 19) A web page without any styling will have a white background, black text, and standard-sized text. Cascading Style Sheets (CSS) is a language that can be used to style a web page via changes in colors, sizes, spacing, fonts, and more. This helps to maintain consistency in format and style throughout the webpage and website. To continue the bird analogy, adding CSS to your website is like the baby bird gaining colorful feathers.\nCascading Style Sheets are used to maintain consistency in format and style throughout the webpage and website."
+  },
+  {
+    "objectID": "lessons/24-www.html#javascript",
+    "href": "lessons/24-www.html#javascript",
+    "title": "World Wide Web",
+    "section": "JavaScript",
+    "text": "JavaScript\n\n\n\nComputer language that makes webpages interactive\nIs it a programming language?\nWhere can it run?\n\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;script&gt;\nfunction ChangeTextColor(newColor) {\n   var x = document.getElementById(\"ColorableText\");\n   x.style.color = newColor;\n}\n        &lt;/script&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"ColorableText\"&gt;\n        Click a button to change this text's color.\n        &lt;/p&gt;\n        &lt;button type=\"button\" onclick=\"ChangeTextColor('red')\"&gt;Red&lt;/button&gt;\n        &lt;button type=\"button\" onclick=\"ChangeTextColor('blue')\"&gt;Blue&lt;/button&gt;\n    &lt;/body&gt;\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "lessons/24-www.html#cloud-computing",
+    "href": "lessons/24-www.html#cloud-computing",
+    "title": "World Wide Web",
+    "section": "Cloud Computing",
+    "text": "Cloud Computing\n\n\n\n\nWhat is it?\n\nSomeone else’s computer!\n\nWhy is it useful?\n\nLittle to no software installation\nApplications managed by the provider\nLower cost\nEliminates the need for physical media\nSeamless transition between many devices"
+  },
+  {
+    "objectID": "lessons/24-www.html#cloud-computing-and-data",
+    "href": "lessons/24-www.html#cloud-computing-and-data",
+    "title": "World Wide Web",
+    "section": "Cloud Computing and Data",
+    "text": "Cloud Computing and Data\n\nIf you create content but it is stored on the cloud (another company’s web server), who owns the data?\nWhat if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?\nWhat implications does cloud services have on data privacy?\n\n\nInteresting questions to pose to the class. If there is time in class, these questions could lead to great discussions, but if not, share these as teasers for the upcoming Data and Ethics lesson.\n\nIf you create content but it is stored on the cloud (another company’s web server), who owns the data?\nWhat if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?\nWhat implications does cloud services have on data privacy?"
+  },
+  {
+    "objectID": "lessons/24-www.html#check-on-learning",
+    "href": "lessons/24-www.html#check-on-learning",
+    "title": "World Wide Web",
+    "section": "Check on Learning",
+    "text": "Check on Learning\n\nWhat is the Internet?\nWho owns the Internet?\nWhat is the World Wide Web?\nHow does the WWW work?\nDoes DNS translate URLs to domain names?\nWhat is the purpose of HTTP?\nWhat is a browser?\nIs a browser a server or a client?\n\n\nDefine the internet. Who owns it? What is the world wide web? How is it different from the internet? Describe how the Domain Name System (DNS) relates to IP Addresses and Uniform Resource Locators (URLs). How does the WWW work? Define and describe the following terms: HTTP/HTTPS HTML URL Client vs Server CSS JavaScript Define a browser. Provide some examples of them."
   },
   {
     "objectID": "lessons/03-computers-data.html#discussion",
@@ -417,7 +536,7 @@
     "href": "lessons/23-networks.html#discussion",
     "title": "Networks and Data",
     "section": "Discussion!",
-    "text": "Discussion!\n\nHow Ukraine’s PAPER PLANES are Destroying Russia’s Military\n\n\n\nFeedback: What can we do better?\nReadings?"
+    "text": "Discussion!\n\nVortex Cannon vs Drone\nHow Ukraine’s PAPER PLANES are Destroying Russia’s Military"
   },
   {
     "objectID": "lessons/23-networks.html#ai-summative-project",
@@ -438,7 +557,7 @@
     "href": "lessons/23-networks.html#the-internet",
     "title": "Networks and Data",
     "section": "The Internet",
-    "text": "The Internet\n\n\nWhat is the Internet? How does it work?\nWhat are the connections on the map?\nWhy not just use satellites?\nHow do we get the cables there? When was the first?\n\n\nRef: https://blog.telegeography.com/"
+    "text": "The Internet\nDistributed Packet-Switched Network\n\n\nWhat is the Internet? How does it work?\n\nDistributed: No central control\nPacket-Switched: Data broken into packets\n\nWhat are the connections on the map?\nWhy not just use satellites?\nHow do we get the cables there? When was the first?\nWhat is special about this network of networks?\n\nRedundancy\nScalability\nFlexibility\n\n\n\nRef: https://blog.telegeography.com/"
   },
   {
     "objectID": "lessons/23-networks.html#in-class-activity",
@@ -1145,7 +1264,7 @@
     "href": "index.html#lessons",
     "title": "Computing Fundamentals",
     "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 2 Review\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetworks and Data\n\n\nHow do computers talk?\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInternet\n\n\n…and the World Wide Web\n\n\n\n\n\n\nOct 23, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 2 Review\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetworks and Data\n\n\nHow do computers talk?\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Wide Web\n\n\nHow the Internet really works\n\n\n\n\n\n\nOct 23, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#course-objectives",
@@ -1159,7 +1278,7 @@
     "href": "index.html#course-material",
     "title": "Computing Fundamentals",
     "section": "Course Material",
-    "text": "Course Material\n\nCanvas\nzyBook\nProgramming References on Canvas\nRobotics Lab\n\nMu Editor - IDE to work with Circuit Playground Bluefruit\nCircuit Playground Bluefruit - try student discount code: GitHubEdu\nCircuit Playground Bluefruit - no discount but easier to order"
+    "text": "Course Material\n\nCanvas\nzyBook\nProgramming References on Canvas\nRobotics Lab\n\nCircuitPython Code Editor - IDE to work with Circuit Playground Bluefruit\nMu Editor - less desirable IDE for Circuit Playground Bluefruit\nCircuit Playground Bluefruit - try student discount code: GitHubEdu\nCircuit Playground Bluefruit - no discount but easier to order"
   },
   {
     "objectID": "index.html#documentation-and-tutorials",
@@ -1176,11 +1295,18 @@
     "text": "Developer Tools\n\nMarimo reactive notebook for Python\ndiff Check - compare text side-by-side; great for comparing expected and actual output\nPyodide - in-browser REPL\nPython Tutor - step through code execution, line-by-line\nBlack Code Formatter - format Python code following PEP 8 Style Guide\n\nzyLab does this too if you right click and select “Format Document”\n\nThonny - Python development environment for beginners\nVisual Studio Code - development environment for grown-ups\nNotepad++ - lightweight text editor"
   },
   {
+    "objectID": "index.html#ai-summative-project-ideas",
+    "href": "index.html#ai-summative-project-ideas",
+    "title": "Computing Fundamentals",
+    "section": "AI Summative Project Ideas",
+    "text": "AI Summative Project Ideas\n\nHackaday\nHacker News: Show\nExample Projects [Canvas]\nText-based adventure game [zybook]\nzork-py library for Python\nUsing Bluetooth (BLE) with Circuit Playground Bluefruit\nCircuit Playground Bluefruit: Puzzle Box, Escape Room, etc."
+  },
+  {
     "objectID": "index.html#random-interesting-material",
     "href": "index.html#random-interesting-material",
     "title": "Computing Fundamentals",
     "section": "Random, Interesting Material",
-    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python\n\n\n\nCyber\n\nBuilding a home lab\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
+    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python\nWhere really is the Internet?\nVortex Cannon vs Drone\n\n\n\nCyber\n\nBuilding a home lab\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#announcements",
@@ -2149,193 +2275,46 @@
     "text": "Generative AI\n\nYou are NEVER authorized to use generative AI to generate solutions (or partial solutions) to weekly problem set problems!\nIf the tool is capable of generating a link to the conversation, include that in your acknowledgements. Otherwise, provide a copy of the full transcript in your acknowledgements section.\nThis includes any and all follow-up questions/prompts to the artificial intelligence source and the provided answers."
   },
   {
-    "objectID": "lessons/24-internet.html#where-is-the-internet",
-    "href": "lessons/24-internet.html#where-is-the-internet",
-    "title": "Internet",
-    "section": "Where is the Internet?",
-    "text": "Where is the Internet?\n\nA. Cloud\nB. Ocean\nC. Ground\nD. Space\n\nVideo: Where really is the Internet?"
-  },
-  {
-    "objectID": "lessons/24-internet.html#announcements",
-    "href": "lessons/24-internet.html#announcements",
-    "title": "Internet",
+    "objectID": "lessons/18-robotics.html#announcements",
+    "href": "lessons/18-robotics.html#announcements",
+    "title": "Robotics Lab",
     "section": "Announcements",
-    "text": "Announcements"
+    "text": "Announcements\n\nWPR2 is about two weeks away!\nDigital Footprint Audit assigned; due 27OCT\n\nRequest data from at least 3 sources!"
   },
   {
-    "objectID": "lessons/24-internet.html#lesson-objectives",
-    "href": "lessons/24-internet.html#lesson-objectives",
-    "title": "Internet",
+    "objectID": "lessons/18-robotics.html#lesson-objectives",
+    "href": "lessons/18-robotics.html#lesson-objectives",
+    "title": "Robotics Lab",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\n\n\nDefine and identify the purpose of the following protocols:\n\nHTTP, TLS, DNS.​\n\nDefine and identify the purpose of URLs and Browsers​\nExplain how users access data across the web\n\nhow it relates to the other internet layers and protocols.\n\nSummarize how HTTP provides access to web content\n\npurpose of HTML, CSS, & JavaScript​\n\nArticulate the different layers of the web\n\nand which are accessible by search engines​\n\n\n\n\n\n\nThe goal of this lesson is to familiarize cadets with how the Internet actually works, specifically the application layer, and how actions they take at the application layer actually affects the lower layers as well. By the end of this lesson, students should be well versed in the different protocols that exist at the application layer, and how they work together when data is requested or sent over the Internet."
+    "text": "Lesson Objectives\nKnowledge and Understanding = 25 points (quiz)\n\nUnderstand what robots are through the sense, think, and act paradigm\nList characteristics of tasks that are suited to being performed by robots instead of humans (dull, dirty, dangerous)\nUnderstand the military applications of robots\n\nPractical Skills = 75 points (activities)\n\nConstruct a simple robot with a sensor, controller, and actuator\nModify software to change hardware functionality\n\nPut your Python skills to use!"
   },
   {
-    "objectID": "lessons/24-internet.html#the-internet",
-    "href": "lessons/24-internet.html#the-internet",
-    "title": "Internet",
-    "section": "The Internet!",
-    "text": "The Internet!\n\n\n\nWhat is it?\nWho owns it?\nWho created it?\nWhen?\nWhy?\n\nYouTube Video: Vint Cerf\n\n\n\n\nWhat is the Internet?\nBegin with the code.org video on Slide 4, which includes narration from Vint Cert (one of the ‘fathers of the internet’ along with Bob Kahn). This video is a good ice-breaker to begin discussion about what the Internet is and to dispel some misconceptions about the Internet.\nSome follow-up questions could include: - the video touched on the Internet being a distributed network – what does this mean? - the video discussed the fact that the Internet is packet-switched – what does this mean? What are the benefits?"
+    "objectID": "lessons/18-robotics.html#soldering-safety",
+    "href": "lessons/18-robotics.html#soldering-safety",
+    "title": "Robotics Lab",
+    "section": "Soldering Safety",
+    "text": "Soldering Safety\n\n\n\nUse protective eyewear.\nDo not touch the tip of the soldering iron!!\n\nAvoid metal parts.\nDo not touch it against anything flammable.\n\nDo not inhale fumes.\nStore soldering iron on stand when not in use.\nWash hands after soldering. It contains lead.\n\n\n\nYouTube: How to Solder\nA Beginner’s Guide"
   },
   {
-    "objectID": "lessons/24-internet.html#distributed-packet-switched-network",
-    "href": "lessons/24-internet.html#distributed-packet-switched-network",
-    "title": "Internet",
-    "section": "Distributed Packet-Switched Network",
-    "text": "Distributed Packet-Switched Network\n\n\nWhat does this mean?\n\nDistributed: No central control\nPacket-Switched: Data broken into packets\n\nWhat are the benefits?\n\nRedundancy\nScalability\nFlexibility\n\n\n\n\nThe Internet is a connection of billions of computers using the Internet Protocol’s communication rules."
+    "objectID": "lessons/18-robotics.html#robotics-day-1",
+    "href": "lessons/18-robotics.html#robotics-day-1",
+    "title": "Robotics Lab",
+    "section": "Robotics Day 1",
+    "text": "Robotics Day 1\n\nGrab a box and write your name on it; begin inventory!\nInstall Mu Editor to interact with Bluefruit\nPull up the Robotics Lab on your second screen\n\nInventory all components\nWarning: Separate screws (12x Gizmo, 2x for stand)! Stand screws have bigger thread and do not fit the Gizmo. Do not jam them in; they will damage the Gizmo. Combine stand screws with nuts early to separate them out.\n\nAssemble the device - connectors flush with board; attach on correct side\nRun the temperature sensor code\nContinue working outside of class\n\nDocument all assistance outside classroom!"
   },
   {
-    "objectID": "lessons/24-internet.html#history-of-the-internet",
-    "href": "lessons/24-internet.html#history-of-the-internet",
-    "title": "Internet",
-    "section": "History of the Internet",
-    "text": "History of the Internet\n\n\n\n\nWhat is ARPANet​?\n\nPrecursor to modern Internet​\n\nWho created ARPANet​?\n\nDepartment of Defense​\n\nCreated in the​ 1960s​\nNSFNet created in mid-1980s for universities and government labs​\nARPANet connected to NSFNet in 1980s​ to create inter-network\nUse of TCP/IP protocol​ ensured massive scalability\n\n\n\n\n\n\nEarly roots include the U.S. Dept. of Defense’s ARPANET in the 1960s. In the 1980s, the U.S. National Science Foundation funded a further network “backbone” creation known as NSFNet, connecting universities and government research labs, mostly for email and file transfers (at a time when sending letters and documents via physical mail was the norm). When ARPANET and NSFNet were merged in the late 1980s, the name Internet took over (short for “inter-networking”)."
+    "objectID": "lessons/18-robotics.html#robotics-day-2",
+    "href": "lessons/18-robotics.html#robotics-day-2",
+    "title": "Robotics Lab",
+    "section": "Robotics Day 2",
+    "text": "Robotics Day 2\n\n\nTasks\n\nBluefruit Assembly\nTemperature Sensor Activity\nSensor activities!\nBuild a robot!\n\n\nResources\n\nRobotics Lab\nCircuitPython Editor\nBluefruit Tutorial\nCircuitPython Documentation\n\n\nAll labs are due at the end of class on day 3!\n\nContinue working outside of class\n\nSave your work to separate files\nDemo in class on day 3!\n\nDocument all assistance! Honor acknowledgment statement on Canvas."
   },
   {
-    "objectID": "lessons/24-internet.html#world-wide-web",
-    "href": "lessons/24-internet.html#world-wide-web",
-    "title": "Internet",
-    "section": "World Wide Web",
-    "text": "World Wide Web\n\n\nWhat is it?\n\nA bunch of hypertext documents that link to each other​\n\nWhat documents?\n\nWeb pages!\n\nIs it the Internet?\n\nNo!\n\n\n\n\n\nThe web of hypertext documents (web pages) cross-referencing (linking) each other​\nThe World Wide Web is one use of the Internet that involves a vast collection of web pages (information) that is accessed via the Internet.\nMany people may think these are synonymous, but it is important to understand the distinction in this class."
-  },
-  {
-    "objectID": "lessons/24-internet.html#the-big-4-of-the-world-wide-web",
-    "href": "lessons/24-internet.html#the-big-4-of-the-world-wide-web",
-    "title": "Internet",
-    "section": "The Big 4 of the World Wide Web​",
-    "text": "The Big 4 of the World Wide Web​\n\n\n\n\nUniform Resource Locator (URL)​\n\npointer to a document on the network​\nuniquely identifies each website\n\nHyper Text Transfer Protocol (HTTP)​\n\nhow browsers and servers communicate​\n\nBrowser ​\n\nprogram to downloads and displays those documents​\n\nHyper Text Markup Language (HTML)​\n\nlanguage for writing those documents​\n\n\n\n\n\n\n\nThe fundamental building block of the Web is a single page of information that may include links to other pages. This is an image of a Wikipedia page, but you can pull up another website if you’d like. This example includes information (written in hypertext) along with click-able text, hyperlinks, which link the user to another webpage. This creates a “web” of interconnected information. Introduce the four (4) main components that build the web:  1. Uniform Resource Locator (URL) – Finds that file on any computer that is on the same network  2. Hyper Text Transport Protocol (HTTP) – Moves the contents of that file from the server to the client  3. Browsers – Display those documents in a readable format  4. Hyper Text Markup Language (HTML) - Represent a document with hyperlinks to any file on any computer on the Internet    Let’s discuss each of these in turn."
-  },
-  {
-    "objectID": "lessons/24-internet.html#uniform-resource-locator-url",
-    "href": "lessons/24-internet.html#uniform-resource-locator-url",
-    "title": "Internet",
-    "section": "Uniform Resource Locator (URL)​",
-    "text": "Uniform Resource Locator (URL)​\n\n\nURLs & DNS & HTTP (15 mins) (slide 9) In order to link pages to one another, each webpage must have a specific address, which is called a Uniform Resource Locator (URL). The components of a URL include the web’s protocol (like HTTPS), the host (the domain you wish to talk to), and the path (the page within the domain you are looking for)."
-  },
-  {
-    "objectID": "lessons/24-internet.html#domain-name-system-dns",
-    "href": "lessons/24-internet.html#domain-name-system-dns",
-    "title": "Internet",
-    "section": "Domain Name System (DNS)​",
-    "text": "Domain Name System (DNS)​\n\n\n\n\nWhat does it do?\n\nDomain name -&gt; IP address\n\nWhy is it important?\n\nAllows us to use names instead of numbers\n\nWho controls it?\n\nICANN controls root servers\nRegistrars control top-level domains\nCompanies control their subdomains\n\nWho can own a domain?\n\nAnyone!\n\nWhere is this massive directory stored?\n\n\n\n\n\n\nhttps://www.akamai.com/glossary/what-are-dns-servers\n\n\n\n\n(slide 10) But… in the Internet lesson, we learned that IP address are used to find things on the internet, not URL? Correct! But, how many students know the IP address for westpoint.edu?"
-  },
-  {
-    "objectID": "lessons/24-internet.html#but-how-does-dns-really-work",
-    "href": "lessons/24-internet.html#but-how-does-dns-really-work",
-    "title": "Internet",
-    "section": "But how does DNS really work?",
-    "text": "But how does DNS really work?\n\n\n\n\nBrowser: Where is www.example.com?\nResolver: Who knows about .com\nRoot Server: Here is your TLD server’s address\nResolver: Who knows about example.com?\nTLD Server: Here is the authoritative server for example.com\nResolver: IP address for www.example.com?\nAuthoritative Server: 1.2.3.4\nResolver: 1.2.3.4\n\n\n\n\n\n\nhttps://www.cloudflare.com/learning/dns/what-is-dns/\n\n\n\n\n(slide 11) When you request content from a URL, the first thing that happens is a DNS (Domain Name System) lookup, which takes the domain name from the URL as an input, and replies back with the IP address of the computer that is running the applicable web server. DNS is an example of another protocol!The DNS first looks at the root of the URL (.com, .gov, etc.), then it searches for the domain, and so on."
-  },
-  {
-    "objectID": "lessons/24-internet.html#hyper-text-transfer-protocol",
-    "href": "lessons/24-internet.html#hyper-text-transfer-protocol",
-    "title": "Internet",
-    "section": "Hyper Text Transfer Protocol",
-    "text": "Hyper Text Transfer Protocol\n\nhttps://medium.com/@terrybmochire/what-happens-when-you-type-a-url-in-your-browser-and-press-enter-d7357a555911\n(slide 14-15) A user uses the web-browser to connect to websites that are “served” by webservers. The hyper-text transfer protocol (“http” in the URLs) in conjunction with other protocols like DNS and TCP/IP help the browser communicate with a webserver. When a “client” requests the contents from a URL, the “server” sends back the HTML which is then displayed by the web browser, a program on our computer which requests the content and renders the HTML into a viewable format for the user.\nHTTP is exceptional insecure; it is highly recommended you always use HTTPS whenever you surf the web. In our programming lab in a few lessons you will see first-hand why."
-  },
-  {
-    "objectID": "lessons/24-internet.html#browser",
-    "href": "lessons/24-internet.html#browser",
-    "title": "Internet",
-    "section": "Browser",
-    "text": "Browser\n\n\n\n\nWhat is it?\n\nApplication on a user’s computer\n\nUses what protocol?\n\nHyper Text Transfer Protocol (HTTP)\nSecure version: HTTPS\n\nWhat do you enter in it?\n\nUniform Resource Locator (URL)\n\nWhat does it do with the URL?\n\nGets IP address from DNS server\nRequests the webpage from the server\nMakes it look pretty\n\n\n\n\n\n\n\n(slide 12) When the IP address is returned, the client (the user) sends a request to connect to the server (the IP address where content is located) for the information, following the Internet protocols and layers taught in the previous lesson."
-  },
-  {
-    "objectID": "lessons/24-internet.html#web-server",
-    "href": "lessons/24-internet.html#web-server",
-    "title": "Internet",
-    "section": "Web Server",
-    "text": "Web Server\n\n\n\nProgram on a computer\nListens for requests\nResponds with content\n\n\n\n\n\nGoogle Data Center\n\n\n\n\n(slide 13) Web servers are programs located on computers (typically stored in datacenters) that run the content or services being request. A map is provided of the Google Data Centers across the world and there is a video to provide further clarify into what a “server” is."
-  },
-  {
-    "objectID": "lessons/24-internet.html#a-modern-web-page",
-    "href": "lessons/24-internet.html#a-modern-web-page",
-    "title": "Internet",
-    "section": "A Modern Web Page",
-    "text": "A Modern Web Page\n\n\n\n\nHow do we represent a webpage? Text, Links\n\nHyperText!\n\nWhat is the language of HyperText?\n\nHyperText Markup Language (HTML)\n\nCan you see HTML?\n\nYes!\nRight-click on a page\nSelect “View page source”\n\nWhat do you see?"
-  },
-  {
-    "objectID": "lessons/24-internet.html#hyper-text-markup-language",
-    "href": "lessons/24-internet.html#hyper-text-markup-language",
-    "title": "Internet",
-    "section": "Hyper Text Markup Language",
-    "text": "Hyper Text Markup Language\n\nDefines the structure and content of the webpage\nDeveloped to specify links, headers, paragraphs, images, etc.\nUses tags such as &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;\n\n\n\nCan you write a program in HTML?\n\nNo, but you can write a webpage!\n\n\n\n\nBrowsers, HTML, CSS and JavaScript (15 mins)\n(slide 16-17) When we introduced the Web, we mentioned that webpages are written in hypertext and often includes hyperlinks to other webpages. Hypertext is simply plain text, but in order to add distinctions between plain text and hyperlinks, additional formatting what required. This is how Hyper Text Markup Language (HTML) was developed – a way to mark up a pages to specify links, headers, paragraphs, images, etc.\n(slide 18) Keep in mind, HTML is not a programming language like Python is; it is simply a markup language. That means, HTML cannot perform tasks and analyze logical conditions. It is just use to define the structure and content of a website.\nHTML (HyperText Markup Language) generally defines the content and some of the layout and format of the webpage."
-  },
-  {
-    "objectID": "lessons/24-internet.html#html-demo",
-    "href": "lessons/24-internet.html#html-demo",
-    "title": "Internet",
-    "section": "HTML Demo",
-    "text": "HTML Demo\n\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;title&gt;My first website&lt;/title&gt;\n\n&lt;body&gt;\n    &lt;h1&gt; The Gettysburg Address &lt;/h1&gt;\n    &lt;img src=\"gettysburg-address.jpg\" width=\"200\" /&gt;\n    &lt;p&gt;\n        &lt;a href=\"https://en.wikipedia.org/wiki/Abraham_Lincoln\"&gt; Abe Lincoln &lt;/a&gt; said:\n        Four score and seven years ago...\n    &lt;/p&gt;\n\n    &lt;h2&gt;What did our fathers do? &lt;/h2&gt;\n    &lt;ol&gt;\n        &lt;li&gt;brought forth on this continent a new nation&lt;/li&gt;\n        &lt;li&gt;conceived in liberty&lt;/li&gt;\n        &lt;li&gt;and dedicated to the proposition that all men are created equal&lt;/li&gt;\n    &lt;/ol&gt;\n&lt;/body&gt;\n\n&lt;/html&gt;\n\n\n\n\n\n\nRecommended to show a simple demo of creating a website in Notepad++ to demystify HTML a little bit.\n\nOpen Notepad++ application on computer\nType the HTML\nSave file as “GettysburgWebsite.html” à this converts it to an .html file instead of a .txt file\nClose file\nLocate document in File Manager, see how it is an HTML file type, and click on file. It will open in a browser and look like a website."
-  },
-  {
-    "objectID": "lessons/24-internet.html#cascading-style-sheets",
-    "href": "lessons/24-internet.html#cascading-style-sheets",
-    "title": "Internet",
-    "section": "Cascading Style Sheets",
-    "text": "Cascading Style Sheets\n\n\n\nLanguage to define looks of a webpage\nMaintain consistency in format and style\nChanges colors, sizes, spacing, fonts, etc.\n\nh1 {\n  color: red;\n}\n\np .special {\n  background-color: black;\n  padding: 5px;\n}\n\n\n\n\n(slide 19) A web page without any styling will have a white background, black text, and standard-sized text. Cascading Style Sheets (CSS) is a language that can be used to style a web page via changes in colors, sizes, spacing, fonts, and more. This helps to maintain consistency in format and style throughout the webpage and website. To continue the bird analogy, adding CSS to your website is like the baby bird gaining colorful feathers.\nCascading Style Sheets are used to maintain consistency in format and style throughout the webpage and website."
-  },
-  {
-    "objectID": "lessons/24-internet.html#javascript",
-    "href": "lessons/24-internet.html#javascript",
-    "title": "Internet",
-    "section": "JavaScript",
-    "text": "JavaScript\n\n\n\n\nComputer language that makes webpages interactive\nIs it a programming language?\n\nYes, it is the most popular language in the world!\n\nRuns everywhere!\n\n\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;script&gt;\nfunction ChangeTextColor(newColor) {\n   var x = document.getElementById(\"ColorableText\");\n   x.style.color = newColor;\n}\n        &lt;/script&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"ColorableText\"&gt;\n        Click a button to change this text's color.\n        &lt;/p&gt;\n        &lt;button type=\"button\" onclick=\"ChangeTextColor('red')\"&gt;Red&lt;/button&gt;\n        &lt;button type=\"button\" onclick=\"ChangeTextColor('blue')\"&gt;Blue&lt;/button&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n\n \n\n\n(slides 20) JavaScript is a computer programming language that makes webpages interactive. This means that it provides webpages with active content, such as graphical effects, validating information in forms, and controlling pop-up windows. Remember that JavaScript code is a program, like Python is, and like other programs, it can potentially be used for nefarious purposes too (like viruses, worms, etc.). We will discuss more about Because JS introduces more functionality to a webpage, it is analogous to the bird with colorful wings now taking flight.\nProgramming language that provides webpages with active content: provide graphical effects, validate information in forms, pop up both useful and irritating windows, and so on (UDW pg.169)\nRemember that JavaScript is a program and, like any other program, it can be used for nefarious purposes (viruses, worms, etc.)\nFun fact: at the time this was written, JavaScript was the most popular language in the world. This is because it is practically required to write a webpage. It can also be used to write a program like you would in Python."
-  },
-  {
-    "objectID": "lessons/24-internet.html#in-class-exercise",
-    "href": "lessons/24-internet.html#in-class-exercise",
-    "title": "Internet",
-    "section": "In-Class Exercise",
-    "text": "In-Class Exercise\n\nCreate a webpage!\nAdd style and interactivity\nZyBooks - 22.2 ICE: World Wide Web\nReference: W3 Schools\n\n\n(Slide 21) ICE – Make a Webpage\nHave students create a folder on their computer and download the files from the Canvas ICE: World Wide Web activity. This activity give the students starter code to copy into html, CSS or JS files to create their own webpage and provides links to W3 Schools to explore further. https://www.w3schools.com/html/\nThe intent of this ICE is for the student to be creative and change their webpage as they want. There are not prescribes tasks, except a suggestion to change paragraph text. If a student does not know where to begin or what to change, you can provide the following suggestions:\nHTML: Can you change the header to a sub header? (change h1 tags to h2 or h3)?\nCan you add a new paragraph sentence that says “Go Army”?\nCan you change the hyperlink in “CY105” to be the West Point home page?\nCSS: Can you move the header to be center aligned?\nCan you change the background color of the webpage?\nJS: When you click on the image of a pony, can you hide the text “Beat Navy!”?"
-  },
-  {
-    "objectID": "lessons/24-internet.html#cloud-computing",
-    "href": "lessons/24-internet.html#cloud-computing",
-    "title": "Internet",
-    "section": "Cloud Computing",
-    "text": "Cloud Computing\n\n\n\n\nWhat is it?\n\nSomeone else’s computer!\n\nWhy is it useful?\n\nLittle to no software installation\nApplications managed by the provider\nLower cost\nEliminates the need for physical media\nSeamless transition between many devices\n\n\n\n\n\n\n\nCloud Computing (10 mins) Today, we often utilize the processing resources, data, and storage available on the Internet available via different applications. This is called cloud computing and is in contract to local processing and storage that would utilize your specific computers hardware resources. Cloud applications process and deliver data located on remote servers that are accessible via the Internet. Cloud applications have advantages over local drive applications, including:\nLittle to no software installation: Many applications in the cloud run on remote servers and process or stream data in real-time, thus alleviating users from having to download large software programs that require significant amounts of disk space.\n\nUp-to-date software: Applications running on the cloud are the most recent releases.\n\nLower cost: Some software applications are very expensive. For example, the Adobe Creative Suite 6 Master Collection, a drawing, photo, and video editing suite, once cost $2,524. Adobe Creative Cloud has moved to a subscription model that offers the same suite of applications for $50 a month, which is cheaper if only needed for a short time.\n\nEliminates the need for physical media: To listen to music or watch videos on the computer, users could only play physical disks (CDs, DVDs) or media files on the local drive. Current applications like Netflix and Spotify allow users to stream videos and music in the respective online libraries.\n\nAccess from many locations and devices: Cloud applications can be accessed by various user devices and from various locations.\nZyBook also discusses the concept of cloud storage, which is the storage of files on remotely-located servers, with those files being managed by apps via the web. Cloud storage has several advantages over storing files solely on a local computer drive:\n\nLocal storage is limited. Moving lesser-used files to cloud storage, such as large video files, can make room in local storage for more regularly-used files.\nFiles on cloud storage can serve as a backup. A backup is a copy of a file kept in case the local version is accidentally damaged or lost.\nFiles on cloud storage can be accessed by various user devices and from various locations."
-  },
-  {
-    "objectID": "lessons/24-internet.html#business-models",
-    "href": "lessons/24-internet.html#business-models",
-    "title": "Internet",
-    "section": "Business Models",
-    "text": "Business Models\n\nInfrastructure as a Service (IaaS)\n\nPay for access to raw computing resources\nAmazon Web Services (AWS)\n\nPlatform as a Service (PaaS)\n\nPay for access to platforms or toolkits\nGoogle App Engine\n\nSoftware as a Service (SaaS)\n\nPay for applications\nMicrosoft Office 365\n\n\n\nCloud Computing has also led to the introduction of new business models and impacted the way people conduct business. ZyBook mentions the following:\n\nSoftware as a service (Saas) is a type of business model where users pay for a vendor’s apps, which process and store data on the cloud.\nInfrastructure as a service (IaaS) is a type of business model where users pay to access computing resources such as servers, storage, and networking. Example: Amazon Web Services (AWS)\nPlatform as a service (PaaS) is a type of business model where users pay to access vendor’s platforms or toolkits to develop and deploy new applications. Example: Google App Engine.\nTelecommuting, where an employee works outside of the traditional office space, has also increased due to the ability for cloud computing."
-  },
-  {
-    "objectID": "lessons/24-internet.html#discussion-search-engines",
-    "href": "lessons/24-internet.html#discussion-search-engines",
-    "title": "Internet",
-    "section": "Discussion: Search Engines",
-    "text": "Discussion: Search Engines\n\nWhat is a search engine? Give some examples.\nHow does it work? How often does a search engine contact other websites?\nWhat can it not find?\nCan you work without it? Why or why not?\n\nYouTube: How Search Works\n\nSearch Engines & Layers of the Web (5 mins)\nBy now, students should understand the process and protocols in place to request web content and receive it back. But what if the user does not know the URL for their desired content? Where do you go if you don’t know the exact page you want to request? Website such as www.google.com or yahoo, are what is called search engines. A search engine is a website that does web searches – takes user-typed words as an input and finds the web pages that best match.\n(Slide 43) A Code.org video explains search engines and search algorithms. (play ~ 0:44 – 3:50)\nKey takeaways: - Search engines do not go out to the WWW every time there is a new search to find the best answers - Spiders continuously creates and updates a search index which is then referenced to find the best answers - Algorithms for what is “the best” result(s) can vary and are often evolving to improve results and detect spammers."
-  },
-  {
-    "objectID": "lessons/24-internet.html#deep-and-dark-web",
-    "href": "lessons/24-internet.html#deep-and-dark-web",
-    "title": "Internet",
-    "section": "Deep and Dark Web",
-    "text": "Deep and Dark Web\n\n\n\nSurface Web\n\nPublicly accessible World Wide Web\nSearch engine spider can see this!\n\nDeep Web\n\nPrivate, unlinked, or hidden\nHidden behind login pages\nUnlinked, excluded by robots.txt\nSearch engines cannot see this!\n\nDark Web\n\nAnonymizing protocols\n\nUnusual routing techniques\nLots of Encryption\n\nI2P, Freenet, ZeroNet, GNUnet\nCommonly accessed using The Onion Router (TOR) browser \n\nDo not try this yourself!\n\n\n\n\n\n(slides 23 - 24) The content that the engine spider indexes makes up the surface web. This is only 4% of the total web content out there! Below the “surface”, is the deep web, content that is hidden behind login pages or proprietary information not accessible to the general public. Then there is the dark web, requiring specific networks, browsers, and software to enable anonymous routing protocols and often used for illegal activity, such as black-market trading and counterfeiting."
-  },
-  {
-    "objectID": "lessons/24-internet.html#cloud-computing-and-data",
-    "href": "lessons/24-internet.html#cloud-computing-and-data",
-    "title": "Internet",
-    "section": "Cloud Computing and Data",
-    "text": "Cloud Computing and Data\n\nIf you create content but it is stored on the cloud (another company’s web server), who owns the data?\nWhat if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?\nWhat implications does cloud services have on data privacy?\n\n\nInteresting questions to pose to the class. If there is time in class, these questions could lead to great discussions, but if not, share these as teasers for the upcoming Data and Ethics lesson.\n\nIf you create content but it is stored on the cloud (another company’s web server), who owns the data?\nWhat if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?\nWhat implications does cloud services have on data privacy?"
-  },
-  {
-    "objectID": "lessons/24-internet.html#check-on-learning",
-    "href": "lessons/24-internet.html#check-on-learning",
-    "title": "Internet",
-    "section": "Check on Learning",
-    "text": "Check on Learning\n\nWhat is the Internet?\nWho owns the Internet?\nWhat is the World Wide Web?\nHow does the WWW work?\nDoes DNS translate URLs to domain names?\nWhat is the purpose of HTTP?\nWhat is a browser?\nIs a browser a server or a client?\n\n\nDefine the internet. Who owns it? What is the world wide web? How is it different from the internet? Describe how the Domain Name System (DNS) relates to IP Addresses and Uniform Resource Locators (URLs). How does the WWW work? Define and describe the following terms: HTTP/HTTPS HTML URL Client vs Server CSS JavaScript Define a browser. Provide some examples of them."
-  },
-  {
-    "objectID": "lessons/24-internet.html#final-notes",
-    "href": "lessons/24-internet.html#final-notes",
-    "title": "Internet",
-    "section": "Final Notes",
-    "text": "Final Notes\n\n\n\nOnline Tracking and Ethics\nDigital Footprint Audit\n\nDocument Assistance!\n\nSummative project\n\nPython program\nHardware project\nCan build a website! \n\n\n\n\n\n\nhttps://xkcd.com/303/"
+    "objectID": "lessons/18-robotics.html#robotics-day-3",
+    "href": "lessons/18-robotics.html#robotics-day-3",
+    "title": "Robotics Lab",
+    "section": "Robotics Day 3",
+    "text": "Robotics Day 3\nResources\n\nCircuitPython Editor\nRobotics Lab\nBluefruit Tutorial\nCircuitPython Documentation\n\nAll labs are due today!\n\nDocument all assistance!\nHonor acknowledgment statement on Canvas!!"
   },
   {
     "objectID": "lessons/16-functions.html#announcements",

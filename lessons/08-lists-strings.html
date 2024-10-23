@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <link href="..//images/favicon_0.ico" rel="icon">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -509,7 +510,7 @@ CPT Sonny Bhatia
 <li>Indexing - <code>[]</code></li>
 </ul>
 <h3 id="try-the-following-in-a-python-shell">Try the following in a <a href="https://pyodide.org/en/stable/console.html">Python Shell</a></h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb1-1"><a></a>x <span class="op">=</span> <span class="st">'hello'</span></span>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>x <span class="op">=</span> <span class="st">'hello'</span></span>
 <span id="cb1-2"><a></a>y <span class="op">=</span> <span class="st">'world'</span></span>
 <span id="cb1-3"><a></a>x <span class="op">+</span> y</span>
 <span id="cb1-4"><a></a>x <span class="op">*</span> <span class="dv">3</span> <span class="op">+</span> y <span class="op">*</span> <span class="dv">2</span></span>
@@ -517,31 +518,31 @@ CPT Sonny Bhatia
 <span id="cb1-6"><a></a>z[<span class="dv">0</span>] <span class="co"># see reference card, page 4, bottom-left</span></span>
 <span id="cb1-7"><a></a>z[<span class="dv">2</span>]</span>
 <span id="cb1-8"><a></a>z[<span class="op">-</span><span class="dv">1</span>]</span>
-<span id="cb1-9"><a></a>z[<span class="op">-</span><span class="dv">2</span>]</span></code></pre></div>
+<span id="cb1-9"><a></a>z[<span class="op">-</span><span class="dv">2</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="string-iteration" class="slide level2 center" data-timing="180">
 <h2>String Iteration</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb2-1"><a></a>my_string <span class="op">=</span> <span class="st">"Hello, World! This is a string."</span></span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>my_string <span class="op">=</span> <span class="st">"Hello, World! This is a string."</span></span>
 <span id="cb2-2"><a></a>length <span class="op">=</span> <span class="bu">len</span>(my_string)</span>
 <span id="cb2-3"><a></a></span>
 <span id="cb2-4"><a></a><span class="cf">for</span> char <span class="kw">in</span> my_string:</span>
-<span id="cb2-5"><a></a>    <span class="bu">print</span>(char)</span></code></pre></div>
+<span id="cb2-5"><a></a>    <span class="bu">print</span>(char)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Using <code>len()</code> and <code>range()</code> to iterate over the <em>indices</em> of a string</li>
 </ul>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(length):</span>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(length):</span>
 <span id="cb3-2"><a></a>    char <span class="op">=</span> my_string[i]</span>
-<span id="cb3-3"><a></a>    <span class="bu">print</span>(char)</span></code></pre></div>
+<span id="cb3-3"><a></a>    <span class="bu">print</span>(char)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Iterating over every other character</li>
 </ul>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, length, <span class="dv">2</span>):</span>
-<span id="cb4-2"><a></a>    <span class="bu">print</span>(my_string[i])</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, length, <span class="dv">2</span>):</span>
+<span id="cb4-2"><a></a>    <span class="bu">print</span>(my_string[i])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Iterating in reverse</li>
 </ul>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(length <span class="op">-</span> <span class="dv">1</span>, <span class="op">-</span><span class="dv">1</span>, <span class="op">-</span><span class="dv">1</span>):</span>
-<span id="cb5-2"><a></a>    <span class="bu">print</span>(my_string[i])</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(length <span class="op">-</span> <span class="dv">1</span>, <span class="op">-</span><span class="dv">1</span>, <span class="op">-</span><span class="dv">1</span>):</span>
+<span id="cb5-2"><a></a>    <span class="bu">print</span>(my_string[i])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="in-class-exercise-1" class="slide level2 center" data-timing="300">
 <h2>In-Class Exercise</h2>
@@ -583,13 +584,13 @@ CPT Sonny Bhatia
 </section>
 <section id="bonus-f-strings" class="slide level2 center" data-timing="120">
 <h2>Bonus: f-strings</h2>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb6-1"><a></a>name <span class="op">=</span> <span class="st">"Dan"</span></span>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>name <span class="op">=</span> <span class="st">"Dan"</span></span>
 <span id="cb6-2"><a></a>age <span class="op">=</span> <span class="dv">21</span></span>
 <span id="cb6-3"><a></a><span class="bu">print</span>(<span class="ss">f"Hello, my name is </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss"> and I am </span><span class="sc">{</span>age<span class="sc">}</span><span class="ss"> years old."</span>)</span>
 <span id="cb6-4"><a></a></span>
 <span id="cb6-5"><a></a>one <span class="op">=</span> <span class="dv">1</span></span>
 <span id="cb6-6"><a></a>two <span class="op">=</span> <span class="dv">2</span></span>
-<span id="cb6-7"><a></a><span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>one<span class="sc">}</span><span class="ss"> + </span><span class="sc">{</span>two<span class="sc">}</span><span class="ss"> = </span><span class="sc">{</span>one <span class="op">+</span> two<span class="sc">}</span><span class="ss">"</span>)</span></code></pre></div>
+<span id="cb6-7"><a></a><span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>one<span class="sc">}</span><span class="ss"> + </span><span class="sc">{</span>two<span class="sc">}</span><span class="ss"> = </span><span class="sc">{</span>one <span class="op">+</span> two<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><a href="https://fstring.help/">fstring.help</a></li>
 </ul>
@@ -602,12 +603,12 @@ CPT Sonny Bhatia
 <li>Indexing - <code>[]</code></li>
 </ul>
 <h3 id="try-the-following-in-a-python-shell-1">Try the following in a <a href="https://pyodide.org/en/stable/console.html">Python Shell</a></h3>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb7-1"><a></a>x <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>]</span>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a>x <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>]</span>
 <span id="cb7-2"><a></a>y <span class="op">=</span> [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>]</span>
 <span id="cb7-3"><a></a>x <span class="op">+</span> y</span>
 <span id="cb7-4"><a></a>x <span class="op">*</span> <span class="dv">3</span></span>
 <span id="cb7-5"><a></a>z <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
-<span id="cb7-6"><a></a>z[<span class="dv">0</span>], z[<span class="dv">1</span>], z[<span class="dv">2</span>], z[<span class="op">-</span><span class="dv">1</span>], z[<span class="op">-</span><span class="dv">2</span>], z[<span class="op">-</span><span class="dv">3</span>]</span></code></pre></div>
+<span id="cb7-6"><a></a>z[<span class="dv">0</span>], z[<span class="dv">1</span>], z[<span class="dv">2</span>], z[<span class="op">-</span><span class="dv">1</span>], z[<span class="op">-</span><span class="dv">2</span>], z[<span class="op">-</span><span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="modifying-a-list" class="slide level2 center" data-timing="120">
 <h2>Modifying a List</h2>
@@ -616,30 +617,30 @@ CPT Sonny Bhatia
 <li>Strings cannot be modified: <code>x[2] = 'a'</code></li>
 </ul>
 <h3 id="try-the-following-in-a-python-shell-2">Try the following in a <a href="https://pyodide.org/en/stable/console.html">Python Shell</a></h3>
-<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb8-1"><a></a>x <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a>x <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
 <span id="cb8-2"><a></a>x[<span class="dv">2</span>] <span class="op">=</span> <span class="dv">10</span></span>
 <span id="cb8-3"><a></a>x[<span class="dv">0</span>] <span class="op">=</span> x[<span class="dv">1</span>] <span class="op">+</span> x[<span class="dv">2</span>]</span>
 <span id="cb8-4"><a></a>x[<span class="dv">3</span>] <span class="op">=</span> x[<span class="dv">4</span>]</span>
-<span id="cb8-5"><a></a>x</span></code></pre></div>
+<span id="cb8-5"><a></a>x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="modifying-a-list-of-characters" class="slide level2 center" data-timing="120">
 <h2>Modifying a List… of characters?</h2>
-<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb9-1"><a></a>snack <span class="op">=</span> <span class="bu">list</span>(<span class="st">"pineapple"</span>)</span>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a>snack <span class="op">=</span> <span class="bu">list</span>(<span class="st">"pineapple"</span>)</span>
 <span id="cb9-2"><a></a>snack[<span class="dv">0</span>] <span class="op">=</span> <span class="st">"l"</span></span>
-<span id="cb9-3"><a></a>snack[<span class="dv">2</span>] <span class="op">=</span> <span class="st">"m"</span></span></code></pre></div>
+<span id="cb9-3"><a></a>snack[<span class="dv">2</span>] <span class="op">=</span> <span class="st">"m"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>What is the value of <code>snack</code> now?</p>
 </section>
 <section id="modifying-a-list-1" class="slide level2 center" data-timing="120">
 <h2>Modifying a List</h2>
-<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb10-1"><a></a>numbers <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a>numbers <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Which of the following code snippets successfully modifies the list so that all the elements are squared? Select all that apply.</p>
 <ol type="1">
-<li><div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb11-1"><a></a>   <span class="cf">for</span> i <span class="kw">in</span> numbers:</span>
-<span id="cb11-2"><a></a>       i <span class="op">**</span> <span class="dv">2</span></span></code></pre></div></li>
-<li><div class="sourceCode" id="cb12"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb12-1"><a></a>   <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(numbers)):</span>
-<span id="cb12-2"><a></a>       numbers[i] <span class="op">**</span> <span class="dv">2</span></span></code></pre></div></li>
-<li><div class="sourceCode" id="cb13"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb13-1"><a></a>   <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(numbers)):</span>
-<span id="cb13-2"><a></a>       numbers[i] <span class="op">=</span> numbers[i] <span class="op">**</span> <span class="dv">2</span></span></code></pre></div></li>
+<li><div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>   <span class="cf">for</span> i <span class="kw">in</span> numbers:</span>
+<span id="cb11-2"><a></a>       i <span class="op">**</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><div class="sourceCode" id="cb12"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a>   <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(numbers)):</span>
+<span id="cb12-2"><a></a>       numbers[i] <span class="op">**</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><div class="sourceCode" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a>   <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(numbers)):</span>
+<span id="cb13-2"><a></a>       numbers[i] <span class="op">=</span> numbers[i] <span class="op">**</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ol>
 <aside class="notes">
 <p>Live demo</p>
@@ -660,17 +661,17 @@ CPT Sonny Bhatia
 <ul>
 <li>A <code>for</code> loop can iterate over each <em>item</em> in a list</li>
 </ul>
-<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb14-1"><a></a>fruits <span class="op">=</span> [<span class="st">"apple"</span>, <span class="st">"banana"</span>, <span class="st">"cherry"</span>, <span class="st">"date"</span>, <span class="st">"elderberry"</span>]</span>
+<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a>fruits <span class="op">=</span> [<span class="st">"apple"</span>, <span class="st">"banana"</span>, <span class="st">"cherry"</span>, <span class="st">"date"</span>, <span class="st">"elderberry"</span>]</span>
 <span id="cb14-2"><a></a><span class="cf">for</span> item <span class="kw">in</span> fruits:</span>
-<span id="cb14-3"><a></a>    <span class="bu">print</span>(item)</span></code></pre></div>
+<span id="cb14-3"><a></a>    <span class="bu">print</span>(item)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>We can also use <code>len()</code> and <code>range()</code> to iterate over the <em>indices</em> of a list</li>
 </ul>
-<div class="sourceCode" id="cb15"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb15-1"><a></a>fruits <span class="op">=</span> [<span class="st">"apple"</span>, <span class="st">"banana"</span>, <span class="st">"cherry"</span>, <span class="st">"date"</span>, <span class="st">"elderberry"</span>]</span>
+<div class="sourceCode" id="cb15"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a>fruits <span class="op">=</span> [<span class="st">"apple"</span>, <span class="st">"banana"</span>, <span class="st">"cherry"</span>, <span class="st">"date"</span>, <span class="st">"elderberry"</span>]</span>
 <span id="cb15-2"><a></a>length <span class="op">=</span> <span class="bu">len</span>(fruits)</span>
 <span id="cb15-3"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(length):</span>
 <span id="cb15-4"><a></a>    item <span class="op">=</span> fruits[i]</span>
-<span id="cb15-5"><a></a>    <span class="bu">print</span>(item)</span></code></pre></div>
+<span id="cb15-5"><a></a>    <span class="bu">print</span>(item)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <aside class="notes">
 <p>Live demo</p>
 <style type="text/css">
@@ -714,7 +715,7 @@ CPT Sonny Bhatia
 <h2>In-Class Exercise</h2>
 <p>Write a program that calculates the sum of all the squared values of all the items in a numeric list.</p>
 <p>For example, for the given list,</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb16-1"><a></a>a_list <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a></a>a_list <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>The program will print the value <code>30</code>, since <code>1 + 4 + 9 + 16 = 30</code>.</p>
 </section>
 <section id="reminders" class="slide level2 center" data-timing="0">
@@ -769,7 +770,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"986f38e9da018a0f","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"2b557ff059472f28","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -973,6 +974,69 @@ CPT Sonny Bhatia
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
       });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp("https:\/\/cy105\.bhatia\.dev\/");
