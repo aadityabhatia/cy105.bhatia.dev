@@ -88,14 +88,14 @@
     "href": "lessons/24-www.html#discussion",
     "title": "World Wide Web",
     "section": "Discussion",
-    "text": "Discussion\n\nWhat questions do you have about the Internet and the World Wide Web?"
+    "text": "Discussion\n\nIf US and China Go To War…\n\n\n\nWhat questions do you have about the Internet and the World Wide Web?\nReflection on notecards"
   },
   {
     "objectID": "lessons/24-www.html#announcements",
     "href": "lessons/24-www.html#announcements",
     "title": "World Wide Web",
     "section": "Announcements",
-    "text": "Announcements\n\nAI Summative Project\n\nProject Proposal due 12NOV\n\nDigital Footprint Audit due 27OCT"
+    "text": "Announcements\n\nDigital Footprint Audit due 27OCT\nWeekly Problem Set 7 due 03NOV\nAI Summative Project Proposal due 12NOV"
   },
   {
     "objectID": "lessons/24-www.html#lesson-objectives",
@@ -103,13 +103,6 @@
     "title": "World Wide Web",
     "section": "Lesson Objectives",
     "text": "Lesson Objectives\n\nArticulate the different layers of the web\n\nand which ones are accessible by search engines​\n\nDefine and identify the purpose of URLs and Browsers​.\nDefine and identify the purpose of HTTP, TLS, DNS.​\nExplain how users access data across the web\n\nhow it relates to Network layers and protocols.\n\nSummarize how HTTP provides access to web content\n\npurpose of HTML, CSS, & JavaScript​"
-  },
-  {
-    "objectID": "lessons/24-www.html#in-class-exercise-1",
-    "href": "lessons/24-www.html#in-class-exercise-1",
-    "title": "World Wide Web",
-    "section": "In-Class Exercise 1",
-    "text": "In-Class Exercise 1\n\nCreate a new folder. Copy the following code into a new file. Save it as first.html in that new folder.\n\n&lt;html&gt;\n    &lt;body&gt;\n        This is my first website!\n    &lt;/body&gt;\n&lt;/html&gt;\n\nDouble click on the file to open it in a browser.\nChange the text in the body to something else. Save the file and refresh the browser.\nAdd the following code inside the &lt;body&gt; tags. Save and refresh.\n\n&lt;h1&gt;CY105 rocks!&lt;/h1&gt;"
   },
   {
     "objectID": "lessons/24-www.html#search-engines",
@@ -133,11 +126,11 @@
     "text": "Dark Web\n\n\n\nAnonymizing protocols\n\nUnusual routing techniques\nLots of Encryption\n\nI2P, Freenet, ZeroNet, GNUnet\nCommonly accessed using The Onion Router (TOR) browser\nExtensively used for illegal activities\n\nDo not try this yourself!\n\n\n\n\n\nBlack market trading\nCounterfeiting\nDrug trafficking\nHuman trafficking"
   },
   {
-    "objectID": "lessons/24-www.html#in-class-exercise-2",
-    "href": "lessons/24-www.html#in-class-exercise-2",
+    "objectID": "lessons/24-www.html#in-class-exercise-1",
+    "href": "lessons/24-www.html#in-class-exercise-1",
     "title": "World Wide Web",
-    "section": "In-Class Exercise 2",
-    "text": "In-Class Exercise 2\n\nAdd the following to the &lt;body&gt; of your first.html file:\n\n&lt;a href=\"https://en.wikipedia.org/\"&gt;Wikipedia&lt;/a&gt;\n\nSave and refresh the browser.\nDownload this image to your website directory.\nAdd to the &lt;body&gt;:\n\n&lt;img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/ArmyWestPointAthenaShield.png' height=\"20%\" /&gt;\n\nSave and refresh the browser."
+    "section": "In-Class Exercise 1",
+    "text": "In-Class Exercise 1\n\nCreate a new folder. Copy the following code into a new file. Save it as first.html in that new folder.\n\n&lt;html&gt;\n    &lt;body&gt;\n        This is my first website!\n    &lt;/body&gt;\n&lt;/html&gt;\n\nDouble click on the file to open it in a browser.\nChange the text in the body to something else. Save the file and refresh the browser.\nAdd the following code inside the &lt;body&gt; tags. Save and refresh.\n\n&lt;h1&gt;CY105 rocks!&lt;/h1&gt;"
   },
   {
     "objectID": "lessons/24-www.html#world-wide-web",
@@ -151,7 +144,7 @@
     "href": "lessons/24-www.html#how-it-all-works",
     "title": "World Wide Web",
     "section": "How it all works?",
-    "text": "How it all works?\n\nUniform Resource Locator (URL)​\n\nPointer to a document on the network​ that uniquely identifies each website\n\nBrowser: Firefox, Chrome, Edge\n\nApplication on a user’s computer that requests and displays web content\n\nHyper Text Transfer Protocol (HTTP)​\n\nProtocol used to grab the contents of the file from the server\nSecure version: HTTPS!\n\nHyper Text Markup Language (HTML)​\n\nA document with text, images, and hyperlinks to other files on the Internet\n\n\nHow do you see HTML behind a webpage?\n\n\nUniform Resource Locator (URL) – Finds that file on any computer that is on the same network \nHyper Text Transport Protocol (HTTP) – Moves the contents of that file from the server to the client \nBrowsers – Download these documents and display them in a readable format\nHyper Text Markup Language (HTML) - Represent a document with hyperlinks to any file on any computer on the Internet"
+    "text": "How it all works?\n\nUniform Resource Locator (URL)​\n\nPointer to a document on the network​ that uniquely identifies each website\n\nBrowser: Firefox, Chrome, Edge\n\nApplication on a user’s computer that requests and displays web content\n\nHyper Text Transfer Protocol (HTTP)​\n\nProtocol used to grab the contents of the file from the server\nSecure version: HTTPS!\n\nHyper Text Markup Language (HTML)​\n\nA document with text, images, and hyperlinks to other files on the Internet\n\n\n\n\nUniform Resource Locator (URL) – Finds that file on any computer that is on the same network \nHyper Text Transport Protocol (HTTP) – Moves the contents of that file from the server to the client \nBrowsers – Download these documents and display them in a readable format\nHyper Text Markup Language (HTML) - Represent a document with hyperlinks to any file on any computer on the Internet"
   },
   {
     "objectID": "lessons/24-www.html#uniform-resource-locator-url",
@@ -175,11 +168,25 @@
     "text": "But how does DNS really work?\n\n\n\nBrowser: Where is www.example.com?\nResolver: Who knows about .com\nRoot Server: Here is your TLD server’s address\nResolver: Who knows about example.com?\nTLD Server: Here is the authoritative server for example.com\nResolver: IP address for www.example.com?\nAuthoritative Server: 1.2.3.4\nResolver: 1.2.3.4\n\n\n\n\n\nhttps://www.cloudflare.com/learning/dns/what-is-dns/\n\n\n\n\n(slide 11) When you request content from a URL, the first thing that happens is a DNS (Domain Name System) lookup, which takes the domain name from the URL as an input, and replies back with the IP address of the computer that is running the applicable web server. DNS is an example of another protocol!The DNS first looks at the root of the URL (.com, .gov, etc.), then it searches for the domain, and so on."
   },
   {
+    "objectID": "lessons/24-www.html#in-class-exercise-2",
+    "href": "lessons/24-www.html#in-class-exercise-2",
+    "title": "World Wide Web",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\n\nAdd the following to the &lt;body&gt; of your first.html file:\n\n&lt;a href=\"https://en.wikipedia.org/\"&gt;Wikipedia&lt;/a&gt;\n\nSave and refresh the browser.\nDownload this image to your website directory.\nAdd to the &lt;body&gt;:\n\n&lt;img src='ArmyWestPointAthenaShield.png' height=\"200\" /&gt;\n\nSave and refresh the browser."
+  },
+  {
     "objectID": "lessons/24-www.html#hyper-text-transfer-protocol-http",
     "href": "lessons/24-www.html#hyper-text-transfer-protocol-http",
     "title": "World Wide Web",
     "section": "Hyper Text Transfer Protocol (HTTP)",
     "text": "Hyper Text Transfer Protocol (HTTP)\n\nhttps://medium.com/@terrybmochire/what-happens-when-you-type-a-url-in-your-browser-and-press-enter-d7357a555911\n(slide 14-15) A user uses the web-browser to connect to websites that are “served” by webservers. The hyper-text transfer protocol (“http” in the URLs) in conjunction with other protocols like DNS and TCP/IP help the browser communicate with a webserver. When a “client” requests the contents from a URL, the “server” sends back the HTML which is then displayed by the web browser, a program on our computer which requests the content and renders the HTML into a viewable format for the user.\nHTTP is exceptional insecure; it is highly recommended you always use HTTPS whenever you surf the web. In our programming lab in a few lessons you will see first-hand why."
+  },
+  {
+    "objectID": "lessons/24-www.html#transport-layer-security-tls",
+    "href": "lessons/24-www.html#transport-layer-security-tls",
+    "title": "World Wide Web",
+    "section": "Transport Layer Security (TLS)",
+    "text": "Transport Layer Security (TLS)\n\n\n\nEncrypts the data between the client and the server\nPrevents eavesdropping and tampering\nProtects the data from being stolen\n\nHTTPS = HTTP + TLS\n\nI have nothing to hide. Why should I care?"
   },
   {
     "objectID": "lessons/24-www.html#browser",
@@ -196,34 +203,6 @@
     "text": "Web Server\n\n\n\nProgram running on a computer\nListens for requests\nResponds with content\n\n\n\n\n\nGoogle Data Center\n\n\n\nCan you run a web server in Python?"
   },
   {
-    "objectID": "lessons/24-www.html#hyper-text-markup-language",
-    "href": "lessons/24-www.html#hyper-text-markup-language",
-    "title": "World Wide Web",
-    "section": "Hyper Text Markup Language",
-    "text": "Hyper Text Markup Language\n\nDefines the structure and content of the webpage\nDeveloped to specify links, headers, paragraphs, images, etc.\nUses tags such as &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;\n\nCan you write a program in HTML?"
-  },
-  {
-    "objectID": "lessons/24-www.html#in-class-exercise-3",
-    "href": "lessons/24-www.html#in-class-exercise-3",
-    "title": "World Wide Web",
-    "section": "In-Class Exercise 3",
-    "text": "In-Class Exercise 3\n\nCopy the following HTML code into a new file. Save it as second.html in the same website folder.\nDownload the following image and save it to your website directory: gettysburg-address.jpg\nRename it to the correct name.\nWhat are these new tags? &lt;h2&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;p&gt;\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;title&gt;My second website&lt;/title&gt;\n\n&lt;body&gt;\n    &lt;h1&gt; The Gettysburg Address &lt;/h1&gt;\n    &lt;img src=\"gettysburg-address.jpg\" width=\"200\" /&gt;\n    &lt;p&gt;\n        &lt;a href=\"https://en.wikipedia.org/wiki/Abraham_Lincoln\"&gt; Abe Lincoln &lt;/a&gt; said:\n        Four score and seven years ago...\n    &lt;/p&gt;\n\n    &lt;h2&gt;What did our fathers do? &lt;/h2&gt;\n    &lt;ol&gt;\n        &lt;li&gt;brought forth on this continent a new nation&lt;/li&gt;\n        &lt;li&gt;conceived in liberty&lt;/li&gt;\n        &lt;li&gt;and dedicated to the proposition that all men are created equal&lt;/li&gt;\n    &lt;/ol&gt;\n&lt;/body&gt;\n&lt;/html&gt;"
-  },
-  {
-    "objectID": "lessons/24-www.html#cascading-style-sheets",
-    "href": "lessons/24-www.html#cascading-style-sheets",
-    "title": "World Wide Web",
-    "section": "Cascading Style Sheets",
-    "text": "Cascading Style Sheets\n\n\n\nLanguage to define looks of a webpage\nMaintain consistency in format and style\nChanges colors, sizes, spacing, fonts, etc.\n\nh1 {\n  color: red;\n}\n\np .special {\n  background-color: black;\n  padding: 5px;\n}\n\n\n\nTask: Copy the code above into a new file: style.css\n\n(slide 19) A web page without any styling will have a white background, black text, and standard-sized text. Cascading Style Sheets (CSS) is a language that can be used to style a web page via changes in colors, sizes, spacing, fonts, and more. This helps to maintain consistency in format and style throughout the webpage and website. To continue the bird analogy, adding CSS to your website is like the baby bird gaining colorful feathers.\nCascading Style Sheets are used to maintain consistency in format and style throughout the webpage and website."
-  },
-  {
-    "objectID": "lessons/24-www.html#javascript",
-    "href": "lessons/24-www.html#javascript",
-    "title": "World Wide Web",
-    "section": "JavaScript",
-    "text": "JavaScript\n\n\n\nComputer language that makes webpages interactive\nIs it a programming language?\nWhere can it run?\n\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;script&gt;\nfunction ChangeTextColor(newColor) {\n   var x = document.getElementById(\"ColorableText\");\n   x.style.color = newColor;\n}\n        &lt;/script&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"ColorableText\"&gt;\n        Click a button to change this text's color.\n        &lt;/p&gt;\n        &lt;button type=\"button\" onclick=\"ChangeTextColor('red')\"&gt;Red&lt;/button&gt;\n        &lt;button type=\"button\" onclick=\"ChangeTextColor('blue')\"&gt;Blue&lt;/button&gt;\n    &lt;/body&gt;\n&lt;/html&gt;"
-  },
-  {
     "objectID": "lessons/24-www.html#cloud-computing",
     "href": "lessons/24-www.html#cloud-computing",
     "title": "World Wide Web",
@@ -231,18 +210,60 @@
     "text": "Cloud Computing\n\n\n\n\nWhat is it?\n\nSomeone else’s computer!\n\nWhy is it useful?\n\nLittle to no software installation\nApplications managed by the provider\nLower cost\nEliminates the need for physical media\nSeamless transition between many devices"
   },
   {
-    "objectID": "lessons/24-www.html#cloud-computing-and-data",
-    "href": "lessons/24-www.html#cloud-computing-and-data",
+    "objectID": "lessons/24-www.html#hyper-text-markup-language",
+    "href": "lessons/24-www.html#hyper-text-markup-language",
     "title": "World Wide Web",
-    "section": "Cloud Computing and Data",
-    "text": "Cloud Computing and Data\n\nIf you create content but it is stored on the cloud (another company’s web server), who owns the data?\nWhat if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?\nWhat implications does cloud services have on data privacy?\n\n\nInteresting questions to pose to the class. If there is time in class, these questions could lead to great discussions, but if not, share these as teasers for the upcoming Data and Ethics lesson.\n\nIf you create content but it is stored on the cloud (another company’s web server), who owns the data?\nWhat if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?\nWhat implications does cloud services have on data privacy?"
+    "section": "Hyper Text Markup Language",
+    "text": "Hyper Text Markup Language\n\nDefines the structure and content of the webpage\nDeveloped to specify links, headers, paragraphs, images, etc.\nUses tags such as &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;\n\nHow do you see HTML behind a webpage?\nCan you write a program in HTML?"
+  },
+  {
+    "objectID": "lessons/24-www.html#in-class-exercise-3",
+    "href": "lessons/24-www.html#in-class-exercise-3",
+    "title": "World Wide Web",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\n\nCopy the following HTML code into a new file. Save it as second.html in the same website folder.\nDownload the following image and save it to your website directory: gettysburg-address.jpg\nRename it to match the file name below in the &lt;img&gt; tag.\n\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n    &lt;title&gt;My second website&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;h1&gt; The Gettysburg Address &lt;/h1&gt;\n    &lt;img src=\"gettysburg-address.jpg\" width=\"500\" /&gt;\n    &lt;p&gt;\n        &lt;a href=\"https://en.wikipedia.org/wiki/Abraham_Lincoln\"&gt; Abe Lincoln &lt;/a&gt; said:\n        Four score and seven years ago...\n    &lt;/p&gt;\n\n    &lt;h2&gt;What did our fathers do? &lt;/h2&gt;\n    &lt;ol&gt;\n        &lt;li&gt;brought forth on this continent a new nation&lt;/li&gt;\n        &lt;li&gt;conceived in liberty&lt;/li&gt;\n        &lt;li&gt;and dedicated to the proposition that all men are created equal&lt;/li&gt;\n    &lt;/ol&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n\nWhat are these new tags? &lt;h2&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;p&gt;"
+  },
+  {
+    "objectID": "lessons/24-www.html#cascading-style-sheets",
+    "href": "lessons/24-www.html#cascading-style-sheets",
+    "title": "World Wide Web",
+    "section": "Cascading Style Sheets",
+    "text": "Cascading Style Sheets\n\n\n\nLanguage to define looks of a webpage\nMaintain consistency in format and style\nChanges colors, sizes, spacing, fonts, etc.\n\nh1 {\n    color: red;\n}\n\np.special {\n    background-color: black;\n    color: white;\n    padding: 20px;\n}"
+  },
+  {
+    "objectID": "lessons/24-www.html#in-class-exercise-4",
+    "href": "lessons/24-www.html#in-class-exercise-4",
+    "title": "World Wide Web",
+    "section": "In-Class Exercise 4",
+    "text": "In-Class Exercise 4\n\nCreate a new file called style.css in your website directory.\nCopy the following code into the style.css file:\n\nh1 {\n  color: brown;\n}\n\np {\n  background-color: peachpuff;\n  padding: 20px;\n}\n\nimg {\n  border: 5px solid black;\n}\n\nAdd the following line to the &lt;head&gt; section of your second.html file:\n\n&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"&gt;\n\nSave and refresh the browser."
+  },
+  {
+    "objectID": "lessons/24-www.html#javascript",
+    "href": "lessons/24-www.html#javascript",
+    "title": "World Wide Web",
+    "section": "JavaScript",
+    "text": "JavaScript\n\n\n\nLanguage that makes webpages interactive!\nIs it a programming language?\nWhere can it run?\n\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;script&gt;\nfunction ChangeTextColor(newColor) {\n   var x = document.getElementById(\"ColorableText\");\n   x.style.color = newColor;\n}\n        &lt;/script&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n        &lt;p id=\"ColorableText\"&gt;\n        Click a button to change this text's color.\n        &lt;/p&gt;\n        &lt;button type=\"button\" onclick=\"ChangeTextColor('red')\"&gt;Red&lt;/button&gt;\n        &lt;button type=\"button\" onclick=\"ChangeTextColor('blue')\"&gt;Blue&lt;/button&gt;\n    &lt;/body&gt;\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "lessons/24-www.html#in-class-exercise-5",
+    "href": "lessons/24-www.html#in-class-exercise-5",
+    "title": "World Wide Web",
+    "section": "In-Class Exercise 5",
+    "text": "In-Class Exercise 5\n\nCreate a new file called script.js in your website directory with the following code:\n\n// press F12 in browser to see this \"Hello World!\"\nconsole.log('Hello World!');\n\n// define function to change image border\nfunction changeImageBorder() {\n    document.querySelector('img').style.border = '5px solid red';\n}\n\n// when document is ready\ndocument.addEventListener('DOMContentLoaded', function () {\n    // start watching for click event on image\n    document.querySelector('img').addEventListener('click',\n        function () {\n            // when image is clicked, change border\n            changeImageBorder()\n        }\n    );\n});\n\nAdd the following code to the &lt;head&gt; section of your second.html file:\n\n&lt;script src=\"script.js\"&gt;&lt;/script&gt;\n\nSave and refresh the browser.\nClick on the image."
   },
   {
     "objectID": "lessons/24-www.html#check-on-learning",
     "href": "lessons/24-www.html#check-on-learning",
     "title": "World Wide Web",
     "section": "Check on Learning",
-    "text": "Check on Learning\n\nWhat is the Internet?\nWho owns the Internet?\nWhat is the World Wide Web?\nHow does the WWW work?\nDoes DNS translate URLs to domain names?\nWhat is the purpose of HTTP?\nWhat is a browser?\nIs a browser a server or a client?\n\n\nDefine the internet. Who owns it? What is the world wide web? How is it different from the internet? Describe how the Domain Name System (DNS) relates to IP Addresses and Uniform Resource Locators (URLs). How does the WWW work? Define and describe the following terms: HTTP/HTTPS HTML URL Client vs Server CSS JavaScript Define a browser. Provide some examples of them."
+    "text": "Check on Learning\n\n\nWhat is the Internet?\nWho owns the Internet?\nWhat is the World Wide Web?\nHow does the WWW work?\nDoes DNS translate URLs to domain names?\nWhat is the purpose of HTTP?\nIs HTML a programming language?\nIs HTTP written in HTML?\nWhat is a browser?\nIs a browser a server or a client?"
+  },
+  {
+    "objectID": "lessons/24-www.html#cloud-computing-and-data",
+    "href": "lessons/24-www.html#cloud-computing-and-data",
+    "title": "World Wide Web",
+    "section": "Cloud Computing and Data",
+    "text": "Cloud Computing and Data\n\nIf you create content but it is stored on the cloud (another company’s web server), who owns the data?\nWhat if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?\nWhat implications does cloud services have on data privacy?\n\n\nInteresting questions to pose to the class. If there is time in class, these questions could lead to great discussions, but if not, share these as teasers for the upcoming Data and Ethics lesson.\n\nIf you create content but it is stored on the cloud (another company’s web server), who owns the data?\nWhat if the user and the data locations expands multiple countries? What rules are then in place to protect the contents?\nWhat implications does cloud services have on data privacy?"
   },
   {
     "objectID": "lessons/03-computers-data.html#discussion",
@@ -1306,7 +1327,7 @@
     "href": "index.html#random-interesting-material",
     "title": "Computing Fundamentals",
     "section": "Random, Interesting Material",
-    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python\nWhere really is the Internet?\nVortex Cannon vs Drone\n\n\n\nCyber\n\nBuilding a home lab\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
+    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python\nWhere really is the Internet?\nVortex Cannon vs Drone\n\n\n\nCyber\n\nBuilding a home lab\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nhaveibeenpwned.com\nWhy digital privacy matters\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#announcements",
