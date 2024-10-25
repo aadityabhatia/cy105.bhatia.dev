@@ -602,11 +602,11 @@
     "text": "Browser Fingerprinting\n\n\n\nWhat if you block cookies and switch to private browsing?\nLots of things make your setup unique\nClick the link to find out!"
   },
   {
-    "objectID": "lessons/25-data-ethics.html#ice-1-how-much-tracking",
-    "href": "lessons/25-data-ethics.html#ice-1-how-much-tracking",
+    "objectID": "lessons/25-data-ethics.html#how-much-tracking",
+    "href": "lessons/25-data-ethics.html#how-much-tracking",
     "title": "Data and Ethics",
-    "section": "ICE 1: How much tracking?",
-    "text": "ICE 1: How much tracking?\nUse one of the following tools\n\nPrivacy Test\nBlacklight: A Real-Time Website Privacy Inspector\nFirefox with Enhanced Tracking Protection\n\nVisit a popular website (news, social media) and find out-\n\nHow many trackers? Which ones?\nHow many third-party cookies? Which ones?\nCan any of these trackers evade cookie blockers?\nDoes the website track your keystrokes or mouse movements?\nIs this information shared with Facebook? Google?"
+    "section": "How much tracking?",
+    "text": "How much tracking?\nUse one of the following tools\n\nPrivacy Test\nBlacklight: A Real-Time Website Privacy Inspector\nFirefox with Enhanced Tracking Protection\n\nVisit a popular website (news, social media) and find out-\n\nHow many trackers? Which ones?\nHow many third-party cookies? Which ones?\nCan any of these trackers evade cookie blockers?\nDoes the website track your keystrokes or mouse movements?\nIs this information shared with Facebook? Google?"
   },
   {
     "objectID": "lessons/25-data-ethics.html#social-media",
