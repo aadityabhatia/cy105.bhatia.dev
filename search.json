@@ -578,7 +578,7 @@
     "href": "lessons/25-data-ethics.html#case-studies",
     "title": "Data and Ethics",
     "section": "Case Studies",
-    "text": "Case Studies\n\nU.S. Troops Accidentally Reveal Secret Bases by Going Jogging\nVending Machine Error Reveals Secret Face Image Database of College Students\nThe Global Surveillance Free-for-All in Mobile Ad Data\nInside the “3 Billion People” National Public Data Breach\nBuying sensitive data about US military personnel\nRussian army wives tricked into exposing identities of pilots behind civilian attacks\n23andMe hack"
+    "text": "Case Studies\n\nInside the “3 Billion People” National Public Data Breach (2024)\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nU.S. Troops Accidentally Reveal Secret Bases by Going Jogging (2018)\nBuying sensitive data about US military personnel (2023)\nRussian army wives tricked into exposing identities of pilots (2023)\nTikTok tapes US user data to China (2022)\nGenetic tester 23andMe’s hacked data on Jewish users offered for sale online (2023)\nVending Machine Error Reveals Secret Face Image Database of College Students (2024)\n\n\nDiscussion Questions\n\nWhat went wrong?\nWho is to blame?\nWhat are the consequences?"
   },
   {
     "objectID": "lessons/25-data-ethics.html#what-is-a-tracker",
@@ -592,14 +592,14 @@
     "href": "lessons/25-data-ethics.html#cookies",
     "title": "Data and Ethics",
     "section": "Cookies",
-    "text": "Cookies\n\n\n\nWeb servers store small text files on your computer\nSent back to server with every HTTP request\nUsed to maintain session, login, and preferences\n\nIf you delete cookies, you get logged out\nCan someone steal your cookies?\n\nCan also be used to track you across websites\n\nSites can share cookies\n\n\n\n\n\nFind cookies in your browser!\n\nPress F12 to open Developer Tools\nGo to Application or Storage tab and look for Cookies\n\n\n\nStamp on your hand at a club\nAllows you to get back in\nErase the stamp, you need to pay again"
+    "text": "Cookies\n\n\n\nWeb servers store small text files on your computer\nSent back to server with every HTTP request\nUsed to maintain session, login, and preferences\n\nIf you delete cookies, you get logged out\nCan someone steal your cookies?\n\nCan also be used to track you across websites\n\nSites can share cookies!\n\n\n\n\n\nFind cookies in your browser!\n\nPress F12 to open Developer Tools\nGo to Application or Storage tab and look for Cookies\n\n\n\nAllows you to get back in\nErase the stamp, you need to pay again"
   },
   {
     "objectID": "lessons/25-data-ethics.html#browser-fingerprinting",
     "href": "lessons/25-data-ethics.html#browser-fingerprinting",
     "title": "Data and Ethics",
     "section": "Browser Fingerprinting",
-    "text": "Browser Fingerprinting\n\n\n\nWhat if you block cookies and switch to private browsing?\nLots of things make your setup unique"
+    "text": "Browser Fingerprinting\n\n\n\nWhat if you block cookies and switch to private browsing?\nLots of things make your setup unique\nClick the link to find out!"
   },
   {
     "objectID": "lessons/25-data-ethics.html#ice-1-how-much-tracking",
@@ -634,7 +634,7 @@
     "href": "lessons/25-data-ethics.html#what-next",
     "title": "Data and Ethics",
     "section": "What next?",
-    "text": "What next?\n\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nhaveibeenpwned.com - check if your information has been compromised\nNextDNS - DNS-based tracker blocker\nPrivacy Guides\nPrivacyTools"
+    "text": "What next?\n\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nhaveibeenpwned.com - check if your information has been compromised\nNextDNS - DNS-based tracker blocker\nPrivacy Guides\nPrivacyTools\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal"
   },
   {
     "objectID": "lessons/04-algorithms.html#discussion",
@@ -1306,7 +1306,7 @@
     "href": "index.html",
     "title": "Computing Fundamentals",
     "section": "",
-    "text": "CPT Sonny Bhatia\nOffice: Thayer Hall 106\nClass Hours: A1, C1, A2, B2\nAdditional Instruction in TH460: B1, C2 (email ahead of time to confirm)\nThis course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
+    "text": "CPT Sonny Bhatia\nOffice: Thayer Hall 106\nClass Hours: A1, C1, A2, B2 (Fall 2024)\nThis course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain."
   },
   {
     "objectID": "index.html#how-to-get-better-at-cy105",
@@ -1320,14 +1320,14 @@
     "href": "index.html#additional-instruction",
     "title": "Computing Fundamentals",
     "section": "Additional Instruction",
-    "text": "Additional Instruction\n\nUse Outlook Bookings to schedule a time.\n\nPlease make the bookings in Eastern Time. If your computer or Outlook calendar shows a different time, pay extra attention.\nAutomatic booking is limited to 1100-1600. If you can see times outside that window, those are not in Eastern time.\n\nCome prepared with specific questions!\n\n\n\n\n\n\n\nNote\n\n\n\nIf Outlook booking times do not work, please email me. B1 and C2 hours are generally open. I can also meet outside of these hours if needed. Reach out.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nOnce you setup a meeting, it becomes your assigned place of duty. If you cannot make it, please notify me ahead of time. Not showing up to a scheduled meeting and failing to notify me ahead of time will typically result in a negative COR."
+    "text": "Additional Instruction\n\nUse Outlook Bookings to schedule a time.\n\nPlease make the bookings in Eastern Time. If your computer or Outlook calendar shows a different time, pay extra attention.\nAutomatic booking is limited to 1100-1600. If you can see times outside that window, those are not in Eastern time.\n\nCome prepared with specific questions!\n\n\n\n\n\n\n\nNote\n\n\n\nIf Outlook booking times do not work, please email me. B1 and C2 hours (Fall 2024) are generally open. I can also meet outside of listed hours if needed. Reach out.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nOnce you setup a meeting, it becomes your assigned place of duty. If you cannot make it, please notify me ahead of time. Not showing up to a scheduled meeting and failing to notify me ahead of time will typically result in a negative COR."
   },
   {
     "objectID": "index.html#pdr-or-dac-counseling",
     "href": "index.html#pdr-or-dac-counseling",
     "title": "Computing Fundamentals",
     "section": "PDR or DAC counseling",
-    "text": "PDR or DAC counseling\n\nBook a meeting - select the appropriate meeting type\n\n\n\n\n\n\n\nNote\n\n\n\nThis is not Additional Instruction. To setup AI, scroll up."
+    "text": "PDR or DAC counseling\n\nBook a meeting - select the appropriate meeting type\n\nThis is not Additional Instruction. To setup AI, scroll up."
   },
   {
     "objectID": "index.html#lessons",
