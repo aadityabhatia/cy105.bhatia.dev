@@ -1,0 +1,166 @@
+---
+format: revealjs
+title: Data and Ethics
+subtitle: Privacy and Security in Cyberspace
+description: You are being watched! 👀
+date: 2024-10-25
+image: /images/25/25.webp
+title-slide-attributes:
+    data-background-image: /images/25/25.webp
+    data-background-opacity: "0.3"
+---
+
+## Digital Footprint Audit {data-background-image="/images/25/25.webp" data-background-opacity="0.1"}
+
+- What surprised you the most?
+- What changes will you make to your online behavior?
+
+
+## Announcements {data-background-image="/images/25/25.webp" data-background-opacity="0.1"}
+
+- Weekly Problem Set 7 due 03NOV
+- [AI Summative Project Proposal](https://westpoint.instructure.com/courses/7068/assignments/160503) due 12NOV
+
+![](/images/agenda-block-3.png)
+
+
+## Lesson Objectives {data-background-image="/images/25/25.webp" data-background-opacity="0.1"}
+
+- Discuss how users leave footprints online
+    - and how the Internet does not provide true anonymity!
+- Define what a social network is.
+    - Why it is important to limit the amount of information shared.
+    - How to limit the amount of information shared.
+- Describe cookies and how they are used by web servers.
+- Identify and define other common web-tracking mechanisms
+    - and to what extent each can be restricted or mitigated.
+
+
+## Case Studies {timing=600 data-background-image="/images/25/25.webp" data-background-opacity="0.1"}
+
+1. [Inside the "3 Billion People" National Public Data Breach (2024)](https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/)
+1. [The Global Surveillance Free-for-All in Mobile Ad Data (2024)](https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/)
+1. [U.S. Troops Accidentally Reveal Secret Bases by Going Jogging (2018)](https://www.popularmechanics.com/technology/apps/a15912407/strava-app-military-bases-fitbit-jogging/)
+1. [Buying sensitive data about US military personnel (2023)](https://www.technologyreview.com/2023/11/06/1083002/sensitive-data-about-us-military-personnel-data-brokers/)
+1. [Russian army wives tricked into exposing identities of pilots (2023)](https://nypost.com/2023/03/30/russian-army-wives-tricked-into-exposing-identities-of-pilots-behind-civilian-attacks/)
+1. [TikTok tapes US user data to China (2022)](https://www.buzzfeednews.com/article/emilybakerwhite/tiktok-tapes-us-user-data-china-bytedance-access)
+1. [Genetic tester 23andMe’s hacked data on Jewish users offered for sale online (2023)](https://www.washingtonpost.com/technology/2023/10/06/23andme-hacked-data/)
+1. [Vending Machine Error Reveals Secret Face Image Database of College Students (2024)](https://arstechnica.com/tech-policy/2024/02/vending-machine-error-reveals-secret-face-image-database-of-college-students/)
+
+::: {.notes}
+Discussion Questions
+
+- What went wrong?
+- Who is to blame?
+- What are the consequences?
+:::
+
+
+## What is a tracker?
+
+:::: {.columns}
+::: {.column width=40%}
+- Script that runs on a website or phone app
+- Collects data about your activity
+- Sends data to third parties
+- Used for analytics
+- Results in targeted advertising
+:::
+::: {.column width=60%}
+![](https://i.redd.it/76e8w1j8oxj61.jpg)
+:::
+::::
+
+
+## Cookies {timing=180}
+
+:::: {.columns}
+::: {.column width=70%}
+- Web servers store small text files on your computer
+- Sent back to server with every HTTP request
+- Used to maintain session, login, and preferences
+    - If you delete cookies, you get logged out
+    - [Can someone steal your cookies?](https://en.wikipedia.org/wiki/Firesheep)
+- Can also be used to track you across websites
+    - Sites can share cookies!
+:::
+::: {.column width=30%}
+![](https://static.vecteezy.com/system/resources/previews/035/535/908/original/browser-cookie-3d-illustration-icon-png.png)
+:::
+::::
+
+### Find cookies in your browser!
+
+- Press `F12` to open Developer Tools
+- Go to `Application` or `Storage` tab and look for `Cookies`
+
+
+::: {.notes}
+
+- Allows you to get back in
+- Erase the stamp, you need to pay again
+:::
+
+
+## [Browser Fingerprinting](https://amiunique.org/) {timing=180}
+
+![](https://static.tildacdn.com/tild6333-6466-4537-b439-666133633636/01__illustration_fin.png){width=100%}
+
+::: {.notes}
+- What if you block cookies and switch to private browsing?
+- Lots of things make your setup unique
+- Click the link to find out!
+:::
+
+
+## How much tracking? {timing=600 .smaller data-background-image="/images/25/25.webp" data-background-opacity="0.1"}
+
+### Use one of the following tools
+
+1. [Privacy Test](https://coveryourtracks.eff.org/)
+1. [Blacklight: A Real-Time Website Privacy Inspector](https://themarkup.org/blacklight)
+1. Firefox with [Enhanced Tracking Protection](https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop)
+
+
+### Visit a popular website (news, social media) and find out-
+- How many trackers? Which ones?
+- How many third-party cookies? Which ones?
+- Can any of these trackers evade cookie blockers?
+- Does the website track your keystrokes or mouse movements?
+- Is this information shared with Facebook? Google?
+
+
+## Social Media {timing=180}
+
+- How much does it cost to run a social media platform?
+- How do they make money?
+- Who owns the data you upload?
+- What can they do with it?
+- What are the risks?
+
+
+## Anonymized Data {timing=180}
+
+- Can data be truly anonymized?
+- What about medical records with names removed?
+- What about DNA data?
+    - 23andMe hack
+
+
+## Ethics Debate {timing=900 data-background-image="/images/25/25.webp" data-background-opacity="0.1"}
+
+1. Signals intelligence, such as that [produced by the NSA](https://www.nsa.gov/Signals-Intelligence/Overview/), should be abolished.
+1. Elementary school students should be allowed to use social media.
+1. Individuals should have the [right to be forgotten](https://en.wikipedia.org/wiki/Right_to_be_forgotten) by internet searches.
+
+
+## What next?
+
+- [Firefox](https://www.mozilla.org/en-US/firefox/) - privacy-focused browser
+- [DuckDuckGo](https://duckduckgo.com/privacy) - privacy-focused search engine
+- [haveibeenpwned.com](https://haveibeenpwned.com/) - check if your information has been compromised
+- [NextDNS](https://nextdns.io/) - DNS-based tracker blocker
+- [Privacy Guides](https://www.privacyguides.org/)
+- [PrivacyTools](https://www.privacytools.io/)
+- [The Social Dilemma (2020)](https://www.netflix.com/title/81254224) - documentary on social media
+- [The Great Hack (2019)](https://www.netflix.com/title/80117542) - documentary on Cambridge Analytica scandal

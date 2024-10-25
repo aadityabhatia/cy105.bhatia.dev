@@ -116,14 +116,27 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 - [Where really is the Internet?](https://www.youtube.com/embed/Ve810FHZ1CQ)
 - [Vortex Cannon vs Drone](https://www.youtube.com/embed/SrGENEXocJU)
 
-### Cyber
+### Cyber, Security, and Privacy
 
 - [Building a home lab](https://aj-labz.gitbook.io/aj-labz)
 - [Flipper Zero](https://www.youtube.com/embed/nLIp4wd0oXs)
     - [Meanwhile, in Canada...](https://arstechnica.com/security/2024/02/canada-vows-to-ban-flipper-zero-device-in-crackdown-on-car-theft/)
 - [Inside the "3 Billion People" National Public Data Breach](https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/)
-- [haveibeenpwned.com](https://haveibeenpwned.com/)
+- [The Global Surveillance Free-for-All in Mobile Ad Data (2024)](https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/)
 - [Why digital privacy matters](https://www.privacyguides.org/en/basics/why-privacy-matters/)
+- [The Social Dilemma (2020)](https://www.netflix.com/title/81254224) - documentary on social media
+- [The Great Hack (2019)](https://www.netflix.com/title/80117542) - documentary on Cambridge Analytica scandal
+
+
+#### What can you do?
+- [haveibeenpwned.com](https://haveibeenpwned.com/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/) - privacy-focused browser
+- [DuckDuckGo](https://duckduckgo.com/privacy) - privacy-focused search engine
+- [Cover Your Tracks](https://coveryourtracks.eff.org/)
+- [NextDNS](https://nextdns.io/) - DNS-based tracker blocker
+    - or self-host [Pi-hole](https://pi-hole.net/)
+- [Privacy Guides](https://www.privacyguides.org/)
+- [PrivacyTools](https://www.privacytools.io/)
 
 ### Learning, Productivity, and Life
 - [PB&J Sandwich](https://www.youtube.com/watch?v=FN2RM-CHkuI)
