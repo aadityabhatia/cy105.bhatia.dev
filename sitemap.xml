@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cy105.bhatia.dev/lessons/02-office.html</loc>
-    <lastmod>2024-09-22T15:57:11.153Z</lastmod>
+    <lastmod>2024-10-23T03:09:44.504Z</lastmod>
   </url>
   <url>
     <loc>https://cy105.bhatia.dev/lessons/24-www.html</loc>
@@ -10,55 +10,59 @@
   </url>
   <url>
     <loc>https://cy105.bhatia.dev/lessons/03-computers-data.html</loc>
-    <lastmod>2024-09-22T15:57:26.465Z</lastmod>
+    <lastmod>2024-10-23T03:09:37.508Z</lastmod>
   </url>
   <url>
     <loc>https://cy105.bhatia.dev/lessons/09-file-io.html</loc>
     <lastmod>2024-09-28T19:54:44.888Z</lastmod>
   </url>
   <url>
-    <loc>https://cy105.bhatia.dev/lessons/23-networks.html</loc>
-    <lastmod>2024-10-22T21:42:20.580Z</lastmod>
+    <loc>https://cy105.bhatia.dev/lessons/25-data-ethics.html</loc>
+    <lastmod>2024-10-25T02:05:12.922Z</lastmod>
   </url>
   <url>
-    <loc>https://cy105.bhatia.dev/lessons/13-conditionals.html</loc>
-    <lastmod>2024-09-22T16:13:56.746Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cy105.bhatia.dev/lessons/15-iteration-while.html</loc>
-    <lastmod>2024-09-27T13:08:16.660Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cy105.bhatia.dev/lessons/10-modules.html</loc>
-    <lastmod>2024-09-22T16:13:40.802Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cy105.bhatia.dev/lessons/01-introduction.html</loc>
-    <lastmod>2024-09-22T15:54:31.070Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cy105.bhatia.dev/index.html</loc>
-    <lastmod>2024-10-23T02:00:32.983Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cy105.bhatia.dev/lessons/14-conditionals-2.html</loc>
-    <lastmod>2024-09-24T15:18:41.237Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cy105.bhatia.dev/lessons/08-lists-strings.html</loc>
-    <lastmod>2024-10-06T15:14:39.044Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cy105.bhatia.dev/lessons/21-wpr2-review.html</loc>
-    <lastmod>2024-10-15T15:19:40.296Z</lastmod>
+    <loc>https://cy105.bhatia.dev/lessons/04-algorithms.html</loc>
+    <lastmod>2024-09-22T15:58:09.845Z</lastmod>
   </url>
   <url>
     <loc>https://cy105.bhatia.dev/lessons/07-iteration.html</loc>
     <lastmod>2024-09-27T13:07:45.515Z</lastmod>
   </url>
   <url>
-    <loc>https://cy105.bhatia.dev/lessons/04-algorithms.html</loc>
-    <lastmod>2024-09-22T15:58:09.845Z</lastmod>
+    <loc>https://cy105.bhatia.dev/lessons/21-wpr2-review.html</loc>
+    <lastmod>2024-10-15T15:19:40.296Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cy105.bhatia.dev/lessons/08-lists-strings.html</loc>
+    <lastmod>2024-10-06T15:14:39.044Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cy105.bhatia.dev/lessons/14-conditionals-2.html</loc>
+    <lastmod>2024-09-24T15:18:41.237Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cy105.bhatia.dev/index.html</loc>
+    <lastmod>2024-10-25T02:05:02.262Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cy105.bhatia.dev/lessons/01-introduction.html</loc>
+    <lastmod>2024-10-23T03:09:20.472Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cy105.bhatia.dev/lessons/10-modules.html</loc>
+    <lastmod>2024-09-22T16:13:40.802Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cy105.bhatia.dev/lessons/15-iteration-while.html</loc>
+    <lastmod>2024-09-27T13:08:16.660Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cy105.bhatia.dev/lessons/13-conditionals.html</loc>
+    <lastmod>2024-09-22T16:13:56.746Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cy105.bhatia.dev/lessons/23-networks.html</loc>
+    <lastmod>2024-10-22T21:42:20.580Z</lastmod>
   </url>
   <url>
     <loc>https://cy105.bhatia.dev/lessons/05-python.html</loc>
