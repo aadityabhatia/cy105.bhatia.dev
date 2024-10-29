@@ -669,7 +669,7 @@
     "href": "lessons/26-threats-in-cyberspace.html#layers-of-cyberspace",
     "title": "Threats in Cyberspace",
     "section": "Layers of Cyberspace",
-    "text": "Layers of Cyberspace\n\n\n\nDistinct but interconnected!\nPhysical: hardware, cables, servers, satellites, cell towers\nLogical: software applications, processes, data, information\nCyber: user accounts and their connections\n\n\nHow do these layers interact with each other?"
+    "text": "Layers of Cyberspace\n\n\n\nDistinct but interconnected!\nPhysical: hardware, cables, servers, satellites, cell towers\nLogical: software applications, processes, data, information\nCyber: user accounts and their connections\nHow do these layers interact?"
   },
   {
     "objectID": "lessons/26-threats-in-cyberspace.html#who-owns-the-cyberspace",
@@ -704,14 +704,14 @@
     "href": "lessons/26-threats-in-cyberspace.html#risks-to-physical-layer",
     "title": "Threats in Cyberspace",
     "section": "Risks to Physical Layer",
-    "text": "Risks to Physical Layer\n\nThreat of Russian attack on undersea cables\nCredential theft linked to Hawaiian undersea cable\nATMs\nCell Towers\nData Centers"
+    "text": "Risks to Physical Layer\n\nUndersea Cables\nCell Towers\nData Centers\nATMs"
   },
   {
     "objectID": "lessons/26-threats-in-cyberspace.html#risks-to-logical-layer",
     "href": "lessons/26-threats-in-cyberspace.html#risks-to-logical-layer",
     "title": "Threats in Cyberspace",
     "section": "Risks to Logical Layer",
-    "text": "Risks to Logical Layer\n\nDenial of Service (DoS)\n\nLargest DDoS attack (2018)\n\nUnauthorized disclosure\nInformation theft\nWebpage hijacking / defacement\nMalware"
+    "text": "Risks to Logical Layer\n\nDenial of Service (DoS)\n\nMassive DDoS attack on GitHub (2018)\nLargest DDoS attack campaign (2024)\n\nUnauthorized disclosure\nInformation theft\nWebpage hijacking / defacement\nMalware"
   },
   {
     "objectID": "lessons/26-threats-in-cyberspace.html#malware",
@@ -725,21 +725,14 @@
     "href": "lessons/26-threats-in-cyberspace.html#risks-to-cyber-persona-layer",
     "title": "Threats in Cyberspace",
     "section": "Risks to Cyber-Persona Layer",
-    "text": "Risks to Cyber-Persona Layer\n\nIdentity theft: Equifax breach\nPhishing\nSocial engineering\nMasquerading\nIllegitimate influence\n\nHow Russia weaponized social media in Crimea"
-  },
-  {
-    "objectID": "lessons/26-threats-in-cyberspace.html#phishing",
-    "href": "lessons/26-threats-in-cyberspace.html#phishing",
-    "title": "Threats in Cyberspace",
-    "section": "Phishing",
-    "text": "Phishing"
+    "text": "Risks to Cyber-Persona Layer\n\nIdentity Theft\n\nEquifax breach\n\nPhishing\nSocial Engineering\nMasquerading\nIllegitimate Influence\n\nHow Russia weaponized social media in Crimea"
   },
   {
     "objectID": "lessons/26-threats-in-cyberspace.html#research-and-discussion",
     "href": "lessons/26-threats-in-cyberspace.html#research-and-discussion",
     "title": "Threats in Cyberspace",
     "section": "Research and Discussion",
-    "text": "Research and Discussion\n\nStuxnet (2010)\nOffice of Personnel Management Data Breach (2015)\nColonial Pipeline Ransomware Attack (2021)\nSolarWinds Attack (2020)\nWannaCry Ransomware (2017)\nWordPress sites compromised to install info-stealers (2024)\nChinese Actors breach telecom providers (2024)\nMexican Drug Cartels target timeshare owners (2024)\nMilitary Technology Theft (2016)\nVulnerable pacemakers (2017))\nUkrainian Power Grid (2016)\nUS Government disrupts China’s botnet (2024)\nSupply Chain Attack (2021)\n\n\n\nWhich layer of cyberspace was targeted?\nWho were the threat actors?\nWhat were the vulnerabilities?\nWhat type of attack was used?\nWhat were the consequences?"
+    "text": "Research and Discussion\n\n\n\nStuxnet (2010)\nOffice of Personnel Management Data Breach (2015)\nColonial Pipeline Ransomware Attack (2021)\nSolarWinds Attack (2020)\nWannaCry Ransomware (2017)\nWordPress sites compromised to install info-stealers (2024)\nChinese Actors breach telecom providers (2024)\nLargest DDoS attack campaign (2024)\nMexican Drug Cartels target timeshare owners (2024)\nUS Government disrupts China’s botnet (2024)\nMilitary Technology Theft (2016)\nVulnerable pacemakers (2017))\nUkrainian Power Grid (2016)\nSupply Chain Attack (2021)\n\n\n\nWhich layer of cyberspace was targeted?\nWho were the threat actors?\nWhat were the vulnerabilities?\nWhat type of attack was used?\nWhat were the consequences?\n\n\n\n\nWhich layer of cyberspace was targeted?\nWho were the threat actors?\nWhat were the vulnerabilities?\nWhat type of attack was used?\nWhat were the consequences?"
   },
   {
     "objectID": "lessons/13-conditionals.html#announcements",
