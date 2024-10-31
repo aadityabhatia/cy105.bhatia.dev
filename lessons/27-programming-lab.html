@@ -344,10 +344,14 @@ CPT Sonny Bhatia
 
   <p class="date">Thursday, October 31, 2024</p>
 </section>
-<section id="motivational-video" class="slide level2 center" data-timing="0" data-background-image="../images/27/27.webp" data-background-opacity="0.2">
-<h2>Motivational Video!</h2>
+<section id="introductory-video" class="slide level2 center" data-timing="0" data-background-image="../images/27/27.webp" data-background-opacity="0.2">
+<h2>Introductory Video!</h2>
 <ul>
 <li><a href="https://www.youtube.com/embed/ewrBalT_eBM">A Packet’s Tale. How Does the Internet Work?</a></li>
+<li><a href="https://www.youtube.com/embed/OTwp3xtd4dg">TCP/IP Model Explained</a> - skip to 3:09
+<ul>
+<li>More on <a href="https://www.youtube.com/playlist?list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u">Computer Networking Explained: CertBros</a></li>
+</ul></li>
 </ul>
 </section>
 <section id="announcements" class="slide level2 center" data-background-image="../images/27/27.webp" data-background-opacity="0.2">
@@ -358,7 +362,7 @@ CPT Sonny Bhatia
 </ul>
 
 <img data-src="../images/agenda-block-3.png" class="r-stretch"><ul>
-<li>Must sign the <a href="https://westpoint.instructure.com/courses/7068/assignments/275667">Wireshark user agreement</a> in Canvas.
+<li>Sign the <a href="https://westpoint.instructure.com/courses/7068/assignments/275667">Wireshark user agreement</a> in Canvas now.
 <ul>
 <li>Do not use the packet capture or network scanning features on WREN!</li>
 <li>Do not violate the AUP or break the law. Act like the responsible adult that you are.</li>
@@ -375,16 +379,109 @@ CPT Sonny Bhatia
 <li>Articulate the need for encrypted communication channels</li>
 </ul>
 </section>
-<section id="quick-review" class="slide level2 center" data-background-image="../images/27/27.webp" data-background-opacity="0.1">
-<h2>Quick Review</h2>
-<ul>
-<li>What is Internet Protocol (IP)?</li>
-<li>What is Transmission Control Protocol (TCP)?</li>
-<li>How are they related?</li>
-<li>Can a packet contain multiple segments? Or is it the other way around?</li>
-<li>What is a port number?</li>
-<li>How does it relate to an IP address?</li>
-</ul>
+<section id="network-layers" class="slide level2 center" data-background-image="../images/27/27.webp" data-background-opacity="0.1">
+<h2>Network Layers</h2>
+<div class="cell" data-fig-width="1600px" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="1600" height="480" viewbox="0.00 0.00 735.03 133.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 129)">
+<title>g</title>
+<!-- frame -->
+<g id="node1" class="node">
+<title>frame</title>
+<polygon fill="none" stroke="black" points="0,-0.5 0,-124.5 104.22,-124.5 104.22,-0.5 0,-0.5"></polygon>
+<text text-anchor="middle" x="52.11" y="-107.9" font-family="Times,serif" font-size="14.00">Ethernet header</text>
+<polyline fill="none" stroke="black" points="0,-99.7 104.22,-99.7 "></polyline>
+<text text-anchor="middle" x="52.11" y="-83.1" font-family="Times,serif" font-size="14.00">IP header</text>
+<polyline fill="none" stroke="black" points="0,-74.9 104.22,-74.9 "></polyline>
+<text text-anchor="middle" x="52.11" y="-58.3" font-family="Times,serif" font-size="14.00">TCP header</text>
+<polyline fill="none" stroke="black" points="0,-50.1 104.22,-50.1 "></polyline>
+<text text-anchor="middle" x="52.11" y="-33.5" font-family="Times,serif" font-size="14.00">data</text>
+<polyline fill="none" stroke="black" points="0,-25.3 104.22,-25.3 "></polyline>
+<text text-anchor="middle" x="52.11" y="-8.7" font-family="Times,serif" font-size="14.00">Ethernet trailer</text>
+</g>
+<!-- packet -->
+<g id="node2" class="node">
+<title>packet</title>
+<polygon fill="none" stroke="black" points="140.22,-25.3 140.22,-99.7 387.67,-99.7 387.67,-25.3 140.22,-25.3"></polygon>
+<text text-anchor="middle" x="189.24" y="-83.1" font-family="Times,serif" font-size="14.00">source address</text>
+<polyline fill="none" stroke="black" points="238.25,-74.9 238.25,-99.7 "></polyline>
+<text text-anchor="middle" x="299.71" y="-83.1" font-family="Times,serif" font-size="14.00">destination address</text>
+<polyline fill="none" stroke="black" points="361.17,-74.9 361.17,-99.7 "></polyline>
+<text text-anchor="middle" x="374.42" y="-83.1" font-family="Times,serif" font-size="14.00">...</text>
+<polyline fill="none" stroke="black" points="140.22,-74.9 387.67,-74.9 "></polyline>
+<text text-anchor="middle" x="263.95" y="-58.3" font-family="Times,serif" font-size="14.00">TCP header</text>
+<polyline fill="none" stroke="black" points="140.22,-50.1 387.67,-50.1 "></polyline>
+<text text-anchor="middle" x="263.95" y="-33.5" font-family="Times,serif" font-size="14.00">data</text>
+</g>
+<!-- frame&#45;&gt;packet -->
+<g id="edge1" class="edge">
+<title>frame:f0-&gt;packet:f0</title>
+<path fill="none" stroke="black" d="M104.22,-37.5C116.22,-37.5 121.47,-37.5 130.1,-37.5"></path>
+<polygon fill="black" stroke="black" points="130.22,-41 140.22,-37.5 130.22,-34 130.22,-41"></polygon>
+</g>
+<!-- frame&#45;&gt;packet -->
+<g id="edge2" class="edge">
+<title>frame:f1-&gt;packet:f1</title>
+<path fill="none" stroke="black" d="M104.22,-62.5C116.22,-62.5 121.47,-62.5 130.1,-62.5"></path>
+<polygon fill="black" stroke="black" points="130.22,-66 140.22,-62.5 130.22,-59 130.22,-66"></polygon>
+</g>
+<!-- frame&#45;&gt;packet -->
+<g id="edge3" class="edge">
+<title>frame:f2-&gt;packet:f2</title>
+<path fill="none" stroke="black" d="M104.22,-87.5C116.22,-87.5 121.47,-87.5 130.1,-87.5"></path>
+<polygon fill="black" stroke="black" points="130.22,-91 140.22,-87.5 130.22,-84 130.22,-91"></polygon>
+</g>
+<!-- segment -->
+<g id="node3" class="node">
+<title>segment</title>
+<polygon fill="none" stroke="black" points="423.67,-25.7 423.67,-75.3 637.03,-75.3 637.03,-25.7 423.67,-25.7"></polygon>
+<text text-anchor="middle" x="452.86" y="-58.7" font-family="Times,serif" font-size="14.00">src port</text>
+<polyline fill="none" stroke="black" points="482.05,-50.5 482.05,-75.3 "></polyline>
+<text text-anchor="middle" x="511.24" y="-58.7" font-family="Times,serif" font-size="14.00">dst port</text>
+<polyline fill="none" stroke="black" points="540.44,-50.5 540.44,-75.3 "></polyline>
+<text text-anchor="middle" x="557.77" y="-58.7" font-family="Times,serif" font-size="14.00">seq</text>
+<polyline fill="none" stroke="black" points="575.1,-50.5 575.1,-75.3 "></polyline>
+<text text-anchor="middle" x="592.81" y="-58.7" font-family="Times,serif" font-size="14.00">ack</text>
+<polyline fill="none" stroke="black" points="610.53,-50.5 610.53,-75.3 "></polyline>
+<text text-anchor="middle" x="623.78" y="-58.7" font-family="Times,serif" font-size="14.00">...</text>
+<polyline fill="none" stroke="black" points="423.67,-50.5 637.03,-50.5 "></polyline>
+<text text-anchor="middle" x="530.35" y="-33.9" font-family="Times,serif" font-size="14.00">data</text>
+</g>
+<!-- packet&#45;&gt;segment -->
+<g id="edge4" class="edge">
+<title>packet:f0-&gt;segment:f0</title>
+<path fill="none" stroke="black" d="M387.67,-37.5C399.67,-37.5 404.92,-38.06 413.54,-38.34"></path>
+<polygon fill="black" stroke="black" points="413.62,-41.85 423.67,-38.5 413.73,-34.85 413.62,-41.85"></polygon>
+</g>
+<!-- packet&#45;&gt;segment -->
+<g id="edge5" class="edge">
+<title>packet:f1-&gt;segment:f1</title>
+<path fill="none" stroke="black" d="M387.67,-62.5C399.67,-62.5 404.92,-62.5 413.54,-62.5"></path>
+<polygon fill="black" stroke="black" points="413.67,-66 423.67,-62.5 413.67,-59 413.67,-66"></polygon>
+</g>
+<!-- data -->
+<g id="node4" class="node">
+<title>data</title>
+<polygon fill="none" stroke="black" points="673.03,-20.5 673.03,-56.5 727.03,-56.5 727.03,-20.5 673.03,-20.5"></polygon>
+<text text-anchor="middle" x="700.03" y="-34.4" font-family="Times,serif" font-size="14.00">data</text>
+</g>
+<!-- segment&#45;&gt;data -->
+<g id="edge6" class="edge">
+<title>segment:f0-&gt;data:f0</title>
+<path fill="none" stroke="black" d="M637.03,-38.5C645.25,-38.5 654.09,-38.5 662.46,-38.5"></path>
+<polygon fill="black" stroke="black" points="662.74,-42 672.74,-38.5 662.74,-35 662.74,-42"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <aside class="notes">
 <ul>
 <li>What does IP do?</li>
@@ -392,6 +489,9 @@ CPT Sonny Bhatia
 <li>Which one deals with packets?</li>
 <li>What is a packet? Segment?</li>
 <li>What is a port number?</li>
+<li>Can a packet contain multiple segments? Or is it the other way around?</li>
+<li>What is a port number?</li>
+<li>How does it relate to an IP address?</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -405,30 +505,31 @@ CPT Sonny Bhatia
           display:block!important;
       }</style></aside>
 </section>
-<section id="packet-analysis-with-scapy" class="slide level2 center" data-background-image="../images/27/27.webp" data-background-opacity="0.2">
+<section id="packet-analysis-with-scapy" class="slide level2 center" data-background-image="../images/27/27.webp" data-background-opacity="0.1">
 <h2>Packet Analysis with Scapy</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
+<div class="column" style="width:40%;">
 <p><img data-src="../images/cy105-coffee.webp"></p>
-</div><div class="column" style="width:50%;">
-<p>One day, you find yourself hanging out at the local coffee shop in Highland Falls with free WiFi! You have recently attended <a href="https://defcon.org/">DEFCON</a> and learned about network packet analysis. You decide to try it out!</p>
-<p>You connect to the network and start sniffing packets. You see <a href="https://westpoint.instructure.com/courses/7068/files/1939270">a lot of traffic</a> and decide to try and identify the people around you. You have two goals in mind:</p>
+</div><div class="column" style="width:60%;">
+<p>One day, you find yourself hanging out at the local coffee shop in Highland Falls with free WiFi! No password required either! You have recently attended <a href="https://defcon.org/">DEFCON</a> and learned about network packet analysis. You decide to try it out!</p>
+<p>You connect to the network and start sniffing packets. You see <a href="https://westpoint.instructure.com/courses/7068/files/1939270">a lot of traffic</a> and decide to try and identify the people around you.</p>
+<p>You have two goals in mind:</p>
 <ol type="1">
 <li>Identify the number of people on your network.</li>
 <li>Build a profile of each user on the network.</li>
 </ol>
 </div></div>
 </section>
-<section id="scapy" class="slide level2 center" data-timing="1200" data-background-image="../images/27/27.webp" data-background-opacity="0.2">
+<section id="scapy" class="slide level2 center" data-timing="1200" data-background-image="../images/27/27.webp" data-background-opacity="0.1">
 <h2>Scapy</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
 <p><img data-src="../images/27/coffeehacker.png" style="width:100.0%"></p>
 </div><div class="column" style="width:70%;">
 <p>You really like using <a href="https://scapy.readthedocs.io/en/latest/introduction.html">Scapy</a> to analyze packets. Scapy is a powerful packet manipulation module that works in your favorite programming language, Python!</p>
-<p>You open a Python notebook and setup Scapy. In your notebook, you click on the File icon on the left side and look for <code>cyber_lab.pcap</code>. If it does not appear, download the <a href="https://westpoint.instructure.com/courses/7068/files/1939270">packet capture file</a> and drag it into that file area. Once you have the file, you may proceed with the instructions in that notebook!</p>
+<p>You open a Python notebook and setup Scapy. An adventure awaits you!</p>
 <ul>
-<li><a href="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoBODgRgBYWaRGDBMEyVBwCCogBQBKDGgACIsBwDGeADY65dYOTyZNEY4wAqUAK54lxgGZxsigFxo4XuKEiwJKCAQcIgAzgjo3j7g0PAgwJpQEGDAYJ7eUHgwNlAECAlJKWAANBHKaqJauvqGxqbmeFa29sKhAJ4EmnBOLphy8YnJqQoeUQDEPs5tEDZwoXh4cDoQMOEQzpnkcGQAHvByxElQoQqlwDgE0Iu0IQRbmQC0tnn0wOEARsuaANYAhBhRRBURA3AaFVIcYAEUIwRB6OQsUKaERtFhKdJeRxJEBzZFgNocOE6aJ+eBQchgPGlSwAYQACqUAJIMuAkKgYkmxbagPAczLZXJwZnU+mlNliilU7kgXkYCoabTw2omMwWax2Bx4ZyuEYciYAEQgVAIy0QW0QdzgADdiMBHG04Jo2u9iJgdIh3hxKSI4I5gDpFkQKBRfdBtoZwu73gDvL4uRBQhy4-5MgBHOwwxNRLEQHEwVPkHHJ+D5wtJmL+OhhOg6YDRmNeACqACUADLiADkdBgMDAoTcAHoB07eGwAKwcd5VmDARAcYxWgeZUIzKDaULD52uqNevEdjkAMUZrYAogA5aQAWRPnadLqgbo9u5E+6iJ4AGnSTzTLCf9ZgAGUAAlpAAJjHAA2QDG0vTsAA5QN4Rwx00Ng4PIRBNDHccuC4XguDgscAHZiLYTRRzYIjeHILgxy4RwAGZQLYfhkKIxAuE0UCIIY3hNH4Mc4M0Rx3jHd5cIg0DyAg-cG26LVuiNE0IDNTA-QDOQch0Up1MIRAZV1KIohoehWTwdM8EzDh8BgTSoG0uYYEyfSmg1EJwigUYjO8qAOBIN4TEcaBMBhUgbFCRQOW8rwYBWOEQuAAAvRZmChWzfLoPAzWIUJrKyOQOzMAgyGKh4AwIHB6A7Uo2AUJRoqMz4IB+BLkvEOD8NAqLopMhhkkIORdIIfS8FKDsqHeDsFHc31SlLEA5Fi2EdEYJb4tCJLRrgGwCFoRgO2AAAhartt2mAQuRANXPsGawHeZAvIa7ygqgR06B274fDyXzaFdIqStszR3oIb5WsaJqWo25LDKe2HHA4KgUDIOQgY++rYaeu7kA4GwwAw5HypR4Hvjq5Qoh6S7NBsd0yBCqtwIgwb-RMMBSDoGHvNCenIMwKsufEPmazrDgucQBnIoa3q4H6ggmYDTBWfoUoWCgd40RmxxHqel64HeNpaYhz6oR8MgoDkd0QHeDC3F9PysvIOR+DYLgINOXWWDRLWMbmbmoMFnG8dIPA5D1g2vhJ7qvH5HI8lFhneerDhMp2chzks2z0T1SZfWZnxwkueAwGXQgYFKcglNNLZaCTZwC+l3LFboDg8B2N5VjkI9Twva8OaM8vjUrtTmbkFtW1KTvzyvE90e8ou0sGlhWw9HOA0UgeVOMcgbYAbwn7uTwAXzROSJiBvAfh9sXILmGwQBrx04SpmmTDjyCO+PSee6YZgPy-H8-0AiBeOAEYJe28HPYqC8l7vBXosG0KA-QUB3nvKeR8Z5wF0PMMBXgIG2UcCwA8ucOy7w-vvA+HY86OmgLYMAZByAcDgAAcSyCbX02I4A0gtFaMItwthgHdNoVhxt6CLFCCNbowBMiaFilAB0PDXjhCRCgWhHBj5RGjoKOQkc4C-2-L+f8wEwI8xAZeYo2iUHXjMQ1UeVjoqU2pkHOmV8IK2O8v3ZSqldKuKMoLWs7xvFRATAEjI5kMyrGCTFAsIBvGZ3lFUJURgVQNGupqbUfQgi9yCBwEADttFQA9kIBqhDjilzgFQRY7jK7hkWKzH4LC8QCkWLpL6sVwxvDgAXPA7wIAQE+oQK0kiIAEBlMVBhrYemfR1iIsp0ByDhEXsvZp8C7TAAoCwEI3SbQMMZM4aZzSAAGd5txPm9GAfZlCi6WRLqUIINppYvGCNMogexHJ4DAP8bRNJawXyGdUuAhDV4JF+b86ZAZHDwA2sYXhSwJmhleocrcD4dynP2ds5wNx2mXPmMVXWNh4DIgIHXF01pbSIPIGXXQWRrgwDRaw8ulkOkrBCKILKr1SAhD0GXCuG8-kAG1anfHqSIRpsC2G5g4VwsIABdAwPY+yDgHOUmEkA0qQmhE5Gw0ich4C0LmYcq55gbiImwCCcEBy6Q3PhBiXBQLGumhaLY3QSA4CEcVR505RXICygwgA8p0RY0xZhVjuXs5mpRA0SAdEXZqCwthS2mVCGEthpHACGeEYRHrOndN6f8BqBSOToI0QQco6h4k6DQD0Vw5JTm9wmM5LY0z-olzWLszKcA6Q0mkHSWBHJTniGrXiBERykUnLxOrOAEwFHbEQIK8IuNtjBAYmwOY58hlzJPhI0I-DEAOmmdwnQdhpbOD7cbRA215hQAeFiVZdwdAOhekgGAva8R8iyDHOAchTnFFiaWxUNREn1DVM0VJvR+gQEyRAbJuSGr5I9tok94Qz1mD0OfGcwLj2YUFasBh0h236zoL85DAYU2EYtLralxAg5bAgPA0oK4ymLAJeexYZ79kvXOcsZI0LMgDLwFQDBmEGACqyAwgA6oxsjcJ6PhUWAmu4LdpZgEozIhdIRNDrkQ3MJTmgVldGE6UnVOAGH7NObytgUrzk0D0GZAULw21+hKXAfTHA5JRAeHAICRoJAECjZhrI4Rg2ybbfs2kdJznRtishpYO7iAAH44CiY9R6GY8B9mNn1GF2L2j81RELW+3IJbKh-orQpVwNatZgG+PAZgpmGJESlXJSrNKuZGgliE2zH6mvfsKwqaoBgAOqkaOqFolb0nga1lknJchYMsEsG2-TGyaOLD5iu+BcJottBymJljmQnOBEkHelpxB04hgzYsfZzJzkOrgCF+kHGYvHAYXN87l2NvECocVEE0I-krhyII67xgYRQlIKmvIzIQjkHIMuQ1PhjDFTtG0KELrpnYuMGyy00ypF4GALRsphhV7TNu2Ft7r1-pffCCj1c-3LSA5nMNNDeRSTprhzOe0SOfvad08y-hCQQdDKe8ETCGm-kXeJ+6TbUBSjlIfnkGTN2mu8uZBZgXanheE9C-diXUuJOy-mPLqrvLQvK4KXl2zPWy0lbSXIYUTmqu9wV0rkWBGqBtajvl4tcpf3VEt6B0LpQmv24N0bp3rXTcx3N3+-rdRBspJ964DJE3INTZm5YYImRHDHf9SELT58ueZWyq9RBOgq52cWOL4g2uZfMb+eXeA-USAyIYQeMMLd9L8K2iZg3jvQhrks-6YkRaftU8WODs0UPLItr+Qt67neYCK7pFK+cMI+-WcH9M2nwOGdCm7WP6HR6p9+ZpSb19ZvPdFe96N63LIA8Va7wvkWa4T-h7P71vQce+g25v72u-i+5lPvUe7hHn1sqIBkNsBu-mBhBlBtNgUgBKAP6MgHeqULPobvSIvlurECvgPu7kPn9jUvGK2jUoftCigcHhSJgWUv3jZu+uvunJvqDk5gQQfnUkfh7GHgVi-hbpfn7rbjAIHnPsHhgbAE-hwaoF7m-twaKLwfwagffuQcIQAafmIefgktHsksNiBvHuNhyJNtBtFDNtooyHZu0siPMP7lyHBMulCKnMiGQOEEBJYJYN2k5IgI4H6JoCrrxvxtMiXJIosA4U4WZBZDCNxpZJANCFtNLoFqpvMKzA3kFkQSwR8GECGCCm2r9muCxjTnQfTgwUzqUNdiInkGEPMJbATplEWKXlQlAFInXuSMQE9hGNOqEEbB8FkKbDfL9FsDrGekELtmaNwv6g2j0sSLWIKgln4aLFAN8C5uYmGJcFQKUAAFbhTwCIy-TZ4bTgCryOA7QkZ5D7I2TMjSCQ7Q6WSKDnL0Dsqwizr3JEEkAyimzIEopUIob7EFHpoEBgB4qhG2aaa1ghHrAcrEij6nET4MpXHwDqCspfThgJiJFYa5RwBnjBBBjDF7ZpS3D4ZI4MIABSqx1BgooKbc++oJ4+oQhqua0UOW3g7BHuyhr+5al+NuPBX60o9gWsNJXgB4exDONsRxdIJx5JhqHIdIyAI0psNsSGEAbxW+QJ+mWY3gzY7u-Y2eAJdezgRIp0wAFk2+EOwplkHI+aWclgPq+oPqNsR474cAlgQEjIAE-yjYZ4P4jIPqZ4VJXgEwz2D8xgaxSM7OU60aOADxrIZGKW++M4Mo0KKxIRxgOmm8qmuCcA0grY7Y0yZJZxnxMI9s++RaAZFRsJZ66pLm4wcAfqh20yTpjIAAio2DeBmeCYogRtTFsMSkWqdsUUsG3CWd4BMCia8BVD7DMMXuRhicVBQB8qWXSCgPDoOXgPAg6A2RSZQmevdFXMYHOHAMqbcgkWORCrCGQCMqsL8B6ROjaZlP0f0TChqU5ofgFsdtsmdLOLWG1IGq9HgOADAA6OqdCnLpCV9NmWaPvrguzhaNiRVLMRyD0AKUKZmZ+niLqNohML9PEeGEkDYDgEJnedojrE1rCach4NoqWXaNUrtu0meqFnAPnmjkRbGM4JRcbE1oRd7KWeQLfGIJkAGIMYXMQVCEFLRbPDObZCwABMPtvm4CwP7j-g-poOgt7LggiPqDkXzmDnSBJVJXPo7n-uiCxd4FQPjosMNtgixZGTqqEAGG8nILwHJbpYSXkAeFJrKDBjgbyg1hupdMSE8nxodk4FCCGLsZ0AzkmGALBY2eIDBWCRSecTWhuqnFuuLn8vuoev+XsryQwTGWSO7hQMFaFVFYqW7h1hFQaaEGcCFZFSKZwZHiATHhoRAQnjoUnnoT5FyUZP2QkMtl5iuFGUCemTvuVQyqFP4FLPsqOBwAxBwGwJZgZdLCIscDCr0lQtsVSj5XaBnpkKMueedqNeNZNXqbvmFV6hidwmQHtf1eEFMm2kQDAFQNAJ9P+RGodUVEQNIiGLFI0YsCsBeadcVSELtt8Z8AkN9ZmQwkKMYeEKYVtKGo5vQJkPcasBGfNigMdSPn1cKWKFlHoLuvZpIiETDQsLrPrJZAUbtl5ddbdfqdDgUToPRh5SGCFDYO8FdZgO9dFoCUQATSde0tMgRiEftRSQwgAJozBmREgOgZUPz9HdI-HTJzzI1A1hU6wLGzENRC05AdItwlhhCtGqbrEnVnoBX7EPwoZbBsbWHTk45BzMgRQKCXHTilA4A46EBqkklAlLmGro1-HO2AnHpI1Bzy15WNFQifTJY-FJrs5mDgCSArjFGWjO5wARpnwXz6VZBfVDKiJOTh1DKwiJq3CfUNHZZwa5YiH0lxLFaX6pC5WGq9wtU8mBWg42x+h3Dm3I1W2inimPHEBSldne3+0ilRDKl-Fd0-nym+0nVu2GlRDGlQUKSN3kDN2W10gRQV1nW9xRCy0L3hDMCuWua9k2lmkWn-LAA7Amy-CbU+ksK635mYpJDBn6Rwo4BMqtKJ1GyEG90XKj0fWvQFzK36E4Hr1kCt3uValToG1b7JY2gciz3z0AOL1yDL3FV0kfpQMf1W3daVXAEDbqHgGX71VRC6FaIwYtVRAoneFNHtJpTHZA4QUJbLaIB3JFku0+0W1j2o3A00O-WLAP0BnBB-lNGtLvA2D+h8JJAWr75ZRAzMavT-ntIbQ9js5EDIDnqwmNrrAZ6iIEYaCbUOjRGXCw7eoeZeZmAtnVIEjJnWbS6pxxo8LqmEDbIU5NHzlO0Bg4BwhZbaJzbkOIay5ECdCyK0IhhXU3XTFS6GASMygWiIbWYy13kcPWhvB1gBgs3PJQmWiN3rYP3rY9VtpRiUL8OCMjlnrRrNJAniMMDWE45GA2CZN5Bvnq1k3TFN7WHSw-H6Xup4ByL9GWj6XXGZQdMVIQA4lChTDC1MY2S3kUlBNzKlCON5Aug9gNFwCq3q2vXBCz3NNQnhAgCaoMA8IJ2SZS3wClMI1XJOZ4DJCJP-JhjRP+BZNl4eiV6HVcODmtJy68qiaTFVjTEyrdi9j9hDhUAAsIwfPIAzHQA4ADgKA-3eTTkxorN8rJO3k3Ov05O-KJRtCHQTLfNyp-MDgBjIAEAcBovZrfC5QR0DhEsTIDiiYngAROE+qMhni0gC2jhjgOV6DMSgT8DDhVj+NQADjgQDjzD7H8uQsF2FK0nF3KAkXYDDQyjYDfysDYBIBQjYAsBaylrPCRRAA">Your Scapy Notebook!</a></li>
+<li><a href="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoBODgRgBYWaRGDBMEyVBwCCogBQBKDGgACIsBwDGeADY65dYOTyZNEY4wAqUAK54lxgGZxsigFxo4XuKEiwJKCAQcIgAzgjo3j7g0PAgwJpQEGDAYJ7eUHgwNlAECAlJKWAANBHKaqJauvqGxqbmeFa29mhOLpju6V4AxHAAIhBUBDoQiOQhBOMAbsTAjgCecJrzAEbEmDqIKxxgmiJwjsA6eHBEFBQH0HD0wOGbKxhRvrFwEKFd0X7wmQCOdqEwd5PGL+OhhOg6YAPR7eACqACUADLiFh0GAwMChNwAemxy14bAArBwVmCYMBEBxjFNsZlQhActpQnjVut7js9mAhFEAGIASURAFEAHLSACygpRyzWUA2Ww5Im53kFAA0AAqCgDClkFfUwAGUABLSABMhIAbAbYWLxHIPlEWAAOE28RyEzRsR3kRCaQlErhcXhcR2EgDsYbYmgJbFDvHIXEJXEcAGYTWx+G7Q4guJoTebk7xNPxCY7NI4VoSVgHzSbyOalV4lDCvG1yINhqNKIdjnIcjpSt3CIgQPYPFEojR6HBfv9ARx8DBe1B+3AAZlh007AoQuEoGPxweoBwSLcTI5oJgAaQbKFFPaD9cIDBEDpL8AAF4nZjAAiLo90PAxmIUJ5yyOQWDMX9CBgABaY4CBwegWFKNgFCUB9xxWEZNAAazfT9xEdIMTXvA8wBQX85EcFhLCfF9Vw-PA3DgABvGA6NfUJGLgXE4DkE0ACoBLTBQAF84DFAAhFh0Iw7xJwYZJCCoo4hxHUoWCoFYZJ3A59zk8dzygJY6BsAgcJ8PIj1odZILISjNFM8z8MaLCIFwlyFH0gyH0cDgqBQMg5EcsycKbD42j2HRNBsTYyEvMEzXNFTjkwMBSDoLzSNXRKLUwMFQgYZgCohKEOEKxAkrvDCFNeMBlMHNKMo0qBtO3MI9OyqIjLgFZ5nitzcMsnwyCgORNhAFZvWYvz13IOR+DYLhzQUUptJk7yfJyyq8pKjgbDAb0gr6gbsLC7LMmyXJtqS-LwQ4ACAA9yGAfAATvZs4F6OYDlUnxwgIJ84HIvBQmg0o2yGEYxhGj4fsB+A3h2DKODwR7bkBOR+SFUUJSyjDyJ-RcWAGKHOx-HBrgAuB7l+44OAZmTsshjsxkwQc5ARRFSmxkVxUFWSyIoxdqMRLY6ZOFnoeMchmJY3nccFUSmc+3oZhQBYbotEy8Fw0IbBAOHnCimK4pMCqqoV-nt0YZhVQ1bVdQNY1bv1a1Nu8QnKNF8XBzgdW5mACg5atiVlcFuBdDBj2vC9xcuu8aieT+gByeWBT5sOU-+pZoFsMAyHIDg4AAcSyEaDiSEA4E1RACCmDq6-GMBNm0Cufypk5QmHSXgEyTR2KgRYOpucJQkSVIYA4Btxwjy6cjyO0MPtrUdT1I1TTyt2xWKbLQ8FXeMK5w+HxN2LSHN3LzRPg8pc7dnVJv8cSshFYn6iN534yPA-lBwEn-ChUDQ2g9AGCMCYMwFhrBblaHgZwrggj428EEDgIB5oXRYJg7K3RegADVZiazVD6HC5da4FxyCcZOxxPq8j7gCUoVBJbtmlp3YGxDy6ciuicP2RNgij1OE+PAKwIAQAsoQKYfcIAEBHL+YuiIREWR6vQE4VBoDkHCCwMWKwJb+wIUHcgLAQjCJmMXaQOh6SlE0JCIaUjWFUJOAkWxtjlE0zgfALixgJjjBGKIy4xkAAG0o2Tyl2CIfxHAaHeCEnyZwLjaZ+yoB1AOhwKClCCDMV4eR2KsKII9dxZAwAAEIhKRK8AAeWUVAGgYNLHWIss46m9ifCQUyaw44jh3HgK8TTBRfi4CBNZLKdkoSwDhLgDE9u4QQZg1-L1Gw8A9gEARr1E4yT9EQ10FkBxU9xnOFoHANsoMBHwHUIBYypAQh6AhswzsrCADa6VcIcJEFwnRjgq41zrg3UIABdAw6JMQ4mxIwgEkAiYcB-GuGwA8KFaAgCAPEDIoBg2ZKGNg5pHTYkHMyIMyYuAmjRe1SYLYSCU32bwqmFy-bIEAsXMpBA27zAZHAMEGSXGDlKEymwEhFjkXcngC4tUXGQpgLYAewApHhA7vQC5CMhEKMKdlTBM855ZAXuUdQVRQG1AgQ0TcLQ2gIIgEgrwKC0FLwfMq7BvRhSCOEb4-UWRyQIXeNlYUaMYCWLzrreALiwbogpuEJRhgAZ2oUcXTUdTWl+qdYGuZ6InFZOSNOV6aJSg4D4cETAsIwbGUdQGl1mBSiYD6LcFuiB5hFu6f61h2BNTVFePMsA8yQjrmwJXeFcAAB+Xb2JgB7Y+dowiE0gGwBEjCVqoiqqugQDVlQQE1HAfUKBzQHBwPaHIRB3kzXoIwlASdD4cFwCIU8+AZDXn2NKXAd1eSGEqKODoacgFxguLstBcIEBYnU0eSQhZLyKE6LkGqTU0g1TbhvBTOA+pOTzGLvCZ93SzLGGRc+YlLi1T9ToLYyBJw1gjCoOOy1WCp0fHnrkOdwDqiwPgR0KA5ARkmq+k+mGr6pH2UBK8L9JxgOgYlh8EZ4g6MjPAkEoZITOQ6SY-w58JDwgHUHcmNgq5dZSPUarA5ZbNiLBcQ3HQdhOPA05MNRAcAbzEBgu8oOkwdCLCMkgGA-HOSkbVddOQIziiAM1QusBdQcP6rXTRzdxrt0QFQbuh8+7iOHt6AAdTJDnfhAyZRym2CM-xAB+K9AnbghFznoH1Eq8ifrYaekCcBpDHsw9hiA+XxXYbriskaxAL7jAgOrUo9I4CMKWA1szuX-FGX8T05NTcn0SLwFQSOPoGA-qyMXGLJxFmXM6314Vkw0Z1Wa4PQdPomThBM6EeqmhA6aBK7+0oeB5zF38SMu5bAflDZoHoJ9M7WGHBQ2dubV6YJwENIMCQBBeXsI46yk4Lj-GWE1GqIbfL2JmEfVp4g6W4BxYuVsBk8B-Gwj6NDzL1r+ivRwJBilB2jsnc+w5t1Hq73DYshc2bJz4A-mMI9OAyZQx8XXHobT1NkyOinAztautEB9Yw-QWxV5YDhDMGZZ1lN3mdtQhGsECEwffuB5ZFnCnHTVoFV1+Ljk65vUIweA9jZnMzoo1qnQ1GN0Me8mAHC8BmC3b5z8z6jup6FUGNVb+r23NO481b7zOrl2NGgQa9dRrGM7otYeM344j0nt-XAMW8xgJXssOr09Ri2snAKsp9W9FEfIvmycGlwNAiSBs5ZUaf8LjSupv4vk0PukQ6h0NkvZWs8nGb63kvudfyIEhaw+kjJy-EuMACH8pBCvjLVCEcg5A6Qop8MYX8cx5iQZjet85aHqb9zwMAdr+u-rg8h-3itxBB-PhH36pFbdRtT+dbP2xXwpXr-JAsbf1NDu63J+oNYq-gQMXLRCEJoHtqwn3p3lflADTktn1jdk7nci3g9qAcELtqDOEOfh3jTLAfAb1mDP0p7nchfmgVepJLoIMJYirvgMQcgagUNtkkgTAKQVDmgSjgbrQRQJlhOlFublEGRrOhgEAtbrbq4C3qUJ7oxiQageVFhlQL7l4EIcHtUD5rqiujAoah0Fuh8LHhgvwYnr0MnuXMnLoGptlGAZkI4MQIQI-quGTocKdgBEBMZCkjoOMI3icCXgQXkKttTG2IjPVCQIPMXDyFcGjMOC3HgKUCwSgWqD8uVFAJoI9g+i9gvKPg-icC3ovsvlgQZi4gzm3rIQkVSACKkc9kIaws-jPuSLYjkWMHkaEB+lxhTsrkbmrr3iUYkaEMkUwcEHEXIeojAGMnFosG2F1l3HriZi9I4DYZkLMg0Uvivsjn9pNhXsoosJkGbOQLwURiqhbuqiIV5lRtoXIJIcDE7jIQwaUb0ZoIceRscfOmoaHn5hHgFhuroVELHpFiwPqKAEcMgDZrESQWQeVF8BUY+lUffuPsDC8MVoURrqNnEWCfRrEJCekddC4jUQQMAXCf4Aidnr+vNvFl8KcAbDKAcsEFyspngMjqjkzmPGTvROji2mSY6GwMjncvIr4vsvJo3jls+FhHgH8miBiFiLiIQP5MADhKkBQBSBwNADgMCjKcANiIiBjJgJ+pgBfpgE3NmjjmlLEJgAQBScBAoNPJgtOkcaoCcXoOIR0BflIVcQ7sgWCYdrEA8cIbac8faWcU6ZcTANcawaiV8F6aodqkum8aug6UFjHqFuagYTPFEEepYGEBZLwMxGXAWpTLCAQMAL-PPuVssVgaDFeuEcZIDFQKUAAFY3jwABQ2S5ZcTgDHAHBmR1Z5D+ILgt7SAlnNGgyKBMHxYyZHJSInDpQkAjijQgmchDbw7HCdmlAdQ-jNonLEpCH7Y0wYwGYviPpLFNGr4yonKiBnLDTi5EEM5la2qnACovrBBxwTCYYUzFwABS9ZmJWS1MkIAIBmB5K+oMiqfBBxghLm3pohC6sZFxAZ7m1woAo4HwCePIHZdRBAzEPZaofZh5ZZUQRCU5Wye4uWC5BWTizgV5Hw8GM6WIuWP5iMzge5pm+ZhZ-5pZQI3gVqHwvQlgZSfQZSzE-IKocAlghofI+ocAPIsIwo2ofIZSwoQF3gXF1MewxgDZgUP+OWfKOAU504DWGOBR8F3SdZv5xgx2Msg6j50giIyILiLFA5UqBAAICGxWQhP+eA1cHcJmtFJuTG9KNeLiklfIAAirCJKLZavt7rFOMGsJ+Q3nkJ5RjN5Tak+IYAhDlAyB4Y1nHBQIqpxcesLJBngOrIsGFTnCZisDDOApSHAPBukp0ZXkTKuM+GQDIoCIUvJT0EJQBJkK2uXj0nRRTuEF1ZduMvmeSC+NxFysZG5QXIsLRYhkQceZZI5TDMVnHJBnXM+QhBEp9G0BhVhQBbePblet9KNBfFTEkDYDgDNsDmxQeD1J7sNCMh4AnB1T9JUg4luRfiys+sQC9T4M4F9R3J7s9VtCmQcgbGINsYVXXPAEUT+OeH9VEHHOBPqFkfPm4MhIGfET0ckRHFtMjSTH-LUXPi3hjc6awUMQCE2KDfJIYG2RHjHKDeSCOOVMcHgGAHILwHjTTZ+eJS+GDFelUXcu7uplFI+i4kQFQDXk4D+BcI4ChYVnDGAPtaxeIHtf2Sim5pyNTQpRpodlpqwrpvpoteygrbYkZd8GBRQErSrXZV6XAOrdhaEKUKkLbSihGYur5nqu8bGV8cggmeFvHoYSmVxemXACaMxL5TzhOSgA3GQEWY0QdVerauSG3AoauPCicISdkQvonarZLg2bQAwP4gSBwMmBwGwI9nTVnZUncL0mYK2VstLXMPMdBKAU3qXeXZXQnRrUchXoTHHTnbkQdX0hLVkKolABZItTSRXpBEQAPBcOxO3TXV1T3U7T1cDDYFhAkGvQdcXCNVTDlnsDUm9nQr6nQJkBOcgBxtnfVYPbvVgaUFzn5dTO9r+fQJfb1P1KDMud1WPTABPXThrcueYsEGLRcJeFvUQDAJgMvXgb+eOV-fHYKdTFhr+Xnc0cXAAJrMrP2LAW09bdWsnn0x3H5nVhVHI9RVnbUYQ4M5C3l5LXBh2CnBCNnx0mby0MqoU9b5bjADbM5qix0Xwt63gKDDmkDprH6EA0U7nFYUPO2flblzWrVCPx3yPt0-h07CItpriQYN2Tm3C2Kjbp00mOS6wWRUAASVKZJdyip6NsbD4OUTDJXEDeUOiGHWmPE+mUZ+lR4dCu292hCMZIVm1oW-STCCNkNkAiMfB4U9yjTMTxUIPODyMUVgXUVJP9UD3kO52BOIVYI7XrqHAROqN4AiNyABNO2MZI2lMiPiDC3HVCU8V8XiXACs60CFKdWLZASqW0DqVTJJBaXDh+IZq+pgMARDRvXUwlUaWlOvCVlPg0MRZgV33CNqiuq5Vi2H1BqhO54zAfDFPkCROD3lOVMHWeOLyHPHNrPO2ea+me0aHh4xlnF+2moB1x7ji-H44MkCJUB44YS2qTb8I5ZEy2HT5bUo756IAZKZMGbZNqO5NO1l4b0Zrb7BD+EsNzJHDNxJDYoGaASOSma5qUqMkMQ5m3nIBEvnlKWfo2FdxYYaBdOLCg4CJr60q-b-Yy4ZWbGmLPbdYvTjCJJ3AYxSnjLYEhqRwzB5DHA4Avj-MPhZ4gv7Z+FEAMpDwFwXDQOAMMKGCEsjh1z7bPaImlYb0SJcTClwO5LrnjDFP0QZr0S320yYsrA2DYu5Z8p+zFYEsMDM7H5GA2AOt5CTW3kAPQA4RhHM6NoNlYadzDxEPEqWMXKbEb1tgvm7JwCmMNYLhsLNET3qIXZSsrLoiuNwB0O3mL3BCHNRu6QgDQoMAdSZtxXaPwDesFEASXl4DJD0ziVXCIkEmtH3A04V6oupXZJ9Z3IxZ9ygxgiT2ikAoSnApUAEY0B0gzvhtKnYgWlXqCP8oVv3JWtsL9ttLiy2LvjzCSQKJzvilArHDIAgFnv2o4QgQN3YgPsKLYgxaCj6iWBqhlJ8jCiQ5YMEiEg8h7lpgmj8B4hggatQDYhmjYhgydlwdbvAUfAXMe3qFh7+a+3BZ6HvO-F8g4CAx-00tQSzJ4aDCWlMygWW5PE+M25hDzAMoHJ+OboFDJCpCMa9ATI0lgzeFPgtFPovoep8TEBJDIqrQ+BEfQDbKdM96LCFXQQBvc4O0YGJKwafSICJL7LxCJAccaAip7ngTjwiDzAqzdQfImdgCwYMXPD+BCacilABkXEkBUBwwgi+rwX23QVQ5P1adP30aOdwUjjKA-TYC4kjjtq2ysDYBIA-jYAsDeSaq2AEB3hAA">Proceed to Your Scapy Notebook!</a></li>
 </ul>
 </div></div>
 </section>
@@ -438,8 +539,8 @@ CPT Sonny Bhatia
 <div class="column" style="width:30%;">
 <p><img data-src="../images/27/packetshark.png"></p>
 </div><div class="column" style="width:70%;">
-<p>Now that you know what you are looking for, you decide to use a more powerful and intuitive tool, <a href="https://www.wireshark.org/">Wireshark</a>, to analyze the packets that you captured.</p>
-<p>You open the packet capture file in Wireshark and start analyzing the packets!</p>
+<p>Now that you know what you are looking for, you decide to use a more powerful and intuitive tool, <a href="https://www.wireshark.org/">Wireshark</a>, to analyze the packets that you captured. You open the packet capture file in Wireshark and start analyzing the packets!</p>
+<h3 id="collaborate">Collaborate!</h3>
 <p>Follow the <a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/25/section/2">detailed instructions on zyBook</a>. Collaborate with your classmates to complete this lab!</p>
 </div></div>
 <aside class="notes">
@@ -514,7 +615,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"c183980add2cbed6","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"aa2f2385e2749a65","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner

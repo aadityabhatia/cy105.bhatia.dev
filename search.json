@@ -1939,18 +1939,18 @@
     "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS3 due 08SEP\n\nReach out early!\n\nPractice!"
   },
   {
-    "objectID": "lessons/27-programming-lab.html#motivational-video",
-    "href": "lessons/27-programming-lab.html#motivational-video",
+    "objectID": "lessons/27-programming-lab.html#introductory-video",
+    "href": "lessons/27-programming-lab.html#introductory-video",
     "title": "Programming Lab",
-    "section": "Motivational Video!",
-    "text": "Motivational Video!\n\nA Packet’s Tale. How Does the Internet Work?"
+    "section": "Introductory Video!",
+    "text": "Introductory Video!\n\nA Packet’s Tale. How Does the Internet Work?\nTCP/IP Model Explained - skip to 3:09\n\nMore on Computer Networking Explained: CertBros"
   },
   {
     "objectID": "lessons/27-programming-lab.html#announcements",
     "href": "lessons/27-programming-lab.html#announcements",
     "title": "Programming Lab",
     "section": "Announcements",
-    "text": "Announcements\n\nWeekly Problem Set 7 due 03NOV\nAI Summative Project Proposal due 12NOV\n\n\n\nMust sign the Wireshark user agreement in Canvas.\n\nDo not use the packet capture or network scanning features on WREN!\nDo not violate the AUP or break the law. Act like the responsible adult that you are.\n\nDownload and install Wireshark"
+    "text": "Announcements\n\nWeekly Problem Set 7 due 03NOV\nAI Summative Project Proposal due 12NOV\n\n\n\nSign the Wireshark user agreement in Canvas now.\n\nDo not use the packet capture or network scanning features on WREN!\nDo not violate the AUP or break the law. Act like the responsible adult that you are.\n\nDownload and install Wireshark"
   },
   {
     "objectID": "lessons/27-programming-lab.html#lesson-objectives",
@@ -1960,32 +1960,32 @@
     "text": "Lesson Objectives\n\nIntroduce and motivate some dangers of wireless communication\nDefine and discuss packet sniffing\nUse Python concepts to analyze packets captured over a network\nArticulate the need for encrypted communication channels"
   },
   {
-    "objectID": "lessons/27-programming-lab.html#quick-review",
-    "href": "lessons/27-programming-lab.html#quick-review",
+    "objectID": "lessons/27-programming-lab.html#network-layers",
+    "href": "lessons/27-programming-lab.html#network-layers",
     "title": "Programming Lab",
-    "section": "Quick Review",
-    "text": "Quick Review\n\nWhat is Internet Protocol (IP)?\nWhat is Transmission Control Protocol (TCP)?\nHow are they related?\nCan a packet contain multiple segments? Or is it the other way around?\nWhat is a port number?\nHow does it relate to an IP address?\n\n\n\nWhat does IP do?\nWhat does TCP do?\nWhich one deals with packets?\nWhat is a packet? Segment?\nWhat is a port number?"
+    "section": "Network Layers",
+    "text": "Network Layers\n\n\n\n\n\n\n\ng\n\n\nframe\n\nEthernet header\n\nIP header\n\nTCP header\n\ndata\n\nEthernet trailer\n\n\n\npacket\n\nsource address\n\ndestination address\n\n...\n\nTCP header\n\ndata\n\n\n\nframe:f0-&gt;packet:f0\n\n\n\n\n\nframe:f1-&gt;packet:f1\n\n\n\n\n\nframe:f2-&gt;packet:f2\n\n\n\n\n\nsegment\n\nsrc port\n\ndst port\n\nseq\n\nack\n\n...\n\ndata\n\n\n\npacket:f0-&gt;segment:f0\n\n\n\n\n\npacket:f1-&gt;segment:f1\n\n\n\n\n\ndata\n\ndata\n\n\n\nsegment:f0-&gt;data:f0\n\n\n\n\n\n\n\n\n\n\n\n\nWhat does IP do?\nWhat does TCP do?\nWhich one deals with packets?\nWhat is a packet? Segment?\nWhat is a port number?\nCan a packet contain multiple segments? Or is it the other way around?\nWhat is a port number?\nHow does it relate to an IP address?"
   },
   {
     "objectID": "lessons/27-programming-lab.html#packet-analysis-with-scapy",
     "href": "lessons/27-programming-lab.html#packet-analysis-with-scapy",
     "title": "Programming Lab",
     "section": "Packet Analysis with Scapy",
-    "text": "Packet Analysis with Scapy\n\n\n\n\nOne day, you find yourself hanging out at the local coffee shop in Highland Falls with free WiFi! You have recently attended DEFCON and learned about network packet analysis. You decide to try it out!\nYou connect to the network and start sniffing packets. You see a lot of traffic and decide to try and identify the people around you. You have two goals in mind:\n\nIdentify the number of people on your network.\nBuild a profile of each user on the network."
+    "text": "Packet Analysis with Scapy\n\n\n\n\nOne day, you find yourself hanging out at the local coffee shop in Highland Falls with free WiFi! No password required either! You have recently attended DEFCON and learned about network packet analysis. You decide to try it out!\nYou connect to the network and start sniffing packets. You see a lot of traffic and decide to try and identify the people around you.\nYou have two goals in mind:\n\nIdentify the number of people on your network.\nBuild a profile of each user on the network."
   },
   {
     "objectID": "lessons/27-programming-lab.html#scapy",
     "href": "lessons/27-programming-lab.html#scapy",
     "title": "Programming Lab",
     "section": "Scapy",
-    "text": "Scapy\n\n\n\n\nYou really like using Scapy to analyze packets. Scapy is a powerful packet manipulation module that works in your favorite programming language, Python!\nYou open a Python notebook and setup Scapy. In your notebook, you click on the File icon on the left side and look for cyber_lab.pcap. If it does not appear, download the packet capture file and drag it into that file area. Once you have the file, you may proceed with the instructions in that notebook!\n\nYour Scapy Notebook!"
+    "text": "Scapy\n\n\n\n\nYou really like using Scapy to analyze packets. Scapy is a powerful packet manipulation module that works in your favorite programming language, Python!\nYou open a Python notebook and setup Scapy. An adventure awaits you!\n\nProceed to Your Scapy Notebook!"
   },
   {
     "objectID": "lessons/27-programming-lab.html#wireshark",
     "href": "lessons/27-programming-lab.html#wireshark",
     "title": "Programming Lab",
     "section": "Wireshark",
-    "text": "Wireshark\n\n\n\n\nNow that you know what you are looking for, you decide to use a more powerful and intuitive tool, Wireshark, to analyze the packets that you captured.\nYou open the packet capture file in Wireshark and start analyzing the packets!\nFollow the detailed instructions on zyBook. Collaborate with your classmates to complete this lab!\n\n\nEssential pieces of information: - IP addresses - Wikipedia pages visited - Emails"
+    "text": "Wireshark\n\n\n\n\nNow that you know what you are looking for, you decide to use a more powerful and intuitive tool, Wireshark, to analyze the packets that you captured. You open the packet capture file in Wireshark and start analyzing the packets!\nCollaborate!\nFollow the detailed instructions on zyBook. Collaborate with your classmates to complete this lab!\n\n\nEssential pieces of information: - IP addresses - Wikipedia pages visited - Emails"
   },
   {
     "objectID": "lessons/15-iteration-while.html#announcements",
