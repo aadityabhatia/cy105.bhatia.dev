@@ -1677,7 +1677,7 @@
     "href": "index.html#developer-tools",
     "title": "Computing Fundamentals",
     "section": "Developer Tools",
-    "text": "Developer Tools\n\nMarimo reactive notebook for Python\ndiff Check - compare text side-by-side; great for comparing expected and actual output\nPyodide - in-browser REPL\nPython Tutor - step through code execution, line-by-line\nBlack Code Formatter - format Python code following PEP 8 Style Guide\n\nzyLab does this too if you right click and select “Format Document”\n\nThonny - Python development environment for beginners\nVisual Studio Code - development environment for grown-ups\nNotepad++ - lightweight text editor"
+    "text": "Developer Tools\n\nMarimo reactive notebook for Python\ndiff Check - compare text side-by-side; great for comparing expected and actual output\nCyberChef - data manipulation tool, encoding, encryption, etc.\nPyodide - in-browser REPL\nPython Tutor - step through code execution, line-by-line\nBlack Code Formatter - format Python code following PEP 8 Style Guide\n\nzyLab does this too if you right click and select “Format Document”\n\nThonny - Python development environment for beginners\nVisual Studio Code - development environment for grown-ups\nNotepad++ - lightweight text editor"
   },
   {
     "objectID": "index.html#ai-summative-project-ideas",
@@ -1691,7 +1691,7 @@
     "href": "index.html#random-interesting-material",
     "title": "Computing Fundamentals",
     "section": "Random, Interesting Material",
-    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python\nWhere really is the Internet?\nVortex Cannon vs Drone\n\n\n\nCyber, Security, and Privacy\n\nBuilding a home lab\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nWhy digital privacy matters\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\nWhat can you do?\n\nhaveibeenpwned.com\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nPrivacy Guides\nPrivacyTools\n\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
+    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python\nWhere really is the Internet?\nVortex Cannon vs Drone\n\n\n\nCyber, Security, and Privacy\n\nBuilding a home lab\nFlipper Zero\nWhy digital privacy matters\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\nRelated News\n\nFitness app Strava gives away location of Biden, Trump and other leaders (Oct 2024)\nThe Global Surveillance Free-for-All in Mobile Ad Data (Oct 2024)\nInside the “3 Billion People” National Public Data Breach (Aug 2024)\nDid Ukraine just assassinate a Russian submarine captain with his own Strava? (Jul 2024)\nCanada declares Flipper Zero public enemy #1 in car-theft crackdown (Feb 2024)\n\n\n\nWhat can you do?\n\nhaveibeenpwned.com\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nPrivacy Guides\nPrivacyTools\n\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#announcements",
@@ -2755,7 +2755,7 @@
     "href": "lessons/28-cybersecurity.html#phishing-experiment",
     "title": "Cybersecurity",
     "section": "Phishing Experiment",
-    "text": "Phishing Experiment\n\n\n\nTotal: 680\nRead: 450\nDeleted: 219\nClicked on link: 81\nSupplied credentials: 45\n\nCompromised: 45\nReported: 104"
+    "text": "Phishing Experiment\n\n\n\nTotal: 680\nRead: 450\nDeleted: 219\nClicked on link: 81\nSupplied credentials: 45\n\nReported: 104\nCompromised: 45"
   },
   {
     "objectID": "lessons/28-cybersecurity.html#lesson-objectives",
@@ -2783,14 +2783,14 @@
     "href": "lessons/28-cybersecurity.html#thought-experiment",
     "title": "Cybersecurity",
     "section": "Thought Experiment",
-    "text": "Thought Experiment\nYou want to send a secret note to your friend across the room.\n\nHow do you keep it secret?\nHow do you prevent someone from changing it?\nHow do you ensure that they received it?\nHow does your friend know it’s from you?\nHow do you prove you sent it?\n\nICE: Affine Cipher\n\nWhat is the threat model?\n\nAgree upon a secret code; lock it in a box\nSeal the note; count the words or letters\nAsk them to acknowledge receipt\nSign the note; use a secret handshake\nKeep a copy; have a witness"
+    "text": "Thought Experiment\nYou want to send a secret note to your friend across the room.\n\nHow do you keep it secret?\nHow do you prevent someone from changing it?\nHow do you ensure that they received it?\nHow does your friend know it’s from you?\nHow do you prove you sent it?\n\nICE\n\nAffine: Encrypt\nAffine: Decrypt\n\n\nWhat is the threat model?\n\nAgree upon a secret code; lock it in a box\nSeal the note; count the words or letters\nAsk them to acknowledge receipt\nSign the note; use a secret handshake\nKeep a copy; have a witness"
   },
   {
     "objectID": "lessons/28-cybersecurity.html#types-of-encryption",
     "href": "lessons/28-cybersecurity.html#types-of-encryption",
     "title": "Cybersecurity",
     "section": "Types of Encryption",
-    "text": "Types of Encryption\n\n\n\nSymmetric vs Asymmetric\nHow do you share the key?\nCan you always pre-share the key?"
+    "text": "Types of Encryption\n\n\n\nSymmetric vs Asymmetric\nHow do you share the key?\nCan you always pre-share the key?\nWhy symmetric?"
   },
   {
     "objectID": "lessons/28-cybersecurity.html#digital-signatures",
