@@ -2741,34 +2741,83 @@
     "href": "lessons/28-cybersecurity.html#discussion",
     "title": "Cybersecurity",
     "section": "Discussion!",
-    "text": "Discussion!\nhttps://taskandpurpose.com/news/did-ukraine-just-assassinate-a-russian-submarine-captain-with-his-own-strava/\nhttps://apnews.com/article/biden-trump-macron-bodyguards-security-strava-0a48afca09c7aa74d703e72833dcaf72"
+    "text": "Discussion!\n\nFitness app Strava gives away location of Biden, Trump and other leaders\nDid Ukraine just assassinate a Russian submarine captain with his own Strava?\nCloudflare: What is Encryption… and many more articles!"
   },
   {
     "objectID": "lessons/28-cybersecurity.html#announcements",
     "href": "lessons/28-cybersecurity.html#announcements",
     "title": "Cybersecurity",
     "section": "Announcements",
-    "text": "Announcements"
+    "text": "Announcements\n\nAI Summative Project Proposal due 12NOV\nWritten Periodic Review on 13-14NOV"
+  },
+  {
+    "objectID": "lessons/28-cybersecurity.html#phishing-experiment",
+    "href": "lessons/28-cybersecurity.html#phishing-experiment",
+    "title": "Cybersecurity",
+    "section": "Phishing Experiment",
+    "text": "Phishing Experiment\n\n\n\nTotal: 680\nRead: 450\nDeleted: 219\nClicked on link: 81\nSupplied credentials: 45\n\nCompromised: 45\nReported: 104"
   },
   {
     "objectID": "lessons/28-cybersecurity.html#lesson-objectives",
     "href": "lessons/28-cybersecurity.html#lesson-objectives",
     "title": "Cybersecurity",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives"
+    "text": "Lesson Objectives\n\nDefine and state the goals for cybersecurity\nDiscuss how cryptography provides confidentiality\nExplain the limitations of symmetric cryptography\nExplain the process used for asymmetric cryptography\n\nand its uses in digital signatures, and certificates"
   },
   {
-    "objectID": "lessons/28-cybersecurity.html#check-on-learning",
-    "href": "lessons/28-cybersecurity.html#check-on-learning",
+    "objectID": "lessons/28-cybersecurity.html#cybersecurity",
+    "href": "lessons/28-cybersecurity.html#cybersecurity",
     "title": "Cybersecurity",
-    "section": "Check on Learning!",
-    "text": "Check on Learning!"
+    "section": "Cybersecurity",
+    "text": "Cybersecurity\n\n\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation\n\n\n\n\n\n\nConfidentiality &lt;-&gt; disclose\nIntegrity &lt;-&gt; alter\nAvailability &lt;-&gt; deny\nAuthentication: actors are who they claim to be\n\nconfidentiality: who can read\nintegrity: who can change\n\nNon-repudiation: cannot deny the communication or transaction\n\nintegrity: proof of origin and consent\navailability: actions are reliable and traceable"
   },
   {
-    "objectID": "lessons/28-cybersecurity.html#reminders",
-    "href": "lessons/28-cybersecurity.html#reminders",
+    "objectID": "lessons/28-cybersecurity.html#encryption",
+    "href": "lessons/28-cybersecurity.html#encryption",
     "title": "Cybersecurity",
-    "section": "Reminders",
-    "text": "Reminders\n\n\nfor whiteboard in whiteboards:\n    erase(whiteboard)\n\nwhile not cadet_is_expert:\n    practice('zyBook ICEs')\n\nUp Next\n\nWPS due on Sunday!"
+    "section": "Encryption",
+    "text": "Encryption\n\n\n\nConfidentiality\nIntegrity\nAuthentication\nNon-repudiation"
+  },
+  {
+    "objectID": "lessons/28-cybersecurity.html#thought-experiment",
+    "href": "lessons/28-cybersecurity.html#thought-experiment",
+    "title": "Cybersecurity",
+    "section": "Thought Experiment",
+    "text": "Thought Experiment\nYou want to send a secret note to your friend across the room.\n\nHow do you keep it secret?\nHow do you prevent someone from changing it?\nHow do you ensure that they received it?\nHow does your friend know it’s from you?\nHow do you prove you sent it?\n\nICE: Affine Cipher\n\nWhat is the threat model?\n\nAgree upon a secret code; lock it in a box\nSeal the note; count the words or letters\nAsk them to acknowledge receipt\nSign the note; use a secret handshake\nKeep a copy; have a witness"
+  },
+  {
+    "objectID": "lessons/28-cybersecurity.html#types-of-encryption",
+    "href": "lessons/28-cybersecurity.html#types-of-encryption",
+    "title": "Cybersecurity",
+    "section": "Types of Encryption",
+    "text": "Types of Encryption\n\n\n\nSymmetric vs Asymmetric\nHow do you share the key?\nCan you always pre-share the key?"
+  },
+  {
+    "objectID": "lessons/28-cybersecurity.html#digital-signatures",
+    "href": "lessons/28-cybersecurity.html#digital-signatures",
+    "title": "Cybersecurity",
+    "section": "Digital Signatures",
+    "text": "Digital Signatures\n\nOpposite of encryption\nEncrypt with private key\nDecrypt with public key\nWho can read the data?\nWho can verify the signature?\nWhat does this accomplish?"
+  },
+  {
+    "objectID": "lessons/28-cybersecurity.html#certificate-authorities",
+    "href": "lessons/28-cybersecurity.html#certificate-authorities",
+    "title": "Cybersecurity",
+    "section": "Certificate Authorities",
+    "text": "Certificate Authorities"
+  },
+  {
+    "objectID": "lessons/28-cybersecurity.html#phishing-quiz",
+    "href": "lessons/28-cybersecurity.html#phishing-quiz",
+    "title": "Cybersecurity",
+    "section": "Phishing Quiz",
+    "text": "Phishing Quiz"
+  },
+  {
+    "objectID": "lessons/28-cybersecurity.html#encryption-ice-2",
+    "href": "lessons/28-cybersecurity.html#encryption-ice-2",
+    "title": "Cybersecurity",
+    "section": "Encryption ICE 2",
+    "text": "Encryption ICE 2"
   }
 ]
