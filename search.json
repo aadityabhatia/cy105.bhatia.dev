@@ -2783,7 +2783,7 @@
     "href": "lessons/28-cybersecurity.html#thought-experiment",
     "title": "Cybersecurity",
     "section": "Thought Experiment",
-    "text": "Thought Experiment\nYou want to send a secret note to your friend across the room.\n\nHow do you keep it secret?\nHow do you prevent someone from changing it?\nHow do you ensure that they received it?\nHow does your friend know it’s from you?\nHow do you prove you sent it?\n\nICE\n\nAffine: Encrypt\nAffine: Decrypt\n\n\nWhat is the threat model?\n\nAgree upon a secret code; lock it in a box\nSeal the note; count the words or letters\nAsk them to acknowledge receipt\nSign the note; use a secret handshake\nKeep a copy; have a witness"
+    "text": "Thought Experiment\nYou want to send a secret note to your friend across the room.\n\nHow do you keep it secret?\nHow do you prevent someone from changing it?\nHow do you ensure that they received it?\nHow does your friend know it’s from you?\nHow do you prove you sent it?\n\nICE\n\nAffine: Encrypt\nAffine: Decrypt\n\n\nWhat is the threat model?\n\nAgree upon a secret code; lock it in a box\nSeal the note; count the words or letters\nAsk them to acknowledge receipt\nSign the note; use a secret handshake\nKeep a copy; have a witness\n\nCan this message be: 1. Intercepted and cracked? 1. Stored for later use? 1. Changed? 1. Replayed? 1. Denied?"
   },
   {
     "objectID": "lessons/28-cybersecurity.html#types-of-encryption",
@@ -2791,6 +2791,13 @@
     "title": "Cybersecurity",
     "section": "Types of Encryption",
     "text": "Types of Encryption\n\n\n\nSymmetric vs Asymmetric\nHow do you share the key?\nCan you always pre-share the key?\nWhy symmetric?"
+  },
+  {
+    "objectID": "lessons/28-cybersecurity.html#asymmetric-encryption",
+    "href": "lessons/28-cybersecurity.html#asymmetric-encryption",
+    "title": "Cybersecurity",
+    "section": "Asymmetric Encryption",
+    "text": "Asymmetric Encryption\n\n\n\n\n\n\n\n\n\n\n\n\nICE: RSA Encryption\nPGP: Real-life Email Encryption"
   },
   {
     "objectID": "lessons/28-cybersecurity.html#digital-signatures",
