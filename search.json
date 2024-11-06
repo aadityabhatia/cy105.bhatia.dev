@@ -1691,7 +1691,7 @@
     "href": "index.html#random-interesting-material",
     "title": "Computing Fundamentals",
     "section": "Random, Interesting Material",
-    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python\nWhere really is the Internet?\nVortex Cannon vs Drone\n\n\n\nCyber, Security, and Privacy\n\nBuilding a home lab\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nWhy digital privacy matters\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\nWhat can you do?\n\nhaveibeenpwned.com\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nPrivacy Guides\nPrivacyTools\nConsumer Reports: Privacy and Security\n\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
+    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python\nWhere really is the Internet?\nVortex Cannon vs Drone\n\n\n\nCyber, Security, and Privacy\n\nBuilding a home lab\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nWhy digital privacy matters\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\nWhat can you do?\n\nhaveibeenpwned.com\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nPrivacy Guides\n\nPrivacyTools\n\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\nData Removal Guide: inteltechniques.com\n\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#announcements",
@@ -2468,7 +2468,7 @@
     "href": "lessons/29-cyber-hygiene.html#in-class-exercise-breaches",
     "title": "Cyber Hygiene",
     "section": "In-Class Exercise: Breaches",
-    "text": "In-Class Exercise: Breaches\n\n\nMozilla Monitor\n\nHow many breaches?\nWhat data was compromised?\nWhat are you going to do about it?\n\n\n xkcd.com/1739"
+    "text": "In-Class Exercise: Breaches\n\n\n\nMozilla Monitor\nHow many breaches?\nWhat data was compromised?\nWhat are you going to do about it?\nRef: xkcd.com/1739"
   },
   {
     "objectID": "lessons/29-cyber-hygiene.html#protect-your-email",
@@ -2496,14 +2496,14 @@
     "href": "lessons/29-cyber-hygiene.html#in-class-exercise-tools",
     "title": "Cyber Hygiene",
     "section": "In-Class Exercise: Tools",
-    "text": "In-Class Exercise: Tools\n\n\nPrivacyGuides.org recommendations\n\nPick a unique category\nEvaluate at least three tools.\n\nOne of them can be non-privacy-protecting!\n\nShare your findings-\n\nWhat does the tool do?\nHow does it protect your privacy?\nWhat are the pros and cons?\n\n\n\n xkcd.com/1223"
+    "text": "In-Class Exercise: Tools\n\n\n\nVisit PrivacyGuides.org recommendations\n\n\nPick a unique category.\nEvaluate at least three tools.\n\nOne of them can be non-privacy-protecting!\n\nShare your findings-\n\nWhat does the tool do?\nHow does it protect your privacy?\nWhat are the pros and cons?\n\n\n\nRef: xkcd.com/1223"
   },
   {
     "objectID": "lessons/29-cyber-hygiene.html#in-class-exercise-data-removal",
     "href": "lessons/29-cyber-hygiene.html#in-class-exercise-data-removal",
     "title": "Cyber Hygiene",
     "section": "In-Class Exercise: Data Removal",
-    "text": "In-Class Exercise: Data Removal\n\n\nData Removal Guide: inteltechniques.com\n\n xkcd.com/1998"
+    "text": "In-Class Exercise: Data Removal\n\n\n\nData Removal Guide: inteltechniques.com\n\n\nVisit a data broker site\nUse the opt-out process to remove your data\nWhat data was available?\nHow long did it take to remove?\n\n\nRef: xkcd.com/1998"
   },
   {
     "objectID": "lessons/29-cyber-hygiene.html#resources",
