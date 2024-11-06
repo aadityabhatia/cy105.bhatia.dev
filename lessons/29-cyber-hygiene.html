@@ -30,71 +30,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="../slides.css">
@@ -409,33 +344,209 @@ CPT Sonny Bhatia
 
   <p class="date">Wednesday, November 6, 2024</p>
 </section>
-<section id="discussion" class="slide level2 center" data-timing="240" data-background-image="../images/23/23.webp" data-background-opacity="0.3">
-<h2>Discussion!</h2>
-</section>
 <section id="announcements" class="slide level2 center" data-background-image="../images/23/23.webp" data-background-opacity="0.2">
 <h2>Announcements</h2>
+<ul>
+<li>WPR Review: come prepared with specific topics</li>
+<li>Tech Tour meeting location: PRC (TH111) or CRC (TH115) (15-20NOV)</li>
+<li><a href="https://westpoint.instructure.com/courses/7068/assignments/160503">AI Summative Project Proposal</a> due 12NOV</li>
+<li>Written Periodic Review on 13-14NOV</li>
+</ul>
 
 <img data-src="../images/agenda-block-3.png" class="r-stretch"></section>
 <section id="lesson-objectives" class="slide level2 center" data-background-image="../images/23/23.webp" data-background-opacity="0.1">
 <h2>Lesson Objectives</h2>
-</section>
-<section id="check-on-learning" class="slide level2 center" data-timing="300">
-<h2>Check on Learning!</h2>
-</section>
-<section id="reminders" class="slide level2 center">
-<h2>Reminders</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="cf">for</span> whiteboard <span class="kw">in</span> whiteboards:</span>
-<span id="cb1-2"><a></a>    erase(whiteboard)</span>
-<span id="cb1-3"><a></a></span>
-<span id="cb1-4"><a></a><span class="cf">while</span> <span class="kw">not</span> cadet_is_expert:</span>
-<span id="cb1-5"><a></a>    practice(<span class="st">'zyBook ICEs'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div><div class="column" style="width:30%;">
-<h3 id="up-next">Up Next</h3>
 <ul>
-<li>WPS due on Sunday!</li>
+<li>Motivate and articulate the goals of cyber hygiene</li>
+<li>Understand types of data and associated risks</li>
+<li>Understand how commercial surveillance puts Army missions and people at risk</li>
+<li>Articulate best practices for implementing good cyber hygiene</li>
+<li>Practice implementing good cyber hygiene</li>
 </ul>
+</div><div class="column" style="width:30%;">
+<p><img data-src="https://imgs.xkcd.com/comics/customer_rewards.png" style="width:100.0%"> <a href="https://xkcd.com/2006/">xkcd.com/2006</a></p>
+</div></div>
+</section>
+<section id="data-economy" class="slide level2 smaller center">
+<h2>Data Economy</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="commercially-available-data">Commercially available data…</h3>
+<ul>
+<li>Location
+<ul>
+<li>Cell phone</li>
+<li>Vehicle telemetry</li>
+<li>Children’s schools</li>
+</ul></li>
+<li>Financial
+<ul>
+<li>Credit Card Purchases, Debt</li>
+<li>Gambling, Sensitive Purchases</li>
+</ul></li>
+<li>Biometric
+<ul>
+<li>Facial Recognition, DNA</li>
+<li>Medications, Vulnerabilities</li>
+</ul></li>
+<li>Social Relationships
+<ul>
+<li>Family, Friends</li>
+<li>Therapists</li>
+<li>Doctors</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h3 id="compromises-mission-readiness">compromises mission readiness!</h3>
+<ul>
+<li>Troop movements
+<ul>
+<li>Out-of-band traffic patterns</li>
+<li>Absence of expected traffic</li>
+<li>Change in shopping/vehicle/cell phone patterns</li>
+</ul></li>
+<li>Unit capabilities
+<ul>
+<li>Equipment (social media posts)</li>
+<li>Operators (facial recognition/cell phone metadata)</li>
+<li>Logistics bottlenecks</li>
+<li>Supply chain bottlenecks</li>
+</ul></li>
+<li>Unit plans
+<ul>
+<li>Training maneuvers, tactics</li>
+<li>Troop build ups, deployments</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="so-what" class="slide level2 center" data-timing="120">
+<h2>So What?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Is this about secrecy or privacy?
+<ul>
+<li>What’s the difference?</li>
+</ul></li>
+<li>Who is vulnerable?</li>
+<li>How can we protect ourselves?</li>
+<li>Ref: <a href="https://xkcd.com/1269/">xkcd.com/1269</a></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="https://imgs.xkcd.com/comics/privacy_opinions.png" style="width:100.0%"></p>
+</div></div>
+</section>
+<section id="in-class-exercise-breaches" class="slide level2 center" data-timing="600">
+<h2>In-Class Exercise: Breaches</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<h3 id="mozilla-monitor"><a href="https://monitor.mozilla.org/">Mozilla Monitor</a></h3>
+<ul>
+<li>How many breaches?</li>
+<li>What data was compromised?</li>
+<li>What are you going to do about it?</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="https://imgs.xkcd.com/comics/fixing_problems.png" style="width:100.0%"> <a href="https://xkcd.com/1739/">xkcd.com/1739</a></p>
+</div></div>
+</section>
+<section id="protect-your-email" class="slide level2 center" data-timing="120">
+<h2>Protect your Email</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li>Keys to the kingdom!</li>
+<li>Use a very unique password</li>
+<li>Multi-factor authentication!!</li>
+<li>Separate emails for different purposes</li>
+<li>Use encrypted email when possible
+<ul>
+<li><a href="https://proton.me/mail">ProtonMail</a></li>
+</ul></li>
+<li>Email anonymizers
+<ul>
+<li><a href="https://relay.firefox.com/">Firefox Relay</a></li>
+<li><a href="https://duckduckgo.com/email/">DuckDuckGo Email Protection</a></li>
+</ul></li>
+<li>Ref: <a href="https://xkcd.com/2139/">xkcd.com/2139</a></li>
+</ul>
+</div><div class="column" style="width:20%;">
+<p><img data-src="https://imgs.xkcd.com/comics/email_settings.png" style="width:100.0%"></p>
+</div></div>
+</section>
+<section id="password-security" class="slide level2 center" data-timing="120">
+<h2>Password Security</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Unique and strong passwords!</li>
+<li><a href="https://correcthorse.pw/">Correct Horse Battery Staple</a></li>
+<li>Use password managers!</li>
+<li>Ref: <a href="https://xkcd.com/936/">xkcd.com/936</a></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="https://imgs.xkcd.com/comics/password_strength.png" style="width:100.0%"></p>
+</div></div>
+</section>
+<section id="multi-factor-authentication" class="slide level2 center" data-timing="120">
+<h2>Multi-factor Authentication</h2>
+<ul>
+<li>Something you know + have + are</li>
+<li>Is text message MFA secure?</li>
+<li>How do authenticator apps work?</li>
+</ul>
+</section>
+<section id="in-class-exercise-tools" class="slide level2 center" data-timing="600">
+<h2>In-Class Exercise: Tools</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<h3 id="privacyguides.org-recommendations"><a href="https://www.privacyguides.org/en/tools/">PrivacyGuides.org recommendations</a></h3>
+<ol type="1">
+<li>Pick a unique category</li>
+<li>Evaluate at least three tools.
+<ul>
+<li>One of them can be non-privacy-protecting!</li>
+</ul></li>
+<li>Share your findings-
+<ul>
+<li>What does the tool do?</li>
+<li>How does it protect your privacy?</li>
+<li>What are the pros and cons?</li>
+</ul></li>
+</ol>
+</div><div class="column" style="width:30%;">
+<p><img data-src="https://imgs.xkcd.com/comics/dwarf_fortress.png" style="width:100.0%"> <a href="https://xkcd.com/1223/">xkcd.com/1223</a></p>
+</div></div>
+</section>
+<section id="in-class-exercise-data-removal" class="slide level2 center" data-timing="600">
+<h2>In-Class Exercise: Data Removal</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<h3 id="data-removal-guide-inteltechniques.com"><a href="https://inteltechniques.com/workbook.html">Data Removal Guide: inteltechniques.com</a></h3>
+</div><div class="column" style="width:40%;">
+<p><img data-src="https://imgs.xkcd.com/comics/gdpr.png" style="width:100.0%"> <a href="https://xkcd.com/1998/">xkcd.com/1998</a></p>
+</div></div>
+</section>
+<section id="resources" class="slide level2 center" data-timing="600">
+<h2>Resources</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li><a href="https://www.soc.mil/IdM/publications/IdMpubs.html">USASOC Smart Cards</a></li>
+<li><a href="https://tosdr.org/">Terms of Service; Didn’t Read</a></li>
+<li><a href="https://haveibeenpwned.com/">haveibeenpwned.com</a></li>
+<li><a href="https://www.mozilla.org/en-US/firefox/">Firefox</a> - privacy-focused browser</li>
+<li><a href="https://duckduckgo.com/privacy">DuckDuckGo</a> - privacy-focused search engine</li>
+<li><a href="https://nextdns.io/">NextDNS</a> - DNS-based tracker blocker</li>
+<li><a href="https://www.privacyguides.org/">Privacy Guides</a></li>
+<li><a href="https://www.consumerreports.org/digital-security-privacy/">Consumer Reports: Privacy and Security</a></li>
+<li><a href="https://ssd.eff.org/">Surveillance Self-Defense</a></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="https://imgs.xkcd.com/comics/perspective.png" style="width:100.0%"> <a href="https://xkcd.com/198/">xkcd.com/198</a></p>
 </div></div>
 
 <div class="quarto-auto-generated-content">
@@ -478,7 +589,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"50914e9337a24b3f","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"6d75f31b78eb1b11","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
