@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="../slides.css">
@@ -343,28 +408,395 @@ CPT Sonny Bhatia
 
   <p class="date">Friday, November 8, 2024</p>
 </section>
-<section id="announcements" class="slide level2 center" data-background-image="../images/99/99.webp" data-background-opacity="0.2">
-<h2>Announcements</h2>
-<ul>
-<li><a href="https://westpoint.instructure.com/courses/7068/assignments/160503">AI Summative Project Proposal</a> due 12NOV</li>
-<li>Written Periodic Review on 13-14NOV</li>
-</ul>
-<h3 id="tech-tour">Tech Tour</h3>
-<div class="columns">
-<div class="column" style="width:20%;">
+<section class="slide level2 center">
 
-</div><div class="column" style="width:40%;">
+<h3 data-background-image="/images/99/99.webp" data-background-opacity="0.2" id="tech-tour">Tech Tour</h3>
 <h3 id="a1-20nov-crc-th115">A1: 20NOV CRC (TH115)</h3>
 <h3 id="c1-18nov-prc-th111">C1: 18NOV PRC (TH111)</h3>
-</div><div class="column" style="width:40%;">
 <h3 id="a2-19nov-prc-th111">A2: 19NOV PRC (TH111)</h3>
 <h3 id="b2-15nov-crc-th115">B2: 15NOV CRC (TH115)</h3>
-</div></div>
 <p><br></p>
 <h3 id="cyber---robotics---cs---photonics">Cyber -&gt; Robotics -&gt; CS -&gt; Photonics</h3>
 </section>
-<section id="quiz" class="title-slide slide level1 center">
-<h1>Quiz!</h1>
+<section id="academic-integrity" class="slide level2 center">
+<h2>Academic Integrity</h2>
+<blockquote>
+<p>A cadet will not lie, cheat, steal, or tolerate those who do.</p>
+</blockquote>
+<ul>
+<li>Instructors will see your zyBook history by keystroke.</li>
+<li>Close all windows!
+<ul>
+<li><code>Alt-Tab</code> should not work!</li>
+</ul></li>
+<li>Cannot have <em>any</em> browser tabs open except the exam interface.
+<ul>
+<li>Consider using a different browser!</li>
+</ul></li>
+<li>Work should be done on laptop screen only.
+<ul>
+<li>Big screen for reference card or part B prompt.</li>
+</ul></li>
+<li>Finish and submit part A <em>before</em> starting part B.
+<ul>
+<li>Cannot go back from part B to part A.</li>
+</ul></li>
+<li>Reference card is the only authorized resource!</li>
+<li>After exam, return your scratch paper and leave quietly.</li>
+</ul>
+</section>
+<section>
+<section id="check-on-learning" class="title-slide slide level1 center">
+<h1>Check on learning!</h1>
+
+</section>
+<section id="which-of-the-following-python-variable-names-are-invalid" class="slide level2 center">
+<h2>Which of the following Python variable names are <strong>invalid</strong>?</h2>
+<ol type="A">
+<li><code>car</code></li>
+<li><code>1car</code></li>
+<li><code>_1234</code></li>
+<li><code>/1234</code></li>
+<li><code>_1_2_3_4</code></li>
+<li><code>TEXASTOAST</code></li>
+<li><code>texas toast</code></li>
+<li><code>class</code></li>
+</ol>
+<ul>
+<li>Reference: <a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/5/section/6">zyBook chapter 5</a></li>
+<li><a href="https://pyodide.org/en/stable/console.html">Try it yourself in REPL</a> - <code>TEXASTOAST = 1</code></li>
+</ul>
+<aside class="notes">
+<ul>
+<li>B, D, G, H</li>
+<li><code>1car</code> starts with a number</li>
+<li><code>/1234</code> has a special character</li>
+<li><code>texas toast</code> has a space</li>
+<li><code>class</code> is a reserved word</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-is-bandwidth" class="slide level2 center">
+<h2>What is Bandwidth?</h2>
+<ol type="A">
+<li>Numbers of packets your computer can send</li>
+<li>Thickness of your primary network cable</li>
+<li>Speed of your internet connection</li>
+<li>Amount of data your computer can download each month</li>
+</ol>
+</section>
+<section id="what-is-the-difference-between-tcp-and-ip" class="slide level2 center">
+<h2>What is the difference between TCP and IP?</h2>
+<ol type="A">
+<li>TCP handles addressing; IP handles routing</li>
+<li>TCP handles reliability; IP handles addressing and routing</li>
+<li>TCP handles error-checking; IP handles reliability</li>
+<li>TCP handles routing; IP handles reliability</li>
+</ol>
+</section>
+<section id="what-is-the-purpose-of-dns" class="slide level2 center">
+<h2>What is the purpose of DNS?</h2>
+<ol type="A">
+<li>Request web pages from a server</li>
+<li>To convert domain names to IP addresses</li>
+<li>Provide a secure connection to a website</li>
+<li>To convert IP addresses to domain names</li>
+</ol>
+</section>
+<section id="you-send-an-email-to-alice.-charlie-intercepts-the-email-and-reads-it.-which-security-goal-has-been-violated" class="slide level2 center">
+<h2>You send an email to Alice. Charlie intercepts the email and reads it. Which security goal has been violated?</h2>
+<ol type="A">
+<li>Confidentiality</li>
+<li>Integrity</li>
+<li>Availability</li>
+<li>Authentication</li>
+<li>Non-repudiation</li>
+</ol>
+</section>
+<section id="you-send-an-email-to-alice.-bob-intercepts-the-email-and-changes-the-message.-which-security-goal-has-been-violated" class="slide level2 center">
+<h2>You send an email to Alice. Bob intercepts the email and changes the message. Which security goal has been violated?</h2>
+<ol type="A">
+<li>Confidentiality</li>
+<li>Integrity</li>
+<li>Availability</li>
+<li>Authentication</li>
+<li>Non-repudiation</li>
+</ol>
+</section>
+<section id="you-send-an-email-to-alice.-later-you-deny-sending-the-email.-which-security-goal-has-been-violated" class="slide level2 center">
+<h2>You send an email to Alice. Later, you deny sending the email. Which security goal has been violated?</h2>
+<ol type="A">
+<li>Confidentiality</li>
+<li>Integrity</li>
+<li>Availability</li>
+<li>Authentication</li>
+<li>Non-repudiation</li>
+</ol>
+</section>
+<section id="alice-cannot-access-her-email-account.-which-security-goal-has-been-violated" class="slide level2 center">
+<h2>Alice cannot access her email account. Which security goal has been violated?</h2>
+<ol type="A">
+<li>Confidentiality</li>
+<li>Integrity</li>
+<li>Availability</li>
+<li>Authentication</li>
+<li>Non-repudiation</li>
+</ol>
+</section>
+<section id="alice-received-an-email-from-bob-but-she-thinks-it-came-from-you.-which-security-goal-has-been-violated" class="slide level2 center">
+<h2>Alice received an email from Bob, but she thinks it came from you. Which security goal has been violated?</h2>
+<ol type="A">
+<li>Confidentiality</li>
+<li>Integrity</li>
+<li>Availability</li>
+<li>Authentication</li>
+<li>Non-repudiation</li>
+</ol>
+</section>
+<section id="what-are-the-threat-goals" class="slide level2 center">
+<h2>What are the threat goals?</h2>
+<ol type="A">
+<li>Disclose</li>
+<li>Destroy</li>
+<li>Integrity</li>
+<li>Availability</li>
+<li>Deny</li>
+<li>Publicize</li>
+<li>Confidentiality</li>
+<li>Steal</li>
+<li>Logout</li>
+<li>Alter</li>
+</ol>
+</section>
+<section id="match-the-following-terms" class="slide level2 center">
+<h2>Match the following terms:</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>Programming language Style of a webpage Structure of a webpage Protocol for getting web pages from servers Your medical records on the Tricare website Websites that require Tor Stores website configuration, user settings, tracking information Image or code hidden in a webpage</p>
+</div><div class="column" style="width:30%;">
+<ol type="A">
+<li>HTTP</li>
+<li>Deep Web</li>
+<li>CSS</li>
+<li>Web Beacons</li>
+<li>Dark Web</li>
+<li>JavaScript</li>
+<li>Cookies</li>
+<li>HTML</li>
+</ol>
+</div></div>
+</section>
+<section id="asymmetric-encryption" class="slide level2 center">
+<h2>Asymmetric Encryption</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<p><img data-src="30-wpr3-review_files/figure-revealjs/mermaid-figure-1.png" style="width:16in;height:4.53in"></p>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<ol type="A">
+<li>Alice’s public key</li>
+<li>Alice’s private key</li>
+<li>Bob’s public key</li>
+<li>Bob’s private key</li>
+</ol>
+<aside class="notes">
+<p>C, D, B, A</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="which-of-the-following-are-true-about-encryption" class="slide level2 center">
+<h2>Which of the following are true about encryption?</h2>
+<ol type="A">
+<li>Symmetric encryption uses the same key for encryption and decryption.</li>
+<li>Private keys should be used to encrypt data.</li>
+<li>Symmetric encryption is faster than asymmetric encryption.</li>
+<li>Asymmetric encryption uses the same key for encryption and decryption.</li>
+<li>Public keys are often used to generate signatures.</li>
+<li>Key distribution is rarely a challenge in symmetric encryption.</li>
+<li>If Alice wants to email me, I should share my private key with her.</li>
+</ol>
+</section>
+<section id="which-of-the-following-are-the-layers-of-cyberspace" class="slide level2 center">
+<h2>Which of the following are the layers of cyberspace?</h2>
+<ol type="A">
+<li>Physical</li>
+<li>Gray Space</li>
+<li>Transmission Control Protocol</li>
+<li>Cyber</li>
+<li>Blue Space</li>
+<li>Logical</li>
+<li>Internet Protocol</li>
+<li>Cell towers</li>
+</ol>
+</section>
+<section id="identify-the-errors." class="slide level2 center">
+<h2>Identify the errors.</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="kw">def</span> prepare_turkey(weight):</span>
+<span id="cb1-2"><a></a>    minutes_per_pound <span class="op">=</span> <span class="dv">15</span></span>
+<span id="cb1-3"><a></a>    cooking_time <span class="op">=</span> weight <span class="op">*</span> minutes_per_pound</span>
+<span id="cb1-4"><a></a>    <span class="cf">if</span> cooking_time <span class="op">&gt;</span> <span class="dv">300</span>:</span>
+<span id="cb1-5"><a></a>        <span class="cf">return</span> <span class="dv">300</span></span>
+<span id="cb1-6"><a></a>    <span class="cf">return</span> cooking_time</span>
+<span id="cb1-7"><a></a></span>
+<span id="cb1-8"><a></a><span class="kw">def</span> main():</span>
+<span id="cb1-9"><a></a>    weight <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Enter the weight of the turkey: "</span>))</span>
+<span id="cb1-10"><a></a>    prepare_turkey(weight, <span class="st">"lbs"</span>)</span>
+<span id="cb1-11"><a></a>    <span class="bu">print</span>(<span class="st">"The turkey will be ready in"</span>, cooking_time, <span class="st">"minutes."</span>)</span>
+<span id="cb1-12"><a></a></span>
+<span id="cb1-13"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol type="A">
+<li>Variable not defined, causing a <code>NameError</code>.</li>
+<li>Variable assigned a value that was never used.</li>
+<li>Multiple return statements in a function.</li>
+<li>Number of parameters does not match the number of arguments.</li>
+<li>Return value not handled correctly.</li>
+<li>Function defined but never called.</li>
+</ol>
+<aside class="notes">
+<p>A, D, E</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="functions-select-the-true-statements." class="slide level2 center">
+<h2>Functions: select the true statements.</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="kw">def</span> <span class="bu">pow</span>(b, p):</span>
+<span id="cb2-2"><a></a>    y <span class="op">=</span> b<span class="op">**</span>p</span>
+<span id="cb2-3"><a></a>    <span class="cf">return</span> y</span>
+<span id="cb2-4"><a></a></span>
+<span id="cb2-5"><a></a><span class="kw">def</span> square(x):</span>
+<span id="cb2-6"><a></a>    a <span class="op">=</span> <span class="bu">pow</span>(x, <span class="dv">2</span>)</span>
+<span id="cb2-7"><a></a>    <span class="cf">return</span> a</span>
+<span id="cb2-8"><a></a></span>
+<span id="cb2-9"><a></a><span class="kw">def</span> main():</span>
+<span id="cb2-10"><a></a>    a <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb2-11"><a></a>    b <span class="op">=</span> <span class="dv">4</span></span>
+<span id="cb2-12"><a></a>    p <span class="op">=</span> square(a)</span>
+<span id="cb2-13"><a></a>    q <span class="op">=</span> <span class="bu">pow</span>(b, <span class="dv">3</span>)</span>
+<span id="cb2-14"><a></a>    <span class="bu">print</span>(a)</span>
+<span id="cb2-15"><a></a>    <span class="bu">print</span>(b)</span>
+<span id="cb2-16"><a></a>    <span class="bu">print</span>(p)</span>
+<span id="cb2-17"><a></a>    <span class="bu">print</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol type="A">
+<li>The program will print <code>3</code>.</li>
+<li>The program will print <code>9</code>.</li>
+<li>The program will print <code>64</code>.</li>
+<li>The program will print <code>None</code>.</li>
+<li>The program will raise an error.</li>
+</ol>
+<aside class="notes">
+<pre><code>3
+4
+9
+NameError: name 'y' is not defined</code></pre>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="for-loop-select-the-true-statements." class="slide level2 center">
+<h2><code>for</code> loop: select the true statements.</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>my_string <span class="op">=</span> <span class="st">"Hello, World! This is my favorite string."</span></span>
+<span id="cb4-2"><a></a>length <span class="op">=</span> <span class="bu">len</span>(my_string)</span>
+<span id="cb4-3"><a></a></span>
+<span id="cb4-4"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, length, <span class="dv">2</span>):</span>
+<span id="cb4-5"><a></a>    <span class="bu">print</span>(my_string[i])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol type="A">
+<li>Indexing operator is used to access individual characters.</li>
+<li>The program will result in an error.</li>
+<li>The program will print one character per line.</li>
+<li><code>i</code> will take on the values <code>0</code>, <code>2</code>, <code>4</code>, <code>6</code>, <code>8</code>, …</li>
+<li>The program will print every third character.</li>
+</ol>
+<aside class="notes">
+<p>A, C, D</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<!-- ## `while` loop
+
+```python
+def marksmanship(score):
+    if score >= 36:
+        return "Expert"
+    if score >= 30:
+        return "Sharpshooter"
+    if score >= 23:
+        return "Marksman"
+    return "Unqualified"
+
+def main():
+    score = int(input("Enter your ACFT score: "))
+    experts = 0
+    unqualified = 0
+    while score != -1:
+        score = int(input("Enter your ACFT score: "))
+        status = marksmanship(score)
+        if status == "Expert":
+            experts += 1
+        elif status == "Unqualified":
+            unqualified += 1
+    print("Experts:", experts)
+    print("Unqualified:", unqualified)
+
+main()
+``` -->
+</section>
+<section id="programming-practice" class="slide level2 center">
+<h2>Programming Practice</h2>
+<ul>
+<li>WPS7</li>
+<li><a href="https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4FxAZjRgiY6oLr7BydggGI4QjIoOABPCABXKIMIYTg6YjwMYOCoPBgEgjg2IMccvKgC1TcPLx8AGk0MXRlDEzMXGwDi5zwrAkwDOggIAGc8TABrP1q4cc6u0PCCSJj4xOS8VPTMrJLc-MKu0v2-fsGRsfH6rSb9I1NzHutME4Gh0YnO4JckYAI7eacFmgcAKvzgAG1xNNeABmaEAdmhAE4ALr2HY7IFRcZwMHggBM0zhcAArNN4WiARinAAPOR9V7nCZTGaaanUunMX4wVQ09SOMIDRAEfCuYwQUhwTy4pZU9lgFBLSosLEguQAbwIAF84MLyDMNeMtdNYnE4Ph4OqaVqWA0uj8-mynEdynBVA6rhhgFZsARECAxpgmMwWNgHdgWOinHoOFA4o60EA">Factorial and n-choose-k</a></li>
+<li>other ICEs?</li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <p><img src="../images/wp_crest_new_only.png" class="slide-logo"></p>
@@ -372,7 +804,7 @@ CPT Sonny Bhatia
 
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 
@@ -406,7 +838,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"0a9d858441213fd0","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"15b29755cc2fb9cc","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner

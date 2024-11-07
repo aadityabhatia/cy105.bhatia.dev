@@ -84,11 +84,137 @@
     "text": "Next Class\n\nComputers and Data\nWPS1 due 25AUG\nWPS2 will be assigned soon\nzyBooks readings!"
   },
   {
-    "objectID": "lessons/30-wpr3-review.html#announcements",
-    "href": "lessons/30-wpr3-review.html#announcements",
+    "objectID": "lessons/30-wpr3-review.html#academic-integrity",
+    "href": "lessons/30-wpr3-review.html#academic-integrity",
     "title": "WPR 3 Review",
-    "section": "Announcements",
-    "text": "Announcements\n\nAI Summative Project Proposal due 12NOV\nWritten Periodic Review on 13-14NOV\n\nTech Tour\n\n\n\n\nA1: 20NOV CRC (TH115)\nC1: 18NOV PRC (TH111)\n\nA2: 19NOV PRC (TH111)\nB2: 15NOV CRC (TH115)\n\n\nCyber -&gt; Robotics -&gt; CS -&gt; Photonics"
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\n\nA cadet will not lie, cheat, steal, or tolerate those who do.\n\n\nInstructors will see your zyBook history by keystroke.\nClose all windows!\n\nAlt-Tab should not work!\n\nCannot have any browser tabs open except the exam interface.\n\nConsider using a different browser!\n\nWork should be done on laptop screen only.\n\nBig screen for reference card or part B prompt.\n\nFinish and submit part A before starting part B.\n\nCannot go back from part B to part A.\n\nReference card is the only authorized resource!\nAfter exam, return your scratch paper and leave quietly."
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#which-of-the-following-python-variable-names-are-invalid",
+    "href": "lessons/30-wpr3-review.html#which-of-the-following-python-variable-names-are-invalid",
+    "title": "WPR 3 Review",
+    "section": "Which of the following Python variable names are invalid?",
+    "text": "Which of the following Python variable names are invalid?\n\ncar\n1car\n_1234\n/1234\n_1_2_3_4\nTEXASTOAST\ntexas toast\nclass\n\n\nReference: zyBook chapter 5\nTry it yourself in REPL - TEXASTOAST = 1\n\n\n\nB, D, G, H\n1car starts with a number\n/1234 has a special character\ntexas toast has a space\nclass is a reserved word"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#what-is-bandwidth",
+    "href": "lessons/30-wpr3-review.html#what-is-bandwidth",
+    "title": "WPR 3 Review",
+    "section": "What is Bandwidth?",
+    "text": "What is Bandwidth?\n\nNumbers of packets your computer can send\nThickness of your primary network cable\nSpeed of your internet connection\nAmount of data your computer can download each month"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#what-is-the-difference-between-tcp-and-ip",
+    "href": "lessons/30-wpr3-review.html#what-is-the-difference-between-tcp-and-ip",
+    "title": "WPR 3 Review",
+    "section": "What is the difference between TCP and IP?",
+    "text": "What is the difference between TCP and IP?\n\nTCP handles addressing; IP handles routing\nTCP handles reliability; IP handles addressing and routing\nTCP handles error-checking; IP handles reliability\nTCP handles routing; IP handles reliability"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#what-is-the-purpose-of-dns",
+    "href": "lessons/30-wpr3-review.html#what-is-the-purpose-of-dns",
+    "title": "WPR 3 Review",
+    "section": "What is the purpose of DNS?",
+    "text": "What is the purpose of DNS?\n\nRequest web pages from a server\nTo convert domain names to IP addresses\nProvide a secure connection to a website\nTo convert IP addresses to domain names"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#you-send-an-email-to-alice.-charlie-intercepts-the-email-and-reads-it.-which-security-goal-has-been-violated",
+    "href": "lessons/30-wpr3-review.html#you-send-an-email-to-alice.-charlie-intercepts-the-email-and-reads-it.-which-security-goal-has-been-violated",
+    "title": "WPR 3 Review",
+    "section": "You send an email to Alice. Charlie intercepts the email and reads it. Which security goal has been violated?",
+    "text": "You send an email to Alice. Charlie intercepts the email and reads it. Which security goal has been violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#you-send-an-email-to-alice.-bob-intercepts-the-email-and-changes-the-message.-which-security-goal-has-been-violated",
+    "href": "lessons/30-wpr3-review.html#you-send-an-email-to-alice.-bob-intercepts-the-email-and-changes-the-message.-which-security-goal-has-been-violated",
+    "title": "WPR 3 Review",
+    "section": "You send an email to Alice. Bob intercepts the email and changes the message. Which security goal has been violated?",
+    "text": "You send an email to Alice. Bob intercepts the email and changes the message. Which security goal has been violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#you-send-an-email-to-alice.-later-you-deny-sending-the-email.-which-security-goal-has-been-violated",
+    "href": "lessons/30-wpr3-review.html#you-send-an-email-to-alice.-later-you-deny-sending-the-email.-which-security-goal-has-been-violated",
+    "title": "WPR 3 Review",
+    "section": "You send an email to Alice. Later, you deny sending the email. Which security goal has been violated?",
+    "text": "You send an email to Alice. Later, you deny sending the email. Which security goal has been violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#alice-cannot-access-her-email-account.-which-security-goal-has-been-violated",
+    "href": "lessons/30-wpr3-review.html#alice-cannot-access-her-email-account.-which-security-goal-has-been-violated",
+    "title": "WPR 3 Review",
+    "section": "Alice cannot access her email account. Which security goal has been violated?",
+    "text": "Alice cannot access her email account. Which security goal has been violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#alice-received-an-email-from-bob-but-she-thinks-it-came-from-you.-which-security-goal-has-been-violated",
+    "href": "lessons/30-wpr3-review.html#alice-received-an-email-from-bob-but-she-thinks-it-came-from-you.-which-security-goal-has-been-violated",
+    "title": "WPR 3 Review",
+    "section": "Alice received an email from Bob, but she thinks it came from you. Which security goal has been violated?",
+    "text": "Alice received an email from Bob, but she thinks it came from you. Which security goal has been violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#what-are-the-threat-goals",
+    "href": "lessons/30-wpr3-review.html#what-are-the-threat-goals",
+    "title": "WPR 3 Review",
+    "section": "What are the threat goals?",
+    "text": "What are the threat goals?\n\nDisclose\nDestroy\nIntegrity\nAvailability\nDeny\nPublicize\nConfidentiality\nSteal\nLogout\nAlter"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#match-the-following-terms",
+    "href": "lessons/30-wpr3-review.html#match-the-following-terms",
+    "title": "WPR 3 Review",
+    "section": "Match the following terms:",
+    "text": "Match the following terms:\n\n\nProgramming language Style of a webpage Structure of a webpage Protocol for getting web pages from servers Your medical records on the Tricare website Websites that require Tor Stores website configuration, user settings, tracking information Image or code hidden in a webpage\n\n\nHTTP\nDeep Web\nCSS\nWeb Beacons\nDark Web\nJavaScript\nCookies\nHTML"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#asymmetric-encryption",
+    "href": "lessons/30-wpr3-review.html#asymmetric-encryption",
+    "title": "WPR 3 Review",
+    "section": "Asymmetric Encryption",
+    "text": "Asymmetric Encryption\n\n\n\n\n\n\n\n\n\n\n\n\nAlice’s public key\nAlice’s private key\nBob’s public key\nBob’s private key\n\n\nC, D, B, A"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#which-of-the-following-are-true-about-encryption",
+    "href": "lessons/30-wpr3-review.html#which-of-the-following-are-true-about-encryption",
+    "title": "WPR 3 Review",
+    "section": "Which of the following are true about encryption?",
+    "text": "Which of the following are true about encryption?\n\nSymmetric encryption uses the same key for encryption and decryption.\nPrivate keys should be used to encrypt data.\nSymmetric encryption is faster than asymmetric encryption.\nAsymmetric encryption uses the same key for encryption and decryption.\nPublic keys are often used to generate signatures.\nKey distribution is rarely a challenge in symmetric encryption.\nIf Alice wants to email me, I should share my private key with her."
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#which-of-the-following-are-the-layers-of-cyberspace",
+    "href": "lessons/30-wpr3-review.html#which-of-the-following-are-the-layers-of-cyberspace",
+    "title": "WPR 3 Review",
+    "section": "Which of the following are the layers of cyberspace?",
+    "text": "Which of the following are the layers of cyberspace?\n\nPhysical\nGray Space\nTransmission Control Protocol\nCyber\nBlue Space\nLogical\nInternet Protocol\nCell towers"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#identify-the-errors.",
+    "href": "lessons/30-wpr3-review.html#identify-the-errors.",
+    "title": "WPR 3 Review",
+    "section": "Identify the errors.",
+    "text": "Identify the errors.\ndef prepare_turkey(weight):\n    minutes_per_pound = 15\n    cooking_time = weight * minutes_per_pound\n    if cooking_time &gt; 300:\n        return 300\n    return cooking_time\n\ndef main():\n    weight = int(input(\"Enter the weight of the turkey: \"))\n    prepare_turkey(weight, \"lbs\")\n    print(\"The turkey will be ready in\", cooking_time, \"minutes.\")\n\nmain()\n\nVariable not defined, causing a NameError.\nVariable assigned a value that was never used.\nMultiple return statements in a function.\nNumber of parameters does not match the number of arguments.\nReturn value not handled correctly.\nFunction defined but never called.\n\n\nA, D, E"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#functions-select-the-true-statements.",
+    "href": "lessons/30-wpr3-review.html#functions-select-the-true-statements.",
+    "title": "WPR 3 Review",
+    "section": "Functions: select the true statements.",
+    "text": "Functions: select the true statements.\ndef pow(b, p):\n    y = b**p\n    return y\n\ndef square(x):\n    a = pow(x, 2)\n    return a\n\ndef main():\n    a = 3\n    b = 4\n    p = square(a)\n    q = pow(b, 3)\n    print(a)\n    print(b)\n    print(p)\n    print(y)\n\nThe program will print 3.\nThe program will print 9.\nThe program will print 64.\nThe program will print None.\nThe program will raise an error.\n\n\n3\n4\n9\nNameError: name 'y' is not defined"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#for-loop-select-the-true-statements.",
+    "href": "lessons/30-wpr3-review.html#for-loop-select-the-true-statements.",
+    "title": "WPR 3 Review",
+    "section": "for loop: select the true statements.",
+    "text": "for loop: select the true statements.\nmy_string = \"Hello, World! This is my favorite string.\"\nlength = len(my_string)\n\nfor i in range(0, length, 2):\n    print(my_string[i])\n\nIndexing operator is used to access individual characters.\nThe program will result in an error.\nThe program will print one character per line.\ni will take on the values 0, 2, 4, 6, 8, …\nThe program will print every third character.\n\n\nA, C, D"
+  },
+  {
+    "objectID": "lessons/30-wpr3-review.html#programming-practice",
+    "href": "lessons/30-wpr3-review.html#programming-practice",
+    "title": "WPR 3 Review",
+    "section": "Programming Practice",
+    "text": "Programming Practice\n\nWPS7\nFactorial and n-choose-k\nother ICEs?"
   },
   {
     "objectID": "lessons/24-www.html#discussion",
