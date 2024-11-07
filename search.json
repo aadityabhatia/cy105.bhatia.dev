@@ -84,39 +84,11 @@
     "text": "Next Class\n\nComputers and Data\nWPS1 due 25AUG\nWPS2 will be assigned soon\nzyBooks readings!"
   },
   {
-    "objectID": "lessons/30-wpr3-review.html#discussion",
-    "href": "lessons/30-wpr3-review.html#discussion",
-    "title": "WPR 3 Review",
-    "section": "Discussion!",
-    "text": "Discussion!"
-  },
-  {
     "objectID": "lessons/30-wpr3-review.html#announcements",
     "href": "lessons/30-wpr3-review.html#announcements",
     "title": "WPR 3 Review",
     "section": "Announcements",
-    "text": "Announcements"
-  },
-  {
-    "objectID": "lessons/30-wpr3-review.html#lesson-objectives",
-    "href": "lessons/30-wpr3-review.html#lesson-objectives",
-    "title": "WPR 3 Review",
-    "section": "Lesson Objectives",
-    "text": "Lesson Objectives"
-  },
-  {
-    "objectID": "lessons/30-wpr3-review.html#check-on-learning",
-    "href": "lessons/30-wpr3-review.html#check-on-learning",
-    "title": "WPR 3 Review",
-    "section": "Check on Learning!",
-    "text": "Check on Learning!"
-  },
-  {
-    "objectID": "lessons/30-wpr3-review.html#reminders",
-    "href": "lessons/30-wpr3-review.html#reminders",
-    "title": "WPR 3 Review",
-    "section": "Reminders",
-    "text": "Reminders\n\n\nfor whiteboard in whiteboards:\n    erase(whiteboard)\n\nwhile not cadet_is_expert:\n    practice('zyBook ICEs')\n\nUp Next\n\nWPS due on Sunday!"
+    "text": "Announcements\n\nAI Summative Project Proposal due 12NOV\nWritten Periodic Review on 13-14NOV\n\nTech Tour\n\n\n\n\nA1: 20NOV CRC (TH115)\nC1: 18NOV PRC (TH111)\n\nA2: 19NOV PRC (TH111)\nB2: 15NOV CRC (TH115)\n\n\nCyber -&gt; Robotics -&gt; CS -&gt; Photonics"
   },
   {
     "objectID": "lessons/24-www.html#discussion",
@@ -1691,7 +1663,7 @@
     "href": "index.html#random-interesting-material",
     "title": "Computing Fundamentals",
     "section": "Random, Interesting Material",
-    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHide and Seek!\nCan ChatGPT be wrong?\nSeating chart generator\nHackaday\narrr - Pirate module!\nWhat is Python\nWhere really is the Internet?\nVortex Cannon vs Drone\n\n\n\nCyber, Security, and Privacy\n\nBuilding a home lab\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nWhy digital privacy matters\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\nWhat can you do?\n\nhaveibeenpwned.com\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nPrivacy Guides\n\nPrivacyTools\n\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\nData Removal Guide: inteltechniques.com\n\n\n\n\nLearning, Productivity, and Life\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
+    "text": "Random, Interesting Material\n\nComputing and Technology\n\nHackaday\nHide and Seek!\nCan ChatGPT be wrong?\nWhat is Python\narrr - Pirate module for Python\nWhere really is the Internet?\nSeating chart generator\nVortex Cannon vs Drone\n\n\n\nCyber, Security, and Privacy\n\nLearning Resources\n\nBuilding a home lab\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\n\n\n\nTracker, Ad-blockers, and Malware Protection\n\nCloudflare for Families - DNS-based tracker and adult content blocker\nPi-hole - network-wide DNS-based ad blocker\npfSense - open-source firewall\nNextDNS - DNS-based tracker blocker\n\n\n\nSelf-hosted services, tools, networks\n\nTailscale - mesh networking (personal VPN) for your devices\nSyncthing - file synchronization across devices\nNextcloud - self-hosted cloud storage, calendar, contacts, RSS feed reader\nGitea - self-hosted Git service, replacement for GitHub\nBitwarden - self-hosted password manager\nJitsi - self-hosted video conferencing\nMattermost - self-hosted Slack alternative\n\n\n\nMessaging, Email, Communication\n\nSignal Messenger - non-profit, encrypted messaging, voice, and video calls\nProtonMail - encrypted email\nElement - encrypted chat, video, and voice calls based on Matrix protocol; can run your own server\nPGP Encryption\n\n\n\nNews, Articles, Documentaries\n\nFlipper Zero\n\nMeanwhile, in Canada…\n\nInside the “3 Billion People” National Public Data Breach\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nWhy digital privacy matters\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\n\nWhat can you do?\n\nhaveibeenpwned.com - subscribe to breach notifications\nMozilla Monitor - find and fix data exposures\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks - browser fingerprinting test\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nPrivacy Guides - privacy-focused tools and recommendations\n\nPrivacyTools\n\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\nData Removal Guide: inteltechniques.com\n\n\n\n\nLearning and Productivity\n\nPB&J Sandwich\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAlgorithm: The Better Boarding Method Airlines Won’t Use\nAbout, Ideas, Now"
   },
   {
     "objectID": "lessons/14-conditionals-2.html#announcements",
