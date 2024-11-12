@@ -412,26 +412,58 @@ CPT Sonny Bhatia
 </section>
 <section class="slide level2 center">
 
-<!-- ## Discussion! {timing=240 data-background-image="/images/32/32.webp" data-background-opacity="0.3"} -->
-</section>
-<section id="announcements" class="slide level2 center" data-background-image="../images/32/32.webp" data-background-opacity="0.2">
-<h2>Announcements</h2>
+<h3 data-background-image="/images/08/08.webp" data-background-opacity="0.1" id="tech-tour">Tech Tour!</h3>
+<p><br></p>
+<h3 id="cyber---robotics---cs---photonics">Cyber -&gt; Robotics -&gt; CS -&gt; Photonics</h3>
+<p><br></p>
+<h3 id="a1-20nov-crc-th115">A1: 20NOV CRC (TH115)</h3>
+<h3 id="a2-19nov-prc-th111">A2: 19NOV PRC (TH111)</h3>
 
-<img data-src="../images/agenda-block-3.png" class="r-stretch"></section>
+<img data-src="../images/agenda-block-4.png" class="r-stretch"></section>
 <section id="lesson-objectives" class="slide level2 center" data-background-image="../images/32/32.webp" data-background-opacity="0.1">
 <h2>Lesson Objectives</h2>
 <ul>
-<li>Understand the concept of methods</li>
-<li>Learn how to use methods with strings and lists</li>
-<li>Practice using methods in Python</li>
+<li>Identify common string methods</li>
+<li>Identify common list methods</li>
+<li>Compare and contrast immutable and mutable list methods</li>
+<li>Practice employing list and string methods</li>
+</ul>
+</section>
+<section id="review-lists-and-strings" class="slide level2 center">
+<h2>Review: Lists and Strings</h2>
+<ul>
+<li>Data type: Collection
+<ul>
+<li>How does this compare to others?</li>
+</ul></li>
+<li>Can access parts or treat as a whole</li>
+<li>Sequential (ordered)</li>
+<li>String vs.&nbsp;List
+<ul>
+<li>Elements can be different types</li>
+<li>Lists are mutable, strings are not</li>
+</ul></li>
 </ul>
 </section>
 <section id="methods" class="slide level2 center">
 <h2>Methods</h2>
 <ul>
-<li>functions that operate on a specific data type</li>
+<li>functions that operate directly on lists or strings</li>
 <li>accessed using the dot operator, e.g.&nbsp;<code>mystring.count("a")</code></li>
 <li>similar to modules, but associated with a value</li>
+</ul>
+</section>
+<section id="string-methods" class="slide level2 center">
+<h2>String Methods</h2>
+<ul>
+<li><code>count(substring)</code></li>
+<li><code>find(substring)</code></li>
+<li><code>isalpha()</code></li>
+<li><code>isupper()</code></li>
+<li><code>upper()</code></li>
+<li><code>lower()</code></li>
+<li><code>join(iterable)</code></li>
+<li><code>split(separator)</code></li>
 </ul>
 </section>
 <section id="ice-string-methods" class="slide level2 center" data-timing="300">
@@ -454,18 +486,22 @@ CPT Sonny Bhatia
 <h2>ICE: List Methods</h2>
 <div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>mylist <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
 <span id="cb2-2"><a></a>mylist.append(<span class="dv">6</span>)</span>
-<span id="cb2-3"><a></a>mylist</span>
-<span id="cb2-4"><a></a>mylist.pop()</span>
-<span id="cb2-5"><a></a>mylist</span>
-<span id="cb2-6"><a></a>mylist.insert(<span class="dv">2</span>, <span class="dv">7</span>)</span>
-<span id="cb2-7"><a></a>mylist</span>
-<span id="cb2-8"><a></a>mylist.remove(<span class="dv">7</span>)</span>
-<span id="cb2-9"><a></a>mylist</span>
-<span id="cb2-10"><a></a>mylist.reverse()</span>
-<span id="cb2-11"><a></a>mylist</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-3"><a></a>mylist.pop()</span>
+<span id="cb2-4"><a></a>mylist.insert(<span class="dv">2</span>, <span class="dv">7</span>)</span>
+<span id="cb2-5"><a></a>mylist.remove(<span class="dv">7</span>)</span>
+<span id="cb2-6"><a></a>mylist.reverse()</span>
+<span id="cb2-7"><a></a>mylist</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Use <a href="https://pyodide.org/en/stable/console.html">REPL</a> or a <a href="https://marimo.new/">notebook</a> to try these out!</li>
 <li>Read each line and predict the output, and then run it to check your answer.</li>
+</ul>
+</section>
+<section id="more-ices" class="slide level2 center" data-background-image="../images/32/32.webp" data-background-opacity="0.1">
+<h2>More ICEs!</h2>
+<ul>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/31/section/3">zyBook 31.3</a></li>
+<li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/31/section/4">Tornado Analyzer</a></li>
+<li><a href="https://cneos.jpl.nasa.gov/ca/">NEO Earth Close Approaches</a></li>
 </ul>
 
 <div class="quarto-auto-generated-content">
@@ -508,7 +544,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"592646de4bf7407a","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"a48063d89ef44a35","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
