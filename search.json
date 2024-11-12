@@ -588,403 +588,452 @@
     "text": "Reminders\n\nWPS1 due 25AUG\nExtra credit assignments published!\nAddress Cengage issues now!\nNext week: Algorithms and Problem Solving\n\nzyBook readings!"
   },
   {
-    "objectID": "lessons/09-file-io.html#announcements",
-    "href": "lessons/09-file-io.html#announcements",
-    "title": "File Input/Output",
+    "objectID": "lessons/06-built-in-functions.html#discussion",
+    "href": "lessons/06-built-in-functions.html#discussion",
+    "title": "Built-in Functions",
+    "section": "Discussion!",
+    "text": "Discussion!\n\nChatGPT!"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#lesson-objectives",
+    "href": "lessons/06-built-in-functions.html#lesson-objectives",
+    "title": "Built-in Functions",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nUnderstand the purpose of built-in functions in the Python language.\nArticulate the difference between procedures (non-fruitful functions) and fruitful functions.\nIllustrate how to use the assignment operator to store the result of a built-in function in a variable.\nArticulate what arguments are, and how to use them in the context of built-in functions.\nUse built-in functions to write Python code."
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#check-on-learning",
+    "href": "lessons/06-built-in-functions.html#check-on-learning",
+    "title": "Built-in Functions",
+    "section": "Check on Learning",
+    "text": "Check on Learning\n\n\nWhat is a function?\n\nIs it fruitful?\n\nWhat is a procedure?\n\nIs it fruitful?\n\nWhat can a function return?\nWhat is a built-in function?\nWhat is an argument?"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#pizza-program",
+    "href": "lessons/06-built-in-functions.html#pizza-program",
+    "title": "Built-in Functions",
+    "section": "Pizza Program",
+    "text": "Pizza Program\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite a program that accomplishes this task!\n\nAsk the user for their name.\nPrint out hello followed by their name.\nAsk how many slices of pizza they want.\nMultiply quantity by the cost (2.50).\nPrint total to the screen.\n\nUse Notepad++ or zyBook IDE."
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#will-this-work",
+    "href": "lessons/06-built-in-functions.html#will-this-work",
+    "title": "Built-in Functions",
+    "section": "Will this work?",
+    "text": "Will this work?\n\"\"\"\nprogram: pizza checkout\ninput: name, slices\noutput: total amount of money they owe\n\"\"\"\n\ndef main():\n    name = input(\"What is your name? \")  # ask the user for their name\n    print(\"Hello\", name)  # greet the user\n    slices = input(\"How many slices of pizza do you want? \")  # get user input\n    total = slices * 2.50  # multiply quantity by the cost\n    print(\"The total is\", total) # print the total amount\n\nmain()  # call the function"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#functions",
+    "href": "lessons/06-built-in-functions.html#functions",
+    "title": "Built-in Functions",
+    "section": "Functions",
+    "text": "Functions\n\norganize code into reusable blocks\ntransforms some input (X) to some output (Y)\n\n\\[f: X \\rightarrow Y\\]\n\nfactory that takes multiple inputs and produces one thing\nprocedures are functions that do not return anything"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#built-in-functions",
+    "href": "lessons/06-built-in-functions.html#built-in-functions",
+    "title": "Built-in Functions",
+    "section": "Built-in Functions",
+    "text": "Built-in Functions\nname = input(\"What is your name? \")\nprint(\"Hello\", name)\ntype(name)\n\nlist('hello')\n\npi = 3.14159\nround(pi)\nround(pi, 2)\n\na = [17, 23, 11, 29, 37, 13]\nlen(a)\nmax(a)\nmin(a)\n\nfloor(pi)\nceil(pi)\n\na = \"\"\"this string\nhas multiple\nlines.\nWhat now?\"\"\""
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#debugging",
+    "href": "lessons/06-built-in-functions.html#debugging",
+    "title": "Built-in Functions",
+    "section": "Debugging",
+    "text": "Debugging\n\nPython Tutor\nBlack Code Formatter\nuse print() to display variable values\nuse type() to check the type of a variable"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#pizza-program-2",
+    "href": "lessons/06-built-in-functions.html#pizza-program-2",
+    "title": "Built-in Functions",
+    "section": "Pizza Program 2",
+    "text": "Pizza Program 2\n\nModify the pizza program to account for 8.5% tax.\nPrepend the total with a $ sign.\nHave the dollar amount rounded to two decimal places.\n\nSample Input/Output:\n\nWhat is your name? Pikachu\nHello Pikachu\nHow many slices of pizza do you want? 3\nThe total is $8.14"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#how-tall-in-feet-and-inches",
+    "href": "lessons/06-built-in-functions.html#how-tall-in-feet-and-inches",
+    "title": "Built-in Functions",
+    "section": "How tall in feet and inches?",
+    "text": "How tall in feet and inches?\nWrite a program that prompts a user to enter their height in inches. Your program should then display the corresponding height in feet, along with any leftover inches.\nSample Input/Output:\n\n\n\nEnter your height in inches: 70\nYou are 5 feet and 10 inches.\n\n\ndef main():\n    # enter code here\n\n\nmain()"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#circle-program",
+    "href": "lessons/06-built-in-functions.html#circle-program",
+    "title": "Built-in Functions",
+    "section": "Circle Program",
+    "text": "Circle Program\nPrompt the user to input the circle’s radius as a float. Compute and display the circumference and area of the circle. Assume \\(\\pi = 3.14\\).\nCircumference = \\(2 \\pi r\\)\nArea = \\(\\pi r^2\\)\nSample Input/Output:\n\n\n\nEnter the radius as a float: 4.28\nCircumference: 26.8784\nArea: 57.519776\n\n\ndef main():\n    # enter code here\n\n\nmain()"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#next-lesson-for-loops",
+    "href": "lessons/06-built-in-functions.html#next-lesson-for-loops",
+    "title": "Built-in Functions",
+    "section": "Next Lesson: For Loops",
+    "text": "Next Lesson: For Loops\n\nWhy we need loops?\nHow to write code that repeats statements?\nHow to use the accumulator pattern?\nHow to use the built-in function range()?"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#daaw",
+    "href": "lessons/06-built-in-functions.html#daaw",
+    "title": "Built-in Functions",
+    "section": "DAAW",
+    "text": "DAAW\n\n\n\nPick the appropriate statement.\nDocument assistance.\nInitial.\nSign.\n\n\n___ I CERTIFY THAT I DID NOT USE ANY SOURCES OR RECEIVE ANY ASSISTANCE REQUIRING DOCUMENTATION WHILE COMPLETING THIS ASSIGNMENT.\n___ I CERTIFY THAT I HAVE COMPLETELY DOCUMENTED ALL SOURCES THAT I USED TO COMPLETE THIS ASSIGNMENT AND THAT I ACKNOWLEDGED ALL ASSISTANCE I RECEIVED IN THE COMPLETION OF THIS ASSIGNMENT.\n\n\nzyBook"
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#tools-available-to-us",
+    "href": "lessons/06-built-in-functions.html#tools-available-to-us",
+    "title": "Built-in Functions",
+    "section": "Tools Available to Us",
+    "text": "Tools Available to Us\n\nMOSS – Evaluation of multiple files for degree of similarity\nzyLabs Similarity Checker – MOSS-like tool built into zyLabs\nzyLabs Playback – playback of work progression on individual files\nCodequiry – Compares files with each other and online sources\nGenerative AI Tools – See sample responses to particular prompt before or after issuing assignment. Sample responses can be used in MOSS or zyLabs Similarity Checker against student submissions."
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#documenting-in-cy105",
+    "href": "lessons/06-built-in-functions.html#documenting-in-cy105",
+    "title": "Built-in Functions",
+    "section": "Documenting in CY105",
+    "text": "Documenting in CY105\n\nWeekly Problem Set assignments are individual assignments.\nAssistance is encouraged, but collaboration and copying will result in a heavy deduction.\n\nSee the DAAW Section II paragraphs C, E, and H for definitions of each.\n\nDon’t be afraid to ask for assistance! Be aware of the examples of assistance below – you are encouraged to receive this kind of assistance if you are struggling on an assignment!\n\nGetting a verbal answer from another person or receiving an answer from an artificial intelligence about general questions about coding, tools, or concepts covered in the course.\nHaving another person or an artificial intelligence source help you identify and understand specific errors in your own solution."
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#documenting-in-cy105-1",
+    "href": "lessons/06-built-in-functions.html#documenting-in-cy105-1",
+    "title": "Built-in Functions",
+    "section": "Documenting in CY105",
+    "text": "Documenting in CY105\nExamples of Collaboration or Copying (will result in point deduction if not explicitly allowed, must cite):\n\nWorking with one or more people (or artificial intelligence tools) to jointly produce a solution.\nWorking with one or more people (or artificial intelligence tools) to complete separate parts of a graded events, and then joining the parts together to form a common solution.\nLooking at someone else’s code (or code found online) and then typing the same (or slightly modified solution) into your computer and submitting the work as your own.\nProviding the prompt for an assignment to an artificial intelligence source and submitting the work as your own."
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#generative-ai",
+    "href": "lessons/06-built-in-functions.html#generative-ai",
+    "title": "Built-in Functions",
+    "section": "Generative AI",
+    "text": "Generative AI\n\nGenerative AI represents a remarkable frontier in technology, holding transformative potential for expanding knowledge and enhancing learning.\nYou are forbidden from using generative A.I. to generate solutions to weekly problem sets.\nYou are permitted to utilize generative AI for weekly problem sets in the following specific contexts only:\nReceiving an answer from an artificial intelligence source about general questions about course concepts or programming construct (e.g., how to take user input of a certain data type in Python, what is the purpose of a for loop, what does cybersecurity mean, etc.)\nHaving an artificial intelligence source help you identify specific errors in your own solution (i.e., identifying potential bugs in your code after you have written the program)\nHaving artificial intelligence explain why your program gives a particular (wrong) output."
+  },
+  {
+    "objectID": "lessons/06-built-in-functions.html#generative-ai-1",
+    "href": "lessons/06-built-in-functions.html#generative-ai-1",
+    "title": "Built-in Functions",
+    "section": "Generative AI",
+    "text": "Generative AI\n\nYou are NEVER authorized to use generative AI to generate solutions (or partial solutions) to weekly problem set problems!\nIf the tool is capable of generating a link to the conversation, include that in your acknowledgements. Otherwise, provide a copy of the full transcript in your acknowledgements section.\nThis includes any and all follow-up questions/prompts to the artificial intelligence source and the provided answers."
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#academic-integrity",
+    "href": "lessons/38-TEE-review.html#academic-integrity",
+    "title": "TEE Review",
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\n\nA cadet will not lie, cheat, steal, or tolerate those who do.\n\n\nInstructors will see your zyBook history by keystroke!\nClose all windows!\n\nAlt-Tab should not work!\n\nNo browser tabs open except the exam interface.\n\nConsider using a different browser!\n\nWork should be done on laptop screen only.\n\nBig screen for reference card or part B prompt.\n\nFinish and submit part A before starting part B; cannot go back.\nReference card is the only authorized resource!"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#what-is-bandwidth",
+    "href": "lessons/38-TEE-review.html#what-is-bandwidth",
+    "title": "TEE Review",
+    "section": "What is Bandwidth?",
+    "text": "What is Bandwidth?\n\nNumbers of packets your computer can send\nThickness of your primary network cable\nSpeed of your internet connection\nAmount of data your computer can download each month"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#what-is-the-difference-between-tcp-and-ip",
+    "href": "lessons/38-TEE-review.html#what-is-the-difference-between-tcp-and-ip",
+    "title": "TEE Review",
+    "section": "What is the difference between TCP and IP?",
+    "text": "What is the difference between TCP and IP?\n\nTCP handles addressing; IP handles routing\nTCP handles reliability; IP handles addressing and routing\nTCP handles error-checking; IP handles reliability\nTCP handles routing; IP handles reliability"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#what-is-the-purpose-of-dns",
+    "href": "lessons/38-TEE-review.html#what-is-the-purpose-of-dns",
+    "title": "TEE Review",
+    "section": "What is the purpose of DNS?",
+    "text": "What is the purpose of DNS?\n\nRequest web pages from a server\nTo convert domain names to IP addresses\nProvide a secure connection to a website\nTo convert IP addresses to domain names"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#you-send-an-email-to-alice.-charlie-intercepts-the-email-and-reads-it.-which-security-goal-was-violated",
+    "href": "lessons/38-TEE-review.html#you-send-an-email-to-alice.-charlie-intercepts-the-email-and-reads-it.-which-security-goal-was-violated",
+    "title": "TEE Review",
+    "section": "You send an email to Alice. Charlie intercepts the email and reads it. Which security goal was violated?",
+    "text": "You send an email to Alice. Charlie intercepts the email and reads it. Which security goal was violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#you-send-an-email-to-alice.-bob-intercepts-the-email-and-changes-the-message.-which-security-goal-was-violated",
+    "href": "lessons/38-TEE-review.html#you-send-an-email-to-alice.-bob-intercepts-the-email-and-changes-the-message.-which-security-goal-was-violated",
+    "title": "TEE Review",
+    "section": "You send an email to Alice. Bob intercepts the email and changes the message. Which security goal was violated?",
+    "text": "You send an email to Alice. Bob intercepts the email and changes the message. Which security goal was violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#you-send-an-email-to-alice.-later-you-deny-sending-the-email.-which-security-goal-was-violated",
+    "href": "lessons/38-TEE-review.html#you-send-an-email-to-alice.-later-you-deny-sending-the-email.-which-security-goal-was-violated",
+    "title": "TEE Review",
+    "section": "You send an email to Alice. Later, you deny sending the email. Which security goal was violated?",
+    "text": "You send an email to Alice. Later, you deny sending the email. Which security goal was violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#alice-cannot-access-her-email-account.-bob-locked-her-out.-which-security-goal-was-violated",
+    "href": "lessons/38-TEE-review.html#alice-cannot-access-her-email-account.-bob-locked-her-out.-which-security-goal-was-violated",
+    "title": "TEE Review",
+    "section": "Alice cannot access her email account. Bob locked her out. Which security goal was violated?",
+    "text": "Alice cannot access her email account. Bob locked her out. Which security goal was violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#bob-sent-alice-an-email-but-made-it-look-like-it-came-from-you.-alice-has-no-way-to-verify-who-sent-it.-which-security-goal-was-violated",
+    "href": "lessons/38-TEE-review.html#bob-sent-alice-an-email-but-made-it-look-like-it-came-from-you.-alice-has-no-way-to-verify-who-sent-it.-which-security-goal-was-violated",
+    "title": "TEE Review",
+    "section": "Bob sent Alice an email but made it look like it came from you. Alice has no way to verify who sent it. Which security goal was violated?",
+    "text": "Bob sent Alice an email but made it look like it came from you. Alice has no way to verify who sent it. Which security goal was violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#threat-goals",
+    "href": "lessons/38-TEE-review.html#threat-goals",
+    "title": "TEE Review",
+    "section": "Threat Goals:",
+    "text": "Threat Goals:\n\nDisclose\nDestroy\nIntegrity\nAvailability\nDeny\nPublicize\nConfidentiality\nSteal\nLogout\nAlter"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#match-the-following-terms",
+    "href": "lessons/38-TEE-review.html#match-the-following-terms",
+    "title": "TEE Review",
+    "section": "Match the following terms:",
+    "text": "Match the following terms:\n\n\n\nProgramming language\nStyle of a webpage\nStructure of a webpage\nProtocol for getting web pages from servers\nYour medical records on the Tricare website\nWebsites that require Tor\nTiny files in your browser that store website configuration, user settings, login information; also used for tracking\nImage or code hidden in a webpage\n\n\n\nHTTP\nDeep Web\nCSS\nWeb Beacons\nDark Web\nJavaScript\nCookies\nHTML"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#asymmetric-encryption",
+    "href": "lessons/38-TEE-review.html#asymmetric-encryption",
+    "title": "TEE Review",
+    "section": "Asymmetric Encryption",
+    "text": "Asymmetric Encryption\n\n\n\n\n\n\n\n\n\n\n\n\nAlice’s public key\nAlice’s private key\nBob’s public key\nBob’s private key\n\n\nC, D, B, A"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#which-of-the-following-are-true-about-encryption",
+    "href": "lessons/38-TEE-review.html#which-of-the-following-are-true-about-encryption",
+    "title": "TEE Review",
+    "section": "Which of the following are true about encryption?",
+    "text": "Which of the following are true about encryption?\n\nSymmetric encryption uses the same key for encryption and decryption.\nPrivate keys should be used to encrypt data.\nSymmetric encryption is faster than asymmetric encryption.\nAsymmetric encryption uses the same key for encryption and decryption.\nPublic keys are often used to generate signatures.\nKey distribution is rarely a challenge in symmetric encryption.\nIf Alice wants to email me, I should share my private key with her.\n\n\nA, C, E"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#which-of-the-following-are-the-layers-of-cyberspace",
+    "href": "lessons/38-TEE-review.html#which-of-the-following-are-the-layers-of-cyberspace",
+    "title": "TEE Review",
+    "section": "Which of the following are the layers of cyberspace?",
+    "text": "Which of the following are the layers of cyberspace?\n\nPhysical\nGray Space\nTransmission Control Protocol\nCyber\nBlue Space\nLogical\nInternet Protocol\nCell towers\nPeople"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#identify-the-errors.",
+    "href": "lessons/38-TEE-review.html#identify-the-errors.",
+    "title": "TEE Review",
+    "section": "Identify the errors.",
+    "text": "Identify the errors.\ndef prepare_turkey(weight):\n    minutes_per_pound = 15\n    cooking_time = weight * minutes_per_pound\n    if cooking_time &gt; 300:\n        return 300\n    return cooking_time\n\ndef main():\n    weight = int(input(\"Enter the weight of the turkey: \"))\n    prepare_turkey(weight, \"lbs\")\n    print(\"The turkey will be ready in\", cooking_time, \"minutes.\")\n\nmain()\n\nVariable not defined, causing a NameError.\nVariable assigned a value that was never used.\nMultiple return statements in a function.\nNumber of parameters does not match the number of arguments.\nReturn value not handled correctly.\nFunction defined but never called.\n\n\nA, D, E"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#list-all-the-true-statements.",
+    "href": "lessons/38-TEE-review.html#list-all-the-true-statements.",
+    "title": "TEE Review",
+    "section": "List all the true statements.",
+    "text": "List all the true statements.\n\n\n\nThe program will print 3.\nThe program will print 9.\nThe program will print 64.\nThe program will print None.\nThe program will raise an error.\n\n\ndef pow(b, p):\n    y = b**p\n    return y\n\ndef square(x):\n    a = pow(x, 2)\n    return a\n\ndef main():\n    a = 3\n    b = 4\n    p = square(a)\n    q = pow(b, 3)\n    print(a)\n    print(b)\n    print(p)\n    print(y)\n\n\n3\n4\n9\nNameError: name 'y' is not defined"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#which-of-the-following-statements-are-true",
+    "href": "lessons/38-TEE-review.html#which-of-the-following-statements-are-true",
+    "title": "TEE Review",
+    "section": "Which of the following statements are true?",
+    "text": "Which of the following statements are true?\nmy_string = \"Hello, World! This is my favorite string.\"\nlength = len(my_string)\n\nfor i in range(0, length, 2):\n    print(my_string[i])\n\nIndexing operator is used to access individual characters.\nThe program will result in an error.\nThe program will print one character per line.\ni will take on the values 0, 2, 4, 6, 8, …\nThe program will print every third character.\n\n\nA, C, D"
+  },
+  {
+    "objectID": "lessons/38-TEE-review.html#code-review",
+    "href": "lessons/38-TEE-review.html#code-review",
+    "title": "TEE Review",
+    "section": "Code Review",
+    "text": "Code Review\ndef marksmanship(score):\n    if score &gt;= 36:\n        return \"Expert\"\n    if score &gt;= 30:\n        return \"Sharpshooter\"\n    if score &gt;= 23:\n        return \"Marksman\"\n    return \"Unqualified\"\n\ndef main():\n    score = int(input(\"Enter your ACFT score: \"))\n    experts = 0\n    unqualified = 0\n    while score != -1:\n        score = int(input(\"Enter your ACFT score: \"))\n        status = marksmanship(score)\n        if status == \"Expert\":\n            experts += 1\n        elif status == \"Unqualified\":\n            unqualified += 1\n    print(\"Experts:\", experts)\n    print(\"Unqualified:\", unqualified)\n\nmain()"
+  },
+  {
+    "objectID": "lessons/29-cyber-hygiene.html#announcements",
+    "href": "lessons/29-cyber-hygiene.html#announcements",
+    "title": "Cyber Hygiene",
     "section": "Announcements",
-    "text": "Announcements\n\nSeating chart generator!\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\n\nWPR1 is in 1 week!\n\nStudy Guide\n\n\n\n\n\n24 hour lead time\ncan setup AI individually or in groups\nTH460 B1 hour!\nHow do you document assistance from your instructor?"
+    "text": "Announcements\n\nWPR Review: come prepared with specific topics\nTech Tour meeting location: PRC (TH111) or CRC (TH115) (15-20NOV)\nAI Summative Project Proposal due 12NOV\nWritten Periodic Review on 13-14NOV"
   },
   {
-    "objectID": "lessons/09-file-io.html#discussion",
-    "href": "lessons/09-file-io.html#discussion",
-    "title": "File Input/Output",
-    "section": "Discussion!",
-    "text": "Discussion!\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nWhy?\n\nActive learning\nMemory retention\nFuture reference\n\nCan ChatGPT be wrong?"
-  },
-  {
-    "objectID": "lessons/09-file-io.html#lesson-objectives",
-    "href": "lessons/09-file-io.html#lesson-objectives",
-    "title": "File Input/Output",
+    "objectID": "lessons/29-cyber-hygiene.html#lesson-objectives",
+    "href": "lessons/29-cyber-hygiene.html#lesson-objectives",
+    "title": "Cyber Hygiene",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nArticulate the need for using files\nReading from files vs standard input\nWriting to files vs standard output\nRead and write to files using Python"
+    "text": "Lesson Objectives\n\n\n\nMotivate and articulate the goals of cyber hygiene\nUnderstand types of data and associated risks\nUnderstand how commercial surveillance puts Army missions and people at risk\nArticulate best practices for implementing good cyber hygiene\nPractice implementing good cyber hygiene\n\n\n xkcd.com/2006"
   },
   {
-    "objectID": "lessons/09-file-io.html#check-on-learning",
-    "href": "lessons/09-file-io.html#check-on-learning",
-    "title": "File Input/Output",
-    "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nWhat is a file?\nWhere are files stored?\nWhat is a common encoding for text files?\nWhat is an example of a type of text file?\nWhat can you store in a binary file?\nWhat type of files do we use in this class?\nWhere on the reference card can you find file I/O?"
+    "objectID": "lessons/29-cyber-hygiene.html#data-economy",
+    "href": "lessons/29-cyber-hygiene.html#data-economy",
+    "title": "Cyber Hygiene",
+    "section": "Data Economy",
+    "text": "Data Economy\n\n\nCommercially available data…\n\nLocation\n\nCell phone\nVehicle telemetry\nChildren’s schools\n\nFinancial\n\nCredit Card Purchases, Debt\nGambling, Sensitive Purchases\n\nBiometric\n\nFacial Recognition, DNA\nMedications, Vulnerabilities\n\nSocial Relationships\n\nFamily, Friends\nTherapists\nDoctors\n\n\n\ncompromises mission readiness!\n\nTroop movements\n\nOut-of-band traffic patterns\nAbsence of expected traffic\nChange in shopping/vehicle/cell phone patterns\n\nUnit capabilities\n\nEquipment (social media posts)\nOperators (facial recognition/cell phone metadata)\nLogistics bottlenecks\nSupply chain bottlenecks\n\nUnit plans\n\nTraining maneuvers, tactics\nTroop build ups, deployments"
   },
   {
-    "objectID": "lessons/09-file-io.html#in-class-exercise-1",
-    "href": "lessons/09-file-io.html#in-class-exercise-1",
-    "title": "File Input/Output",
-    "section": "In-Class Exercise 1",
-    "text": "In-Class Exercise 1\nWrite an algorithm to calculate the average grade for all students in CY105 (581 Cadets).\n\nCadet 1: 90\nCadet 2: 85\nCadet 3: 95\n…\nCadet 581: 100\nAverage: 92.5\n\n\n\nHow do you get the data?\nCan you use input()?\nCan you use a list?"
+    "objectID": "lessons/29-cyber-hygiene.html#so-what",
+    "href": "lessons/29-cyber-hygiene.html#so-what",
+    "title": "Cyber Hygiene",
+    "section": "So What?",
+    "text": "So What?\n\n\n\nIs this about secrecy or privacy?\n\nWhat’s the difference?\n\nWho is vulnerable?\nHow can we protect ourselves?\nRef: xkcd.com/1269"
   },
   {
-    "objectID": "lessons/09-file-io.html#what-is-a-file",
-    "href": "lessons/09-file-io.html#what-is-a-file",
-    "title": "File Input/Output",
-    "section": "What is a file?",
-    "text": "What is a file?\n\n\nData stored on disk\n\nDoes it persist after you close the program?\nWhat happens if you turn off the computer?\n\nTypes of files\n\nText: can be read using a text editor\nBinary: require a special program\n\nNewline character - \\n\n\nprint('Hello\\nWorld')"
+    "objectID": "lessons/29-cyber-hygiene.html#in-class-exercise-breaches",
+    "href": "lessons/29-cyber-hygiene.html#in-class-exercise-breaches",
+    "title": "Cyber Hygiene",
+    "section": "In-Class Exercise: Breaches",
+    "text": "In-Class Exercise: Breaches\n\n\n\nMozilla Monitor\nHow many breaches?\nWhat data was compromised?\nWhat are you going to do about it?\nRef: xkcd.com/1739"
   },
   {
-    "objectID": "lessons/09-file-io.html#why-bother",
-    "href": "lessons/09-file-io.html#why-bother",
-    "title": "File Input/Output",
-    "section": "Why bother?",
-    "text": "Why bother?\n\n\nStore data for later use\nShare data between programs or computers\ninput() is tedious and annoying"
+    "objectID": "lessons/29-cyber-hygiene.html#protect-your-email",
+    "href": "lessons/29-cyber-hygiene.html#protect-your-email",
+    "title": "Cyber Hygiene",
+    "section": "Protect your Email",
+    "text": "Protect your Email\n\n\n\nKeys to the kingdom!\nUse a very unique password\nMulti-factor authentication!!\nSeparate emails for different purposes\nUse encrypted email when possible\n\nProtonMail\n\nEmail anonymizers\n\nFirefox Relay\nDuckDuckGo Email Protection\n\nRef: xkcd.com/2139"
   },
   {
-    "objectID": "lessons/09-file-io.html#reading-from-a-file",
-    "href": "lessons/09-file-io.html#reading-from-a-file",
-    "title": "File Input/Output",
-    "section": "Reading from a File",
-    "text": "Reading from a File\n\n\n\nOpen the file\nFor each line in the file\n\nDo something\n\nClose the file\n\n\nfileHandle = open('file.txt', 'r')\n\nfor line in fileHandle:\n    print(line)\n\nfileHandle.close()"
+    "objectID": "lessons/29-cyber-hygiene.html#password-security",
+    "href": "lessons/29-cyber-hygiene.html#password-security",
+    "title": "Cyber Hygiene",
+    "section": "Password Security",
+    "text": "Password Security\n\n\n\nUnique and strong passwords!\nCorrect Horse Battery Staple\nUse password managers!\nRef: xkcd.com/936"
   },
   {
-    "objectID": "lessons/09-file-io.html#in-class-exercise-2",
-    "href": "lessons/09-file-io.html#in-class-exercise-2",
-    "title": "File Input/Output",
-    "section": "In-Class Exercise 2",
-    "text": "In-Class Exercise 2\n9.5.1: ICE 2\n\n\nWrite a program to compute the average grade of students stored in a file named AY24-2.txt. Assume numbers are on separate lines. Print the average to the screen.\n\nAverage Grade: 79.7\n\n\nfileHandle = open('file.txt', 'r')\n\nfor line in fileHandle:\n    print(line)\n\nfileHandle.close()"
+    "objectID": "lessons/29-cyber-hygiene.html#multi-factor-authentication",
+    "href": "lessons/29-cyber-hygiene.html#multi-factor-authentication",
+    "title": "Cyber Hygiene",
+    "section": "Multi-factor Authentication",
+    "text": "Multi-factor Authentication\n\nSomething you know + have + are\nIs text message MFA secure?\nHow do authenticator apps work?"
   },
   {
-    "objectID": "lessons/09-file-io.html#writing-to-a-file",
-    "href": "lessons/09-file-io.html#writing-to-a-file",
-    "title": "File Input/Output",
-    "section": "Writing to a File",
-    "text": "Writing to a File\n\n\n\nOpen the file for writing\nWrite to the file, one line at a time\nClose the file\n\n\nfileHandle = open('file.txt', 'w')\n\nfileHandle.write('Hello, World!\\n')\nfileHandle.write('This is my new file.\\n')\nfileHandle.write('No line breaks here...')\nfileHandle.write('and this appears on the same line.\\n')\nfileHandle.write('Now I can end my file\\n')\n\nfileHandle.close()"
+    "objectID": "lessons/29-cyber-hygiene.html#in-class-exercise-tools",
+    "href": "lessons/29-cyber-hygiene.html#in-class-exercise-tools",
+    "title": "Cyber Hygiene",
+    "section": "In-Class Exercise: Tools",
+    "text": "In-Class Exercise: Tools\n\n\n\nVisit PrivacyGuides.org recommendations\n\n\nPick a unique category.\nEvaluate at least three tools.\n\nOne of them can be non-privacy-protecting!\n\nShare your findings-\n\nWhat does the tool do?\nHow does it protect your privacy?\nWhat are the pros and cons?\n\n\n\nRef: xkcd.com/1223"
   },
   {
-    "objectID": "lessons/09-file-io.html#in-class-exercise-3",
-    "href": "lessons/09-file-io.html#in-class-exercise-3",
-    "title": "File Input/Output",
-    "section": "In-Class Exercise 3",
-    "text": "In-Class Exercise 3\n9.5.2: ICE 3\n\n\nModify your program to read data from AY24-2.txt, compute the average and write it to averages.txt.\nNote: After you run your program, a new file called averages.txt should appear in your files.\n\nfileHandle = open('file.txt', 'w')\n\nfileHandle.write('Hello, World!')\nfileHandle.write('This is a file.')\n\nfileHandle.close()"
+    "objectID": "lessons/29-cyber-hygiene.html#in-class-exercise-data-removal",
+    "href": "lessons/29-cyber-hygiene.html#in-class-exercise-data-removal",
+    "title": "Cyber Hygiene",
+    "section": "In-Class Exercise: Data Removal",
+    "text": "In-Class Exercise: Data Removal\n\n\n\nData Removal Guide: inteltechniques.com\n\n\nVisit a data broker site\nUse the opt-out process to remove your data\nWhat data was available?\nHow long did it take to remove?\n\n\nRef: xkcd.com/1998"
   },
   {
-    "objectID": "lessons/09-file-io.html#other-useful-file-io-methods",
-    "href": "lessons/09-file-io.html#other-useful-file-io-methods",
-    "title": "File Input/Output",
-    "section": "Other Useful File I/O Methods",
-    "text": "Other Useful File I/O Methods\n\n.read(): read the entire file\n.read(n): read the next n characters\n.readline(): read the next line\n.readlines(): read all lines into a list"
+    "objectID": "lessons/29-cyber-hygiene.html#resources",
+    "href": "lessons/29-cyber-hygiene.html#resources",
+    "title": "Cyber Hygiene",
+    "section": "Resources",
+    "text": "Resources\n\n\n\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\nhaveibeenpwned.com\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nNextDNS - DNS-based tracker blocker\nPrivacy Guides\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\n\n\n xkcd.com/198"
   },
   {
-    "objectID": "lessons/09-file-io.html#real-world-example-data-analysis",
-    "href": "lessons/09-file-io.html#real-world-example-data-analysis",
-    "title": "File Input/Output",
-    "section": "Real-World Example: Data Analysis",
-    "text": "Real-World Example: Data Analysis\n\nThe process of systematically applying statistical and logical techniques to describe, summarize, and evaluate data.\nIdentify trends: Spotting patterns that can lead to meaningful insights about the data.\nIsolate key statistics: Extracting specific figures that represent the essence of the datasets.\nMake predictions: Using historical data to forecast future occurrences."
+    "objectID": "lessons/25-data-ethics.html#digital-footprint-audit",
+    "href": "lessons/25-data-ethics.html#digital-footprint-audit",
+    "title": "Data and Ethics",
+    "section": "Digital Footprint Audit",
+    "text": "Digital Footprint Audit\n\nWhat surprised you the most?\nWhat changes will you make to your online behavior?"
   },
   {
-    "objectID": "lessons/09-file-io.html#in-class-exercise",
-    "href": "lessons/09-file-io.html#in-class-exercise",
-    "title": "File Input/Output",
-    "section": "In-Class Exercise",
-    "text": "In-Class Exercise\nThe mathematical constant \\(\\pi\\) has an infinite number of digits. Discovering digits of \\(\\pi\\) have become somewhat of an enthusiasts’ hobby. MIT has a list of the first billion digits of \\(\\pi\\). Download it from Canvas and unzip it.\nQuestion: Do any digits occur more frequently in \\(\\pi\\) than others?\nImplement the following algorithm:\n\nRead all the characters in the file as a single sequence. Close the file.\nInitialize a 10-element list to all 0s (freq)\nFor each character in the sequence starting at position 2:\nConvert the character to an integer (i)\nIncrement position i in freq by one\nIterate through freq, displaying the associated frequency."
+    "objectID": "lessons/25-data-ethics.html#announcements",
+    "href": "lessons/25-data-ethics.html#announcements",
+    "title": "Data and Ethics",
+    "section": "Announcements",
+    "text": "Announcements\n\nWeekly Problem Set 7 due 03NOV\nAI Summative Project Proposal due 12NOV"
   },
   {
-    "objectID": "lessons/09-file-io.html#reminders",
-    "href": "lessons/09-file-io.html#reminders",
-    "title": "File Input/Output",
-    "section": "Reminders",
-    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\nPractice!\n\nWPR1 is in 1 week!"
-  },
-  {
-    "objectID": "lessons/05-python.html#discussion",
-    "href": "lessons/05-python.html#discussion",
-    "title": "Python Basics",
-    "section": "Discussion!",
-    "text": "Discussion!\n\nFlipper Zero\n\nMeanwhile, in Canada…"
-  },
-  {
-    "objectID": "lessons/05-python.html#lesson-objectives",
-    "href": "lessons/05-python.html#lesson-objectives",
-    "title": "Python Basics",
+    "objectID": "lessons/25-data-ethics.html#lesson-objectives",
+    "href": "lessons/25-data-ethics.html#lesson-objectives",
+    "title": "Data and Ethics",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nIdentify basic data types represented in programs\nDistinguish between data types and data values.\nUse variables to store information in a program\nWrite very basic Python programs.\n\n\n\nBring up agenda\nReference cards!\n\nBring them daily.\n\nTest your monitors.\n\nConsider bringing a spare mouse to easily navigate between screens."
+    "text": "Lesson Objectives\n\nDiscuss how users leave footprints online\n\nand how the Internet does not provide true anonymity!\n\nDefine what a social network is.\n\nWhy it is important to limit the amount of information shared.\nHow to limit the amount of information shared.\n\nDescribe cookies and how they are used by web servers.\nIdentify and define other common web-tracking mechanisms\n\nand to what extent each can be restricted or mitigated."
   },
   {
-    "objectID": "lessons/05-python.html#writing-algorithms",
-    "href": "lessons/05-python.html#writing-algorithms",
-    "title": "Python Basics",
-    "section": "Writing Algorithms",
-    "text": "Writing Algorithms\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite an algorithm that accomplishes this task!\n\n\nask the user for their name\nprint out hello followed by their name\nask how many slices of pizza they want\nmultiply quantity by the cost (2.50)\nprint total to the screen"
+    "objectID": "lessons/25-data-ethics.html#case-studies",
+    "href": "lessons/25-data-ethics.html#case-studies",
+    "title": "Data and Ethics",
+    "section": "Case Studies",
+    "text": "Case Studies\n\nInside the “3 Billion People” National Public Data Breach (2024)\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nU.S. Troops Accidentally Reveal Secret Bases by Going Jogging (2018)\nBuying sensitive data about US military personnel (2023)\nRussian army wives tricked into exposing identities of pilots (2023)\nTikTok tapes US user data to China (2022)\nGenetic tester 23andMe’s hacked data on Jewish users offered for sale online (2023)\nVending Machine Error Reveals Secret Face Image Database of College Students (2024)\n\n\nDiscussion Questions\n\nWhat went wrong?\nWho is to blame?\nWhat are the consequences?"
   },
   {
-    "objectID": "lessons/05-python.html#check-on-learning",
-    "href": "lessons/05-python.html#check-on-learning",
-    "title": "Python Basics",
-    "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nWhat is a data type?\nIs data type the same as a variable?\nWhat are the standard data types in Python?\nHow do you assign a variable in Python?\nWhat is a procedure?\nWhat does print() do?\nWhat does type() do?\nWhat is a list?\nWhat is a boolean?\nWhat is the difference between = and ==?\n\n\n\n\nint, float, str, list, bool"
+    "objectID": "lessons/25-data-ethics.html#what-is-a-tracker",
+    "href": "lessons/25-data-ethics.html#what-is-a-tracker",
+    "title": "Data and Ethics",
+    "section": "What is a tracker?",
+    "text": "What is a tracker?\n\n\n\nScript that runs on a website or phone app\nCollects data about your activity\nSends data to third parties\nUsed for analytics\nResults in targeted advertising"
   },
   {
-    "objectID": "lessons/05-python.html#more-check-on-learning",
-    "href": "lessons/05-python.html#more-check-on-learning",
-    "title": "Python Basics",
-    "section": "More Check on Learning",
-    "text": "More Check on Learning\n\n\nIs this a string? \"hello\"\nIs this a string? \"11\"\nWhat is the type of: 3.1415\nWhat is the type of: 3\nWhat is the type of: 3.0\nWhat is the type of: True\nWhat is the type of: \"True\"\nWhat is the value of: 5 + 3 * 2\nWhat is the value of: 5 % 3\nWhat is the value of: 5 / 2\nWhat is the value of: 5 // 2"
+    "objectID": "lessons/25-data-ethics.html#cookies",
+    "href": "lessons/25-data-ethics.html#cookies",
+    "title": "Data and Ethics",
+    "section": "Cookies",
+    "text": "Cookies\n\n\n\nWeb servers store small text files on your computer\nSent back to server with every HTTP request\nUsed to maintain session, login, and preferences\n\nIf you delete cookies, you get logged out\nCan someone steal your cookies?\n\nCan also be used to track you across websites\n\nSites can share cookies!\n\n\n\n\n\nFind cookies in your browser!\n\nPress F12 to open Developer Tools\nGo to Application or Storage tab and look for Cookies\n\n\n\nAllows you to get back in\nErase the stamp, you need to pay again"
   },
   {
-    "objectID": "lessons/05-python.html#programming-environment",
-    "href": "lessons/05-python.html#programming-environment",
-    "title": "Python Basics",
-    "section": "Programming Environment",
-    "text": "Programming Environment\n\nStart -&gt; python\nNotepad++\nzyBook\n\n\nPython Tutor\nBlack Code Formatter"
+    "objectID": "lessons/25-data-ethics.html#browser-fingerprinting",
+    "href": "lessons/25-data-ethics.html#browser-fingerprinting",
+    "title": "Data and Ethics",
+    "section": "Browser Fingerprinting",
+    "text": "Browser Fingerprinting\n\n\n\nWhat if you block cookies and switch to private browsing?\nLots of things make your setup unique\nClick the link to find out!"
   },
   {
-    "objectID": "lessons/05-python.html#hello-world",
-    "href": "lessons/05-python.html#hello-world",
-    "title": "Python Basics",
-    "section": "Hello World!",
-    "text": "Hello World!\n\nSimplest program in any language\nDemonstrates how to accomplish a basic task\n\nprint(\"Hello, World!\")"
+    "objectID": "lessons/25-data-ethics.html#how-much-tracking",
+    "href": "lessons/25-data-ethics.html#how-much-tracking",
+    "title": "Data and Ethics",
+    "section": "How much tracking?",
+    "text": "How much tracking?\nUse one of the following tools\n\nPrivacy Test\nBlacklight: A Real-Time Website Privacy Inspector\nFirefox with Enhanced Tracking Protection\n\nVisit a popular website (news, social media) and find out-\n\nHow many trackers? Which ones?\nHow many third-party cookies? Which ones?\nCan any of these trackers evade cookie blockers?\nDoes the website track your keystrokes or mouse movements?\nIs this information shared with Facebook? Google?"
   },
   {
-    "objectID": "lessons/05-python.html#writing-code",
-    "href": "lessons/05-python.html#writing-code",
-    "title": "Python Basics",
-    "section": "Writing Code",
-    "text": "Writing Code"
+    "objectID": "lessons/25-data-ethics.html#social-media",
+    "href": "lessons/25-data-ethics.html#social-media",
+    "title": "Data and Ethics",
+    "section": "Social Media",
+    "text": "Social Media\n\nHow much does it cost to run a social media platform?\nHow do they make money?\nWho owns the data you upload?\nWhat can they do with it?\nWhat are the risks?"
   },
   {
-    "objectID": "lessons/05-python.html#running-code",
-    "href": "lessons/05-python.html#running-code",
-    "title": "Python Basics",
-    "section": "Running Code",
-    "text": "Running Code"
+    "objectID": "lessons/25-data-ethics.html#anonymized-data",
+    "href": "lessons/25-data-ethics.html#anonymized-data",
+    "title": "Data and Ethics",
+    "section": "Anonymized Data",
+    "text": "Anonymized Data\n\nCan data be truly anonymized?\nWhat about medical records with names removed?\nWhat about DNA data?\n\n23andMe hack"
   },
   {
-    "objectID": "lessons/05-python.html#real-python-program",
-    "href": "lessons/05-python.html#real-python-program",
-    "title": "Python Basics",
-    "section": "Real Python Program",
-    "text": "Real Python Program\n\"\"\"\nWhispers in the code,\nPython ignores, doesn’t care,\nYet they light the path.\n\"\"\"\n\ndef main():  # a procedure called main\n    print(\"hello world!\")  # print statement\n\nmain()  # invoke the main procedure\n\nCopy the code above into Notepad++\nSave with a .py extension, e.g. hello.py\nObserve the different colors. What do they mean?"
+    "objectID": "lessons/25-data-ethics.html#ethics-debate",
+    "href": "lessons/25-data-ethics.html#ethics-debate",
+    "title": "Data and Ethics",
+    "section": "Ethics Debate",
+    "text": "Ethics Debate\n\nSignals intelligence, such as that produced by the NSA, should be abolished.\nElementary school students should be allowed to use social media.\nIndividuals should have the right to be forgotten by internet searches."
   },
   {
-    "objectID": "lessons/05-python.html#variables",
-    "href": "lessons/05-python.html#variables",
-    "title": "Python Basics",
-    "section": "Variables",
-    "text": "Variables\n\n\n\nStore a value in memory\nLeft side is the name of the variable\nRight side is an expression!\nCan be changed as many times as needed\nMust be assigned a value before first use!\nName is how you refer to the value\nValue is what is stored in the variable\n\n\nx = 5\ny = 3.14\nz = \"hello\"\na = x + y\nb = x * y\nPython Console"
+    "objectID": "lessons/25-data-ethics.html#what-next",
+    "href": "lessons/25-data-ethics.html#what-next",
+    "title": "Data and Ethics",
+    "section": "What next?",
+    "text": "What next?\n\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nhaveibeenpwned.com - check if your information has been compromised\nNextDNS - DNS-based tracker blocker\nPrivacy Guides\nPrivacyTools\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal"
   },
   {
-    "objectID": "lessons/05-python.html#variable-names",
-    "href": "lessons/05-python.html#variable-names",
-    "title": "Python Basics",
-    "section": "Variable Names",
-    "text": "Variable Names\n\nMust start with a letter or underscore\nCan contain letters, numbers, and underscores\nCase sensitive\nCannot be a reserved word\n\n\n&gt;&gt;&gt; x = 5\n&gt;&gt;&gt; 4x = 20\n&gt;&gt;&gt; x4 = 20\n&gt;&gt;&gt; x_x = 1\n&gt;&gt;&gt; print(X_X)\n&gt;&gt;&gt; True = 1\n&gt;&gt;&gt; False = 0\n&gt;&gt;&gt; return = True"
+    "objectID": "lessons/32-methods.html#announcements",
+    "href": "lessons/32-methods.html#announcements",
+    "title": "List and String Methods",
+    "section": "Announcements",
+    "text": "Announcements"
   },
   {
-    "objectID": "lessons/05-python.html#data-types",
-    "href": "lessons/05-python.html#data-types",
-    "title": "Python Basics",
-    "section": "Data Types",
-    "text": "Data Types\n\nint - integer\nfloat - floating point number\nstr - string\nbool - boolean\nlist - list\n\n\n&gt;&gt;&gt; type(x)\n&gt;&gt;&gt; type(y)\n&gt;&gt;&gt; type(z)"
+    "objectID": "lessons/32-methods.html#lesson-objectives",
+    "href": "lessons/32-methods.html#lesson-objectives",
+    "title": "List and String Methods",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nUnderstand the concept of methods\nLearn how to use methods with strings and lists\nPractice using methods in Python"
   },
   {
-    "objectID": "lessons/05-python.html#basic-arithmetic",
-    "href": "lessons/05-python.html#basic-arithmetic",
-    "title": "Python Basics",
-    "section": "Basic Arithmetic",
-    "text": "Basic Arithmetic\n\n+ - addition\n- - subtraction\n* - multiplication\n/ - division\n** - exponentiation\n// - floor division\n% - modulo\n\n\n&gt;&gt;&gt; 10 + 4\n&gt;&gt;&gt; 10 - 4\n&gt;&gt;&gt; 10 * 4\n&gt;&gt;&gt; 10 / 4\n&gt;&gt;&gt; 10 ** 4\n&gt;&gt;&gt; 10 // 4\n&gt;&gt;&gt; 10 % 4\n&gt;&gt;&gt; 10 % 3\n&gt;&gt;&gt; 10 % 1"
+    "objectID": "lessons/32-methods.html#methods",
+    "href": "lessons/32-methods.html#methods",
+    "title": "List and String Methods",
+    "section": "Methods",
+    "text": "Methods\n\nfunctions that operate on a specific data type\naccessed using the dot operator, e.g. mystring.count(\"a\")\nsimilar to modules, but associated with a value"
   },
   {
-    "objectID": "lessons/05-python.html#order-of-operations",
-    "href": "lessons/05-python.html#order-of-operations",
-    "title": "Python Basics",
-    "section": "Order of Operations",
-    "text": "Order of Operations\n\nParentheses\nExponents\nMultiplication and Division\nAddition and Subtraction\n\n\n&gt;&gt;&gt; 5 + 3 * 2 = 11\n&gt;&gt;&gt; (5 + 3) * 2 = 16\n&gt;&gt;&gt; 5 + 3 * 2 ** 2 = 17\n&gt;&gt;&gt; (5 + 3) * 2 ** 2 = 32"
+    "objectID": "lessons/32-methods.html#ice-string-methods",
+    "href": "lessons/32-methods.html#ice-string-methods",
+    "title": "List and String Methods",
+    "section": "ICE: String Methods",
+    "text": "ICE: String Methods\nbigstring = \"supercalifragilisticespialidocious\"\nbigstring.count(\"li\")\nbigstring.find(\"li\")\n\"super\" in bigstring\n\"fragile\" in bigstring\nbigstring.replace(\"li\", \"LI\")\nbigstring.upper()\nbigstring\n\nUse REPL or a notebook to try these out!\nRead each line and predict the output, and then run it to check your answer.\nWhat was the last line’s result? Did you expect that?"
   },
   {
-    "objectID": "lessons/05-python.html#converting-data-types",
-    "href": "lessons/05-python.html#converting-data-types",
-    "title": "Python Basics",
-    "section": "Converting Data Types",
-    "text": "Converting Data Types\n\nint() - convert to integer\nfloat() - convert to floating point number\nstr() - convert to string\n\n\n&gt;&gt;&gt; int(3.14)\n&gt;&gt;&gt; float(3)\n&gt;&gt;&gt; str(3)"
-  },
-  {
-    "objectID": "lessons/05-python.html#lists",
-    "href": "lessons/05-python.html#lists",
-    "title": "Python Basics",
-    "section": "Lists",
-    "text": "Lists\n\nStore multiple values in one variable\nCan store different data types\nUse square brackets []\n\n\n&gt;&gt;&gt; x = [1, 2, 3]\n&gt;&gt;&gt; y = [\"hello\", 3.14, True]"
-  },
-  {
-    "objectID": "lessons/05-python.html#concatenation",
-    "href": "lessons/05-python.html#concatenation",
-    "title": "Python Basics",
-    "section": "Concatenation",
-    "text": "Concatenation\n\nCombine strings using +\nCan combine lists!\n\n\n&gt;&gt;&gt; \"hello\" + \"world\"\n&gt;&gt;&gt; [1, 2, 3] + [4, 5, 6]"
-  },
-  {
-    "objectID": "lessons/05-python.html#user-input",
-    "href": "lessons/05-python.html#user-input",
-    "title": "Python Basics",
-    "section": "User Input",
-    "text": "User Input\n\ninput() - get user input\nAlways returns a string\nUse int() or float() to convert\n\n\n&gt;&gt;&gt; x = input(\"Enter a number: \")\n&gt;&gt;&gt; x\n&gt;&gt;&gt; type(x)\n&gt;&gt;&gt; x = int(x)\n&gt;&gt;&gt; type(x)"
-  },
-  {
-    "objectID": "lessons/05-python.html#pizza",
-    "href": "lessons/05-python.html#pizza",
-    "title": "Python Basics",
-    "section": "Pizza!",
-    "text": "Pizza!\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite a Python program following your algorithm!"
-  },
-  {
-    "objectID": "lessons/05-python.html#in-class-exercise-2",
-    "href": "lessons/05-python.html#in-class-exercise-2",
-    "title": "Python Basics",
-    "section": "In-Class Exercise 2",
-    "text": "In-Class Exercise 2\n\nWrite a program that stores the value 18 in a variable named Age, and displays My age is followed by the value in Age. To do this, place both items inside the parentheses for print() but separate them with a comma.\nAdd more code to display what happens when you have a birthday (assign the value 19 to the same variable Age) and display the age again. Run the code so you can see both lines of output.\n\n\nzyBook ICE 2\n\n\"\"\"\nWhispers in the code,\nPython ignores, doesn’t care,\nYet they light the path.\n\"\"\"\ndef main():\n    # Write your code here\n\nmain()"
-  },
-  {
-    "objectID": "lessons/05-python.html#in-class-exercise-3",
-    "href": "lessons/05-python.html#in-class-exercise-3",
-    "title": "Python Basics",
-    "section": "In-Class Exercise 3",
-    "text": "In-Class Exercise 3\n\nCopy the code from ICE 2 to the box below. Next, replace the assignment statement Age = 19 with Age = Age + 1 to make the code more versatile. (This way, Age could have any value and it would still be increased by one.) Note that the expression Age + 1 will be evaluated as 19 before that value is assigned to Age. Run the program again to verify that the result is still the same as before.\nNow replace that statement with Age += 1. The only practical difference in this line is that it’s shorter. Verify that the program still works.\n\ndef main():\n    # Write your code here\n\nmain()"
-  },
-  {
-    "objectID": "lessons/05-python.html#in-class-exercise-5",
-    "href": "lessons/05-python.html#in-class-exercise-5",
-    "title": "Python Basics",
-    "section": "In-Class Exercise 5",
-    "text": "In-Class Exercise 5\n\nWrite a program to perform floor (integer) division of two numbers provided by a user.\n\n\nTo accomplish this, first you should request a number from the user and store it in a variable; be sure to also convert it to an integer.\nDo the same to request a smaller number and store it in a second variable.\nPerform floor division (divide the large number by the small number) and store the result in a third variable.\nThen calculate the remainder of dividing the large number by the small number and store it in a fourth variable.\nDisplay the results of the division using all four variables, as seen below."
-  },
-  {
-    "objectID": "lessons/05-python.html#in-class-exercise",
-    "href": "lessons/05-python.html#in-class-exercise",
-    "title": "Python Basics",
-    "section": "In-Class Exercise",
-    "text": "In-Class Exercise\n3**2 + 4 * -2 + (6 + 5) * (2 + 3)"
-  },
-  {
-    "objectID": "lessons/05-python.html#reminders",
-    "href": "lessons/05-python.html#reminders",
-    "title": "Python Basics",
-    "section": "Reminders",
-    "text": "Reminders\n\nBring your reference cards to class daily\nErase whiteboards and clean up your area\nWPS2 is due 02SEP"
-  },
-  {
-    "objectID": "lessons/23-networks.html#discussion",
-    "href": "lessons/23-networks.html#discussion",
-    "title": "Networks and Data",
-    "section": "Discussion!",
-    "text": "Discussion!\n\nVortex Cannon vs Drone\nHow Ukraine’s PAPER PLANES are Destroying Russia’s Military"
-  },
-  {
-    "objectID": "lessons/23-networks.html#ai-summative-project",
-    "href": "lessons/23-networks.html#ai-summative-project",
-    "title": "Networks and Data",
-    "section": "AI Summative Project",
-    "text": "AI Summative Project\n\nExample Projects\nGame ideas\n\n\n\n\nplay with AI tools\ntest the feasibility of the project\nthink about what you want to do\nstart early to allow for more iterations and questions\nif I can do with a couple of prompts -&gt; too simple\nhas to have a HUMAN element to guide AI\n5 minute presentation"
-  },
-  {
-    "objectID": "lessons/23-networks.html#arpanet",
-    "href": "lessons/23-networks.html#arpanet",
-    "title": "Networks and Data",
-    "section": "Arpanet",
-    "text": "Arpanet\n\n\nWhat is Arpanet?\nWho created it? When?\nWhy was it created?\nWhat happened to it?\n\n\n\nThe Internet was initially developed by the DoD’s Advanced Research Projects Agency (ARPA) as a communication mechanism that can withstand nuclear attack. This early version of the Internet was connected to other computer networks (like NSFNet) to create the modern version of the Internet.\n\nWhat is ARPA? Advanced Research Project Agency\nWho created it? When? DoD, 1969\nWhy was it created? Communication mechanism that can withstand nuclear attack\nWhat happened to it? Connected to other computer networks to create the modern version of the Internet"
-  },
-  {
-    "objectID": "lessons/23-networks.html#the-internet",
-    "href": "lessons/23-networks.html#the-internet",
-    "title": "Networks and Data",
-    "section": "The Internet",
-    "text": "The Internet\nDistributed Packet-Switched Network\n\n\nWhat is the Internet? How does it work?\n\nDistributed: No central control\nPacket-Switched: Data broken into packets\n\nWhat are the connections on the map?\nWhy not just use satellites?\nHow do we get the cables there? When was the first?\nWhat is special about this network of networks?\n\nRedundancy\nScalability\nFlexibility\n\n\n\nRef: https://blog.telegeography.com/"
-  },
-  {
-    "objectID": "lessons/23-networks.html#in-class-activity",
-    "href": "lessons/23-networks.html#in-class-activity",
-    "title": "Networks and Data",
-    "section": "In-Class Activity",
-    "text": "In-Class Activity\n\nSubmarine Cable Map [submarinecablemap.com]\nFind the oldest cable out of US\nFind the oldest cable out of Europe\nHow many cables connect Hawaii? Why?\nWhat about Antarctica?\nHow many cables connect North Korea?"
-  },
-  {
-    "objectID": "lessons/23-networks.html#how-do-computers-talk",
-    "href": "lessons/23-networks.html#how-do-computers-talk",
-    "title": "Networks and Data",
-    "section": "How do computers talk?",
-    "text": "How do computers talk?\n\nhttps://www.rtautomation.com/rtas-blog/a-refresher-course-on-osi-tcp-ip/\n\nWhat is a protocol?\nWhen did you start using the internet? Elementary school? Middle school?\nWho speaks more than one language?\nIs you raising your hand a protocol? Handshake?\nWhat are these layers?\nHow are they related?\nWhat do they do?"
-  },
-  {
-    "objectID": "lessons/23-networks.html#wired-ethernet",
-    "href": "lessons/23-networks.html#wired-ethernet",
-    "title": "Networks and Data",
-    "section": "Wired: Ethernet",
-    "text": "Wired: Ethernet\n\n\n\nTwisted Pair -&gt; CAT6\nCoaxial\nFiber Optic\n\n\n\n\n\n\nWhat’s inside a twisted pair cable? Can you make your own?\nWhat’s inside a fiber optic cable?\nWhat is Ethernet?"
-  },
-  {
-    "objectID": "lessons/23-networks.html#wireless",
-    "href": "lessons/23-networks.html#wireless",
-    "title": "Networks and Data",
-    "section": "Wireless",
-    "text": "Wireless\n\n\n\nWiFi\nBluetooth\nCellular\nSatellite\n\n\n\n\n\n\n\nHow does WiFi work? How do machines talk through the air?\nWhat does WiFi require? Wireless access point\nWhat are the common frequencies? Who else uses them?\n\n2.4 GHz, 5.8 GHz, unlicensed\nalso used by bluetooth, microwave ovens\n\nWhere is Bluetooth used? TV, smartwatches, phones, cars, speakers, headphones, keyboards, mice\nWhat is a cell? Why hexagons?\nWhat is actually transmitted?\nHow is it transmitted?"
-  },
-  {
-    "objectID": "lessons/23-networks.html#how-to-measure-network-quality",
-    "href": "lessons/23-networks.html#how-to-measure-network-quality",
-    "title": "Networks and Data",
-    "section": "How to measure network quality?",
-    "text": "How to measure network quality?\n\n\n\nBit Rate -&gt; Bandwidth\nLatency\nRange\n\nInternet Speed = Bandwidth x Latency\n\nFCC: Broadband Consumer Label\n\nTry Now:\n\nSpeed Test -&gt; Show more info\nping google.com\nping 1.1.1.1\n\n\n\n\n\n\nWhat is bit rate? How many bits can your computer send in a second?\nWhat is bandwidth? (maximum bit rate)\nWhat is your home internet bandwidth?"
-  },
-  {
-    "objectID": "lessons/23-networks.html#internet-protocol-ip-address",
-    "href": "lessons/23-networks.html#internet-protocol-ip-address",
-    "title": "Networks and Data",
-    "section": "Internet Protocol (IP) Address",
-    "text": "Internet Protocol (IP) Address\n\nUnique address for each device\nParts = Network + specific device\nIPv4: 32-bit address, e.g. 1.2.3.4, 127.0.0.1\nIPv6: 128-bit address, e.g. 2001:0db8:85a3:0000:0000:8a2e:0370:7334\n\nTry Now:\n\nipconfig\n\nHow many IP addresses does your computer have? Why?\n\nifconfig.co\n\nWhat is your public IP address? Is it the same as your computer’s IP address?\nCan your online activity be traced back to you?"
-  },
-  {
-    "objectID": "lessons/23-networks.html#which-of-the-following-is-not-a-valid-ip-address",
-    "href": "lessons/23-networks.html#which-of-the-following-is-not-a-valid-ip-address",
-    "title": "Networks and Data",
-    "section": "Which of the following is not a valid IP address?",
-    "text": "Which of the following is not a valid IP address?\n\n2001:0db8:85a3:0000:0000:8a2e:0370:7334\nBldg 601, Cullum Road, West Point, NY 10996\n67.243.0.1\nwww.westpoint.edu\nAA:BB:CC:DD:EE:FF"
-  },
-  {
-    "objectID": "lessons/23-networks.html#ip-packet",
-    "href": "lessons/23-networks.html#ip-packet",
-    "title": "Networks and Data",
-    "section": "IP Packet",
-    "text": "IP Packet\n\n\n\nHeader = letter envelope\n\nSource IP\nDestination IP\n\nData = contents\n\nCan an IP packet contain as much data as we want?\nHow do we transfer large files?"
-  },
-  {
-    "objectID": "lessons/23-networks.html#routing",
-    "href": "lessons/23-networks.html#routing",
-    "title": "Networks and Data",
-    "section": "Routing",
-    "text": "Routing\n\n\n\nSend packets to the nearest router\nRouter forwards to the best router based on address\nFinal router delivers to destination\n\nAre IP packets always routed using the shortest possible path?"
-  },
-  {
-    "objectID": "lessons/23-networks.html#in-class-activity-1",
-    "href": "lessons/23-networks.html#in-class-activity-1",
-    "title": "Networks and Data",
-    "section": "In-Class Activity",
-    "text": "In-Class Activity\n\nping 1.1.1.1\nping 133.3.140.24\n\nCS Department at University of Kyoto\n\ntracert 133.3.140.24\n\nEnter output into Traceroute Mapper\nExample"
-  },
-  {
-    "objectID": "lessons/23-networks.html#protocols",
-    "href": "lessons/23-networks.html#protocols",
-    "title": "Networks and Data",
-    "section": "Protocols",
-    "text": "Protocols\n\n\nTransmission Control Protocol (TCP)\n\nConnection-oriented\nReliable delivery, data integrity ensured\nEmail, file transfer\n\n\nUser Datagram Protocol (UDP)\n\nConnectionless\nLess reliable, but much faster\nVoice/video calls, streaming, gaming"
-  },
-  {
-    "objectID": "lessons/23-networks.html#transmission-control-protocol-tcp-handshake",
-    "href": "lessons/23-networks.html#transmission-control-protocol-tcp-handshake",
-    "title": "Networks and Data",
-    "section": "Transmission Control Protocol (TCP) Handshake",
-    "text": "Transmission Control Protocol (TCP) Handshake"
-  },
-  {
-    "objectID": "lessons/23-networks.html#transmission-control-protocol-tcp-acknowledgement",
-    "href": "lessons/23-networks.html#transmission-control-protocol-tcp-acknowledgement",
-    "title": "Networks and Data",
-    "section": "Transmission Control Protocol (TCP) Acknowledgement",
-    "text": "Transmission Control Protocol (TCP) Acknowledgement"
+    "objectID": "lessons/32-methods.html#ice-list-methods",
+    "href": "lessons/32-methods.html#ice-list-methods",
+    "title": "List and String Methods",
+    "section": "ICE: List Methods",
+    "text": "ICE: List Methods\nmylist = [1, 2, 3, 4, 5]\nmylist.append(6)\nmylist\nmylist.pop()\nmylist\nmylist.insert(2, 7)\nmylist\nmylist.remove(7)\nmylist\nmylist.reverse()\nmylist\n\nUse REPL or a notebook to try these out!\nRead each line and predict the output, and then run it to check your answer."
   },
   {
     "objectID": "lessons/04-algorithms.html#discussion",
@@ -1754,7 +1803,7 @@
     "href": "index.html#lessons",
     "title": "Computing Fundamentals",
     "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 2 Review\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetworks and Data\n\n\nHow do computers talk?\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Wide Web\n\n\nHow the Internet really works\n\n\n\n\n\n\nOct 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData and Ethics\n\n\nYou are being watched! 👀\n\n\n\n\n\n\nOct 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThreats in Cyberspace\n\n\nActors, threats, vulnerabilities and types of attacks\n\n\n\n\n\n\nOct 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming Lab\n\n\nNetwork Packet Analysis with Scapy and Wireshark!\n\n\n\n\n\n\nOct 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCybersecurity\n\n\nEncryption, Certificates and Web of Trust\n\n\n\n\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCyber Hygiene\n\n\nStaying safe online\n\n\n\n\n\n\nNov 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 3 Review\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 2 Review\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetworks and Data\n\n\nHow do computers talk?\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Wide Web\n\n\nHow the Internet really works\n\n\n\n\n\n\nOct 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData and Ethics\n\n\nYou are being watched! 👀\n\n\n\n\n\n\nOct 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThreats in Cyberspace\n\n\nActors, threats, vulnerabilities and types of attacks\n\n\n\n\n\n\nOct 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming Lab\n\n\nNetwork Packet Analysis with Scapy and Wireshark!\n\n\n\n\n\n\nOct 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCybersecurity\n\n\nEncryption, Certificates and Web of Trust\n\n\n\n\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCyber Hygiene\n\n\nStaying safe online\n\n\n\n\n\n\nNov 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 3 Review\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nList and String Methods\n\n\nOperating directly on data types\n\n\n\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI and Data\n\n\nHow AI systems are created\n\n\n\n\n\n\nNov 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI and Ethics\n\n\nWhat is the right thing to do?\n\n\n\n\n\n\nDec 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTEE Review\n\n\nThis is it!\n\n\n\n\n\n\nDec 6, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#course-objectives",
@@ -1785,11 +1834,11 @@
     "text": "Developer Tools\n\nMarimo reactive notebook for Python\ndiff Check - compare text side-by-side; great for comparing expected and actual output\nPyodide - in-browser REPL\nPython Tutor - step through code execution, line-by-line\nBlack Code Formatter - format Python code following PEP 8 Style Guide\n\nzyLab does this too if you right click and select “Format Document”\n\nThonny - Python development environment for beginners\nVisual Studio Code - development environment for grown-ups\nNotepad++ - lightweight text editor"
   },
   {
-    "objectID": "index.html#ai-summative-project-ideas",
-    "href": "index.html#ai-summative-project-ideas",
+    "objectID": "index.html#ai-summative-project",
+    "href": "index.html#ai-summative-project",
     "title": "Computing Fundamentals",
-    "section": "AI Summative Project Ideas",
-    "text": "AI Summative Project Ideas\n\nHackaday\nHacker News: Show\nExample Projects [Canvas]\nText-based adventure game [zybook]\nzork-py library for Python\nUsing Bluetooth (BLE) with Circuit Playground Bluefruit\nCircuit Playground Bluefruit: Puzzle Box, Escape Room, etc."
+    "section": "AI Summative Project",
+    "text": "AI Summative Project\n\nIdeas\n\nHackaday\nHacker News: Show\nExample Projects [Canvas]\nText-based adventure game [zybook]\nzork-py library for Python\nCircuit Playground Bluefruit: Puzzle Box, Escape Room, etc.\nKaggle Data Science Notebook\n\n\n\nTools and Resources\n\ntldraw makereal - bring your application sketches to life! - watch demo\nDevelop applications that use AI at runtime-\n\nOpenAI API - message them for API credits as a student researcher\nAnthropic API - free limited API access\nStreamlit - hosting platform to turn data scripts into shareable web apps using Python\n\nDeepnote - interactive web applications in Python\nMarimo - interactive web applications in Python\nGitHub pages - host your websites and JavaScript applications for free\nVisual Studio Code - development environment for grown-ups\n\nGithub CoPilot - AI-powered code completion on steroids; free for students\nSerial Monitor extension - interface with your microcontroller from within VSCode\n\nUsing Bluetooth (BLE) with Circuit Playground Bluefruit"
   },
   {
     "objectID": "index.html#random-interesting-material",
@@ -2457,291 +2506,466 @@
     "text": "Research and Discussion\n\n\n\nStuxnet (2010)\nOffice of Personnel Management Data Breach (2015)\nColonial Pipeline Ransomware Attack (2021)\nSolarWinds Attack (2020)\nWannaCry Ransomware (2017)\nWordPress sites compromised to install info-stealers (2024)\nChinese Actors breach telecom providers (2024)\nLargest DDoS attack campaign (2024)\nMexican Drug Cartels target timeshare owners (2024)\nUS Government disrupts China’s botnet (2024)\nMilitary Technology Theft (2016)\nVulnerable pacemakers (2017))\nUkrainian Power Grid (2016)\nSupply Chain Attack (2021)\n\n\n\nWhich layer of cyberspace was targeted?\nWho were the threat actors?\nWhat were the vulnerabilities?\nWhat type of attack was used?\nWhat were the consequences?\n\n\n\n\nWhich layer of cyberspace was targeted?\nWho were the threat actors?\nWhat were the vulnerabilities?\nWhat type of attack was used?\nWhat were the consequences?"
   },
   {
-    "objectID": "lessons/25-data-ethics.html#digital-footprint-audit",
-    "href": "lessons/25-data-ethics.html#digital-footprint-audit",
-    "title": "Data and Ethics",
-    "section": "Digital Footprint Audit",
-    "text": "Digital Footprint Audit\n\nWhat surprised you the most?\nWhat changes will you make to your online behavior?"
-  },
-  {
-    "objectID": "lessons/25-data-ethics.html#announcements",
-    "href": "lessons/25-data-ethics.html#announcements",
-    "title": "Data and Ethics",
-    "section": "Announcements",
-    "text": "Announcements\n\nWeekly Problem Set 7 due 03NOV\nAI Summative Project Proposal due 12NOV"
-  },
-  {
-    "objectID": "lessons/25-data-ethics.html#lesson-objectives",
-    "href": "lessons/25-data-ethics.html#lesson-objectives",
-    "title": "Data and Ethics",
-    "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nDiscuss how users leave footprints online\n\nand how the Internet does not provide true anonymity!\n\nDefine what a social network is.\n\nWhy it is important to limit the amount of information shared.\nHow to limit the amount of information shared.\n\nDescribe cookies and how they are used by web servers.\nIdentify and define other common web-tracking mechanisms\n\nand to what extent each can be restricted or mitigated."
-  },
-  {
-    "objectID": "lessons/25-data-ethics.html#case-studies",
-    "href": "lessons/25-data-ethics.html#case-studies",
-    "title": "Data and Ethics",
-    "section": "Case Studies",
-    "text": "Case Studies\n\nInside the “3 Billion People” National Public Data Breach (2024)\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nU.S. Troops Accidentally Reveal Secret Bases by Going Jogging (2018)\nBuying sensitive data about US military personnel (2023)\nRussian army wives tricked into exposing identities of pilots (2023)\nTikTok tapes US user data to China (2022)\nGenetic tester 23andMe’s hacked data on Jewish users offered for sale online (2023)\nVending Machine Error Reveals Secret Face Image Database of College Students (2024)\n\n\nDiscussion Questions\n\nWhat went wrong?\nWho is to blame?\nWhat are the consequences?"
-  },
-  {
-    "objectID": "lessons/25-data-ethics.html#what-is-a-tracker",
-    "href": "lessons/25-data-ethics.html#what-is-a-tracker",
-    "title": "Data and Ethics",
-    "section": "What is a tracker?",
-    "text": "What is a tracker?\n\n\n\nScript that runs on a website or phone app\nCollects data about your activity\nSends data to third parties\nUsed for analytics\nResults in targeted advertising"
-  },
-  {
-    "objectID": "lessons/25-data-ethics.html#cookies",
-    "href": "lessons/25-data-ethics.html#cookies",
-    "title": "Data and Ethics",
-    "section": "Cookies",
-    "text": "Cookies\n\n\n\nWeb servers store small text files on your computer\nSent back to server with every HTTP request\nUsed to maintain session, login, and preferences\n\nIf you delete cookies, you get logged out\nCan someone steal your cookies?\n\nCan also be used to track you across websites\n\nSites can share cookies!\n\n\n\n\n\nFind cookies in your browser!\n\nPress F12 to open Developer Tools\nGo to Application or Storage tab and look for Cookies\n\n\n\nAllows you to get back in\nErase the stamp, you need to pay again"
-  },
-  {
-    "objectID": "lessons/25-data-ethics.html#browser-fingerprinting",
-    "href": "lessons/25-data-ethics.html#browser-fingerprinting",
-    "title": "Data and Ethics",
-    "section": "Browser Fingerprinting",
-    "text": "Browser Fingerprinting\n\n\n\nWhat if you block cookies and switch to private browsing?\nLots of things make your setup unique\nClick the link to find out!"
-  },
-  {
-    "objectID": "lessons/25-data-ethics.html#how-much-tracking",
-    "href": "lessons/25-data-ethics.html#how-much-tracking",
-    "title": "Data and Ethics",
-    "section": "How much tracking?",
-    "text": "How much tracking?\nUse one of the following tools\n\nPrivacy Test\nBlacklight: A Real-Time Website Privacy Inspector\nFirefox with Enhanced Tracking Protection\n\nVisit a popular website (news, social media) and find out-\n\nHow many trackers? Which ones?\nHow many third-party cookies? Which ones?\nCan any of these trackers evade cookie blockers?\nDoes the website track your keystrokes or mouse movements?\nIs this information shared with Facebook? Google?"
-  },
-  {
-    "objectID": "lessons/25-data-ethics.html#social-media",
-    "href": "lessons/25-data-ethics.html#social-media",
-    "title": "Data and Ethics",
-    "section": "Social Media",
-    "text": "Social Media\n\nHow much does it cost to run a social media platform?\nHow do they make money?\nWho owns the data you upload?\nWhat can they do with it?\nWhat are the risks?"
-  },
-  {
-    "objectID": "lessons/25-data-ethics.html#anonymized-data",
-    "href": "lessons/25-data-ethics.html#anonymized-data",
-    "title": "Data and Ethics",
-    "section": "Anonymized Data",
-    "text": "Anonymized Data\n\nCan data be truly anonymized?\nWhat about medical records with names removed?\nWhat about DNA data?\n\n23andMe hack"
-  },
-  {
-    "objectID": "lessons/25-data-ethics.html#ethics-debate",
-    "href": "lessons/25-data-ethics.html#ethics-debate",
-    "title": "Data and Ethics",
-    "section": "Ethics Debate",
-    "text": "Ethics Debate\n\nSignals intelligence, such as that produced by the NSA, should be abolished.\nElementary school students should be allowed to use social media.\nIndividuals should have the right to be forgotten by internet searches."
-  },
-  {
-    "objectID": "lessons/25-data-ethics.html#what-next",
-    "href": "lessons/25-data-ethics.html#what-next",
-    "title": "Data and Ethics",
-    "section": "What next?",
-    "text": "What next?\n\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nhaveibeenpwned.com - check if your information has been compromised\nNextDNS - DNS-based tracker blocker\nPrivacy Guides\nPrivacyTools\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal"
-  },
-  {
-    "objectID": "lessons/29-cyber-hygiene.html#announcements",
-    "href": "lessons/29-cyber-hygiene.html#announcements",
-    "title": "Cyber Hygiene",
-    "section": "Announcements",
-    "text": "Announcements\n\nWPR Review: come prepared with specific topics\nTech Tour meeting location: PRC (TH111) or CRC (TH115) (15-20NOV)\nAI Summative Project Proposal due 12NOV\nWritten Periodic Review on 13-14NOV"
-  },
-  {
-    "objectID": "lessons/29-cyber-hygiene.html#lesson-objectives",
-    "href": "lessons/29-cyber-hygiene.html#lesson-objectives",
-    "title": "Cyber Hygiene",
-    "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\n\n\nMotivate and articulate the goals of cyber hygiene\nUnderstand types of data and associated risks\nUnderstand how commercial surveillance puts Army missions and people at risk\nArticulate best practices for implementing good cyber hygiene\nPractice implementing good cyber hygiene\n\n\n xkcd.com/2006"
-  },
-  {
-    "objectID": "lessons/29-cyber-hygiene.html#data-economy",
-    "href": "lessons/29-cyber-hygiene.html#data-economy",
-    "title": "Cyber Hygiene",
-    "section": "Data Economy",
-    "text": "Data Economy\n\n\nCommercially available data…\n\nLocation\n\nCell phone\nVehicle telemetry\nChildren’s schools\n\nFinancial\n\nCredit Card Purchases, Debt\nGambling, Sensitive Purchases\n\nBiometric\n\nFacial Recognition, DNA\nMedications, Vulnerabilities\n\nSocial Relationships\n\nFamily, Friends\nTherapists\nDoctors\n\n\n\ncompromises mission readiness!\n\nTroop movements\n\nOut-of-band traffic patterns\nAbsence of expected traffic\nChange in shopping/vehicle/cell phone patterns\n\nUnit capabilities\n\nEquipment (social media posts)\nOperators (facial recognition/cell phone metadata)\nLogistics bottlenecks\nSupply chain bottlenecks\n\nUnit plans\n\nTraining maneuvers, tactics\nTroop build ups, deployments"
-  },
-  {
-    "objectID": "lessons/29-cyber-hygiene.html#so-what",
-    "href": "lessons/29-cyber-hygiene.html#so-what",
-    "title": "Cyber Hygiene",
-    "section": "So What?",
-    "text": "So What?\n\n\n\nIs this about secrecy or privacy?\n\nWhat’s the difference?\n\nWho is vulnerable?\nHow can we protect ourselves?\nRef: xkcd.com/1269"
-  },
-  {
-    "objectID": "lessons/29-cyber-hygiene.html#in-class-exercise-breaches",
-    "href": "lessons/29-cyber-hygiene.html#in-class-exercise-breaches",
-    "title": "Cyber Hygiene",
-    "section": "In-Class Exercise: Breaches",
-    "text": "In-Class Exercise: Breaches\n\n\n\nMozilla Monitor\nHow many breaches?\nWhat data was compromised?\nWhat are you going to do about it?\nRef: xkcd.com/1739"
-  },
-  {
-    "objectID": "lessons/29-cyber-hygiene.html#protect-your-email",
-    "href": "lessons/29-cyber-hygiene.html#protect-your-email",
-    "title": "Cyber Hygiene",
-    "section": "Protect your Email",
-    "text": "Protect your Email\n\n\n\nKeys to the kingdom!\nUse a very unique password\nMulti-factor authentication!!\nSeparate emails for different purposes\nUse encrypted email when possible\n\nProtonMail\n\nEmail anonymizers\n\nFirefox Relay\nDuckDuckGo Email Protection\n\nRef: xkcd.com/2139"
-  },
-  {
-    "objectID": "lessons/29-cyber-hygiene.html#password-security",
-    "href": "lessons/29-cyber-hygiene.html#password-security",
-    "title": "Cyber Hygiene",
-    "section": "Password Security",
-    "text": "Password Security\n\n\n\nUnique and strong passwords!\nCorrect Horse Battery Staple\nUse password managers!\nRef: xkcd.com/936"
-  },
-  {
-    "objectID": "lessons/29-cyber-hygiene.html#multi-factor-authentication",
-    "href": "lessons/29-cyber-hygiene.html#multi-factor-authentication",
-    "title": "Cyber Hygiene",
-    "section": "Multi-factor Authentication",
-    "text": "Multi-factor Authentication\n\nSomething you know + have + are\nIs text message MFA secure?\nHow do authenticator apps work?"
-  },
-  {
-    "objectID": "lessons/29-cyber-hygiene.html#in-class-exercise-tools",
-    "href": "lessons/29-cyber-hygiene.html#in-class-exercise-tools",
-    "title": "Cyber Hygiene",
-    "section": "In-Class Exercise: Tools",
-    "text": "In-Class Exercise: Tools\n\n\n\nVisit PrivacyGuides.org recommendations\n\n\nPick a unique category.\nEvaluate at least three tools.\n\nOne of them can be non-privacy-protecting!\n\nShare your findings-\n\nWhat does the tool do?\nHow does it protect your privacy?\nWhat are the pros and cons?\n\n\n\nRef: xkcd.com/1223"
-  },
-  {
-    "objectID": "lessons/29-cyber-hygiene.html#in-class-exercise-data-removal",
-    "href": "lessons/29-cyber-hygiene.html#in-class-exercise-data-removal",
-    "title": "Cyber Hygiene",
-    "section": "In-Class Exercise: Data Removal",
-    "text": "In-Class Exercise: Data Removal\n\n\n\nData Removal Guide: inteltechniques.com\n\n\nVisit a data broker site\nUse the opt-out process to remove your data\nWhat data was available?\nHow long did it take to remove?\n\n\nRef: xkcd.com/1998"
-  },
-  {
-    "objectID": "lessons/29-cyber-hygiene.html#resources",
-    "href": "lessons/29-cyber-hygiene.html#resources",
-    "title": "Cyber Hygiene",
-    "section": "Resources",
-    "text": "Resources\n\n\n\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\nhaveibeenpwned.com\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nNextDNS - DNS-based tracker blocker\nPrivacy Guides\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\n\n\n xkcd.com/198"
-  },
-  {
-    "objectID": "lessons/06-built-in-functions.html#discussion",
-    "href": "lessons/06-built-in-functions.html#discussion",
-    "title": "Built-in Functions",
+    "objectID": "lessons/23-networks.html#discussion",
+    "href": "lessons/23-networks.html#discussion",
+    "title": "Networks and Data",
     "section": "Discussion!",
-    "text": "Discussion!\n\nChatGPT!"
+    "text": "Discussion!\n\nVortex Cannon vs Drone\nHow Ukraine’s PAPER PLANES are Destroying Russia’s Military"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#lesson-objectives",
-    "href": "lessons/06-built-in-functions.html#lesson-objectives",
-    "title": "Built-in Functions",
+    "objectID": "lessons/23-networks.html#ai-summative-project",
+    "href": "lessons/23-networks.html#ai-summative-project",
+    "title": "Networks and Data",
+    "section": "AI Summative Project",
+    "text": "AI Summative Project\n\nExample Projects\nGame ideas\n\n\n\n\nplay with AI tools\ntest the feasibility of the project\nthink about what you want to do\nstart early to allow for more iterations and questions\nif I can do with a couple of prompts -&gt; too simple\nhas to have a HUMAN element to guide AI\n5 minute presentation"
+  },
+  {
+    "objectID": "lessons/23-networks.html#arpanet",
+    "href": "lessons/23-networks.html#arpanet",
+    "title": "Networks and Data",
+    "section": "Arpanet",
+    "text": "Arpanet\n\n\nWhat is Arpanet?\nWho created it? When?\nWhy was it created?\nWhat happened to it?\n\n\n\nThe Internet was initially developed by the DoD’s Advanced Research Projects Agency (ARPA) as a communication mechanism that can withstand nuclear attack. This early version of the Internet was connected to other computer networks (like NSFNet) to create the modern version of the Internet.\n\nWhat is ARPA? Advanced Research Project Agency\nWho created it? When? DoD, 1969\nWhy was it created? Communication mechanism that can withstand nuclear attack\nWhat happened to it? Connected to other computer networks to create the modern version of the Internet"
+  },
+  {
+    "objectID": "lessons/23-networks.html#the-internet",
+    "href": "lessons/23-networks.html#the-internet",
+    "title": "Networks and Data",
+    "section": "The Internet",
+    "text": "The Internet\nDistributed Packet-Switched Network\n\n\nWhat is the Internet? How does it work?\n\nDistributed: No central control\nPacket-Switched: Data broken into packets\n\nWhat are the connections on the map?\nWhy not just use satellites?\nHow do we get the cables there? When was the first?\nWhat is special about this network of networks?\n\nRedundancy\nScalability\nFlexibility\n\n\n\nRef: https://blog.telegeography.com/"
+  },
+  {
+    "objectID": "lessons/23-networks.html#in-class-activity",
+    "href": "lessons/23-networks.html#in-class-activity",
+    "title": "Networks and Data",
+    "section": "In-Class Activity",
+    "text": "In-Class Activity\n\nSubmarine Cable Map [submarinecablemap.com]\nFind the oldest cable out of US\nFind the oldest cable out of Europe\nHow many cables connect Hawaii? Why?\nWhat about Antarctica?\nHow many cables connect North Korea?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#how-do-computers-talk",
+    "href": "lessons/23-networks.html#how-do-computers-talk",
+    "title": "Networks and Data",
+    "section": "How do computers talk?",
+    "text": "How do computers talk?\n\nhttps://www.rtautomation.com/rtas-blog/a-refresher-course-on-osi-tcp-ip/\n\nWhat is a protocol?\nWhen did you start using the internet? Elementary school? Middle school?\nWho speaks more than one language?\nIs you raising your hand a protocol? Handshake?\nWhat are these layers?\nHow are they related?\nWhat do they do?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#wired-ethernet",
+    "href": "lessons/23-networks.html#wired-ethernet",
+    "title": "Networks and Data",
+    "section": "Wired: Ethernet",
+    "text": "Wired: Ethernet\n\n\n\nTwisted Pair -&gt; CAT6\nCoaxial\nFiber Optic\n\n\n\n\n\n\nWhat’s inside a twisted pair cable? Can you make your own?\nWhat’s inside a fiber optic cable?\nWhat is Ethernet?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#wireless",
+    "href": "lessons/23-networks.html#wireless",
+    "title": "Networks and Data",
+    "section": "Wireless",
+    "text": "Wireless\n\n\n\nWiFi\nBluetooth\nCellular\nSatellite\n\n\n\n\n\n\n\nHow does WiFi work? How do machines talk through the air?\nWhat does WiFi require? Wireless access point\nWhat are the common frequencies? Who else uses them?\n\n2.4 GHz, 5.8 GHz, unlicensed\nalso used by bluetooth, microwave ovens\n\nWhere is Bluetooth used? TV, smartwatches, phones, cars, speakers, headphones, keyboards, mice\nWhat is a cell? Why hexagons?\nWhat is actually transmitted?\nHow is it transmitted?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#how-to-measure-network-quality",
+    "href": "lessons/23-networks.html#how-to-measure-network-quality",
+    "title": "Networks and Data",
+    "section": "How to measure network quality?",
+    "text": "How to measure network quality?\n\n\n\nBit Rate -&gt; Bandwidth\nLatency\nRange\n\nInternet Speed = Bandwidth x Latency\n\nFCC: Broadband Consumer Label\n\nTry Now:\n\nSpeed Test -&gt; Show more info\nping google.com\nping 1.1.1.1\n\n\n\n\n\n\nWhat is bit rate? How many bits can your computer send in a second?\nWhat is bandwidth? (maximum bit rate)\nWhat is your home internet bandwidth?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#internet-protocol-ip-address",
+    "href": "lessons/23-networks.html#internet-protocol-ip-address",
+    "title": "Networks and Data",
+    "section": "Internet Protocol (IP) Address",
+    "text": "Internet Protocol (IP) Address\n\nUnique address for each device\nParts = Network + specific device\nIPv4: 32-bit address, e.g. 1.2.3.4, 127.0.0.1\nIPv6: 128-bit address, e.g. 2001:0db8:85a3:0000:0000:8a2e:0370:7334\n\nTry Now:\n\nipconfig\n\nHow many IP addresses does your computer have? Why?\n\nifconfig.co\n\nWhat is your public IP address? Is it the same as your computer’s IP address?\nCan your online activity be traced back to you?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#which-of-the-following-is-not-a-valid-ip-address",
+    "href": "lessons/23-networks.html#which-of-the-following-is-not-a-valid-ip-address",
+    "title": "Networks and Data",
+    "section": "Which of the following is not a valid IP address?",
+    "text": "Which of the following is not a valid IP address?\n\n2001:0db8:85a3:0000:0000:8a2e:0370:7334\nBldg 601, Cullum Road, West Point, NY 10996\n67.243.0.1\nwww.westpoint.edu\nAA:BB:CC:DD:EE:FF"
+  },
+  {
+    "objectID": "lessons/23-networks.html#ip-packet",
+    "href": "lessons/23-networks.html#ip-packet",
+    "title": "Networks and Data",
+    "section": "IP Packet",
+    "text": "IP Packet\n\n\n\nHeader = letter envelope\n\nSource IP\nDestination IP\n\nData = contents\n\nCan an IP packet contain as much data as we want?\nHow do we transfer large files?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#routing",
+    "href": "lessons/23-networks.html#routing",
+    "title": "Networks and Data",
+    "section": "Routing",
+    "text": "Routing\n\n\n\nSend packets to the nearest router\nRouter forwards to the best router based on address\nFinal router delivers to destination\n\nAre IP packets always routed using the shortest possible path?"
+  },
+  {
+    "objectID": "lessons/23-networks.html#in-class-activity-1",
+    "href": "lessons/23-networks.html#in-class-activity-1",
+    "title": "Networks and Data",
+    "section": "In-Class Activity",
+    "text": "In-Class Activity\n\nping 1.1.1.1\nping 133.3.140.24\n\nCS Department at University of Kyoto\n\ntracert 133.3.140.24\n\nEnter output into Traceroute Mapper\nExample"
+  },
+  {
+    "objectID": "lessons/23-networks.html#protocols",
+    "href": "lessons/23-networks.html#protocols",
+    "title": "Networks and Data",
+    "section": "Protocols",
+    "text": "Protocols\n\n\nTransmission Control Protocol (TCP)\n\nConnection-oriented\nReliable delivery, data integrity ensured\nEmail, file transfer\n\n\nUser Datagram Protocol (UDP)\n\nConnectionless\nLess reliable, but much faster\nVoice/video calls, streaming, gaming"
+  },
+  {
+    "objectID": "lessons/23-networks.html#transmission-control-protocol-tcp-handshake",
+    "href": "lessons/23-networks.html#transmission-control-protocol-tcp-handshake",
+    "title": "Networks and Data",
+    "section": "Transmission Control Protocol (TCP) Handshake",
+    "text": "Transmission Control Protocol (TCP) Handshake"
+  },
+  {
+    "objectID": "lessons/23-networks.html#transmission-control-protocol-tcp-acknowledgement",
+    "href": "lessons/23-networks.html#transmission-control-protocol-tcp-acknowledgement",
+    "title": "Networks and Data",
+    "section": "Transmission Control Protocol (TCP) Acknowledgement",
+    "text": "Transmission Control Protocol (TCP) Acknowledgement"
+  },
+  {
+    "objectID": "lessons/05-python.html#discussion",
+    "href": "lessons/05-python.html#discussion",
+    "title": "Python Basics",
+    "section": "Discussion!",
+    "text": "Discussion!\n\nFlipper Zero\n\nMeanwhile, in Canada…"
+  },
+  {
+    "objectID": "lessons/05-python.html#lesson-objectives",
+    "href": "lessons/05-python.html#lesson-objectives",
+    "title": "Python Basics",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nUnderstand the purpose of built-in functions in the Python language.\nArticulate the difference between procedures (non-fruitful functions) and fruitful functions.\nIllustrate how to use the assignment operator to store the result of a built-in function in a variable.\nArticulate what arguments are, and how to use them in the context of built-in functions.\nUse built-in functions to write Python code."
+    "text": "Lesson Objectives\n\nIdentify basic data types represented in programs\nDistinguish between data types and data values.\nUse variables to store information in a program\nWrite very basic Python programs.\n\n\n\nBring up agenda\nReference cards!\n\nBring them daily.\n\nTest your monitors.\n\nConsider bringing a spare mouse to easily navigate between screens."
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#check-on-learning",
-    "href": "lessons/06-built-in-functions.html#check-on-learning",
-    "title": "Built-in Functions",
+    "objectID": "lessons/05-python.html#writing-algorithms",
+    "href": "lessons/05-python.html#writing-algorithms",
+    "title": "Python Basics",
+    "section": "Writing Algorithms",
+    "text": "Writing Algorithms\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite an algorithm that accomplishes this task!\n\n\nask the user for their name\nprint out hello followed by their name\nask how many slices of pizza they want\nmultiply quantity by the cost (2.50)\nprint total to the screen"
+  },
+  {
+    "objectID": "lessons/05-python.html#check-on-learning",
+    "href": "lessons/05-python.html#check-on-learning",
+    "title": "Python Basics",
     "section": "Check on Learning",
-    "text": "Check on Learning\n\n\nWhat is a function?\n\nIs it fruitful?\n\nWhat is a procedure?\n\nIs it fruitful?\n\nWhat can a function return?\nWhat is a built-in function?\nWhat is an argument?"
+    "text": "Check on Learning\n\n\nWhat is a data type?\nIs data type the same as a variable?\nWhat are the standard data types in Python?\nHow do you assign a variable in Python?\nWhat is a procedure?\nWhat does print() do?\nWhat does type() do?\nWhat is a list?\nWhat is a boolean?\nWhat is the difference between = and ==?\n\n\n\n\nint, float, str, list, bool"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#pizza-program",
-    "href": "lessons/06-built-in-functions.html#pizza-program",
-    "title": "Built-in Functions",
-    "section": "Pizza Program",
-    "text": "Pizza Program\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite a program that accomplishes this task!\n\nAsk the user for their name.\nPrint out hello followed by their name.\nAsk how many slices of pizza they want.\nMultiply quantity by the cost (2.50).\nPrint total to the screen.\n\nUse Notepad++ or zyBook IDE."
+    "objectID": "lessons/05-python.html#more-check-on-learning",
+    "href": "lessons/05-python.html#more-check-on-learning",
+    "title": "Python Basics",
+    "section": "More Check on Learning",
+    "text": "More Check on Learning\n\n\nIs this a string? \"hello\"\nIs this a string? \"11\"\nWhat is the type of: 3.1415\nWhat is the type of: 3\nWhat is the type of: 3.0\nWhat is the type of: True\nWhat is the type of: \"True\"\nWhat is the value of: 5 + 3 * 2\nWhat is the value of: 5 % 3\nWhat is the value of: 5 / 2\nWhat is the value of: 5 // 2"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#will-this-work",
-    "href": "lessons/06-built-in-functions.html#will-this-work",
-    "title": "Built-in Functions",
-    "section": "Will this work?",
-    "text": "Will this work?\n\"\"\"\nprogram: pizza checkout\ninput: name, slices\noutput: total amount of money they owe\n\"\"\"\n\ndef main():\n    name = input(\"What is your name? \")  # ask the user for their name\n    print(\"Hello\", name)  # greet the user\n    slices = input(\"How many slices of pizza do you want? \")  # get user input\n    total = slices * 2.50  # multiply quantity by the cost\n    print(\"The total is\", total) # print the total amount\n\nmain()  # call the function"
+    "objectID": "lessons/05-python.html#programming-environment",
+    "href": "lessons/05-python.html#programming-environment",
+    "title": "Python Basics",
+    "section": "Programming Environment",
+    "text": "Programming Environment\n\nStart -&gt; python\nNotepad++\nzyBook\n\n\nPython Tutor\nBlack Code Formatter"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#functions",
-    "href": "lessons/06-built-in-functions.html#functions",
-    "title": "Built-in Functions",
-    "section": "Functions",
-    "text": "Functions\n\norganize code into reusable blocks\ntransforms some input (X) to some output (Y)\n\n\\[f: X \\rightarrow Y\\]\n\nfactory that takes multiple inputs and produces one thing\nprocedures are functions that do not return anything"
+    "objectID": "lessons/05-python.html#hello-world",
+    "href": "lessons/05-python.html#hello-world",
+    "title": "Python Basics",
+    "section": "Hello World!",
+    "text": "Hello World!\n\nSimplest program in any language\nDemonstrates how to accomplish a basic task\n\nprint(\"Hello, World!\")"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#built-in-functions",
-    "href": "lessons/06-built-in-functions.html#built-in-functions",
-    "title": "Built-in Functions",
-    "section": "Built-in Functions",
-    "text": "Built-in Functions\nname = input(\"What is your name? \")\nprint(\"Hello\", name)\ntype(name)\n\nlist('hello')\n\npi = 3.14159\nround(pi)\nround(pi, 2)\n\na = [17, 23, 11, 29, 37, 13]\nlen(a)\nmax(a)\nmin(a)\n\nfloor(pi)\nceil(pi)\n\na = \"\"\"this string\nhas multiple\nlines.\nWhat now?\"\"\""
+    "objectID": "lessons/05-python.html#writing-code",
+    "href": "lessons/05-python.html#writing-code",
+    "title": "Python Basics",
+    "section": "Writing Code",
+    "text": "Writing Code"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#debugging",
-    "href": "lessons/06-built-in-functions.html#debugging",
-    "title": "Built-in Functions",
-    "section": "Debugging",
-    "text": "Debugging\n\nPython Tutor\nBlack Code Formatter\nuse print() to display variable values\nuse type() to check the type of a variable"
+    "objectID": "lessons/05-python.html#running-code",
+    "href": "lessons/05-python.html#running-code",
+    "title": "Python Basics",
+    "section": "Running Code",
+    "text": "Running Code"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#pizza-program-2",
-    "href": "lessons/06-built-in-functions.html#pizza-program-2",
-    "title": "Built-in Functions",
-    "section": "Pizza Program 2",
-    "text": "Pizza Program 2\n\nModify the pizza program to account for 8.5% tax.\nPrepend the total with a $ sign.\nHave the dollar amount rounded to two decimal places.\n\nSample Input/Output:\n\nWhat is your name? Pikachu\nHello Pikachu\nHow many slices of pizza do you want? 3\nThe total is $8.14"
+    "objectID": "lessons/05-python.html#real-python-program",
+    "href": "lessons/05-python.html#real-python-program",
+    "title": "Python Basics",
+    "section": "Real Python Program",
+    "text": "Real Python Program\n\"\"\"\nWhispers in the code,\nPython ignores, doesn’t care,\nYet they light the path.\n\"\"\"\n\ndef main():  # a procedure called main\n    print(\"hello world!\")  # print statement\n\nmain()  # invoke the main procedure\n\nCopy the code above into Notepad++\nSave with a .py extension, e.g. hello.py\nObserve the different colors. What do they mean?"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#how-tall-in-feet-and-inches",
-    "href": "lessons/06-built-in-functions.html#how-tall-in-feet-and-inches",
-    "title": "Built-in Functions",
-    "section": "How tall in feet and inches?",
-    "text": "How tall in feet and inches?\nWrite a program that prompts a user to enter their height in inches. Your program should then display the corresponding height in feet, along with any leftover inches.\nSample Input/Output:\n\n\n\nEnter your height in inches: 70\nYou are 5 feet and 10 inches.\n\n\ndef main():\n    # enter code here\n\n\nmain()"
+    "objectID": "lessons/05-python.html#variables",
+    "href": "lessons/05-python.html#variables",
+    "title": "Python Basics",
+    "section": "Variables",
+    "text": "Variables\n\n\n\nStore a value in memory\nLeft side is the name of the variable\nRight side is an expression!\nCan be changed as many times as needed\nMust be assigned a value before first use!\nName is how you refer to the value\nValue is what is stored in the variable\n\n\nx = 5\ny = 3.14\nz = \"hello\"\na = x + y\nb = x * y\nPython Console"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#circle-program",
-    "href": "lessons/06-built-in-functions.html#circle-program",
-    "title": "Built-in Functions",
-    "section": "Circle Program",
-    "text": "Circle Program\nPrompt the user to input the circle’s radius as a float. Compute and display the circumference and area of the circle. Assume \\(\\pi = 3.14\\).\nCircumference = \\(2 \\pi r\\)\nArea = \\(\\pi r^2\\)\nSample Input/Output:\n\n\n\nEnter the radius as a float: 4.28\nCircumference: 26.8784\nArea: 57.519776\n\n\ndef main():\n    # enter code here\n\n\nmain()"
+    "objectID": "lessons/05-python.html#variable-names",
+    "href": "lessons/05-python.html#variable-names",
+    "title": "Python Basics",
+    "section": "Variable Names",
+    "text": "Variable Names\n\nMust start with a letter or underscore\nCan contain letters, numbers, and underscores\nCase sensitive\nCannot be a reserved word\n\n\n&gt;&gt;&gt; x = 5\n&gt;&gt;&gt; 4x = 20\n&gt;&gt;&gt; x4 = 20\n&gt;&gt;&gt; x_x = 1\n&gt;&gt;&gt; print(X_X)\n&gt;&gt;&gt; True = 1\n&gt;&gt;&gt; False = 0\n&gt;&gt;&gt; return = True"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#next-lesson-for-loops",
-    "href": "lessons/06-built-in-functions.html#next-lesson-for-loops",
-    "title": "Built-in Functions",
-    "section": "Next Lesson: For Loops",
-    "text": "Next Lesson: For Loops\n\nWhy we need loops?\nHow to write code that repeats statements?\nHow to use the accumulator pattern?\nHow to use the built-in function range()?"
+    "objectID": "lessons/05-python.html#data-types",
+    "href": "lessons/05-python.html#data-types",
+    "title": "Python Basics",
+    "section": "Data Types",
+    "text": "Data Types\n\nint - integer\nfloat - floating point number\nstr - string\nbool - boolean\nlist - list\n\n\n&gt;&gt;&gt; type(x)\n&gt;&gt;&gt; type(y)\n&gt;&gt;&gt; type(z)"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#daaw",
-    "href": "lessons/06-built-in-functions.html#daaw",
-    "title": "Built-in Functions",
-    "section": "DAAW",
-    "text": "DAAW\n\n\n\nPick the appropriate statement.\nDocument assistance.\nInitial.\nSign.\n\n\n___ I CERTIFY THAT I DID NOT USE ANY SOURCES OR RECEIVE ANY ASSISTANCE REQUIRING DOCUMENTATION WHILE COMPLETING THIS ASSIGNMENT.\n___ I CERTIFY THAT I HAVE COMPLETELY DOCUMENTED ALL SOURCES THAT I USED TO COMPLETE THIS ASSIGNMENT AND THAT I ACKNOWLEDGED ALL ASSISTANCE I RECEIVED IN THE COMPLETION OF THIS ASSIGNMENT.\n\n\nzyBook"
+    "objectID": "lessons/05-python.html#basic-arithmetic",
+    "href": "lessons/05-python.html#basic-arithmetic",
+    "title": "Python Basics",
+    "section": "Basic Arithmetic",
+    "text": "Basic Arithmetic\n\n+ - addition\n- - subtraction\n* - multiplication\n/ - division\n** - exponentiation\n// - floor division\n% - modulo\n\n\n&gt;&gt;&gt; 10 + 4\n&gt;&gt;&gt; 10 - 4\n&gt;&gt;&gt; 10 * 4\n&gt;&gt;&gt; 10 / 4\n&gt;&gt;&gt; 10 ** 4\n&gt;&gt;&gt; 10 // 4\n&gt;&gt;&gt; 10 % 4\n&gt;&gt;&gt; 10 % 3\n&gt;&gt;&gt; 10 % 1"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#tools-available-to-us",
-    "href": "lessons/06-built-in-functions.html#tools-available-to-us",
-    "title": "Built-in Functions",
-    "section": "Tools Available to Us",
-    "text": "Tools Available to Us\n\nMOSS – Evaluation of multiple files for degree of similarity\nzyLabs Similarity Checker – MOSS-like tool built into zyLabs\nzyLabs Playback – playback of work progression on individual files\nCodequiry – Compares files with each other and online sources\nGenerative AI Tools – See sample responses to particular prompt before or after issuing assignment. Sample responses can be used in MOSS or zyLabs Similarity Checker against student submissions."
+    "objectID": "lessons/05-python.html#order-of-operations",
+    "href": "lessons/05-python.html#order-of-operations",
+    "title": "Python Basics",
+    "section": "Order of Operations",
+    "text": "Order of Operations\n\nParentheses\nExponents\nMultiplication and Division\nAddition and Subtraction\n\n\n&gt;&gt;&gt; 5 + 3 * 2 = 11\n&gt;&gt;&gt; (5 + 3) * 2 = 16\n&gt;&gt;&gt; 5 + 3 * 2 ** 2 = 17\n&gt;&gt;&gt; (5 + 3) * 2 ** 2 = 32"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#documenting-in-cy105",
-    "href": "lessons/06-built-in-functions.html#documenting-in-cy105",
-    "title": "Built-in Functions",
-    "section": "Documenting in CY105",
-    "text": "Documenting in CY105\n\nWeekly Problem Set assignments are individual assignments.\nAssistance is encouraged, but collaboration and copying will result in a heavy deduction.\n\nSee the DAAW Section II paragraphs C, E, and H for definitions of each.\n\nDon’t be afraid to ask for assistance! Be aware of the examples of assistance below – you are encouraged to receive this kind of assistance if you are struggling on an assignment!\n\nGetting a verbal answer from another person or receiving an answer from an artificial intelligence about general questions about coding, tools, or concepts covered in the course.\nHaving another person or an artificial intelligence source help you identify and understand specific errors in your own solution."
+    "objectID": "lessons/05-python.html#converting-data-types",
+    "href": "lessons/05-python.html#converting-data-types",
+    "title": "Python Basics",
+    "section": "Converting Data Types",
+    "text": "Converting Data Types\n\nint() - convert to integer\nfloat() - convert to floating point number\nstr() - convert to string\n\n\n&gt;&gt;&gt; int(3.14)\n&gt;&gt;&gt; float(3)\n&gt;&gt;&gt; str(3)"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#documenting-in-cy105-1",
-    "href": "lessons/06-built-in-functions.html#documenting-in-cy105-1",
-    "title": "Built-in Functions",
-    "section": "Documenting in CY105",
-    "text": "Documenting in CY105\nExamples of Collaboration or Copying (will result in point deduction if not explicitly allowed, must cite):\n\nWorking with one or more people (or artificial intelligence tools) to jointly produce a solution.\nWorking with one or more people (or artificial intelligence tools) to complete separate parts of a graded events, and then joining the parts together to form a common solution.\nLooking at someone else’s code (or code found online) and then typing the same (or slightly modified solution) into your computer and submitting the work as your own.\nProviding the prompt for an assignment to an artificial intelligence source and submitting the work as your own."
+    "objectID": "lessons/05-python.html#lists",
+    "href": "lessons/05-python.html#lists",
+    "title": "Python Basics",
+    "section": "Lists",
+    "text": "Lists\n\nStore multiple values in one variable\nCan store different data types\nUse square brackets []\n\n\n&gt;&gt;&gt; x = [1, 2, 3]\n&gt;&gt;&gt; y = [\"hello\", 3.14, True]"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#generative-ai",
-    "href": "lessons/06-built-in-functions.html#generative-ai",
-    "title": "Built-in Functions",
-    "section": "Generative AI",
-    "text": "Generative AI\n\nGenerative AI represents a remarkable frontier in technology, holding transformative potential for expanding knowledge and enhancing learning.\nYou are forbidden from using generative A.I. to generate solutions to weekly problem sets.\nYou are permitted to utilize generative AI for weekly problem sets in the following specific contexts only:\nReceiving an answer from an artificial intelligence source about general questions about course concepts or programming construct (e.g., how to take user input of a certain data type in Python, what is the purpose of a for loop, what does cybersecurity mean, etc.)\nHaving an artificial intelligence source help you identify specific errors in your own solution (i.e., identifying potential bugs in your code after you have written the program)\nHaving artificial intelligence explain why your program gives a particular (wrong) output."
+    "objectID": "lessons/05-python.html#concatenation",
+    "href": "lessons/05-python.html#concatenation",
+    "title": "Python Basics",
+    "section": "Concatenation",
+    "text": "Concatenation\n\nCombine strings using +\nCan combine lists!\n\n\n&gt;&gt;&gt; \"hello\" + \"world\"\n&gt;&gt;&gt; [1, 2, 3] + [4, 5, 6]"
   },
   {
-    "objectID": "lessons/06-built-in-functions.html#generative-ai-1",
-    "href": "lessons/06-built-in-functions.html#generative-ai-1",
-    "title": "Built-in Functions",
-    "section": "Generative AI",
-    "text": "Generative AI\n\nYou are NEVER authorized to use generative AI to generate solutions (or partial solutions) to weekly problem set problems!\nIf the tool is capable of generating a link to the conversation, include that in your acknowledgements. Otherwise, provide a copy of the full transcript in your acknowledgements section.\nThis includes any and all follow-up questions/prompts to the artificial intelligence source and the provided answers."
+    "objectID": "lessons/05-python.html#user-input",
+    "href": "lessons/05-python.html#user-input",
+    "title": "Python Basics",
+    "section": "User Input",
+    "text": "User Input\n\ninput() - get user input\nAlways returns a string\nUse int() or float() to convert\n\n\n&gt;&gt;&gt; x = input(\"Enter a number: \")\n&gt;&gt;&gt; x\n&gt;&gt;&gt; type(x)\n&gt;&gt;&gt; x = int(x)\n&gt;&gt;&gt; type(x)"
+  },
+  {
+    "objectID": "lessons/05-python.html#pizza",
+    "href": "lessons/05-python.html#pizza",
+    "title": "Python Basics",
+    "section": "Pizza!",
+    "text": "Pizza!\nSuppose you wanted to create a pizza ordering program. The program should ask the user their name and print a greeting. Next they should ask the user how many slices of pizza they want to order (a slice of pizza costs $2.50). Your program should calculate the total amount of money the person owes and display it to the user.\nWrite a Python program following your algorithm!"
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise-2",
+    "href": "lessons/05-python.html#in-class-exercise-2",
+    "title": "Python Basics",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\n\nWrite a program that stores the value 18 in a variable named Age, and displays My age is followed by the value in Age. To do this, place both items inside the parentheses for print() but separate them with a comma.\nAdd more code to display what happens when you have a birthday (assign the value 19 to the same variable Age) and display the age again. Run the code so you can see both lines of output.\n\n\nzyBook ICE 2\n\n\"\"\"\nWhispers in the code,\nPython ignores, doesn’t care,\nYet they light the path.\n\"\"\"\ndef main():\n    # Write your code here\n\nmain()"
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise-3",
+    "href": "lessons/05-python.html#in-class-exercise-3",
+    "title": "Python Basics",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\n\nCopy the code from ICE 2 to the box below. Next, replace the assignment statement Age = 19 with Age = Age + 1 to make the code more versatile. (This way, Age could have any value and it would still be increased by one.) Note that the expression Age + 1 will be evaluated as 19 before that value is assigned to Age. Run the program again to verify that the result is still the same as before.\nNow replace that statement with Age += 1. The only practical difference in this line is that it’s shorter. Verify that the program still works.\n\ndef main():\n    # Write your code here\n\nmain()"
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise-5",
+    "href": "lessons/05-python.html#in-class-exercise-5",
+    "title": "Python Basics",
+    "section": "In-Class Exercise 5",
+    "text": "In-Class Exercise 5\n\nWrite a program to perform floor (integer) division of two numbers provided by a user.\n\n\nTo accomplish this, first you should request a number from the user and store it in a variable; be sure to also convert it to an integer.\nDo the same to request a smaller number and store it in a second variable.\nPerform floor division (divide the large number by the small number) and store the result in a third variable.\nThen calculate the remainder of dividing the large number by the small number and store it in a fourth variable.\nDisplay the results of the division using all four variables, as seen below."
+  },
+  {
+    "objectID": "lessons/05-python.html#in-class-exercise",
+    "href": "lessons/05-python.html#in-class-exercise",
+    "title": "Python Basics",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\n3**2 + 4 * -2 + (6 + 5) * (2 + 3)"
+  },
+  {
+    "objectID": "lessons/05-python.html#reminders",
+    "href": "lessons/05-python.html#reminders",
+    "title": "Python Basics",
+    "section": "Reminders",
+    "text": "Reminders\n\nBring your reference cards to class daily\nErase whiteboards and clean up your area\nWPS2 is due 02SEP"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#announcements",
+    "href": "lessons/09-file-io.html#announcements",
+    "title": "File Input/Output",
+    "section": "Announcements",
+    "text": "Announcements\n\nSeating chart generator!\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\n\nWPR1 is in 1 week!\n\nStudy Guide\n\n\n\n\n\n24 hour lead time\ncan setup AI individually or in groups\nTH460 B1 hour!\nHow do you document assistance from your instructor?"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#discussion",
+    "href": "lessons/09-file-io.html#discussion",
+    "title": "File Input/Output",
+    "section": "Discussion!",
+    "text": "Discussion!\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nWhy?\n\nActive learning\nMemory retention\nFuture reference\n\nCan ChatGPT be wrong?"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#lesson-objectives",
+    "href": "lessons/09-file-io.html#lesson-objectives",
+    "title": "File Input/Output",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nArticulate the need for using files\nReading from files vs standard input\nWriting to files vs standard output\nRead and write to files using Python"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#check-on-learning",
+    "href": "lessons/09-file-io.html#check-on-learning",
+    "title": "File Input/Output",
+    "section": "Check on Learning",
+    "text": "Check on Learning\n\n\nWhat is a file?\nWhere are files stored?\nWhat is a common encoding for text files?\nWhat is an example of a type of text file?\nWhat can you store in a binary file?\nWhat type of files do we use in this class?\nWhere on the reference card can you find file I/O?"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#in-class-exercise-1",
+    "href": "lessons/09-file-io.html#in-class-exercise-1",
+    "title": "File Input/Output",
+    "section": "In-Class Exercise 1",
+    "text": "In-Class Exercise 1\nWrite an algorithm to calculate the average grade for all students in CY105 (581 Cadets).\n\nCadet 1: 90\nCadet 2: 85\nCadet 3: 95\n…\nCadet 581: 100\nAverage: 92.5\n\n\n\nHow do you get the data?\nCan you use input()?\nCan you use a list?"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#what-is-a-file",
+    "href": "lessons/09-file-io.html#what-is-a-file",
+    "title": "File Input/Output",
+    "section": "What is a file?",
+    "text": "What is a file?\n\n\nData stored on disk\n\nDoes it persist after you close the program?\nWhat happens if you turn off the computer?\n\nTypes of files\n\nText: can be read using a text editor\nBinary: require a special program\n\nNewline character - \\n\n\nprint('Hello\\nWorld')"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#why-bother",
+    "href": "lessons/09-file-io.html#why-bother",
+    "title": "File Input/Output",
+    "section": "Why bother?",
+    "text": "Why bother?\n\n\nStore data for later use\nShare data between programs or computers\ninput() is tedious and annoying"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#reading-from-a-file",
+    "href": "lessons/09-file-io.html#reading-from-a-file",
+    "title": "File Input/Output",
+    "section": "Reading from a File",
+    "text": "Reading from a File\n\n\n\nOpen the file\nFor each line in the file\n\nDo something\n\nClose the file\n\n\nfileHandle = open('file.txt', 'r')\n\nfor line in fileHandle:\n    print(line)\n\nfileHandle.close()"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#in-class-exercise-2",
+    "href": "lessons/09-file-io.html#in-class-exercise-2",
+    "title": "File Input/Output",
+    "section": "In-Class Exercise 2",
+    "text": "In-Class Exercise 2\n9.5.1: ICE 2\n\n\nWrite a program to compute the average grade of students stored in a file named AY24-2.txt. Assume numbers are on separate lines. Print the average to the screen.\n\nAverage Grade: 79.7\n\n\nfileHandle = open('file.txt', 'r')\n\nfor line in fileHandle:\n    print(line)\n\nfileHandle.close()"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#writing-to-a-file",
+    "href": "lessons/09-file-io.html#writing-to-a-file",
+    "title": "File Input/Output",
+    "section": "Writing to a File",
+    "text": "Writing to a File\n\n\n\nOpen the file for writing\nWrite to the file, one line at a time\nClose the file\n\n\nfileHandle = open('file.txt', 'w')\n\nfileHandle.write('Hello, World!\\n')\nfileHandle.write('This is my new file.\\n')\nfileHandle.write('No line breaks here...')\nfileHandle.write('and this appears on the same line.\\n')\nfileHandle.write('Now I can end my file\\n')\n\nfileHandle.close()"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#in-class-exercise-3",
+    "href": "lessons/09-file-io.html#in-class-exercise-3",
+    "title": "File Input/Output",
+    "section": "In-Class Exercise 3",
+    "text": "In-Class Exercise 3\n9.5.2: ICE 3\n\n\nModify your program to read data from AY24-2.txt, compute the average and write it to averages.txt.\nNote: After you run your program, a new file called averages.txt should appear in your files.\n\nfileHandle = open('file.txt', 'w')\n\nfileHandle.write('Hello, World!')\nfileHandle.write('This is a file.')\n\nfileHandle.close()"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#other-useful-file-io-methods",
+    "href": "lessons/09-file-io.html#other-useful-file-io-methods",
+    "title": "File Input/Output",
+    "section": "Other Useful File I/O Methods",
+    "text": "Other Useful File I/O Methods\n\n.read(): read the entire file\n.read(n): read the next n characters\n.readline(): read the next line\n.readlines(): read all lines into a list"
+  },
+  {
+    "objectID": "lessons/09-file-io.html#real-world-example-data-analysis",
+    "href": "lessons/09-file-io.html#real-world-example-data-analysis",
+    "title": "File Input/Output",
+    "section": "Real-World Example: Data Analysis",
+    "text": "Real-World Example: Data Analysis\n\nThe process of systematically applying statistical and logical techniques to describe, summarize, and evaluate data.\nIdentify trends: Spotting patterns that can lead to meaningful insights about the data.\nIsolate key statistics: Extracting specific figures that represent the essence of the datasets.\nMake predictions: Using historical data to forecast future occurrences."
+  },
+  {
+    "objectID": "lessons/09-file-io.html#in-class-exercise",
+    "href": "lessons/09-file-io.html#in-class-exercise",
+    "title": "File Input/Output",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\nThe mathematical constant \\(\\pi\\) has an infinite number of digits. Discovering digits of \\(\\pi\\) have become somewhat of an enthusiasts’ hobby. MIT has a list of the first billion digits of \\(\\pi\\). Download it from Canvas and unzip it.\nQuestion: Do any digits occur more frequently in \\(\\pi\\) than others?\nImplement the following algorithm:\n\nRead all the characters in the file as a single sequence. Close the file.\nInitialize a 10-element list to all 0s (freq)\nFor each character in the sequence starting at position 2:\nConvert the character to an integer (i)\nIncrement position i in freq by one\nIterate through freq, displaying the associated frequency."
+  },
+  {
+    "objectID": "lessons/09-file-io.html#reminders",
+    "href": "lessons/09-file-io.html#reminders",
+    "title": "File Input/Output",
+    "section": "Reminders",
+    "text": "Reminders\n\nClear whiteboards and desks\nLower monitors; leave nothing behind\nWPS4 due on 15SEP!\n\nEmail me with questions (quickest!)\nStart early and schedule AI as needed\nPractice!\n\nWPR1 is in 1 week!"
+  },
+  {
+    "objectID": "lessons/37-AI-ethics.html#announcements",
+    "href": "lessons/37-AI-ethics.html#announcements",
+    "title": "AI and Ethics",
+    "section": "Announcements",
+    "text": "Announcements"
+  },
+  {
+    "objectID": "lessons/37-AI-ethics.html#lesson-objectives",
+    "href": "lessons/37-AI-ethics.html#lesson-objectives",
+    "title": "AI and Ethics",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nFind the ethical implications of AI\nDiscuss the importance of doing the right thing\nIdentify the potential consequences of AI systems"
+  },
+  {
+    "objectID": "lessons/34-AI-data.html#announcements",
+    "href": "lessons/34-AI-data.html#announcements",
+    "title": "AI and Data",
+    "section": "Announcements",
+    "text": "Announcements"
+  },
+  {
+    "objectID": "lessons/34-AI-data.html#lesson-objectives",
+    "href": "lessons/34-AI-data.html#lesson-objectives",
+    "title": "AI and Data",
+    "section": "Lesson Objectives",
+    "text": "Lesson Objectives\n\nDefine artificial intelligence (AI)\nExplain the difference between AI and machine learning (ML)\nDescribe the types of machine learning\nIdentify the components of a neural network\nDiscuss the implications of AI"
+  },
+  {
+    "objectID": "lessons/34-AI-data.html#ai-vs-ml",
+    "href": "lessons/34-AI-data.html#ai-vs-ml",
+    "title": "AI and Data",
+    "section": "AI vs ML",
+    "text": "AI vs ML\n\nArtificial intelligence (AI)\n\nThe ability of a machine to perform tasks that typically require human intelligence\n\nMachine learning (ML)\n\nA subset of AI that uses algorithms to learn from data and make predictions"
+  },
+  {
+    "objectID": "lessons/34-AI-data.html#types-of-machine-learning",
+    "href": "lessons/34-AI-data.html#types-of-machine-learning",
+    "title": "AI and Data",
+    "section": "Types of Machine Learning",
+    "text": "Types of Machine Learning\n\nSupervised machine learning\n\nAnalyzes labeled data and identifies patterns\nMaps input data to an output label\n\nReinforcement learning\n\nPerforms actions that it expects will be rewarded\nOften used by game-playing AI or navigational robots\n\nUnsupervised machine learning\n\nFinds patterns in unlabeled data\nIdentifies similarities and clusters data\n\n\n\n\nSupervised machine learning: The algorithm analyzes labeled data and learns how to map input data to an output label. Often used for classification and prediction.\nReinforcement learning: The algorithm performs actions that it expects will be rewarded in some environment (often simulated, at least to start). Note here there is a much less defined “right answer”, even for past examples! Often used by game-playing AI or navigational robots.\nUnsupervised machine learning: The algorithm finds patterns in unlabeled data by clustering and identifying similarities. Popular uses include recommendation systems and targeted advertising."
+  },
+  {
+    "objectID": "lessons/34-AI-data.html#neural-networks",
+    "href": "lessons/34-AI-data.html#neural-networks",
+    "title": "AI and Data",
+    "section": "Neural Networks",
+    "text": "Neural Networks"
+  },
+  {
+    "objectID": "lessons/34-AI-data.html#artificial-general-intelligence",
+    "href": "lessons/34-AI-data.html#artificial-general-intelligence",
+    "title": "AI and Data",
+    "section": "Artificial General Intelligence",
+    "text": "Artificial General Intelligence\n\nability of a machine to perform any intellectual task that a human can do\nnot yet achieved!!\n\nHow long until we get there?"
+  },
+  {
+    "objectID": "lessons/34-AI-data.html#what-is-next",
+    "href": "lessons/34-AI-data.html#what-is-next",
+    "title": "AI and Data",
+    "section": "What is next?",
+    "text": "What is next?\n\nWhat are the implications of AI?\nHow will AI change our world?\nWhat are the ethical considerations?\nHow can we ensure AI is used responsibly?"
   },
   {
     "objectID": "lessons/18-robotics.html#announcements",

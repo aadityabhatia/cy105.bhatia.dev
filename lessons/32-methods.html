@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="CPT Sonny Bhatia">
-  <title>CY105 – Data and Ethics</title>
+  <title>CY105 – List and String Methods</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="../slides.css">
@@ -322,18 +387,18 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Data and Ethics – CY105">
-<meta property="og:description" content="You are being watched! 👀">
-<meta property="og:image" content="https://cy105.bhatia.dev//images/25/25.webp">
+<meta property="og:title" content="List and String Methods – CY105">
+<meta property="og:description" content="Operating directly on data types">
+<meta property="og:image" content="https://cy105.bhatia.dev//images/32/32.webp">
 <meta property="og:site_name" content="CY105">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../images/25/25.webp" data-background-opacity="0.3" class="quarto-title-block center">
-  <h1 class="title">Data and Ethics</h1>
-  <p class="subtitle">Privacy and Security in Cyberspace</p>
+<section id="title-slide" data-background-image="../images/32/32.webp" data-background-opacity="0.3" class="quarto-title-block center">
+  <h1 class="title">List and String Methods</h1>
+  <p class="subtitle">Operating directly on data types</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -343,208 +408,64 @@ CPT Sonny Bhatia
 </div>
 </div>
 
-  <p class="date">Friday, October 25, 2024</p>
+  <p class="date">Friday, November 15, 2024</p>
 </section>
-<section id="digital-footprint-audit" class="slide level2 center" data-background-image="../images/25/25.webp" data-background-opacity="0.1">
-<h2>Digital Footprint Audit</h2>
-<ul>
-<li>What surprised you the most?</li>
-<li>What changes will you make to your online behavior?</li>
-</ul>
+<section class="slide level2 center">
+
+<!-- ## Discussion! {timing=240 data-background-image="/images/32/32.webp" data-background-opacity="0.3"} -->
 </section>
-<section id="announcements" class="slide level2 center" data-background-image="../images/25/25.webp" data-background-opacity="0.1">
+<section id="announcements" class="slide level2 center" data-background-image="../images/32/32.webp" data-background-opacity="0.2">
 <h2>Announcements</h2>
-<ul>
-<li>Weekly Problem Set 7 due 03NOV</li>
-<li><a href="https://westpoint.instructure.com/courses/7068/assignments/160503">AI Summative Project Proposal</a> due 12NOV</li>
-</ul>
 
 <img data-src="../images/agenda-block-3.png" class="r-stretch"></section>
-<section id="lesson-objectives" class="slide level2 center" data-background-image="../images/25/25.webp" data-background-opacity="0.1">
+<section id="lesson-objectives" class="slide level2 center" data-background-image="../images/32/32.webp" data-background-opacity="0.1">
 <h2>Lesson Objectives</h2>
 <ul>
-<li>Discuss how users leave footprints online
-<ul>
-<li>and how the Internet does not provide true anonymity!</li>
-</ul></li>
-<li>Define what a social network is.
-<ul>
-<li>Why it is important to limit the amount of information shared.</li>
-<li>How to limit the amount of information shared.</li>
-</ul></li>
-<li>Describe cookies and how they are used by web servers.</li>
-<li>Identify and define other common web-tracking mechanisms
-<ul>
-<li>and to what extent each can be restricted or mitigated.</li>
-</ul></li>
+<li>Understand the concept of methods</li>
+<li>Learn how to use methods with strings and lists</li>
+<li>Practice using methods in Python</li>
 </ul>
 </section>
-<section id="case-studies" class="slide level2 center" data-timing="600" data-background-image="../images/25/25.webp" data-background-opacity="0.1">
-<h2>Case Studies</h2>
-<ol type="1">
-<li><a href="https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/">Inside the “3 Billion People” National Public Data Breach (2024)</a></li>
-<li><a href="https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/">The Global Surveillance Free-for-All in Mobile Ad Data (2024)</a></li>
-<li><a href="https://www.popularmechanics.com/technology/apps/a15912407/strava-app-military-bases-fitbit-jogging/">U.S. Troops Accidentally Reveal Secret Bases by Going Jogging (2018)</a></li>
-<li><a href="https://www.technologyreview.com/2023/11/06/1083002/sensitive-data-about-us-military-personnel-data-brokers/">Buying sensitive data about US military personnel (2023)</a></li>
-<li><a href="https://nypost.com/2023/03/30/russian-army-wives-tricked-into-exposing-identities-of-pilots-behind-civilian-attacks/">Russian army wives tricked into exposing identities of pilots (2023)</a></li>
-<li><a href="https://www.buzzfeednews.com/article/emilybakerwhite/tiktok-tapes-us-user-data-china-bytedance-access">TikTok tapes US user data to China (2022)</a></li>
-<li><a href="https://www.washingtonpost.com/technology/2023/10/06/23andme-hacked-data/">Genetic tester 23andMe’s hacked data on Jewish users offered for sale online (2023)</a></li>
-<li><a href="https://arstechnica.com/tech-policy/2024/02/vending-machine-error-reveals-secret-face-image-database-of-college-students/">Vending Machine Error Reveals Secret Face Image Database of College Students (2024)</a></li>
-</ol>
-<aside class="notes">
-<p>Discussion Questions</p>
+<section id="methods" class="slide level2 center">
+<h2>Methods</h2>
 <ul>
-<li>What went wrong?</li>
-<li>Who is to blame?</li>
-<li>What are the consequences?</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="what-is-a-tracker" class="slide level2 center">
-<h2>What is a tracker?</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<ul>
-<li>Script that runs on a website or phone app</li>
-<li>Collects data about your activity</li>
-<li>Sends data to third parties</li>
-<li>Used for analytics</li>
-<li>Results in targeted advertising</li>
-</ul>
-</div><div class="column" style="width:60%;">
-<p><img data-src="https://i.redd.it/76e8w1j8oxj61.jpg"></p>
-</div></div>
-</section>
-<section id="cookies" class="slide level2 center" data-timing="180">
-<h2>Cookies</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<ul>
-<li>Web servers store small text files on your computer</li>
-<li>Sent back to server with every HTTP request</li>
-<li>Used to maintain session, login, and preferences
-<ul>
-<li>If you delete cookies, you get logged out</li>
-<li><a href="https://en.wikipedia.org/wiki/Firesheep">Can someone steal your cookies?</a></li>
-</ul></li>
-<li>Can also be used to track you across websites
-<ul>
-<li>Sites can share cookies!</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:30%;">
-<p><img data-src="https://static.vecteezy.com/system/resources/previews/035/535/908/original/browser-cookie-3d-illustration-icon-png.png"></p>
-</div></div>
-<h3 id="find-cookies-in-your-browser">Find cookies in your browser!</h3>
-<ul>
-<li>Press <code>F12</code> to open Developer Tools</li>
-<li>Go to <code>Application</code> or <code>Storage</code> tab and look for <code>Cookies</code></li>
-</ul>
-<aside class="notes">
-<ul>
-<li>Allows you to get back in</li>
-<li>Erase the stamp, you need to pay again</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="browser-fingerprinting" class="slide level2 center" data-timing="180">
-<h2><a href="https://amiunique.org/">Browser Fingerprinting</a></h2>
-
-<img data-src="https://static.tildacdn.com/tild6333-6466-4537-b439-666133633636/01__illustration_fin.png" style="width:100.0%" class="r-stretch"><aside class="notes">
-<ul>
-<li>What if you block cookies and switch to private browsing?</li>
-<li>Lots of things make your setup unique</li>
-<li>Click the link to find out!</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="how-much-tracking" class="slide level2 smaller center" data-timing="600" data-background-image="../images/25/25.webp" data-background-opacity="0.1">
-<h2>How much tracking?</h2>
-<h3 id="use-one-of-the-following-tools">Use one of the following tools</h3>
-<ol type="1">
-<li><a href="https://coveryourtracks.eff.org/">Privacy Test</a></li>
-<li><a href="https://themarkup.org/blacklight">Blacklight: A Real-Time Website Privacy Inspector</a></li>
-<li>Firefox with <a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop">Enhanced Tracking Protection</a></li>
-</ol>
-<h3 id="visit-a-popular-website-news-social-media-and-find-out-">Visit a popular website (news, social media) and find out-</h3>
-<ul>
-<li>How many trackers? Which ones?</li>
-<li>How many third-party cookies? Which ones?</li>
-<li>Can any of these trackers evade cookie blockers?</li>
-<li>Does the website track your keystrokes or mouse movements?</li>
-<li>Is this information shared with Facebook? Google?</li>
+<li>functions that operate on a specific data type</li>
+<li>accessed using the dot operator, e.g.&nbsp;<code>mystring.count("a")</code></li>
+<li>similar to modules, but associated with a value</li>
 </ul>
 </section>
-<section id="social-media" class="slide level2 center" data-timing="180">
-<h2>Social Media</h2>
+<section id="ice-string-methods" class="slide level2 center" data-timing="300">
+<h2>ICE: String Methods</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>bigstring <span class="op">=</span> <span class="st">"supercalifragilisticespialidocious"</span></span>
+<span id="cb1-2"><a></a>bigstring.count(<span class="st">"li"</span>)</span>
+<span id="cb1-3"><a></a>bigstring.find(<span class="st">"li"</span>)</span>
+<span id="cb1-4"><a></a><span class="co">"super"</span> <span class="kw">in</span> bigstring</span>
+<span id="cb1-5"><a></a><span class="co">"fragile"</span> <span class="kw">in</span> bigstring</span>
+<span id="cb1-6"><a></a>bigstring.replace(<span class="st">"li"</span>, <span class="st">"LI"</span>)</span>
+<span id="cb1-7"><a></a>bigstring.upper()</span>
+<span id="cb1-8"><a></a>bigstring</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>How much does it cost to run a social media platform?</li>
-<li>How do they make money?</li>
-<li>Who owns the data you upload?</li>
-<li>What can they do with it?</li>
-<li>What are the risks?</li>
+<li>Use <a href="https://pyodide.org/en/stable/console.html">REPL</a> or a <a href="https://marimo.new/">notebook</a> to try these out!</li>
+<li>Read each line and predict the output, and then run it to check your answer.</li>
+<li>What was the last line’s result? Did you expect that?</li>
 </ul>
 </section>
-<section id="anonymized-data" class="slide level2 center" data-timing="180">
-<h2>Anonymized Data</h2>
+<section id="ice-list-methods" class="slide level2 center" data-timing="300">
+<h2>ICE: List Methods</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>mylist <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<span id="cb2-2"><a></a>mylist.append(<span class="dv">6</span>)</span>
+<span id="cb2-3"><a></a>mylist</span>
+<span id="cb2-4"><a></a>mylist.pop()</span>
+<span id="cb2-5"><a></a>mylist</span>
+<span id="cb2-6"><a></a>mylist.insert(<span class="dv">2</span>, <span class="dv">7</span>)</span>
+<span id="cb2-7"><a></a>mylist</span>
+<span id="cb2-8"><a></a>mylist.remove(<span class="dv">7</span>)</span>
+<span id="cb2-9"><a></a>mylist</span>
+<span id="cb2-10"><a></a>mylist.reverse()</span>
+<span id="cb2-11"><a></a>mylist</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>Can data be truly anonymized?</li>
-<li>What about medical records with names removed?</li>
-<li>What about DNA data?
-<ul>
-<li>23andMe hack</li>
-</ul></li>
-</ul>
-</section>
-<section id="ethics-debate" class="slide level2 center" data-timing="900" data-background-image="../images/25/25.webp" data-background-opacity="0.1">
-<h2>Ethics Debate</h2>
-<ol type="1">
-<li>Signals intelligence, such as that <a href="https://www.nsa.gov/Signals-Intelligence/Overview/">produced by the NSA</a>, should be abolished.</li>
-<li>Elementary school students should be allowed to use social media.</li>
-<li>Individuals should have the <a href="https://en.wikipedia.org/wiki/Right_to_be_forgotten">right to be forgotten</a> by internet searches.</li>
-</ol>
-</section>
-<section id="what-next" class="slide level2 center">
-<h2>What next?</h2>
-<ul>
-<li><a href="https://www.mozilla.org/en-US/firefox/">Firefox</a> - privacy-focused browser</li>
-<li><a href="https://duckduckgo.com/privacy">DuckDuckGo</a> - privacy-focused search engine</li>
-<li><a href="https://haveibeenpwned.com/">haveibeenpwned.com</a> - check if your information has been compromised</li>
-<li><a href="https://nextdns.io/">NextDNS</a> - DNS-based tracker blocker</li>
-<li><a href="https://www.privacyguides.org/">Privacy Guides</a></li>
-<li><a href="https://www.privacytools.io/">PrivacyTools</a></li>
-<li><a href="https://www.netflix.com/title/81254224">The Social Dilemma (2020)</a> - documentary on social media</li>
-<li><a href="https://www.netflix.com/title/80117542">The Great Hack (2019)</a> - documentary on Cambridge Analytica scandal</li>
+<li>Use <a href="https://pyodide.org/en/stable/console.html">REPL</a> or a <a href="https://marimo.new/">notebook</a> to try these out!</li>
+<li>Read each line and predict the output, and then run it to check your answer.</li>
 </ul>
 
 <div class="quarto-auto-generated-content">
@@ -587,7 +508,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"a0ea16460444112b","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"592646de4bf7407a","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner

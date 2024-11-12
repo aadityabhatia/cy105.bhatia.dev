@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="CPT Sonny Bhatia">
-  <title>CY105 – Data and Ethics</title>
+  <title>CY105 – AI and Data</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -322,18 +322,17 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Data and Ethics – CY105">
-<meta property="og:description" content="You are being watched! 👀">
-<meta property="og:image" content="https://cy105.bhatia.dev//images/25/25.webp">
+<meta property="og:title" content="AI and Data – CY105">
+<meta property="og:description" content="How AI systems are created">
+<meta property="og:image" content="https://cy105.bhatia.dev//images/34/34.webp">
 <meta property="og:site_name" content="CY105">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../images/25/25.webp" data-background-opacity="0.3" class="quarto-title-block center">
-  <h1 class="title">Data and Ethics</h1>
-  <p class="subtitle">Privacy and Security in Cyberspace</p>
+<section id="title-slide" data-background-image="../images/34/34.webp" data-background-opacity="0.3" class="quarto-title-block center">
+  <h1 class="title">AI and Data</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -343,60 +342,63 @@ CPT Sonny Bhatia
 </div>
 </div>
 
-  <p class="date">Friday, October 25, 2024</p>
+  <p class="date">Thursday, November 21, 2024</p>
 </section>
-<section id="digital-footprint-audit" class="slide level2 center" data-background-image="../images/25/25.webp" data-background-opacity="0.1">
-<h2>Digital Footprint Audit</h2>
-<ul>
-<li>What surprised you the most?</li>
-<li>What changes will you make to your online behavior?</li>
-</ul>
+<section class="slide level2 center">
+
+<!-- ## Discussion! {timing=240 data-background-image="/images/34/34.webp" data-background-opacity="0.3"} -->
 </section>
-<section id="announcements" class="slide level2 center" data-background-image="../images/25/25.webp" data-background-opacity="0.1">
+<section id="announcements" class="slide level2 center" data-background-image="../images/34/34.webp" data-background-opacity="0.2">
 <h2>Announcements</h2>
-<ul>
-<li>Weekly Problem Set 7 due 03NOV</li>
-<li><a href="https://westpoint.instructure.com/courses/7068/assignments/160503">AI Summative Project Proposal</a> due 12NOV</li>
-</ul>
 
 <img data-src="../images/agenda-block-3.png" class="r-stretch"></section>
-<section id="lesson-objectives" class="slide level2 center" data-background-image="../images/25/25.webp" data-background-opacity="0.1">
+<section id="lesson-objectives" class="slide level2 center" data-background-image="../images/34/34.webp" data-background-opacity="0.1">
 <h2>Lesson Objectives</h2>
 <ul>
-<li>Discuss how users leave footprints online
+<li>Define artificial intelligence (AI)</li>
+<li>Explain the difference between AI and machine learning (ML)</li>
+<li>Describe the types of machine learning</li>
+<li>Identify the components of a neural network</li>
+<li>Discuss the implications of AI</li>
+</ul>
+</section>
+<section id="ai-vs-ml" class="slide level2 center">
+<h2>AI vs ML</h2>
 <ul>
-<li>and how the Internet does not provide true anonymity!</li>
+<li>Artificial intelligence (AI)
+<ul>
+<li>The ability of a machine to perform tasks that typically require human intelligence</li>
 </ul></li>
-<li>Define what a social network is.
+<li>Machine learning (ML)
 <ul>
-<li>Why it is important to limit the amount of information shared.</li>
-<li>How to limit the amount of information shared.</li>
-</ul></li>
-<li>Describe cookies and how they are used by web servers.</li>
-<li>Identify and define other common web-tracking mechanisms
-<ul>
-<li>and to what extent each can be restricted or mitigated.</li>
+<li>A subset of AI that uses algorithms to learn from data and make predictions</li>
 </ul></li>
 </ul>
 </section>
-<section id="case-studies" class="slide level2 center" data-timing="600" data-background-image="../images/25/25.webp" data-background-opacity="0.1">
-<h2>Case Studies</h2>
-<ol type="1">
-<li><a href="https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/">Inside the “3 Billion People” National Public Data Breach (2024)</a></li>
-<li><a href="https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/">The Global Surveillance Free-for-All in Mobile Ad Data (2024)</a></li>
-<li><a href="https://www.popularmechanics.com/technology/apps/a15912407/strava-app-military-bases-fitbit-jogging/">U.S. Troops Accidentally Reveal Secret Bases by Going Jogging (2018)</a></li>
-<li><a href="https://www.technologyreview.com/2023/11/06/1083002/sensitive-data-about-us-military-personnel-data-brokers/">Buying sensitive data about US military personnel (2023)</a></li>
-<li><a href="https://nypost.com/2023/03/30/russian-army-wives-tricked-into-exposing-identities-of-pilots-behind-civilian-attacks/">Russian army wives tricked into exposing identities of pilots (2023)</a></li>
-<li><a href="https://www.buzzfeednews.com/article/emilybakerwhite/tiktok-tapes-us-user-data-china-bytedance-access">TikTok tapes US user data to China (2022)</a></li>
-<li><a href="https://www.washingtonpost.com/technology/2023/10/06/23andme-hacked-data/">Genetic tester 23andMe’s hacked data on Jewish users offered for sale online (2023)</a></li>
-<li><a href="https://arstechnica.com/tech-policy/2024/02/vending-machine-error-reveals-secret-face-image-database-of-college-students/">Vending Machine Error Reveals Secret Face Image Database of College Students (2024)</a></li>
-</ol>
-<aside class="notes">
-<p>Discussion Questions</p>
+<section id="types-of-machine-learning" class="slide level2 center">
+<h2>Types of Machine Learning</h2>
 <ul>
-<li>What went wrong?</li>
-<li>Who is to blame?</li>
-<li>What are the consequences?</li>
+<li>Supervised machine learning
+<ul>
+<li>Analyzes labeled data and identifies patterns</li>
+<li>Maps input data to an output label</li>
+</ul></li>
+<li>Reinforcement learning
+<ul>
+<li>Performs actions that it expects will be rewarded</li>
+<li>Often used by game-playing AI or navigational robots</li>
+</ul></li>
+<li>Unsupervised machine learning
+<ul>
+<li>Finds patterns in unlabeled data</li>
+<li>Identifies similarities and clusters data</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<ul>
+<li>Supervised machine learning: The algorithm analyzes labeled data and learns how to map input data to an output label. Often used for classification and prediction.</li>
+<li>Reinforcement learning: The algorithm performs actions that it expects will be rewarded in some environment (often simulated, at least to start). Note here there is a much less defined “right answer”, even for past examples! Often used by game-playing AI or navigational robots.</li>
+<li>Unsupervised machine learning: The algorithm finds patterns in unlabeled data by clustering and identifying similarities. Popular uses include recommendation systems and targeted advertising.</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -410,142 +412,39 @@ CPT Sonny Bhatia
           display:block!important;
       }</style></aside>
 </section>
-<section id="what-is-a-tracker" class="slide level2 center">
-<h2>What is a tracker?</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<ul>
-<li>Script that runs on a website or phone app</li>
-<li>Collects data about your activity</li>
-<li>Sends data to third parties</li>
-<li>Used for analytics</li>
-<li>Results in targeted advertising</li>
-</ul>
-</div><div class="column" style="width:60%;">
-<p><img data-src="https://i.redd.it/76e8w1j8oxj61.jpg"></p>
-</div></div>
-</section>
-<section id="cookies" class="slide level2 center" data-timing="180">
-<h2>Cookies</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<ul>
-<li>Web servers store small text files on your computer</li>
-<li>Sent back to server with every HTTP request</li>
-<li>Used to maintain session, login, and preferences
-<ul>
-<li>If you delete cookies, you get logged out</li>
-<li><a href="https://en.wikipedia.org/wiki/Firesheep">Can someone steal your cookies?</a></li>
-</ul></li>
-<li>Can also be used to track you across websites
-<ul>
-<li>Sites can share cookies!</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:30%;">
-<p><img data-src="https://static.vecteezy.com/system/resources/previews/035/535/908/original/browser-cookie-3d-illustration-icon-png.png"></p>
-</div></div>
-<h3 id="find-cookies-in-your-browser">Find cookies in your browser!</h3>
-<ul>
-<li>Press <code>F12</code> to open Developer Tools</li>
-<li>Go to <code>Application</code> or <code>Storage</code> tab and look for <code>Cookies</code></li>
-</ul>
-<aside class="notes">
-<ul>
-<li>Allows you to get back in</li>
-<li>Erase the stamp, you need to pay again</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="browser-fingerprinting" class="slide level2 center" data-timing="180">
-<h2><a href="https://amiunique.org/">Browser Fingerprinting</a></h2>
+<section id="neural-networks" class="slide level2 center">
+<h2>Neural Networks</h2>
 
-<img data-src="https://static.tildacdn.com/tild6333-6466-4537-b439-666133633636/01__illustration_fin.png" style="width:100.0%" class="r-stretch"><aside class="notes">
+<img data-src="https://instructor-uploaded-content.s3.amazonaws.com/neural+networks.svg-2016453" class="r-stretch"></section>
+<section id="artificial-general-intelligence" class="slide level2 center">
+<h2>Artificial General Intelligence</h2>
 <ul>
-<li>What if you block cookies and switch to private browsing?</li>
-<li>Lots of things make your setup unique</li>
-<li>Click the link to find out!</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="how-much-tracking" class="slide level2 smaller center" data-timing="600" data-background-image="../images/25/25.webp" data-background-opacity="0.1">
-<h2>How much tracking?</h2>
-<h3 id="use-one-of-the-following-tools">Use one of the following tools</h3>
-<ol type="1">
-<li><a href="https://coveryourtracks.eff.org/">Privacy Test</a></li>
-<li><a href="https://themarkup.org/blacklight">Blacklight: A Real-Time Website Privacy Inspector</a></li>
-<li>Firefox with <a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop">Enhanced Tracking Protection</a></li>
-</ol>
-<h3 id="visit-a-popular-website-news-social-media-and-find-out-">Visit a popular website (news, social media) and find out-</h3>
+<li>ability of a machine to perform any intellectual task that a human can do</li>
+<li>not yet achieved!!
 <ul>
-<li>How many trackers? Which ones?</li>
-<li>How many third-party cookies? Which ones?</li>
-<li>Can any of these trackers evade cookie blockers?</li>
-<li>Does the website track your keystrokes or mouse movements?</li>
-<li>Is this information shared with Facebook? Google?</li>
-</ul>
-</section>
-<section id="social-media" class="slide level2 center" data-timing="180">
-<h2>Social Media</h2>
-<ul>
-<li>How much does it cost to run a social media platform?</li>
-<li>How do they make money?</li>
-<li>Who owns the data you upload?</li>
-<li>What can they do with it?</li>
-<li>What are the risks?</li>
-</ul>
-</section>
-<section id="anonymized-data" class="slide level2 center" data-timing="180">
-<h2>Anonymized Data</h2>
-<ul>
-<li>Can data be truly anonymized?</li>
-<li>What about medical records with names removed?</li>
-<li>What about DNA data?
-<ul>
-<li>23andMe hack</li>
+<li>How long until we get there?</li>
 </ul></li>
 </ul>
 </section>
-<section id="ethics-debate" class="slide level2 center" data-timing="900" data-background-image="../images/25/25.webp" data-background-opacity="0.1">
-<h2>Ethics Debate</h2>
-<ol type="1">
-<li>Signals intelligence, such as that <a href="https://www.nsa.gov/Signals-Intelligence/Overview/">produced by the NSA</a>, should be abolished.</li>
-<li>Elementary school students should be allowed to use social media.</li>
-<li>Individuals should have the <a href="https://en.wikipedia.org/wiki/Right_to_be_forgotten">right to be forgotten</a> by internet searches.</li>
-</ol>
-</section>
-<section id="what-next" class="slide level2 center">
-<h2>What next?</h2>
+<section id="what-is-next" class="slide level2 center">
+<h2>What is next?</h2>
 <ul>
-<li><a href="https://www.mozilla.org/en-US/firefox/">Firefox</a> - privacy-focused browser</li>
-<li><a href="https://duckduckgo.com/privacy">DuckDuckGo</a> - privacy-focused search engine</li>
-<li><a href="https://haveibeenpwned.com/">haveibeenpwned.com</a> - check if your information has been compromised</li>
-<li><a href="https://nextdns.io/">NextDNS</a> - DNS-based tracker blocker</li>
-<li><a href="https://www.privacyguides.org/">Privacy Guides</a></li>
-<li><a href="https://www.privacytools.io/">PrivacyTools</a></li>
-<li><a href="https://www.netflix.com/title/81254224">The Social Dilemma (2020)</a> - documentary on social media</li>
-<li><a href="https://www.netflix.com/title/80117542">The Great Hack (2019)</a> - documentary on Cambridge Analytica scandal</li>
+<li>What are the implications of AI?</li>
+<li>How will AI change our world?</li>
+<li>What are the ethical considerations?</li>
+<li>How can we ensure AI is used responsibly?</li>
 </ul>
+<!-- Computers and artificial intelligence have changed our world immensely, but we are still at the early stages of this history. Because this technology feels so familiar, it is easy to forget that all of these technologies that we interact with are very recent innovations, and that most profound changes are yet to come.
+
+Artificial intelligence has already changed what we see, what we know, and what we do. And this is despite the fact that this technology has had only a brief history.
+
+There are no signs that these trends are hitting any limits anytime soon. To the contrary, particularly over the course of the last decade, the fundamental trends have accelerated: investments in AI technology have rapidly increased, and the doubling time of training computation has shortened to just six months.
+
+All major technological innovations lead to a range of positive and negative consequences. This is already true of artificial intelligence. As this technology becomes more and more powerful, we should expect its impact to become greater still.
+
+Because of the importance of AI, we should all be able to form an opinion on where this technology is heading and to understand how this development is changing our world. For this purpose, we are building a repository of AI-related metrics, which you can find on OurWorldinData.org/artificial-intelligence.
+
+We are still in the early stages of this history and much of what will become possible is yet to come. A technological development as powerful as this should be at the center of our attention. Little might be as important for how the future of our world – and the future of our lives – will play out. -->
 
 <div class="quarto-auto-generated-content">
 <p><img src="../images/wp_crest_new_only.png" class="slide-logo"></p>
@@ -587,7 +486,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"a0ea16460444112b","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"d41cd9eb2d17ba82","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
