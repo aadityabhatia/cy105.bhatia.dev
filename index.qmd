@@ -18,15 +18,13 @@ listing:
 
 This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain.
 
-
 ## How to get better at CY105?
 
 1. Complete [zyBook](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024) required readings.
 1. Attempt [zyBook](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024) practice ICEs going back to the chapter that you do not fully grasp.
 1. Seek assistance. Email me or book additional instruction.
 
-Your success in this course is directly proportional to the number of programming problems that you successfully solve without assistance.
-
+Your success in any course depends on how many problems you successfully solve without assistance.
 
 ## Additional Instruction
 
@@ -53,7 +51,6 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 ::: {#lessons}
 :::
 
-
 ## Course Objectives
 
 1. Examine _legal, ethical, professional, and security issues_ associated with the cyber domain.
@@ -62,8 +59,8 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 1. Describe _how data flows from data sources_ across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.
 1. Describe and explore the _opportunities and challenges presented by artificial intelligence_ in the modern world.
 
-
 ## Course Material
+
 - [Canvas](https://westpoint.instructure.com/courses/7068)
 - [zyBook](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/)
 - [Programming References on Canvas](https://westpoint.instructure.com/courses/7068/pages/programming-references)
@@ -74,6 +71,7 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
     - [Circuit Playground Bluefruit](https://www.adafruit.com/product/4333) - no discount but easier to order
 
 ## Documentation and Tutorials
+
 - [DevDocs.io](https://devdocs.io/python~3.12/)
 - [Python Notes for Professionals](https://goalkicker.com/PythonBook/)
 - [Official Python Documentation](https://docs.python.org/)
@@ -83,6 +81,7 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 - [Khan Academy: Intro to Python Fundamentals](https://www.khanacademy.org/computing/intro-to-python-fundamentals)
 
 ## Developer Tools
+
 - [Marimo](https://marimo.app/) reactive notebook for Python
 - [diff Check](https://diffcheck.io/) - compare text side-by-side; great for comparing expected and actual output
 - [Pyodide](https://pyodide.org/en/stable/console.html) - in-browser REPL
@@ -93,32 +92,77 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 - [Visual Studio Code](https://code.visualstudio.com/) - development environment for grown-ups
 - [Notepad++](https://notepad-plus-plus.org/) - lightweight text editor
 
-## AI Summative Project Ideas
+## AI Summative Project
 
+### Ideas
+
+- [Make It Yourself](https://makeityourself.org/) - A Beautifully Illustrated Guide to Making
 - [Hackaday](https://hackaday.com/)
 - [Hacker News: Show](https://news.ycombinator.com/show)
 - [Example Projects [Canvas]](https://westpoint.instructure.com/courses/7068/files/1911864/download)
 - [Text-based adventure game [zybook]](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/17/section/1)
 - [zork-py](https://github.com/iamjawa/zork-py) library for Python
-- [Using Bluetooth (BLE) with Circuit Playground Bluefruit](https://github.com/adafruit/Adafruit_CircuitPython_BLE_Radio)
+- [Kaggle Data Science Notebook](https://www.kaggle.com/code/ldfreeman3/a-data-science-framework-to-achieve-99-accuracy#Step-4:-Perform-Exploratory-Analysis-with-Statistics)
 - Circuit Playground Bluefruit: Puzzle Box, Escape Room, etc.
+    - [Fruit Piano](https://www.youtube.com/embed/UibfAZb1Xwo)
 
-## Random, Interesting Material
+### Tools and Resources
+
+- [tldraw makereal](https://makereal.tldraw.com/) - bring your application sketches to life! - [watch demo](https://www.youtube.com/embed/Ov2N2fd6Xm4)
+- Develop applications that use AI at runtime-
+    - [OpenAI API](https://platform.openai.com/) - message them for API credits as a student researcher
+    - [Anthropic API](https://console.anthropic.com/) - free limited API access
+    - [Streamlit](https://streamlit.io/) - hosting platform to turn data scripts into shareable web apps using Python
+- [Deepnote](https://deepnote.com/) - interactive web applications in Python
+- [Marimo](https://marimo.io/) - interactive web applications in Python
+- [GitHub pages](https://pages.github.com/) - host your websites and JavaScript applications for free
+- [Visual Studio Code](https://code.visualstudio.com/) - development environment for grown-ups
+    - [Github CoPilot](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer) - AI-powered code completion on steroids; free for students
+    - [Serial Monitor extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-serial-monitor) - interface with your microcontroller from within VSCode
+- [Using Bluetooth (BLE) with Circuit Playground Bluefruit](https://github.com/adafruit/Adafruit_CircuitPython_BLE_Radio)
+
+## Awesome Links and Resources
 
 ### Computing and Technology
 
+- [Hackaday](https://hackaday.com/)
 - [Hide and Seek!](https://www.youtube.com/embed/Lu56xVlZ40M)
 - [Can ChatGPT be wrong?](https://chatgpt.com/share/a329b032-7e1d-4568-be40-9227de866a8b)
-- [Seating chart generator](https://gist.github.com/aadityabhatia/86077fea4ccd353bfb017df733a70d19)
-- [Hackaday](https://hackaday.com/)
-- [arrr](https://arrr.readthedocs.io/) - Pirate module!
 - [What is Python](https://www.youtube.com/embed/x7X9w_GIm1s)
+- [arrr](https://arrr.readthedocs.io/) - Pirate module for Python
 - [Where really is the Internet?](https://www.youtube.com/embed/Ve810FHZ1CQ)
+- [Seating chart generator](https://gist.github.com/aadityabhatia/86077fea4ccd353bfb017df733a70d19)
 - [Vortex Cannon vs Drone](https://www.youtube.com/embed/SrGENEXocJU)
 
 ### Cyber, Security, and Privacy
 
+#### Learning Resources
 - [Building a home lab](https://aj-labz.gitbook.io/aj-labz)
+- [USASOC Smart Cards](https://www.soc.mil/IdM/publications/IdMpubs.html)
+- [Terms of Service; Didn't Read](https://tosdr.org/)
+
+####  Tracker, Ad-blockers, and Malware Protection
+- [Cloudflare for Families](https://blog.cloudflare.com/introducing-1-1-1-1-for-families/) - DNS-based tracker and adult content blocker
+- [Pi-hole](https://pi-hole.net/) - network-wide DNS-based ad blocker
+- [pfSense](https://www.pfsense.org/) - open-source firewall
+- [NextDNS](https://nextdns.io/) - DNS-based tracker blocker
+
+####  Self-hosted services, tools, networks
+- [Tailscale](https://tailscale.com/) - mesh networking (personal VPN) for your devices
+- [Syncthing](https://syncthing.net/) - file synchronization across devices
+- [Nextcloud](https://nextcloud.com/) - self-hosted cloud storage, calendar, contacts, [RSS feed reader](https://en.wikipedia.org/wiki/RSS)
+- [Gitea](https://gitea.io/) - self-hosted Git service, replacement for GitHub
+- [Bitwarden](https://bitwarden.com/) - self-hosted password manager
+- [Jitsi](https://jitsi.org/) - self-hosted video conferencing
+- [Mattermost](https://mattermost.com/) - self-hosted Slack alternative
+
+#### Messaging, Email, Communication
+- [Signal Messenger](https://signal.org/) - non-profit, encrypted messaging, voice, and video calls
+- [ProtonMail](https://protonmail.com/) - encrypted email
+- [Element](https://element.io/) - encrypted chat, video, and voice calls based on [Matrix](https://matrix.org/) protocol; can run your own server
+- [PGP Encryption](https://www.privacytools.io/encryption-tools/pgp/gpg/)
+
+#### News, Articles, Documentaries
 - [Flipper Zero](https://www.youtube.com/embed/nLIp4wd0oXs)
     - [Meanwhile, in Canada...](https://arstechnica.com/security/2024/02/canada-vows-to-ban-flipper-zero-device-in-crackdown-on-car-theft/)
 - [Inside the "3 Billion People" National Public Data Breach](https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/)
@@ -127,18 +171,21 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 - [The Social Dilemma (2020)](https://www.netflix.com/title/81254224) - documentary on social media
 - [The Great Hack (2019)](https://www.netflix.com/title/80117542) - documentary on Cambridge Analytica scandal
 
-
 #### What can you do?
-- [haveibeenpwned.com](https://haveibeenpwned.com/)
+- [haveibeenpwned.com](https://haveibeenpwned.com/) - subscribe to breach notifications
+- [Mozilla Monitor](https://monitor.mozilla.org/) - find and fix data exposures
 - [Firefox](https://www.mozilla.org/en-US/firefox/) - privacy-focused browser
 - [DuckDuckGo](https://duckduckgo.com/privacy) - privacy-focused search engine
-- [Cover Your Tracks](https://coveryourtracks.eff.org/)
+- [Cover Your Tracks](https://coveryourtracks.eff.org/) - browser fingerprinting test
 - [NextDNS](https://nextdns.io/) - DNS-based tracker blocker
     - or self-host [Pi-hole](https://pi-hole.net/)
-- [Privacy Guides](https://www.privacyguides.org/)
-- [PrivacyTools](https://www.privacytools.io/)
+- [Privacy Guides](https://www.privacyguides.org/) - privacy-focused tools and recommendations
+    - [PrivacyTools](https://www.privacytools.io/)
+- [Consumer Reports: Privacy and Security](https://www.consumerreports.org/digital-security-privacy/)
+- [Surveillance Self-Defense](https://ssd.eff.org/)
+- [Data Removal Guide: inteltechniques.com](https://inteltechniques.com/workbook.html)
 
-### Learning, Productivity, and Life
+### Learning and Productivity
 - [PB&J Sandwich](https://www.youtube.com/watch?v=FN2RM-CHkuI)
 - [YouTube: Bloom’s Taxonomy: Structuring The Learning Journey](https://www.youtube.com/embed/ayefSTAnCR8)
     - Ref: [Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/)
