@@ -1,0 +1,27 @@
+---
+format: revealjs
+title: AI and Ethics
+subtitle: What is the right thing to do?
+description: What is the right thing to do?
+date: 2024-12-04
+image: /images/37/37.webp
+title-slide-attributes:
+    data-background-image: /images/37/37.webp
+    data-background-opacity: "0.3"
+---
+
+<!-- ## Discussion! {timing=240 data-background-image="/images/37/37.webp" data-background-opacity="0.3"} -->
+
+
+
+
+## Announcements {data-background-image="/images/37/37.webp" data-background-opacity="0.2"}
+
+![](/images/agenda-block-3.png)
+
+
+## Lesson Objectives {data-background-image="/images/37/37.webp" data-background-opacity="0.1"}
+
+- Find the ethical implications of AI
+- Discuss the importance of doing the right thing
+- Identify the potential consequences of AI systems

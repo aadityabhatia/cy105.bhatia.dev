@@ -1,0 +1,156 @@
+---
+format: revealjs
+title: List and String Methods
+subtitle: Operating directly on data types
+description: Operating directly on data types
+date: 2024-11-15
+image: /images/32/32.webp
+title-slide-attributes:
+    data-background-image: /images/32/32.webp
+    data-background-opacity: "0.3"
+---
+
+## Announcements {data-background-image="/images/32/32.webp" data-background-opacity="0.1"}
+
+- Tech Tour: Cyber -> Robotics -> CS -> Photonics
+- WPS8 due 18NOV (Monday)
+- WPS9 due 24NOV (Sunday)
+- Bluefruit - If you do not need it anymore, please consider donating it to the department!
+
+![](/images/agenda-block-4.png)
+
+
+## Lesson Objectives {data-background-image="/images/32/32.webp" data-background-opacity="0.1"}
+
+- Identify common string methods
+- Identify common list methods
+- Compare and contrast immutable and mutable list methods
+- Practice employing list and string methods
+
+
+## Review: Lists and Strings
+
+- Data type: Collection
+- How do these compare to non-collection types?
+    - Can access parts or treat as a whole
+    - Sequential (ordered)
+- String vs. List
+    - Elements can be different types
+    - Lists are mutable, strings are not
+
+
+## String Methods
+
+:::: {.columns}
+::: {.column width=60%}
+- Functions that operate directly on strings
+- Will never modify the original string
+- Accessed using the dot operator, e.g. `mystring.count("a")`
+- Similar to modules, but associated with a value
+- What do they return?
+- Can we chain functions?
+- Where can we find more? [DevDocs.io](https://devdocs.io/python~3.12/)!
+:::
+
+::: {.column width=40%}
+```{.python code-line-numbers="false"}
+mystring.count(substring)
+
+mystring.find(substring)
+
+mystring.isalpha()
+
+mystring.isupper()
+
+mystring.upper()
+
+mystring.lower()
+
+mystring.join(iterable)
+
+mystring.split(separator)
+```
+:::
+::::
+
+
+## Practice: String Methods {timing=300}
+
+- Try these in [REPL](https://pyodide.org/en/stable/console.html) or a [new notebook](https://marimo.new/)
+- Run one line at a time!
+- Read each line and predict the output, and then run it to check your answer.
+- What was the last line's result? Did you expect that?
+
+```python
+bigstring = "supercalifragilisticespialidocious"
+bigstring.count("li")
+bigstring.find("li")
+"super" in bigstring
+"fragile" in bigstring
+bigstring.replace("li", "LI")
+bigstring.upper()
+bigstring
+```
+
+## List Methods
+
+:::: {.columns}
+::: {.column width=60%}
+- Functions that operate directly on lists
+- Accessed using the dot operator, e.g. `mystring.count("a")`
+- Similar to modules, but associated with a value
+- What do they do?
+- What do they return?
+- Could be chained together?
+:::
+
+::: {.column width=40%}
+```{.python code-line-numbers="false"}
+mylist.count(item)
+
+mylist.append(item)
+
+mylist.insert(index, item)
+
+mylist.remove(item)
+
+mylist.pop()
+
+mylist.pop(index)
+
+mylist.index(item)
+
+mylist.reverse()
+
+mylist.sort()
+```
+:::
+::::
+
+
+## Practice: List Methods {timing=300}
+
+- Try these in [REPL](https://pyodide.org/en/stable/console.html) or a [new notebook](https://marimo.new/)
+- Run one line at a time!
+- Read each line and predict the output, and then run it to check your answer.
+- What was the last line's result? Did you expect that?
+
+```python
+mylist = [2, 3, 5, 7, 11, 13, 17]
+mylist.append(19)
+mylist.pop()
+mylist.insert(2, 7)
+mylist.remove(7)
+mylist.reverse()
+mylist
+```
+
+- Use [REPL](https://pyodide.org/en/stable/console.html) or a [notebook](https://marimo.new/) to try these out!
+- Read each line and predict the output, and then run it to check your answer.
+
+
+## In-Class Exercise! {data-background-image="/images/32/32.webp" data-background-opacity="0.3"}
+
+- [zyBook 31.3](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/31/section/3)
+    - ICE 1, 2, 7
+- [zyBook Data Lab: Tornado Analyzer](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/31/section/4)

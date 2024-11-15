@@ -1,0 +1,87 @@
+---
+format: revealjs
+title: AI and Data
+description: How AI systems are created
+date: 2024-11-21
+image: /images/34/34.webp
+title-slide-attributes:
+    data-background-image: /images/34/34.webp
+    data-background-opacity: "0.3"
+---
+
+<!-- ## Discussion! {timing=240 data-background-image="/images/34/34.webp" data-background-opacity="0.3"} -->
+
+
+
+
+## Announcements {data-background-image="/images/34/34.webp" data-background-opacity="0.2"}
+
+![](/images/agenda-block-3.png)
+
+
+## Lesson Objectives {data-background-image="/images/34/34.webp" data-background-opacity="0.1"}
+
+- Define artificial intelligence (AI)
+- Explain the difference between AI and machine learning (ML)
+- Describe the types of machine learning
+- Identify the components of a neural network
+- Discuss the implications of AI
+
+
+## AI vs ML
+
+- Artificial intelligence (AI)
+    - The ability of a machine to perform tasks that typically require human intelligence
+- Machine learning (ML)
+    - A subset of AI that uses algorithms to learn from data and make predictions
+
+
+## Types of Machine Learning
+
+- Supervised machine learning
+    - Analyzes labeled data and identifies patterns
+    - Maps input data to an output label
+- Reinforcement learning
+    - Performs actions that it expects will be rewarded
+    - Often used by game-playing AI or navigational robots
+- Unsupervised machine learning
+    - Finds patterns in unlabeled data
+    - Identifies similarities and clusters data
+
+::: {.notes}
+- Supervised machine learning: The algorithm analyzes labeled data and learns how to map input data to an output label. Often used for classification and prediction.
+- Reinforcement learning: The algorithm performs actions that it expects will be rewarded in some environment (often simulated, at least to start). Note here there is a much less defined "right answer", even for past examples! Often used by game-playing AI or navigational robots.
+- Unsupervised machine learning: The algorithm finds patterns in unlabeled data by clustering and identifying similarities. Popular uses include recommendation systems and targeted advertising.
+:::
+
+
+## Neural Networks
+
+![](https://instructor-uploaded-content.s3.amazonaws.com/neural+networks.svg-2016453)
+
+
+## Artificial General Intelligence
+
+- Ability of a machine to perform any intellectual task that a human can do
+- Not yet achieved!!
+    - How long until we get there?
+
+
+## What is next?
+
+- What are the implications of AI?
+- How will AI change our world?
+- What are the ethical considerations?
+- How can we ensure AI is used responsibly?
+
+<!-- Computers and artificial intelligence have changed our world immensely, but we are still at the early stages of this history. Because this technology feels so familiar, it is easy to forget that all of these technologies that we interact with are very recent innovations, and that most profound changes are yet to come.
+
+Artificial intelligence has already changed what we see, what we know, and what we do. And this is despite the fact that this technology has had only a brief history.
+
+There are no signs that these trends are hitting any limits anytime soon. To the contrary, particularly over the course of the last decade, the fundamental trends have accelerated: investments in AI technology have rapidly increased, and the doubling time of training computation has shortened to just six months.
+
+All major technological innovations lead to a range of positive and negative consequences. This is already true of artificial intelligence. As this technology becomes more and more powerful, we should expect its impact to become greater still.
+
+Because of the importance of AI, we should all be able to form an opinion on where this technology is heading and to understand how this development is changing our world. For this purpose, we are building a repository of AI-related metrics, which you can find on OurWorldinData.org/artificial-intelligence.
+
+We are still in the early stages of this history and much of what will become possible is yet to come. A technological development as powerful as this should be at the center of our attention. Little might be as important for how the future of our world – and the future of our lives – will play out. -->

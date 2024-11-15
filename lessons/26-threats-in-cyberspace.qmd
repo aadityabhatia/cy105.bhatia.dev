@@ -1,0 +1,234 @@
+---
+format: revealjs
+title: Threats in Cyberspace
+description: Actors, threats, vulnerabilities and types of attacks
+date: 2024-10-29
+image: /images/26/26.webp
+title-slide-attributes:
+    data-background-image: /images/26/26.webp
+    data-background-opacity: "0.3"
+---
+
+## Discussion! {timing=240 data-background-image="/images/26/26.webp" data-background-opacity="0.2"}
+
+- [Hacking Challenge at DEFCON](https://www.youtube.com/embed/fHhNWAKw0bY)
+- [Project Zero - Hacking Google](https://www.youtube.com/embed/My_13FXODdU)
+- [FM 3-12, Cyberspace and Electronic Warfare Operations](https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN33127-FM_3-12-000-WEB-1.pdf)
+
+
+## Announcements {data-background-image="/images/26/26.webp" data-background-opacity="0.2"}
+
+- [Weekly Problem Set 7](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/43/section/1) due 03NOV
+- [AI Summative Project Proposal](https://westpoint.instructure.com/courses/7068/assignments/160503) due 12NOV
+
+![](/images/agenda-block-3.png)
+
+
+## Lesson Objectives {data-background-image="/images/26/26.webp" data-background-opacity="0.1"}
+
+- Identify and define the **three layers of cyberspace**
+- Identify common **threat actors** and their _goals_ in cyberspace
+- Identify common **vulnerabilities** in cyberspace
+- Compare and contrast different **types of cyber attacks and scams**
+    - e.g. malware, DoS, phishing, and social engineering
+
+
+## Cyberspace
+
+<br>
+
+> A **global domain** within the information environment consisting of the interdependent **networks of information technology infrastructures and resident data**, including the Internet, telecommunications networks, computer systems, and embedded processors and controllers.
+>
+> <br>
+>
+> -Joint Publication 3-12 Cyberspace Operations
+
+
+## Layers of Cyberspace {timing=180}
+
+![](/images/26/cyberspace.jpeg){width="100%"}
+
+::: {.notes}
+- Distinct but interconnected!
+- Physical: hardware, cables, servers, satellites, cell towers
+- Logical: software applications, processes, data, information
+- Cyber: user accounts and their connections
+- How do these layers interact?
+:::
+
+
+## Who owns the Cyberspace? {timing=120 .smaller}
+
+<br>
+
+:::: {.columns}
+::: {.column width=33%}
+### Blue Space
+
+- DoD networks and systems
+- Anything protected by the US
+    - Mission partners
+    - Critical infrastructure
+    - Key resources
+:::
+
+::: {.column width=33%}
+### Gray Space
+
+- Contested
+:::
+
+::: {.column width=33%}
+### Red Space
+
+- Adversaries, criminals
+- Anything under their control
+    - Networks
+    - Systems
+    - Infrastructure
+:::
+::::
+
+
+## Risks {data-background-image="/images/26/26.webp" data-background-opacity="0.2"}
+
+- Threats: **actors** with **intent** and **capability**
+- Vulnerabilities: **weaknesses** in systems
+- Risks: **likelihood** of a threat exploiting a vulnerability
+
+### Threats + Vulnerabilities = Risks
+
+
+## Threat Actors {timing=180 data-background-image="/images/26/26.webp" data-background-opacity="0.2"}
+
+:::: {.columns}
+::: {.column width=50%}
+- Nation-states
+- Criminal organizations
+- Terrorist organizations
+- Hacktivists
+- Script Kiddies
+:::
+::: {.column width=50%}
+![](/images/26/threat-goals.svg)
+:::
+::::
+
+::: {.notes}
+- Examples?
+- Why would they do it?
+- What kind of resources might they have?
+- motivated by glory, financial, political, ideological, or other reasons
+:::
+
+
+## Vulnerabilities {data-background-image="/images/26/26.webp" data-background-opacity="0.2"}
+
+- Technical
+    - Supply Chain
+    - Unpatched systems
+- People
+    - Phishing
+    - Social engineering
+- Policy
+    - Weak passwords
+    - Missing backups
+
+
+## Risks to Physical Layer {timing=180 data-background-image="/images/26/26.webp" data-background-opacity="0.2"}
+
+- [Undersea Cables](https://www.france24.com/en/europe/20220323-threat-looms-of-russian-attack-on-undersea-cables-to-shut-down-west-s-internet)
+- [Cell Towers](https://www.nbcmiami.com/news/local/man-climbed-cell-tower-in-miami-and-refuses-to-come-down/3275164/)
+- [Data Centers](https://www.datacenterknowledge.com/physical-security/pandemic-aws-bombing-plot-heighten-data-center-physical-security-concerns)
+- [ATMs](https://www.cnn.com/2024/10/27/europe/criminals-atm-robberies-europe-intl/index.html)
+
+
+## Risks to Logical Layer {timing=180 data-background-image="/images/26/26.webp" data-background-opacity="0.2"}
+
+- Denial of Service (DoS)
+    - [Massive DDoS attack on GitHub (2018)](https://www.wired.com/story/github-ddos-memcached/)
+    - [Largest DDoS attack campaign (2024)](https://blog.cloudflare.com/how-cloudflare-auto-mitigated-world-record-3-8-tbps-ddos-attack)
+- Unauthorized disclosure
+- Information theft
+- Webpage hijacking / defacement
+- Malware
+
+
+## Malware {timing=180 data-background-image="/images/26/26.webp" data-background-opacity="0.2"}
+
+- Ransomware
+- Spyware
+- Adware
+- Worms/Viruses
+- Trojans
+- Botnets
+
+::: {.notes}
+- Ransomware: encrypts files and demands payment
+- Spyware: collects information, steals your data, passwords
+- Adware: displays unwanted ads
+- Worms/Viruses: self-replicating, spread through networks
+- Trojans: disguised as legitimate software
+- Botnets: network of infected computers
+:::
+
+
+## Risks to Cyber-Persona Layer {timing=120 data-background-image="/images/26/26.webp" data-background-opacity="0.2"}
+
+- Identity Theft
+    - [Equifax breach](https://www.seattletimes.com/business/equifax-says-data-from-143-million-americans-exposed-in-hack/)
+- Phishing
+- Social Engineering
+- Masquerading
+- Illegitimate Influence
+    - [How Russia weaponized social media in Crimea](https://thestrategybridge.org/the-bridge/2017/5/10/how-russia-weaponized-social-media-in-crimea)
+
+
+---
+
+![](/images/26/phishing-1.png)
+
+---
+
+![](/images/26/phishing-2.png)
+
+---
+
+![](/images/26/phishing-3.jpg)
+
+
+## Research and Discussion {timing=1200 .smaller data-background-image="/images/26/26.webp" data-background-opacity="0.2"}
+
+:::: {.columns}
+::: {.column width=60%}
+1. [Stuxnet (2010)](https://www.wired.com/2014/11/countdown-to-zero-day-stuxnet/)
+1. [Office of Personnel Management Data Breach (2015)](https://oversight.house.gov/wp-content/uploads/2016/09/The-OPM-Data-Breach-How-the-Government-Jeopardized-Our-National-Security-for-More-than-a-Generation.pdf)
+1. [Colonial Pipeline Ransomware Attack (2021)](https://www.law.georgetown.edu/environmental-law-review/blog/cybersecurity-policy-responses-to-the-colonial-pipeline-ransomware-attack/)
+1. [SolarWinds Attack (2020)](https://www.businessinsider.com/solarwinds-hack-explained-government-agencies-cyber-security-2020-12)
+1. [WannaCry Ransomware (2017)](https://en.wikipedia.org/wiki/WannaCry_ransomware_attack)
+1. [WordPress sites compromised to install info-stealers (2024)](https://www.bleepingcomputer.com/news/security/over-6-000-wordpress-sites-hacked-to-install-plugins-pushing-infostealers/)
+1. [Chinese Actors breach telecom providers (2024)](https://www.bleepingcomputer.com/news/security/us-says-chinese-hackers-breached-multiple-telecom-providers/)
+1. [Largest DDoS attack campaign (2024)](https://blog.cloudflare.com/how-cloudflare-auto-mitigated-world-record-3-8-tbps-ddos-attack)
+1. [Mexican Drug Cartels target timeshare owners (2024)](https://krebsonsecurity.com/2024/09/timeshare-owner-the-mexican-drug-cartels-want-you/)
+1. [US Government disrupts China's botnet (2024)](https://www.justice.gov/opa/pr/us-government-disrupts-botnet-peoples-republic-china-used-conceal-hacking-critical)
+1. [Military Technology Theft (2016)](https://www.justice.gov/opa/pr/chinese-national-pleads-guilty-conspiring-hack-us-defense-contractors-systems-steal-sensitive)
+1. [Vulnerable pacemakers (2017)](http://money.cnn.com/2017/01/09/technology/fda-st-jude-cardiac-hack/))
+1. [Ukrainian Power Grid (2016)](https://www.wired.com/story/crash-override-malware/)
+1. [Supply Chain Attack (2021)](https://arstechnica.com/information-technology/2021/02/supply-chain-attack-that-fooled-apple-and-microsoft-is-attracting-copycats/)
+:::
+::: {.column width=30%}
+- Which layer of cyberspace was targeted?
+- Who were the threat actors?
+- What were the vulnerabilities?
+- What type of attack was used?
+- What were the consequences?
+:::
+::::
+
+::: {.notes}
+- Which layer of cyberspace was targeted?
+- Who were the threat actors?
+- What were the vulnerabilities?
+- What type of attack was used?
+- What were the consequences?
+:::

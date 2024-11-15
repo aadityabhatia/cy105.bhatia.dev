@@ -1,0 +1,153 @@
+---
+format: revealjs
+title: Programming Lab
+description: Network Packet Analysis with Scapy and Wireshark!
+date: 2024-10-31
+image: /images/27/27.webp
+title-slide-attributes:
+    data-background-image: /images/27/27.webp
+    data-background-opacity: "0.3"
+---
+
+## Introductory Video! {timing=0 data-background-image="/images/27/27.webp" data-background-opacity="0.2"}
+
+- [A Packet's Tale. How Does the Internet Work?](https://www.youtube.com/embed/ewrBalT_eBM)
+- [TCP/IP Model Explained](https://www.youtube.com/embed/OTwp3xtd4dg) - skip to 3:09
+    - More on [Computer Networking Explained: CertBros](https://www.youtube.com/playlist?list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u)
+
+## Announcements {data-background-image="/images/27/27.webp" data-background-opacity="0.2"}
+
+- [Weekly Problem Set 7](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/43/section/1) due 03NOV
+- [AI Summative Project Proposal](https://westpoint.instructure.com/courses/7068/assignments/160503) due 12NOV
+
+![](/images/agenda-block-3.png)
+
+- Sign the [Wireshark user agreement](https://westpoint.instructure.com/courses/7068/assignments/275667) in Canvas now.
+    - Do not use the packet capture or network scanning features on WREN!
+    - Do not violate the AUP or break the law. Act like the responsible adult that you are.
+- Download and install [Wireshark](https://www.wireshark.org/)
+
+
+## Lesson Objectives {data-background-image="/images/27/27.webp" data-background-opacity="0.2"}
+
+- Introduce and motivate some dangers of wireless communication
+- Define and discuss packet sniffing
+- Use Python concepts to analyze packets captured over a network
+- Articulate the need for encrypted communication channels
+
+
+## Network Layers {data-background-image="/images/27/27.webp" data-background-opacity="0.1"}
+
+```{dot}
+//| fig-width: 1600px
+digraph g {
+    bgcolor="transparent"
+    graph [
+        rankdir = "LR"
+    ]
+    node [
+        shape = "record"
+    ]
+    frame [
+        label = "<f3> Ethernet header | <f2> IP header | <f1> TCP header | <f0> data | Ethernet trailer"
+    ]
+    packet [
+        label = "{<f2> source address | destination address | ...} | <f1> TCP header | <f0> data"
+    ]
+    segment [
+        label = "{<f1> src port | dst port | seq | ack | ...} | <f0> data"
+    ]
+    data [
+        label = "<f0> data"
+    ]
+    frame:f0 -> packet:f0
+    frame:f1 -> packet:f1
+    frame:f2 -> packet:f2
+    packet:f0 -> segment:f0
+    packet:f1 -> segment:f1
+    segment:f0 -> data:f0
+}
+```
+
+::: {.notes}
+- What does IP do?
+- What does TCP do?
+- Which one deals with packets?
+- What is a packet? Segment?
+- What is a port number?
+- Can a packet contain multiple segments? Or is it the other way around?
+- What is a port number?
+- How does it relate to an IP address?
+:::
+
+
+## Packet Analysis with Scapy {data-background-image="/images/27/27.webp" data-background-opacity="0.1"}
+
+:::: {.columns}
+::: {.column width=40%}
+![](/images/cy105-coffee.webp)
+:::
+::: {.column width=60%}
+
+One day, you find yourself hanging out at the local coffee shop in Highland Falls with free WiFi! No password required either! You have recently attended [DEFCON](https://defcon.org/) and learned about network packet analysis. You decide to try it out!
+
+You connect to the network and start sniffing packets. You see [a lot of traffic](https://westpoint.instructure.com/courses/7068/files/1939270) and decide to try and identify the people around you.
+
+You have two goals in mind:
+
+1. Identify the number of people on your network.
+2. Build a profile of each user on the network.
+:::
+::::
+
+
+## Scapy {timing=1200 data-background-image="/images/27/27.webp" data-background-opacity="0.1"}
+
+:::: {.columns}
+::: {.column width=30%}
+![](/images/27/coffeehacker.png){width="100%"}
+:::
+::: {.column width=70%}
+You really like using [Scapy](https://scapy.readthedocs.io/en/latest/introduction.html) to analyze packets. Scapy is a powerful packet manipulation module that works in your favorite programming language, Python!
+
+You open a Python notebook and setup Scapy. An adventure awaits you!
+
+- [Proceed to Your Scapy Notebook!](https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoBODgRgBYWaRGDBMEyVBwCCogBQBKDGgACIsBwDGeADY65dYOTyZNEY4wAqUAK54lxgGZxsigFxo4XuKEiwJKCAQcIgAzgjo3j7g0PAgwJpQEGDAYJ7eUHgwNlAECAlJKWAANBHKaqJauvqGxqbmeFa29mhOLpju6V4AxHAAIhBUBDoQiOQhBOMAbsTAjgCecJrzAEbEmDqIKxxgmiJwjsA6eHBEFBQH0HD0wOGbKxhRvrFwEKFd0X7wmQCOdqEwd5PGL+OhhOg6YAPR7eACqACUADLiFh0GAwMChNwAemxy14bAArBwVmCYMBEBxjFNsZlQhActpQnjVut7js9mAhFEAGIASURAFEAHLSACygpRyzWUA2Ww5Im53kFAA0AAqCgDClkFfUwAGUABLSABMhIAbAbYWLxHIPlEWAAOE28RyEzRsR3kRCaQlErhcXhcR2EgDsYbYmgJbFDvHIXEJXEcAGYTWx+G7Q4guJoTebk7xNPxCY7NI4VoSVgHzSbyOalV4lDCvG1yINhqNKIdjnIcjpSt3CIgQPYPFEojR6HBfv9ARx8DBe1B+3AAZlh007AoQuEoGPxweoBwSLcTI5oJgAaQbKFFPaD9cIDBEDpL8AAF4nZjAAiLo90PAxmIUJ5yyOQWDMX9CBgABaY4CBwegWFKNgFCUB9xxWEZNAAazfT9xEdIMTXvA8wBQX85EcFhLCfF9Vw-PA3DgABvGA6NfUJGLgXE4DkE0ACoBLTBQAF84DFAAhFh0Iw7xJwYZJCCoo4hxHUoWCoFYZJ3A59zk8dzygJY6BsAgcJ8PIj1odZILISjNFM8z8MaLCIFwlyFH0gyH0cDgqBQMg5EcsycKbD42j2HRNBsTYyEvMEzXNFTjkwMBSDoLzSNXRKLUwMFQgYZgCohKEOEKxAkrvDCFNeMBlMHNKMo0qBtO3MI9OyqIjLgFZ5nitzcMsnwyCgORNhAFZvWYvz13IOR+DYLhzQUUptJk7yfJyyq8pKjgbDAb0gr6gbsLC7LMmyXJtqS-LwQ4ACAA9yGAfAATvZs4F6OYDlUnxwgIJ84HIvBQmg0o2yGEYxhGj4fsB+A3h2DKODwR7bkBOR+SFUUJSyjDyJ-RcWAGKHOx-HBrgAuB7l+44OAZmTsshjsxkwQc5ARRFSmxkVxUFWSyIoxdqMRLY6ZOFnoeMchmJY3nccFUSmc+3oZhQBYbotEy8Fw0IbBAOHnCimK4pMCqqoV-nt0YZhVQ1bVdQNY1bv1a1Nu8QnKNF8XBzgdW5mACg5atiVlcFuBdDBj2vC9xcuu8aieT+gByeWBT5sOU-+pZoFsMAyHIDg4AAcSyEaDiSEA4E1RACCmDq6-GMBNm0Cufypk5QmHSXgEyTR2KgRYOpucJQkSVIYA4Btxwjy6cjyO0MPtrUdT1I1TTyt2xWKbLQ8FXeMK5w+HxN2LSHN3LzRPg8pc7dnVJv8cSshFYn6iN534yPA-lBwEn-ChUDQ2g9AGCMCYMwFhrBblaHgZwrggj428EEDgIB5oXRYJg7K3RegADVZiazVD6HC5da4FxyCcZOxxPq8j7gCUoVBJbtmlp3YGxDy6ciuicP2RNgij1OE+PAKwIAQAsoQKYfcIAEBHL+YuiIREWR6vQE4VBoDkHCCwMWKwJb+wIUHcgLAQjCJmMXaQOh6SlE0JCIaUjWFUJOAkWxtjlE0zgfALixgJjjBGKIy4xkAAG0o2Tyl2CIfxHAaHeCEnyZwLjaZ+yoB1AOhwKClCCDMV4eR2KsKII9dxZAwAAEIhKRK8AAeWUVAGgYNLHWIss46m9ifCQUyaw44jh3HgK8TTBRfi4CBNZLKdkoSwDhLgDE9u4QQZg1-L1Gw8A9gEARr1E4yT9EQ10FkBxU9xnOFoHANsoMBHwHUIBYypAQh6AhswzsrCADa6VcIcJEFwnRjgq41zrg3UIABdAw6JMQ4mxIwgEkAiYcB-GuGwA8KFaAgCAPEDIoBg2ZKGNg5pHTYkHMyIMyYuAmjRe1SYLYSCU32bwqmFy-bIEAsXMpBA27zAZHAMEGSXGDlKEymwEhFjkXcngC4tUXGQpgLYAewApHhA7vQC5CMhEKMKdlTBM855ZAXuUdQVRQG1AgQ0TcLQ2gIIgEgrwKC0FLwfMq7BvRhSCOEb4-UWRyQIXeNlYUaMYCWLzrreALiwbogpuEJRhgAZ2oUcXTUdTWl+qdYGuZ6InFZOSNOV6aJSg4D4cETAsIwbGUdQGl1mBSiYD6LcFuiB5hFu6f61h2BNTVFePMsA8yQjrmwJXeFcAAB+Xb2JgB7Y+dowiE0gGwBEjCVqoiqqugQDVlQQE1HAfUKBzQHBwPaHIRB3kzXoIwlASdD4cFwCIU8+AZDXn2NKXAd1eSGEqKODoacgFxguLstBcIEBYnU0eSQhZLyKE6LkGqTU0g1TbhvBTOA+pOTzGLvCZ93SzLGGRc+YlLi1T9ToLYyBJw1gjCoOOy1WCp0fHnrkOdwDqiwPgR0KA5ARkmq+k+mGr6pH2UBK8L9JxgOgYlh8EZ4g6MjPAkEoZITOQ6SY-w58JDwgHUHcmNgq5dZSPUarA5ZbNiLBcQ3HQdhOPA05MNRAcAbzEBgu8oOkwdCLCMkgGA-HOSkbVddOQIziiAM1QusBdQcP6rXTRzdxrt0QFQbuh8+7iOHt6AAdTJDnfhAyZRym2CM-xAB+K9AnbghFznoH1Eq8ifrYaekCcBpDHsw9hiA+XxXYbriskaxAL7jAgOrUo9I4CMKWA1szuX-FGX8T05NTcn0SLwFQSOPoGA-qyMXGLJxFmXM6314Vkw0Z1Wa4PQdPomThBM6EeqmhA6aBK7+0oeB5zF38SMu5bAflDZoHoJ9M7WGHBQ2dubV6YJwENIMCQBBeXsI46yk4Lj-GWE1GqIbfL2JmEfVp4g6W4BxYuVsBk8B-Gwj6NDzL1r+ivRwJBilB2jsnc+w5t1Hq73DYshc2bJz4A-mMI9OAyZQx8XXHobT1NkyOinAztautEB9Yw-QWxV5YDhDMGZZ1lN3mdtQhGsECEwffuB5ZFnCnHTVoFV1+Ljk65vUIweA9jZnMzoo1qnQ1GN0Me8mAHC8BmC3b5z8z6jup6FUGNVb+r23NO481b7zOrl2NGgQa9dRrGM7otYeM344j0nt-XAMW8xgJXssOr09Ri2snAKsp9W9FEfIvmycGlwNAiSBs5ZUaf8LjSupv4vk0PukQ6h0NkvZWs8nGb63kvudfyIEhaw+kjJy-EuMACH8pBCvjLVCEcg5A6Qop8MYX8cx5iQZjet85aHqb9zwMAdr+u-rg8h-3itxBB-PhH36pFbdRtT+dbP2xXwpXr-JAsbf1NDu63J+oNYq-gQMXLRCEJoHtqwn3p3lflADTktn1jdk7nci3g9qAcELtqDOEOfh3jTLAfAb1mDP0p7nchfmgVepJLoIMJYirvgMQcgagUNtkkgTAKQVDmgSjgbrQRQJlhOlFublEGRrOhgEAtbrbq4C3qUJ7oxiQageVFhlQL7l4EIcHtUD5rqiujAoah0Fuh8LHhgvwYnr0MnuXMnLoGptlGAZkI4MQIQI-quGTocKdgBEBMZCkjoOMI3icCXgQXkKttTG2IjPVCQIPMXDyFcGjMOC3HgKUCwSgWqD8uVFAJoI9g+i9gvKPg-icC3ovsvlgQZi4gzm3rIQkVSACKkc9kIaws-jPuSLYjkWMHkaEB+lxhTsrkbmrr3iUYkaEMkUwcEHEXIeojAGMnFosG2F1l3HriZi9I4DYZkLMg0Uvivsjn9pNhXsoosJkGbOQLwURiqhbuqiIV5lRtoXIJIcDE7jIQwaUb0ZoIceRscfOmoaHn5hHgFhuroVELHpFiwPqKAEcMgDZrESQWQeVF8BUY+lUffuPsDC8MVoURrqNnEWCfRrEJCekddC4jUQQMAXCf4Aidnr+vNvFl8KcAbDKAcsEFyspngMjqjkzmPGTvROji2mSY6GwMjncvIr4vsvJo3jls+FhHgH8miBiFiLiIQP5MADhKkBQBSBwNADgMCjKcANiIiBjJgJ+pgBfpgE3NmjjmlLEJgAQBScBAoNPJgtOkcaoCcXoOIR0BflIVcQ7sgWCYdrEA8cIbac8faWcU6ZcTANcawaiV8F6aodqkum8aug6UFjHqFuagYTPFEEepYGEBZLwMxGXAWpTLCAQMAL-PPuVssVgaDFeuEcZIDFQKUAAFY3jwABQ2S5ZcTgDHAHBmR1Z5D+ILgt7SAlnNGgyKBMHxYyZHJSInDpQkAjijQgmchDbw7HCdmlAdQ-jNonLEpCH7Y0wYwGYviPpLFNGr4yonKiBnLDTi5EEM5la2qnACovrBBxwTCYYUzFwABS9ZmJWS1MkIAIBmB5K+oMiqfBBxghLm3pohC6sZFxAZ7m1woAo4HwCePIHZdRBAzEPZaofZh5ZZUQRCU5Wye4uWC5BWTizgV5Hw8GM6WIuWP5iMzge5pm+ZhZ-5pZQI3gVqHwvQlgZSfQZSzE-IKocAlghofI+ocAPIsIwo2ofIZSwoQF3gXF1MewxgDZgUP+OWfKOAU504DWGOBR8F3SdZv5xgx2Msg6j50giIyILiLFA5UqBAAICGxWQhP+eA1cHcJmtFJuTG9KNeLiklfIAAirCJKLZavt7rFOMGsJ+Q3nkJ5RjN5Tak+IYAhDlAyB4Y1nHBQIqpxcesLJBngOrIsGFTnCZisDDOApSHAPBukp0ZXkTKuM+GQDIoCIUvJT0EJQBJkK2uXj0nRRTuEF1ZduMvmeSC+NxFysZG5QXIsLRYhkQceZZI5TDMVnHJBnXM+QhBEp9G0BhVhQBbePblet9KNBfFTEkDYDgDNsDmxQeD1J7sNCMh4AnB1T9JUg4luRfiys+sQC9T4M4F9R3J7s9VtCmQcgbGINsYVXXPAEUT+OeH9VEHHOBPqFkfPm4MhIGfET0ckRHFtMjSTH-LUXPi3hjc6awUMQCE2KDfJIYG2RHjHKDeSCOOVMcHgGAHILwHjTTZ+eJS+GDFelUXcu7uplFI+i4kQFQDXk4D+BcI4ChYVnDGAPtaxeIHtf2Sim5pyNTQpRpodlpqwrpvpoteygrbYkZd8GBRQErSrXZV6XAOrdhaEKUKkLbSihGYur5nqu8bGV8cggmeFvHoYSmVxemXACaMxL5TzhOSgA3GQEWY0QdVerauSG3AoauPCicISdkQvonarZLg2bQAwP4gSBwMmBwGwI9nTVnZUncL0mYK2VstLXMPMdBKAU3qXeXZXQnRrUchXoTHHTnbkQdX0hLVkKolABZItTSRXpBEQAPBcOxO3TXV1T3U7T1cDDYFhAkGvQdcXCNVTDlnsDUm9nQr6nQJkBOcgBxtnfVYPbvVgaUFzn5dTO9r+fQJfb1P1KDMud1WPTABPXThrcueYsEGLRcJeFvUQDAJgMvXgb+eOV-fHYKdTFhr+Xnc0cXAAJrMrP2LAW09bdWsnn0x3H5nVhVHI9RVnbUYQ4M5C3l5LXBh2CnBCNnx0mby0MqoU9b5bjADbM5qix0Xwt63gKDDmkDprH6EA0U7nFYUPO2flblzWrVCPx3yPt0-h07CItpriQYN2Tm3C2Kjbp00mOS6wWRUAASVKZJdyip6NsbD4OUTDJXEDeUOiGHWmPE+mUZ+lR4dCu292hCMZIVm1oW-STCCNkNkAiMfB4U9yjTMTxUIPODyMUVgXUVJP9UD3kO52BOIVYI7XrqHAROqN4AiNyABNO2MZI2lMiPiDC3HVCU8V8XiXACs60CFKdWLZASqW0DqVTJJBaXDh+IZq+pgMARDRvXUwlUaWlOvCVlPg0MRZgV33CNqiuq5Vi2H1BqhO54zAfDFPkCROD3lOVMHWeOLyHPHNrPO2ea+me0aHh4xlnF+2moB1x7ji-H44MkCJUB44YS2qTb8I5ZEy2HT5bUo756IAZKZMGbZNqO5NO1l4b0Zrb7BD+EsNzJHDNxJDYoGaASOSma5qUqMkMQ5m3nIBEvnlKWfo2FdxYYaBdOLCg4CJr60q-b-Yy4ZWbGmLPbdYvTjCJJ3AYxSnjLYEhqRwzB5DHA4Avj-MPhZ4gv7Z+FEAMpDwFwXDQOAMMKGCEsjh1z7bPaImlYb0SJcTClwO5LrnjDFP0QZr0S320yYsrA2DYu5Z8p+zFYEsMDM7H5GA2AOt5CTW3kAPQA4RhHM6NoNlYadzDxEPEqWMXKbEb1tgvm7JwCmMNYLhsLNET3qIXZSsrLoiuNwB0O3mL3BCHNRu6QgDQoMAdSZtxXaPwDesFEASXl4DJD0ziVXCIkEmtH3A04V6oupXZJ9Z3IxZ9ygxgiT2ikAoSnApUAEY0B0gzvhtKnYgWlXqCP8oVv3JWtsL9ttLiy2LvjzCSQKJzvilArHDIAgFnv2o4QgQN3YgPsKLYgxaCj6iWBqhlJ8jCiQ5YMEiEg8h7lpgmj8B4hggatQDYhmjYhgydlwdbvAUfAXMe3qFh7+a+3BZ6HvO-F8g4CAx-00tQSzJ4aDCWlMygWW5PE+M25hDzAMoHJ+OboFDJCpCMa9ATI0lgzeFPgtFPovoep8TEBJDIqrQ+BEfQDbKdM96LCFXQQBvc4O0YGJKwafSICJL7LxCJAccaAip7ngTjwiDzAqzdQfImdgCwYMXPD+BCacilABkXEkBUBwwgi+rwX23QVQ5P1adP30aOdwUjjKA-TYC4kjjtq2ysDYBIA-jYAsDeSaq2AEB3hAA)
+:::
+::::
+
+
+## Wireshark {timing=1500}
+
+:::: {.columns}
+::: {.column width=30%}
+![](/images/27/packetshark.png)
+:::
+::: {.column width=70%}
+Now that you know what you are looking for, you decide to use a more powerful and intuitive tool, [Wireshark](https://www.wireshark.org/), to analyze the packets that you captured. You open the packet capture file in Wireshark and start analyzing the packets!
+
+### Collaborate!
+
+Follow the [detailed instructions on zyBook](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/25/section/2). Collaborate with your classmates to complete this lab!
+:::
+::::
+
+::: {.notes}
+Essential pieces of information:
+- IP addresses
+- Wikipedia pages visited
+- Emails
+:::
+
+
+# Lessons Learned {timing=120}
+
+- Should you stop using unencrypted wireless networks?
+- What is the best way of making sure the packets you receive or transmit do not get stolen?
+- What are the challenges for...
+    - users?
+    - companies that maintain websites?
+    - governments, related to regulation?
+- Many more PCAP files available for analysis!
+    - [Wireshark Sample PCAPs](https://wiki.wireshark.org/SampleCaptures)
+    - [Netresec Network Forensics PCAPs](https://www.netresec.com/?page=PcapFiles)

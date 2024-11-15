@@ -1,0 +1,214 @@
+---
+format: revealjs
+title: Cyber Hygiene
+description: Staying safe online
+date: 2024-11-06
+image: /images/23/23.webp
+title-slide-attributes:
+    data-background-image: /images/23/23.webp
+    data-background-opacity: "0.3"
+---
+
+## Announcements {data-background-image="/images/23/23.webp" data-background-opacity="0.2"}
+
+- WPR Review: come prepared with specific topics
+- Tech Tour meeting location: PRC (TH111) or CRC (TH115) (15-20NOV)
+- [AI Summative Project Proposal](https://westpoint.instructure.com/courses/7068/assignments/160503) due 12NOV
+- Written Periodic Review on 13-14NOV
+
+![](/images/agenda-block-3.png)
+
+
+## Lesson Objectives {data-background-image="/images/23/23.webp" data-background-opacity="0.1"}
+
+:::: {.columns}
+::: {.column width=70%}
+- Motivate and articulate the goals of cyber hygiene
+- Understand types of data and associated risks
+- Understand how commercial surveillance puts Army missions and people at risk
+- Articulate best practices for implementing good cyber hygiene
+- Practice implementing good cyber hygiene
+:::
+::: {.column width=30%}
+![](https://imgs.xkcd.com/comics/customer_rewards.png){width="100%"}
+[xkcd.com/2006](https://xkcd.com/2006/)
+:::
+::::
+
+
+## Data Economy {.smaller}
+
+:::: {.columns}
+::: {.column width=50%}
+### Commercially available data...
+
+- Location
+    - Cell phone
+    - Vehicle telemetry
+    - Children's schools
+
+- Financial
+    - Credit Card Purchases, Debt
+    - Gambling, Sensitive Purchases
+
+- Biometric
+    - Facial Recognition, DNA
+    - Medications, Vulnerabilities
+
+- Social Relationships
+    - Family, Friends
+    - Therapists
+    - Doctors
+:::
+::: {.column width=50%}
+### compromises mission readiness!
+
+- Troop movements
+    - Out-of-band traffic patterns
+    - Absence of expected traffic
+    - Change in shopping/vehicle/cell phone patterns
+
+- Unit capabilities
+    - Equipment (social media posts)
+    - Operators (facial recognition/cell phone metadata)
+    - Logistics bottlenecks
+    - Supply chain bottlenecks
+
+- Unit plans
+    - Training maneuvers, tactics
+    - Troop build ups, deployments
+:::
+::::
+
+
+## So What? {timing=120}
+
+:::: {.columns}
+::: {.column width=50%}
+- Is this about secrecy or privacy?
+    - What's the difference?
+- Who is vulnerable?
+- How can we protect ourselves?
+- Ref: [xkcd.com/1269](https://xkcd.com/1269/)
+:::
+::: {.column width=50%}
+![](https://imgs.xkcd.com/comics/privacy_opinions.png){width="100%"}
+:::
+::::
+
+
+## In-Class Exercise: Breaches {timing=600}
+
+:::: {.columns}
+::: {.column width=60%}
+- [Mozilla Monitor](https://monitor.mozilla.org/)
+- How many breaches?
+- What data was compromised?
+- What are you going to do about it?
+- Ref: [xkcd.com/1739](https://xkcd.com/1739/)
+:::
+::: {.column width=40%}
+![](https://imgs.xkcd.com/comics/fixing_problems.png){width="100%"}
+:::
+::::
+
+
+## Protect your Email {timing=120}
+
+:::: {.columns}
+::: {.column width=60%}
+- Keys to the kingdom!
+- Use a very unique password
+- Multi-factor authentication!!
+- Separate emails for different purposes
+- Use encrypted email when possible
+    - [ProtonMail](https://proton.me/mail)
+- Email anonymizers
+    - [Firefox Relay](https://relay.firefox.com/)
+    - [DuckDuckGo Email Protection](https://duckduckgo.com/email/)
+- Ref: [xkcd.com/2139](https://xkcd.com/2139/)
+:::
+::: {.column width=20%}
+![](https://imgs.xkcd.com/comics/email_settings.png){width="100%"}
+:::
+::::
+
+
+## Password Security {timing=120}
+
+:::: {.columns}
+::: {.column width=40%}
+- Unique and strong passwords!
+- [Correct Horse Battery Staple](https://correcthorse.pw/)
+- Use password managers!
+- Ref: [xkcd.com/936](https://xkcd.com/936/)
+:::
+::: {.column width=60%}
+![](https://imgs.xkcd.com/comics/password_strength.png){width="100%"}
+:::
+::::
+
+
+## Multi-factor Authentication {timing=120}
+
+- Something you know + have + are
+- Is text message MFA secure?
+- How do authenticator apps work?
+
+
+## In-Class Exercise: Tools {timing=600}
+
+:::: {.columns}
+::: {.column width=70%}
+- Visit [PrivacyGuides.org recommendations](https://www.privacyguides.org/en/tools/)
+1. Pick a unique category.
+1. Evaluate at least three tools.
+    - One of them can be non-privacy-protecting!
+1. Share your findings-
+    - What does the tool do?
+    - How does it protect your privacy?
+    - What are the pros and cons?
+- Ref: [xkcd.com/1223](https://xkcd.com/1223/)
+:::
+::: {.column width=30%}
+![](https://imgs.xkcd.com/comics/dwarf_fortress.png){width="100%"}
+:::
+::::
+
+
+## In-Class Exercise: Data Removal {timing=600}
+
+:::: {.columns}
+::: {.column width=65%}
+- [Data Removal Guide: inteltechniques.com](https://inteltechniques.com/workbook.html)
+1. Visit a data broker site
+1. Use the opt-out process to remove your data
+1. What data was available?
+1. How long did it take to remove?
+- Ref: [xkcd.com/1998](https://xkcd.com/1998/)
+:::
+::: {.column width=27%}
+![](https://imgs.xkcd.com/comics/gdpr.png){width="100%"}
+:::
+::::
+
+
+## Resources {timing=600}
+
+:::: {.columns}
+::: {.column width=60%}
+- [USASOC Smart Cards](https://www.soc.mil/IdM/publications/IdMpubs.html)
+- [Terms of Service; Didn't Read](https://tosdr.org/)
+- [haveibeenpwned.com](https://haveibeenpwned.com/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/) - privacy-focused browser
+- [DuckDuckGo](https://duckduckgo.com/privacy) - privacy-focused search engine
+- [NextDNS](https://nextdns.io/) - DNS-based tracker blocker
+- [Privacy Guides](https://www.privacyguides.org/)
+- [Consumer Reports: Privacy and Security](https://www.consumerreports.org/digital-security-privacy/)
+- [Surveillance Self-Defense](https://ssd.eff.org/)
+:::
+::: {.column width=40%}
+![](https://imgs.xkcd.com/comics/perspective.png){width="100%"}
+[xkcd.com/198](https://xkcd.com/198/)
+:::
+::::

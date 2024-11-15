@@ -1,0 +1,318 @@
+---
+format: revealjs
+title: TEE Review
+description: This is it!
+date: 2024-12-06
+image: /images/38/38.webp
+title-slide-attributes:
+    data-background-image: /images/38/38.webp
+    data-background-opacity: "0.3"
+---
+
+## Academic Integrity
+
+>
+> A cadet will not lie, cheat, steal, or tolerate those who do.
+>
+
+- Instructors will see your zyBook history by keystroke!
+- **Close all windows!**
+    - `Alt-Tab` should not work!
+- **No browser tabs** open except the exam interface.
+    - Consider using a different browser!
+- Work should be done on laptop screen only.
+    - Big screen for reference card or part B prompt.
+- Finish and submit part A _before_ starting part B; cannot go back.
+- Reference card is the only authorized resource!
+
+
+# Check on learning! {data-background-image="/images/38/38.webp" data-background-opacity="0.2"}
+
+## What is Bandwidth?
+
+A) Numbers of packets your computer can send
+A) Thickness of your primary network cable
+A) Speed of your internet connection
+A) Amount of data your computer can download each month
+
+
+## What is the difference between TCP and IP?
+
+A) TCP handles addressing; IP handles routing
+A) TCP handles reliability; IP handles addressing and routing
+A) TCP handles error-checking; IP handles reliability
+A) TCP handles routing; IP handles reliability
+
+
+## What is the purpose of DNS?
+
+A) Request web pages from a server
+A) To convert domain names to IP addresses
+A) Provide a secure connection to a website
+A) To convert IP addresses to domain names
+
+
+## You send an email to Alice. Charlie intercepts the email and reads it. Which security goal was violated?
+
+A) Confidentiality
+A) Integrity
+A) Availability
+A) Authentication
+A) Non-repudiation
+
+
+## You send an email to Alice. Bob intercepts the email and changes the message. Which security goal was violated?
+
+A) Confidentiality
+A) Integrity
+A) Availability
+A) Authentication
+A) Non-repudiation
+
+
+## You send an email to Alice. Later, you deny sending the email. Which security goal was violated?
+
+A) Confidentiality
+A) Integrity
+A) Availability
+A) Authentication
+A) Non-repudiation
+
+
+## Alice cannot access her email account. Bob locked her out. Which security goal was violated?
+
+A) Confidentiality
+A) Integrity
+A) Availability
+A) Authentication
+A) Non-repudiation
+
+
+## Bob sent Alice an email but made it look like it came from you. Alice has no way to verify who sent it. Which security goal was violated?
+
+A) Confidentiality
+A) Integrity
+A) Availability
+A) Authentication
+A) Non-repudiation
+
+
+## Threat Goals:
+
+A) Disclose
+A) Destroy
+A) Integrity
+A) Availability
+A) Deny
+A) Publicize
+A) Confidentiality
+A) Steal
+A) Logout
+A) Alter
+
+
+## Match the following terms:
+
+:::: {.columns}
+::: {.column width=70%}
+- Programming language
+- Style of a webpage
+- Structure of a webpage
+- Protocol for getting web pages from servers
+- Your medical records on the Tricare website
+- Websites that require Tor
+- Tiny files in your browser that store website configuration, user settings, login information; also used for tracking
+- Image or code hidden in a webpage
+:::
+::: {.column width=30%}
+A) HTTP
+A) Deep Web
+A) CSS
+A) Web Beacons
+A) Dark Web
+A) JavaScript
+A) Cookies
+A) HTML
+:::
+::::
+
+
+## Asymmetric Encryption
+
+```{mermaid width=100%}
+%%| fig-width: 16
+graph LR
+    Ciphertext{{Ciphertext}}
+    Signature{{Signature}}
+    Alice((Alice))
+    Bob((Bob))
+    Alice -- "encrypt (1)" --> Ciphertext -- "decrypt (2)" --> Bob
+    Alice -- "sign (3)" --> Signature -- "verify (4)" --> Bob
+```
+
+A) Alice's public key
+A) Alice's private key
+A) Bob's public key
+A) Bob's private key
+
+::: {.notes}
+C, D, B, A
+:::
+
+
+## Which of the following are true about encryption?
+
+A) Symmetric encryption uses the same key for encryption and decryption.
+A) Private keys should be used to encrypt data.
+A) Symmetric encryption is faster than asymmetric encryption.
+A) Asymmetric encryption uses the same key for encryption and decryption.
+A) Public keys are often used to generate signatures.
+A) Key distribution is rarely a challenge in symmetric encryption.
+A) If Alice wants to email me, I should share my private key with her.
+
+::: {.notes}
+A, C, E
+:::
+
+
+## Which of the following are the layers of cyberspace?
+
+A) Physical
+A) Gray Space
+A) Transmission Control Protocol
+A) Cyber
+A) Blue Space
+A) Logical
+A) Internet Protocol
+A) Cell towers
+A) People
+
+## Identify the errors. {.smaller}
+
+```python
+def prepare_turkey(weight):
+    minutes_per_pound = 15
+    cooking_time = weight * minutes_per_pound
+    if cooking_time > 300:
+        return 300
+    return cooking_time
+
+def main():
+    weight = int(input("Enter the weight of the turkey: "))
+    prepare_turkey(weight, "lbs")
+    print("The turkey will be ready in", cooking_time, "minutes.")
+
+main()
+```
+
+A) Variable not defined, causing a `NameError`.
+A) Variable assigned a value that was never used.
+A) Multiple return statements in a function.
+A) Number of parameters does not match the number of arguments.
+A) Return value not handled correctly.
+A) Function defined but never called.
+
+::: {.notes}
+A, D, E
+:::
+
+
+## List all the true statements.
+
+:::: {.columns}
+::: {.column width=50%}
+A) The program will print `3`.
+A) The program will print `9`.
+A) The program will print `64`.
+A) The program will print `None`.
+A) The program will raise an error.
+:::
+::: {.column width=50%}
+```python
+def pow(b, p):
+    y = b**p
+    return y
+
+def square(x):
+    a = pow(x, 2)
+    return a
+
+def main():
+    a = 3
+    b = 4
+    p = square(a)
+    q = pow(b, 3)
+    print(a)
+    print(b)
+    print(p)
+    print(y)
+```
+:::
+::::
+
+::: {.notes}
+```
+3
+4
+9
+NameError: name 'y' is not defined
+```
+:::
+
+
+## Which of the following statements are true?
+
+```python
+my_string = "Hello, World! This is my favorite string."
+length = len(my_string)
+
+for i in range(0, length, 2):
+    print(my_string[i])
+```
+
+A) Indexing operator is used to access individual characters.
+A) The program will result in an error.
+A) The program will print one character per line.
+A) `i` will take on the values `0`, `2`, `4`, `6`, `8`, ...
+A) The program will print every third character.
+
+::: {.notes}
+A, C, D
+:::
+
+
+## Code Review {.smaller}
+
+```python
+def marksmanship(score):
+    if score >= 36:
+        return "Expert"
+    if score >= 30:
+        return "Sharpshooter"
+    if score >= 23:
+        return "Marksman"
+    return "Unqualified"
+
+def main():
+    score = int(input("Enter your ACFT score: "))
+    experts = 0
+    unqualified = 0
+    while score != -1:
+        score = int(input("Enter your ACFT score: "))
+        status = marksmanship(score)
+        if status == "Expert":
+            experts += 1
+        elif status == "Unqualified":
+            unqualified += 1
+    print("Experts:", experts)
+    print("Unqualified:", unqualified)
+
+main()
+```
+
+
+# Programming Practice! {data-background-image="/images/38/38.webp" data-background-opacity="0.1"}
+
+- WPS7
+- [Factorial and n-choose-k](https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4FxAZjRgiY6oLr7BydggGI4QjIoOABPCABXKIMIYTg6YjwMYOCoPBgEgjg2IMccvKgC1TcPLx8AGk0MXRlDEzMXGwDi5zwrAkwDOggIAGc8TABrP1q4cc6u0PCCSJj4xOS8VPTMrJLc-MKu0v2-fsGRsfH6rSb9I1NzHutME4Gh0YnO4JckYAI7eacFmgcAKvzgAG1xNNeABmaEAdmhAE4ALr2HY7IFRcZwMHggBM0zhcAArNN4WiARinAAPOR9V7nCZTGaaanUunMX4wVQ09SOMIDRAEfCuYwQUhwTy4pZU9lgFBLSosLEguQAbwIAF84MLyDMNeMtdNYnE4Ph4OqaVqWA0uj8-mynEdynBVA6rhhgFZsARECAxpgmMwWNgHdgWOinHoOFA4o60EA)
+- other ICEs?

@@ -1,0 +1,175 @@
+---
+format: revealjs
+title: Cybersecurity
+description: Encryption, Certificates and Web of Trust
+date: 2024-11-04
+image: /images/28/28.webp
+title-slide-attributes:
+    data-background-image: /images/28/28.webp
+    data-background-opacity: "0.3"
+---
+
+
+## Discussion! {timing=240 data-background-image="/images/28/28.webp" data-background-opacity="0.1"}
+
+- [Fitness app Strava gives away location of Biden, Trump and other leaders](https://apnews.com/article/biden-trump-macron-bodyguards-security-strava-0a48afca09c7aa74d703e72833dcaf72)
+- [Did Ukraine just assassinate a Russian submarine captain with his own Strava?](https://taskandpurpose.com/news/did-ukraine-just-assassinate-a-russian-submarine-captain-with-his-own-strava/)
+- [Cloudflare: What is Encryption](https://www.cloudflare.com/learning/ssl/what-is-encryption/)... and many more articles!
+
+
+## Announcements {data-background-image="/images/28/28.webp" data-background-opacity="0.1"}
+
+- [AI Summative Project Proposal](https://westpoint.instructure.com/courses/7068/assignments/160503) due 12NOV
+- Written Periodic Review on 13-14NOV
+
+![](/images/agenda-block-3.png)
+
+
+## Phishing Experiment {timing=120}
+
+:::: {.columns}
+::: {.column width=40%}
+- Total: 680
+- Read: 450
+- Deleted: 219
+- Clicked on link: 81
+- Supplied credentials: 45
+
+### Reported: 104
+### Compromised: 45
+:::
+::: {.column width=60%}
+![](/images/28/cy105-phishing.png)
+:::
+::::
+
+
+## Lesson Objectives {data-background-image="/images/28/28.webp" data-background-opacity="0.1"}
+
+- Define and state the **goals** for cybersecurity
+- Discuss how **cryptography** provides **confidentiality**
+- Explain the **limitations of symmetric cryptography**
+- Explain the process used for **asymmetric cryptography**
+    - and its uses in digital signatures, and certificates
+
+
+## Cybersecurity {timing=300}
+
+:::: {.columns}
+::: {.column width=50%}
+
+- Confidentiality
+- Integrity
+- Availability
+- Authentication
+- Non-repudiation
+
+:::
+::: {.column width=50%}
+![](/images/26/threat-goals.svg)
+:::
+::::
+
+::: {.notes}
+- Confidentiality <-> disclose
+- Integrity <-> alter
+- Availability <-> deny
+- Authentication: actors are who they claim to be
+    - confidentiality: who can read
+    - integrity: who can change
+- Non-repudiation: cannot deny the communication or transaction
+    - integrity: proof of origin and consent
+    - availability: actions are reliable and traceable
+:::
+
+## Encryption {timing=180}
+
+![](https://instructor-content.zybooks.com/encryption-decryption.png-8973473)
+
+::: {.notes}
+- Confidentiality
+- Integrity
+- Authentication
+- Non-repudiation
+:::
+
+
+## Thought Experiment {timing=600}
+
+### You want to send a secret note to your friend across the room.
+
+1. How do you keep it secret?
+1. How do you prevent someone from changing it?
+1. How do you ensure that they received it?
+1. How does your friend know it's from you?
+1. How do you prove you sent it?
+
+### ICE
+- [Affine: Encrypt](https://gchq.github.io/CyberChef/#recipe=Affine_Cipher_Encode(1,0))
+- [Affine: Decrypt](https://gchq.github.io/CyberChef/#recipe=Affine_Cipher_Decode(1,0))
+
+::: {.notes}
+What is the threat model?
+
+1. Agree upon a secret code; lock it in a box
+1. Seal the note; count the words or letters
+1. Ask them to acknowledge receipt
+1. Sign the note; use a secret handshake
+1. Keep a copy; have a witness
+
+Can this message be:
+1. Intercepted and cracked?
+1. Stored for later use?
+1. Changed?
+1. Replayed?
+1. Denied?
+:::
+
+
+## Types of Encryption {timing=300}
+
+![](https://instructor-content.zybooks.com/cryptographic_categories.png-9692729)
+
+::: {.notes}
+- Symmetric vs Asymmetric
+- How do you share the key?
+- Can you always pre-share the key?
+- Why symmetric?
+:::
+
+
+## Asymmetric Encryption {timing=300}
+
+```{mermaid width=100%}
+%%| fig-width: 16
+graph LR
+    Ciphertext{{Ciphertext}}
+    Signature{{Signature}}
+    Alice((Alice))
+    Bob((Bob))
+    Alice -- "encrypt (Bob's public key)" --> Ciphertext -- "decrypt (Bob's private key)" --> Bob
+    Alice -- "sign (Alice's private key)" --> Signature -- "verify (Alice's public key)" --> Bob
+```
+
+- [ICE: RSA Encryption](https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoBODgRgBYWaRGDBMEyVBwCCogBQBKDGgACIsBwDGeADY65dYOTyZNEY4wAqUAK54lxgGZxsckBAUAuNHF8IIHCDkcj5+YVAskaFhvgDEcNIAzgCeICB4MCiacACiBJpQyWAwwBAEcAAieO4EiZmkpQQYMX7ScImgYDp4cMY1dSQlZXAQzgDaAEoAym2EBUVD5Yg6ONC0dCAAugYwMGCJngD0h4QcNADWwGAUwIgc0DiHF8CH09KYcvPFECl11QoKOA2DoEHDtJB6AA0cEcwAAHhQ4AA3ZZ2RIw6Bwc54ZLIySIABG3XRMAg7U6OlxeDhXUQwHK9B6VEQuLIcPgmkQ5QJPTmhWKiMxHRwRHIQJBYMQcDANiJwGymLAKBRZCxOMSHGiMUiQjCSnCGRsUCaGDUoi0un0hmMpnMeCstnsaCcLg+Xi18Sc9N5+X5izgdF01ygMJs+UWiWafk60HgSBQ7jgiHR7i1MdgcBIBHIEBAUbicAA0ji4PgiINGqHw410XIOuBunBqYgGz1HJi+mSZVBIIk8Il9X4XWXiKQTNiinSoHIwNCAI7ulq+crMMQAKjgc61YTAhnEM7gAFo4LxARu5HOjyelNu-PEAMJ0CA-HpcuD0sj4EMAcjw3-aNiaAw9CkCecAADxNhB0p7lyYo4JowR4NCu7AICzC8Levg9MwWY5iAHB4Vm+ByAATChhiDi0YLMAhSEUWhWFwFQhiNmCACEGHeEuMQ4ZmcG5oRcHEXgZEMVRPGluIdFyMhMGMUxD65jKqrfuQ-6JIBwF0KBchihu9hwAApPJ4iYTxYrMO45D0kisnifmMTxAACrKOjymqySeHA9lwAQCjQs5ypjp53l6dC-lMVAhrGj5vn+dC4V+QCyhhPEADi0VjnUcBmGkww2UiwCJJijhhpoixasOiFyIg0IEouS4scAjYEnAnFwGw3GSb4dVwG1zAEtCUomQSUUxUsqV3rk7KEMYYo5IB7nGG+0grGs9AgHApIwvSYrWTYOjIO+BBIsQfZVXgzjWbZtXQiAjUtCAbDQnCL1wHCvDiCA0LveZTWsa+cAAHwnt1PWXswUrHAgTFhD9SbiCNCD3XDfhva9X3MJ9V6XhuGMfWwTHAM4OOQV1aO+DjADUVlEzx0UwEa5SfVNBZ5GYxiIwQNggDyIY7VKBLJngh6kQAbECojEJyfbtJk9I4JdzjC32EuYHMdpyP54MxCTflMMwFM9b4jPM6w0i6ku6LMFEPHNY2BC6zxBDQiGzCFdZ2vQhLEk8TbuV0NOIbU3A4sAKyAqHkYMxN7Rs3A8RVJzQOq6LEtS8Gss9AMivbWSUo83zxDK-1Ivq8YKd1o9MQrp1THtiGwDQtk9JNkXo5kHWYyeJ4h68JsNcu3AtM+dAwSaICx4R2ecAS2ua7AONTOxSaHq5L6CzSkdH7UvAwJ54y0puR5E6l3yCwzucKE7wQbIwEPfgThF4hgOcTGaFcgbu3AYyQFQchx6fB0lAAKnkIqAkboHY6bdaS73ZJsD+uYCTekoJ-XcxBxCRA4AAKwgPSEIJsy5q3FhrfIWsi4KEIjg4EMAxKsFiCwSBmIi4nVyl-EuPE-Z+DNrFPKKDRSmA4VABOSc8BfA5MI++4pD6BmlMFVUZ8wgukrn6K+LcpF70fr4Z+BtVzvx4vrboBBPiaPZICEypF2pG2dkudB39pG21YCPdhGDYB7w-sIzARd+YBzGJTYheAK7iK1vY4g98xjADgN5KJodSKbA4LnMAcgWDxCYdwloUColtxEnId6xjTFuPvmA0iGS4CIJ4nAuuYwgLTn-trXm0JdH+WYSGVhbcwlQG8bzXxFSly8PKNgvBBCqkSQGT5Jiadgkp0hJM8upDNbGFmRZcRfpllLgvsUdZ1FELbJiCOQY44cRgCnHs+GEAzl+BuqdS5psBI-S1DeVQ6gLR6AMEYEwKcHR2AcFdV0bgPC63cIEYITEdSKQyoQTuPRiyTmACIpi953KaHOCMBkciCQ2F2MMHkOgIBUHzqWKFhy4DJAgEaTyJz4UcDgFMEBPQj4yjlNkCczF1hNjOoUMoPRMXwGxHgMQjKFE9FZVKPsBQMjsTBXbPwYyJrKDNBobQbzrSfLtN8p0LpXAHLHJgCcVKoD3UBVqWcm5xCkS4D7AAzI5F0tgCC4GJbq-VU45CYG0cfZlKFhXiAAHLcuhP6ogTEmIOx6Ey5Fht5HABVHgWxLQI3ym9TGkKtEnVkD1cc11pqFyOR3CgO+chHA6gADpalcsy0KcAADeibNBjDYJsAAvuWn1E5vK1uFQ25t0qmEBMUtGwtLAK2RvbSwFCJ962NrKfEJUH4UlBRTYonEnhx3Rtjd2m85yOA2GABwXlpITFHVxYwFg6V009F9XgAlsKDXsTXWUUwyLziMHtY68szqs3wrlSvcoOa3ZhnfdCzNcKEXPPNMqq0HzbQWGsD850fzXDuBrsCoIhD+ngp4rEeIHM-R5r8AAVTloyydIwQxztjZ5GEUBcxJgJBAM6moeKYdlVqAZCqXmQfeTaL5cHNWIY+O4FC84a4wHZAAWX7IkRA+BvoBF3Rwe+cgUQ6DsKe9KZJpBQBAMke90JjD0fKvaXgbBTPQmPboU9zlb73z7WEMTMAOZyZ3XunxxBlOontKRNgvBoR1GQDARgvn5YQDAIwdcm4-NkDC8Fgz5L8j2gAGLLD7OZwklmWC4YWJWWFdmrkBCRP5lFcgxgOY5tCBzknEjSfwIPNjccyv5AqxJqTMm8AcYg5abjarYOOl+c4VwmyYBGuE5F7a7JyvjZgFVmr9hdZDYoJgEAiQaLtwkXIOQjXNAcBU3YFCa4FzNem61-AO3PNUKSXIb8sRvwSVQ8EYtMq4jYZrQtygy2cAtrCDqH95tZKbwFO9lbkInmKteVBnj6q+P9f+choFAQ0NRRYy0F7yc8NMSIwyuRS3zCHRgadc6PRRjbTkUNysE5MAVZ0vAYq0JgQ9GwEfCAjIQwU8wFK5jT24C-eNB1pVXXVUwftNDhDA3BMXOlCJ3WDn7zCOcwppTu37QsAAFI5AmNIAA6pYe8muACSAA1HIAAtSwBuVcAAk11xaM0F0z+T0s6FPbLope88u+Ac8neXrmenuaV4wcOpFgv+dgEFqLoXwsHaiwKsPvQ8CGYS4wZLOhUtwAs07lgaPsvDFy3dgrRXzglc9+Io7Lvv51YNL+qbZfiBHeTnz8H3Whcaph64VRCwRuS7GzL4RdfxE13b4DpbK3xCD7oZt9kyczuqbkmAA7YCe9uOnz8xJCtknXdu1qe7RbkeJxe9Wsfi2Ptfb8D9+rVe9KrIWEf4HTz9bYAIC2EwmAo0sGwEgek2AWC6xefaxQaAgA)
+- [PGP: Real-life Email Encryption](https://aliceandbob.io/online-pgp-tool)
+
+
+## Digital Signatures {timing=300}
+
+- Opposite of encryption
+- Encrypt with private key
+- Decrypt with public key
+- Who can read the data?
+- Who can verify the signature?
+- What does this accomplish?
+
+
+## Certificate Authorities {timing=300}
+
+![](https://instructor-content.zybooks.com/digital_cert.png-7045391)
+
+
+## [Phishing Quiz](https://www.sonicwall.com/en-us/phishing-iq-test) {timing=300}
+
+## [Encryption ICE 2](https://www.kerryveenstra.com/cryptosystem.html) {timing=0}
