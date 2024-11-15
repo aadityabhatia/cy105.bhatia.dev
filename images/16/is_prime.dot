@@ -1,0 +1,28 @@
+digraph IsPrime {
+    bgcolor="transparent"
+    arg1[style=filled fillcolor=lightgray label=n]
+    rankdir=LR
+
+    subgraph is_prime {
+        cluster=true
+        label="is_prime(n)"
+        style=filled
+        color=lightblue
+        checkIfEven -> loop [label=False color=red];
+        loop -> checkIfDivisible [label="check next number"];
+        checkIfDivisible -> loop [label=False color=red];
+    }
+    checkIfEven -> returnFalse [label=True color=green];
+    checkIfDivisible -> returnFalse
+    checkIfDivisible -> returnFalse2 [label=True color=green];
+    loop -> returnTrue [label="iteration complete" minlen=2];
+
+    arg1 -> checkIfEven;
+
+    checkIfEven [shape=diamond label="n < 2"]
+    checkIfDivisible [shape=diamond label="is n divisible by i?"];
+    loop [shape=ellipse, label="iterate over numbers\n i = 2 to n-1"];
+    returnFalse, returnFalse2 [label="return False"]
+    returnTrue [label="return True"];
+    returnTrue, returnFalse, returnFalse2 [shape=box, style=filled, fillcolor=lightgreen];
+}
