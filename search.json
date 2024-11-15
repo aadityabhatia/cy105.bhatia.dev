@@ -1001,6 +1001,13 @@
     "text": "What next?\n\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nhaveibeenpwned.com - check if your information has been compromised\nNextDNS - DNS-based tracker blocker\nPrivacy Guides\nPrivacyTools\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal"
   },
   {
+    "objectID": "lessons/32-methods.html#announcements",
+    "href": "lessons/32-methods.html#announcements",
+    "title": "List and String Methods",
+    "section": "Announcements",
+    "text": "Announcements\n\nTech Tour: Cyber -&gt; Robotics -&gt; CS -&gt; Photonics\nWPS8 due 18NOV (Monday)\nWPS9 due 24NOV (Sunday)\nBluefruit - If you do not need it anymore, please consider donating it to the department!"
+  },
+  {
     "objectID": "lessons/32-methods.html#lesson-objectives",
     "href": "lessons/32-methods.html#lesson-objectives",
     "title": "List and String Methods",
@@ -1012,42 +1019,42 @@
     "href": "lessons/32-methods.html#review-lists-and-strings",
     "title": "List and String Methods",
     "section": "Review: Lists and Strings",
-    "text": "Review: Lists and Strings\n\nData type: Collection\n\nHow does this compare to others?\n\nCan access parts or treat as a whole\nSequential (ordered)\nString vs. List\n\nElements can be different types\nLists are mutable, strings are not"
-  },
-  {
-    "objectID": "lessons/32-methods.html#methods",
-    "href": "lessons/32-methods.html#methods",
-    "title": "List and String Methods",
-    "section": "Methods",
-    "text": "Methods\n\nfunctions that operate directly on lists or strings\naccessed using the dot operator, e.g. mystring.count(\"a\")\nsimilar to modules, but associated with a value"
+    "text": "Review: Lists and Strings\n\nData type: Collection\nHow do these compare to non-collection types?\n\nCan access parts or treat as a whole\nSequential (ordered)\n\nString vs. List\n\nElements can be different types\nLists are mutable, strings are not"
   },
   {
     "objectID": "lessons/32-methods.html#string-methods",
     "href": "lessons/32-methods.html#string-methods",
     "title": "List and String Methods",
     "section": "String Methods",
-    "text": "String Methods\n\ncount(substring)\nfind(substring)\nisalpha()\nisupper()\nupper()\nlower()\njoin(iterable)\nsplit(separator)"
+    "text": "String Methods\n\n\n\nFunctions that operate directly on strings\nWill never modify the original string\nAccessed using the dot operator, e.g. mystring.count(\"a\")\nSimilar to modules, but associated with a value\nWhat do they return?\nCan we chain functions?\nWhere can we find more? DevDocs.io!\n\n\nmystring.count(substring)\n\nmystring.find(substring)\n\nmystring.isalpha()\n\nmystring.isupper()\n\nmystring.upper()\n\nmystring.lower()\n\nmystring.join(iterable)\n\nmystring.split(separator)"
   },
   {
-    "objectID": "lessons/32-methods.html#ice-string-methods",
-    "href": "lessons/32-methods.html#ice-string-methods",
+    "objectID": "lessons/32-methods.html#practice-string-methods",
+    "href": "lessons/32-methods.html#practice-string-methods",
     "title": "List and String Methods",
-    "section": "ICE: String Methods",
-    "text": "ICE: String Methods\nbigstring = \"supercalifragilisticespialidocious\"\nbigstring.count(\"li\")\nbigstring.find(\"li\")\n\"super\" in bigstring\n\"fragile\" in bigstring\nbigstring.replace(\"li\", \"LI\")\nbigstring.upper()\nbigstring\n\nUse REPL or a notebook to try these out!\nRead each line and predict the output, and then run it to check your answer.\nWhat was the last line’s result? Did you expect that?"
+    "section": "Practice: String Methods",
+    "text": "Practice: String Methods\n\nTry these in REPL or a new notebook\nRun one line at a time!\nRead each line and predict the output, and then run it to check your answer.\nWhat was the last line’s result? Did you expect that?\n\nbigstring = \"supercalifragilisticespialidocious\"\nbigstring.count(\"li\")\nbigstring.find(\"li\")\n\"super\" in bigstring\n\"fragile\" in bigstring\nbigstring.replace(\"li\", \"LI\")\nbigstring.upper()\nbigstring"
   },
   {
-    "objectID": "lessons/32-methods.html#ice-list-methods",
-    "href": "lessons/32-methods.html#ice-list-methods",
+    "objectID": "lessons/32-methods.html#list-methods",
+    "href": "lessons/32-methods.html#list-methods",
     "title": "List and String Methods",
-    "section": "ICE: List Methods",
-    "text": "ICE: List Methods\nmylist = [1, 2, 3, 4, 5]\nmylist.append(6)\nmylist.pop()\nmylist.insert(2, 7)\nmylist.remove(7)\nmylist.reverse()\nmylist\n\nUse REPL or a notebook to try these out!\nRead each line and predict the output, and then run it to check your answer."
+    "section": "List Methods",
+    "text": "List Methods\n\n\n\nFunctions that operate directly on lists\nAccessed using the dot operator, e.g. mystring.count(\"a\")\nSimilar to modules, but associated with a value\nWhat do they do?\nWhat do they return?\nCould be chained together?\n\n\nmylist.count(item)\n\nmylist.append(item)\n\nmylist.insert(index, item)\n\nmylist.remove(item)\n\nmylist.pop()\n\nmylist.pop(index)\n\nmylist.index(item)\n\nmylist.reverse()\n\nmylist.sort()"
   },
   {
-    "objectID": "lessons/32-methods.html#more-ices",
-    "href": "lessons/32-methods.html#more-ices",
+    "objectID": "lessons/32-methods.html#practice-list-methods",
+    "href": "lessons/32-methods.html#practice-list-methods",
     "title": "List and String Methods",
-    "section": "More ICEs!",
-    "text": "More ICEs!\n\nzyBook 31.3\nTornado Analyzer\nNEO Earth Close Approaches"
+    "section": "Practice: List Methods",
+    "text": "Practice: List Methods\n\nTry these in REPL or a new notebook\nRun one line at a time!\nRead each line and predict the output, and then run it to check your answer.\nWhat was the last line’s result? Did you expect that?\n\nmylist = [2, 3, 5, 7, 11, 13, 17]\nmylist.append(19)\nmylist.pop()\nmylist.insert(2, 7)\nmylist.remove(7)\nmylist.reverse()\nmylist\n\nUse REPL or a notebook to try these out!\nRead each line and predict the output, and then run it to check your answer."
+  },
+  {
+    "objectID": "lessons/32-methods.html#in-class-exercise",
+    "href": "lessons/32-methods.html#in-class-exercise",
+    "title": "List and String Methods",
+    "section": "In-Class Exercise!",
+    "text": "In-Class Exercise!\n\nzyBook 31.3\n\nICE 1, 2, 7\n\nzyBook Data Lab: Tornado Analyzer"
   },
   {
     "objectID": "lessons/04-algorithms.html#discussion",
@@ -1852,7 +1859,7 @@
     "href": "index.html#ai-summative-project",
     "title": "Computing Fundamentals",
     "section": "AI Summative Project",
-    "text": "AI Summative Project\n\nIdeas\n\nHackaday\nHacker News: Show\nExample Projects [Canvas]\nText-based adventure game [zybook]\nzork-py library for Python\nKaggle Data Science Notebook\nCircuit Playground Bluefruit: Puzzle Box, Escape Room, etc.\n\nFruit Piano\n\n\n\n\nTools and Resources\n\ntldraw makereal - bring your application sketches to life! - watch demo\nDevelop applications that use AI at runtime-\n\nOpenAI API - message them for API credits as a student researcher\nAnthropic API - free limited API access\nStreamlit - hosting platform to turn data scripts into shareable web apps using Python\n\nDeepnote - interactive web applications in Python\nMarimo - interactive web applications in Python\nGitHub pages - host your websites and JavaScript applications for free\nVisual Studio Code - development environment for grown-ups\n\nGithub CoPilot - AI-powered code completion on steroids; free for students\nSerial Monitor extension - interface with your microcontroller from within VSCode\n\nUsing Bluetooth (BLE) with Circuit Playground Bluefruit"
+    "text": "AI Summative Project\n\nIdeas\n\nMake It Yourself - A Beautifully Illustrated Guide to Making\nHackaday\nHacker News: Show\nExample Projects [Canvas]\nText-based adventure game [zybook]\nzork-py library for Python\nKaggle Data Science Notebook\nCircuit Playground Bluefruit: Puzzle Box, Escape Room, etc.\n\nFruit Piano\n\n\n\n\nTools and Resources\n\ntldraw makereal - bring your application sketches to life! - watch demo\nDevelop applications that use AI at runtime-\n\nOpenAI API - message them for API credits as a student researcher\nAnthropic API - free limited API access\nStreamlit - hosting platform to turn data scripts into shareable web apps using Python\n\nDeepnote - interactive web applications in Python\nMarimo - interactive web applications in Python\nGitHub pages - host your websites and JavaScript applications for free\nVisual Studio Code - development environment for grown-ups\n\nGithub CoPilot - AI-powered code completion on steroids; free for students\nSerial Monitor extension - interface with your microcontroller from within VSCode\n\nUsing Bluetooth (BLE) with Circuit Playground Bluefruit"
   },
   {
     "objectID": "index.html#random-interesting-material",
@@ -2972,7 +2979,7 @@
     "href": "lessons/34-AI-data.html#artificial-general-intelligence",
     "title": "AI and Data",
     "section": "Artificial General Intelligence",
-    "text": "Artificial General Intelligence\n\nability of a machine to perform any intellectual task that a human can do\nnot yet achieved!!\n\nHow long until we get there?"
+    "text": "Artificial General Intelligence\n\nAbility of a machine to perform any intellectual task that a human can do\nNot yet achieved!!\n\nHow long until we get there?"
   },
   {
     "objectID": "lessons/34-AI-data.html#what-is-next",
