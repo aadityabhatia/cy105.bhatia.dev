@@ -1824,7 +1824,7 @@
     "href": "index.html#lessons",
     "title": "Computing Fundamentals",
     "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 2 Review\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetworks and Data\n\n\nHow do computers talk?\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Wide Web\n\n\nHow the Internet really works\n\n\n\n\n\n\nOct 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData and Ethics\n\n\nYou are being watched! 👀\n\n\n\n\n\n\nOct 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThreats in Cyberspace\n\n\nActors, threats, vulnerabilities and types of attacks\n\n\n\n\n\n\nOct 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming Lab\n\n\nNetwork Packet Analysis with Scapy and Wireshark!\n\n\n\n\n\n\nOct 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCybersecurity\n\n\nEncryption, Certificates and Web of Trust\n\n\n\n\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCyber Hygiene\n\n\nStaying safe online\n\n\n\n\n\n\nNov 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 3 Review\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nList and String Methods\n\n\nOperating directly on data types\n\n\n\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI and Data\n\n\nHow AI systems are created\n\n\n\n\n\n\nNov 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI and Ethics\n\n\nWhat is the right thing to do?\n\n\n\n\n\n\nDec 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTEE Review\n\n\nThis is it!\n\n\n\n\n\n\nDec 6, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 2 Review\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetworks and Data\n\n\nHow do computers talk?\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Wide Web\n\n\nHow the Internet really works\n\n\n\n\n\n\nOct 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData and Ethics\n\n\nYou are being watched! 👀\n\n\n\n\n\n\nOct 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThreats in Cyberspace\n\n\nActors, threats, vulnerabilities and types of attacks\n\n\n\n\n\n\nOct 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming Lab\n\n\nNetwork Packet Analysis with Scapy and Wireshark!\n\n\n\n\n\n\nOct 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCybersecurity\n\n\nEncryption, Certificates and Web of Trust\n\n\n\n\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCyber Hygiene\n\n\nStaying safe online\n\n\n\n\n\n\nNov 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 3 Review\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nList and String Methods\n\n\nOperating directly on data types\n\n\n\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence\n\n\nHow AI systems are created\n\n\n\n\n\n\nNov 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI and Ethics\n\n\nWhat is the right thing to do?\n\n\n\n\n\n\nDec 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTEE Review\n\n\nThis is it!\n\n\n\n\n\n\nDec 6, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#course-objectives",
@@ -2942,128 +2942,128 @@
   {
     "objectID": "lessons/34-AI-data.html#discussion",
     "href": "lessons/34-AI-data.html#discussion",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "Discussion!",
-    "text": "Discussion!\n\nPassword Game!\nOpenAI Sora"
+    "text": "Discussion!\n\nOpenAI Sora\nPassword Game!"
   },
   {
     "objectID": "lessons/34-AI-data.html#in-the-news",
     "href": "lessons/34-AI-data.html#in-the-news",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "In the news…",
     "text": "In the news…\n\n\n\n\n\nSee the list of Trump Cabinet picks and more White House appointments so far [cbsnews.com]\nCabinet confirmation process and recess appointments, explained [cnn.com]\nTracking Trump’s picks to serve in his Cabinet, administration [abcnews.com]"
   },
   {
     "objectID": "lessons/34-AI-data.html#announcements",
     "href": "lessons/34-AI-data.html#announcements",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "Announcements",
     "text": "Announcements\n\n\n\n24NOV WPS9: starter code\n26NOV Copyright Lecture (Dean’s Hour)\n\nIf You Think It ‘Thinks,’ Think Again (New York Law Journal)\n\n\n\n\n02DEC WPS10\nNext meeting here: 04DEC / 05DEC\nBluefruit - consider donating it!"
   },
   {
     "objectID": "lessons/34-AI-data.html#lesson-objectives",
     "href": "lessons/34-AI-data.html#lesson-objectives",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "Lesson Objectives",
     "text": "Lesson Objectives\n\nDefine the term “artificial intelligence” (AI)\n\nrecall some of the key historical milestones in its development\n\nDifferentiate betwen Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL)\nDifferentiate Artificial Narrow Intelligence, Artificial General Intelligence, and Artificial Superintelligence.\nIdentify potential applications and limitations of artificial intelligence in various fields and industries."
   },
   {
     "objectID": "lessons/34-AI-data.html#artificial-intelligence-has-been-recognized-as-a-field-of-study-since",
     "href": "lessons/34-AI-data.html#artificial-intelligence-has-been-recognized-as-a-field-of-study-since",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "Artificial Intelligence has been recognized as a field of study since…",
     "text": "Artificial Intelligence has been recognized as a field of study since…\n\n1940s\n1950s\n1960s\n1970s"
   },
   {
     "objectID": "lessons/34-AI-data.html#ai-winter-is",
     "href": "lessons/34-AI-data.html#ai-winter-is",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "AI Winter is…",
     "text": "AI Winter is…\n\nA training technique marked by the use of rapid cooling technologies to save energy between sessions\nA catastrophic event that happened when a nuclear explosive was aimed at an AI research facility\nA period of time marked by a lack of innovation, funding, or interest in AI research"
   },
   {
-    "objectID": "lessons/34-AI-data.html#what-is-ai",
-    "href": "lessons/34-AI-data.html#what-is-ai",
-    "title": "AI and Data",
-    "section": "What is AI?",
-    "text": "What is AI?\n\n\nAbility of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings."
+    "objectID": "lessons/34-AI-data.html#what-is-artificial-intelligence",
+    "href": "lessons/34-AI-data.html#what-is-artificial-intelligence",
+    "title": "Artificial Intelligence",
+    "section": "What is Artificial Intelligence?",
+    "text": "What is Artificial Intelligence?\n\nAbility of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings."
   },
   {
     "objectID": "lessons/34-AI-data.html#definitions",
     "href": "lessons/34-AI-data.html#definitions",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "Definitions",
     "text": "Definitions\n\n\n\nArtificial Intelligence (AI)\n\nsolving problems in new, previously unseen scenarios\n\nMachine Learning (ML)\n\nstatistical and computational techniques\nperform tasks without explicit programming!\n\nDeep learning (DL)\n\nhighly specialized subset of ML\nuses artificial neural networks (NN)\nattempt to simulate the human-learning process"
   },
   {
     "objectID": "lessons/34-AI-data.html#how-is-this-different-from-programming",
     "href": "lessons/34-AI-data.html#how-is-this-different-from-programming",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "How is this different from programming?",
     "text": "How is this different from programming?"
   },
   {
     "objectID": "lessons/34-AI-data.html#does-human-brain-work-like-a-computer",
     "href": "lessons/34-AI-data.html#does-human-brain-work-like-a-computer",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "Does human brain work like a computer?",
     "text": "Does human brain work like a computer?\n\nHow is it similar? Why?\nHow is it different? Why?\n\nICE"
   },
   {
     "objectID": "lessons/34-AI-data.html#deep-learning",
     "href": "lessons/34-AI-data.html#deep-learning",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "Deep Learning",
     "text": "Deep Learning"
   },
   {
     "objectID": "lessons/34-AI-data.html#neural-networks",
     "href": "lessons/34-AI-data.html#neural-networks",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "Neural Networks",
     "text": "Neural Networks\n\n\nYouTube"
   },
   {
     "objectID": "lessons/34-AI-data.html#artificial-general-intelligence",
     "href": "lessons/34-AI-data.html#artificial-general-intelligence",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "Artificial General Intelligence",
     "text": "Artificial General Intelligence\n\nAbility of a machine to perform any intellectual task that a human can do\nNot yet achieved!!\n\nHow long until we get there?"
   },
   {
     "objectID": "lessons/34-AI-data.html#artificial-superintelligence",
     "href": "lessons/34-AI-data.html#artificial-superintelligence",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "Artificial Superintelligence",
     "text": "Artificial Superintelligence\n\nAI that surpasses human intelligence\nWhat If We Created a Superintelligence?\nArtificial Super Intelligence Simply Explained"
   },
   {
     "objectID": "lessons/34-AI-data.html#where-are-we-today",
     "href": "lessons/34-AI-data.html#where-are-we-today",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "Where are we today?",
     "text": "Where are we today?"
   },
   {
     "objectID": "lessons/34-AI-data.html#ice-scenario-design-teams",
     "href": "lessons/34-AI-data.html#ice-scenario-design-teams",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "ICE: Scenario Design Teams",
     "text": "ICE: Scenario Design Teams\nTeam with AI to come up with a future scenario. Specifically, think about the year 2041. Explore futuristic technologies, culture, and lifestyles. Consider how AI might evolve and shape society. Ask about new ways people might pursue knowledge and express curiosity.\nCome up with…\n\nA short story or dialogue.\nA visual infographic or storyboard.\nA mock news broadcast from 2041.\n\nSample Questions\n\nHow do humans and AI collaborate in everyday life?\nWhat are schools, workplaces, or entertainment like in 2041?\nHow has curiosity driven scientific or societal advances?\nHow does AI influence or enhance human curiosity?"
   },
   {
     "objectID": "lessons/34-AI-data.html#what-is-next",
     "href": "lessons/34-AI-data.html#what-is-next",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "What is next?",
     "text": "What is next?\n\nWhat common themes emerged about life in 2041?\nWhat is the world and everyday life like?\nHow do curiosity and AI intersect in these visions?\nWhat ethical considerations or challenges were highlighted?\nWhat role does AI play in this?"
   },
   {
     "objectID": "lessons/34-AI-data.html#more-discussion",
     "href": "lessons/34-AI-data.html#more-discussion",
-    "title": "AI and Data",
+    "title": "Artificial Intelligence",
     "section": "More Discussion",
-    "text": "More Discussion\n\nWPS9\n\nstarter code"
+    "text": "More Discussion\n\nWPS9\n\nstarter code\n\nSummative Projects!\nPassword Game!\nThis Person Does Not Exist"
   },
   {
     "objectID": "lessons/18-robotics.html#announcements",
