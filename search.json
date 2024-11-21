@@ -2940,11 +2940,11 @@
     "text": "Lesson Objectives\n\nFind the ethical implications of AI\nDiscuss the importance of doing the right thing\nIdentify the potential consequences of AI systems"
   },
   {
-    "objectID": "lessons/34-AI-data.html#discussion",
-    "href": "lessons/34-AI-data.html#discussion",
+    "objectID": "lessons/34-AI-data.html#password-game",
+    "href": "lessons/34-AI-data.html#password-game",
     "title": "Artificial Intelligence",
-    "section": "Discussion!",
-    "text": "Discussion!\n\nOpenAI Sora\nPassword Game!"
+    "section": "Password Game!",
+    "text": "Password Game!"
   },
   {
     "objectID": "lessons/34-AI-data.html#in-the-news",
@@ -2968,6 +2968,13 @@
     "text": "Lesson Objectives\n\nDefine the term “artificial intelligence” (AI)\n\nrecall some of the key historical milestones in its development\n\nDifferentiate betwen Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL)\nDifferentiate Artificial Narrow Intelligence, Artificial General Intelligence, and Artificial Superintelligence.\nIdentify potential applications and limitations of artificial intelligence in various fields and industries."
   },
   {
+    "objectID": "lessons/34-AI-data.html#definitions",
+    "href": "lessons/34-AI-data.html#definitions",
+    "title": "Artificial Intelligence",
+    "section": "Definitions",
+    "text": "Definitions\n\n\n\nArtificial Intelligence (AI)\n\nsolving problems in new, previously unseen scenarios\n\nMachine Learning (ML)\n\nstatistical and computational techniques\nperform tasks without explicit programming!\n\nDeep learning (DL)\n\nhighly specialized subset of ML\nuses artificial neural networks (NN)\nattempt to simulate the human-learning process"
+  },
+  {
     "objectID": "lessons/34-AI-data.html#artificial-intelligence-has-been-recognized-as-a-field-of-study-since",
     "href": "lessons/34-AI-data.html#artificial-intelligence-has-been-recognized-as-a-field-of-study-since",
     "title": "Artificial Intelligence",
@@ -2989,13 +2996,6 @@
     "text": "What is Artificial Intelligence?\n\nAbility of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings."
   },
   {
-    "objectID": "lessons/34-AI-data.html#definitions",
-    "href": "lessons/34-AI-data.html#definitions",
-    "title": "Artificial Intelligence",
-    "section": "Definitions",
-    "text": "Definitions\n\n\n\nArtificial Intelligence (AI)\n\nsolving problems in new, previously unseen scenarios\n\nMachine Learning (ML)\n\nstatistical and computational techniques\nperform tasks without explicit programming!\n\nDeep learning (DL)\n\nhighly specialized subset of ML\nuses artificial neural networks (NN)\nattempt to simulate the human-learning process"
-  },
-  {
     "objectID": "lessons/34-AI-data.html#how-is-this-different-from-programming",
     "href": "lessons/34-AI-data.html#how-is-this-different-from-programming",
     "title": "Artificial Intelligence",
@@ -3010,18 +3010,32 @@
     "text": "Does human brain work like a computer?\n\nHow is it similar? Why?\nHow is it different? Why?\n\nICE"
   },
   {
-    "objectID": "lessons/34-AI-data.html#deep-learning",
-    "href": "lessons/34-AI-data.html#deep-learning",
+    "objectID": "lessons/34-AI-data.html#machine-learning",
+    "href": "lessons/34-AI-data.html#machine-learning",
     "title": "Artificial Intelligence",
-    "section": "Deep Learning",
-    "text": "Deep Learning"
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nKaggle: Titanic Challenge\n\ngiven age, gender, class, family size, fare etc., predict who survived"
   },
   {
-    "objectID": "lessons/34-AI-data.html#neural-networks",
-    "href": "lessons/34-AI-data.html#neural-networks",
+    "objectID": "lessons/34-AI-data.html#deep-learning-neural-networks",
+    "href": "lessons/34-AI-data.html#deep-learning-neural-networks",
     "title": "Artificial Intelligence",
-    "section": "Neural Networks",
-    "text": "Neural Networks\n\n\nYouTube"
+    "section": "Deep Learning: Neural Networks",
+    "text": "Deep Learning: Neural Networks"
+  },
+  {
+    "objectID": "lessons/34-AI-data.html#where-are-we-today",
+    "href": "lessons/34-AI-data.html#where-are-we-today",
+    "title": "Artificial Intelligence",
+    "section": "Where are we today?",
+    "text": "Where are we today?"
+  },
+  {
+    "objectID": "lessons/34-AI-data.html#artificial-narrow-intelligence",
+    "href": "lessons/34-AI-data.html#artificial-narrow-intelligence",
+    "title": "Artificial Intelligence",
+    "section": "Artificial Narrow Intelligence",
+    "text": "Artificial Narrow Intelligence\n\nOne-trick pony!\nAI that is designed for a specific task\nExamples: Siri, Alexa, self-driving cars, ChatGPT\nHow effective are they?\nCan AI be creative?"
   },
   {
     "objectID": "lessons/34-AI-data.html#artificial-general-intelligence",
@@ -3035,35 +3049,14 @@
     "href": "lessons/34-AI-data.html#artificial-superintelligence",
     "title": "Artificial Intelligence",
     "section": "Artificial Superintelligence",
-    "text": "Artificial Superintelligence\n\nAI that surpasses human intelligence\nWhat If We Created a Superintelligence?\nArtificial Super Intelligence Simply Explained"
+    "text": "Artificial Superintelligence\n\nWhat If We Created a Superintelligence?\nArtificial Super Intelligence Simply Explained\nAI that surpasses human intelligence\nWhat could go wrong?"
   },
   {
-    "objectID": "lessons/34-AI-data.html#where-are-we-today",
-    "href": "lessons/34-AI-data.html#where-are-we-today",
+    "objectID": "lessons/34-AI-data.html#ice-scenario-design",
+    "href": "lessons/34-AI-data.html#ice-scenario-design",
     "title": "Artificial Intelligence",
-    "section": "Where are we today?",
-    "text": "Where are we today?"
-  },
-  {
-    "objectID": "lessons/34-AI-data.html#ice-scenario-design-teams",
-    "href": "lessons/34-AI-data.html#ice-scenario-design-teams",
-    "title": "Artificial Intelligence",
-    "section": "ICE: Scenario Design Teams",
-    "text": "ICE: Scenario Design Teams\nTeam with AI to come up with a future scenario. Specifically, think about the year 2041. Explore futuristic technologies, culture, and lifestyles. Consider how AI might evolve and shape society. Ask about new ways people might pursue knowledge and express curiosity.\nCome up with…\n\nA short story or dialogue.\nA visual infographic or storyboard.\nA mock news broadcast from 2041.\n\nSample Questions\n\nHow do humans and AI collaborate in everyday life?\nWhat are schools, workplaces, or entertainment like in 2041?\nHow has curiosity driven scientific or societal advances?\nHow does AI influence or enhance human curiosity?"
-  },
-  {
-    "objectID": "lessons/34-AI-data.html#what-is-next",
-    "href": "lessons/34-AI-data.html#what-is-next",
-    "title": "Artificial Intelligence",
-    "section": "What is next?",
-    "text": "What is next?\n\nWhat common themes emerged about life in 2041?\nWhat is the world and everyday life like?\nHow do curiosity and AI intersect in these visions?\nWhat ethical considerations or challenges were highlighted?\nWhat role does AI play in this?"
-  },
-  {
-    "objectID": "lessons/34-AI-data.html#more-discussion",
-    "href": "lessons/34-AI-data.html#more-discussion",
-    "title": "Artificial Intelligence",
-    "section": "More Discussion",
-    "text": "More Discussion\n\nWPS9\n\nstarter code\n\nSummative Projects!\nPassword Game!\nThis Person Does Not Exist"
+    "section": "ICE: Scenario Design",
+    "text": "ICE: Scenario Design\n\n\nTeam with AI to come up with a future scenario.\n\nSpecifically, think about the year 2041.\nExplore futuristic technologies, culture, and lifestyles.\nConsider how AI might evolve and shape society.\nImagine new ways people might\n\ninteract with each other\npursue knowledge\nexpress curiosity\n\n\nCome up with…\n\nA short story or dialogue.\nA visual infographic or storyboard.\n\nDiscuss…\n\nWhat common themes emerged about life in 2041?\nWhat is the world and everyday life like?\nHow do curiosity and AI intersect in these visions?\nWhat ethical considerations or challenges were highlighted?\nWhat role does AI play in this?\n\n\nAI Tools\n\nAI Test Kitchen\nGemini\nClaude\nRecommend others!\n\nSample Prompt Questions\n\nHow do humans and AI collaborate in everyday life?\nWhat are schools, workplaces, or entertainment like in 2041?\nHow has curiosity driven scientific or societal advances?\nHow does AI influence or enhance human curiosity?"
   },
   {
     "objectID": "lessons/18-robotics.html#announcements",
