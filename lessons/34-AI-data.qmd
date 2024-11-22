@@ -1,63 +1,147 @@
 ---
 format: revealjs
-title: AI and Data
+title: Artificial Intelligence
 description: How AI systems are created
 date: 2024-11-21
 image: /images/34/34.webp
 title-slide-attributes:
     data-background-image: /images/34/34.webp
     data-background-opacity: "0.3"
+default-image-extension: ""
 ---
 
-<!-- ## Discussion! {timing=240 data-background-image="/images/34/34.webp" data-background-opacity="0.3"} -->
+## Password Game! {data-background-image="/images/34/34.webp" data-background-opacity="0.2"}
+
+<iframe src="https://neal.fun/password-game/" width="100%" height="800px"></iframe>
 
 
+## In the news... {data-background-image="/images/34/34.webp" data-background-opacity="0.1"}
+
+:::: {.columns}
+::: {.column width=50%}
+![](https://thispersondoesnotexist.com/)
+:::
+::: {.column width=50%}
+- [See the list of Trump Cabinet picks and more White House appointments so far [cbsnews.com]](https://www.cbsnews.com/news/who-might-be-in-donald-trump-cabinet/)
+- [Cabinet confirmation process and recess appointments, explained [cnn.com]](https://www.cnn.com/2024/11/14/politics/cabinet-confirmation-recess-what-matters/index.html)
+- [Tracking Trump's picks to serve in his Cabinet, administration [abcnews.com]](https://abcnews.go.com/Politics/tracking-trump-named-serve-cabinet-administration/story)
+:::
+::::
 
 
-## Announcements {data-background-image="/images/34/34.webp" data-background-opacity="0.2"}
+## Announcements {data-background-image="/images/34/34.webp" data-background-opacity="0.1"}
 
-![](/images/agenda-block-3.png)
+:::: {.columns}
+::: {.column width=50%}
+- 24NOV [WPS9](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/45/section/1): [starter code](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/31/section/4)
+- 26NOV Copyright Lecture (Dean's Hour)
+    - [If You Think It 'Thinks,' Think Again (New York Law Journal)](https://westpoint.instructure.com/courses/7068/files/1657857)
+:::
+::: {.column width=50%}
+- 02DEC [WPS10](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/46/section/1)
+- Next meeting here: 04DEC / 05DEC
+- Bluefruit - consider donating it!
+:::
+::::
+
+![](/images/agenda-block-4.png)
 
 
 ## Lesson Objectives {data-background-image="/images/34/34.webp" data-background-opacity="0.1"}
 
-- Define artificial intelligence (AI)
-- Explain the difference between AI and machine learning (ML)
-- Describe the types of machine learning
-- Identify the components of a neural network
-- Discuss the implications of AI
+- Define the term "artificial intelligence" (AI)
+    - recall some of the key historical milestones in its development
+- Differentiate betwen Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL)
+- Differentiate Artificial Narrow Intelligence, Artificial General Intelligence, and Artificial Superintelligence.
+- Identify potential applications and limitations of artificial intelligence in various fields and industries.
 
 
-## AI vs ML
+## Definitions
 
-- Artificial intelligence (AI)
-    - The ability of a machine to perform tasks that typically require human intelligence
-- Machine learning (ML)
-    - A subset of AI that uses algorithms to learn from data and make predictions
-
-
-## Types of Machine Learning
-
-- Supervised machine learning
-    - Analyzes labeled data and identifies patterns
-    - Maps input data to an output label
-- Reinforcement learning
-    - Performs actions that it expects will be rewarded
-    - Often used by game-playing AI or navigational robots
-- Unsupervised machine learning
-    - Finds patterns in unlabeled data
-    - Identifies similarities and clusters data
-
-::: {.notes}
-- Supervised machine learning: The algorithm analyzes labeled data and learns how to map input data to an output label. Often used for classification and prediction.
-- Reinforcement learning: The algorithm performs actions that it expects will be rewarded in some environment (often simulated, at least to start). Note here there is a much less defined "right answer", even for past examples! Often used by game-playing AI or navigational robots.
-- Unsupervised machine learning: The algorithm finds patterns in unlabeled data by clustering and identifying similarities. Popular uses include recommendation systems and targeted advertising.
+:::: {.columns}
+::: {.column width=60%}
+- Artificial Intelligence (AI)
+    - solving problems in new, previously unseen scenarios
+- Machine Learning (ML)
+    - statistical and computational techniques
+    - perform tasks without explicit programming!
+- Deep learning (DL)
+    - highly specialized subset of ML
+    - uses artificial neural networks (NN)
+    - attempt to simulate the human-learning process
 :::
+::: {.column width=40%}
+![](/images/34/al-ml-dl.png)
+:::
+::::
 
 
-## Neural Networks
+## Artificial Intelligence has been recognized as a field of study since...
 
-![](https://instructor-uploaded-content.s3.amazonaws.com/neural+networks.svg-2016453)
+A) 1940s
+A) 1950s
+A) 1960s
+A) 1970s
+
+
+## AI Winter is...
+
+A) A training technique marked by the use of rapid cooling technologies to save energy between sessions
+A) A catastrophic event that happened when a nuclear explosive was aimed at an AI research facility
+A) A period of time marked by a lack of innovation, funding, or interest in AI research
+
+
+## What is Artificial Intelligence?
+
+![](https://instructor-uploaded-content.s3.amazonaws.com/Intelligence.png-7538576)
+
+Ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings.
+
+
+## How is this different from programming?
+
+![](https://instructor-content.zybooks.com/coding-vs-ml.png-6153650)
+
+
+## Does human brain work like a computer?
+
+- How is it similar? Why?
+- How is it different? Why?
+
+### ICE {.fragment}
+
+---
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/US_one_dollar_bill%2C_obverse%2C_series_2009.jpg/1200px-US_one_dollar_bill%2C_obverse%2C_series_2009.jpg)
+
+
+## Machine Learning
+
+- [Kaggle: Titanic Challenge](https://www.kaggle.com/competitions/titanic)
+    - given age, gender, class, family size, fare etc., predict who survived
+
+![](https://d3i71xaburhd42.cloudfront.net/898ecf83c17d451b1fff47c1f820f3716f1aa21a/1-Figure1-1.png)
+
+<!-- ![](https://instructor-content.zybooks.com/feature_extraction.jpg-5022126) -->
+
+
+## Deep Learning: Neural Networks
+
+<iframe width="100%" height="800px" src="https://www.youtube.com/embed/aircAruvnKk?start=162&end=330" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Where are we today?
+
+![](https://instructor-uploaded-content.s3.amazonaws.com/AI-performance_Dynabench-paper-1536x691.png-7443703)
+
+
+## Artificial Narrow Intelligence
+
+- One-trick pony!
+- AI that is designed for a specific task
+- Examples: Siri, Alexa, self-driving cars, ChatGPT
+- How effective are they?
+- [Can AI be creative?](https://openai.com/index/sora/)
 
 
 ## Artificial General Intelligence
@@ -67,21 +151,52 @@ title-slide-attributes:
     - How long until we get there?
 
 
-## What is next?
+## Artificial Superintelligence
 
-- What are the implications of AI?
-- How will AI change our world?
-- What are the ethical considerations?
-- How can we ensure AI is used responsibly?
+- [What If We Created a Superintelligence?](https://www.youtube.com/embed/qq5Mn2N0bQI)
+- [Artificial Super Intelligence Simply Explained](https://www.youtube.com/embed/c4c6P3Y790c)
+- AI that surpasses human intelligence
+- What could go wrong?
 
-<!-- Computers and artificial intelligence have changed our world immensely, but we are still at the early stages of this history. Because this technology feels so familiar, it is easy to forget that all of these technologies that we interact with are very recent innovations, and that most profound changes are yet to come.
 
-Artificial intelligence has already changed what we see, what we know, and what we do. And this is despite the fact that this technology has had only a brief history.
+## ICE: Scenario Design {.smaller}
 
-There are no signs that these trends are hitting any limits anytime soon. To the contrary, particularly over the course of the last decade, the fundamental trends have accelerated: investments in AI technology have rapidly increased, and the doubling time of training computation has shortened to just six months.
 
-All major technological innovations lead to a range of positive and negative consequences. This is already true of artificial intelligence. As this technology becomes more and more powerful, we should expect its impact to become greater still.
+:::: {.columns}
+::: {.column width=60%}
+#### Team with AI to come up with a future scenario.
 
-Because of the importance of AI, we should all be able to form an opinion on where this technology is heading and to understand how this development is changing our world. For this purpose, we are building a repository of AI-related metrics, which you can find on OurWorldinData.org/artificial-intelligence.
+- Specifically, think about the year 2041.
+- Explore futuristic technologies, culture, and lifestyles.
+- Consider how AI might evolve and shape society.
+- Imagine new ways people might
+    - **interact with each other**
+    - **pursue knowledge**
+    - **express curiosity**
 
-We are still in the early stages of this history and much of what will become possible is yet to come. A technological development as powerful as this should be at the center of our attention. Little might be as important for how the future of our world – and the future of our lives – will play out. -->
+#### Come up with...
+- A short story or dialogue.
+- A visual infographic or storyboard.
+
+#### Discuss...
+- What common themes emerged about life in 2041?
+- What is the world and everyday life like?
+- How do curiosity and AI intersect in these visions?
+- What ethical considerations or challenges were highlighted?
+- What role does AI play in this?
+:::
+::: {.column width=40%}
+#### AI Tools
+
+- [AI Test Kitchen](https://aitestkitchen.withgoogle.com/)
+- [Gemini](https://gemini.google.com/)
+- [Claude](https://claude.ai/)
+- Recommend others!
+
+#### Sample Prompt Questions
+- How do humans and AI collaborate in everyday life?
+- What are schools, workplaces, or entertainment like in 2041?
+- How has curiosity driven scientific or societal advances?
+- How does AI influence or enhance human curiosity?
+:::
+::::
