@@ -1824,7 +1824,7 @@
     "href": "index.html#lessons",
     "title": "Computing Fundamentals",
     "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 2 Review\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetworks and Data\n\n\nHow do computers talk?\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Wide Web\n\n\nHow the Internet really works\n\n\n\n\n\n\nOct 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData and Ethics\n\n\nYou are being watched! 👀\n\n\n\n\n\n\nOct 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThreats in Cyberspace\n\n\nActors, threats, vulnerabilities and types of attacks\n\n\n\n\n\n\nOct 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming Lab\n\n\nNetwork Packet Analysis with Scapy and Wireshark!\n\n\n\n\n\n\nOct 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCybersecurity\n\n\nEncryption, Certificates and Web of Trust\n\n\n\n\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCyber Hygiene\n\n\nStaying safe online\n\n\n\n\n\n\nNov 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 3 Review\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nList and String Methods\n\n\nOperating directly on data types\n\n\n\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence\n\n\nHow AI systems are created\n\n\n\n\n\n\nNov 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI and Ethics\n\n\nWhat is the right thing to do?\n\n\n\n\n\n\nDec 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTEE Review\n\n\nThis is it!\n\n\n\n\n\n\nDec 6, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 2 Review\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetworks and Data\n\n\nHow do computers talk?\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Wide Web\n\n\nHow the Internet really works\n\n\n\n\n\n\nOct 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData and Ethics\n\n\nYou are being watched! 👀\n\n\n\n\n\n\nOct 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThreats in Cyberspace\n\n\nActors, threats, vulnerabilities and types of attacks\n\n\n\n\n\n\nOct 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming Lab\n\n\nNetwork Packet Analysis with Scapy and Wireshark!\n\n\n\n\n\n\nOct 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCybersecurity\n\n\nEncryption, Certificates and Web of Trust\n\n\n\n\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCyber Hygiene\n\n\nStaying safe online\n\n\n\n\n\n\nNov 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 3 Review\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nList and String Methods\n\n\nOperating directly on data types\n\n\n\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence\n\n\nHow AI systems are created\n\n\n\n\n\n\nNov 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI and Ethics\n\n\nResponsible use of AI\n\n\n\n\n\n\nDec 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTEE Review\n\n\nThis is it!\n\n\n\n\n\n\nDec 6, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#course-objectives",
@@ -2930,14 +2930,84 @@
     "href": "lessons/37-AI-ethics.html#announcements",
     "title": "AI and Ethics",
     "section": "Announcements",
-    "text": "Announcements"
+    "text": "Announcements\n\nAI Summative Project due 09DEC\nTEE 18DEC / 20DEC\nTEE Review - 06DEC / 09DEC\n\nInstall the Lockdown Browser - before next class\n\n\n\nGoodies: DeepFake Detection, Trolley Problem Explained, OpenAI Sora"
   },
   {
     "objectID": "lessons/37-AI-ethics.html#lesson-objectives",
     "href": "lessons/37-AI-ethics.html#lesson-objectives",
     "title": "AI and Ethics",
     "section": "Lesson Objectives",
-    "text": "Lesson Objectives\n\nFind the ethical implications of AI\nDiscuss the importance of doing the right thing\nIdentify the potential consequences of AI systems"
+    "text": "Lesson Objectives\n\nDescribe why AI is difficult to safeguard\nDefine algorithmic bias and articulate why it is dangerous\nDefine the term deepfake and discuss some strategies for spotting them\nEvaluate the ethical and social implications of AI in military and civilian applications."
+  },
+  {
+    "objectID": "lessons/37-AI-ethics.html#self-driving-car-dilemma",
+    "href": "lessons/37-AI-ethics.html#self-driving-car-dilemma",
+    "title": "AI and Ethics",
+    "section": "Self-Driving Car Dilemma",
+    "text": "Self-Driving Car Dilemma\n\n\n\nWould you buy a car that would sacrifice you to save others?\nWould you buy a car that would sacrifice 5 people to save 1?"
+  },
+  {
+    "objectID": "lessons/37-AI-ethics.html#limitations-of-artificial-intelligence",
+    "href": "lessons/37-AI-ethics.html#limitations-of-artificial-intelligence",
+    "title": "AI and Ethics",
+    "section": "Limitations of Artificial Intelligence",
+    "text": "Limitations of Artificial Intelligence\n\n\n\nModel Opacity\n\nDifficult to understand decisions\nHow to explain the output of neural networks?\n\nData Bias\n\nResults are only as good as the data\nDecisions can have unintended consequences\n\nHallucination\n\nAI can generate realistic-looking wrong goutput\nWhat could possibly go wrong?\n\nHow do you safeguard AI?"
+  },
+  {
+    "objectID": "lessons/37-AI-ethics.html#algorithmic-bias",
+    "href": "lessons/37-AI-ethics.html#algorithmic-bias",
+    "title": "AI and Ethics",
+    "section": "Algorithmic Bias",
+    "text": "Algorithmic Bias\n\n\n\nLanguage models trained on massive datasets\n\nWhere do the datasets come from?\nWhat biases could be present?\n\nWho holds the power to decide what is “fair”?\nWhat are the consequences of biased AI?\n\nResearch\n\nData Poisoning - Nightshade\n\n\n\n\n\n\ngender, age, race, religion"
+  },
+  {
+    "objectID": "lessons/37-AI-ethics.html#grandmas-birthday",
+    "href": "lessons/37-AI-ethics.html#grandmas-birthday",
+    "title": "AI and Ethics",
+    "section": "Grandma’s Birthday",
+    "text": "Grandma’s Birthday\n\n\n\n\nHow to spot a deepfake?\nBlinking\nLighting\nShadows\nArtifacts\nAudio"
+  },
+  {
+    "objectID": "lessons/37-AI-ethics.html#italian-pup",
+    "href": "lessons/37-AI-ethics.html#italian-pup",
+    "title": "AI and Ethics",
+    "section": "Italian Pup",
+    "text": "Italian Pup"
+  },
+  {
+    "objectID": "lessons/37-AI-ethics.html#which-one-is-real",
+    "href": "lessons/37-AI-ethics.html#which-one-is-real",
+    "title": "AI and Ethics",
+    "section": "Which one is real?",
+    "text": "Which one is real?"
+  },
+  {
+    "objectID": "lessons/37-AI-ethics.html#adversarial-attacks",
+    "href": "lessons/37-AI-ethics.html#adversarial-attacks",
+    "title": "AI and Ethics",
+    "section": "Adversarial Attacks",
+    "text": "Adversarial Attacks\n\n\n\nAI systems often classify by looking at specific features\nSmall changes can fool the system\nWhich one is a cat?"
+  },
+  {
+    "objectID": "lessons/37-AI-ethics.html#social-credit-system",
+    "href": "lessons/37-AI-ethics.html#social-credit-system",
+    "title": "AI and Ethics",
+    "section": "Social Credit System",
+    "text": "Social Credit System"
+  },
+  {
+    "objectID": "lessons/37-AI-ethics.html#dod-ethical-framework-for-ai",
+    "href": "lessons/37-AI-ethics.html#dod-ethical-framework-for-ai",
+    "title": "AI and Ethics",
+    "section": "DoD Ethical Framework for AI",
+    "text": "DoD Ethical Framework for AI\n\nResponsible. DoD personnel will exercise appropriate levels of judgment and care, while remaining responsible for the development, deployment, and use of AI capabilities.\nEquitable. The Department will take deliberate steps to minimize unintended bias in AI capabilities.\nTraceable. The Department’s AI capabilities will be developed and deployed such that relevant personnel possess an appropriate understanding of the technology, development processes, and operational methods applicable to AI capabilities, including with transparent and auditable methodologies, data sources, and design procedure and documentation.\nReliable. The Department’s AI capabilities will have explicit, well-defined uses, and the safety, security, and effectiveness of such capabilities will be subject to testing and assurance within those defined uses across their entire life-cycles.\nGovernable. The Department will design and engineer AI capabilities to fulfill their intended functions while possessing the ability to detect and avoid unintended consequences, and the ability to disengage or deactivate deployed systems that demonstrate unintended behavior."
+  },
+  {
+    "objectID": "lessons/37-AI-ethics.html#in-class-exercise",
+    "href": "lessons/37-AI-ethics.html#in-class-exercise",
+    "title": "AI and Ethics",
+    "section": "In-Class Exercise",
+    "text": "In-Class Exercise\n\n\n\nWe Need a New Right to Repair for Artificial Intelligence [wired.com]\nAlgorithms Are Coming for Democracy—but It’s Not All Bad [wired.com]\nNavigating The Ethical Dilemmas Of Self-Driving Cars [forbes]\nAI Safety Clock: What It Tells Us About Existential Risks [time.com]\n\nAI Safety Clock\n\n\n\nDiscussion Questions\n\nIs this an immediate concern?\nWhat is the most ethical course of action?\nWhat kind of regulations should be put in place?"
   },
   {
     "objectID": "lessons/34-AI-data.html#password-game",
@@ -3001,6 +3071,13 @@
     "title": "Artificial Intelligence",
     "section": "How is this different from programming?",
     "text": "How is this different from programming?"
+  },
+  {
+    "objectID": "lessons/34-AI-data.html#how-ai-systems-learn",
+    "href": "lessons/34-AI-data.html#how-ai-systems-learn",
+    "title": "Artificial Intelligence",
+    "section": "How AI systems learn",
+    "text": "How AI systems learn"
   },
   {
     "objectID": "lessons/34-AI-data.html#does-human-brain-work-like-a-computer",
