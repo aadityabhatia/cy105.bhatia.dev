@@ -221,7 +221,7 @@
     "href": "lessons/30-wpr3-review.html#code-review",
     "title": "WPR 3 Review",
     "section": "Code Review",
-    "text": "Code Review\ndef marksmanship(score):\n    if score &gt;= 36:\n        return \"Expert\"\n    if score &gt;= 30:\n        return \"Sharpshooter\"\n    if score &gt;= 23:\n        return \"Marksman\"\n    return \"Unqualified\"\n\ndef main():\n    score = int(input(\"Enter your ACFT score: \"))\n    experts = 0\n    unqualified = 0\n    while score != -1:\n        score = int(input(\"Enter your ACFT score: \"))\n        status = marksmanship(score)\n        if status == \"Expert\":\n            experts += 1\n        elif status == \"Unqualified\":\n            unqualified += 1\n    print(\"Experts:\", experts)\n    print(\"Unqualified:\", unqualified)\n\nmain()"
+    "text": "Code Review\ndef marksmanship(score):\n    if score &gt;= 36:\n        return \"Expert\"\n    if score &gt;= 30:\n        return \"Sharpshooter\"\n    if score &gt;= 23:\n        return \"Marksman\"\n    return \"Unqualified\"\n\ndef main():\n    score = int(input(\"Enter your ACFT score: \"))\n    experts = 0\n    unqualified = 0\n    while score != -1:\n        status = marksmanship(score)\n        if status == \"Expert\":\n            experts += 1\n        elif status == \"Unqualified\":\n            unqualified += 1\n        score = int(input(\"Enter your ACFT score: \"))\n    print(\"Experts:\", experts)\n    print(\"Unqualified:\", unqualified)\n\nmain()"
   },
   {
     "objectID": "lessons/24-www.html#discussion",
@@ -714,130 +714,81 @@
     "text": "Generative AI\n\nYou are NEVER authorized to use generative AI to generate solutions (or partial solutions) to weekly problem set problems!\nIf the tool is capable of generating a link to the conversation, include that in your acknowledgements. Otherwise, provide a copy of the full transcript in your acknowledgements section.\nThis includes any and all follow-up questions/prompts to the artificial intelligence source and the provided answers."
   },
   {
-    "objectID": "lessons/38-TEE-review.html#academic-integrity",
-    "href": "lessons/38-TEE-review.html#academic-integrity",
-    "title": "TEE Review",
-    "section": "Academic Integrity",
-    "text": "Academic Integrity\n\nA cadet will not lie, cheat, steal, or tolerate those who do.\n\n\nInstructors will see your zyBook history by keystroke!\nClose all windows!\n\nAlt-Tab should not work!\n\nNo browser tabs open except the exam interface.\n\nConsider using a different browser!\n\nWork should be done on laptop screen only.\n\nBig screen for reference card or part B prompt.\n\nFinish and submit part A before starting part B; cannot go back.\nReference card is the only authorized resource!"
+    "objectID": "lessons/38-TEE-review.html#announcements",
+    "href": "lessons/38-TEE-review.html#announcements",
+    "title": "Term End Examination Review",
+    "section": "Announcements",
+    "text": "Announcements\n\nAI Summative Project due 09DEC\nTEE 18DEC / 20DEC"
   },
   {
-    "objectID": "lessons/38-TEE-review.html#what-is-bandwidth",
-    "href": "lessons/38-TEE-review.html#what-is-bandwidth",
-    "title": "TEE Review",
-    "section": "What is Bandwidth?",
-    "text": "What is Bandwidth?\n\nNumbers of packets your computer can send\nThickness of your primary network cable\nSpeed of your internet connection\nAmount of data your computer can download each month"
+    "objectID": "lessons/38-TEE-review.html#cy105-end-of-course-survey",
+    "href": "lessons/38-TEE-review.html#cy105-end-of-course-survey",
+    "title": "Term End Examination Review",
+    "section": "CY105 End of Course Survey",
+    "text": "CY105 End of Course Survey\n\nTake the anonymous survey here\nPlease provide high-quality responses to the best of your ability.\nConstructive feedback is greatly appreciated!\nRecommend completing before class; otherwise type up of some of the responses to the following questions ahead of time.\n\n\nWhat did you like most about the course?\nWhat should be improved or changed in the course?\nWhat will you remember most about the way your instructor taught?\nHow did your instructor’s teaching style and interaction with the class impact your learning experience? What specific aspects were helpful or unhelpful?"
   },
   {
-    "objectID": "lessons/38-TEE-review.html#what-is-the-difference-between-tcp-and-ip",
-    "href": "lessons/38-TEE-review.html#what-is-the-difference-between-tcp-and-ip",
-    "title": "TEE Review",
-    "section": "What is the difference between TCP and IP?",
-    "text": "What is the difference between TCP and IP?\n\nTCP handles addressing; IP handles routing\nTCP handles reliability; IP handles addressing and routing\nTCP handles error-checking; IP handles reliability\nTCP handles routing; IP handles reliability"
+    "objectID": "lessons/38-TEE-review.html#exam-format",
+    "href": "lessons/38-TEE-review.html#exam-format",
+    "title": "Term End Examination Review",
+    "section": "Exam Format",
+    "text": "Exam Format\n\n\n\n250 points, 25% of your grade\n210 minutes (3.5 hours)\nPart A: Canvas\n\n30 knowledge check (125 points)\n11 code tracing (45 points)\n2 open-ended (30 points)\n\nPart B: zyLabs\n\n2 code writing (50 points)\n\n\n\n\nThayer 4th floor\nSeated alphabetically by last name, not by section\nNo external monitors (lockdown browser)\nBring your charger and mouse!\nNo scratch paper"
   },
   {
-    "objectID": "lessons/38-TEE-review.html#what-is-the-purpose-of-dns",
-    "href": "lessons/38-TEE-review.html#what-is-the-purpose-of-dns",
-    "title": "TEE Review",
-    "section": "What is the purpose of DNS?",
-    "text": "What is the purpose of DNS?\n\nRequest web pages from a server\nTo convert domain names to IP addresses\nProvide a secure connection to a website\nTo convert IP addresses to domain names"
+    "objectID": "lessons/38-TEE-review.html#authorized-resources",
+    "href": "lessons/38-TEE-review.html#authorized-resources",
+    "title": "Term End Examination Review",
+    "section": "Authorized Resources",
+    "text": "Authorized Resources\n\nPython Reference Card\n\nbring physical copy; lockdown browser makes it difficult to switch tabs\n\nCommunication with a CY105 instructor\n\nNot Authorized\n\nInternet\nGenerative AI\nCalculators\nOther students\nAny other resources"
   },
   {
-    "objectID": "lessons/38-TEE-review.html#you-send-an-email-to-alice.-charlie-intercepts-the-email-and-reads-it.-which-security-goal-was-violated",
-    "href": "lessons/38-TEE-review.html#you-send-an-email-to-alice.-charlie-intercepts-the-email-and-reads-it.-which-security-goal-was-violated",
-    "title": "TEE Review",
-    "section": "You send an email to Alice. Charlie intercepts the email and reads it. Which security goal was violated?",
-    "text": "You send an email to Alice. Charlie intercepts the email and reads it. Which security goal was violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+    "objectID": "lessons/38-TEE-review.html#study-resources",
+    "href": "lessons/38-TEE-review.html#study-resources",
+    "title": "Term End Examination Review",
+    "section": "Study Resources",
+    "text": "Study Resources\n\nzyBook study guide\nCanvas Practice TEE - Part A, Part B\nCEP Tutoring Session: 17DEC 1930-2100 (Thayer 3rd floor)"
   },
   {
-    "objectID": "lessons/38-TEE-review.html#you-send-an-email-to-alice.-bob-intercepts-the-email-and-changes-the-message.-which-security-goal-was-violated",
-    "href": "lessons/38-TEE-review.html#you-send-an-email-to-alice.-bob-intercepts-the-email-and-changes-the-message.-which-security-goal-was-violated",
-    "title": "TEE Review",
-    "section": "You send an email to Alice. Bob intercepts the email and changes the message. Which security goal was violated?",
-    "text": "You send an email to Alice. Bob intercepts the email and changes the message. Which security goal was violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+    "objectID": "lessons/38-TEE-review.html#data-types",
+    "href": "lessons/38-TEE-review.html#data-types",
+    "title": "Term End Examination Review",
+    "section": "Data Types",
+    "text": "Data Types\nfarm_animals = [\"alpaca\", \"buffalo\", \"chicken\", \"donkey\", \"elephant\"]\nlength = len(farm_animals)\nfor i in range(length):\n    item = farm_animals[i]\n    print(item)\n\nfarm_animals\nlength\ni\nitem\nfarm_animals[i]"
   },
   {
-    "objectID": "lessons/38-TEE-review.html#you-send-an-email-to-alice.-later-you-deny-sending-the-email.-which-security-goal-was-violated",
-    "href": "lessons/38-TEE-review.html#you-send-an-email-to-alice.-later-you-deny-sending-the-email.-which-security-goal-was-violated",
-    "title": "TEE Review",
-    "section": "You send an email to Alice. Later, you deny sending the email. Which security goal was violated?",
-    "text": "You send an email to Alice. Later, you deny sending the email. Which security goal was violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+    "objectID": "lessons/38-TEE-review.html#analog-vs-digital-data-truefalse",
+    "href": "lessons/38-TEE-review.html#analog-vs-digital-data-truefalse",
+    "title": "Term End Examination Review",
+    "section": "Analog vs Digital Data (True/False)",
+    "text": "Analog vs Digital Data (True/False)\nIdentify the true statements about Analog data.\n\n\n\ncontinuous represented by a smooth, unbroken line\nmore accurate than digital data\neasier to store, manipulate, and transmit\nexamples include speed and temperature\nlooks like a staircase, where each step represents a value"
   },
   {
-    "objectID": "lessons/38-TEE-review.html#alice-cannot-access-her-email-account.-bob-locked-her-out.-which-security-goal-was-violated",
-    "href": "lessons/38-TEE-review.html#alice-cannot-access-her-email-account.-bob-locked-her-out.-which-security-goal-was-violated",
-    "title": "TEE Review",
-    "section": "Alice cannot access her email account. Bob locked her out. Which security goal was violated?",
-    "text": "Alice cannot access her email account. Bob locked her out. Which security goal was violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
+    "objectID": "lessons/38-TEE-review.html#tcp-vs-ip-pick-the-correct-statements",
+    "href": "lessons/38-TEE-review.html#tcp-vs-ip-pick-the-correct-statements",
+    "title": "Term End Examination Review",
+    "section": "TCP vs IP (pick the correct statements)",
+    "text": "TCP vs IP (pick the correct statements)\n\n\nTCP is responsible for routing packets to their destination.\nIP is responsible for ensuring packets are delivered in order.\nTCP is responsible for ensuring packets are delivered in order.\nIP is responsible for routing packets to their destination."
   },
   {
-    "objectID": "lessons/38-TEE-review.html#bob-sent-alice-an-email-but-made-it-look-like-it-came-from-you.-alice-has-no-way-to-verify-who-sent-it.-which-security-goal-was-violated",
-    "href": "lessons/38-TEE-review.html#bob-sent-alice-an-email-but-made-it-look-like-it-came-from-you.-alice-has-no-way-to-verify-who-sent-it.-which-security-goal-was-violated",
-    "title": "TEE Review",
-    "section": "Bob sent Alice an email but made it look like it came from you. Alice has no way to verify who sent it. Which security goal was violated?",
-    "text": "Bob sent Alice an email but made it look like it came from you. Alice has no way to verify who sent it. Which security goal was violated?\n\nConfidentiality\nIntegrity\nAvailability\nAuthentication\nNon-repudiation"
-  },
-  {
-    "objectID": "lessons/38-TEE-review.html#threat-goals",
-    "href": "lessons/38-TEE-review.html#threat-goals",
-    "title": "TEE Review",
-    "section": "Threat Goals:",
-    "text": "Threat Goals:\n\nDisclose\nDestroy\nIntegrity\nAvailability\nDeny\nPublicize\nConfidentiality\nSteal\nLogout\nAlter"
-  },
-  {
-    "objectID": "lessons/38-TEE-review.html#match-the-following-terms",
-    "href": "lessons/38-TEE-review.html#match-the-following-terms",
-    "title": "TEE Review",
-    "section": "Match the following terms:",
-    "text": "Match the following terms:\n\n\n\nProgramming language\nStyle of a webpage\nStructure of a webpage\nProtocol for getting web pages from servers\nYour medical records on the Tricare website\nWebsites that require Tor\nTiny files in your browser that store website configuration, user settings, login information; also used for tracking\nImage or code hidden in a webpage\n\n\n\nHTTP\nDeep Web\nCSS\nWeb Beacons\nDark Web\nJavaScript\nCookies\nHTML"
-  },
-  {
-    "objectID": "lessons/38-TEE-review.html#asymmetric-encryption",
-    "href": "lessons/38-TEE-review.html#asymmetric-encryption",
-    "title": "TEE Review",
-    "section": "Asymmetric Encryption",
-    "text": "Asymmetric Encryption\n\n\n\n\n\n\n\n\n\n\n\n\nAlice’s public key\nAlice’s private key\nBob’s public key\nBob’s private key\n\n\nC, D, B, A"
-  },
-  {
-    "objectID": "lessons/38-TEE-review.html#which-of-the-following-are-true-about-encryption",
-    "href": "lessons/38-TEE-review.html#which-of-the-following-are-true-about-encryption",
-    "title": "TEE Review",
-    "section": "Which of the following are true about encryption?",
-    "text": "Which of the following are true about encryption?\n\nSymmetric encryption uses the same key for encryption and decryption.\nPrivate keys should be used to encrypt data.\nSymmetric encryption is faster than asymmetric encryption.\nAsymmetric encryption uses the same key for encryption and decryption.\nPublic keys are often used to generate signatures.\nKey distribution is rarely a challenge in symmetric encryption.\nIf Alice wants to email me, I should share my private key with her.\n\n\nA, C, E"
-  },
-  {
-    "objectID": "lessons/38-TEE-review.html#which-of-the-following-are-the-layers-of-cyberspace",
-    "href": "lessons/38-TEE-review.html#which-of-the-following-are-the-layers-of-cyberspace",
-    "title": "TEE Review",
-    "section": "Which of the following are the layers of cyberspace?",
-    "text": "Which of the following are the layers of cyberspace?\n\nPhysical\nGray Space\nTransmission Control Protocol\nCyber\nBlue Space\nLogical\nInternet Protocol\nCell towers\nPeople"
-  },
-  {
-    "objectID": "lessons/38-TEE-review.html#identify-the-errors.",
-    "href": "lessons/38-TEE-review.html#identify-the-errors.",
-    "title": "TEE Review",
-    "section": "Identify the errors.",
-    "text": "Identify the errors.\ndef prepare_turkey(weight):\n    minutes_per_pound = 15\n    cooking_time = weight * minutes_per_pound\n    if cooking_time &gt; 300:\n        return 300\n    return cooking_time\n\ndef main():\n    weight = int(input(\"Enter the weight of the turkey: \"))\n    prepare_turkey(weight, \"lbs\")\n    print(\"The turkey will be ready in\", cooking_time, \"minutes.\")\n\nmain()\n\nVariable not defined, causing a NameError.\nVariable assigned a value that was never used.\nMultiple return statements in a function.\nNumber of parameters does not match the number of arguments.\nReturn value not handled correctly.\nFunction defined but never called.\n\n\nA, D, E"
-  },
-  {
-    "objectID": "lessons/38-TEE-review.html#list-all-the-true-statements.",
-    "href": "lessons/38-TEE-review.html#list-all-the-true-statements.",
-    "title": "TEE Review",
-    "section": "List all the true statements.",
-    "text": "List all the true statements.\n\n\n\nThe program will print 3.\nThe program will print 9.\nThe program will print 64.\nThe program will print None.\nThe program will raise an error.\n\n\ndef pow(b, p):\n    y = b**p\n    return y\n\ndef square(x):\n    a = pow(x, 2)\n    return a\n\ndef main():\n    a = 3\n    b = 4\n    p = square(a)\n    q = pow(b, 3)\n    print(a)\n    print(b)\n    print(p)\n    print(y)\n\n\n3\n4\n9\nNameError: name 'y' is not defined"
+    "objectID": "lessons/38-TEE-review.html#what-is-artifical-intelligence",
+    "href": "lessons/38-TEE-review.html#what-is-artifical-intelligence",
+    "title": "Term End Examination Review",
+    "section": "What is Artifical Intelligence?",
+    "text": "What is Artifical Intelligence?\nA. Highly specialized learning technique that uses artificial neural networks. B. Creation of models that allow computers to learn without explicit programming. C. Solving problems in new, previously unseen scenarios."
   },
   {
     "objectID": "lessons/38-TEE-review.html#which-of-the-following-statements-are-true",
     "href": "lessons/38-TEE-review.html#which-of-the-following-statements-are-true",
-    "title": "TEE Review",
+    "title": "Term End Examination Review",
     "section": "Which of the following statements are true?",
     "text": "Which of the following statements are true?\nmy_string = \"Hello, World! This is my favorite string.\"\nlength = len(my_string)\n\nfor i in range(0, length, 2):\n    print(my_string[i])\n\nIndexing operator is used to access individual characters.\nThe program will result in an error.\nThe program will print one character per line.\ni will take on the values 0, 2, 4, 6, 8, …\nThe program will print every third character.\n\n\nA, C, D"
   },
   {
     "objectID": "lessons/38-TEE-review.html#code-review",
     "href": "lessons/38-TEE-review.html#code-review",
-    "title": "TEE Review",
+    "title": "Term End Examination Review",
     "section": "Code Review",
-    "text": "Code Review\ndef marksmanship(score):\n    if score &gt;= 36:\n        return \"Expert\"\n    if score &gt;= 30:\n        return \"Sharpshooter\"\n    if score &gt;= 23:\n        return \"Marksman\"\n    return \"Unqualified\"\n\ndef main():\n    score = int(input(\"Enter your ACFT score: \"))\n    experts = 0\n    unqualified = 0\n    while score != -1:\n        score = int(input(\"Enter your ACFT score: \"))\n        status = marksmanship(score)\n        if status == \"Expert\":\n            experts += 1\n        elif status == \"Unqualified\":\n            unqualified += 1\n    print(\"Experts:\", experts)\n    print(\"Unqualified:\", unqualified)\n\nmain()"
+    "text": "Code Review\ndef marksmanship(score):\n    if score &gt;= 36:\n        return \"Expert\"\n    if score &gt;= 30:\n        return \"Sharpshooter\"\n    if score &gt;= 23:\n        return \"Marksman\"\n    return \"Unqualified\"\n\ndef main():\n    score = int(input(\"Enter your ACFT score: \"))\n    experts = 0\n    unqualified = 0\n    while score != -1:\n        status = marksmanship(score)\n        if status == \"Expert\":\n            experts += 1\n        elif status == \"Unqualified\":\n            unqualified += 1\n        score = int(input(\"Enter your ACFT score: \"))\n    print(\"Experts:\", experts)\n    print(\"Unqualified:\", unqualified)\n\nmain()"
   },
   {
     "objectID": "lessons/29-cyber-hygiene.html#announcements",
@@ -1824,7 +1775,7 @@
     "href": "index.html#lessons",
     "title": "Computing Fundamentals",
     "section": "Lessons",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 2 Review\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetworks and Data\n\n\nHow do computers talk?\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Wide Web\n\n\nHow the Internet really works\n\n\n\n\n\n\nOct 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData and Ethics\n\n\nYou are being watched! 👀\n\n\n\n\n\n\nOct 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThreats in Cyberspace\n\n\nActors, threats, vulnerabilities and types of attacks\n\n\n\n\n\n\nOct 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming Lab\n\n\nNetwork Packet Analysis with Scapy and Wireshark!\n\n\n\n\n\n\nOct 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCybersecurity\n\n\nEncryption, Certificates and Web of Trust\n\n\n\n\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCyber Hygiene\n\n\nStaying safe online\n\n\n\n\n\n\nNov 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 3 Review\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nList and String Methods\n\n\nOperating directly on data types\n\n\n\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence\n\n\nHow AI systems are created\n\n\n\n\n\n\nNov 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI and Ethics\n\n\nResponsible use of AI\n\n\n\n\n\n\nDec 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTEE Review\n\n\nThis is it!\n\n\n\n\n\n\nDec 6, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nWelcome to CY105\n\n\nCourse Overview\n\n\n\n\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMicrosoft 365\n\n\nArmy runs on Microsoft\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputers and Data\n\n\nHow machines process information\n\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithms\n\n\nSolving problems with computers\n\n\n\n\n\n\nAug 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython Basics\n\n\nIntroduction to Programming\n\n\n\n\n\n\nAug 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilt-in Functions\n\n\nDoing more with Python\n\n\n\n\n\n\nAug 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinite Iteration\n\n\nusing for loops\n\n\n\n\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists and Strings\n\n\nHow sequences work\n\n\n\n\n\n\nSep 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Input/Output\n\n\nReading to and writing from files using Python\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModules\n\n\nUsing Python modules to do more!\n\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 1\n\n\nBoolean expressions and decisions\n\n\n\n\n\n\nSep 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConditional Statements 2\n\n\nMore expressions and decisions\n\n\n\n\n\n\nSep 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndefinite Iteration\n\n\nRepeating your code indefinitely with while loops\n\n\n\n\n\n\nSep 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Functions\n\n\nReusable pieces of code\n\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRobotics Lab\n\n\nPython just got real!\n\n\n\n\n\n\nOct 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 2 Review\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetworks and Data\n\n\nHow do computers talk?\n\n\n\n\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Wide Web\n\n\nHow the Internet really works\n\n\n\n\n\n\nOct 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData and Ethics\n\n\nYou are being watched! 👀\n\n\n\n\n\n\nOct 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThreats in Cyberspace\n\n\nActors, threats, vulnerabilities and types of attacks\n\n\n\n\n\n\nOct 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming Lab\n\n\nNetwork Packet Analysis with Scapy and Wireshark!\n\n\n\n\n\n\nOct 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCybersecurity\n\n\nEncryption, Certificates and Web of Trust\n\n\n\n\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCyber Hygiene\n\n\nStaying safe online\n\n\n\n\n\n\nNov 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWPR 3 Review\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nList and String Methods\n\n\nOperating directly on data types\n\n\n\n\n\n\nNov 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence\n\n\nHow AI systems are created\n\n\n\n\n\n\nNov 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI and Ethics\n\n\nResponsible use of AI\n\n\n\n\n\n\nDec 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTerm End Examination Review\n\n\nFinish strong!\n\n\n\n\n\n\nDec 6, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#course-objectives",
@@ -3007,7 +2958,7 @@
     "href": "lessons/37-AI-ethics.html#in-class-exercise",
     "title": "AI and Ethics",
     "section": "In-Class Exercise",
-    "text": "In-Class Exercise\n\n\n\nWe Need a New Right to Repair for Artificial Intelligence [wired.com]\nAlgorithms Are Coming for Democracy—but It’s Not All Bad [wired.com]\nNavigating The Ethical Dilemmas Of Self-Driving Cars [forbes]\nAI Safety Clock: What It Tells Us About Existential Risks [time.com]\n\nAI Safety Clock\n\n\n\nDiscussion Questions\n\nIs this an immediate concern?\nWhat is the most ethical course of action?\nWhat kind of regulations should be put in place?"
+    "text": "In-Class Exercise\n\n\n\nWe Need a New Right to Repair for Artificial Intelligence [wired.com]\nAlgorithms Are Coming for Democracy—but It’s Not All Bad [wired.com]\nNavigating The Ethical Dilemmas Of Self-Driving Cars [forbes]\nAI Safety Clock: What It Tells Us About Existential Risks [time.com]\n\nAI Safety Clock\n\nCertain names make ChatGPT grind to a halt, and we know why\n\n\nDiscussion Questions\n\nWhat happened?\nShould we be worried?\nWhat is the most ethical course of action?\nWhat kind of regulations should be put in place?"
   },
   {
     "objectID": "lessons/34-AI-data.html#password-game",
