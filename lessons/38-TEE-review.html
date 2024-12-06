@@ -423,13 +423,13 @@ CPT Sonny Bhatia
 <li><a href="https://forms.office.com/r/a0miuWK5RM">Take the anonymous survey here</a></li>
 <li>Please provide high-quality responses to the best of your ability.</li>
 <li>Constructive feedback is greatly appreciated!</li>
-<li>Recommend completing before class; otherwise type up of some of the responses to the following questions ahead of time.</li>
-</ul>
+<li>Recommend completing before class; otherwise type up of some of the responses to the following questions ahead of time.
 <ul>
-<li class="fragment"><p>What did you like most about the course?</p></li>
-<li class="fragment"><p>What should be improved or changed in the course?</p></li>
-<li class="fragment"><p>What will you remember most about the way your instructor taught?</p></li>
-<li class="fragment"><p>How did your instructor’s teaching style and interaction with the class impact your learning experience? What specific aspects were helpful or unhelpful?</p></li>
+<li>What did you like most about the course?</li>
+<li>What should be improved or changed in the course?</li>
+<li>What will you remember most about the way your instructor taught?</li>
+<li>How did your instructor’s teaching style and interaction with the class impact your learning experience? What specific aspects were helpful or unhelpful?</li>
+</ul></li>
 </ul>
 </section>
 <section id="exam-format" class="slide level2 center">
@@ -482,8 +482,15 @@ CPT Sonny Bhatia
 <h2>Study Resources</h2>
 <ul>
 <li><a href="https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/36/section/1">zyBook study guide</a></li>
-<li>Canvas Practice TEE - <a href="https://westpoint.instructure.com/courses/7068/assignments/160505">Part A</a>, <a href="https://westpoint.instructure.com/courses/7068/assignments/180758">Part B</a></li>
-<li>CEP Tutoring Session: 17DEC 1930-2100 (Thayer 3rd floor)</li>
+<li>Canvas Practice TEE
+<ul>
+<li><a href="https://westpoint.instructure.com/courses/7068/assignments/160505">Part A</a></li>
+<li><a href="https://westpoint.instructure.com/courses/7068/assignments/180758">Part B</a></li>
+</ul></li>
+<li>CEP Tutoring Session
+<ul>
+<li>17DEC 1930-2100 (Thayer 3rd floor)</li>
+</ul></li>
 </ul>
 </section>
 <section>
@@ -498,7 +505,7 @@ CPT Sonny Bhatia
 <span id="cb1-3"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(length):</span>
 <span id="cb1-4"><a></a>    item <span class="op">=</span> farm_animals[i]</span>
 <span id="cb1-5"><a></a>    <span class="bu">print</span>(item)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ol type="A">
+<ol type="1">
 <li><code>farm_animals</code></li>
 <li><code>length</code></li>
 <li><code>i</code></li>
@@ -506,16 +513,15 @@ CPT Sonny Bhatia
 <li><code>farm_animals[i]</code></li>
 </ol>
 </section>
-<section id="analog-vs-digital-data-truefalse" class="slide level2 center">
-<h2>Analog vs Digital Data (True/False)</h2>
-<h3 id="identify-the-true-statements-about-analog-data.">Identify the true statements about <strong>Analog data</strong>.</h3>
+<section id="analog-data-truefalse" class="slide level2 center">
+<h2>Analog data: (True/False)</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ol type="1">
 <li>continuous represented by a smooth, unbroken line</li>
 <li>more accurate than digital data</li>
 <li>easier to store, manipulate, and transmit</li>
-<li>examples include speed and temperature</li>
+<li>can be converted to digital data through sampling</li>
 <li>looks like a staircase, where each step represents a value</li>
 </ol>
 </div><div class="column" style="width:50%;">
@@ -524,17 +530,30 @@ CPT Sonny Bhatia
 </section>
 <section id="tcp-vs-ip-pick-the-correct-statements" class="slide level2 center">
 <h2>TCP vs IP (pick the correct statements)</h2>
-
-<img data-src="../images/23/ip-packet.svg" style="width:100.0%" class="r-stretch"><ol type="A">
+<div class="columns">
+<div class="column" style="width:40%;">
+<ol type="A">
 <li>TCP is responsible for routing packets to their destination.</li>
 <li>IP is responsible for ensuring packets are delivered in order.</li>
 <li>TCP is responsible for ensuring packets are delivered in order.</li>
 <li>IP is responsible for routing packets to their destination.</li>
 </ol>
+</div><div class="column" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/23/ip-packet.svg" style="width:100.0%"></p>
+<figcaption>IP Packet Structure</figcaption>
+</figure>
+</div>
+</div></div>
 </section>
 <section id="what-is-artifical-intelligence" class="slide level2 center">
 <h2>What is Artifical Intelligence?</h2>
-<p>A. Highly specialized learning technique that uses artificial neural networks. B. Creation of models that allow computers to learn without explicit programming. C. Solving problems in new, previously unseen scenarios.</p>
+<ol type="A">
+<li>Highly specialized learning technique that uses artificial neural networks.</li>
+<li>Creation of models that allow computers to learn without explicit programming.</li>
+<li>Solving problems in new, previously unseen scenarios.</li>
+</ol>
 </section>
 <section id="which-of-the-following-statements-are-true" class="slide level2 center">
 <h2>Which of the following statements are true?</h2>
@@ -566,6 +585,8 @@ CPT Sonny Bhatia
 </section>
 <section id="code-review" class="slide level2 smaller center">
 <h2>Code Review</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="kw">def</span> marksmanship(score):</span>
 <span id="cb3-2"><a></a>    <span class="cf">if</span> score <span class="op">&gt;=</span> <span class="dv">36</span>:</span>
 <span id="cb3-3"><a></a>        <span class="cf">return</span> <span class="st">"Expert"</span></span>
@@ -590,6 +611,15 @@ CPT Sonny Bhatia
 <span id="cb3-22"><a></a>    <span class="bu">print</span>(<span class="st">"Unqualified:"</span>, unqualified)</span>
 <span id="cb3-23"><a></a></span>
 <span id="cb3-24"><a></a>main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:50%;">
+<ol type="1">
+<li>How many values does <code>marksmanship()</code> return? What data type?</li>
+<li>How many loops are in <code>main()</code>?</li>
+<li>How many times will the loop execute?</li>
+<li>How many times will the user be prompted for input?</li>
+<li>What happens if the user enters <code>0</code>?</li>
+</ol>
+</div></div>
 </section></section>
 <section id="programming-practice" class="title-slide slide level1 center" data-background-image="../images/38/38.webp" data-background-opacity="0.1">
 <h1>Programming Practice!</h1>
@@ -640,7 +670,7 @@ CPT Sonny Bhatia
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"b99b51ca23978a5e","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"dc7b2a00cb1a6f8a","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner

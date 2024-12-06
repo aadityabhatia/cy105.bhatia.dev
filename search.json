@@ -725,7 +725,7 @@
     "href": "lessons/38-TEE-review.html#cy105-end-of-course-survey",
     "title": "Term End Examination Review",
     "section": "CY105 End of Course Survey",
-    "text": "CY105 End of Course Survey\n\nTake the anonymous survey here\nPlease provide high-quality responses to the best of your ability.\nConstructive feedback is greatly appreciated!\nRecommend completing before class; otherwise type up of some of the responses to the following questions ahead of time.\n\n\nWhat did you like most about the course?\nWhat should be improved or changed in the course?\nWhat will you remember most about the way your instructor taught?\nHow did your instructor’s teaching style and interaction with the class impact your learning experience? What specific aspects were helpful or unhelpful?"
+    "text": "CY105 End of Course Survey\n\nTake the anonymous survey here\nPlease provide high-quality responses to the best of your ability.\nConstructive feedback is greatly appreciated!\nRecommend completing before class; otherwise type up of some of the responses to the following questions ahead of time.\n\nWhat did you like most about the course?\nWhat should be improved or changed in the course?\nWhat will you remember most about the way your instructor taught?\nHow did your instructor’s teaching style and interaction with the class impact your learning experience? What specific aspects were helpful or unhelpful?"
   },
   {
     "objectID": "lessons/38-TEE-review.html#exam-format",
@@ -746,7 +746,7 @@
     "href": "lessons/38-TEE-review.html#study-resources",
     "title": "Term End Examination Review",
     "section": "Study Resources",
-    "text": "Study Resources\n\nzyBook study guide\nCanvas Practice TEE - Part A, Part B\nCEP Tutoring Session: 17DEC 1930-2100 (Thayer 3rd floor)"
+    "text": "Study Resources\n\nzyBook study guide\nCanvas Practice TEE\n\nPart A\nPart B\n\nCEP Tutoring Session\n\n17DEC 1930-2100 (Thayer 3rd floor)"
   },
   {
     "objectID": "lessons/38-TEE-review.html#data-types",
@@ -756,25 +756,25 @@
     "text": "Data Types\nfarm_animals = [\"alpaca\", \"buffalo\", \"chicken\", \"donkey\", \"elephant\"]\nlength = len(farm_animals)\nfor i in range(length):\n    item = farm_animals[i]\n    print(item)\n\nfarm_animals\nlength\ni\nitem\nfarm_animals[i]"
   },
   {
-    "objectID": "lessons/38-TEE-review.html#analog-vs-digital-data-truefalse",
-    "href": "lessons/38-TEE-review.html#analog-vs-digital-data-truefalse",
+    "objectID": "lessons/38-TEE-review.html#analog-data-truefalse",
+    "href": "lessons/38-TEE-review.html#analog-data-truefalse",
     "title": "Term End Examination Review",
-    "section": "Analog vs Digital Data (True/False)",
-    "text": "Analog vs Digital Data (True/False)\nIdentify the true statements about Analog data.\n\n\n\ncontinuous represented by a smooth, unbroken line\nmore accurate than digital data\neasier to store, manipulate, and transmit\nexamples include speed and temperature\nlooks like a staircase, where each step represents a value"
+    "section": "Analog data: (True/False)",
+    "text": "Analog data: (True/False)\n\n\n\ncontinuous represented by a smooth, unbroken line\nmore accurate than digital data\neasier to store, manipulate, and transmit\ncan be converted to digital data through sampling\nlooks like a staircase, where each step represents a value"
   },
   {
     "objectID": "lessons/38-TEE-review.html#tcp-vs-ip-pick-the-correct-statements",
     "href": "lessons/38-TEE-review.html#tcp-vs-ip-pick-the-correct-statements",
     "title": "Term End Examination Review",
     "section": "TCP vs IP (pick the correct statements)",
-    "text": "TCP vs IP (pick the correct statements)\n\n\nTCP is responsible for routing packets to their destination.\nIP is responsible for ensuring packets are delivered in order.\nTCP is responsible for ensuring packets are delivered in order.\nIP is responsible for routing packets to their destination."
+    "text": "TCP vs IP (pick the correct statements)\n\n\n\nTCP is responsible for routing packets to their destination.\nIP is responsible for ensuring packets are delivered in order.\nTCP is responsible for ensuring packets are delivered in order.\nIP is responsible for routing packets to their destination.\n\n\n\n\n\nIP Packet Structure"
   },
   {
     "objectID": "lessons/38-TEE-review.html#what-is-artifical-intelligence",
     "href": "lessons/38-TEE-review.html#what-is-artifical-intelligence",
     "title": "Term End Examination Review",
     "section": "What is Artifical Intelligence?",
-    "text": "What is Artifical Intelligence?\nA. Highly specialized learning technique that uses artificial neural networks. B. Creation of models that allow computers to learn without explicit programming. C. Solving problems in new, previously unseen scenarios."
+    "text": "What is Artifical Intelligence?\n\nHighly specialized learning technique that uses artificial neural networks.\nCreation of models that allow computers to learn without explicit programming.\nSolving problems in new, previously unseen scenarios."
   },
   {
     "objectID": "lessons/38-TEE-review.html#which-of-the-following-statements-are-true",
@@ -788,7 +788,7 @@
     "href": "lessons/38-TEE-review.html#code-review",
     "title": "Term End Examination Review",
     "section": "Code Review",
-    "text": "Code Review\ndef marksmanship(score):\n    if score &gt;= 36:\n        return \"Expert\"\n    if score &gt;= 30:\n        return \"Sharpshooter\"\n    if score &gt;= 23:\n        return \"Marksman\"\n    return \"Unqualified\"\n\ndef main():\n    score = int(input(\"Enter your ACFT score: \"))\n    experts = 0\n    unqualified = 0\n    while score != -1:\n        status = marksmanship(score)\n        if status == \"Expert\":\n            experts += 1\n        elif status == \"Unqualified\":\n            unqualified += 1\n        score = int(input(\"Enter your ACFT score: \"))\n    print(\"Experts:\", experts)\n    print(\"Unqualified:\", unqualified)\n\nmain()"
+    "text": "Code Review\n\n\ndef marksmanship(score):\n    if score &gt;= 36:\n        return \"Expert\"\n    if score &gt;= 30:\n        return \"Sharpshooter\"\n    if score &gt;= 23:\n        return \"Marksman\"\n    return \"Unqualified\"\n\ndef main():\n    score = int(input(\"Enter your ACFT score: \"))\n    experts = 0\n    unqualified = 0\n    while score != -1:\n        status = marksmanship(score)\n        if status == \"Expert\":\n            experts += 1\n        elif status == \"Unqualified\":\n            unqualified += 1\n        score = int(input(\"Enter your ACFT score: \"))\n    print(\"Experts:\", experts)\n    print(\"Unqualified:\", unqualified)\n\nmain()\n\n\nHow many values does marksmanship() return? What data type?\nHow many loops are in main()?\nHow many times will the loop execute?\nHow many times will the user be prompted for input?\nWhat happens if the user enters 0?"
   },
   {
     "objectID": "lessons/29-cyber-hygiene.html#announcements",
