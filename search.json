@@ -732,14 +732,14 @@
     "href": "lessons/38-TEE-review.html#exam-format",
     "title": "Term End Examination Review",
     "section": "Exam Format",
-    "text": "Exam Format\n\n\n\n250 points, 25% of your grade\n210 minutes (3.5 hours)\nPart A: Canvas\n\n30 knowledge check (125 points)\n11 code tracing (45 points)\n2 open-ended (30 points)\n\nPart B: zyLabs\n\n2 code writing (50 points)\n\n\n\n\nThayer 4th floor\nSeated alphabetically by last name, not by section\nNo external monitors (lockdown browser)\nBring your charger and mouse!\nNo scratch paper"
+    "text": "Exam Format\n\n\n\n250 points, 25% of your grade\n210 minutes (3.5 hours)\nPart A: Canvas\n\n30 knowledge check (125 points)\n11 code tracing (45 points)\n2 open-ended (30 points)\n\nPart B: zyLabs\n\n2 code writing (50 points)\n\n\n\n\nThayer 4th floor 🏛\nSeated alphabetically by last name 📇\nFind the room corresponding to your last name! 🏢\nNo external monitors (lockdown browser) 💻\nBring your charger 🔌 and mouse! 🐭\nNo scratch paper 📃"
   },
   {
     "objectID": "lessons/38-TEE-review.html#authorized-resources",
     "href": "lessons/38-TEE-review.html#authorized-resources",
     "title": "Term End Examination Review",
     "section": "Authorized Resources",
-    "text": "Authorized Resources\n\nPython Reference Card\n\nbring physical copy; lockdown browser makes it difficult to switch tabs\n\nCommunication with a CY105 instructor\n\nNot Authorized\n\nInternet\nGenerative AI\nCalculators\nOther students\nAny other resources"
+    "text": "Authorized Resources\n\nPython Reference Card\n\nlockdown browser makes it difficult to switch tabs\n\nCommunication with a CY105 instructor\n\nNot Authorized\n\nInternet\nGenerative AI\nCalculators\nOther students\nAny other resources"
   },
   {
     "objectID": "lessons/38-TEE-review.html#study-resources",
@@ -753,14 +753,14 @@
     "href": "lessons/38-TEE-review.html#data-types",
     "title": "Term End Examination Review",
     "section": "Data Types",
-    "text": "Data Types\nfarm_animals = [\"alpaca\", \"buffalo\", \"chicken\", \"donkey\", \"elephant\"]\nlength = len(farm_animals)\nfor i in range(length):\n    item = farm_animals[i]\n    print(item)\n\nfarm_animals\nlength\ni\nitem\nfarm_animals[i]"
+    "text": "Data Types\nfarm_animals = [\"alpaca\", \"buffalo\", \"chicken\", \"donkey\", \"elephant\"]\nlength = len(farm_animals)\nfor i in range(length):\n    item = farm_animals[-i]\n    print(item)\nWhat data types are stored in the following variables?\n\nfarm_animals\nlength\ni\nitem\nfarm_animals[2]\n\nWhat is the output of the program?"
   },
   {
     "objectID": "lessons/38-TEE-review.html#analog-data-truefalse",
     "href": "lessons/38-TEE-review.html#analog-data-truefalse",
     "title": "Term End Examination Review",
     "section": "Analog data: (True/False)",
-    "text": "Analog data: (True/False)\n\n\n\ncontinuous represented by a smooth, unbroken line\nmore accurate than digital data\neasier to store, manipulate, and transmit\ncan be converted to digital data through sampling\nlooks like a staircase, where each step represents a value"
+    "text": "Analog data: (True/False)\n\n\n\nContinuous represented by a smooth, unbroken line\nMore accurate than digital data\nEasier to store, manipulate, and transmit\nCan be converted to digital data through sampling\nLooks like a staircase, where each step represents a value"
   },
   {
     "objectID": "lessons/38-TEE-review.html#tcp-vs-ip-pick-the-correct-statements",
@@ -788,7 +788,7 @@
     "href": "lessons/38-TEE-review.html#code-review",
     "title": "Term End Examination Review",
     "section": "Code Review",
-    "text": "Code Review\n\n\ndef marksmanship(score):\n    if score &gt;= 36:\n        return \"Expert\"\n    if score &gt;= 30:\n        return \"Sharpshooter\"\n    if score &gt;= 23:\n        return \"Marksman\"\n    return \"Unqualified\"\n\ndef main():\n    score = int(input(\"Enter your ACFT score: \"))\n    experts = 0\n    unqualified = 0\n    while score != -1:\n        status = marksmanship(score)\n        if status == \"Expert\":\n            experts += 1\n        elif status == \"Unqualified\":\n            unqualified += 1\n        score = int(input(\"Enter your ACFT score: \"))\n    print(\"Experts:\", experts)\n    print(\"Unqualified:\", unqualified)\n\nmain()\n\n\nHow many values does marksmanship() return? What data type?\nHow many loops are in main()?\nHow many times will the loop execute?\nHow many times will the user be prompted for input?\nWhat happens if the user enters 0?"
+    "text": "Code Review\n\n\ndef marksmanship(score):\n    if score &gt;= 36:\n        return \"Expert\"\n    if score &gt;= 30:\n        return \"Sharpshooter\"\n    if score &gt;= 23:\n        return \"Marksman\"\n    return \"Unqualified\"\n\ndef main():\n    score = int(input(\"Enter your ACFT score: \"))\n    experts = 0\n    unqualified = 0\n    while score != -1:\n        status = marksmanship(score)\n        if status == \"Expert\":\n            experts += 1\n        elif status == \"Unqualified\":\n            unqualified += 1\n        score = int(input(\"Enter your ACFT score: \"))\n    print(\"Experts:\", experts)\n    print(\"Unqualified:\", unqualified)\n\nmain()\n\n\nHow many values does marksmanship() return?\nWhat data type is returned by marksmanship()?\nHow many loops are in main()?\nWhen will the loop terminate?\nHow many times will the loop execute?\nHow many times will the user be prompted for input?\nWhat happens if the user enters 0?\nWhat happens if the user enters 22.5?"
   },
   {
     "objectID": "lessons/29-cyber-hygiene.html#announcements",
