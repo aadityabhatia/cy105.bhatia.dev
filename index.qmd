@@ -12,44 +12,9 @@ listing:
         - lessons/
 ---
 
-- [CPT Sonny Bhatia](https://bhatia.dev/)
-- Office: Thayer Hall 106
-- Class Hours: A1, C1, A2, B2 (Fall 2024)
+**[CPT Sonny Bhatia](https://bhatia.dev/)**
 
 This course introduces the fundamentals of computing and cyberspace and blends theoretical knowledge with the practical application of computer hardware, software (programming), and cyberspace. Emphasis is placed on developing critical thinking skills and understanding the legal, ethical, and professional considerations as well as the challenges, opportunities, and attributes of the cyber domain.
-
-## How to get better at CY105?
-
-1. Complete [zyBook](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024) required readings.
-1. Attempt [zyBook](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024) practice ICEs going back to the chapter that you do not fully grasp.
-1. Seek assistance. Email me or book additional instruction.
-
-Your success in any course depends on how many problems you successfully solve without assistance.
-
-## Additional Instruction
-
-- Use [Outlook Bookings](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu/meetingtype/jltYy6M1Zk-gtINzpqM9Zw2) to schedule a time.
-    - Please make the bookings in **Eastern Time**. If your computer or Outlook calendar shows a different time, pay extra attention.
-    - Automatic booking is limited to 1100-1600. If you can see times outside that window, those are not in Eastern time.
-- Come prepared with **specific questions**!
-
-::: {.callout-note}
-If Outlook booking times do not work, please email me. B1 and C2 hours (Fall 2024) are generally open. I can also meet outside of listed hours if needed. Reach out.
-:::
-
-::: {.callout-warning}
-Once you setup a meeting, it becomes your __assigned place of duty__. If you cannot make it, please notify me ahead of time. Not showing up to a scheduled meeting and failing to notify me ahead of time will typically result in a negative COR.
-:::
-
-## PDR or DAC counseling
-
-- [Book a meeting](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu) - select the appropriate meeting type
-    - This is not Additional Instruction. To setup AI, scroll up.
-
-## Lessons
-
-::: {#lessons}
-:::
 
 ## Course Objectives
 
@@ -58,17 +23,6 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 1. Apply _sequential logic_, _control flow statements_, and _code libraries_ using a modern programming language, algorithmic thinking, and a problem-solving process.
 1. Describe _how data flows from data sources_ across air, land, sea, and cyberspace to form a network of information that is constantly being tracked and exploited by allies, adversaries, and third parties.
 1. Describe and explore the _opportunities and challenges presented by artificial intelligence_ in the modern world.
-
-## Course Material
-
-- [Canvas](https://westpoint.instructure.com/courses/7068)
-- [zyBook](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/)
-- [Programming References on Canvas](https://westpoint.instructure.com/courses/7068/pages/programming-references)
-- [Robotics Lab](https://usma-eecs.github.io/CY105_Lab/index.html)
-    - [CircuitPython Code Editor](https://code.circuitpython.org/) - IDE to work with Circuit Playground Bluefruit
-    - [Mu Editor](https://codewith.mu/) - less desirable IDE for Circuit Playground Bluefruit
-    - [Circuit Playground Bluefruit](https://www.adafruit.com/product/764) - try student discount code: `GitHubEdu`
-    - [Circuit Playground Bluefruit](https://www.adafruit.com/product/4333) - no discount but easier to order
 
 ## Documentation and Tutorials
 
@@ -79,9 +33,13 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 - [How to Python in VS Code](https://py-vscode.readthedocs.io/)
 - [Hour of Python](https://hourofpython.com/)
 - [Khan Academy: Intro to Python Fundamentals](https://www.khanacademy.org/computing/intro-to-python-fundamentals)
+- [CY105 Robotics Lab](https://usma-eecs.github.io/CY105_Lab/index.html)
+    - [Circuit Playground Bluefruit](https://www.adafruit.com/product/764) - try student discount code: `GitHubEdu`
+    - [Circuit Playground Bluefruit](https://www.adafruit.com/product/4333) - no discount but easier to order
 
 ## Developer Tools
 
+- [CircuitPython Code Editor](https://code.circuitpython.org/) - IDE to work with Circuit Playground Bluefruit
 - [Marimo](https://marimo.app/) reactive notebook for Python
 - [diff Check](https://diffcheck.io/) - compare text side-by-side; great for comparing expected and actual output
 - [Pyodide](https://pyodide.org/en/stable/console.html) - in-browser REPL
@@ -92,9 +50,11 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 - [Visual Studio Code](https://code.visualstudio.com/) - development environment for grown-ups
 - [Notepad++](https://notepad-plus-plus.org/) - lightweight text editor
 
-## AI Summative Project
+## Lessons
+::: {#lessons}
+:::
 
-### Ideas
+## AI Summative Project Resources
 
 - [Make It Yourself](https://makeityourself.org/) - A Beautifully Illustrated Guide to Making
 - [Hackaday](https://hackaday.com/)
@@ -105,9 +65,6 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 - [Kaggle Data Science Notebook](https://www.kaggle.com/code/ldfreeman3/a-data-science-framework-to-achieve-99-accuracy#Step-4:-Perform-Exploratory-Analysis-with-Statistics)
 - Circuit Playground Bluefruit: Puzzle Box, Escape Room, etc.
     - [Fruit Piano](https://www.youtube.com/embed/UibfAZb1Xwo)
-
-### Tools and Resources
-
 - [tldraw makereal](https://makereal.tldraw.com/) - bring your application sketches to life! - [watch demo](https://www.youtube.com/embed/Ov2N2fd6Xm4)
 - Develop applications that use AI at runtime-
     - [OpenAI API](https://platform.openai.com/) - message them for API credits as a student researcher
@@ -120,8 +77,9 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
     - [Github CoPilot](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer) - AI-powered code completion on steroids; free for students
     - [Serial Monitor extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-serial-monitor) - interface with your microcontroller from within VSCode
 - [Using Bluetooth (BLE) with Circuit Playground Bluefruit](https://github.com/adafruit/Adafruit_CircuitPython_BLE_Radio)
+- [Multi-tasking with CircuitPython](https://learn.adafruit.com/multi-tasking-with-circuitpython/overview)
 
-## Awesome Links and Resources
+## More Awesome Stuff
 
 ### Computing and Technology
 
@@ -133,6 +91,9 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 - [Where really is the Internet?](https://www.youtube.com/embed/Ve810FHZ1CQ)
 - [Seating chart generator](https://gist.github.com/aadityabhatia/86077fea4ccd353bfb017df733a70d19)
 - [Vortex Cannon vs Drone](https://www.youtube.com/embed/SrGENEXocJU)
+- Algorithms
+    - [The Better Boarding Method Airlines Won't Use](https://www.youtube.com/embed/oAHbLRjF0vo)
+    - [PB&J Sandwich](https://www.youtube.com/embed/FN2RM-CHkuI)
 
 ### Cyber, Security, and Privacy
 
@@ -186,7 +147,6 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
 - [Data Removal Guide: inteltechniques.com](https://inteltechniques.com/workbook.html)
 
 ### Learning and Productivity
-- [PB&J Sandwich](https://www.youtube.com/watch?v=FN2RM-CHkuI)
 - [YouTube: Bloom’s Taxonomy: Structuring The Learning Journey](https://www.youtube.com/embed/ayefSTAnCR8)
     - Ref: [Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/)
 - [Pareto Principle [The 80/20 Rule Explained]](https://www.youtube.com/embed/lsGwqk_agcQ)
@@ -204,5 +164,4 @@ Once you setup a meeting, it becomes your __assigned place of duty__. If you can
     - [Your Brain On Sleep Deprivation](https://www.youtube.com/embed/lvKrDsreUgM)
     - [What would happen if you didn’t sleep?](https://www.youtube.com/embed/dqONk48l5vY)
     - [How Sleep Affects Your Brain](https://www.youtube.com/embed/IzQ2siryQrM)
-- Algorithm: [The Better Boarding Method Airlines Won't Use](https://www.youtube.com/embed/oAHbLRjF0vo)
 - [About, Ideas, Now](https://aboutideasnow.com/)
