@@ -1,7 +1,7 @@
 ---
 format: revealjs
-title: TEE Review
-description: This is it!
+title: Term End Examination Review
+description: Finish strong!
 date: 2024-12-06
 image: /images/38/38.webp
 title-slide-attributes:
@@ -9,255 +9,135 @@ title-slide-attributes:
     data-background-opacity: "0.3"
 ---
 
-## Academic Integrity
+## Announcements {data-background-image="/images/37/37.webp" data-background-opacity="0.1"}
 
->
-> A cadet will not lie, cheat, steal, or tolerate those who do.
->
+- AI Summative Project due 09DEC
+- TEE 18DEC / 20DEC
 
-- Instructors will see your zyBook history by keystroke!
-- **Close all windows!**
-    - `Alt-Tab` should not work!
-- **No browser tabs** open except the exam interface.
-    - Consider using a different browser!
-- Work should be done on laptop screen only.
-    - Big screen for reference card or part B prompt.
-- Finish and submit part A _before_ starting part B; cannot go back.
-- Reference card is the only authorized resource!
+![](/images/agenda-block-4.png)
+
+
+## CY105 End of Course Survey
+
+- [Take the anonymous survey here](https://forms.office.com/r/a0miuWK5RM)
+- Please provide high-quality responses to the best of your ability.
+- Constructive feedback is greatly appreciated!
+- Recommend completing before class; otherwise type up of some of the responses to the following questions ahead of time.
+    - What did you like most about the course?
+    - What should be improved or changed in the course?
+    - What will you remember most about the way your instructor taught?
+    - How did your instructor's teaching style and interaction with the class impact your learning experience? What specific aspects were helpful or unhelpful?
+
+
+## Exam Format
+
+:::: {.columns}
+::: {.column width=40%}
+- 250 points, 25% of your grade
+- 210 minutes (3.5 hours)
+- Part A: Canvas
+    - 30 knowledge check (125 points)
+    - 11 code tracing (45 points)
+    - 2 open-ended (30 points)
+- Part B: zyLabs
+    - 2 code writing (50 points)
+:::
+::: {.column width=60%}
+- Thayer 4th floor 🏛
+- Seated alphabetically by last name 📇
+- Find the room corresponding to your last name! 🏢
+- No external monitors (lockdown browser) 💻
+- Bring your charger 🔌 and mouse! 🐭
+- No scratch paper 📃
+:::
+::::
+
+
+## Authorized Resources
+
+1. Python Reference Card
+    - lockdown browser makes it difficult to switch tabs
+2. Communication with a CY105 instructor
+
+### Not Authorized
+
+1. Internet
+2. Generative AI
+3. Calculators
+4. Other students
+5. Any other resources
+
+
+## Study Resources
+
+- [zyBook study guide](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/36/section/1)
+- Canvas Practice TEE
+    - [Part A](https://westpoint.instructure.com/courses/7068/assignments/160505)
+    - [Part B](https://westpoint.instructure.com/courses/7068/assignments/180758)
+- CEP Tutoring Session
+    - 17DEC 1930-2100 (Thayer 3rd floor)
 
 
 # Check on learning! {data-background-image="/images/38/38.webp" data-background-opacity="0.2"}
 
-## What is Bandwidth?
+## Data Types
 
-A) Numbers of packets your computer can send
-A) Thickness of your primary network cable
-A) Speed of your internet connection
-A) Amount of data your computer can download each month
+```python
+farm_animals = ["alpaca", "buffalo", "chicken", "donkey", "elephant"]
+length = len(farm_animals)
+for i in range(length):
+    item = farm_animals[-i]
+    print(item)
+```
 
+### What data types are stored in the following variables?
 
-## What is the difference between TCP and IP?
+1. `farm_animals`
+1. `length`
+1. `i`
+1. `item`
+1. `farm_animals[2]`
 
-A) TCP handles addressing; IP handles routing
-A) TCP handles reliability; IP handles addressing and routing
-A) TCP handles error-checking; IP handles reliability
-A) TCP handles routing; IP handles reliability
-
-
-## What is the purpose of DNS?
-
-A) Request web pages from a server
-A) To convert domain names to IP addresses
-A) Provide a secure connection to a website
-A) To convert IP addresses to domain names
+### What is the output of the program? {.fragment}
 
 
-## You send an email to Alice. Charlie intercepts the email and reads it. Which security goal was violated?
-
-A) Confidentiality
-A) Integrity
-A) Availability
-A) Authentication
-A) Non-repudiation
-
-
-## You send an email to Alice. Bob intercepts the email and changes the message. Which security goal was violated?
-
-A) Confidentiality
-A) Integrity
-A) Availability
-A) Authentication
-A) Non-repudiation
-
-
-## You send an email to Alice. Later, you deny sending the email. Which security goal was violated?
-
-A) Confidentiality
-A) Integrity
-A) Availability
-A) Authentication
-A) Non-repudiation
-
-
-## Alice cannot access her email account. Bob locked her out. Which security goal was violated?
-
-A) Confidentiality
-A) Integrity
-A) Availability
-A) Authentication
-A) Non-repudiation
-
-
-## Bob sent Alice an email but made it look like it came from you. Alice has no way to verify who sent it. Which security goal was violated?
-
-A) Confidentiality
-A) Integrity
-A) Availability
-A) Authentication
-A) Non-repudiation
-
-
-## Threat Goals:
-
-A) Disclose
-A) Destroy
-A) Integrity
-A) Availability
-A) Deny
-A) Publicize
-A) Confidentiality
-A) Steal
-A) Logout
-A) Alter
-
-
-## Match the following terms:
+## Analog data: (True/False)
 
 :::: {.columns}
-::: {.column width=70%}
-- Programming language
-- Style of a webpage
-- Structure of a webpage
-- Protocol for getting web pages from servers
-- Your medical records on the Tricare website
-- Websites that require Tor
-- Tiny files in your browser that store website configuration, user settings, login information; also used for tracking
-- Image or code hidden in a webpage
+::: {.column width=50% .incremental}
+1. Continuous represented by a smooth, unbroken line
+1. More accurate than digital data
+1. Easier to store, manipulate, and transmit
+1. Can be converted to digital data through sampling
+1. Looks like a staircase, where each step represents a value
 :::
-::: {.column width=30%}
-A) HTTP
-A) Deep Web
-A) CSS
-A) Web Beacons
-A) Dark Web
-A) JavaScript
-A) Cookies
-A) HTML
+
+::: {.column width=50%}
+![](/images/03/analog-digital.webp)
 :::
 ::::
 
 
-## Asymmetric Encryption
-
-```{mermaid width=100%}
-%%| fig-width: 16
-graph LR
-    Ciphertext{{Ciphertext}}
-    Signature{{Signature}}
-    Alice((Alice))
-    Bob((Bob))
-    Alice -- "encrypt (1)" --> Ciphertext -- "decrypt (2)" --> Bob
-    Alice -- "sign (3)" --> Signature -- "verify (4)" --> Bob
-```
-
-A) Alice's public key
-A) Alice's private key
-A) Bob's public key
-A) Bob's private key
-
-::: {.notes}
-C, D, B, A
-:::
-
-
-## Which of the following are true about encryption?
-
-A) Symmetric encryption uses the same key for encryption and decryption.
-A) Private keys should be used to encrypt data.
-A) Symmetric encryption is faster than asymmetric encryption.
-A) Asymmetric encryption uses the same key for encryption and decryption.
-A) Public keys are often used to generate signatures.
-A) Key distribution is rarely a challenge in symmetric encryption.
-A) If Alice wants to email me, I should share my private key with her.
-
-::: {.notes}
-A, C, E
-:::
-
-
-## Which of the following are the layers of cyberspace?
-
-A) Physical
-A) Gray Space
-A) Transmission Control Protocol
-A) Cyber
-A) Blue Space
-A) Logical
-A) Internet Protocol
-A) Cell towers
-A) People
-
-## Identify the errors. {.smaller}
-
-```python
-def prepare_turkey(weight):
-    minutes_per_pound = 15
-    cooking_time = weight * minutes_per_pound
-    if cooking_time > 300:
-        return 300
-    return cooking_time
-
-def main():
-    weight = int(input("Enter the weight of the turkey: "))
-    prepare_turkey(weight, "lbs")
-    print("The turkey will be ready in", cooking_time, "minutes.")
-
-main()
-```
-
-A) Variable not defined, causing a `NameError`.
-A) Variable assigned a value that was never used.
-A) Multiple return statements in a function.
-A) Number of parameters does not match the number of arguments.
-A) Return value not handled correctly.
-A) Function defined but never called.
-
-::: {.notes}
-A, D, E
-:::
-
-
-## List all the true statements.
+## TCP vs IP (pick the correct statements)
 
 :::: {.columns}
-::: {.column width=50%}
-A) The program will print `3`.
-A) The program will print `9`.
-A) The program will print `64`.
-A) The program will print `None`.
-A) The program will raise an error.
+::: {.column width=40%}
+A) TCP is responsible for routing packets to their destination.
+A) IP is responsible for ensuring packets are delivered in order.
+A) TCP is responsible for ensuring packets are delivered in order.
+A) IP is responsible for routing packets to their destination.
 :::
-::: {.column width=50%}
-```python
-def pow(b, p):
-    y = b**p
-    return y
-
-def square(x):
-    a = pow(x, 2)
-    return a
-
-def main():
-    a = 3
-    b = 4
-    p = square(a)
-    q = pow(b, 3)
-    print(a)
-    print(b)
-    print(p)
-    print(y)
-```
+::: {.column width=60%}
+![IP Packet Structure](/images/23/ip-packet.svg){width="100%"}
 :::
 ::::
 
-::: {.notes}
-```
-3
-4
-9
-NameError: name 'y' is not defined
-```
-:::
+
+## What is Artifical Intelligence?
+
+A) Highly specialized learning technique that uses artificial neural networks.
+A) Creation of models that allow computers to learn without explicit programming.
+A) Solving problems in new, previously unseen scenarios.
 
 
 ## Which of the following statements are true?
@@ -283,6 +163,8 @@ A, C, D
 
 ## Code Review {.smaller}
 
+:::: {.columns}
+::: {.column width=50%}
 ```python
 def marksmanship(score):
     if score >= 36:
@@ -298,21 +180,34 @@ def main():
     experts = 0
     unqualified = 0
     while score != -1:
-        score = int(input("Enter your ACFT score: "))
         status = marksmanship(score)
         if status == "Expert":
             experts += 1
         elif status == "Unqualified":
             unqualified += 1
+        score = int(input("Enter your ACFT score: "))
     print("Experts:", experts)
     print("Unqualified:", unqualified)
 
 main()
 ```
+:::
+::: {.column width=50% .incremental}
+1. How many values does `marksmanship()` return?
+1. What data type is returned by `marksmanship()`?
+1. How many loops are in `main()`?
+1. When will the loop terminate?
+1. How many times will the loop execute?
+1. How many times will the user be prompted for input?
+1. What happens if the user enters `0`?
+1. What happens if the user enters `22.5`?
+:::
+::::
 
 
 # Programming Practice! {data-background-image="/images/38/38.webp" data-background-opacity="0.1"}
 
-- WPS7
-- [Factorial and n-choose-k](https://marimo.app/?embed=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAODgRi4C05PADdevFmkRgwTBMlQcAgjIAUASgxoAAtLAcAxngA2xtMIBmcbBoBcaOI7iW4FxAZjRgiY6oLr7BydggGI4QjIoOABPCABXKIMIYTg6YjwMYOCoPBgEgjg2IMccvKgC1TcPLx8AGk0MXRlDEzMXGwDi5zwrAkwDOggIAGc8TABrP1q4cc6u0PCCSJj4xOS8VPTMrJLc-MKu0v2-fsGRsfH6rSb9I1NzHutME4Gh0YnO4JckYAI7eacFmgcAKvzgAG1xNNeABmaEAdmhAE4ALr2HY7IFRcZwMHggBM0zhcAArNN4WiARinAAPOR9V7nCZTGaaanUunMX4wVQ09SOMIDRAEfCuYwQUhwTy4pZU9lgFBLSosLEguQAbwIAF84MLyDMNeMtdNYnE4Ph4OqaVqWA0uj8-mynEdynBVA6rhhgFZsARECAxpgmMwWNgHdgWOinHoOFA4o60EA)
-- other ICEs?
+- [zyBook 36.2](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/36/section/2)
+- [zyBook 36.3](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/36/section/3)
+- [zyBook 36.4](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/36/section/4)
+- Any other ICEs or topics?

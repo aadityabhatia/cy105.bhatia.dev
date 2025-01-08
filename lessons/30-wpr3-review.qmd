@@ -343,12 +343,12 @@ def main():
     experts = 0
     unqualified = 0
     while score != -1:
-        score = int(input("Enter your ACFT score: "))
         status = marksmanship(score)
         if status == "Expert":
             experts += 1
         elif status == "Unqualified":
             unqualified += 1
+        score = int(input("Enter your ACFT score: "))
     print("Experts:", experts)
     print("Unqualified:", unqualified)
 

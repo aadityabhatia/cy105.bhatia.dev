@@ -1,27 +1,178 @@
 ---
 format: revealjs
 title: AI and Ethics
-subtitle: What is the right thing to do?
-description: What is the right thing to do?
+subtitle: Responsible use of AI
+description: Responsible use of AI
 date: 2024-12-04
 image: /images/37/37.webp
 title-slide-attributes:
     data-background-image: /images/37/37.webp
     data-background-opacity: "0.3"
+default-image-extension: ""
 ---
 
-<!-- ## Discussion! {timing=240 data-background-image="/images/37/37.webp" data-background-opacity="0.3"} -->
+<iframe src="https://neal.fun/absurd-trolley-problems/" width="100%" height="900px"></iframe>
 
 
+## Announcements {data-background-image="/images/37/37.webp" data-background-opacity="0.1"}
 
+- AI Summative Project due 09DEC
+- TEE 18DEC / 20DEC
+- TEE Review - 06DEC / 09DEC
+    - Install the Lockdown Browser - _before_ next class
 
-## Announcements {data-background-image="/images/37/37.webp" data-background-opacity="0.2"}
+![](/images/agenda-block-4.png)
 
-![](/images/agenda-block-3.png)
+Goodies: [DeepFake Detection](https://detectfakes.kellogg.northwestern.edu/), [Trolley Problem Explained](https://www.youtube.com/embed/DtRhrfhP5b4), [OpenAI Sora](https://openai.com/index/sora/)
 
 
 ## Lesson Objectives {data-background-image="/images/37/37.webp" data-background-opacity="0.1"}
 
-- Find the ethical implications of AI
-- Discuss the importance of doing the right thing
-- Identify the potential consequences of AI systems
+- Describe why AI is __difficult to safeguard__
+- Define __algorithmic bias__ and articulate why it is dangerous
+- Define the term __deepfake__ and discuss some strategies for spotting them
+- Evaluate the __ethical__ and __social__ implications of AI in military and civilian applications.
+
+
+## [Self-Driving Car Dilemma](https://www.moralmachine.net/) {data-background-image="/images/37/37.webp" data-background-opacity="0.1"}
+
+![](https://images.squarespace-cdn.com/content/v1/60f577b77c1ea50a11c79e10/1654107061661-O6E2LNXF9TQ38FUWQYC0/IMG_0326.jpeg)
+
+::: {.notes}
+- Would you buy a car that would sacrifice you to save others?
+- Would you buy a car that would sacrifice 5 people to save 1?
+:::
+
+
+## Limitations of Artificial Intelligence
+
+:::: {.columns}
+::: {.column width=60%}
+- Model Opacity
+    - Difficult to understand decisions
+    - How to explain the output of neural networks?
+- Data Bias
+    - Results are only as good as the data
+    - Decisions can have unintended consequences
+- Hallucination
+    - AI can generate realistic-looking wrong goutput
+    - What could possibly go wrong?
+- **How do you safeguard AI?**
+:::
+::: {.column width=40%}
+![](https://imgs.xkcd.com/comics/machine_learning.png){width="100%"}
+:::
+::::
+
+
+## Algorithmic Bias
+
+:::: {.columns}
+::: {.column width=50%}
+- Language models trained on massive datasets
+    - Where do the datasets come from?
+    - What biases could be present?
+- Who holds the power to decide what is "fair"?
+- What are the consequences of biased AI?
+
+### Research
+- [Data Poisoning](https://www.technologyreview.com/2023/10/23/1082189/data-poisoning-artists-fight-generative-ai/) - [Nightshade](http://nightshade.cs.uchicago.edu/whatis.html)
+
+:::
+::: {.column width=50%}
+![](https://imgs.xkcd.com/comics/the_three_laws_of_robotics.png){width="100%"}
+:::
+::::
+
+
+::: {.notes}
+- gender, age, race, religion
+:::
+
+
+## [Grandma's Birthday](https://www.vimeo.com/913353528/d1479c4c6c)
+
+<iframe width="100%" height="800" src="https://player.vimeo.com/video/913353528?h=d1479c4c6c" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+::: {.notes}
+- How to spot a deepfake?
+- Blinking
+- Lighting
+- Shadows
+- Artifacts
+- Audio
+:::
+
+
+## [Italian Pup](https://www.vimeo.com/913187042/491621ce74)
+
+<iframe width="100%" height="800" src="https://player.vimeo.com/video/913187042?h=491621ce74" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+## Which one is real?
+
+:::: {.columns}
+::: {.column width=33%}
+![](https://thispersonnotexist.org/downloadimage/Ac3RhdGljL21hbi9zZWVkNDY2NS5qcGVn)
+:::
+::: {.column width=33%}
+![](https://thispersondoesnotexist.ai/images/687.jpg)
+:::
+::: {.column width=33%}
+![](https://thispersondoesnotexist.com/)
+:::
+::::
+
+
+## Adversarial Attacks
+
+:::: {.columns}
+::: {.column width=50%}
+- AI systems often classify by looking at specific features
+- Small changes can fool the system
+- Which one is a cat?
+:::
+::: {.column width=50%}
+![](https://instructor-content.zybooks.com/cats_croissants.jpg-3177932)
+:::
+::::
+
+
+## Social Credit System
+
+<iframe width="100%" height="800" src="https://www.youtube.com/embed/Onm6Sb3Pb2Y" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+## [DoD Ethical Framework for AI](https://www.defense.gov/News/Releases/Release/Article/2091996/) {.smaller}
+
+1. **Responsible**. DoD personnel will exercise appropriate levels of judgment and care, while remaining responsible for the development, deployment, and use of AI capabilities.
+1. **Equitable**. The Department will take deliberate steps to minimize unintended bias in AI capabilities.
+1. **Traceable**. The Department’s AI capabilities will be developed and deployed such that relevant personnel possess an appropriate understanding of the technology, development processes, and operational methods applicable to AI capabilities, including with transparent and auditable methodologies, data sources, and design procedure and documentation.
+1. **Reliable**. The Department’s AI capabilities will have explicit, well-defined uses, and the safety, security, and effectiveness of such capabilities will be subject to testing and assurance within those defined uses across their entire life-cycles.
+1. **Governable**. The Department will design and engineer AI capabilities to fulfill their intended functions while possessing the ability to detect and avoid unintended consequences, and the ability to disengage or deactivate deployed systems that demonstrate unintended behavior.
+
+
+## In-Class Exercise {.smaller}
+
+:::: {.columns}
+::: {.column width=65%}
+1. [We Need a New Right to Repair for Artificial Intelligence [wired.com]](https://www.wired.com/story/we-need-new-right-to-repair-for-artificial-intelligence/)
+1. [Algorithms Are Coming for Democracy—but It's Not All Bad [wired.com]](https://www.wired.com/story/algorithms-are-coming-for-democracy-but-its-not-all-bad/)
+1. [Navigating The Ethical Dilemmas Of Self-Driving Cars [forbes]](https://www.forbes.com/councils/forbestechcouncil/2024/10/23/navigating-the-ethical-dilemmas-of-self-driving-cars-who-decides-when-safety-is-at-risk/)
+1. [AI Safety Clock: What It Tells Us About Existential Risks [time.com]](https://time.com/7086139/ai-safety-clock-existential-risks/)
+    - [AI Safety Clock](https://www.imd.org/centers/tonomus/digital-ai-transformation-center/aisafetyclock/)
+1. [Certain names make ChatGPT grind to a halt, and we know why](https://arstechnica.com/information-technology/2024/12/certain-names-make-chatgpt-grind-to-a-halt-and-we-know-why/)
+:::
+::: {.column width=35%}
+#### Discussion Questions
+
+- What happened?
+- Should we be worried?
+- What is the most ethical course of action?
+- What kind of regulations should be put in place?
+:::
+::::
+
+---
+
+![](https://images.squarespace-cdn.com/content/v1/60f577b77c1ea50a11c79e10/6b278fad-3f04-4a7b-8cef-0b693c6834ba/Dilemma_Reluctant_Car_2.jpg)
